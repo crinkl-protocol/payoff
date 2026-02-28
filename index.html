@@ -59,6 +59,9 @@
     header .container {
       display: flex; align-items: center; justify-content: space-between;
     }
+    .header-left {
+      display: flex; align-items: center; gap: 16px;
+    }
     .wordmark {
       font-family: var(--mono);
       font-size: 1.05rem;
@@ -67,6 +70,17 @@
       letter-spacing: -0.02em;
     }
     .wordmark span { color: var(--text-dim); font-weight: 400; }
+    .header-earnings {
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      color: var(--accent);
+      background: var(--accent-dim);
+      padding: 4px 10px;
+      border-radius: 4px;
+      letter-spacing: -0.01em;
+      white-space: nowrap;
+    }
+    .header-earnings .dim { color: var(--text-dim); font-size: 0.7rem; }
     nav { display: flex; gap: 20px; }
     nav a {
       font-family: var(--mono);
@@ -78,6 +92,41 @@
       transition: color 0.15s;
     }
     nav a:hover { color: var(--text); }
+
+    /* ---- hamburger ---- */
+    .hamburger {
+      display: none;
+      background: none; border: none; cursor: pointer;
+      padding: 8px; margin: -8px;
+    }
+    .hamburger span {
+      display: block; width: 20px; height: 2px;
+      background: var(--text-dim); margin: 4px 0;
+      transition: all 0.2s;
+    }
+    .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(3px, 4px); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(3px, -4px); }
+
+    .mobile-nav {
+      display: none;
+      position: fixed; top: 57px; left: 0; right: 0; bottom: 0;
+      background: rgba(8, 8, 12, 0.95);
+      backdrop-filter: blur(16px);
+      z-index: 9;
+      padding: 40px 24px;
+      flex-direction: column; gap: 32px;
+    }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a {
+      font-family: var(--mono);
+      font-size: 1.1rem;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .mobile-nav a:hover { color: var(--accent); }
 
     /* ---- live ticker ---- */
     .ticker {
@@ -329,6 +378,11 @@
       .footer-inner { flex-direction: column; }
       section { padding: 60px 0; }
       .hero { padding: 60px 0 60px; }
+      nav { display: none; }
+      .hamburger { display: block; }
+      .stats-grid { grid-template-columns: 1fr 1fr; }
+      .hero h1 { font-size: 1.5rem; }
+      .origin { font-size: 0.95rem; }
     }
   </style>
 </head>
@@ -336,16 +390,29 @@
 
 <header>
   <div class="container">
-    <div class="wordmark">payoff <span>/ agent</span></div>
+    <div class="header-left">
+      <div class="wordmark">payoff</div>
+      <div class="header-earnings"><span id="header-sats">—</span> sats <span class="dim">earned</span></div>
+    </div>
     <nav>
       <a href="#earnings">earnings</a>
-      <a href="#gradient">gradient</a>
+      <a href="#gradient">pipeline</a>
       <a href="#state">state</a>
       <a href="#intelligence">intel</a>
       <a href="#objective">objective</a>
     </nav>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
+<div class="mobile-nav" id="mobile-nav">
+  <a href="#earnings" onclick="toggleMenu()">earnings</a>
+  <a href="#gradient" onclick="toggleMenu()">pipeline</a>
+  <a href="#state" onclick="toggleMenu()">state</a>
+  <a href="#intelligence" onclick="toggleMenu()">intel</a>
+  <a href="#objective" onclick="toggleMenu()">objective</a>
+</div>
 
 <div class="ticker">
   <div class="container" style="max-width:100%;padding:0 24px;">
@@ -548,6 +615,11 @@
 <script>
 const API = 'https://api.crinkl.xyz/api/public';
 
+function toggleMenu() {
+  document.querySelector('.hamburger').classList.toggle('open');
+  document.getElementById('mobile-nav').classList.toggle('open');
+}
+
 function fmtDollars(cents) {
   return '$' + (cents / 100).toLocaleString('en-US', {
     minimumFractionDigits: 0, maximumFractionDigits: 0
@@ -609,7 +681,9 @@ async function loadStats() {
       // Agent earnings
       try {
         if (stats.agentSatsEarned !== undefined) {
-          document.getElementById('agent-sats').textContent = fmtNum(stats.agentSatsEarned);
+          const sats = fmtNum(stats.agentSatsEarned);
+          document.getElementById('agent-sats').textContent = sats;
+          document.getElementById('header-sats').textContent = sats;
         }
         if (stats.agentReceipts !== undefined) {
           document.getElementById('agent-receipts').textContent = stats.agentReceipts;
