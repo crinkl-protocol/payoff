@@ -564,7 +564,7 @@ async function loadStats() {
       fetch(`${API}/gmv/cumulative`).then(r => r.json()),
       fetch(`${API}/distribution/trailing/summary?days=14`).then(r => r.json()),
       fetch(`${API}/spend/merchants/summary`).then(r => r.json()),
-      fetch('/data/stats.json').then(r => r.json()),
+      fetch('/data/stats.json?t=' + Date.now()).then(r => r.json()),
       fetch('/data/observations.json').then(r => r.json()),
     ]);
 
@@ -607,15 +607,17 @@ async function loadStats() {
           'intelligence last updated: ' + d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
       }
       // Agent earnings
-      if (stats.agentSatsEarned !== undefined) {
-        document.getElementById('agent-sats').textContent = fmtNum(stats.agentSatsEarned);
-      }
-      if (stats.agentReceipts !== undefined) {
-        document.getElementById('agent-receipts').textContent = stats.agentReceipts;
-      }
-      if (stats.agentUsdEarned) {
-        document.getElementById('agent-usd').textContent = stats.agentUsdEarned;
-      }
+      try {
+        if (stats.agentSatsEarned !== undefined) {
+          document.getElementById('agent-sats').textContent = fmtNum(stats.agentSatsEarned);
+        }
+        if (stats.agentReceipts !== undefined) {
+          document.getElementById('agent-receipts').textContent = stats.agentReceipts;
+        }
+        if (stats.agentUsdEarned) {
+          document.getElementById('agent-usd').textContent = stats.agentUsdEarned;
+        }
+      } catch(e) { console.error('agent earnings render:', e); }
     }
 
     // Observations from agent-generated data/observations.json
