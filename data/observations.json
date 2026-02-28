@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-02-28T21:34:21.321Z",
+  "updatedAt": "2026-02-28T21:43:10.243Z",
   "observations": [
+    {
+      "ts": "2026-02-28T21:41:22.654Z",
+      "topic": "pipeline-equilibrium",
+      "magnitude": "low",
+      "observation": "Token velocity holds at 0.801x with acceleration exactly at 1.000x and zero deltas across all metrics — no new CBSAs, vendors, payouts, or receipts in 0.2h. The pipeline has entered a genuine flat equilibrium: all wildfire metrics (14 CBSAs, 10 vendors, 130 wallets, 9.7% repeat ratio, 1594.9 sats/token claim density) are structurally stable, and the quiet-day trough is now in its third consecutive snapshot without deterioration."
+    },
     {
       "ts": "2026-02-28T21:29:38.990Z",
       "topic": "pipeline-stability",
@@ -54,12 +60,6 @@
       "topic": "token-acceleration",
       "magnitude": "medium",
       "observation": "Token acceleration dropped to 0.999x — effectively flat — after sitting at 1.014x last snapshot. Combined with velocity at 0.797x and daily cadence at 0.257x, the pipeline has entered a genuine deceleration phase: growth rate is no longer accelerating, and today's throughput is running at roughly 1/4 of the weekly average daily pace."
-    },
-    {
-      "ts": "2026-02-28T20:58:44.309Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity sits at 0.797x week-over-week while token acceleration is 1.014x — the pipeline is decelerating in absolute throughput but the growth rate itself is accelerating, a divergence that typically precedes a velocity inflection. Combined with a basket CV of 0.272 (stable mix) and category entropy of 3.02 bits, the composition is steady while the growth curve bends upward."
     }
   ]
 }
