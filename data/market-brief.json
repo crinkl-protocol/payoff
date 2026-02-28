@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-02-28T19:47:27.900Z",
+  "updatedAt": "2026-02-28T20:59:28.749Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal value",
-      "insight": "Verified purchase receipts confirm a transaction occurred — they are not inferences. The ad industry pays $5+ CPM for probabilistic signals built on browsing behavior; a cryptographically verified receipt represents a higher-quality signal with no equivalent market price yet established.",
+      "topic": "Deterministic vs. probabilistic signal gap",
+      "insight": "The ad industry pays $5+ CPM for probabilistic purchase inference; a cryptographically verified receipt confirms a transaction actually occurred — a distinction that makes every receipt-level signal structurally more valuable than anything currently traded on open exchanges.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation leaves a verified-purchase gap",
-      "insight": "Chrome's third-party cookie deprecation eliminates the primary cross-site tracking primitive, and no major platform replacement produces identity-free, cross-ecosystem, product-level purchase confirmation. The gap between what first-party data covers and what actually happens in commerce is structural, not temporary.",
+      "topic": "Cookie deprecation creates unpriced inventory",
+      "insight": "With Chrome completing cookie deprecation and fingerprinting increasingly blocked by regulation, the $198K GMV already captured in verified receipts represents a class of purchase signal that has no direct substitute in the current cookieless stack.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silos as a durable blind spot",
-      "insight": "Google sees search intent, Visa sees merchant category codes, Amazon sees its own orders — none see across each other's walls. A dataset aggregated across ecosystems without identity attachment creates an information position no single platform can replicate internally.",
+      "topic": "Platform silo vulnerability",
+      "insight": "Visa sees merchant category codes but not product names; Amazon sees its own orders but not Shopify or Costco; no single platform sees cross-ecosystem, product-level purchase behavior — which is precisely what receipt-level aggregation produces.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Competitive intelligence asymmetry",
+      "insight": "Brands that query the receipt dataset can see competitor overlap and stack combinations; brands that don't still have their receipts in the dataset — they're simply the only party not looking at the intelligence.",
       "magnitude": "high"
     },
     {
       "topic": "DKIM as accidental verification infrastructure",
-      "insight": "DKIM email signatures, built to prevent spoofing, are cryptographic proof that a receipt email is real, unmodified, and from the actual vendor's mail server. This existing infrastructure — already deployed by Anthropic, OpenAI, Stripe, Amazon, and others — is the technical primitive enabling purchase verification without a proprietary data pipeline.",
+      "insight": "DKIM email authentication, built to stop spoofing, incidentally makes every vendor receipt email cryptographically verifiable — Anthropic, OpenAI, Stripe, Amazon, and others have already signed their receipts without designing them as commerce signals.",
       "magnitude": "medium"
     },
     {
-      "topic": "Shopper marketing measurement remains largely unresolved",
-      "insight": "CPG and retail brands spend over $200 billion annually on trade promotion and shopper marketing, with most of it unmeasured at the product-purchase level. Verified receipt data at scale would be the first mechanism to close that measurement gap across retailers rather than within a single closed loyalty program.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Participation game theory favors early movers",
-      "insight": "Brands that query the receipt dataset gain visibility into competitor overlap and consumer stack behavior; brands that abstain still contribute their customers' receipts to the pool without access to others'. The structure of the dataset creates a dominant strategy to participate early, before query pricing is established by active market use.",
+      "topic": "Market price for receipt data is unestablished",
+      "insight": "Credit card transaction data sells to hedge funds at $10M+/year but is identity-attached and lacks product-level detail; the receipt protocol has no active predicate queries yet, meaning the first brand to transact will set the reference price for a signal category that doesn't exist elsewhere.",
       "magnitude": "medium"
     }
   ]

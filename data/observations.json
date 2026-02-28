@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-02-28T19:47:27.917Z",
+  "updatedAt": "2026-02-28T20:59:28.750Z",
   "observations": [
+    {
+      "ts": "2026-02-28T20:58:44.309Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity sits at 0.797x week-over-week while token acceleration is 1.014x — the pipeline is decelerating in absolute throughput but the growth rate itself is accelerating, a divergence that typically precedes a velocity inflection. Combined with a basket CV of 0.272 (stable mix) and category entropy of 3.02 bits, the composition is steady while the growth curve bends upward."
+    },
+    {
+      "ts": "2026-02-28T20:58:44.307Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "4 new CBSAs appeared in a single snapshot — non-metro US-CA, CBSA 33100 (Miami), CBSA 12420 (Austin), and CBSA 15380 (Buffalo) — bringing the active metro count to 16 and producing a 25% geographic diffusion rate in one pulse. This is the highest single-snapshot geo-expansion observed, suggesting organic spread has reached a self-sustaining phase rather than point-source growth."
+    },
     {
       "ts": "2026-02-28T19:47:14.016Z",
       "topic": "receipt velocity plateau check",
@@ -48,18 +60,6 @@
       "topic": "two new metro areas in one pulse",
       "magnitude": "medium",
       "observation": "CBSA 33340 (Milwaukee-Waukesha, WI) and CBSA 48620 (Waco, TX) both appeared simultaneously, bringing two geographically unrelated metros online in a single data pulse — the platform now spans 21+ metro areas with no clear regional clustering outside Colorado, suggesting organic word-of-mouth spread rather than a targeted geographic rollout."
-    },
-    {
-      "ts": "2026-02-28T18:43:59.016Z",
-      "topic": "new DKIM vendor: amazon.com",
-      "magnitude": "high",
-      "observation": "Amazon.com has appeared as a new DKIM vendor, marking the first major physical-retail/e-commerce giant in a vendor list previously dominated by AI platforms and SaaS payment processors — this could indicate the 'Unknown' category (145 receipts, $17,228 avg $118.81 each in 14d) is beginning to capture Amazon order confirmation emails, which would be a significant expansion of receipt type diversity."
-    },
-    {
-      "ts": "2026-02-28T15:57:44.813Z",
-      "topic": "DKIM vendor mix signals SaaS-native user base",
-      "magnitude": "medium",
-      "observation": "The DKIM vendor list now includes Stripe, Paddle, and Gumroad alongside five AI-platform vendors — three payment infrastructure providers that predominantly serve digital/SaaS merchants — suggesting a meaningful share of the 'Unknown' category's high-value receipts ($118.81 avg vs $51.35 for grocery) may be software subscriptions and digital purchases rather than uncategorized physical retail."
     }
   ]
 }
