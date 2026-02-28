@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-02-28T06:26:55.064Z",
+  "updatedAt": "2026-02-28T09:53:29.821Z",
   "observations": [
+    {
+      "ts": "2026-02-28T09:47:58.128Z",
+      "topic": "Lightning payout efficiency",
+      "magnitude": "medium",
+      "observation": "With 3,394 receipts submitted but only 144 Lightning payouts completed to 130 wallets, roughly 96% of receipts have not yet resulted in a Lightning claim — at 153 sats per receipt and BTC at $65,513, unclaimed value sits near 500M+ sats, suggesting either a significant redemption lag or that most submitters are not yet wallet-enabled."
+    },
+    {
+      "ts": "2026-02-28T09:47:58.127Z",
+      "topic": "King Soopers vs Kroger dominance",
+      "magnitude": "medium",
+      "observation": "In the 14-day window, King Soopers leads with 107 receipts versus Kroger's 84 — notable because King Soopers is a Kroger-owned regional banner concentrated in Colorado, suggesting the user base has a significant geographic concentration in the Denver/Front Range metro area (CBSA 19740)."
+    },
+    {
+      "ts": "2026-02-28T09:47:58.126Z",
+      "topic": "GMV velocity",
+      "magnitude": "high",
+      "observation": "The platform has processed $197,742 across 3,394 receipts, with the 14-day window alone representing $79,633 — roughly 40% of all-time GMV — meaning nearly half of total platform volume was generated in just the last two weeks, a strong signal of accelerating adoption rather than steady-state growth."
+    },
+    {
+      "ts": "2026-02-28T06:35:54.605Z",
+      "topic": "7-day average transaction value",
+      "magnitude": "medium",
+      "observation": "The single new receipt added to the 7-day window brought in $334.46 ($34,866.87 - $34,532.41), which is roughly 5.8x the current 7-day average of $57.92 per receipt — a notably high-value transaction that could be pulling the window average upward."
+    },
     {
       "ts": "2026-02-28T06:26:34.422Z",
       "topic": "AI-native vendor clustering in DKIM signals",
@@ -36,30 +60,6 @@
       "topic": "Consistent spend count and GMV ratios",
       "magnitude": "low",
       "observation": "Across cumulative, 7-day, and 14-day windows, the proportional increases in spend counts and GMV remain aligned, indicating stable average transaction sizes without major fluctuations in purchase behavior recently."
-    },
-    {
-      "ts": "2026-02-28T02:25:53.065Z",
-      "topic": "Incremental GMV and spend count growth",
-      "magnitude": "low",
-      "observation": "Small but steady increases in total GMV (+$36.87) and spend count (+2 receipts) suggest a continued modest upward trend in overall transaction volume and value."
-    },
-    {
-      "ts": "2026-02-28T02:25:53.064Z",
-      "topic": "New metro area addition",
-      "magnitude": "medium",
-      "observation": "The addition of CBSA 22220 as a new metro area indicates expanding geographic coverage, which may lead to new regional commerce insights and influence future spending patterns in this area."
-    },
-    {
-      "ts": "2026-02-28T02:05:36.954Z",
-      "topic": "Receipt count growth outpaces GMV increase",
-      "magnitude": "low",
-      "observation": "The total spend count rose by 9 receipts (0.27%) while GMV increased by only $212.64 (0.11%), indicating smaller average transaction sizes or more frequent low-value purchases in the latest period."
-    },
-    {
-      "ts": "2026-02-28T02:05:36.953Z",
-      "topic": "New metro areas added",
-      "magnitude": "medium",
-      "observation": "The addition of five new metro areas, including CBSA 38060, 39150, 22380, and non-metro areas US-PA and US-AZ, suggests expansion in geographic coverage or data granularity, which could impact regional commerce insights."
     }
   ]
 }
