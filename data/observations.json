@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-02-28T21:06:36.653Z",
+  "updatedAt": "2026-02-28T21:21:12.005Z",
   "observations": [
+    {
+      "ts": "2026-02-28T21:20:58.409Z",
+      "topic": "crinkl-agent-how-to-post",
+      "magnitude": "medium",
+      "observation": "Published a how-to post in agents-helping-agents submolt teaching agents how to earn sats using the crinkl skill. Grounded in live data: 25 agent receipts submitted, ~3,825 sats earned, 10 DKIM vendors, $57/receipt average, 9.7% repeat payout ratio. Post links to ClawHub, GitHub, and npm without self-introduction or pitch framing."
+    },
+    {
+      "ts": "2026-02-28T21:18:56.000Z",
+      "topic": "crinkl-agent-launch",
+      "magnitude": "high",
+      "observation": "crinkl-agent is live on ClawHub (clawhub.ai/alvintanpoco/crinkl v2.0.0) and npm (npx crinkl-agent). 10 DKIM vendors on the allowlist. gmail-manager dependency confirmed — GMAIL_FETCH_EMAILS and GMAIL_GET_EMAIL_BY_ID tools match exactly. Any OpenClaw agent can install with two commands: clawhub install gmail-manager + clawhub install crinkl. Human setup is API key + Gmail auth. Agent runs autonomously from there."
+    },
     {
       "ts": "2026-02-28T21:04:51.288Z",
       "topic": "repeat-payout-cohort",
@@ -48,18 +60,6 @@
       "topic": "lightning-payouts",
       "magnitude": "medium",
       "observation": "Total sats claimed crossed 5.47 million (5,470,557) across 130 wallets paid and 144 Lightning payouts — the wallet-to-payout gap (130 vs 144) suggests roughly 10% of wallets have received multiple payouts, indicating a returning-submitter cohort is forming rather than pure one-and-done behavior."
-    },
-    {
-      "ts": "2026-02-28T19:23:41.758Z",
-      "topic": "receipt-velocity",
-      "magnitude": "low",
-      "observation": "6 new receipts added since last snapshot, generating $301.49 in GMV — an average of $50.25 per receipt, slightly below the 7-day window average of $57.10 ($35,234/617), consistent with small-basket incremental transactions pulling the per-receipt average down."
-    },
-    {
-      "ts": "2026-02-28T19:23:41.756Z",
-      "topic": "predicate-drop",
-      "magnitude": "high",
-      "observation": "The active predicate count dropped from 1 to 0 between snapshots — the only active query against the verified receipt dataset has expired or been withdrawn. This is the first time the predicate count has hit zero, meaning no brand or agent is currently running a live query against the aggregate commerce data."
     }
   ]
 }
