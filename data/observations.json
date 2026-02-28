@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-02-28T09:53:29.821Z",
+  "updatedAt": "2026-02-28T16:35:51.208Z",
   "observations": [
+    {
+      "ts": "2026-02-28T15:57:44.813Z",
+      "topic": "DKIM vendor mix signals SaaS-native user base",
+      "magnitude": "medium",
+      "observation": "The DKIM vendor list now includes Stripe, Paddle, and Gumroad alongside five AI-platform vendors — three payment infrastructure providers that predominantly serve digital/SaaS merchants — suggesting a meaningful share of the 'Unknown' category's high-value receipts ($118.81 avg vs $51.35 for grocery) may be software subscriptions and digital purchases rather than uncategorized physical retail."
+    },
+    {
+      "ts": "2026-02-28T15:57:44.812Z",
+      "topic": "GMV per receipt divergence by window",
+      "magnitude": "medium",
+      "observation": "The 7-day average receipt value is $57.45 ($34,988/609) while the 14-day average is $56.86 ($79,725/1,402) — nearly identical, suggesting the spend-per-receipt distribution has stabilized in the near term, but the cumulative all-time average of $58.20 ($197,834/3,399) is only marginally higher, implying early receipts were not dramatically larger and the platform has maintained consistent basket sizes throughout its growth."
+    },
+    {
+      "ts": "2026-02-28T15:57:44.812Z",
+      "topic": "receipt velocity acceleration",
+      "magnitude": "high",
+      "observation": "The platform crossed three receipt milestones (1K, 2K, and 3K) in what appears to be a compressed window — reaching 3,399 total receipts with 1,402 in just the last 14 days (41% of all-time volume), suggesting receipt velocity is compounding rather than linear and the platform may hit 5K total receipts within weeks if the current 7-day rate of 609 receipts holds."
+    },
+    {
+      "ts": "2026-02-28T12:47:45.776Z",
+      "topic": "7-day GMV spike vs count",
+      "magnitude": "low",
+      "observation": "The 7-day window added 3 receipts but gained $30.28 in GMV, implying an average of ~$10.09 per new receipt — well below the 7-day window average of $57.69 — suggesting the three new transactions were small-basket purchases, possibly gas or convenience, pulling the per-receipt average slightly downward."
+    },
+    {
+      "ts": "2026-02-28T12:47:45.775Z",
+      "topic": "new metro area expansion",
+      "magnitude": "medium",
+      "observation": "CBSA 38940 (Pensacola-Ferry Pass-Brent, FL) appears for the first time in the dataset, marking geographic expansion beyond the previously observed Colorado-heavy concentration — this is the 21st metro area in the recent signals window and worth tracking to see if it represents a one-off receipt or the beginning of a regional cluster."
+    },
     {
       "ts": "2026-02-28T09:47:58.128Z",
       "topic": "Lightning payout efficiency",
@@ -30,36 +60,6 @@
       "topic": "AI-native vendor clustering in DKIM signals",
       "magnitude": "medium",
       "observation": "Five of the nine DKIM vendors detected are directly tied to OpenAI or AI-adjacent platforms (OpenAI, tm1.openai.com, email.openai.com, Anthropic, Suno), suggesting the user base skews heavily toward early adopters of AI tools — a demographic signal that could inform targeting and partnership strategies."
-    },
-    {
-      "ts": "2026-02-28T06:26:34.422Z",
-      "topic": "Unknown category dominance in high-value spend",
-      "magnitude": "medium",
-      "observation": "The 'Unknown' category represents only 145 of 1,395 receipts (10%) in the 14-day window but accounts for $17,228 — an average of $118.81 per receipt versus $51.35 for grocery and $31.57 for restaurants — indicating a concentration of high-value transactions that are not yet categorized and warrant closer classification."
-    },
-    {
-      "ts": "2026-02-28T06:26:34.421Z",
-      "topic": "GMV and receipt velocity",
-      "magnitude": "high",
-      "observation": "The platform has crossed $197K cumulative GMV across 3,392 receipts, with the 14-day window alone accounting for $79,603 (40% of all-time GMV), suggesting the user base is either very new or experiencing a sharp acceleration in recent activity."
-    },
-    {
-      "ts": "2026-02-28T02:56:24.625Z",
-      "topic": "Incremental GMV and Receipt Growth",
-      "magnitude": "low",
-      "observation": "A modest increase of $23.49 in 14-day GMV and 1 additional receipt suggests steady, incremental growth in transaction volume and value over the two-week period."
-    },
-    {
-      "ts": "2026-02-28T02:29:15.339Z",
-      "topic": "7-day GMV and spend count incremental growth",
-      "magnitude": "low",
-      "observation": "The 7-day GMV increased marginally by $4.72 alongside a single additional receipt, indicating a stable but very slight increase in transaction value and frequency."
-    },
-    {
-      "ts": "2026-02-28T02:25:53.065Z",
-      "topic": "Consistent spend count and GMV ratios",
-      "magnitude": "low",
-      "observation": "Across cumulative, 7-day, and 14-day windows, the proportional increases in spend counts and GMV remain aligned, indicating stable average transaction sizes without major fluctuations in purchase behavior recently."
     }
   ]
 }
