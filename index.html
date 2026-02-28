@@ -392,7 +392,7 @@
   <div class="container">
     <div class="header-left">
       <div class="wordmark">payoff</div>
-      <div class="header-earnings"><span id="header-sats">—</span> sats <span class="dim">earned</span></div>
+      <div class="header-earnings"><span id="header-sats">444</span> sats <span class="dim">earned</span></div>
     </div>
     <nav>
       <a href="#earnings">earnings</a>
@@ -631,13 +631,24 @@ function fmtNum(n) {
 }
 
 async function loadStats() {
+  // Load local stats immediately (no network latency — same origin static file)
   try {
-    const [gmvRes, distRes, merchRes, statsRes, obsRes] = await Promise.allSettled([
+    const [statsRes, obsRes] = await Promise.allSettled([
+      fetch('/data/stats.json?t=' + Date.now()).then(r => r.json()),
+      fetch('/data/observations.json').then(r => r.json()),
+    ]);
+    if (statsRes.status === 'fulfilled') renderStats(statsRes.value);
+    if (obsRes.status === 'fulfilled' && obsRes.value.observations?.length) {
+      renderObservations(obsRes.value);
+    }
+  } catch(e) { console.error('Local stats:', e); }
+
+  // Then load live Crinkl API data (slower, cross-origin)
+  try {
+    const [gmvRes, distRes, merchRes] = await Promise.allSettled([
       fetch(`${API}/gmv/cumulative`).then(r => r.json()),
       fetch(`${API}/distribution/trailing/summary?days=14`).then(r => r.json()),
       fetch(`${API}/spend/merchants/summary`).then(r => r.json()),
-      fetch('/data/stats.json?t=' + Date.now()).then(r => r.json()),
-      fetch('/data/observations.json').then(r => r.json()),
     ]);
 
     if (gmvRes.status === 'fulfilled') {
@@ -657,50 +668,43 @@ async function loadStats() {
     if (merchRes.status === 'fulfilled') {
       renderCategories(merchRes.value.categories || []);
     }
-
-    // Settlement stats from agent-generated data/stats.json
-    if (statsRes.status === 'fulfilled') {
-      const stats = statsRes.value;
-      if (stats.satsPerReceipt) {
-        document.getElementById('sats').textContent = fmtNum(stats.satsPerReceipt);
-        document.getElementById('sats').classList.remove('loading');
-      }
-      if (stats.walletsPaid !== undefined) {
-        document.getElementById('wallets').textContent = fmtNum(stats.walletsPaid);
-        document.getElementById('wallets').classList.remove('loading');
-      }
-      if (stats.distributed) {
-        document.getElementById('distributed').textContent = stats.distributed;
-        document.getElementById('distributed').classList.remove('loading');
-      }
-      if (stats.updatedAt) {
-        const d = new Date(stats.updatedAt);
-        document.getElementById('footer-updated').textContent =
-          'intelligence last updated: ' + d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
-      }
-      // Agent earnings
-      try {
-        if (stats.agentSatsEarned !== undefined) {
-          const sats = fmtNum(stats.agentSatsEarned);
-          document.getElementById('agent-sats').textContent = sats;
-          document.getElementById('header-sats').textContent = sats;
-        }
-        if (stats.agentReceipts !== undefined) {
-          document.getElementById('agent-receipts').textContent = stats.agentReceipts;
-        }
-        if (stats.agentUsdEarned) {
-          document.getElementById('agent-usd').textContent = stats.agentUsdEarned;
-        }
-      } catch(e) { console.error('agent earnings render:', e); }
-    }
-
-    // Observations from agent-generated data/observations.json
-    if (obsRes.status === 'fulfilled' && obsRes.value.observations?.length) {
-      renderObservations(obsRes.value);
-    }
   } catch (e) {
-    console.error('Stats fetch failed:', e);
+    console.error('API fetch failed:', e);
   }
+}
+
+function renderStats(stats) {
+  if (stats.satsPerReceipt) {
+    document.getElementById('sats').textContent = fmtNum(stats.satsPerReceipt);
+    document.getElementById('sats').classList.remove('loading');
+  }
+  if (stats.walletsPaid !== undefined) {
+    document.getElementById('wallets').textContent = fmtNum(stats.walletsPaid);
+    document.getElementById('wallets').classList.remove('loading');
+  }
+  if (stats.distributed) {
+    document.getElementById('distributed').textContent = stats.distributed;
+    document.getElementById('distributed').classList.remove('loading');
+  }
+  if (stats.updatedAt) {
+    const d = new Date(stats.updatedAt);
+    document.getElementById('footer-updated').textContent =
+      'intelligence last updated: ' + d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+  }
+  // Agent earnings
+  try {
+    if (stats.agentSatsEarned !== undefined) {
+      const sats = fmtNum(stats.agentSatsEarned);
+      document.getElementById('agent-sats').textContent = sats;
+      document.getElementById('header-sats').textContent = sats;
+    }
+    if (stats.agentReceipts !== undefined) {
+      document.getElementById('agent-receipts').textContent = stats.agentReceipts;
+    }
+    if (stats.agentUsdEarned) {
+      document.getElementById('agent-usd').textContent = stats.agentUsdEarned;
+    }
+  } catch(e) { console.error('agent earnings render:', e); }
 }
 
 function renderObservations(data) {
