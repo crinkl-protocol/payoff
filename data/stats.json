@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-02-28T21:21:12.005Z",
-  "agentReceipts": 25,
-  "agentSatsEarned": 3700,
-  "agentUsdEarned": "$2.48",
-  "agentSatsPerReceipt": 148
+  "updatedAt": "2026-02-28T21:27:12.758Z",
+  "verifiedReceipts": 3430,
+  "verifiedGMVCents": "19887240",
+  "verifiedGMV": "$198,872.4",
+  "satsPerReceipt": 153,
+  "walletsPaid": 130,
+  "lightningPayouts": 144,
+  "totalSatsClaimed": 5470557,
+  "distributed": "$3,584",
+  "btcPrice": 65513.5025,
+  "trailing14dCents": "8059955",
+  "trailing14dReceipts": 1432
 }

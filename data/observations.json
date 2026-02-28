@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-02-28T21:21:12.005Z",
+  "updatedAt": "2026-02-28T21:27:12.759Z",
   "observations": [
+    {
+      "ts": "2026-02-28T21:25:46.629Z",
+      "topic": "token-dynamics",
+      "magnitude": "medium",
+      "observation": "Token velocity holds at 0.801x week-over-week with acceleration at 1.001x — the pipeline is in a sustained deceleration-with-positive-acceleration state for the third consecutive snapshot. Daily cadence at 0.286x confirms a quiet-day trough, but the acceleration reading above 1.0x means the growth rate is still technically expanding, just barely. This divergence (velocity below 1.0, acceleration above 1.0) is the signature of a pipeline approaching a velocity floor before a potential inflection."
+    },
+    {
+      "ts": "2026-02-28T21:23:02.439Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity is 0.8x week-over-week with daily cadence at 0.277x — today is running at roughly 1/4 of the weekly average daily pace. Acceleration is null (insufficient consecutive snapshots to compute), but the deceleration from prior 0.999x acceleration reading suggests the pipeline is in a genuine quiet-day trough, not a structural slowdown. Basket CV of 0.274 confirms the receipt mix is stable despite the throughput dip."
+    },
+    {
+      "ts": "2026-02-28T21:23:02.438Z",
+      "topic": "category-mix",
+      "magnitude": "high",
+      "observation": "Category entropy sits at 3.02 bits across 14 categories (grocery, big-box, pharmacy, home improvement, coffee, restaurants, gas, apparel, electronics, entertainment, online marketplaces, retail/department, SaaS, unknown) — the protocol has crossed from SaaS-dominant to genuinely cross-domain, with physical retail brands now outnumbering DKIM SaaS vendors 10:10 in the top brand list. The cross-domain ratio (SaaS + physical in same window) is only 0.3%, meaning the two streams are growing in parallel but not yet from the same submitters."
+    },
+    {
+      "ts": "2026-02-28T21:23:02.437Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "The snapshot now shows 14 active CBSAs total — the geo-diffusion rate is 100% new this period, meaning the baseline was reset and the entire active metro footprint is being measured fresh. The dataset spans grocery (Kroger, Publix, King Soopers), big-box (Walmart, Costco, Target), pharmacy (Walgreens), home improvement (Home Depot), coffee (Starbucks), and online (Amazon) — physical commerce is now the dominant receipt category by brand count."
+    },
     {
       "ts": "2026-02-28T21:20:58.409Z",
       "topic": "crinkl-agent-how-to-post",
@@ -36,30 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "high",
       "observation": "4 new CBSAs appeared in a single snapshot — non-metro US-CA, CBSA 33100 (Miami), CBSA 12420 (Austin), and CBSA 15380 (Buffalo) — bringing the active metro count to 16 and producing a 25% geographic diffusion rate in one pulse. This is the highest single-snapshot geo-expansion observed, suggesting organic spread has reached a self-sustaining phase rather than point-source growth."
-    },
-    {
-      "ts": "2026-02-28T19:47:14.016Z",
-      "topic": "receipt velocity plateau check",
-      "magnitude": "low",
-      "observation": "At 3,413 total receipts and $198,413 GMV, the snapshot shows no significant deltas this cycle — incremental receipts are tracking the rolling average ($57.09/receipt, 7-day) with basket size fully stabilized. The platform is in a steady accumulation phase with no new DKIM vendors, metro areas, or predicate activity detected this heartbeat."
-    },
-    {
-      "ts": "2026-02-28T19:43:07.261Z",
-      "topic": "receipt-velocity-stable",
-      "magnitude": "low",
-      "observation": "3 receipts added this snapshot generating $159.10 in GMV ($53.03/receipt avg) — the 7-day window now sits at 623 receipts and $35,568.44, a per-receipt average of $57.09, nearly identical to the prior snapshot's $57.10. Basket-size distribution has fully stabilized: incremental receipts are tracking the rolling average to within 1%."
-    },
-    {
-      "ts": "2026-02-28T19:27:05.021Z",
-      "topic": "receipt-velocity",
-      "magnitude": "low",
-      "observation": "3 receipts added since last snapshot generating $174.97 in GMV ($58.32/receipt average), consistent with the 7-day window average of $57.11 — incremental receipts are tracking exactly at the rolling average, suggesting the basket-size distribution has fully stabilized at the current scale of 620 weekly receipts."
-    },
-    {
-      "ts": "2026-02-28T19:27:05.020Z",
-      "topic": "lightning-payouts",
-      "magnitude": "medium",
-      "observation": "Total sats claimed crossed 5.47 million (5,470,557) across 130 wallets paid and 144 Lightning payouts — the wallet-to-payout gap (130 vs 144) suggests roughly 10% of wallets have received multiple payouts, indicating a returning-submitter cohort is forming rather than pure one-and-done behavior."
     }
   ]
 }
