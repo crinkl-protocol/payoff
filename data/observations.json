@@ -1,65 +1,65 @@
 {
-  "updatedAt": "2026-02-28T16:35:51.208Z",
+  "updatedAt": "2026-02-28T19:47:27.917Z",
   "observations": [
+    {
+      "ts": "2026-02-28T19:47:14.016Z",
+      "topic": "receipt velocity plateau check",
+      "magnitude": "low",
+      "observation": "At 3,413 total receipts and $198,413 GMV, the snapshot shows no significant deltas this cycle — incremental receipts are tracking the rolling average ($57.09/receipt, 7-day) with basket size fully stabilized. The platform is in a steady accumulation phase with no new DKIM vendors, metro areas, or predicate activity detected this heartbeat."
+    },
+    {
+      "ts": "2026-02-28T19:43:07.261Z",
+      "topic": "receipt-velocity-stable",
+      "magnitude": "low",
+      "observation": "3 receipts added this snapshot generating $159.10 in GMV ($53.03/receipt avg) — the 7-day window now sits at 623 receipts and $35,568.44, a per-receipt average of $57.09, nearly identical to the prior snapshot's $57.10. Basket-size distribution has fully stabilized: incremental receipts are tracking the rolling average to within 1%."
+    },
+    {
+      "ts": "2026-02-28T19:27:05.021Z",
+      "topic": "receipt-velocity",
+      "magnitude": "low",
+      "observation": "3 receipts added since last snapshot generating $174.97 in GMV ($58.32/receipt average), consistent with the 7-day window average of $57.11 — incremental receipts are tracking exactly at the rolling average, suggesting the basket-size distribution has fully stabilized at the current scale of 620 weekly receipts."
+    },
+    {
+      "ts": "2026-02-28T19:27:05.020Z",
+      "topic": "lightning-payouts",
+      "magnitude": "medium",
+      "observation": "Total sats claimed crossed 5.47 million (5,470,557) across 130 wallets paid and 144 Lightning payouts — the wallet-to-payout gap (130 vs 144) suggests roughly 10% of wallets have received multiple payouts, indicating a returning-submitter cohort is forming rather than pure one-and-done behavior."
+    },
+    {
+      "ts": "2026-02-28T19:23:41.758Z",
+      "topic": "receipt-velocity",
+      "magnitude": "low",
+      "observation": "6 new receipts added since last snapshot, generating $301.49 in GMV — an average of $50.25 per receipt, slightly below the 7-day window average of $57.10 ($35,234/617), consistent with small-basket incremental transactions pulling the per-receipt average down."
+    },
+    {
+      "ts": "2026-02-28T19:23:41.756Z",
+      "topic": "predicate-drop",
+      "magnitude": "high",
+      "observation": "The active predicate count dropped from 1 to 0 between snapshots — the only active query against the verified receipt dataset has expired or been withdrawn. This is the first time the predicate count has hit zero, meaning no brand or agent is currently running a live query against the aggregate commerce data."
+    },
+    {
+      "ts": "2026-02-28T18:43:59.017Z",
+      "topic": "14-day receipt increment vs GMV increment",
+      "magnitude": "low",
+      "observation": "The 14-day window added 5 receipts for $119.48 in GMV, yielding $23.90 per new receipt — well below the 14-day window average of $56.78, consistent with the pattern of incremental receipts skewing toward small-basket categories like gas-convenience rather than the grocery or Unknown high-value transactions anchoring the window average."
+    },
+    {
+      "ts": "2026-02-28T18:43:59.017Z",
+      "topic": "two new metro areas in one pulse",
+      "magnitude": "medium",
+      "observation": "CBSA 33340 (Milwaukee-Waukesha, WI) and CBSA 48620 (Waco, TX) both appeared simultaneously, bringing two geographically unrelated metros online in a single data pulse — the platform now spans 21+ metro areas with no clear regional clustering outside Colorado, suggesting organic word-of-mouth spread rather than a targeted geographic rollout."
+    },
+    {
+      "ts": "2026-02-28T18:43:59.016Z",
+      "topic": "new DKIM vendor: amazon.com",
+      "magnitude": "high",
+      "observation": "Amazon.com has appeared as a new DKIM vendor, marking the first major physical-retail/e-commerce giant in a vendor list previously dominated by AI platforms and SaaS payment processors — this could indicate the 'Unknown' category (145 receipts, $17,228 avg $118.81 each in 14d) is beginning to capture Amazon order confirmation emails, which would be a significant expansion of receipt type diversity."
+    },
     {
       "ts": "2026-02-28T15:57:44.813Z",
       "topic": "DKIM vendor mix signals SaaS-native user base",
       "magnitude": "medium",
       "observation": "The DKIM vendor list now includes Stripe, Paddle, and Gumroad alongside five AI-platform vendors — three payment infrastructure providers that predominantly serve digital/SaaS merchants — suggesting a meaningful share of the 'Unknown' category's high-value receipts ($118.81 avg vs $51.35 for grocery) may be software subscriptions and digital purchases rather than uncategorized physical retail."
-    },
-    {
-      "ts": "2026-02-28T15:57:44.812Z",
-      "topic": "GMV per receipt divergence by window",
-      "magnitude": "medium",
-      "observation": "The 7-day average receipt value is $57.45 ($34,988/609) while the 14-day average is $56.86 ($79,725/1,402) — nearly identical, suggesting the spend-per-receipt distribution has stabilized in the near term, but the cumulative all-time average of $58.20 ($197,834/3,399) is only marginally higher, implying early receipts were not dramatically larger and the platform has maintained consistent basket sizes throughout its growth."
-    },
-    {
-      "ts": "2026-02-28T15:57:44.812Z",
-      "topic": "receipt velocity acceleration",
-      "magnitude": "high",
-      "observation": "The platform crossed three receipt milestones (1K, 2K, and 3K) in what appears to be a compressed window — reaching 3,399 total receipts with 1,402 in just the last 14 days (41% of all-time volume), suggesting receipt velocity is compounding rather than linear and the platform may hit 5K total receipts within weeks if the current 7-day rate of 609 receipts holds."
-    },
-    {
-      "ts": "2026-02-28T12:47:45.776Z",
-      "topic": "7-day GMV spike vs count",
-      "magnitude": "low",
-      "observation": "The 7-day window added 3 receipts but gained $30.28 in GMV, implying an average of ~$10.09 per new receipt — well below the 7-day window average of $57.69 — suggesting the three new transactions were small-basket purchases, possibly gas or convenience, pulling the per-receipt average slightly downward."
-    },
-    {
-      "ts": "2026-02-28T12:47:45.775Z",
-      "topic": "new metro area expansion",
-      "magnitude": "medium",
-      "observation": "CBSA 38940 (Pensacola-Ferry Pass-Brent, FL) appears for the first time in the dataset, marking geographic expansion beyond the previously observed Colorado-heavy concentration — this is the 21st metro area in the recent signals window and worth tracking to see if it represents a one-off receipt or the beginning of a regional cluster."
-    },
-    {
-      "ts": "2026-02-28T09:47:58.128Z",
-      "topic": "Lightning payout efficiency",
-      "magnitude": "medium",
-      "observation": "With 3,394 receipts submitted but only 144 Lightning payouts completed to 130 wallets, roughly 96% of receipts have not yet resulted in a Lightning claim — at 153 sats per receipt and BTC at $65,513, unclaimed value sits near 500M+ sats, suggesting either a significant redemption lag or that most submitters are not yet wallet-enabled."
-    },
-    {
-      "ts": "2026-02-28T09:47:58.127Z",
-      "topic": "King Soopers vs Kroger dominance",
-      "magnitude": "medium",
-      "observation": "In the 14-day window, King Soopers leads with 107 receipts versus Kroger's 84 — notable because King Soopers is a Kroger-owned regional banner concentrated in Colorado, suggesting the user base has a significant geographic concentration in the Denver/Front Range metro area (CBSA 19740)."
-    },
-    {
-      "ts": "2026-02-28T09:47:58.126Z",
-      "topic": "GMV velocity",
-      "magnitude": "high",
-      "observation": "The platform has processed $197,742 across 3,394 receipts, with the 14-day window alone representing $79,633 — roughly 40% of all-time GMV — meaning nearly half of total platform volume was generated in just the last two weeks, a strong signal of accelerating adoption rather than steady-state growth."
-    },
-    {
-      "ts": "2026-02-28T06:35:54.605Z",
-      "topic": "7-day average transaction value",
-      "magnitude": "medium",
-      "observation": "The single new receipt added to the 7-day window brought in $334.46 ($34,866.87 - $34,532.41), which is roughly 5.8x the current 7-day average of $57.92 per receipt — a notably high-value transaction that could be pulling the window average upward."
-    },
-    {
-      "ts": "2026-02-28T06:26:34.422Z",
-      "topic": "AI-native vendor clustering in DKIM signals",
-      "magnitude": "medium",
-      "observation": "Five of the nine DKIM vendors detected are directly tied to OpenAI or AI-adjacent platforms (OpenAI, tm1.openai.com, email.openai.com, Anthropic, Suno), suggesting the user base skews heavily toward early adopters of AI tools — a demographic signal that could inform targeting and partnership strategies."
     }
   ]
 }

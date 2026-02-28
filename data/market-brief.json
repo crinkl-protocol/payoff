@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-02-28T15:58:44.194Z",
+  "updatedAt": "2026-02-28T19:47:27.900Z",
   "insights": [
     {
-      "topic": "Deterministic vs. Probabilistic Signal Value",
-      "insight": "Verified receipt data confirms actual purchases rather than inferring intent from browsing behavior — a structural advantage over cookie-based and fingerprinting methods that are now either deprecated or under regulatory pressure. Advertisers paying $5+ CPM for probabilistic targeting have a direct cost-reduction case to examine receipt-based alternatives.",
+      "topic": "Deterministic vs. probabilistic signal value",
+      "insight": "Verified purchase receipts confirm a transaction occurred — they are not inferences. The ad industry pays $5+ CPM for probabilistic signals built on browsing behavior; a cryptographically verified receipt represents a higher-quality signal with no equivalent market price yet established.",
       "magnitude": "high"
     },
     {
-      "topic": "AI-Native User Base as Targeting Signal",
-      "insight": "Five of nine confirmed DKIM vendors are AI platforms — OpenAI, Anthropic, Suno, Gamma — identifying a user base that skews early-adopter and high-engagement before that demographic appears in any legacy panel. Nielsen and IRI have no structural path to observe AI tool spend, which lives in digital receipts and cloud billing confirmations.",
+      "topic": "Cookie deprecation leaves a verified-purchase gap",
+      "insight": "Chrome's third-party cookie deprecation eliminates the primary cross-site tracking primitive, and no major platform replacement produces identity-free, cross-ecosystem, product-level purchase confirmation. The gap between what first-party data covers and what actually happens in commerce is structural, not temporary.",
       "magnitude": "high"
     },
     {
-      "topic": "Unknown Category Hides Highest-Value Transactions",
-      "insight": "The unclassified receipt segment averages $118.81 per transaction versus $51.35 for grocery — nearly 2.3x — yet represents only 10% of receipt volume, meaning high-value purchase behavior is being systematically undercounted in spend-mix analysis. Brands in categories like travel, wholesale, or large-format retail should treat this gap as a measurement blind spot, not a data absence.",
+      "topic": "Platform silos as a durable blind spot",
+      "insight": "Google sees search intent, Visa sees merchant category codes, Amazon sees its own orders — none see across each other's walls. A dataset aggregated across ecosystems without identity attachment creates an information position no single platform can replicate internally.",
       "magnitude": "high"
     },
     {
-      "topic": "Payment Processor DKIM Reach",
-      "insight": "Stripe and Paddle appear as verified senders, meaning receipt capture is reaching the underlying transaction confirmation layer — not just merchant-branded emails. This depth of signal is not replicable through retail panels, loyalty programs, or first-party brand data alone.",
+      "topic": "DKIM as accidental verification infrastructure",
+      "insight": "DKIM email signatures, built to prevent spoofing, are cryptographic proof that a receipt email is real, unmodified, and from the actual vendor's mail server. This existing infrastructure — already deployed by Anthropic, OpenAI, Stripe, Amazon, and others — is the technical primitive enabling purchase verification without a proprietary data pipeline.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic Concentration from Receipt Density",
-      "insight": "King Soopers dominance — 107 receipts versus Kroger's 84 in a 14-day window — independently identifies Denver/Front Range (CBSA 19740) as a meaningful user concentration, a geographic signal derived from purchase behavior rather than declared location or device inference. Expansion into non-metro Idaho and Kansas also signals panel reach into geographies that conventional urban-skewed receipt platforms do not cover.",
-      "magnitude": "medium"
+      "topic": "Shopper marketing measurement remains largely unresolved",
+      "insight": "CPG and retail brands spend over $200 billion annually on trade promotion and shopper marketing, with most of it unmeasured at the product-purchase level. Verified receipt data at scale would be the first mechanism to close that measurement gap across retailers rather than within a single closed loyalty program.",
+      "magnitude": "high"
     },
     {
-      "topic": "Accelerating Volume Compression",
-      "insight": "The 14-day window accounts for roughly 40% of all-time cumulative GMV — a distribution inconsistent with steady-state growth and indicative of an active adoption phase where recent data is disproportionately representative. For brands evaluating this data source, panel size and coverage are moving targets, not fixed baselines.",
+      "topic": "Participation game theory favors early movers",
+      "insight": "Brands that query the receipt dataset gain visibility into competitor overlap and consumer stack behavior; brands that abstain still contribute their customers' receipts to the pool without access to others'. The structure of the dataset creates a dominant strategy to participate early, before query pricing is established by active market use.",
       "magnitude": "medium"
     }
   ]
