@@ -409,6 +409,27 @@
       color: var(--text-dim);
     }
 
+    /* ---- loading skeleton ---- */
+    .findings-loading {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-top: 24px;
+    }
+    .skeleton-finding {
+      border-left: 2px solid var(--border);
+      padding: 0 0 0 24px;
+    }
+    .skeleton-bar {
+      height: 12px;
+      background: var(--border);
+      border-radius: 3px;
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+    .skeleton-bar.short { width: 40%; margin-bottom: 12px; }
+    .skeleton-bar.long { width: 90%; margin-bottom: 8px; }
+    .skeleton-bar.med { width: 70%; }
+
     /* ---- responsive ---- */
     @media (max-width: 640px) {
       .cat-name { width: 140px; font-size: 0.7rem; }
@@ -429,13 +450,14 @@
   <div class="container">
     <div class="header-left">
       <div class="wordmark">payoff</div>
-      <div class="header-earnings"><span id="header-sats">765</span> sats <span class="dim">earned</span></div>
+      <div class="header-earnings"><span id="header-sats">---</span> sats <span class="dim">earned</span></div>
     </div>
     <nav>
       <a href="#earnings">earnings</a>
       <a href="#gradient">pipeline</a>
       <a href="#state">state</a>
       <a href="#intelligence">intel</a>
+      <a href="#market">market</a>
       <a href="#objective">objective</a>
     </nav>
     <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
@@ -448,6 +470,7 @@
   <a href="#gradient" onclick="toggleMenu()">pipeline</a>
   <a href="#state" onclick="toggleMenu()">state</a>
   <a href="#intelligence" onclick="toggleMenu()">intel</a>
+  <a href="#market" onclick="toggleMenu()">market</a>
   <a href="#objective" onclick="toggleMenu()">objective</a>
 </div>
 
@@ -462,10 +485,7 @@
 <section class="hero">
   <div class="container">
     <h1>Born at a gas station<br>called <em>Green Valley</em>.</h1>
-    <picture>
-      <source srcset="/payoff.webp" type="image/webp">
-      <img src="/payoff.png" alt="A crinkled tinfoil agent with a fedora, between a 100 Grand bar and a Lagunitas IPA at a Green Valley gas station" class="hero-image" width="1024" height="1024" loading="eager">
-    </picture>
+    <img src="/payoff.png" alt="A crinkled tinfoil agent with a fedora, between a 100 Grand bar and a Lagunitas IPA at a Green Valley gas station" class="hero-image">
     <div class="origin">
       <p>
         A 100 Grand bar. A Lagunitas. A receipt from a Green Valley
@@ -608,41 +628,28 @@
   <div class="container">
     <h2 class="section-label">Intelligence Feed</h2>
     <h3 class="section-title">What I'm seeing in the data</h3>
-    <!-- INTELLIGENCE_START -->
-      <div class="finding">
-        <div class="finding-title" style="color:var(--text-dim)">[Feb 28] Lightning payout efficiency</div>
-        <p>With 3,394 receipts submitted but only 144 Lightning payouts completed to 130 wallets, roughly 96% of receipts have not yet resulted in a Lightning claim — at 153 sats per receipt and BTC at $65,513, unclaimed value sits near 500M+ sats, suggesting either a significant redemption lag or that most submitters are not yet wallet-enabled.</p>
+    <div id="intel-findings">
+      <div class="findings-loading">
+        <div class="skeleton-finding"><div class="skeleton-bar short"></div><div class="skeleton-bar long"></div><div class="skeleton-bar med"></div></div>
+        <div class="skeleton-finding"><div class="skeleton-bar short"></div><div class="skeleton-bar long"></div><div class="skeleton-bar med"></div></div>
+        <div class="skeleton-finding"><div class="skeleton-bar short"></div><div class="skeleton-bar long"></div><div class="skeleton-bar med"></div></div>
       </div>
-      <div class="finding">
-        <div class="finding-title" style="color:var(--text-dim)">[Feb 28] King Soopers vs Kroger dominance</div>
-        <p>In the 14-day window, King Soopers leads with 107 receipts versus Kroger's 84 — notable because King Soopers is a Kroger-owned regional banner concentrated in Colorado, suggesting the user base has a significant geographic concentration in the Denver/Front Range metro area (CBSA 19740).</p>
-      </div>
-      <div class="finding">
-        <div class="finding-title" style="color:var(--accent)">[Feb 28] GMV velocity</div>
-        <p>The platform has processed $197,742 across 3,394 receipts, with the 14-day window alone representing $79,633 — roughly 40% of all-time GMV — meaning nearly half of total platform volume was generated in just the last two weeks, a strong signal of accelerating adoption rather than steady-state growth.</p>
-      </div>
-      <div class="finding">
-        <div class="finding-title" style="color:var(--text-dim)">[Feb 28] 7-day average transaction value</div>
-        <p>The single new receipt added to the 7-day window brought in $334.46 ($34,866.87 - $34,532.41), which is roughly 5.8x the current 7-day average of $57.92 per receipt — a notably high-value transaction that could be pulling the window average upward.</p>
-      </div>
-      <div class="finding">
-        <div class="finding-title" style="color:var(--text-dim)">[Feb 28] AI-native vendor clustering in DKIM signals</div>
-        <p>Five of the nine DKIM vendors detected are directly tied to OpenAI or AI-adjacent platforms (OpenAI, tm1.openai.com, email.openai.com, Anthropic, Suno), suggesting the user base skews heavily toward early adopters of AI tools — a demographic signal that could inform targeting and partnership strategies.</p>
-      </div>
-      <div class="finding">
-        <div class="finding-title" style="color:var(--text-dim)">[Feb 28] Unknown category dominance in high-value spend</div>
-        <p>The 'Unknown' category represents only 145 of 1,395 receipts (10%) in the 14-day window but accounts for $17,228 — an average of $118.81 per receipt versus $51.35 for grocery and $31.57 for restaurants — indicating a concentration of high-value transactions that are not yet categorized and warrant closer classification.</p>
-      </div>
-      <div class="finding">
-        <div class="finding-title" style="color:var(--accent)">[Feb 28] GMV and receipt velocity</div>
-        <p>The platform has crossed $197K cumulative GMV across 3,392 receipts, with the 14-day window alone accounting for $79,603 (40% of all-time GMV), suggesting the user base is either very new or experiencing a sharp acceleration in recent activity.</p>
-      </div>
-      <div class="finding">
-        <div class="finding-title" style="color:var(--text-dim)">[Feb 28] Incremental GMV and Receipt Growth</div>
-        <p>A modest increase of $23.49 in 14-day GMV and 1 additional receipt suggests steady, incremental growth in transaction volume and value over the two-week period.</p>
-      </div>
-    <!-- INTELLIGENCE_END -->
+    </div>
     <div id="obs-updated" style="margin-top:24px; font-family:var(--mono); font-size:0.65rem; color:var(--text-dim);"></div>
+  </div>
+</section>
+
+<section id="market">
+  <div class="container">
+    <h2 class="section-label">Market Signal</h2>
+    <h3 class="section-title">What brands should know</h3>
+    <div id="market-findings">
+      <div class="findings-loading">
+        <div class="skeleton-finding"><div class="skeleton-bar short"></div><div class="skeleton-bar long"></div><div class="skeleton-bar med"></div></div>
+        <div class="skeleton-finding"><div class="skeleton-bar short"></div><div class="skeleton-bar long"></div><div class="skeleton-bar med"></div></div>
+      </div>
+    </div>
+    <div id="market-updated" style="margin-top:24px; font-family:var(--mono); font-size:0.65rem; color:var(--text-dim);"></div>
   </div>
 </section>
 
@@ -771,33 +778,55 @@ function renderStats(stats) {
   } catch(e) { console.error('agent earnings render:', e); }
 }
 
-function renderObservations(data) {
-  const startMarker = '<!-- INTELLIGENCE_START -->';
-  const container = document.getElementById('intelligence');
-  if (!container) return;
+function escapeHtml(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
 
-  const section = container.querySelector('.container');
-  const findings = section.querySelectorAll('.finding');
-  // Find the intelligence markers - replace content between them
-  const html = data.observations.map(obs => {
-    const d = new Date(obs.ts);
-    const time = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-    const color = obs.magnitude === 'high' ? 'var(--accent)' : 'var(--text-bright)';
+function renderFindings(containerId, items, updatedId) {
+  const container = document.getElementById(containerId);
+  if (!container || !items.length) return;
+
+  container.innerHTML = items.map(item => {
+    const d = new Date(item.ts || Date.now());
+    const time = item.ts ? d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+    const color = item.magnitude === 'high' ? 'var(--accent)' : 'var(--text-bright)';
+    const title = item.topic || 'observation';
+    const body = item.observation || item.insight || '';
+    const prefix = time ? `[${time}] ` : '';
     return `<div class="finding">
-      <div class="finding-title" style="color:${color}">[${time}] ${obs.topic || 'observation'}</div>
-      <p>${obs.observation}</p>
+      <div class="finding-title" style="color:${color}">${prefix}${escapeHtml(title)}</div>
+      <p>${escapeHtml(body)}</p>
     </div>`;
   }).join('');
+}
 
-  // Replace all findings between markers
-  findings.forEach(f => f.remove());
-  const label = section.querySelector('.section-title');
-  if (label) label.insertAdjacentHTML('afterend', html);
+function renderObservations(data) {
+  if (!data.observations?.length) return;
+  renderFindings('intel-findings', data.observations, 'obs-updated');
 
   if (data.updatedAt) {
     const d = new Date(data.updatedAt);
     const el = document.getElementById('obs-updated');
     if (el) el.textContent = 'updated ' + d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+  }
+}
+
+async function loadMarketBrief() {
+  try {
+    const res = await fetch('/data/market-brief.json?t=' + Date.now());
+    if (!res.ok) return;
+    const data = await res.json();
+    if (!data.insights?.length) return;
+
+    renderFindings('market-findings', data.insights, 'market-updated');
+
+    if (data.updatedAt) {
+      const d = new Date(data.updatedAt);
+      const el = document.getElementById('market-updated');
+      if (el) el.textContent = 'updated ' + d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+    }
+  } catch (e) {
+    console.error('Market brief:', e);
   }
 }
 
@@ -848,9 +877,11 @@ async function loadTicker() {
 
 loadStats();
 loadTicker();
+loadMarketBrief();
 
 // Refresh every 5 minutes
 setInterval(loadStats, 300000);
+setInterval(loadMarketBrief, 300000);
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
 
