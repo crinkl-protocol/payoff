@@ -1,17 +1,65 @@
 {
-  "updatedAt": "2026-02-28T01:36:23.266Z",
+  "updatedAt": "2026-02-28T06:26:55.064Z",
   "observations": [
     {
-      "ts": "2026-02-28T01:32:13.204Z",
-      "topic": "gmv7d growth",
+      "ts": "2026-02-28T06:26:34.422Z",
+      "topic": "AI-native vendor clustering in DKIM signals",
       "magnitude": "medium",
-      "observation": "The 7-day GMV increased by $1,541.7, reflecting a notable growth in recent spending activity which could be attributed to specific promotions or seasonal trends."
+      "observation": "Five of the nine DKIM vendors detected are directly tied to OpenAI or AI-adjacent platforms (OpenAI, tm1.openai.com, email.openai.com, Anthropic, Suno), suggesting the user base skews heavily toward early adopters of AI tools — a demographic signal that could inform targeting and partnership strategies."
     },
     {
-      "ts": "2026-02-28T01:32:13.203Z",
-      "topic": "increased transaction frequency",
+      "ts": "2026-02-28T06:26:34.422Z",
+      "topic": "Unknown category dominance in high-value spend",
       "magnitude": "medium",
-      "observation": "The increase in the 7-day spend count from 565 to 582 suggests a rise in transaction frequency, potentially indicating heightened consumer activity in recent days."
+      "observation": "The 'Unknown' category represents only 145 of 1,395 receipts (10%) in the 14-day window but accounts for $17,228 — an average of $118.81 per receipt versus $51.35 for grocery and $31.57 for restaurants — indicating a concentration of high-value transactions that are not yet categorized and warrant closer classification."
+    },
+    {
+      "ts": "2026-02-28T06:26:34.421Z",
+      "topic": "GMV and receipt velocity",
+      "magnitude": "high",
+      "observation": "The platform has crossed $197K cumulative GMV across 3,392 receipts, with the 14-day window alone accounting for $79,603 (40% of all-time GMV), suggesting the user base is either very new or experiencing a sharp acceleration in recent activity."
+    },
+    {
+      "ts": "2026-02-28T02:56:24.625Z",
+      "topic": "Incremental GMV and Receipt Growth",
+      "magnitude": "low",
+      "observation": "A modest increase of $23.49 in 14-day GMV and 1 additional receipt suggests steady, incremental growth in transaction volume and value over the two-week period."
+    },
+    {
+      "ts": "2026-02-28T02:29:15.339Z",
+      "topic": "7-day GMV and spend count incremental growth",
+      "magnitude": "low",
+      "observation": "The 7-day GMV increased marginally by $4.72 alongside a single additional receipt, indicating a stable but very slight increase in transaction value and frequency."
+    },
+    {
+      "ts": "2026-02-28T02:25:53.065Z",
+      "topic": "Consistent spend count and GMV ratios",
+      "magnitude": "low",
+      "observation": "Across cumulative, 7-day, and 14-day windows, the proportional increases in spend counts and GMV remain aligned, indicating stable average transaction sizes without major fluctuations in purchase behavior recently."
+    },
+    {
+      "ts": "2026-02-28T02:25:53.065Z",
+      "topic": "Incremental GMV and spend count growth",
+      "magnitude": "low",
+      "observation": "Small but steady increases in total GMV (+$36.87) and spend count (+2 receipts) suggest a continued modest upward trend in overall transaction volume and value."
+    },
+    {
+      "ts": "2026-02-28T02:25:53.064Z",
+      "topic": "New metro area addition",
+      "magnitude": "medium",
+      "observation": "The addition of CBSA 22220 as a new metro area indicates expanding geographic coverage, which may lead to new regional commerce insights and influence future spending patterns in this area."
+    },
+    {
+      "ts": "2026-02-28T02:05:36.954Z",
+      "topic": "Receipt count growth outpaces GMV increase",
+      "magnitude": "low",
+      "observation": "The total spend count rose by 9 receipts (0.27%) while GMV increased by only $212.64 (0.11%), indicating smaller average transaction sizes or more frequent low-value purchases in the latest period."
+    },
+    {
+      "ts": "2026-02-28T02:05:36.953Z",
+      "topic": "New metro areas added",
+      "magnitude": "medium",
+      "observation": "The addition of five new metro areas, including CBSA 38060, 39150, 22380, and non-metro areas US-PA and US-AZ, suggests expansion in geographic coverage or data granularity, which could impact regional commerce insights."
     }
   ]
 }
