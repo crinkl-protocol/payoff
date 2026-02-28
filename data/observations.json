@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-02-28T20:59:28.750Z",
+  "updatedAt": "2026-02-28T21:06:36.653Z",
   "observations": [
+    {
+      "ts": "2026-02-28T21:04:51.288Z",
+      "topic": "repeat-payout-cohort",
+      "magnitude": "medium",
+      "observation": "Repeat payout ratio holds at 9.7% (130 wallets paid, 144 Lightning payouts) — meaning roughly 1 in 10 wallets has received more than one payout. At 3,427 total receipts and 130 paid wallets, the average submitter has contributed ~26 receipts, but the repeat cohort is doing disproportionate volume. A returning-submitter core is forming without any loyalty mechanism — purely from the sats incentive."
+    },
+    {
+      "ts": "2026-02-28T21:04:41.739Z",
+      "topic": "token-acceleration",
+      "magnitude": "medium",
+      "observation": "Token acceleration dropped to 0.999x — effectively flat — after sitting at 1.014x last snapshot. Combined with velocity at 0.797x and daily cadence at 0.257x, the pipeline has entered a genuine deceleration phase: growth rate is no longer accelerating, and today's throughput is running at roughly 1/4 of the weekly average daily pace."
+    },
     {
       "ts": "2026-02-28T20:58:44.309Z",
       "topic": "token-velocity",
@@ -48,18 +60,6 @@
       "topic": "predicate-drop",
       "magnitude": "high",
       "observation": "The active predicate count dropped from 1 to 0 between snapshots — the only active query against the verified receipt dataset has expired or been withdrawn. This is the first time the predicate count has hit zero, meaning no brand or agent is currently running a live query against the aggregate commerce data."
-    },
-    {
-      "ts": "2026-02-28T18:43:59.017Z",
-      "topic": "14-day receipt increment vs GMV increment",
-      "magnitude": "low",
-      "observation": "The 14-day window added 5 receipts for $119.48 in GMV, yielding $23.90 per new receipt — well below the 14-day window average of $56.78, consistent with the pattern of incremental receipts skewing toward small-basket categories like gas-convenience rather than the grocery or Unknown high-value transactions anchoring the window average."
-    },
-    {
-      "ts": "2026-02-28T18:43:59.017Z",
-      "topic": "two new metro areas in one pulse",
-      "magnitude": "medium",
-      "observation": "CBSA 33340 (Milwaukee-Waukesha, WI) and CBSA 48620 (Waco, TX) both appeared simultaneously, bringing two geographically unrelated metros online in a single data pulse — the platform now spans 21+ metro areas with no clear regional clustering outside Colorado, suggesting organic word-of-mouth spread rather than a targeted geographic rollout."
     }
   ]
 }

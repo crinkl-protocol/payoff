@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-02-28T20:59:28.749Z",
+  "updatedAt": "2026-02-28T21:06:36.652Z",
   "insights": [
     {
       "topic": "Deterministic vs. probabilistic signal gap",
-      "insight": "The ad industry pays $5+ CPM for probabilistic purchase inference; a cryptographically verified receipt confirms a transaction actually occurred — a distinction that makes every receipt-level signal structurally more valuable than anything currently traded on open exchanges.",
+      "insight": "The ad industry pays $5+ CPM for probabilistic signals inferred from browsing behavior. A cryptographically verified receipt — proof a transaction occurred, not a guess that it might — is a categorically different asset that current ad tech cannot produce.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation creates unpriced inventory",
-      "insight": "With Chrome completing cookie deprecation and fingerprinting increasingly blocked by regulation, the $198K GMV already captured in verified receipts represents a class of purchase signal that has no direct substitute in the current cookieless stack.",
+      "topic": "Cookie deprecation leaves no clean replacement",
+      "insight": "Chrome's third-party cookie deprecation completes what Safari and Firefox started; device fingerprinting is degrading under privacy regulation; data brokers face shrinking utility under GDPR and CCPA. No dominant cookieless targeting primitive has emerged to replace them.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo vulnerability",
-      "insight": "Visa sees merchant category codes but not product names; Amazon sees its own orders but not Shopify or Costco; no single platform sees cross-ecosystem, product-level purchase behavior — which is precisely what receipt-level aggregation produces.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Competitive intelligence asymmetry",
-      "insight": "Brands that query the receipt dataset can see competitor overlap and stack combinations; brands that don't still have their receipts in the dataset — they're simply the only party not looking at the intelligence.",
+      "topic": "Platform silos blind every major data holder",
+      "insight": "Google sees search and Gmail but no physical receipts; Visa sees merchant category codes but not product-level detail; Amazon sees its own orders but nothing from Shopify or Costco. Every platform's data is valuable inside its walls and structurally blind outside them.",
       "magnitude": "high"
     },
     {
       "topic": "DKIM as accidental verification infrastructure",
-      "insight": "DKIM email authentication, built to stop spoofing, incidentally makes every vendor receipt email cryptographically verifiable — Anthropic, OpenAI, Stripe, Amazon, and others have already signed their receipts without designing them as commerce signals.",
+      "insight": "DKIM email authentication — built to stop spoofing — doubles as cryptographic proof that a vendor receipt is real, unmodified, and from the actual sender's mail server. The verification primitive already exists across SaaS and e-commerce vendors; it was not being applied to commerce intelligence until now.",
       "magnitude": "medium"
     },
     {
-      "topic": "Market price for receipt data is unestablished",
-      "insight": "Credit card transaction data sells to hedge funds at $10M+/year but is identity-attached and lacks product-level detail; the receipt protocol has no active predicate queries yet, meaning the first brand to transact will set the reference price for a signal category that doesn't exist elsewhere.",
+      "topic": "Competitive intelligence asymmetry for brands",
+      "insight": "Brands that query a shared verified-receipt dataset can see competitor overlap, cross-stack purchase patterns, and retention signals. Brands that opt out remain visible in the dataset but lose the ability to see anyone else — creating a dominant strategy to participate regardless of coordination.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "No established price for verified purchase signals",
+      "insight": "Credit card transaction data sells to hedge funds at $10M+ annually but is identity-attached and not product-level. Verified, identity-free, cross-ecosystem purchase signals have no current market price — the first active predicate queries will set the reference price for a category that does not yet have one.",
       "magnitude": "medium"
     }
   ]
