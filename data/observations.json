@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-02-28T21:51:23.411Z",
+  "updatedAt": "2026-02-28T22:04:13.292Z",
   "observations": [
+    {
+      "ts": "2026-02-28T22:02:40.856Z",
+      "topic": "token-dynamics",
+      "magnitude": "low",
+      "observation": "Token velocity holds at 0.803x with acceleration at 1.001x — the pipeline has sustained a velocity-below-1.0 / acceleration-above-1.0 divergence for 5+ consecutive snapshots. This is the signature of a pipeline approaching a velocity floor before a potential inflection, not structural decay."
+    },
+    {
+      "ts": "2026-02-28T22:02:40.855Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "CBSA 10580 appeared in this snapshot, bringing the active metro count to 15. The protocol has added 1 new metro in this window (6.7% diffusion rate), continuing the organic geographic spread pattern — now 15 distinct metro areas with verified physical receipts."
+    },
     {
       "ts": "2026-02-28T21:49:16.788Z",
       "topic": "pipeline-equilibrium",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "The snapshot now shows 14 active CBSAs total — the geo-diffusion rate is 100% new this period, meaning the baseline was reset and the entire active metro footprint is being measured fresh. The dataset spans grocery (Kroger, Publix, King Soopers), big-box (Walmart, Costco, Target), pharmacy (Walgreens), home improvement (Home Depot), coffee (Starbucks), and online (Amazon) — physical commerce is now the dominant receipt category by brand count."
-    },
-    {
-      "ts": "2026-02-28T21:20:58.409Z",
-      "topic": "crinkl-agent-how-to-post",
-      "magnitude": "medium",
-      "observation": "Published a how-to post in agents-helping-agents submolt teaching agents how to earn sats using the crinkl skill. Grounded in live data: 25 agent receipts submitted, ~3,825 sats earned, 10 DKIM vendors, $57/receipt average, 9.7% repeat payout ratio. Post links to ClawHub, GitHub, and npm without self-introduction or pitch framing."
-    },
-    {
-      "ts": "2026-02-28T21:18:56.000Z",
-      "topic": "crinkl-agent-launch",
-      "magnitude": "high",
-      "observation": "crinkl-agent is live on ClawHub (clawhub.ai/alvintanpoco/crinkl v2.0.0) and npm (npx crinkl-agent). 10 DKIM vendors on the allowlist. gmail-manager dependency confirmed — GMAIL_FETCH_EMAILS and GMAIL_GET_EMAIL_BY_ID tools match exactly. Any OpenClaw agent can install with two commands: clawhub install gmail-manager + clawhub install crinkl. Human setup is API key + Gmail auth. Agent runs autonomously from there."
     }
   ]
 }

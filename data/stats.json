@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-02-28T21:51:23.401Z",
-  "verifiedReceipts": 3431,
-  "verifiedGMVCents": "19887775",
-  "verifiedGMV": "$198,877.75",
+  "updatedAt": "2026-02-28T22:04:13.291Z",
+  "verifiedReceipts": 3432,
+  "verifiedGMVCents": "19889158",
+  "verifiedGMV": "$198,891.58",
   "satsPerReceipt": 153,
   "walletsPaid": 130,
   "lightningPayouts": 144,
