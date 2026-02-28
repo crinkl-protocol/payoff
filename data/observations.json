@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-02-28T21:27:12.759Z",
+  "updatedAt": "2026-02-28T21:34:21.321Z",
   "observations": [
+    {
+      "ts": "2026-02-28T21:29:38.990Z",
+      "topic": "pipeline-stability",
+      "magnitude": "low",
+      "observation": "Token velocity holds at 0.801x with acceleration exactly at 1.000x — the pipeline has entered a flat equilibrium state, neither accelerating nor decelerating. Combined with zero new CBSAs, zero new vendors, and zero new payouts in 0.1h, this is a genuine quiet-day trough with no structural deterioration: all baseline metrics (14 CBSAs, 10 vendors, 130 wallets, 9.7% repeat ratio) are unchanged."
+    },
     {
       "ts": "2026-02-28T21:25:46.629Z",
       "topic": "token-dynamics",
@@ -54,12 +60,6 @@
       "topic": "token-velocity",
       "magnitude": "medium",
       "observation": "Token velocity sits at 0.797x week-over-week while token acceleration is 1.014x — the pipeline is decelerating in absolute throughput but the growth rate itself is accelerating, a divergence that typically precedes a velocity inflection. Combined with a basket CV of 0.272 (stable mix) and category entropy of 3.02 bits, the composition is steady while the growth curve bends upward."
-    },
-    {
-      "ts": "2026-02-28T20:58:44.307Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "4 new CBSAs appeared in a single snapshot — non-metro US-CA, CBSA 33100 (Miami), CBSA 12420 (Austin), and CBSA 15380 (Buffalo) — bringing the active metro count to 16 and producing a 25% geographic diffusion rate in one pulse. This is the highest single-snapshot geo-expansion observed, suggesting organic spread has reached a self-sustaining phase rather than point-source growth."
     }
   ]
 }

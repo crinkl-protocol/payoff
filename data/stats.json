@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T21:27:12.758Z",
+  "updatedAt": "2026-02-28T21:34:21.313Z",
   "verifiedReceipts": 3430,
   "verifiedGMVCents": "19887240",
   "verifiedGMV": "$198,872.4",
@@ -10,5 +10,12 @@
   "distributed": "$3,584",
   "btcPrice": 65513.5025,
   "trailing14dCents": "8059955",
-  "trailing14dReceipts": 1432
+  "trailing14dReceipts": 1432,
+  "agentWallet": "USDEBT",
+  "agentReceipts": 3,
+  "agentSatsEarned": 16130,
+  "agentSatsPerReceipt": 153,
+  "walletTotalSpends": 92,
+  "walletEarnedSats": 16130,
+  "walletClaimedSats": 205492
 }

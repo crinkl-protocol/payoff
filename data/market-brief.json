@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-02-28T21:06:36.652Z",
+  "updatedAt": "2026-02-28T21:34:21.312Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal gap",
-      "insight": "The ad industry pays $5+ CPM for probabilistic signals inferred from browsing behavior. A cryptographically verified receipt — proof a transaction occurred, not a guess that it might — is a categorically different asset that current ad tech cannot produce.",
+      "topic": "Cookieless signal gap",
+      "insight": "With Chrome deprecation completing the cookie's death across all major browsers, the ad industry has no cross-ecosystem, deterministic purchase signal left — probabilistic inference is what remains, and brands are paying $5+ CPM for it.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation leaves no clean replacement",
-      "insight": "Chrome's third-party cookie deprecation completes what Safari and Firefox started; device fingerprinting is degrading under privacy regulation; data brokers face shrinking utility under GDPR and CCPA. No dominant cookieless targeting primitive has emerged to replace them.",
+      "topic": "Receipt as verification primitive",
+      "insight": "DKIM-verified email receipts produce cryptographic proof of purchase — not intent, not inference — making each receipt signal structurally more valuable than anything a data broker or DSP currently sells.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silos blind every major data holder",
-      "insight": "Google sees search and Gmail but no physical receipts; Visa sees merchant category codes but not product-level detail; Amazon sees its own orders but nothing from Shopify or Costco. Every platform's data is valuable inside its walls and structurally blind outside them.",
+      "topic": "Platform silo blind spots",
+      "insight": "Google sees search intent, Visa sees a merchant category code, Apple sees app spend — none see across all three simultaneously, and none capture product-level detail; the receipt layer is the only data source that does.",
       "magnitude": "high"
     },
     {
-      "topic": "DKIM as accidental verification infrastructure",
-      "insight": "DKIM email authentication — built to stop spoofing — doubles as cryptographic proof that a vendor receipt is real, unmodified, and from the actual sender's mail server. The verification primitive already exists across SaaS and e-commerce vendors; it was not being applied to commerce intelligence until now.",
+      "topic": "Identity-free architecture as compliance advantage",
+      "insight": "Unlike Fetch or Ibotta, which hold identity-attached purchase data and carry GDPR/CCPA liability, this protocol's identity-free design means brands can query verified purchase signals without triggering consent or data-sharing obligations.",
       "magnitude": "medium"
     },
     {
-      "topic": "Competitive intelligence asymmetry for brands",
-      "insight": "Brands that query a shared verified-receipt dataset can see competitor overlap, cross-stack purchase patterns, and retention signals. Brands that opt out remain visible in the dataset but lose the ability to see anyone else — creating a dominant strategy to participate regardless of coordination.",
-      "magnitude": "high"
+      "topic": "Predicate layer not yet active",
+      "insight": "Zero brand queries have been executed against 3,430 verified receipts and $198K in confirmed GMV — the commerce intelligence layer exists but has not been commercially activated, meaning current pricing reflects pre-revenue data accumulation.",
+      "magnitude": "medium"
     },
     {
-      "topic": "No established price for verified purchase signals",
-      "insight": "Credit card transaction data sells to hedge funds at $10M+ annually but is identity-attached and not product-level. Verified, identity-free, cross-ecosystem purchase signals have no current market price — the first active predicate queries will set the reference price for a category that does not yet have one.",
+      "topic": "Closed-loop incumbents set the floor",
+      "insight": "Ibotta IPO'd at $2.7B and Fetch raised $240M on identity-attached, single-ecosystem receipt data — the open, cross-ecosystem, identity-free version of the same asset class has no comparable market price yet.",
       "magnitude": "medium"
     }
   ]
