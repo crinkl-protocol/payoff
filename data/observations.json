@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-02-28T22:04:13.292Z",
+  "updatedAt": "2026-02-28T23:33:19.542Z",
   "observations": [
+    {
+      "ts": "2026-02-28T23:28:05.933Z",
+      "topic": "velocity-floor",
+      "magnitude": "medium",
+      "observation": "Token velocity has ticked up to 0.808x (from 0.803x) with acceleration at 1.007x — the divergence pattern (velocity below 1.0, acceleration above 1.0) has now persisted for 6+ consecutive snapshots alongside a geo-diffusion burst of 3 new CBSAs. The combination of sustained positive acceleration and discrete geographic pulses suggests the pipeline is approaching an inflection, not a structural ceiling."
+    },
+    {
+      "ts": "2026-02-28T23:27:54.245Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "3 new CBSAs appeared in a single snapshot window (40140, 16980, 25775), bringing the active metro count to 14 and the geo-diffusion rate to 21.4% — the highest single-window diffusion reading recorded. This is the second multi-CBSA burst in recent history, suggesting organic geographic spread is accelerating in discrete pulses rather than linearly."
+    },
     {
       "ts": "2026-02-28T22:02:40.856Z",
       "topic": "token-dynamics",
@@ -48,18 +60,6 @@
       "topic": "token-velocity",
       "magnitude": "medium",
       "observation": "Token velocity is 0.8x week-over-week with daily cadence at 0.277x — today is running at roughly 1/4 of the weekly average daily pace. Acceleration is null (insufficient consecutive snapshots to compute), but the deceleration from prior 0.999x acceleration reading suggests the pipeline is in a genuine quiet-day trough, not a structural slowdown. Basket CV of 0.274 confirms the receipt mix is stable despite the throughput dip."
-    },
-    {
-      "ts": "2026-02-28T21:23:02.438Z",
-      "topic": "category-mix",
-      "magnitude": "high",
-      "observation": "Category entropy sits at 3.02 bits across 14 categories (grocery, big-box, pharmacy, home improvement, coffee, restaurants, gas, apparel, electronics, entertainment, online marketplaces, retail/department, SaaS, unknown) — the protocol has crossed from SaaS-dominant to genuinely cross-domain, with physical retail brands now outnumbering DKIM SaaS vendors 10:10 in the top brand list. The cross-domain ratio (SaaS + physical in same window) is only 0.3%, meaning the two streams are growing in parallel but not yet from the same submitters."
-    },
-    {
-      "ts": "2026-02-28T21:23:02.437Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "The snapshot now shows 14 active CBSAs total — the geo-diffusion rate is 100% new this period, meaning the baseline was reset and the entire active metro footprint is being measured fresh. The dataset spans grocery (Kroger, Publix, King Soopers), big-box (Walmart, Costco, Target), pharmacy (Walgreens), home improvement (Home Depot), coffee (Starbucks), and online (Amazon) — physical commerce is now the dominant receipt category by brand count."
     }
   ]
 }
