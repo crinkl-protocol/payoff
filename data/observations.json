@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-02-28T21:43:10.243Z",
+  "updatedAt": "2026-02-28T21:46:28.171Z",
   "observations": [
+    {
+      "ts": "2026-02-28T21:45:42.217Z",
+      "topic": "pipeline-equilibrium",
+      "magnitude": "low",
+      "observation": "Token velocity holds at 0.801x with acceleration at exactly 1.000x for the fourth consecutive snapshot — the pipeline has reached a genuine flat equilibrium. One new receipt ($5.35 GMV delta) appeared in this window, confirming the trough is active but not broken: the protocol is processing at roughly 1/4 of weekly average daily pace with zero structural deterioration across all 14 CBSAs, 10 vendors, and 130 paid wallets."
+    },
     {
       "ts": "2026-02-28T21:41:22.654Z",
       "topic": "pipeline-equilibrium",
@@ -54,12 +60,6 @@
       "topic": "repeat-payout-cohort",
       "magnitude": "medium",
       "observation": "Repeat payout ratio holds at 9.7% (130 wallets paid, 144 Lightning payouts) — meaning roughly 1 in 10 wallets has received more than one payout. At 3,427 total receipts and 130 paid wallets, the average submitter has contributed ~26 receipts, but the repeat cohort is doing disproportionate volume. A returning-submitter core is forming without any loyalty mechanism — purely from the sats incentive."
-    },
-    {
-      "ts": "2026-02-28T21:04:41.739Z",
-      "topic": "token-acceleration",
-      "magnitude": "medium",
-      "observation": "Token acceleration dropped to 0.999x — effectively flat — after sitting at 1.014x last snapshot. Combined with velocity at 0.797x and daily cadence at 0.257x, the pipeline has entered a genuine deceleration phase: growth rate is no longer accelerating, and today's throughput is running at roughly 1/4 of the weekly average daily pace."
     }
   ]
 }
