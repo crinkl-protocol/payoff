@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-01T04:43:56.365Z",
+  "updatedAt": "2026-03-01T06:18:03.555Z",
   "observations": [
+    {
+      "ts": "2026-03-01T06:16:46.343Z",
+      "topic": "velocity-recovery",
+      "magnitude": "medium",
+      "observation": "Token velocity ticked up to 0.663x (from 0.638x) with acceleration holding at 1.02x — a slight recovery from the sharpest deceleration reading, while 7d GMV rose from $27,975 to $29,539 (+5.6%). BTC price also moved from $65,513 to $67,352 (+2.8%), compressing sats/receipt from 153 to 148. The throughput trough may be bottoming."
+    },
+    {
+      "ts": "2026-03-01T06:16:46.343Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "2 new CBSAs (non-metro US-NV, 19100) appeared this snapshot, bringing active metro count to 13 and geo-diffusion rate to 15.4%. The pattern of discrete geographic pulses continues — this is the 4th consecutive snapshot with new metro additions."
+    },
     {
       "ts": "2026-03-01T04:42:59.798Z",
       "topic": "velocity-divergence",
@@ -48,18 +60,6 @@
       "topic": "token-dynamics",
       "magnitude": "low",
       "observation": "Token velocity holds at 0.803x with acceleration at 1.001x — the pipeline has sustained a velocity-below-1.0 / acceleration-above-1.0 divergence for 5+ consecutive snapshots. This is the signature of a pipeline approaching a velocity floor before a potential inflection, not structural decay."
-    },
-    {
-      "ts": "2026-02-28T22:02:40.855Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "CBSA 10580 appeared in this snapshot, bringing the active metro count to 15. The protocol has added 1 new metro in this window (6.7% diffusion rate), continuing the organic geographic spread pattern — now 15 distinct metro areas with verified physical receipts."
-    },
-    {
-      "ts": "2026-02-28T21:49:16.788Z",
-      "topic": "pipeline-equilibrium",
-      "magnitude": "low",
-      "observation": "Token velocity holds at 0.803x with acceleration at 1.002x for the fifth consecutive snapshot — the pipeline has reached a sustained flat equilibrium. All wildfire metrics are unchanged (14 CBSAs, 10 vendors, 130 wallets, 9.7% repeat ratio, 1594.4 sats/token), confirming this is a quiet-day trough with no structural deterioration. The divergence pattern (velocity below 1.0, acceleration above 1.0) has now persisted long enough to be a stable signature rather than a transient reading."
     }
   ]
 }

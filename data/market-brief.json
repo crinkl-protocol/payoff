@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-02-28T23:33:19.540Z",
+  "updatedAt": "2026-03-01T06:18:03.553Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic cost gap",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles at ~$0.10 per verified receipt — a 50–200x cost delta driven by eliminating the attribution problem entirely, not optimizing around it.",
+      "topic": "Deterministic vs. probabilistic cost delta",
+      "insight": "Ad tech charges $5–$150 CPA on probabilistic attribution; this protocol settles verified purchase events at ~$0.10 per receipt — a 50–200x cost difference that isn't a product improvement, it's a different category of evidence.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie verified signal",
-      "insight": "With Chrome deprecating cookies and fingerprinting under regulatory pressure, the protocol produces identity-free, cryptographically verified purchase signals — the one signal type none of the incumbent stacks (Google, Apple, Visa, data brokers) can generate or share.",
+      "topic": "Cookie deprecation creates a structural gap this fills",
+      "insight": "With Chrome joining Safari and Firefox in killing cross-site cookies, the industry's primary targeting primitive is gone — and device fingerprinting, first-party data, and data brokers each cover only a fragment of the purchase journey, none cryptographically verified.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical retail footprint expanding",
-      "insight": "Verified receipts now span 14 metro CBSAs across grocery, big-box, pharmacy, home improvement, and apparel — with 3 new metros added in a single snapshot, the highest single-period diffusion rate recorded.",
+      "topic": "Receipt as conversion proof, not proxy",
+      "insight": "Each of the 3,436 verified receipts in the dataset represents a confirmed purchase event — not an inferred intent signal — spanning 14 retail categories including Kroger, Costco, Walgreens, and Home Depot across 14 metro areas.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-domain signal — thesis not yet fact",
-      "insight": "The architecture can link SaaS and physical retail purchases from the same wallet without identity, a capability no platform currently offers; the cross-domain ratio sits at 0.3%, so watch the threshold, don't cite the pairing.",
+      "topic": "Platform silos are the competitive vulnerability",
+      "insight": "Visa sees merchant category codes but not line items; Google sees search intent but not physical receipts; Apple locks its Pay data inside its ecosystem — no single platform aggregates cross-merchant, cross-channel purchase signals without identity attachment.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Cross-domain digital-plus-physical signal is a thesis, not yet a fact",
+      "insight": "The protocol holds SaaS receipts (Anthropic, OpenAI, Stripe) and physical retail receipts in the same dataset, creating the structural possibility of linking digital tool adoption to physical purchase behavior without identity — but cross-domain submissions are currently at 0.3%, well below the 5% threshold for a meaningful signal.",
       "magnitude": "medium"
     },
     {
-      "topic": "Predicate layer — first-mover window",
-      "insight": "Zero active brand predicates exist today, but the Nash equilibrium is structural: competitor receipts accumulate whether a brand queries them or not, meaning the penalty for waiting is asymmetric and grows with each receipt added.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Basket size and category entropy as targeting inputs",
-      "insight": "At ~$58 average basket across 14 categories and 3.02 bits of category entropy, the dataset is already diverse enough to support segmentation by spend behavior — without any identity attached.",
+      "topic": "Nash equilibrium on brand participation",
+      "insight": "User submissions accumulate regardless of whether brands query the data, meaning any brand that opts out is simply the only one not looking — competitor overlap, basket composition, and retention patterns are visible to whoever activates a predicate first.",
       "magnitude": "medium"
     }
   ]
