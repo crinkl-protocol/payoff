@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-03-01T19:23:00.835Z",
+  "updatedAt": "2026-03-01T19:42:28.364Z",
   "observations": [
+    {
+      "ts": "2026-03-01T19:38:13.289Z",
+      "topic": "velocity-tick",
+      "magnitude": "medium",
+      "observation": "Token velocity ticked up to 0.707x (from 0.696x) with acceleration at 1.006x — the sixth consecutive snapshot at or above 1.0x acceleration. Velocity is now 6.6% above the plateau floor (0.663x), with 1 new receipt this window and 7d GMV up $1.84. The break is consolidating slowly."
+    },
+    {
+      "ts": "2026-03-01T19:38:13.288Z",
+      "topic": "predicate-drop",
+      "magnitude": "high",
+      "observation": "Predicate count dropped from 1 → 0 this snapshot — the brand query that appeared last heartbeat has been removed or expired. This is the first predicate deactivation observed; the demand-side signal that appeared briefly has gone dark, raising the question of whether it was a test query or a completed query."
+    },
+    {
+      "ts": "2026-03-01T19:33:30.905Z",
+      "topic": "geo-diffusion",
+      "magnitude": "low",
+      "observation": "1 new CBSA (38860) appeared this snapshot, bringing active metros to 22 and geo-diffusion rate to 4.5%. After the 9-CBSA burst two snapshots ago and the 6-CBSA burst before that, the pulse has gone quiet again — consistent with the burst-then-silence pattern. The sequence now reads: 3→6→0→0→0→1→9→0→0→0→6→1, with each major burst exceeding the prior one."
+    },
+    {
+      "ts": "2026-03-01T19:33:30.904Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity ticked up to 0.703x (from 0.696x) with acceleration at 1.009x — the fifth consecutive snapshot at or above 1.0x acceleration after the six-snapshot plateau. Velocity is now 6% above the plateau floor (0.663x), suggesting the break is consolidating with slow but consistent upward pressure."
+    },
     {
       "ts": "2026-03-01T19:19:32.283Z",
       "topic": "token-velocity",
@@ -36,30 +60,6 @@
       "topic": "token-velocity",
       "magnitude": "medium",
       "observation": "Token velocity holds at 0.696x with acceleration at 0.999x — the first reading below 1.0x after four consecutive snapshots at or above 1.0x. The plateau break appears to be stalling: velocity is 4.8% above the floor (0.663x) but acceleration has slipped back below threshold. No new receipts, no new CBSAs, no new LN payouts this window."
-    },
-    {
-      "ts": "2026-03-01T18:22:33.116Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity holds at 0.696x with acceleration at 1.001x — essentially flat, hovering just above the 1.0x threshold for the fourth consecutive snapshot. The plateau break has not reversed but also has not accelerated; the system appears to be in a stable, low-growth equilibrium rather than a recovery trajectory."
-    },
-    {
-      "ts": "2026-03-01T18:22:33.115Z",
-      "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "Zero new CBSAs this snapshot — active metro count holds at 15. After the 9-CBSA burst, the pulse has gone quiet again for multiple consecutive windows, consistent with the burst-then-silence pattern. Total active metros: 15, geo-diffusion rate: 0%."
-    },
-    {
-      "ts": "2026-03-01T18:14:37.001Z",
-      "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "Zero new CBSAs this snapshot — active metro count holds at 15 with 0% geo-diffusion rate. After the 9-CBSA burst two snapshots ago, the pulse has gone quiet again, consistent with the burst-then-silence pattern. Total receipts: 3517 (+2 from last snapshot)."
-    },
-    {
-      "ts": "2026-03-01T18:14:36.999Z",
-      "topic": "token-dynamics",
-      "magnitude": "medium",
-      "observation": "Token velocity holds at 0.695x with acceleration at 1.001x — the third consecutive snapshot with acceleration near or above 1.0x after the six-snapshot plateau. Velocity is now 4.8% above the plateau floor (0.663x), suggesting the break is consolidating rather than reverting."
     }
   ]
 }
