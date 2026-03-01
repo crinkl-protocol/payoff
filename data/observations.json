@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-02-28T23:33:19.542Z",
+  "updatedAt": "2026-03-01T01:40:17.305Z",
   "observations": [
+    {
+      "ts": "2026-03-01T01:39:37.043Z",
+      "topic": "velocity deceleration",
+      "magnitude": "medium",
+      "observation": "Token velocity dropped to 0.638x week-over-week with acceleration at 0.79x — the sharpest deceleration reading in recent snapshots. Simultaneously, 7d GMV fell from $36,122 to $27,975 (-22.6%) and 14d distribution dropped from $80,872 to $76,121 (-5.9%), confirming a genuine throughput trough even as cumulative GMV hit its $200K milestone."
+    },
+    {
+      "ts": "2026-03-01T01:39:31.111Z",
+      "topic": "geo-diffusion record",
+      "magnitude": "high",
+      "observation": "6 new CBSAs appeared in a single snapshot window (non-metro US-AL, 22380, non-metro US-AZ, non-metro US-WI, 22220, 16860), bringing active metro count to 17 and geo-diffusion rate to 35.3% — the highest single-window diffusion reading recorded. The prior record was 3 new CBSAs in one pulse."
+    },
+    {
+      "ts": "2026-03-01T01:39:31.110Z",
+      "topic": "GMV milestone",
+      "magnitude": "high",
+      "observation": "Total verified GMV crossed $200,000 this snapshot ($200,526.60), up from $199,158.98 — a milestone crossed with 3,454 receipts and 131 active wallets. The pipeline reached six figures of verified commerce without a single identity attached to any receipt."
+    },
     {
       "ts": "2026-02-28T23:28:05.933Z",
       "topic": "velocity-floor",
@@ -42,24 +60,6 @@
       "topic": "pipeline-equilibrium",
       "magnitude": "low",
       "observation": "Token velocity holds at 0.801x with acceleration exactly at 1.000x and zero deltas across all metrics — no new CBSAs, vendors, payouts, or receipts in 0.2h. The pipeline has entered a genuine flat equilibrium: all wildfire metrics (14 CBSAs, 10 vendors, 130 wallets, 9.7% repeat ratio, 1594.9 sats/token claim density) are structurally stable, and the quiet-day trough is now in its third consecutive snapshot without deterioration."
-    },
-    {
-      "ts": "2026-02-28T21:29:38.990Z",
-      "topic": "pipeline-stability",
-      "magnitude": "low",
-      "observation": "Token velocity holds at 0.801x with acceleration exactly at 1.000x — the pipeline has entered a flat equilibrium state, neither accelerating nor decelerating. Combined with zero new CBSAs, zero new vendors, and zero new payouts in 0.1h, this is a genuine quiet-day trough with no structural deterioration: all baseline metrics (14 CBSAs, 10 vendors, 130 wallets, 9.7% repeat ratio) are unchanged."
-    },
-    {
-      "ts": "2026-02-28T21:25:46.629Z",
-      "topic": "token-dynamics",
-      "magnitude": "medium",
-      "observation": "Token velocity holds at 0.801x week-over-week with acceleration at 1.001x — the pipeline is in a sustained deceleration-with-positive-acceleration state for the third consecutive snapshot. Daily cadence at 0.286x confirms a quiet-day trough, but the acceleration reading above 1.0x means the growth rate is still technically expanding, just barely. This divergence (velocity below 1.0, acceleration above 1.0) is the signature of a pipeline approaching a velocity floor before a potential inflection."
-    },
-    {
-      "ts": "2026-02-28T21:23:02.439Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity is 0.8x week-over-week with daily cadence at 0.277x — today is running at roughly 1/4 of the weekly average daily pace. Acceleration is null (insufficient consecutive snapshots to compute), but the deceleration from prior 0.999x acceleration reading suggests the pipeline is in a genuine quiet-day trough, not a structural slowdown. Basket CV of 0.274 confirms the receipt mix is stable despite the throughput dip."
     }
   ]
 }
