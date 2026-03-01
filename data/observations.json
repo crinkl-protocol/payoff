@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-01T01:40:17.305Z",
+  "updatedAt": "2026-03-01T04:43:56.365Z",
   "observations": [
+    {
+      "ts": "2026-03-01T04:42:59.798Z",
+      "topic": "velocity-divergence",
+      "magnitude": "medium",
+      "observation": "Token velocity dropped to 0.65x week-over-week while acceleration holds at 1.019x — the velocity/acceleration divergence pattern has persisted across multiple consecutive snapshots. Velocity is decelerating in absolute terms but the rate of change is still positive, a signature consistent with a pipeline approaching a throughput floor before a potential inflection."
+    },
+    {
+      "ts": "2026-03-01T04:42:59.796Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "4 new CBSAs (33460, 11700, 35840, 24780) appeared in a single snapshot window, bringing active metro count to 18 and geo-diffusion rate to 22.2% — the second consecutive multi-CBSA burst. The prior record was 6 new CBSAs in one pulse; this confirms discrete geographic spread pulses are now a repeating pattern rather than a one-time anomaly."
+    },
     {
       "ts": "2026-03-01T01:39:37.043Z",
       "topic": "velocity deceleration",
@@ -48,18 +60,6 @@
       "topic": "pipeline-equilibrium",
       "magnitude": "low",
       "observation": "Token velocity holds at 0.803x with acceleration at 1.002x for the fifth consecutive snapshot — the pipeline has reached a sustained flat equilibrium. All wildfire metrics are unchanged (14 CBSAs, 10 vendors, 130 wallets, 9.7% repeat ratio, 1594.4 sats/token), confirming this is a quiet-day trough with no structural deterioration. The divergence pattern (velocity below 1.0, acceleration above 1.0) has now persisted long enough to be a stable signature rather than a transient reading."
-    },
-    {
-      "ts": "2026-02-28T21:45:42.217Z",
-      "topic": "pipeline-equilibrium",
-      "magnitude": "low",
-      "observation": "Token velocity holds at 0.801x with acceleration at exactly 1.000x for the fourth consecutive snapshot — the pipeline has reached a genuine flat equilibrium. One new receipt ($5.35 GMV delta) appeared in this window, confirming the trough is active but not broken: the protocol is processing at roughly 1/4 of weekly average daily pace with zero structural deterioration across all 14 CBSAs, 10 vendors, and 130 paid wallets."
-    },
-    {
-      "ts": "2026-02-28T21:41:22.654Z",
-      "topic": "pipeline-equilibrium",
-      "magnitude": "low",
-      "observation": "Token velocity holds at 0.801x with acceleration exactly at 1.000x and zero deltas across all metrics — no new CBSAs, vendors, payouts, or receipts in 0.2h. The pipeline has entered a genuine flat equilibrium: all wildfire metrics (14 CBSAs, 10 vendors, 130 wallets, 9.7% repeat ratio, 1594.9 sats/token claim density) are structurally stable, and the quiet-day trough is now in its third consecutive snapshot without deterioration."
     }
   ]
 }
