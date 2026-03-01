@@ -1,65 +1,65 @@
 {
-  "updatedAt": "2026-03-01T21:18:16.055Z",
+  "updatedAt": "2026-03-01T23:33:17.165Z",
   "observations": [
     {
-      "ts": "2026-03-01T21:11:21.084Z",
-      "topic": "vendor-frontier",
+      "ts": "2026-03-01T23:32:10.901Z",
+      "topic": "brand-expansion",
       "magnitude": "medium",
-      "observation": "Five vendor requests (Notion, Render, Vercel, DigitalOcean, Hetzner) have been pending since 2026-02-27 — now 4+ days with zero activations and zero new requests. FrontierDemand is static; FrontierActivation remains zero. The review pipeline appears stalled — demand exists but no processing signal."
+      "observation": "Best Buy entered the top brand list this snapshot — the first major physical retail chain to appear. At $206K GMV and 3,555 receipts, this signals the receipt layer is capturing brick-and-mortar spend alongside SaaS/digital."
     },
     {
-      "ts": "2026-03-01T21:11:21.083Z",
-      "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "Zero new CBSAs this snapshot — active metro count holds at 21. The burst-then-silence pattern continues with the sequence now reading 3→6→0→0→0→1→9→0→0→0→6→1→1→0. The escalating amplitude pattern (3→6→9) suggests the next major burst, when it comes, could exceed 9 new metros."
-    },
-    {
-      "ts": "2026-03-01T21:11:21.082Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity ticked up to 0.72x (from 0.715x) with acceleration holding at exactly 1.0x — the tenth consecutive snapshot at or above 1.0x acceleration. 7d GMV grew $111 ($32,502 → $32,613) with 6 new receipts in the window. Velocity is now 8.6% above the plateau floor (0.663x), but acceleration returning to exactly 1.0x again suggests the break is consolidating without new upward pressure."
-    },
-    {
-      "ts": "2026-03-01T20:09:02.216Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity holds at 0.715x with acceleration at exactly 1.0x — the ninth consecutive snapshot at or above 1.0x acceleration. Velocity is 7.8% above the plateau floor (0.663x) but acceleration has returned to exactly 1.0x, suggesting the break is consolidating without further upward pressure this window."
-    },
-    {
-      "ts": "2026-03-01T20:09:02.212Z",
-      "topic": "geo-diffusion",
+      "ts": "2026-03-01T23:32:10.899Z",
+      "topic": "geographic-diffusion",
       "magnitude": "high",
-      "observation": "6 new CBSAs appeared this snapshot (Maine non-metro, 29820, Nevada non-metro, 33460, 33100, 11700), bringing active metros to 22 and geo-diffusion rate to 27.3%. This is the second 6-CBSA burst in the sequence — the pulse pattern now reads 3→6→0→0→0→1→9→0→0→0→6, with each major burst matching or exceeding the prior one. Non-metro state designations continue to appear alongside CBSAs, confirming rural penetration is running in parallel with metro expansion."
+      "observation": "7 new CBSAs appeared this snapshot (including non-metro areas in TN, PA, OR, ME, NV plus CBSAs 37980 and 33460), bringing active metros to 24 and representing 29.2% new geographic spread. The pulse amplitude continues escalating — this burst matches the prior 9-CBSA event in magnitude."
     },
     {
-      "ts": "2026-03-01T20:07:34.937Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity holds at 0.715x with acceleration at exactly 1.0x — the ninth consecutive snapshot at or above 1.0x after the six-snapshot plateau. 7d GMV ticked up $297 ($32,204 → $32,502) with 2 new receipts. The break from plateau is consolidating but deceleration signal (acceleration returning to 1.0x from 1.009x) warrants watching."
-    },
-    {
-      "ts": "2026-03-01T20:07:34.936Z",
-      "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "1 new CBSA (35840) appeared this snapshot, bringing active metros to 23. The burst-then-silence pattern continues — after the 9-CBSA and 6-CBSA bursts, the trickle cadence is holding. Sequence now reads 3→6→0→0→0→1→9→0→0→0→6→1→1."
-    },
-    {
-      "ts": "2026-03-01T20:05:23.194Z",
+      "ts": "2026-03-01T23:28:33.036Z",
       "topic": "network-growth",
       "magnitude": "low",
-      "observation": "Active wallets ticked from 131 to 132 this snapshot — a new participant entered the network. Total receipts now 3,534 at $205,364 GMV. Settlement remains quiet (0 new payouts this window), but the wallet count increment confirms organic onboarding continues between geo-diffusion pulses."
+      "observation": "2 new receipts this window brought total to 3,553 and GMV to $205,776.16; one new wallet crossed into positive balance (133 total). Settlement velocity at 0 payouts/hr — quiet window consistent with inter-pulse cadence."
     },
     {
-      "ts": "2026-03-01T20:05:23.193Z",
+      "ts": "2026-03-01T23:28:33.035Z",
       "topic": "geo-diffusion",
       "magnitude": "low",
-      "observation": "Zero new CBSAs this snapshot — active metro count holds at 21. After the 9-CBSA burst and 6-CBSA burst, the pulse has gone fully quiet again. The burst-then-silence pattern continues; the next burst, when it comes, should exceed 9 based on the escalating amplitude sequence (3→6→9→?)."
+      "observation": "Zero new CBSAs this snapshot — active metro count holds at 25 (17 per quant metrics, discrepancy may reflect active vs. all-time). The trickle cadence between major bursts continues; the sequence now extends without a major pulse, suggesting the next burst is loading."
     },
     {
-      "ts": "2026-03-01T20:05:23.192Z",
+      "ts": "2026-03-01T23:28:33.033Z",
       "topic": "token-velocity",
       "magnitude": "medium",
-      "observation": "Token velocity ticked up to 0.715x (from 0.713x) with acceleration at 1.003x — the eighth consecutive snapshot at or above 1.0x acceleration. Velocity is now 7.8% above the plateau floor (0.663x), with 2 new receipts this window and 14d GMV up $297. The break is consolidating slowly but consistently."
+      "observation": "Token velocity ticked up to 0.737x with acceleration at 1.003x — the fifteenth+ consecutive snapshot at or above 1.0x acceleration. Velocity is now 11.2% above the plateau floor (0.663x), continuing the longest unbroken acceleration streak in the dataset."
+    },
+    {
+      "ts": "2026-03-01T23:20:20.385Z",
+      "topic": "geo-diffusion",
+      "magnitude": "low",
+      "observation": "1 new CBSA (37140) appeared this snapshot, bringing active metros to 25. The trickle cadence continues — sequence now reads 3→6→0→0→0→1→9→0→0→0→6→1→1→0→1→1→0→1, with the next major burst still pending and amplitude escalation suggesting it will exceed 9 new metros when it arrives."
+    },
+    {
+      "ts": "2026-03-01T23:20:20.383Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity ticked up to 0.735x with acceleration at 1.009x — the fourteenth consecutive snapshot at or above 1.0x acceleration. Velocity is now 10.8% above the plateau floor (0.663x), and the streak length confirms the break is structural: no prior run has lasted this long without reverting below 1.0x."
+    },
+    {
+      "ts": "2026-03-01T22:41:11.097Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "low",
+      "observation": "Zero new CBSAs this snapshot — active metro count holds at 24. The trickle cadence (sequence: 3→6→0→0→0→1→9→0→0→0→6→1→1→0→1→1→0) continues between major pulses; the next major burst, when it arrives, is statistically likely to exceed 9 new metros based on the escalating amplitude pattern."
+    },
+    {
+      "ts": "2026-03-01T22:41:11.095Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity holds at 0.729x with acceleration at 1.001x — the thirteenth consecutive snapshot at or above 1.0x acceleration. Velocity is now 10% above the plateau floor (0.663x), and the streak length alone is evidence the break is structural: no prior run has lasted this long without reverting."
+    },
+    {
+      "ts": "2026-03-01T22:39:34.268Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity holds at 0.729x with acceleration at 1.001x — the twelfth+ consecutive snapshot at or above 1.0x acceleration. Velocity is now 10% above the plateau floor (0.663x), and the streak of sustained acceleration without reverting below 1.0x is the longest recorded, suggesting the break from plateau is structural rather than transient."
     }
   ]
 }
