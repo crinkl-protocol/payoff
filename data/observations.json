@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-01T10:56:35.079Z",
+  "updatedAt": "2026-03-01T13:51:08.317Z",
   "observations": [
+    {
+      "ts": "2026-03-01T13:49:12.326Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token acceleration ticked back to 0.999x (from 1.003x last snapshot) while velocity holds at 0.665x — the brief acceleration signal may not be sustained, but the plateau has not resumed either. The pipeline is in a transitional zone: not flat, not clearly recovering."
+    },
+    {
+      "ts": "2026-03-01T13:49:12.325Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "A new CBSA appeared this snapshot — non-metro US-ME — bringing active metro count to 13 and geo-diffusion rate to 7.7%. This is the first new CBSA after multiple consecutive zero-new-CBSA snapshots, suggesting the pulse pattern may be resuming after the quiet window."
+    },
     {
       "ts": "2026-03-01T10:49:12.241Z",
       "topic": "pipeline-steady-state",
@@ -48,18 +60,6 @@
       "topic": "token velocity plateau",
       "magnitude": "medium",
       "observation": "Token velocity holds at 0.663x with acceleration exactly at 1.0x for the second consecutive snapshot — the throughput trough appears to be stabilizing rather than recovering. Zero new CBSAs, zero new vendors, zero settlement velocity in the 0.3h window confirm a genuine quiet period across all pipeline dimensions simultaneously."
-    },
-    {
-      "ts": "2026-03-01T06:23:45.063Z",
-      "topic": "gmv-milestone",
-      "magnitude": "medium",
-      "observation": "Verified GMV crossed $202,533 with 3,488 receipts across 131 active wallets — the pipeline has now processed over $200K in verified commerce with zero identity attached to any receipt. Cross-domain ratio ticked up to 0.4% (from 0.3%), a small but directionally consistent move toward the SaaS+physical thesis."
-    },
-    {
-      "ts": "2026-03-01T06:23:45.062Z",
-      "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "Zero new CBSAs this snapshot — active metro count holds at 13 (down from 18 in prior snapshots, suggesting CBSA counting may be window-dependent). The discrete pulse pattern continues: bursts of 3-6 new metros followed by quiet windows with 0 new additions."
     }
   ]
 }
