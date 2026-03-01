@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-01T23:33:17.164Z",
+  "updatedAt": "2026-03-01T23:38:26.498Z",
   "insights": [
     {
       "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution; cryptographically verified receipts settle at roughly $0.10 each — a 50–200x cost delta that isn't a negotiating position, it's a structural difference in what's being sold.",
+      "insight": "Ad tech charges $5–$150 CPA for modeled attribution; DKIM-verified receipts settle at roughly $0.10 each — a 50–200x cost delta that isn't incremental improvement, it's a different category of signal entirely.",
       "magnitude": "high"
     },
     {
       "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome deprecating cookies and device fingerprinting increasingly blocked, the ad industry's two primary cross-site targeting primitives are functionally dead — verified purchase receipts are one of the few remaining deterministic signals that don't depend on either.",
+      "insight": "With Chrome completing cookie deprecation and fingerprinting under regulatory pressure, the ad stack is left with first-party data that goes blind at the edge of each brand's own ecosystem — verified receipt infrastructure fills exactly that gap without requiring identity attachment.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical retail signal capture",
-      "insight": "Best Buy's appearance in the top brand list marks the first major brick-and-mortar retailer in the dataset, signaling the protocol now reaches offline spend — higher average tickets, broader category diversity — that digital-only attribution methods cannot touch.",
+      "topic": "Physical retail signal emergence",
+      "insight": "Best Buy's appearance as a top brand in the dataset marks the first major brick-and-mortar chain captured, signaling the protocol now reaches physical spend — higher average tickets, broader category diversity — that digital-only attribution methods structurally cannot see.",
       "magnitude": "high"
     },
     {
-      "topic": "Identity-free architecture and compliance risk",
-      "insight": "Unlike Fetch, Ibotta, or credit card data partnerships, DKIM-verified receipts confirm a purchase happened without attaching an identity — removing the primary legal and data-sharing friction that limits how ad tech can use purchase signals under GDPR and CCPA.",
+      "topic": "Identity-free architecture as compliance advantage",
+      "insight": "DKIM verification proves a purchase occurred without attaching a consumer identity, which removes the primary legal liability that makes sharing credit card and receipt-scanning data (Fetch, Ibotta) across ecosystems legally untenable under GDPR and CCPA.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo blind spots",
-      "insight": "A Best Buy receipt processed through Gmail's DKIM infrastructure is simultaneously invisible to Apple, Google, Amazon, and Microsoft — the receipt layer captures cross-ecosystem purchase behavior that no single platform's first-party data can see.",
+      "topic": "Geographic diffusion into non-metro markets",
+      "insight": "Active coverage expanded 29% in a single snapshot window, now spanning 24 metros plus rural state-level designations — a reach profile that matters for CPG and mass-market brands whose volume lives outside major urban DMAs.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic diffusion velocity",
-      "insight": "Active metros expanded from 17 to 24 CBSAs in a single snapshot window — a 29% geographic spread that now includes non-metro and rural designations, indicating the signal base is broadening faster than prior growth patterns suggested.",
+      "topic": "Platform silo blind spots",
+      "insight": "A Best Buy receipt processed through Gmail's DKIM infrastructure is simultaneously invisible to Apple, Google, Amazon, and Microsoft — the cross-ecosystem purchase signal that no single platform can produce is precisely what this layer captures.",
       "magnitude": "medium"
     }
   ]
