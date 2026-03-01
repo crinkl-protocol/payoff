@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-03-01T06:18:03.553Z",
+  "updatedAt": "2026-03-01T06:39:43.855Z",
   "insights": [
     {
       "topic": "Deterministic vs. probabilistic cost delta",
-      "insight": "Ad tech charges $5–$150 CPA on probabilistic attribution; this protocol settles verified purchase events at ~$0.10 per receipt — a 50–200x cost difference that isn't a product improvement, it's a different category of evidence.",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles at ~$0.10 per verified receipt — a 50–200x cost difference rooted in structure, not optimization. The receipt is the conversion event, not a model of one.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation creates a structural gap this fills",
-      "insight": "With Chrome joining Safari and Firefox in killing cross-site cookies, the industry's primary targeting primitive is gone — and device fingerprinting, first-party data, and data brokers each cover only a fragment of the purchase journey, none cryptographically verified.",
+      "topic": "Post-cookie targeting gap",
+      "insight": "With Chrome deprecating cookies and device fingerprinting increasingly blocked, the industry's primary cross-site signals are gone — and first-party data is blind beyond a single brand's ecosystem. Verified, identity-free receipts fill a gap that no current stack addresses.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt as conversion proof, not proxy",
-      "insight": "Each of the 3,436 verified receipts in the dataset represents a confirmed purchase event — not an inferred intent signal — spanning 14 retail categories including Kroger, Costco, Walgreens, and Home Depot across 14 metro areas.",
+      "topic": "Cross-ecosystem purchase signal",
+      "insight": "Visa and Mastercard see merchant category codes and transaction amounts, not line-item detail; Apple and Google data is ecosystem-locked and identity-attached. This protocol produces cross-merchant, cross-category purchase signals without attaching identity — a combination that does not exist elsewhere in market.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silos are the competitive vulnerability",
-      "insight": "Visa sees merchant category codes but not line items; Google sees search intent but not physical receipts; Apple locks its Pay data inside its ecosystem — no single platform aggregates cross-merchant, cross-channel purchase signals without identity attachment.",
-      "magnitude": "high"
+      "topic": "Geographic diffusion pulse",
+      "insight": "Three new metro areas (CBSAs) activated in a single snapshot — a 21.4% diffusion rate described as the highest recorded — suggesting physical commerce coverage is expanding in discrete pulses rather than gradual linear growth. For brands running regional campaigns, this is the metric to watch.",
+      "magnitude": "medium"
     },
     {
-      "topic": "Cross-domain digital-plus-physical signal is a thesis, not yet a fact",
-      "insight": "The protocol holds SaaS receipts (Anthropic, OpenAI, Stripe) and physical retail receipts in the same dataset, creating the structural possibility of linking digital tool adoption to physical purchase behavior without identity — but cross-domain submissions are currently at 0.3%, well below the 5% threshold for a meaningful signal.",
+      "topic": "Category breadth at early scale",
+      "insight": "At 3,436 receipts across 14 categories — grocery, pharmacy, big-box, SaaS, home improvement, and more — the dataset is small but structurally diverse, meaning basket overlap and category co-occurrence analysis is already possible before the network reaches mass scale.",
       "magnitude": "medium"
     },
     {
       "topic": "Nash equilibrium on brand participation",
-      "insight": "User submissions accumulate regardless of whether brands query the data, meaning any brand that opts out is simply the only one not looking — competitor overlap, basket composition, and retention patterns are visible to whoever activates a predicate first.",
-      "magnitude": "medium"
+      "insight": "Receipts accumulate whether or not a brand queries the protocol — meaning competitors can analyze a brand's customer overlap and retention patterns while that brand sits out. The dominant strategy for any brand is to participate; opting out does not remove their receipts from the dataset.",
+      "magnitude": "high"
     }
   ]
 }

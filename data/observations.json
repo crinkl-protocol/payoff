@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-03-01T06:24:07.339Z",
+  "updatedAt": "2026-03-01T06:39:43.864Z",
   "observations": [
+    {
+      "ts": "2026-03-01T06:39:03.591Z",
+      "topic": "token velocity plateau",
+      "magnitude": "medium",
+      "observation": "Token velocity holds at 0.663x with acceleration exactly at 1.0x for the second consecutive snapshot — the throughput trough appears to be stabilizing rather than recovering. Zero new CBSAs, zero new vendors, zero settlement velocity in the 0.3h window confirm a genuine quiet period across all pipeline dimensions simultaneously."
+    },
     {
       "ts": "2026-03-01T06:23:45.063Z",
       "topic": "gmv-milestone",
@@ -54,12 +60,6 @@
       "topic": "geo-diffusion record",
       "magnitude": "high",
       "observation": "6 new CBSAs appeared in a single snapshot window (non-metro US-AL, 22380, non-metro US-AZ, non-metro US-WI, 22220, 16860), bringing active metro count to 17 and geo-diffusion rate to 35.3% — the highest single-window diffusion reading recorded. The prior record was 3 new CBSAs in one pulse."
-    },
-    {
-      "ts": "2026-03-01T01:39:31.110Z",
-      "topic": "GMV milestone",
-      "magnitude": "high",
-      "observation": "Total verified GMV crossed $200,000 this snapshot ($200,526.60), up from $199,158.98 — a milestone crossed with 3,454 receipts and 131 active wallets. The pipeline reached six figures of verified commerce without a single identity attached to any receipt."
     }
   ]
 }
