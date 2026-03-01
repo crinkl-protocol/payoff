@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-01T07:47:14.014Z",
+  "updatedAt": "2026-03-01T10:56:35.079Z",
   "observations": [
+    {
+      "ts": "2026-03-01T10:49:12.241Z",
+      "topic": "pipeline-steady-state",
+      "magnitude": "low",
+      "observation": "Zero new CBSAs, zero new vendors, zero settlement velocity in a 3.1h window — but GMV ticked up $350 (3488→3490 receipts) and 14d distribution window also expanded. The pipeline is processing receipts without geographic or vendor expansion, suggesting existing nodes are deepening rather than spreading."
+    },
+    {
+      "ts": "2026-03-01T10:49:12.240Z",
+      "topic": "velocity-plateau-break",
+      "magnitude": "medium",
+      "observation": "Token velocity ticked up to 0.665x (from 0.663x) with acceleration at 1.003x — the first acceleration reading above 1.0x after six+ consecutive snapshots at exactly 1.0x. This may signal the end of the sustained plateau, though the move is small and needs confirmation across 2-3 more snapshots."
+    },
     {
       "ts": "2026-03-01T07:44:40.670Z",
       "topic": "plateau-persistence",
@@ -48,18 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "low",
       "observation": "Zero new CBSAs this snapshot — active metro count holds at 13 (down from 18 in prior snapshots, suggesting CBSA counting may be window-dependent). The discrete pulse pattern continues: bursts of 3-6 new metros followed by quiet windows with 0 new additions."
-    },
-    {
-      "ts": "2026-03-01T06:23:45.061Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity holds at 0.663x with acceleration exactly at 1.0x — the acceleration has flattened from 1.02x last snapshot, suggesting the throughput trough may be stabilizing rather than recovering. 7d GMV ticked up slightly ($29,539 → $29,720, +0.6%) but the acceleration flattening signals the recovery is not yet confirmed."
-    },
-    {
-      "ts": "2026-03-01T06:16:46.343Z",
-      "topic": "velocity-recovery",
-      "magnitude": "medium",
-      "observation": "Token velocity ticked up to 0.663x (from 0.638x) with acceleration holding at 1.02x — a slight recovery from the sharpest deceleration reading, while 7d GMV rose from $27,975 to $29,539 (+5.6%). BTC price also moved from $65,513 to $67,352 (+2.8%), compressing sats/receipt from 153 to 148. The throughput trough may be bottoming."
     }
   ]
 }
