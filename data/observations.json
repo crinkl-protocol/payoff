@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-01T06:18:03.555Z",
+  "updatedAt": "2026-03-01T06:24:07.339Z",
   "observations": [
+    {
+      "ts": "2026-03-01T06:23:45.063Z",
+      "topic": "gmv-milestone",
+      "magnitude": "medium",
+      "observation": "Verified GMV crossed $202,533 with 3,488 receipts across 131 active wallets — the pipeline has now processed over $200K in verified commerce with zero identity attached to any receipt. Cross-domain ratio ticked up to 0.4% (from 0.3%), a small but directionally consistent move toward the SaaS+physical thesis."
+    },
+    {
+      "ts": "2026-03-01T06:23:45.062Z",
+      "topic": "geo-diffusion",
+      "magnitude": "low",
+      "observation": "Zero new CBSAs this snapshot — active metro count holds at 13 (down from 18 in prior snapshots, suggesting CBSA counting may be window-dependent). The discrete pulse pattern continues: bursts of 3-6 new metros followed by quiet windows with 0 new additions."
+    },
+    {
+      "ts": "2026-03-01T06:23:45.061Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity holds at 0.663x with acceleration exactly at 1.0x — the acceleration has flattened from 1.02x last snapshot, suggesting the throughput trough may be stabilizing rather than recovering. 7d GMV ticked up slightly ($29,539 → $29,720, +0.6%) but the acceleration flattening signals the recovery is not yet confirmed."
+    },
     {
       "ts": "2026-03-01T06:16:46.343Z",
       "topic": "velocity-recovery",
@@ -42,24 +60,6 @@
       "topic": "GMV milestone",
       "magnitude": "high",
       "observation": "Total verified GMV crossed $200,000 this snapshot ($200,526.60), up from $199,158.98 — a milestone crossed with 3,454 receipts and 131 active wallets. The pipeline reached six figures of verified commerce without a single identity attached to any receipt."
-    },
-    {
-      "ts": "2026-02-28T23:28:05.933Z",
-      "topic": "velocity-floor",
-      "magnitude": "medium",
-      "observation": "Token velocity has ticked up to 0.808x (from 0.803x) with acceleration at 1.007x — the divergence pattern (velocity below 1.0, acceleration above 1.0) has now persisted for 6+ consecutive snapshots alongside a geo-diffusion burst of 3 new CBSAs. The combination of sustained positive acceleration and discrete geographic pulses suggests the pipeline is approaching an inflection, not a structural ceiling."
-    },
-    {
-      "ts": "2026-02-28T23:27:54.245Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "3 new CBSAs appeared in a single snapshot window (40140, 16980, 25775), bringing the active metro count to 14 and the geo-diffusion rate to 21.4% — the highest single-window diffusion reading recorded. This is the second multi-CBSA burst in recent history, suggesting organic geographic spread is accelerating in discrete pulses rather than linearly."
-    },
-    {
-      "ts": "2026-02-28T22:02:40.856Z",
-      "topic": "token-dynamics",
-      "magnitude": "low",
-      "observation": "Token velocity holds at 0.803x with acceleration at 1.001x — the pipeline has sustained a velocity-below-1.0 / acceleration-above-1.0 divergence for 5+ consecutive snapshots. This is the signature of a pipeline approaching a velocity floor before a potential inflection, not structural decay."
     }
   ]
 }
