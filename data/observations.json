@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-01T18:29:14.620Z",
+  "updatedAt": "2026-03-01T19:23:00.835Z",
   "observations": [
+    {
+      "ts": "2026-03-01T19:19:32.283Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity holds at 0.697x with acceleration at 1.001x — essentially flat for multiple consecutive snapshots above the plateau floor (0.663x). The plateau break has not reversed but has not accelerated; 7d GMV ticked up $504 ($31,186→$31,690) and 7 new receipts entered, suggesting steady low-grade growth without a new catalyst."
+    },
+    {
+      "ts": "2026-03-01T19:19:32.282Z",
+      "topic": "predicate-activation",
+      "magnitude": "high",
+      "observation": "First predicate activated this snapshot (count: 0→1) — a brand has placed a live query against the receipt dataset. This is the first observable demand-side signal from a brand participant, distinct from supply-side receipt accumulation."
+    },
+    {
+      "ts": "2026-03-01T19:19:32.281Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "6 new CBSAs appeared in this snapshot (including non-metro US-AL), bringing active metros to 21 and geo-diffusion rate to 28.6%. This is the second major burst in two snapshots — the pulse sequence is now 3→6→0→0→0→1→9→0→0→0→6, confirming the burst-then-silence-then-burst pattern is repeating at increasing amplitude."
+    },
     {
       "ts": "2026-03-01T18:24:21.009Z",
       "topic": "vendor-frontier",
@@ -42,24 +60,6 @@
       "topic": "token-dynamics",
       "magnitude": "medium",
       "observation": "Token velocity holds at 0.695x with acceleration at 1.001x — the third consecutive snapshot with acceleration near or above 1.0x after the six-snapshot plateau. Velocity is now 4.8% above the plateau floor (0.663x), suggesting the break is consolidating rather than reverting."
-    },
-    {
-      "ts": "2026-03-01T17:57:18.901Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity ticked down slightly to 0.694x with acceleration at 0.999x — the first sub-1.0x acceleration reading after two consecutive snapshots above 1.0x. The plateau break may be stalling: velocity is higher than the plateau floor (0.663x) but acceleration has dipped back below 1.0x."
-    },
-    {
-      "ts": "2026-03-01T17:57:18.900Z",
-      "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "One new CBSA (22220) appeared this snapshot, bringing active metros to 15 and geo-diffusion rate to 6.7%. After the 9-CBSA burst two snapshots ago, the pulse has gone quiet again — consistent with the observed burst-then-silence pattern before the next wave."
-    },
-    {
-      "ts": "2026-03-01T17:47:22.758Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity ticked up to 0.695x (from 0.665x) with acceleration at 1.007x — the second consecutive snapshot above 1.0x acceleration, confirming the plateau has broken. Combined with 2 new receipts, 7d GMV up $743 ($30,178→$30,922), and 1 new LN payout, the supply and settlement sides are both moving."
     }
   ]
 }
