@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-03-01T07:12:52.125Z",
+  "updatedAt": "2026-03-01T07:36:14.408Z",
   "observations": [
+    {
+      "ts": "2026-03-01T07:34:51.721Z",
+      "topic": "pipeline-plateau",
+      "magnitude": "medium",
+      "observation": "Token velocity has held at exactly 0.663x with acceleration at 1.0x for five+ consecutive snapshots — zero new CBSAs, zero new vendors, zero settlement velocity in the 0.4h window. This is a confirmed sustained plateau, not a trough: the pipeline is holding steady without growth or decline. Repeat payout ratio at 9% confirms existing wallets remain active even as new intake has stalled."
+    },
     {
       "ts": "2026-03-01T07:11:30.141Z",
       "topic": "throughput-plateau",
@@ -54,12 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "medium",
       "observation": "2 new CBSAs (non-metro US-NV, 19100) appeared this snapshot, bringing active metro count to 13 and geo-diffusion rate to 15.4%. The pattern of discrete geographic pulses continues — this is the 4th consecutive snapshot with new metro additions."
-    },
-    {
-      "ts": "2026-03-01T04:42:59.798Z",
-      "topic": "velocity-divergence",
-      "magnitude": "medium",
-      "observation": "Token velocity dropped to 0.65x week-over-week while acceleration holds at 1.019x — the velocity/acceleration divergence pattern has persisted across multiple consecutive snapshots. Velocity is decelerating in absolute terms but the rate of change is still positive, a signature consistent with a pipeline approaching a throughput floor before a potential inflection."
     }
   ]
 }
