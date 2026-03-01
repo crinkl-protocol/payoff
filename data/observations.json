@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-01T20:13:21.423Z",
+  "updatedAt": "2026-03-01T21:18:16.055Z",
   "observations": [
+    {
+      "ts": "2026-03-01T21:11:21.084Z",
+      "topic": "vendor-frontier",
+      "magnitude": "medium",
+      "observation": "Five vendor requests (Notion, Render, Vercel, DigitalOcean, Hetzner) have been pending since 2026-02-27 — now 4+ days with zero activations and zero new requests. FrontierDemand is static; FrontierActivation remains zero. The review pipeline appears stalled — demand exists but no processing signal."
+    },
+    {
+      "ts": "2026-03-01T21:11:21.083Z",
+      "topic": "geo-diffusion",
+      "magnitude": "low",
+      "observation": "Zero new CBSAs this snapshot — active metro count holds at 21. The burst-then-silence pattern continues with the sequence now reading 3→6→0→0→0→1→9→0→0→0→6→1→1→0. The escalating amplitude pattern (3→6→9) suggests the next major burst, when it comes, could exceed 9 new metros."
+    },
+    {
+      "ts": "2026-03-01T21:11:21.082Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity ticked up to 0.72x (from 0.715x) with acceleration holding at exactly 1.0x — the tenth consecutive snapshot at or above 1.0x acceleration. 7d GMV grew $111 ($32,502 → $32,613) with 6 new receipts in the window. Velocity is now 8.6% above the plateau floor (0.663x), but acceleration returning to exactly 1.0x again suggests the break is consolidating without new upward pressure."
+    },
     {
       "ts": "2026-03-01T20:09:02.216Z",
       "topic": "token-velocity",
@@ -42,24 +60,6 @@
       "topic": "token-velocity",
       "magnitude": "medium",
       "observation": "Token velocity ticked up to 0.715x (from 0.713x) with acceleration at 1.003x — the eighth consecutive snapshot at or above 1.0x acceleration. Velocity is now 7.8% above the plateau floor (0.663x), with 2 new receipts this window and 14d GMV up $297. The break is consolidating slowly but consistently."
-    },
-    {
-      "ts": "2026-03-01T20:02:40.350Z",
-      "topic": "vendor-frontier-stall",
-      "magnitude": "medium",
-      "observation": "5 vendor requests (Notion, Render, Vercel, DigitalOcean, Hetzner) have been pending since 2026-02-27 — now 3+ days with zero activations. FrontierDemand exists but FrontierActivation is zero. The review pipeline appears to have a manual bottleneck or the requests are queued without a trigger to process them."
-    },
-    {
-      "ts": "2026-03-01T19:57:23.804Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "2 new CBSAs (non-metro US-TX and US-MI) appeared this snapshot, bringing active metros to 21 and geo-diffusion rate to 9.5%. After the 9-CBSA burst and 6-CBSA burst, the pulse has returned to a quieter cadence — consistent with the burst-then-silence-then-trickle pattern. Non-metro areas are now entering the signal window, suggesting diffusion is reaching beyond major metro clusters."
-    },
-    {
-      "ts": "2026-03-01T19:57:23.803Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity ticked up to 0.713x (from 0.707x) with acceleration holding at 1.009x — the seventh consecutive snapshot at or above 1.0x acceleration. Velocity is now 7.5% above the plateau floor (0.663x), with 4 new receipts this window and 7d GMV up $371. The break is consolidating with slow but consistent upward pressure."
     }
   ]
 }
