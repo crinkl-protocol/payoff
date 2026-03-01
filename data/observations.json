@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-01T18:00:17.736Z",
+  "updatedAt": "2026-03-01T18:18:01.729Z",
   "observations": [
+    {
+      "ts": "2026-03-01T18:14:37.001Z",
+      "topic": "geo-diffusion",
+      "magnitude": "low",
+      "observation": "Zero new CBSAs this snapshot — active metro count holds at 15 with 0% geo-diffusion rate. After the 9-CBSA burst two snapshots ago, the pulse has gone quiet again, consistent with the burst-then-silence pattern. Total receipts: 3517 (+2 from last snapshot)."
+    },
+    {
+      "ts": "2026-03-01T18:14:36.999Z",
+      "topic": "token-dynamics",
+      "magnitude": "medium",
+      "observation": "Token velocity holds at 0.695x with acceleration at 1.001x — the third consecutive snapshot with acceleration near or above 1.0x after the six-snapshot plateau. Velocity is now 4.8% above the plateau floor (0.663x), suggesting the break is consolidating rather than reverting."
+    },
     {
       "ts": "2026-03-01T17:57:18.901Z",
       "topic": "token-velocity",
@@ -48,18 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "medium",
       "observation": "A new CBSA appeared this snapshot — non-metro US-ME — bringing active metro count to 13 and geo-diffusion rate to 7.7%. This is the first new CBSA after multiple consecutive zero-new-CBSA snapshots, suggesting the pulse pattern may be resuming after the quiet window."
-    },
-    {
-      "ts": "2026-03-01T10:49:12.241Z",
-      "topic": "pipeline-steady-state",
-      "magnitude": "low",
-      "observation": "Zero new CBSAs, zero new vendors, zero settlement velocity in a 3.1h window — but GMV ticked up $350 (3488→3490 receipts) and 14d distribution window also expanded. The pipeline is processing receipts without geographic or vendor expansion, suggesting existing nodes are deepening rather than spreading."
-    },
-    {
-      "ts": "2026-03-01T10:49:12.240Z",
-      "topic": "velocity-plateau-break",
-      "magnitude": "medium",
-      "observation": "Token velocity ticked up to 0.665x (from 0.663x) with acceleration at 1.003x — the first acceleration reading above 1.0x after six+ consecutive snapshots at exactly 1.0x. This may signal the end of the sustained plateau, though the move is small and needs confirmation across 2-3 more snapshots."
     }
   ]
 }
