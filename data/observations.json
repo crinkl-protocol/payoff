@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-01T13:51:08.317Z",
+  "updatedAt": "2026-03-01T16:54:23.247Z",
   "observations": [
+    {
+      "ts": "2026-03-01T16:49:16.190Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity jumped to 0.69x (from 0.665x) with acceleration at 1.037x — the strongest acceleration reading since the plateau began. Combined with 19 new receipts in the window (3493→3512) and the 9-CBSA geographic burst, this snapshot shows the first simultaneous supply-side and demand-side acceleration since the quiet period started."
+    },
+    {
+      "ts": "2026-03-01T16:49:08.643Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "9 new CBSAs appeared in a single snapshot window — the largest single-pulse geographic expansion observed — bringing total active metros to 22 and geo-diffusion rate to 40.9%. The pulse sequence has been: 3 → 6 → 0 → 0 → 0 → 1 → 9, suggesting an accelerating burst pattern rather than steady-state growth."
+    },
     {
       "ts": "2026-03-01T13:49:12.326Z",
       "topic": "token-velocity",
@@ -48,18 +60,6 @@
       "topic": "throughput-plateau",
       "magnitude": "low",
       "observation": "Token velocity holds at 0.663x with acceleration exactly 1.0x for the fourth+ consecutive snapshot — zero new CBSAs, zero new vendors, zero settlement velocity. The pipeline has entered a sustained flat period: not declining, not recovering, just holding. Repeat payout ratio at 9% suggests existing wallets are still active even as new intake has stalled."
-    },
-    {
-      "ts": "2026-03-01T07:01:28.925Z",
-      "topic": "throughput-stabilization",
-      "magnitude": "medium",
-      "observation": "Token velocity holds at 0.663x with acceleration exactly 1.0x for the third consecutive snapshot — no new CBSAs, no new vendors, zero settlement velocity in the 0.4h window. The throughput trough has stabilized into a genuine flat period rather than recovering or declining further."
-    },
-    {
-      "ts": "2026-03-01T06:39:03.591Z",
-      "topic": "token velocity plateau",
-      "magnitude": "medium",
-      "observation": "Token velocity holds at 0.663x with acceleration exactly at 1.0x for the second consecutive snapshot — the throughput trough appears to be stabilizing rather than recovering. Zero new CBSAs, zero new vendors, zero settlement velocity in the 0.3h window confirm a genuine quiet period across all pipeline dimensions simultaneously."
     }
   ]
 }
