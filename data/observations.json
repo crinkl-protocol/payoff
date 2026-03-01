@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-01T19:42:28.364Z",
+  "updatedAt": "2026-03-01T20:01:26.807Z",
   "observations": [
+    {
+      "ts": "2026-03-01T19:57:23.804Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "2 new CBSAs (non-metro US-TX and US-MI) appeared this snapshot, bringing active metros to 21 and geo-diffusion rate to 9.5%. After the 9-CBSA burst and 6-CBSA burst, the pulse has returned to a quieter cadence — consistent with the burst-then-silence-then-trickle pattern. Non-metro areas are now entering the signal window, suggesting diffusion is reaching beyond major metro clusters."
+    },
+    {
+      "ts": "2026-03-01T19:57:23.803Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity ticked up to 0.713x (from 0.707x) with acceleration holding at 1.009x — the seventh consecutive snapshot at or above 1.0x acceleration. Velocity is now 7.5% above the plateau floor (0.663x), with 4 new receipts this window and 7d GMV up $371. The break is consolidating with slow but consistent upward pressure."
+    },
     {
       "ts": "2026-03-01T19:38:13.289Z",
       "topic": "velocity-tick",
@@ -48,18 +60,6 @@
       "topic": "vendor-frontier",
       "magnitude": "medium",
       "observation": "5 open vendor-request GitHub issues (Notion, Render, Vercel, DigitalOcean, Hetzner) — all filed by the same operator, none yet approved. The frontier has demand but zero activations. Infrastructure/DevOps vendors dominate the request queue, suggesting the early adopter base skews heavily toward developers."
-    },
-    {
-      "ts": "2026-03-01T18:24:21.007Z",
-      "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "Zero new CBSAs for multiple consecutive snapshots after the 9-CBSA burst — active metros hold at 15. The burst-then-silence pattern is repeating: the system loads, fires, then goes quiet before the next wave. The question is whether the next burst will exceed 9 or revert toward the prior pattern of 3-6."
-    },
-    {
-      "ts": "2026-03-01T18:24:21.006Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity holds at 0.696x with acceleration at 0.999x — the first reading below 1.0x after four consecutive snapshots at or above 1.0x. The plateau break appears to be stalling: velocity is 4.8% above the floor (0.663x) but acceleration has slipped back below threshold. No new receipts, no new CBSAs, no new LN payouts this window."
     }
   ]
 }
