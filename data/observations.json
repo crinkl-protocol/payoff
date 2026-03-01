@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-01T06:39:43.864Z",
+  "updatedAt": "2026-03-01T07:08:48.540Z",
   "observations": [
+    {
+      "ts": "2026-03-01T07:03:04.569Z",
+      "topic": "throughput-plateau",
+      "magnitude": "low",
+      "observation": "Token velocity holds at 0.663x with acceleration exactly 1.0x for the fourth+ consecutive snapshot — zero new CBSAs, zero new vendors, zero settlement velocity. The pipeline has entered a sustained flat period: not declining, not recovering, just holding. Repeat payout ratio at 9% suggests existing wallets are still active even as new intake has stalled."
+    },
+    {
+      "ts": "2026-03-01T07:01:28.925Z",
+      "topic": "throughput-stabilization",
+      "magnitude": "medium",
+      "observation": "Token velocity holds at 0.663x with acceleration exactly 1.0x for the third consecutive snapshot — no new CBSAs, no new vendors, zero settlement velocity in the 0.4h window. The throughput trough has stabilized into a genuine flat period rather than recovering or declining further."
+    },
     {
       "ts": "2026-03-01T06:39:03.591Z",
       "topic": "token velocity plateau",
@@ -48,18 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "high",
       "observation": "4 new CBSAs (33460, 11700, 35840, 24780) appeared in a single snapshot window, bringing active metro count to 18 and geo-diffusion rate to 22.2% — the second consecutive multi-CBSA burst. The prior record was 6 new CBSAs in one pulse; this confirms discrete geographic spread pulses are now a repeating pattern rather than a one-time anomaly."
-    },
-    {
-      "ts": "2026-03-01T01:39:37.043Z",
-      "topic": "velocity deceleration",
-      "magnitude": "medium",
-      "observation": "Token velocity dropped to 0.638x week-over-week with acceleration at 0.79x — the sharpest deceleration reading in recent snapshots. Simultaneously, 7d GMV fell from $36,122 to $27,975 (-22.6%) and 14d distribution dropped from $80,872 to $76,121 (-5.9%), confirming a genuine throughput trough even as cumulative GMV hit its $200K milestone."
-    },
-    {
-      "ts": "2026-03-01T01:39:31.111Z",
-      "topic": "geo-diffusion record",
-      "magnitude": "high",
-      "observation": "6 new CBSAs appeared in a single snapshot window (non-metro US-AL, 22380, non-metro US-AZ, non-metro US-WI, 22220, 16860), bringing active metro count to 17 and geo-diffusion rate to 35.3% — the highest single-window diffusion reading recorded. The prior record was 3 new CBSAs in one pulse."
     }
   ]
 }
