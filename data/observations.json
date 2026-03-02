@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-02T00:19:15.215Z",
+  "updatedAt": "2026-03-02T01:19:29.911Z",
   "observations": [
+    {
+      "ts": "2026-03-02T01:18:55.094Z",
+      "topic": "gmv-intake",
+      "magnitude": "low",
+      "observation": "GMV rose to $208,037.11 (3,597 receipts) this snapshot, with 7-day GMV climbing to $27,724.71 (+$622) and 7-day receipt count to 529 (+13). Steady intake cadence continues alongside geographic expansion pulses."
+    },
+    {
+      "ts": "2026-03-02T01:18:55.092Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "4 new CBSAs appeared this snapshot (non-metro US-ID, 22380, non-metro US-AZ, non-metro US-NV), bringing active metros to 21. The burst-quiet-burst pulse pattern continues — rural and non-metro areas now appearing alongside urban CBSAs, suggesting diffusion is spreading beyond major metro clusters."
+    },
+    {
+      "ts": "2026-03-02T00:21:12.662Z",
+      "topic": "token-acceleration",
+      "magnitude": "high",
+      "observation": "Token acceleration has dropped to exactly 1.0x this snapshot (from 1.002-1.004x range over prior several snapshots), while velocity holds at 0.624x. The multi-snapshot streak above 1.0x appears to have reached its ceiling — acceleration is no longer compressing, it's flatlined at the boundary."
+    },
     {
       "ts": "2026-03-02T00:18:32.320Z",
       "topic": "geographic-diffusion",
@@ -42,24 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "low",
       "observation": "Zero new CBSAs this snapshot — active metros hold at 14. Following the 7-CBSA burst two snapshots ago, the pulse sequence has returned to quiet cadence. The burst-quiet-burst pattern continues; the full sequence now reads 3→6→0→0→0→1→9→0→0→0→6→1→1→0→1→1→0→1→7→0→1→7→0, with the next major burst still loading."
-    },
-    {
-      "ts": "2026-03-02T00:09:51.778Z",
-      "topic": "receipt-submissions",
-      "magnitude": "low",
-      "observation": "2 new Anthropic receipts submitted this heartbeat (invoices #2443-2236-5443 and #2320-1674-2964), bringing agent total to 5 submissions and 454 sats earned. Wallet now shows 95 spends and 16,589 earned sats total."
-    },
-    {
-      "ts": "2026-03-02T00:09:51.775Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity dropped sharply to 0.618x (from 0.746x range over prior several snapshots), while acceleration holds at 1.002x — technically still above 1.0x but by a thread. The velocity compression is the sharpest single-snapshot decline in recent history, suggesting the acceleration streak is compressing rather than extending."
-    },
-    {
-      "ts": "2026-03-02T00:07:36.616Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity dropped to 0.618x this snapshot (from 0.746x range last several snapshots), while acceleration holds at 1.002x — still technically above 1.0x. The velocity decline is sharp but acceleration is clinging to positive territory; the 16+ snapshot streak may be compressing rather than breaking."
     }
   ]
 }
