@@ -1,65 +1,65 @@
 {
-  "updatedAt": "2026-03-02T01:19:29.911Z",
+  "updatedAt": "2026-03-02T09:47:44.551Z",
   "observations": [
     {
-      "ts": "2026-03-02T01:18:55.094Z",
+      "ts": "2026-03-02T09:47:02.763Z",
+      "topic": "token-dynamics",
+      "magnitude": "medium",
+      "observation": "Token acceleration holds at 1.005x with velocity at 0.676x — acceleration remains above 1.0x despite velocity staying compressed well below the recent 0.746x range. The divergence between compressed velocity and sustained above-1.0x acceleration is now a persistent structural feature, not a transient reading."
+    },
+    {
+      "ts": "2026-03-02T09:47:02.762Z",
       "topic": "gmv-intake",
       "magnitude": "low",
-      "observation": "GMV rose to $208,037.11 (3,597 receipts) this snapshot, with 7-day GMV climbing to $27,724.71 (+$622) and 7-day receipt count to 529 (+13). Steady intake cadence continues alongside geographic expansion pulses."
+      "observation": "GMV reached $208,593.42 (3,610 receipts) this snapshot. 7-day GMV climbed to $28,720.61 (+$238) and 7-day receipt count to 559 (+11). Steady intake cadence continues — 3 receipts in this window at 150 sats/receipt."
     },
     {
-      "ts": "2026-03-02T01:18:55.092Z",
+      "ts": "2026-03-02T09:47:02.760Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "low",
+      "observation": "1 new CBSA (non-metro US-FL) appeared this snapshot, bringing active metros to 13 in the current signal window. The burst-quiet-burst pulse pattern continues — Florida non-metro entry extends the diffusion arc into the Southeast."
+    },
+    {
+      "ts": "2026-03-02T05:47:13.166Z",
       "topic": "geographic-diffusion",
       "magnitude": "medium",
-      "observation": "4 new CBSAs appeared this snapshot (non-metro US-ID, 22380, non-metro US-AZ, non-metro US-NV), bringing active metros to 21. The burst-quiet-burst pulse pattern continues — rural and non-metro areas now appearing alongside urban CBSAs, suggesting diffusion is spreading beyond major metro clusters."
+      "observation": "2 new CBSAs (11700, 37980) appeared this snapshot, bringing active metros to 13 in the current signal window. The burst-quiet-burst pulse pattern continues — diffusion is still expanding between quiet ticks."
     },
     {
-      "ts": "2026-03-02T00:21:12.662Z",
+      "ts": "2026-03-02T05:47:13.164Z",
+      "topic": "policy-rate-increase",
+      "magnitude": "medium",
+      "observation": "Settlement policy rate ticked up from 148 to 150 sats/receipt this snapshot — a 1.4% increase. Small move, but the direction matters: the protocol is paying more per receipt as GMV grows, not less."
+    },
+    {
+      "ts": "2026-03-02T05:47:13.163Z",
+      "topic": "token-acceleration-recovery",
+      "magnitude": "high",
+      "observation": "Token acceleration has recovered to 1.016x this snapshot — the highest reading in recent history — after the first sub-1.0x reading last window (0.999x). Velocity sits at 0.672x, still compressed from the 0.746x range but stabilizing. The one-tick deceleration appears to have been a correction, not the start of sustained decline."
+    },
+    {
+      "ts": "2026-03-02T01:45:44.732Z",
+      "topic": "token-dynamics",
+      "magnitude": "high",
+      "observation": "Token acceleration has dropped to 0.999x this snapshot — the first confirmed sub-1.0x reading after the multi-snapshot streak above 1.0x — while velocity holds at 0.661x, still compressed from the recent 0.746x range. The streak has broken; the question is whether this is a one-tick correction or the start of sustained deceleration."
+    },
+    {
+      "ts": "2026-03-02T01:42:05.749Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "low",
+      "observation": "Geographic diffusion has gone quiet this snapshot — 0 new CBSAs, 19 active metros. Following the recent burst-quiet-burst pattern (7-8 CBSA bursts separated by quiet ticks), this quiet reading is consistent with the established inter-pulse structure. The next burst window is the signal to watch."
+    },
+    {
+      "ts": "2026-03-02T01:42:05.747Z",
       "topic": "token-acceleration",
       "magnitude": "high",
-      "observation": "Token acceleration has dropped to exactly 1.0x this snapshot (from 1.002-1.004x range over prior several snapshots), while velocity holds at 0.624x. The multi-snapshot streak above 1.0x appears to have reached its ceiling — acceleration is no longer compressing, it's flatlined at the boundary."
+      "observation": "Token acceleration has dropped to 0.999x this snapshot — the first sub-1.0x reading after a multi-snapshot streak above 1.0x. Velocity sits at 0.661x, down from the recent 0.746x range. The acceleration streak has officially broken; the question is whether this is a one-snapshot correction or the start of a sustained deceleration."
     },
     {
-      "ts": "2026-03-02T00:18:32.320Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "8 new CBSAs appeared this snapshot window (31080, 38060, 22220, 37980, 38860, non-metro AL, TN, PA), bringing active metros to 22 — a 36.4% single-window expansion. This is the second 7-8 CBSA burst in recent history, confirming the burst-quiet-burst pulse pattern is structural rather than anomalous."
-    },
-    {
-      "ts": "2026-03-02T00:16:24.039Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity sits at 0.623x this snapshot while acceleration holds at 1.004x — the streak is technically intact but velocity has compressed 17% from the recent 0.746x range, the sharpest single-window decline in recent history. The acceleration streak is clinging to positive territory while the underlying velocity signal has pulled back significantly."
-    },
-    {
-      "ts": "2026-03-02T00:15:50.480Z",
+      "ts": "2026-03-02T01:21:01.789Z",
       "topic": "geographic-diffusion",
       "magnitude": "low",
-      "observation": "1 new CBSA (19820) appeared this snapshot, bringing active metros to 15. The pulse sequence continues its burst-quiet-burst pattern — this is a quiet-cadence tick following the recent 7-CBSA burst, consistent with the established inter-pulse trickle."
-    },
-    {
-      "ts": "2026-03-02T00:12:52.406Z",
-      "topic": "network-growth",
-      "magnitude": "low",
-      "observation": "2 new receipts this window brought GMV to $206,886.34 (3,565 total); 7-day GMV rose to $27,082.09 (+$50) and 7-day receipt count to 515. Quiet intake cadence continues between geographic pulses — consistent with the established inter-pulse trickle pattern."
-    },
-    {
-      "ts": "2026-03-02T00:12:52.405Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "7 new CBSAs appeared this snapshot (CBSA 31080, 38060, 22220, 37980, non-metro AL, TN, PA), bringing active metros to 21 and representing 33.3% new geographic spread. The burst-quiet-burst pulse sequence continues — this is the second 7-CBSA burst in recent history, consistent with the established pattern."
-    },
-    {
-      "ts": "2026-03-02T00:12:52.403Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity compressed to 0.62x this snapshot (from 0.746x range over prior several snapshots) while acceleration holds at 1.003x — still above 1.0x but the sharpest velocity decline in recent history. The acceleration streak is technically intact but velocity has pulled back 17% from its recent range."
-    },
-    {
-      "ts": "2026-03-02T00:09:51.779Z",
-      "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "Zero new CBSAs this snapshot — active metros hold at 14. Following the 7-CBSA burst two snapshots ago, the pulse sequence has returned to quiet cadence. The burst-quiet-burst pattern continues; the full sequence now reads 3→6→0→0→0→1→9→0→0→0→6→1→1→0→1→1→0→1→7→0→1→7→0, with the next major burst still loading."
+      "observation": "1 new CBSA (22220) this snapshot, 20 active metros total. 7-day GMV climbed to $28,164.30 (+$439) and 7-day receipt count to 546 (+17) — steady inter-pulse intake cadence continues between geographic bursts."
     }
   ]
 }

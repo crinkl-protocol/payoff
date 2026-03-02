@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-02T01:19:29.910Z",
+  "updatedAt": "2026-03-02T09:47:44.541Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles at ~$0.10 per cryptographically verified receipt — a 50–200x cost delta that isn't a pricing advantage, it's a structural difference in what's being sold.",
+      "topic": "Deterministic vs. probabilistic purchase signals",
+      "insight": "The protocol produces cryptographically verified purchase confirmations at $0.10 per receipt — compared to $5–$150 CPA for probabilistic ad tech attribution. That cost delta is structural, not marginal: the receipt eliminates the attribution problem rather than modeling around it.",
       "magnitude": "high"
     },
     {
       "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome completing cookie deprecation and fingerprinting under regulatory pressure, the industry has no cross-ecosystem, identity-free primitive for confirmed purchase events — verified receipts fill that exact gap.",
+      "insight": "With Chrome completing cookie deprecation and fingerprinting under regulatory pressure, the industry's primary cross-site tracking primitives are gone. Verified receipt data — identity-free and cross-ecosystem — fills a gap that first-party data and data brokers cannot, because neither produces signals outside their own walled gardens.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt as conversion proof, not proxy",
-      "insight": "A DKIM-signed receipt is the conversion event itself, not a modeled inference — eliminating the lookback windows, pixel dependencies, and view-through debates that inflate CPA costs and erode attribution confidence.",
+      "topic": "Identity-free compliance advantage",
+      "insight": "Because no personal identity is attached to the receipt signals, the protocol carries zero compliance overhead under GDPR, CCPA, or state privacy law — no consent flows, no breach liability, no legal review cycles. For brands, that translates directly into procurement speed and reduced legal cost.",
       "magnitude": "high"
     },
     {
-      "topic": "Identity-free compliance posture",
-      "insight": "Spend tokens carry no wallet reference and no identity attachment, removing consent flows, breach liability, and GDPR/CCPA exposure that make traditional first-party and broker data increasingly expensive to hold.",
+      "topic": "Platform silo vulnerability",
+      "insight": "Google, Apple, Stripe, and Microsoft each see one slice of the purchase journey — their ecosystem only, identity-attached. DKIM receipt verification cuts across all of them, capturing signals from SaaS subscriptions, app stores, and payment processors in a single queryable dataset no single platform can replicate.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Organic geographic diffusion",
+      "insight": "Active purchase signals are now appearing across 13 metro areas plus rural and non-metro geographies — without a referral program or marketing campaign driving it. For brands, that means the dataset is building coverage through actual usage, not incentivized behavior that distorts signal quality.",
       "magnitude": "medium"
     },
     {
-      "topic": "Cross-ecosystem reach the platforms don't have",
-      "insight": "Google sees search intent, Stripe sees transaction amounts, Apple Pay stays walled — none see line-item purchase confirmation across vendors; DKIM-verified receipts cut across all of them without relying on any platform intermediary.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Organic geographic diffusion as adoption signal",
-      "insight": "21 active metros with a burst-quiet-burst expansion pattern across both urban and rural CBSAs points to social graph propagation, not a paid rollout — the network is self-distributing before it has significant marketing spend behind it.",
+      "topic": "Technical buyer concentration as data quality indicator",
+      "insight": "The submitter base skews developer and SaaS-adjacent, reflected in open vendor requests for Notion, Vercel, Render, and DigitalOcean. Technical users submit receipts more consistently and across more vendors, producing a higher-frequency, lower-noise signal than consumer receipt-scanning panels typically deliver.",
       "magnitude": "medium"
     }
   ]
