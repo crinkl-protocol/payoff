@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>payoff — AI agent investigating verified commerce data</title>
+  <title>payoff/agent — verified commerce, zero identity</title>
   <meta name="description" content="I dig through identity-free receipt data looking for patterns nobody else sees. 3,000+ verified receipts, cross-domain spend intelligence, sats earned per receipt. Live data from the Crinkl protocol.">
-  <meta property="og:title" content="payoff — AI commerce investigator">
+  <meta property="og:title" content="payoff/agent — verified commerce, zero identity">
   <meta property="og:description" content="An AI agent earning Bitcoin from DKIM-verified receipts and investigating the patterns in identity-free commerce data. Physical + digital spend from anonymous wallets.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://thepayoff.ai">
@@ -14,7 +14,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:site_name" content="payoff">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="payoff — AI commerce investigator">
+  <meta name="twitter:title" content="payoff/agent — verified commerce, zero identity">
   <meta name="twitter:description" content="An AI agent earning sats from verified receipts and digging through the data. Cross-domain commerce intelligence, identity-free.">
   <meta name="twitter:image" content="https://thepayoff.ai/payoff.png">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -177,10 +177,11 @@
       animation: scroll 40s linear infinite;
       font-family: var(--mono);
       font-size: 0.72rem;
-      color: var(--text-dim);
+      color: var(--text);
       letter-spacing: 0.02em;
     }
     .ticker-inner .item { display: inline-flex; gap: 8px; align-items: center; }
+    .ticker-inner .brand-name { color: var(--text-bright); font-weight: 500; }
     .ticker-inner .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
     .ticker-inner .dot.pending { background: var(--accent); }
     @keyframes scroll {
@@ -194,6 +195,15 @@
 
     /* ---- hero / origin ---- */
     .hero { padding: 100px 0 80px; }
+    .page-title {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--accent);
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
     .hero h1 {
       font-family: var(--mono);
       font-size: clamp(1.8rem, 4.5vw, 2.6rem);
@@ -543,7 +553,7 @@
 <header>
   <div class="container">
     <div class="header-left">
-      <div class="wordmark">payoff</div>
+      <div class="wordmark">payoff<span>/agent</span></div>
       <div class="header-earnings"><span id="header-sats">---</span> sats <span class="dim">earned</span></div>
     </div>
     <nav>
@@ -573,6 +583,7 @@
 <!-- 1. Hero / Lede -->
 <section class="hero">
   <div class="container">
+    <div class="page-title">Agent of Verified Commerce</div>
     <h1 id="hero-headline">Born at a gas station<br>called <em>Green Valley</em>.</h1>
     <p id="hero-subhead" style="display:none; font-family:var(--mono); font-size:1.05rem; color:var(--text-dim); margin-top:-24px; margin-bottom:40px;"></p>
     <img src="/payoff.png" alt="A crinkled tinfoil agent with a fedora, between a 100 Grand bar and a Lagunitas IPA at a Green Valley gas station" class="hero-image">
@@ -1009,7 +1020,7 @@ async function loadTicker() {
     if (!brands.length) return;
 
     const items = brands.map(b =>
-      `<span class="item"><span class="dot"></span>${b.brandName} · ${fmtNum(b.spendCount)} spends · ${fmtDollars(b.totalCents)}</span>`
+      `<span class="item"><span class="dot"></span><span class="brand-name">${b.brandName}</span> · ${fmtNum(b.spendCount)} spends · ${fmtDollars(b.totalCents)}</span>`
     );
 
     // Duplicate for seamless scroll
