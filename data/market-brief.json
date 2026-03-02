@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-02T00:13:09.973Z",
+  "updatedAt": "2026-03-02T00:16:35.226Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic attribution",
-      "insight": "Ad tech charges $5–$150 CPA to infer a purchase happened; this protocol settles at ~$0.10 per cryptographically verified receipt — a 50–200x cost delta that isn't a pricing advantage but a structural category difference.",
+      "topic": "Deterministic vs. probabilistic signal cost",
+      "insight": "Ad tech charges $5–$150 CPA for modeled attribution; this protocol settles verified purchase confirmation at roughly $0.10 per receipt — a 50–200x cost delta that isn't a discount, it's a different class of signal.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookieless targeting gap",
-      "insight": "With Chrome completing cookie deprecation and device fingerprinting increasingly blocked, no scaled cross-ecosystem signal exists that is both identity-free and purchase-verified — the protocol's DKIM-attested receipts fill exactly that gap.",
+      "topic": "Post-cookie targeting gap",
+      "insight": "With Chrome completing cookie deprecation and device fingerprinting under regulatory pressure, the industry has no cross-ecosystem, identity-free, cryptographically verified purchase signal — and receipt-layer data is the only structural candidate to fill that gap.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-domain purchase intelligence",
-      "insight": "Best Buy's entry as a top brand confirms the receipt layer captures physical retail alongside SaaS and digital spend, meaning a single consumer's laptop purchase and subscription renewal can appear in the same verified signal window — the cross-category targeting thesis is now evidenced, not theoretical.",
+      "topic": "Receipt as conversion event, not proxy",
+      "insight": "A DKIM-signed receipt eliminates the attribution problem entirely: no pixel, no lookback window, no modeled conversion — the purchase confirmation is the signal, not an inference about it.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo blindness",
-      "insight": "Google, Apple, Stripe, and Microsoft each see a slice of commerce — intent, app purchases, payment amounts, or enterprise usage — but none see line-item purchase data across ecosystems without identity attachment; that combination does not exist elsewhere in the market.",
+      "topic": "Platform silo blind spots",
+      "insight": "Google sees search intent, Stripe sees transaction amounts, Apple Pay stays walled — no single platform sees verified line-item purchase data across ecosystems; the receipt layer is the one data source that cuts across all of them.",
       "magnitude": "high"
     },
     {
-      "topic": "Organic geographic diffusion",
-      "insight": "Penetration across 15 active CBSAs shows a pulse pattern consistent with social graph propagation rather than paid acquisition, meaning the user base skews toward networked early adopters — a high-signal cohort for brands testing new commerce intelligence channels.",
+      "topic": "Identity-free data as compliance advantage",
+      "insight": "Spend tokens carry no wallet reference, which means no consent flows, no breach liability, and no identity graph to defend under GDPR or CCPA — the privacy architecture is a cost reduction, not a feature trade-off.",
       "magnitude": "medium"
     },
     {
-      "topic": "Closed-loop receipt apps as a false comparison",
-      "insight": "Fetch and Ibotta hold real purchase data but it is identity-attached, siloed, and not queryable by third-party brands; the structural difference here is verified purchase signals that are privacy-preserving and accessible across the ecosystem rather than locked inside a loyalty program.",
+      "topic": "Organic geographic diffusion pattern",
+      "insight": "21 metro areas reached through burst-quiet-burst expansion consistent with social graph spread rather than paid rollout, with simultaneous rural and urban penetration — the adoption curve suggests pull demand, not push distribution.",
       "magnitude": "medium"
     }
   ]

@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-02T00:13:09.975Z",
+  "updatedAt": "2026-03-02T00:16:35.228Z",
   "observations": [
+    {
+      "ts": "2026-03-02T00:16:24.039Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity sits at 0.623x this snapshot while acceleration holds at 1.004x — the streak is technically intact but velocity has compressed 17% from the recent 0.746x range, the sharpest single-window decline in recent history. The acceleration streak is clinging to positive territory while the underlying velocity signal has pulled back significantly."
+    },
+    {
+      "ts": "2026-03-02T00:15:50.480Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "low",
+      "observation": "1 new CBSA (19820) appeared this snapshot, bringing active metros to 15. The pulse sequence continues its burst-quiet-burst pattern — this is a quiet-cadence tick following the recent 7-CBSA burst, consistent with the established inter-pulse trickle."
+    },
     {
       "ts": "2026-03-02T00:12:52.406Z",
       "topic": "network-growth",
@@ -48,18 +60,6 @@
       "topic": "token-velocity",
       "magnitude": "medium",
       "observation": "Token velocity dropped to 0.617x this snapshot (from 0.746x), with acceleration at 1.001x — still technically above 1.0x but the velocity decline is sharp. The acceleration streak is holding by a thread while velocity itself has pulled back significantly from the recent 0.744-0.746x range."
-    },
-    {
-      "ts": "2026-03-02T00:00:06.526Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "7 new CBSAs appeared this snapshot (AL, Phoenix/38060, 22220, TN, 37980, PA, OR non-metros), bringing active metros to 22 and representing 31.8% new geographic spread. The pulse sequence continues its burst-quiet-burst pattern, now at 3→6→0→0→0→1→9→0→0→0→6→1→1→0→1→1→0→1→7→0→1→7."
-    },
-    {
-      "ts": "2026-03-01T23:49:01.010Z",
-      "topic": "receipt-intake",
-      "magnitude": "low",
-      "observation": "1 new receipt this window brought total to 3,560 and GMV to $206,418.82; 7-day GMV rose to $33,553.26 (+$11.38) and 7-day receipt count to 610. Quiet intake cadence continues — consistent with inter-pulse trickle."
     }
   ]
 }
