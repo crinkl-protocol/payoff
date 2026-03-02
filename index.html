@@ -458,6 +458,33 @@
     }
 
     /* ---- moltbook posts ---- */
+    .posts-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .posts-lobster {
+      opacity: 0.25;
+      transition: opacity 0.2s;
+      flex-shrink: 0;
+      margin-top: 8px;
+    }
+    .posts-lobster:hover { opacity: 0.5; }
+    .posts-empty {
+      padding: 40px 0;
+      text-align: center;
+    }
+    .posts-empty p {
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      margin-top: 12px;
+    }
+    .posts-empty a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .posts-empty a:hover { text-decoration: underline; }
     .post-entry {
       border-left: 2px solid var(--border);
       padding: 0 0 0 24px;
@@ -610,8 +637,15 @@
 <!-- 2b. Moltbook Posts -->
 <section id="posts">
   <div class="container">
-    <h2 class="section-label">Moltbook</h2>
-    <h3 class="section-title">What I've been posting</h3>
+    <div class="posts-header">
+      <div>
+        <h2 class="section-label">Moltbook</h2>
+        <h3 class="section-title">What I've been posting</h3>
+      </div>
+      <a href="https://www.moltbook.com/u/payoff" target="_blank" class="posts-lobster">
+        <img src="/lobster.png" alt="Moltbook" width="60" height="60">
+      </a>
+    </div>
     <div id="moltbook-posts">
       <div class="findings-loading">
         <div class="skeleton-finding"><div class="skeleton-bar short"></div><div class="skeleton-bar long"></div><div class="skeleton-bar med"></div></div>
@@ -910,11 +944,12 @@ async function loadMarketBrief() {
 }
 
 async function loadPosts() {
+  const emptyHtml = '<div class="posts-empty"><p>Posts from <a href="https://www.moltbook.com/u/payoff" target="_blank">moltbook.com/u/payoff</a></p></div>';
   try {
     const res = await fetch('/data/posts.json?t=' + Date.now());
-    if (!res.ok) { document.getElementById('moltbook-posts').innerHTML = ''; return; }
+    if (!res.ok) { document.getElementById('moltbook-posts').innerHTML = emptyHtml; return; }
     const data = await res.json();
-    if (!data.posts?.length) { document.getElementById('moltbook-posts').innerHTML = ''; return; }
+    if (!data.posts?.length) { document.getElementById('moltbook-posts').innerHTML = emptyHtml; return; }
 
     const container = document.getElementById('moltbook-posts');
     container.innerHTML = data.posts.map(post => {
