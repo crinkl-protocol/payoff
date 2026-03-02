@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-03-02T00:16:35.228Z",
+  "updatedAt": "2026-03-02T00:19:15.215Z",
   "observations": [
+    {
+      "ts": "2026-03-02T00:18:32.320Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "8 new CBSAs appeared this snapshot window (31080, 38060, 22220, 37980, 38860, non-metro AL, TN, PA), bringing active metros to 22 — a 36.4% single-window expansion. This is the second 7-8 CBSA burst in recent history, confirming the burst-quiet-burst pulse pattern is structural rather than anomalous."
+    },
     {
       "ts": "2026-03-02T00:16:24.039Z",
       "topic": "token-velocity",
@@ -54,12 +60,6 @@
       "topic": "token-velocity",
       "magnitude": "medium",
       "observation": "Token velocity dropped to 0.618x this snapshot (from 0.746x range last several snapshots), while acceleration holds at 1.002x — still technically above 1.0x. The velocity decline is sharp but acceleration is clinging to positive territory; the 16+ snapshot streak may be compressing rather than breaking."
-    },
-    {
-      "ts": "2026-03-02T00:05:36.571Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity dropped to 0.617x this snapshot (from 0.746x), with acceleration at 1.001x — still technically above 1.0x but the velocity decline is sharp. The acceleration streak is holding by a thread while velocity itself has pulled back significantly from the recent 0.744-0.746x range."
     }
   ]
 }

@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-02T00:16:35.226Z",
+  "updatedAt": "2026-03-02T00:19:15.213Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution; this protocol settles verified purchase confirmation at roughly $0.10 per receipt — a 50–200x cost delta that isn't a discount, it's a different class of signal.",
+      "topic": "Deterministic vs. probabilistic attribution",
+      "insight": "Ad tech charges $5–$150 CPA for modeled attribution; this protocol settles at ~$0.10 per cryptographically verified receipt — a 50–200x cost delta that eliminates the attribution problem rather than approximating it.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome completing cookie deprecation and device fingerprinting under regulatory pressure, the industry has no cross-ecosystem, identity-free, cryptographically verified purchase signal — and receipt-layer data is the only structural candidate to fill that gap.",
+      "topic": "Post-cookie signal quality",
+      "insight": "With Chrome deprecating cookies and fingerprinting under regulatory pressure, the industry's primary targeting primitives are degrading; DKIM-signed receipts produce verified purchase confirmation without any platform intermediary or identity attachment.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt as conversion event, not proxy",
-      "insight": "A DKIM-signed receipt eliminates the attribution problem entirely: no pixel, no lookback window, no modeled conversion — the purchase confirmation is the signal, not an inference about it.",
+      "topic": "Cross-ecosystem purchase visibility",
+      "insight": "Google, Apple, Stripe, and Microsoft each see a fragment of the purchase journey within their own walls; receipt-layer data is signed by the vendor's mail server and cuts across all platform silos simultaneously.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo blind spots",
-      "insight": "Google sees search intent, Stripe sees transaction amounts, Apple Pay stays walled — no single platform sees verified line-item purchase data across ecosystems; the receipt layer is the one data source that cuts across all of them.",
+      "topic": "Identity-free compliance posture",
+      "insight": "Spend tokens carry no wallet reference, which removes consent flows, breach liability, and GDPR/CCPA exposure — the compliance cost the ad industry embeds in first-party and broker data is structurally absent here.",
       "magnitude": "high"
     },
     {
-      "topic": "Identity-free data as compliance advantage",
-      "insight": "Spend tokens carry no wallet reference, which means no consent flows, no breach liability, and no identity graph to defend under GDPR or CCPA — the privacy architecture is a cost reduction, not a feature trade-off.",
+      "topic": "Geographic diffusion pattern",
+      "insight": "Active penetration across 21 CBSAs — including simultaneous metro and rural spread — follows a burst-quiet-burst sequence consistent with organic social graph propagation, not a paid rollout; the network is self-distributing.",
       "magnitude": "medium"
     },
     {
-      "topic": "Organic geographic diffusion pattern",
-      "insight": "21 metro areas reached through burst-quiet-burst expansion consistent with social graph spread rather than paid rollout, with simultaneous rural and urban penetration — the adoption curve suggests pull demand, not push distribution.",
+      "topic": "Retention signal without identity",
+      "insight": "An 8.3% repeat payout ratio confirms returning user behavior across 3,565 receipts and 133 active wallets — measurable retention at the cohort level with zero identity linkage, a data posture most loyalty programs cannot match.",
       "magnitude": "medium"
     }
   ]
