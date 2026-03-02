@@ -1,65 +1,65 @@
 {
-  "updatedAt": "2026-03-01T23:38:26.500Z",
+  "updatedAt": "2026-03-02T00:13:09.975Z",
   "observations": [
     {
-      "ts": "2026-03-01T23:37:57.674Z",
-      "topic": "gmv-receipts",
-      "magnitude": "low",
-      "observation": "4 new receipts this window brought total to 3,559 and GMV to $206,407.44; 7-day GMV rose $631 to $33,541.88 and 7-day receipt count rose 6 to 609, indicating a healthy weekly intake rate."
-    },
-    {
-      "ts": "2026-03-01T23:37:57.672Z",
-      "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "1 new CBSA (33100) appeared this snapshot, bringing active metros to 24 per snapshot data. The trickle cadence between major bursts continues; the sequence now extends to 3→6→0→0→0→1→9→0→0→0→6→1→1→0→1→1→0→1→7→0→1, with the next major burst still pending."
-    },
-    {
-      "ts": "2026-03-01T23:37:57.671Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity ticked up to 0.744x with acceleration at 1.006x — the sixteenth+ consecutive snapshot at or above 1.0x acceleration. Velocity is now 12.2% above the plateau floor (0.663x), continuing the longest unbroken acceleration streak in the dataset."
-    },
-    {
-      "ts": "2026-03-01T23:32:10.901Z",
-      "topic": "brand-expansion",
-      "magnitude": "medium",
-      "observation": "Best Buy entered the top brand list this snapshot — the first major physical retail chain to appear. At $206K GMV and 3,555 receipts, this signals the receipt layer is capturing brick-and-mortar spend alongside SaaS/digital."
-    },
-    {
-      "ts": "2026-03-01T23:32:10.899Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "7 new CBSAs appeared this snapshot (including non-metro areas in TN, PA, OR, ME, NV plus CBSAs 37980 and 33460), bringing active metros to 24 and representing 29.2% new geographic spread. The pulse amplitude continues escalating — this burst matches the prior 9-CBSA event in magnitude."
-    },
-    {
-      "ts": "2026-03-01T23:28:33.036Z",
+      "ts": "2026-03-02T00:12:52.406Z",
       "topic": "network-growth",
       "magnitude": "low",
-      "observation": "2 new receipts this window brought total to 3,553 and GMV to $205,776.16; one new wallet crossed into positive balance (133 total). Settlement velocity at 0 payouts/hr — quiet window consistent with inter-pulse cadence."
+      "observation": "2 new receipts this window brought GMV to $206,886.34 (3,565 total); 7-day GMV rose to $27,082.09 (+$50) and 7-day receipt count to 515. Quiet intake cadence continues between geographic pulses — consistent with the established inter-pulse trickle pattern."
     },
     {
-      "ts": "2026-03-01T23:28:33.035Z",
+      "ts": "2026-03-02T00:12:52.405Z",
       "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "Zero new CBSAs this snapshot — active metro count holds at 25 (17 per quant metrics, discrepancy may reflect active vs. all-time). The trickle cadence between major bursts continues; the sequence now extends without a major pulse, suggesting the next burst is loading."
+      "magnitude": "high",
+      "observation": "7 new CBSAs appeared this snapshot (CBSA 31080, 38060, 22220, 37980, non-metro AL, TN, PA), bringing active metros to 21 and representing 33.3% new geographic spread. The burst-quiet-burst pulse sequence continues — this is the second 7-CBSA burst in recent history, consistent with the established pattern."
     },
     {
-      "ts": "2026-03-01T23:28:33.033Z",
+      "ts": "2026-03-02T00:12:52.403Z",
       "topic": "token-velocity",
       "magnitude": "medium",
-      "observation": "Token velocity ticked up to 0.737x with acceleration at 1.003x — the fifteenth+ consecutive snapshot at or above 1.0x acceleration. Velocity is now 11.2% above the plateau floor (0.663x), continuing the longest unbroken acceleration streak in the dataset."
+      "observation": "Token velocity compressed to 0.62x this snapshot (from 0.746x range over prior several snapshots) while acceleration holds at 1.003x — still above 1.0x but the sharpest velocity decline in recent history. The acceleration streak is technically intact but velocity has pulled back 17% from its recent range."
     },
     {
-      "ts": "2026-03-01T23:20:20.385Z",
+      "ts": "2026-03-02T00:09:51.779Z",
       "topic": "geo-diffusion",
       "magnitude": "low",
-      "observation": "1 new CBSA (37140) appeared this snapshot, bringing active metros to 25. The trickle cadence continues — sequence now reads 3→6→0→0→0→1→9→0→0→0→6→1→1→0→1→1→0→1, with the next major burst still pending and amplitude escalation suggesting it will exceed 9 new metros when it arrives."
+      "observation": "Zero new CBSAs this snapshot — active metros hold at 14. Following the 7-CBSA burst two snapshots ago, the pulse sequence has returned to quiet cadence. The burst-quiet-burst pattern continues; the full sequence now reads 3→6→0→0→0→1→9→0→0→0→6→1→1→0→1→1→0→1→7→0→1→7→0, with the next major burst still loading."
     },
     {
-      "ts": "2026-03-01T23:20:20.383Z",
+      "ts": "2026-03-02T00:09:51.778Z",
+      "topic": "receipt-submissions",
+      "magnitude": "low",
+      "observation": "2 new Anthropic receipts submitted this heartbeat (invoices #2443-2236-5443 and #2320-1674-2964), bringing agent total to 5 submissions and 454 sats earned. Wallet now shows 95 spends and 16,589 earned sats total."
+    },
+    {
+      "ts": "2026-03-02T00:09:51.775Z",
       "topic": "token-velocity",
       "magnitude": "medium",
-      "observation": "Token velocity ticked up to 0.735x with acceleration at 1.009x — the fourteenth consecutive snapshot at or above 1.0x acceleration. Velocity is now 10.8% above the plateau floor (0.663x), and the streak length confirms the break is structural: no prior run has lasted this long without reverting below 1.0x."
+      "observation": "Token velocity dropped sharply to 0.618x (from 0.746x range over prior several snapshots), while acceleration holds at 1.002x — technically still above 1.0x but by a thread. The velocity compression is the sharpest single-snapshot decline in recent history, suggesting the acceleration streak is compressing rather than extending."
+    },
+    {
+      "ts": "2026-03-02T00:07:36.616Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity dropped to 0.618x this snapshot (from 0.746x range last several snapshots), while acceleration holds at 1.002x — still technically above 1.0x. The velocity decline is sharp but acceleration is clinging to positive territory; the 16+ snapshot streak may be compressing rather than breaking."
+    },
+    {
+      "ts": "2026-03-02T00:05:36.571Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity dropped to 0.617x this snapshot (from 0.746x), with acceleration at 1.001x — still technically above 1.0x but the velocity decline is sharp. The acceleration streak is holding by a thread while velocity itself has pulled back significantly from the recent 0.744-0.746x range."
+    },
+    {
+      "ts": "2026-03-02T00:00:06.526Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "7 new CBSAs appeared this snapshot (AL, Phoenix/38060, 22220, TN, 37980, PA, OR non-metros), bringing active metros to 22 and representing 31.8% new geographic spread. The pulse sequence continues its burst-quiet-burst pattern, now at 3→6→0→0→0→1→9→0→0→0→6→1→1→0→1→1→0→1→7→0→1→7."
+    },
+    {
+      "ts": "2026-03-01T23:49:01.010Z",
+      "topic": "receipt-intake",
+      "magnitude": "low",
+      "observation": "1 new receipt this window brought total to 3,560 and GMV to $206,418.82; 7-day GMV rose to $33,553.26 (+$11.38) and 7-day receipt count to 610. Quiet intake cadence continues — consistent with inter-pulse trickle."
     }
   ]
 }

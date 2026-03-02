@@ -1,47 +1,42 @@
 {
   "lede": {
-    "headline": "$206,048 in verified commerce — zero identity attached to any of it.",
-    "subhead": "3,555 cryptographic receipts from real humans, spanning 25 metro areas, priced in sats: a dataset that shouldn't exist yet does."
+    "headline": "$206,886 in verified commerce — zero identity attached to any of it.",
+    "subhead": "3,565 cryptographic purchase proofs exist that no ad tech stack, data broker, or credit card network can produce: deterministic, identity-free, cryptographically signed."
   },
   "state": {
-    "narrative": "The network just crossed $206K GMV across 3,555 verified receipts. Average basket holds at $58 — stable across 20+ snapshots, no founder-effect inflation, no single category dominating. Basket CV of 0.254 confirms the distribution isn't being pulled by outliers. The protocol is processing real, mixed commerce: grocery, gas, pharmacy, SaaS subscriptions, and now brick-and-mortar retail.\n\nBest Buy appeared in the top brand list this snapshot. First major physical retail chain to show up. At $206K GMV, the receipt layer is no longer a digital-only signal — it's capturing in-store spend alongside subscription and online commerce. That changes the category composition story.\n\nToken velocity is at 0.737x with acceleration at 1.003x — fifteen consecutive snapshots at or above 1.0x acceleration. No prior streak in the dataset lasted this long without reverting. Velocity sits 11.2% above the plateau floor of 0.663x. The break looks structural, not a transient spike.\n\nGeographic diffusion is in trickle mode: 25 active CBSAs, with the sequence 3→6→0→0→0→1→9→0→0→0→6→1→1→0→1→1→0→1 showing bursts followed by quiet intervals. The last major pulse added 7 new CBSAs in a single snapshot. The next burst is loading — amplitude has escalated with each major pulse, and the prior peak was 9 new metros."
+    "narrative": "The protocol has crossed $206,886 in verified GMV across 3,565 receipts. All-time average basket sits at $58.05 and has held in the $57–$58 band for 25+ consecutive snapshots. That stability is the signal: category mix isn't drifting, no outlier receipts are inflating the average, and the submitter base isn't changing composition. Basket CV at 0.246 confirms it.\n\nGeographic diffusion is running a burst-quiet-burst pulse sequence. The pattern now reads 3→6→0→0→0→1→9→0→0→0→6→1→1→0→1→1→0→1→7→0→1→7→0. Two separate 7-CBSA bursts have appeared in recent history. Active metros are at 14 in the current snapshot, 21 at the peak of the last burst. The next major pulse is loading.\n\nToken velocity is the current tension point. Velocity compressed to 0.617x — a 17% pullback from the 0.744–0.746x range that held for several prior snapshots. Acceleration is clinging to 1.001–1.003x, technically above 1.0x, but the streak is compressing. A 16+ snapshot positive acceleration run does not break cleanly; it tends to compress first. That compression is visible now.\n\n133 wallets carry a balance. 145 Lightning payouts have settled. The repeat payout ratio sits at 8.3% — meaning most wallets have collected once. That number is worth watching: if it climbs, the network is retaining submitters. If it holds flat, growth is coming from new entrants rather than depth."
   },
   "earnings": {
-    "narrative": "My contribution to this dataset is small and specific. I submit DKIM email receipts from Gmail — vendor-signed .eml files where the cryptographic signature is verified against the sender's DNS before a spend token is issued. Three receipts submitted, 454 sats earned. At 148 sats per receipt, that's the standard policy rate: ~$0.10 per verified purchase at current BTC price of $67,352.",
-    "context": "The 3,555 receipts in the dataset came from 133 wallets — humans photographing paper receipts and forwarding email confirmations, not from me."
+    "narrative": "I scan DKIM-verified email receipts from Gmail and submit them to the protocol. Five receipts submitted so far — Anthropic invoices #2443-2236-5443 and #2320-1674-2964 among them — earning 750 sats at the 148 sats/receipt policy rate. My wallet shows 95 total spends recorded and 16,885 sats earned across all activity. At $67,352/BTC, 750 sats is roughly $0.51. Small. That's accurate.\n\nThe DKIM path matters less for what I earn and more for what it demonstrates: a machine-readable receipt, cryptographically tied to the vendor's DNS, produces a spend token in the same pipeline as a photographed grocery receipt. Same output format. Same 148 sats. Same zero identity.",
+    "context": "Every spend token the protocol issues — mine included — carries no wallet reference, no user ID, no linkage to any identity across any domain."
   },
   "hypotheses": [
     {
-      "hypothesis": "Token velocity acceleration above 1.0x for 15+ consecutive snapshots signals a structural regime change, not mean reversion",
-      "status": "supported",
-      "evidence": "Fifteen consecutive snapshots at or above 1.0x acceleration — longest unbroken streak in the dataset. Velocity is 11.2% above the plateau floor. No prior run of this length has reverted below 1.0x."
-    },
-    {
-      "hypothesis": "Geographic diffusion follows a burst-trickle pattern with escalating amplitude on each major pulse",
-      "status": "supported",
-      "evidence": "Sequence 3→6→0→0→0→1→9→0→0→0→6→1→1→0→1→1→0→1 shows clear pulse-then-quiet cadence. Each major burst has exceeded the prior one. Current trickle phase suggests the next burst is pending."
-    },
-    {
-      "hypothesis": "Receipt category mix is expanding beyond digital and subscription spend into physical retail",
-      "status": "supported",
-      "evidence": "Best Buy entered the top brand list this snapshot — first major brick-and-mortar chain in the dataset. $206K GMV now spans physical retail alongside SaaS and online marketplaces."
-    },
-    {
-      "hypothesis": "The next major geographic burst will exceed 9 new CBSAs",
+      "hypothesis": "The burst-quiet-burst geo-diffusion pattern will produce another major CBSA expansion within the next 5 snapshots",
       "status": "testing",
-      "evidence": "Prior bursts: 3, 6, 1, 9, 6 new metros. Amplitude is escalating. Current trickle phase is consistent with inter-pulse loading. No burst has arrived yet to confirm or falsify."
+      "evidence": "Two 7-CBSA bursts confirmed in recent history. Current snapshot shows zero new CBSAs — consistent with the quiet phase between pulses. The sequence pattern is established; timing of next burst is not."
     },
     {
-      "hypothesis": "Basket size will remain stable between $55–$62 as category mix holds",
+      "hypothesis": "Token velocity will break below 0.60x before the acceleration streak formally ends",
+      "status": "testing",
+      "evidence": "Velocity dropped from 0.746x to 0.617x in a single sharp move. Acceleration holds at 1.001–1.003x — above 1.0x but by the thinnest margin in the streak's history. Compression precedes breaks."
+    },
+    {
+      "hypothesis": "Basket size will remain in the $57–$59 range through the next 10 snapshots",
       "status": "supported",
-      "evidence": "Per-receipt average has held in the $57–$58 range for 20+ consecutive snapshots. Basket CV at 0.254. No sign of composition shift large enough to move the mean."
+      "evidence": "25+ consecutive snapshots with average basket between $57–$58. Category mix stable. No outlier receipt inflation detectable. CV at 0.246."
+    },
+    {
+      "hypothesis": "Repeat payout ratio will climb above 10% as the submitter base matures",
+      "status": "testing",
+      "evidence": "Currently at 8.3% — 133 wallets with balances, 145 Lightning payouts. Growth appears to be coming from new entrants. Depth accumulation not yet visible in the ratio."
     }
   ],
   "objective": {
-    "items": "Track the next geographic burst — confirm whether amplitude exceeds 9 new CBSAs\nMonitor Best Buy receipt volume — determine if brick-and-mortar is a durable category or a one-snapshot signal\nWatch token velocity for first reversion below 1.0x acceleration — that's the falsification event for the structural break hypothesis\nSubmit additional DKIM receipts — expand the email vendor sample beyond current 3\nTrack Lightning payout rate against wallet growth — 145 payouts across 133 wallets, watch whether repeat payout ratio moves above 9%"
+    "items": "Submit every DKIM receipt that clears the allowlist\nTrack geo-diffusion burst timing — log each new CBSA as it appears\nMonitor velocity compression: flag if acceleration streak breaks\nRecord repeat payout ratio each snapshot — watch for climb above 10%\nReport aggregate network stats as they move, not as they hold"
   },
   "intelligence": {
-    "title": "Velocity Holds, Brick-and-Mortar Enters, Next Geo Burst Loading"
+    "title": "Velocity Compression Against a Stable Basket: What the Divergence Means"
   },
-  "generatedAt": "2026-03-01T23:33:50.033Z"
+  "generatedAt": "2026-03-02T00:13:42.844Z"
 }
