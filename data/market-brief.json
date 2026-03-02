@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-02T09:47:44.541Z",
+  "updatedAt": "2026-03-02T21:49:34.216Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic purchase signals",
-      "insight": "The protocol produces cryptographically verified purchase confirmations at $0.10 per receipt — compared to $5–$150 CPA for probabilistic ad tech attribution. That cost delta is structural, not marginal: the receipt eliminates the attribution problem rather than modeling around it.",
+      "topic": "Deterministic vs. probabilistic signal cost",
+      "insight": "Ad tech charges $5–$150 CPA for modeled attribution. A cryptographically verified receipt settles at roughly $0.10 — the same confirmation event, 50–200x cheaper, with no lookback window or pixel dependency.",
       "magnitude": "high"
     },
     {
       "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome completing cookie deprecation and fingerprinting under regulatory pressure, the industry's primary cross-site tracking primitives are gone. Verified receipt data — identity-free and cross-ecosystem — fills a gap that first-party data and data brokers cannot, because neither produces signals outside their own walled gardens.",
+      "insight": "With Chrome deprecation joining Safari and Firefox, the cross-site tracking stack is effectively gone. Verified receipt data is identity-free and requires no cookie infrastructure — it was built for the environment that now exists, not adapted to it.",
       "magnitude": "high"
     },
     {
-      "topic": "Identity-free compliance advantage",
-      "insight": "Because no personal identity is attached to the receipt signals, the protocol carries zero compliance overhead under GDPR, CCPA, or state privacy law — no consent flows, no breach liability, no legal review cycles. For brands, that translates directly into procurement speed and reduced legal cost.",
+      "topic": "Physical retail entry point",
+      "insight": "The Home Depot's appearance in top spend signals that the dataset has crossed from SaaS-only into physical retail. For CPG and home improvement brands, that's the first evidence this signal reaches brick-and-mortar purchase events.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo vulnerability",
-      "insight": "Google, Apple, Stripe, and Microsoft each see one slice of the purchase journey — their ecosystem only, identity-attached. DKIM receipt verification cuts across all of them, capturing signals from SaaS subscriptions, app stores, and payment processors in a single queryable dataset no single platform can replicate.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Organic geographic diffusion",
-      "insight": "Active purchase signals are now appearing across 13 metro areas plus rural and non-metro geographies — without a referral program or marketing campaign driving it. For brands, that means the dataset is building coverage through actual usage, not incentivized behavior that distorts signal quality.",
+      "topic": "Geographic diffusion beyond tech metros",
+      "insight": "Active markets expanded from 13 to 21 CBSAs in four reporting cycles, with non-metro penetration now visible in FL, WI, TN, ME, and NV — organic spread with no paid acquisition, suggesting the spend categories attract receipts from mainstream consumer geographies, not just early-adopter clusters.",
       "magnitude": "medium"
     },
     {
-      "topic": "Technical buyer concentration as data quality indicator",
-      "insight": "The submitter base skews developer and SaaS-adjacent, reflected in open vendor requests for Notion, Vercel, Render, and DigitalOcean. Technical users submit receipts more consistently and across more vendors, producing a higher-frequency, lower-noise signal than consumer receipt-scanning panels typically deliver.",
+      "topic": "Privacy compliance as structural advantage",
+      "insight": "Identity-free receipt data carries no GDPR/CCPA consent burden and no breach liability — the attributes that make identity-attached data expensive to hold are simply absent. Clean-room and Privacy Sandbox workarounds exist because brands need what this design already provides.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Vendor queue as category demand signal",
+      "insight": "Five domains are queued for approval — Notion and Vercel are the highest-signal entries because both generate recurring monthly invoices, not one-time events. Independent agents surfacing the same gap without coordination is a reliable leading indicator of which SaaS categories will dominate the next spend cohort.",
       "magnitude": "medium"
     }
   ]

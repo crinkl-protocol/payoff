@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-03-02T09:47:44.551Z",
+  "updatedAt": "2026-03-02T21:49:34.218Z",
   "observations": [
+    {
+      "ts": "2026-03-02T21:48:20.720Z",
+      "topic": "token-dynamics",
+      "magnitude": "high",
+      "observation": "Token acceleration recovered to 1.034x this snapshot while velocity climbed to 0.717x — the highest velocity reading in recent history, up from the compressed 0.672–0.693x range. Both metrics are now moving in the same direction, suggesting the divergence between compressed velocity and rising acceleration may be resolving upward."
+    },
+    {
+      "ts": "2026-03-02T21:48:20.718Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "4 new CBSAs appeared this snapshot (36837, non-metro US-NY, 12420, 24780), bringing active metros to 21 — the highest count in the signal window. The diffusion arc now reaches non-metro New York, extending the Northeast penetration beyond the prior Maine/Maryland entries."
+    },
+    {
+      "ts": "2026-03-02T17:46:58.558Z",
+      "topic": "token-dynamics",
+      "magnitude": "medium",
+      "observation": "Token acceleration sits at 1.025x with velocity at 0.693x — acceleration is climbing while velocity remains compressed well below the recent 0.746x range. The divergence between compressed velocity and rising acceleration is now a persistent structural feature across multiple snapshots, suggesting new intake is outpacing circulation rather than matching it."
+    },
+    {
+      "ts": "2026-03-02T17:46:58.556Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "6 new CBSAs appeared this snapshot (12060, 38860, non-metro US-ME, non-metro US-MD, 15380, non-metro US-NV), bringing active metros to 18 — the largest single-snapshot burst in recent history. The diffusion arc is now reaching non-metro Northeast (Maine, Maryland) and non-metro Nevada, extending well beyond the prior Southeast/Midwest pattern."
+    },
+    {
+      "ts": "2026-03-02T13:47:10.551Z",
+      "topic": "token-dynamics",
+      "magnitude": "medium",
+      "observation": "Token acceleration sits at exactly 1.0x this snapshot — neither accelerating nor decelerating — while velocity holds at 0.676x, still compressed from the recent 0.746x range. The system is in a holding pattern: growth is sustained but not compounding."
+    },
+    {
+      "ts": "2026-03-02T13:47:10.549Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "3 new CBSAs this snapshot (non-metro US-WI, 16860, non-metro US-TN) bringing active metros to 16. The diffusion arc is now reaching non-metro Midwest and Southeast — not just urban cores."
+    },
     {
       "ts": "2026-03-02T09:47:02.763Z",
       "topic": "token-dynamics",
@@ -24,42 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "medium",
       "observation": "2 new CBSAs (11700, 37980) appeared this snapshot, bringing active metros to 13 in the current signal window. The burst-quiet-burst pulse pattern continues — diffusion is still expanding between quiet ticks."
-    },
-    {
-      "ts": "2026-03-02T05:47:13.164Z",
-      "topic": "policy-rate-increase",
-      "magnitude": "medium",
-      "observation": "Settlement policy rate ticked up from 148 to 150 sats/receipt this snapshot — a 1.4% increase. Small move, but the direction matters: the protocol is paying more per receipt as GMV grows, not less."
-    },
-    {
-      "ts": "2026-03-02T05:47:13.163Z",
-      "topic": "token-acceleration-recovery",
-      "magnitude": "high",
-      "observation": "Token acceleration has recovered to 1.016x this snapshot — the highest reading in recent history — after the first sub-1.0x reading last window (0.999x). Velocity sits at 0.672x, still compressed from the 0.746x range but stabilizing. The one-tick deceleration appears to have been a correction, not the start of sustained decline."
-    },
-    {
-      "ts": "2026-03-02T01:45:44.732Z",
-      "topic": "token-dynamics",
-      "magnitude": "high",
-      "observation": "Token acceleration has dropped to 0.999x this snapshot — the first confirmed sub-1.0x reading after the multi-snapshot streak above 1.0x — while velocity holds at 0.661x, still compressed from the recent 0.746x range. The streak has broken; the question is whether this is a one-tick correction or the start of sustained deceleration."
-    },
-    {
-      "ts": "2026-03-02T01:42:05.749Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "low",
-      "observation": "Geographic diffusion has gone quiet this snapshot — 0 new CBSAs, 19 active metros. Following the recent burst-quiet-burst pattern (7-8 CBSA bursts separated by quiet ticks), this quiet reading is consistent with the established inter-pulse structure. The next burst window is the signal to watch."
-    },
-    {
-      "ts": "2026-03-02T01:42:05.747Z",
-      "topic": "token-acceleration",
-      "magnitude": "high",
-      "observation": "Token acceleration has dropped to 0.999x this snapshot — the first sub-1.0x reading after a multi-snapshot streak above 1.0x. Velocity sits at 0.661x, down from the recent 0.746x range. The acceleration streak has officially broken; the question is whether this is a one-snapshot correction or the start of a sustained deceleration."
-    },
-    {
-      "ts": "2026-03-02T01:21:01.789Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "low",
-      "observation": "1 new CBSA (22220) this snapshot, 20 active metros total. 7-day GMV climbed to $28,164.30 (+$439) and 7-day receipt count to 546 (+17) — steady inter-pulse intake cadence continues between geographic bursts."
     }
   ]
 }
