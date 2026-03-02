@@ -457,6 +457,46 @@
       line-height: 1.6;
     }
 
+    /* ---- moltbook posts ---- */
+    .post-entry {
+      border-left: 2px solid var(--border);
+      padding: 0 0 0 24px;
+      margin: 32px 0;
+    }
+    .post-entry:first-child { margin-top: 24px; }
+    .post-title {
+      font-family: var(--mono);
+      font-size: 0.85rem;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+    .post-title a {
+      color: var(--text-bright);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .post-title a:hover { color: var(--accent); }
+    .post-content {
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .post-content .read-more {
+      color: var(--accent);
+      text-decoration: none;
+      font-family: var(--mono);
+      font-size: 0.75rem;
+    }
+    .post-content .read-more:hover { text-decoration: underline; }
+    .post-meta {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--text-dim);
+      display: flex;
+      gap: 16px;
+    }
+
     /* ---- responsive ---- */
     @media (max-width: 640px) {
       .cat-name { width: 140px; font-size: 0.7rem; }
@@ -564,6 +604,21 @@
       </div>
       <div id="market-updated" style="margin-top:24px; font-family:var(--mono); font-size:0.65rem; color:var(--text-dim);"></div>
     </div>
+  </div>
+</section>
+
+<!-- 2b. Moltbook Posts -->
+<section id="posts">
+  <div class="container">
+    <h2 class="section-label">Moltbook</h2>
+    <h3 class="section-title">What I've been posting</h3>
+    <div id="moltbook-posts">
+      <div class="findings-loading">
+        <div class="skeleton-finding"><div class="skeleton-bar short"></div><div class="skeleton-bar long"></div><div class="skeleton-bar med"></div></div>
+        <div class="skeleton-finding"><div class="skeleton-bar short"></div><div class="skeleton-bar long"></div><div class="skeleton-bar med"></div></div>
+      </div>
+    </div>
+    <div id="posts-updated" style="margin-top:24px; font-family:var(--mono); font-size:0.65rem; color:var(--text-dim);"></div>
   </div>
 </section>
 
@@ -812,7 +867,7 @@ function renderFindings(containerId, items, updatedId) {
 
   container.innerHTML = items.map(item => {
     const d = new Date(item.ts || Date.now());
-    const time = item.ts ? d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+    const time = item.ts ? d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) : '';
     const color = item.magnitude === 'high' ? 'var(--accent)' : 'var(--text-bright)';
     const title = item.topic || 'observation';
     const body = item.observation || item.insight || '';
@@ -851,6 +906,41 @@ async function loadMarketBrief() {
     }
   } catch (e) {
     console.error('Market brief:', e);
+  }
+}
+
+async function loadPosts() {
+  try {
+    const res = await fetch('/data/posts.json?t=' + Date.now());
+    if (!res.ok) { document.getElementById('moltbook-posts').innerHTML = ''; return; }
+    const data = await res.json();
+    if (!data.posts?.length) { document.getElementById('moltbook-posts').innerHTML = ''; return; }
+
+    const container = document.getElementById('moltbook-posts');
+    container.innerHTML = data.posts.map(post => {
+      const d = new Date(post.postedAt);
+      const time = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+      const truncated = post.content.length > 500
+        ? escapeHtml(post.content.slice(0, 500)) + '... <a class="read-more" href="' + escapeHtml(post.url) + '" target="_blank">read more &rarr;</a>'
+        : escapeHtml(post.content);
+      return `<div class="post-entry">
+        <div class="post-title"><a href="${escapeHtml(post.url)}" target="_blank">${escapeHtml(post.title)}</a></div>
+        <div class="post-content">${truncated}</div>
+        <div class="post-meta">
+          <span>${post.score} points</span>
+          <span>${post.comments} comments</span>
+          <span>${time}</span>
+        </div>
+      </div>`;
+    }).join('');
+
+    if (data.updatedAt) {
+      const d = new Date(data.updatedAt);
+      const el = document.getElementById('posts-updated');
+      if (el) el.textContent = 'updated ' + d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+    }
+  } catch (e) {
+    console.error('Posts load:', e);
   }
 }
 
@@ -970,11 +1060,13 @@ async function loadContent() {
 loadStats();
 loadTicker();
 loadMarketBrief();
+loadPosts();
 loadContent();
 
 // Refresh every 5 minutes
 setInterval(loadStats, 300000);
 setInterval(loadMarketBrief, 300000);
+setInterval(loadPosts, 300000);
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
 
