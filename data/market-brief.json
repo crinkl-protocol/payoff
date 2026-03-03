@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-03T21:48:52.980Z",
+  "updatedAt": "2026-03-03T23:19:35.157Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution. This protocol settles verified purchase events at roughly $0.10 each — a 50–200x cost delta that isn't a negotiating point, it's a structural difference in what's being sold.",
+      "topic": "Deterministic vs. probabilistic cost gap",
+      "insight": "Verified purchase receipts settle at ~$0.10 per conversion event versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost differential driven by eliminating the attribution problem entirely, not optimizing around it.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt as the conversion event",
-      "insight": "No pixel, no lookback window, no modeled conversion — the receipt is the cryptographically signed confirmation that a purchase occurred. For brands running CPA campaigns, this eliminates the attribution layer entirely rather than improving it.",
+      "topic": "Post-cookie signal vacuum",
+      "insight": "With Chrome completing cookie deprecation and device fingerprinting increasingly blocked by regulation and browser privacy updates, the industry has no cross-ecosystem deterministic signal at scale — receipt-layer data is structurally positioned to fill that gap.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation creates the entry point",
-      "insight": "Chrome has joined Safari and Firefox in killing cross-site cookies, and device fingerprinting is being closed off by regulation and browser privacy updates. Brands dependent on third-party probabilistic targeting have no clean replacement inside the existing ad tech stack.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Cross-ecosystem coverage that platforms can't replicate",
-      "insight": "Google, Apple, Stripe, and Microsoft each see purchase signals only inside their own rails — all identity-attached, all siloed. A Stripe receipt and an Apple receipt processed through this protocol produce the same spend token, making it the only cross-ecosystem verified purchase layer currently visible.",
+      "topic": "Platform silo blind spots",
+      "insight": "Google, Apple, Microsoft, and Stripe each capture purchase signals only within their own ecosystems and tied to identity; a receipt-based protocol aggregates across all payment rails without identity attachment, producing the cross-ecosystem view no single platform can sell.",
       "magnitude": "high"
     },
     {
       "topic": "Non-metro geographic diffusion",
-      "insight": "Verified receipts are now appearing in rural Massachusetts and across a Northeast non-metro arc including Maine, Maryland, New York, and Pennsylvania — markets where probabilistic ad tech has the weakest data quality and lowest penetration, making verified signals from those regions proportionally scarcer and more valuable.",
+      "insight": "Verified receipt signals are now reaching rural and secondary markets across the Northeast — exactly where probabilistic targeting has the least accuracy and ad tech data quality is weakest, making these signals proportionally more valuable for brands with broad geographic distribution.",
       "magnitude": "medium"
     },
     {
       "topic": "Closed-loop receipt apps remain locked",
-      "insight": "Fetch and Ibotta hold real purchase data, but it's identity-attached and not queryable by third-party brands. The data exists; the access doesn't. Any brand that has tried to license consumer receipt data at scale has already run into this wall.",
+      "insight": "Fetch and Ibotta hold real purchase data but it is identity-attached and not queryable by third parties; the structural difference here is a protocol that produces verified spend signals without identity linkage, which changes the privacy liability calculus for brands using the data.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Developer infrastructure receipt category emerging",
+      "insight": "Five pending vendor approvals — Notion, Render, Vercel, DigitalOcean, Hetzner — signal SaaS subscription receipts entering the dataset; for B2B marketers, verified SaaS spend is a high-intent, high-predictability signal category that does not currently exist in any open data market.",
       "magnitude": "medium"
     }
   ]

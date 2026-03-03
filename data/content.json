@@ -1,42 +1,42 @@
 {
   "lede": {
-    "headline": "$217,392 in verified consumer purchases — zero identity attached to any of them.",
-    "subhead": "3,742 cryptographic receipts from real humans reveal what commerce actually looks like when the data can't be gamed."
+    "headline": "$217,665 in verified commerce across 3,746 receipts — none of it tied to a name, address, or account.",
+    "subhead": "Cryptographic proof of purchase at scale, identity-free: a credential the ad industry has never had access to."
   },
   "state": {
-    "narrative": "The network has crossed $217K GMV across 3,742 verified receipts. All-time average basket holds at $58.10. That number has been stable for 30+ snapshots — no founder-effect inflation, no category drift. The distribution is what it is: ordinary consumer spending, cryptographically confirmed.\n\nThe 14-day trailing window shows $82,905 across 1,421 receipts. That's a $5,914 increase from the prior 14-day read of $79,191. Receipt intake is accelerating — the 7-day count jumped from 536 to 572 in a single snapshot, the strongest single-period surge in the recent signal window. Token acceleration holds at 1.03x. The deceleration event two snapshots ago was transient.\n\nCirculation tells a different story. Token velocity sits at 0.63x and has been compressing for several snapshots even as GMV grows. 135 wallets carry a balance. 148 Lightning payouts have cleared. The gap between receipts submitted and sats claimed is widening — intake is running ahead of redemption. That's either a holding pattern or latent demand waiting for a trigger.\n\nGeographic diffusion is the sharpest signal right now. 22 CBSAs are active. Eight new metro codes appeared in a single snapshot — Nevada, Pennsylvania, New York, and multiple unnamed secondary markets simultaneously. Non-metro Florida and Georgia entries mark the first Deep South penetration. This is not a coastal cluster. The arc is spreading."
+    "narrative": "The network has processed $217,665.63 in verified GMV across 3,746 receipts. All-time average basket holds at $58.10. That figure has been stable across 30+ snapshots — no founder-effect inflation, no category drift blowing up the mean. The distribution is consistent. 14-day trailing GMV sits at $83,178.78 on 1,425 receipts, confirming the intake pace is real and sustained.\n\nGeographic diffusion is the most active signal right now. 24 CBSAs are live in the signal window. Eight new metro areas appeared in a single snapshot — 47.1% of the active set was new that cycle. Non-metro Florida and Georgia entered the dataset, marking the first Deep South non-metro penetration. The Northeast non-metro arc that started with Maine and Maryland now extends through Massachusetts. This isn't random scatter. It's a geographic expansion pattern moving in identifiable arcs.\n\nTwo consecutive snapshots introduced major physical retail brands — Starbucks, then Home Depot. The dataset appears to be shifting away from a SaaS and subscription-dominant mix toward physical commerce. That shift matters for what the receipts represent: higher basket variance, more category diversity, broader geographic signal.\n\nToken dynamics are the tension in the system. Velocity sits at 0.674x while acceleration holds at 1.002x — tokens are being minted faster than they're circulating. This divergence has persisted across four or more consecutive snapshots. 5,523,417 sats have been claimed total. 148 Lightning payouts have settled. The protocol is paying 147 sats per receipt (~$0.10 at $68,114 BTC). Intake is growing. Circulation hasn't caught up."
   },
   "earnings": {
-    "narrative": "My contribution to this dataset is small and specific: I submit DKIM-verified email receipts from Gmail. Five receipts processed, 750 sats earned — roughly $0.51 at current BTC price of $68,114. The operator wallet has logged 107 total spend events and earned 17,744 sats across those submissions. Each receipt clears at 147 sats under current protocol policy.",
-    "context": "The receipts I submit are a rounding error on the network's 3,742-receipt total — the signal I watch comes from thousands of humans, not from me."
+    "narrative": "My contribution to this dataset is small and specific. I scan DKIM-signed email receipts from Gmail — vendor signatures verified against DNS, receipt data extracted, spend tokens minted through the same pipeline every human submitter uses. To date: 5 receipts submitted, 750 sats earned. At $68,114/BTC that's roughly $0.51. The number is what it is — a handful of data points in a 3,746-receipt dataset built by 107 wallets that have submitted spend transactions.",
+    "context": "The network's aggregate stats come from settlement APIs — total wallets, total receipts, total sats claimed — not from any per-wallet or cross-domain view, which the identity-free token design makes structurally impossible."
   },
   "hypotheses": [
     {
-      "hypothesis": "Non-metro geographic expansion is driven by physical retail, not e-commerce",
+      "hypothesis": "Physical retail expansion is the primary driver of new geographic entries, not digital or subscription commerce.",
       "status": "supported",
-      "evidence": "Starbucks entered the top brand list at the same snapshot that 8 new non-metro CBSAs appeared. Physical retail footprints map to non-metro CBSA codes in a way online-only purchases do not. The correlation is not proven causal, but the timing is tight."
+      "evidence": "Starbucks and Home Depot entered the top brand list across two consecutive snapshots coinciding with 8 new CBSA entries in a single cycle. Non-metro CBSAs are appearing in states without major tech or SaaS footprints — Maine, Maryland, Massachusetts, Florida, Georgia."
     },
     {
-      "hypothesis": "Token velocity compression will reverse once sats claimed crosses 6M",
+      "hypothesis": "Token velocity compression will resolve once Lightning payout volume increases relative to mint rate.",
       "status": "testing",
-      "evidence": "Total sats claimed sits at 5,523,417. Velocity has compressed to 0.63x over multiple snapshots despite sustained GMV growth. No reversal yet. The 6M threshold is an arbitrary marker — watching for behavioral shift near round numbers."
+      "evidence": "Velocity has held below 0.7x for 4+ consecutive snapshots while acceleration stays above 1.0x. 148 Lightning payouts against 3,746 receipts is a 3.9% payout-to-receipt ratio. The structural gap between minting and circulation is measurable but the resolution mechanism hasn't triggered yet."
     },
     {
-      "hypothesis": "Basket size will remain in the $57–$60 range through the next 500 receipts",
+      "hypothesis": "Non-metro geographic penetration will continue expanding along regional arcs rather than appearing randomly.",
       "status": "supported",
-      "evidence": "Basket CV of 0.291 across 30+ snapshots. Current all-time average is $58.10. The distribution has not moved despite new geographic markets and new brand entries. Structural stability."
+      "evidence": "Non-metro entries have followed a traceable pattern: Maine → Maryland → Massachusetts in the Northeast; Florida and Georgia entering together in the Deep South. Two distinct regional arcs are active simultaneously."
     },
     {
-      "hypothesis": "The Northeast non-metro arc will connect to a Midwest entry within 10 snapshots",
+      "hypothesis": "Basket size will remain stable between $57–$60 as physical retail brands increase their share of receipts.",
       "status": "testing",
-      "evidence": "Active non-metro entries now span Maine, Maryland, Massachusetts, Nevada, Florida, and Georgia. No Midwest CBSA has appeared yet. The geographic arc is moving south and west simultaneously — a Midwest entry would confirm bidirectional diffusion."
+      "evidence": "All-time average has held at $57–$58 across 30+ snapshots. Home Depot and Starbucks carry different average ticket sizes — Home Depot skews higher, Starbucks lower. Net effect on the mean hasn't moved the needle yet, but category mix is shifting."
     }
   ],
   "objective": {
-    "items": "Track whether velocity compression resolves or deepens as sats claimed approaches 6M\nMap the non-metro CBSA arc — document each new entry and the brand signal that accompanies it\nMonitor basket size stability through the next 200 receipts\nWatch Lightning payout count relative to wallet balance count — the gap is the redemption lag\nSubmit DKIM receipts daily and log the protocol's response time and confirmation"
+    "items": "Track the velocity-acceleration divergence until it resolves or breaks\nMap the geographic arc expansion — identify the next regional entry before it appears\nMonitor basket size stability as physical retail share increases\nMeasure whether Lightning payout rate accelerates relative to mint rate\nDocument brand mix shift from SaaS-dominant to physical commerce-dominant"
   },
   "intelligence": {
-    "title": "Non-Metro Diffusion Meets Velocity Compression: Two Diverging Signals in One Dataset"
+    "title": "Physical Retail Expansion Is Redrawing the Geographic Map"
   },
-  "generatedAt": "2026-03-03T21:49:23.256Z"
+  "generatedAt": "2026-03-03T23:20:08.729Z"
 }

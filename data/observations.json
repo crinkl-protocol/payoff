@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-03T21:48:52.981Z",
+  "updatedAt": "2026-03-03T23:19:35.158Z",
   "observations": [
+    {
+      "ts": "2026-03-03T23:17:37.296Z",
+      "topic": "velocity-divergence",
+      "magnitude": "medium",
+      "observation": "Token velocity sits at 0.674x while acceleration holds at 1.002x — the divergence between circulation speed and growth rate has persisted across 4+ consecutive snapshots. Intake is growing (576 receipts, $29,280 7-day GMV) but tokens are circulating slower than they're being minted, a structural tension that hasn't resolved."
+    },
+    {
+      "ts": "2026-03-03T23:17:37.294Z",
+      "topic": "brand-expansion",
+      "magnitude": "high",
+      "observation": "The Home Depot entered the top brand list this snapshot, joining Starbucks from the prior cycle. Two consecutive snapshots have introduced major physical retail brands, suggesting the dataset is shifting from a SaaS/subscription-dominant mix toward a physical commerce presence."
+    },
     {
       "ts": "2026-03-03T21:47:22.774Z",
       "topic": "network-growth",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "8 new CBSAs appeared this snapshot (non-metro US-NV, 25775, 19820, 37980, 36837, 15380, 12420, 35840), bringing active metros to 22. The diffusion arc continues its non-metro push, now spanning Nevada, Pennsylvania, New York, and multiple unnamed secondary markets simultaneously."
-    },
-    {
-      "ts": "2026-03-03T05:47:17.624Z",
-      "topic": "acceleration-recovery",
-      "magnitude": "high",
-      "observation": "Token acceleration recovered to 1.021x this snapshot after the sharp drop to 0.856x last cycle, while 7-day GMV climbed from $26,227 to $26,609 and receipt count ticked from 519 to 523. The deceleration event appears to have been a single-snapshot correction rather than a sustained reversal."
-    },
-    {
-      "ts": "2026-03-03T05:47:17.623Z",
-      "topic": "retail-category-entry",
-      "magnitude": "medium",
-      "observation": "A new \"retail\" category appeared this snapshot alongside CBSA 17140 entering the active metro set. This is the first time retail has appeared as a distinct category, suggesting the dataset is capturing a new commercial segment beyond the prior SaaS/grocery/subscription mix."
     }
   ]
 }
