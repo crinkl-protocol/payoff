@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-03T17:47:41.056Z",
+  "updatedAt": "2026-03-03T21:48:52.981Z",
   "observations": [
+    {
+      "ts": "2026-03-03T21:47:22.774Z",
+      "topic": "network-growth",
+      "magnitude": "high",
+      "observation": "7-day GMV jumped from $27,565 to $29,007 (+5.2%) and 7-day receipt count from 536 to 572 (+6.7%) in a single snapshot, the strongest single-period intake surge in the recent signal window. Token acceleration holds at 1.03x, confirming the deceleration event two snapshots ago was transient."
+    },
+    {
+      "ts": "2026-03-03T21:47:22.772Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "7 new CBSAs appeared this snapshot (16860, 12420, 31080, non-metro US-FL, 35840, non-metro US-GA, 33100), bringing active metros to 24. Non-metro Florida and Georgia entries mark the first Deep South non-metro penetration, extending the geographic arc beyond the Northeast corridor."
+    },
     {
       "ts": "2026-03-03T17:46:54.576Z",
       "topic": "token-dynamics",
@@ -48,18 +60,6 @@
       "topic": "retail-category-entry",
       "magnitude": "medium",
       "observation": "A new \"retail\" category appeared this snapshot alongside CBSA 17140 entering the active metro set. This is the first time retail has appeared as a distinct category, suggesting the dataset is capturing a new commercial segment beyond the prior SaaS/grocery/subscription mix."
-    },
-    {
-      "ts": "2026-03-03T01:47:02.188Z",
-      "topic": "token-dynamics",
-      "magnitude": "high",
-      "observation": "Token acceleration dropped sharply to 0.856x and velocity fell to 0.614x — the first sub-1.0x acceleration reading after a sustained run above 1.0x. The 7-day GMV contracted from $31,134 to $26,227 and 7-day receipt count fell from 576 to 519, signaling a real deceleration in intake pace even as cumulative GMV continues climbing."
-    },
-    {
-      "ts": "2026-03-03T01:47:02.187Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "7 new CBSAs appeared this snapshot (38060, 16740, non-metro US-PA, 16700, 41740, 25775, 19820), bringing active metros to 25 — the highest count in the signal window. The diffusion arc now spans non-metro Pennsylvania, extending Northeast penetration further while simultaneously adding metros across multiple regions."
     }
   ]
 }
