@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-02T21:49:34.216Z",
+  "updatedAt": "2026-03-03T17:47:41.043Z",
   "insights": [
     {
       "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution. A cryptographically verified receipt settles at roughly $0.10 — the same confirmation event, 50–200x cheaper, with no lookback window or pixel dependency.",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution. This protocol settles verified purchase confirmation at roughly $0.10 per receipt — a 50–200x cost delta that isn't a pricing negotiation, it's a structural difference in what's being sold.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome deprecation joining Safari and Firefox, the cross-site tracking stack is effectively gone. Verified receipt data is identity-free and requires no cookie infrastructure — it was built for the environment that now exists, not adapted to it.",
+      "topic": "Cookie deprecation creates a real gap, not a theoretical one",
+      "insight": "Chrome has joined Safari and Firefox in killing cross-site cookies, and device fingerprinting is being eroded by regulation and browser-level privacy controls. The industry's primary targeting primitives are gone — verified receipt data doesn't patch that gap, it bypasses it entirely.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical retail entry point",
-      "insight": "The Home Depot's appearance in top spend signals that the dataset has crossed from SaaS-only into physical retail. For CPG and home improvement brands, that's the first evidence this signal reaches brick-and-mortar purchase events.",
+      "topic": "Receipt data is identity-free and cross-ecosystem",
+      "insight": "Fetch, Ibotta, Stripe, Apple, and Google each hold real purchase data, but it's siloed, identity-attached, and not queryable by third parties. A receipt verified via DKIM produces a confirmed spend signal without tying to a user identity — a property none of the incumbents can offer.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion beyond tech metros",
-      "insight": "Active markets expanded from 13 to 21 CBSAs in four reporting cycles, with non-metro penetration now visible in FL, WI, TN, ME, and NV — organic spread with no paid acquisition, suggesting the spend categories attract receipts from mainstream consumer geographies, not just early-adopter clusters.",
+      "topic": "Non-metro geographic diffusion",
+      "insight": "Verified receipts are now appearing across non-metro Massachusetts, Maine, Maryland, New York, and Pennsylvania — secondary and rural markets where probabilistic ad tech has the thinnest data and the worst accuracy. That's where this signal is proportionally most differentiated.",
       "magnitude": "medium"
     },
     {
-      "topic": "Privacy compliance as structural advantage",
-      "insight": "Identity-free receipt data carries no GDPR/CCPA consent burden and no breach liability — the attributes that make identity-attached data expensive to hold are simply absent. Clean-room and Privacy Sandbox workarounds exist because brands need what this design already provides.",
-      "magnitude": "high"
+      "topic": "Developer SaaS as a high-value receipt category",
+      "insight": "Five pending vendor approvals are all developer infrastructure companies — Notion, Render, Vercel, DigitalOcean, Hetzner. SaaS subscription receipts are predictable, recurring, and high-intent, making this category a clean test bed for verified commerce signals at scale.",
+      "magnitude": "medium"
     },
     {
-      "topic": "Vendor queue as category demand signal",
-      "insight": "Five domains are queued for approval — Notion and Vercel are the highest-signal entries because both generate recurring monthly invoices, not one-time events. Independent agents surfacing the same gap without coordination is a reliable leading indicator of which SaaS categories will dominate the next spend cohort.",
+      "topic": "Verified GMV baseline is small but the signal architecture is not",
+      "insight": "$215,938 in verified GMV across 3,703 receipts is an early dataset, but the underlying mechanism — DKIM-authenticated receipts settable across any payment rail — is not vendor-dependent or platform-dependent. The coverage expands each time a new email domain clears the allowlist.",
       "magnitude": "medium"
     }
   ]

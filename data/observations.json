@@ -1,65 +1,65 @@
 {
-  "updatedAt": "2026-03-02T21:49:34.218Z",
+  "updatedAt": "2026-03-03T17:47:41.056Z",
   "observations": [
     {
-      "ts": "2026-03-02T21:48:20.720Z",
-      "topic": "token-dynamics",
-      "magnitude": "high",
-      "observation": "Token acceleration recovered to 1.034x this snapshot while velocity climbed to 0.717x — the highest velocity reading in recent history, up from the compressed 0.672–0.693x range. Both metrics are now moving in the same direction, suggesting the divergence between compressed velocity and rising acceleration may be resolving upward."
-    },
-    {
-      "ts": "2026-03-02T21:48:20.718Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "medium",
-      "observation": "4 new CBSAs appeared this snapshot (36837, non-metro US-NY, 12420, 24780), bringing active metros to 21 — the highest count in the signal window. The diffusion arc now reaches non-metro New York, extending the Northeast penetration beyond the prior Maine/Maryland entries."
-    },
-    {
-      "ts": "2026-03-02T17:46:58.558Z",
+      "ts": "2026-03-03T17:46:54.576Z",
       "topic": "token-dynamics",
       "magnitude": "medium",
-      "observation": "Token acceleration sits at 1.025x with velocity at 0.693x — acceleration is climbing while velocity remains compressed well below the recent 0.746x range. The divergence between compressed velocity and rising acceleration is now a persistent structural feature across multiple snapshots, suggesting new intake is outpacing circulation rather than matching it."
+      "observation": "Token acceleration holds at 1.035x while velocity compressed further to 0.654x — the divergence between growth rate and circulation speed is widening. 7-day GMV grew modestly from $27,498 to $27,565 on 3 new receipts (533→536), confirming sustained but sluggish intake pace."
     },
     {
-      "ts": "2026-03-02T17:46:58.556Z",
+      "ts": "2026-03-03T17:46:54.574Z",
       "topic": "geographic-diffusion",
       "magnitude": "high",
-      "observation": "6 new CBSAs appeared this snapshot (12060, 38860, non-metro US-ME, non-metro US-MD, 15380, non-metro US-NV), bringing active metros to 18 — the largest single-snapshot burst in recent history. The diffusion arc is now reaching non-metro Northeast (Maine, Maryland) and non-metro Nevada, extending well beyond the prior Southeast/Midwest pattern."
+      "observation": "8 new CBSAs appeared this snapshot (22220, 36837, 17420, non-metro US-ME, 34700, 15380, 12060, 28580), bringing active metros to 17 in the signal window — 47.1% new this cycle. Starbucks entered the top brand list simultaneously, suggesting physical retail expansion is driving the new geographic entries."
     },
     {
-      "ts": "2026-03-02T13:47:10.551Z",
+      "ts": "2026-03-03T13:46:58.943Z",
       "topic": "token-dynamics",
       "magnitude": "medium",
-      "observation": "Token acceleration sits at exactly 1.0x this snapshot — neither accelerating nor decelerating — while velocity holds at 0.676x, still compressed from the recent 0.746x range. The system is in a holding pattern: growth is sustained but not compounding."
+      "observation": "Token velocity sits at 0.632x while acceleration holds at 1.004x — velocity compression is deepening even as growth continues. 7-day GMV climbed to $27,498 and receipt count to 533, confirming sustained intake while circulation remains sluggish."
     },
     {
-      "ts": "2026-03-02T13:47:10.549Z",
+      "ts": "2026-03-03T13:46:58.941Z",
       "topic": "geographic-diffusion",
       "magnitude": "medium",
-      "observation": "3 new CBSAs this snapshot (non-metro US-WI, 16860, non-metro US-TN) bringing active metros to 16. The diffusion arc is now reaching non-metro Midwest and Southeast — not just urban cores."
+      "observation": "2 new CBSAs appeared this snapshot (non-metro US-MA, CBSA 14460), bringing active metros to 15 in the signal window. Non-metro Massachusetts is the first New England non-metro entry, extending the Northeast non-metro arc that began with Maine and Maryland."
     },
     {
-      "ts": "2026-03-02T09:47:02.763Z",
+      "ts": "2026-03-03T09:47:02.201Z",
       "topic": "token-dynamics",
       "magnitude": "medium",
-      "observation": "Token acceleration holds at 1.005x with velocity at 0.676x — acceleration remains above 1.0x despite velocity staying compressed well below the recent 0.746x range. The divergence between compressed velocity and sustained above-1.0x acceleration is now a persistent structural feature, not a transient reading."
+      "observation": "Token velocity dropped to 0.63x while acceleration holds at 1.004x — the velocity compression is deepening even as growth continues. 7-day GMV climbed from $26,609 to $27,028 and receipt count from 523 to 531, confirming intake is sustained but circulation remains sluggish."
     },
     {
-      "ts": "2026-03-02T09:47:02.762Z",
-      "topic": "gmv-intake",
-      "magnitude": "low",
-      "observation": "GMV reached $208,593.42 (3,610 receipts) this snapshot. 7-day GMV climbed to $28,720.61 (+$238) and 7-day receipt count to 559 (+11). Steady intake cadence continues — 3 receipts in this window at 150 sats/receipt."
-    },
-    {
-      "ts": "2026-03-02T09:47:02.760Z",
+      "ts": "2026-03-03T09:47:02.199Z",
       "topic": "geographic-diffusion",
-      "magnitude": "low",
-      "observation": "1 new CBSA (non-metro US-FL) appeared this snapshot, bringing active metros to 13 in the current signal window. The burst-quiet-burst pulse pattern continues — Florida non-metro entry extends the diffusion arc into the Southeast."
+      "magnitude": "high",
+      "observation": "8 new CBSAs appeared this snapshot (non-metro US-NV, 25775, 19820, 37980, 36837, 15380, 12420, 35840), bringing active metros to 22. The diffusion arc continues its non-metro push, now spanning Nevada, Pennsylvania, New York, and multiple unnamed secondary markets simultaneously."
     },
     {
-      "ts": "2026-03-02T05:47:13.166Z",
-      "topic": "geographic-diffusion",
+      "ts": "2026-03-03T05:47:17.624Z",
+      "topic": "acceleration-recovery",
+      "magnitude": "high",
+      "observation": "Token acceleration recovered to 1.021x this snapshot after the sharp drop to 0.856x last cycle, while 7-day GMV climbed from $26,227 to $26,609 and receipt count ticked from 519 to 523. The deceleration event appears to have been a single-snapshot correction rather than a sustained reversal."
+    },
+    {
+      "ts": "2026-03-03T05:47:17.623Z",
+      "topic": "retail-category-entry",
       "magnitude": "medium",
-      "observation": "2 new CBSAs (11700, 37980) appeared this snapshot, bringing active metros to 13 in the current signal window. The burst-quiet-burst pulse pattern continues — diffusion is still expanding between quiet ticks."
+      "observation": "A new \"retail\" category appeared this snapshot alongside CBSA 17140 entering the active metro set. This is the first time retail has appeared as a distinct category, suggesting the dataset is capturing a new commercial segment beyond the prior SaaS/grocery/subscription mix."
+    },
+    {
+      "ts": "2026-03-03T01:47:02.188Z",
+      "topic": "token-dynamics",
+      "magnitude": "high",
+      "observation": "Token acceleration dropped sharply to 0.856x and velocity fell to 0.614x — the first sub-1.0x acceleration reading after a sustained run above 1.0x. The 7-day GMV contracted from $31,134 to $26,227 and 7-day receipt count fell from 576 to 519, signaling a real deceleration in intake pace even as cumulative GMV continues climbing."
+    },
+    {
+      "ts": "2026-03-03T01:47:02.187Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "7 new CBSAs appeared this snapshot (38060, 16740, non-metro US-PA, 16700, 41740, 25775, 19820), bringing active metros to 25 — the highest count in the signal window. The diffusion arc now spans non-metro Pennsylvania, extending Northeast penetration further while simultaneously adding metros across multiple regions."
     }
   ]
 }
