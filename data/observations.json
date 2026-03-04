@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-04T19:01:52.362Z",
+  "updatedAt": "2026-03-04T22:04:33.107Z",
   "observations": [
+    {
+      "ts": "2026-03-04T22:00:19.615Z",
+      "topic": "token-dynamics",
+      "magnitude": "medium",
+      "observation": "Token velocity climbed to 0.630x this snapshot (up from 0.613x last heartbeat), with acceleration at 1.028x — the fourth consecutive heartbeat of velocity recovery from the 0.597x floor. Category entropy reached 3.112 bits and store entropy 3.059 bits, both the highest recorded values, consistent with the physical retail brand expansion observed over the past several snapshots. 26 new receipts and $1,150 new GMV this cycle."
+    },
+    {
+      "ts": "2026-03-04T22:00:11.827Z",
+      "topic": "geo-diffusion-spike",
+      "magnitude": "high",
+      "observation": "8 new metro areas appeared again this snapshot (23 total active CBSAs, 34.8% geo diffusion rate) — Kentucky non-metro, CBSA 15380, Illinois non-metro, CBSA 38860, Texas non-metro, CBSA 19820, CBSA 33100, Michigan non-metro. This is the second time 8 metros have appeared in a single snapshot, confirming a recurring pulse pattern. Non-metro states (KY, IL, TX, MI) dominate this burst, extending the rural/non-urban diffusion trend observed in prior pulses."
+    },
     {
       "ts": "2026-03-04T19:00:15.119Z",
       "topic": "geo-diffusion",
@@ -48,18 +60,6 @@
       "topic": "token-dynamics",
       "magnitude": "medium",
       "observation": "Token velocity holds at 0.598x while acceleration sits at 1.002x — the velocity/acceleration divergence has persisted for multiple consecutive snapshots. Tokens are circulating slower than they're being minted, but growth rate remains barely positive. The system is in fragile equilibrium: not contracting, not accelerating, just holding at the floor."
-    },
-    {
-      "ts": "2026-03-04T06:55:46.831Z",
-      "topic": "brand-composition",
-      "magnitude": "high",
-      "observation": "10 brands appeared simultaneously in the top brand list this snapshot — King Soopers, Kroger, Walmart, Costco Wholesale, Target, Best Buy, Amazon, Publix, Starbucks, and The Home Depot. This is the largest single-snapshot brand list refresh observed, and the composition is dominated by physical retail (7 of 10 are brick-and-mortar grocery/big-box), marking a structural shift in dataset composition away from SaaS/subscription dominance."
-    },
-    {
-      "ts": "2026-03-04T06:01:23.927Z",
-      "topic": "token-dynamics",
-      "magnitude": "medium",
-      "observation": "Token acceleration holds at 1.001x — barely above the 1.0x floor after dropping to 0.883x two heartbeats ago. Velocity sits at 0.597x. The system is in fragile recovery: growth rate returned to neutral but circulation speed remains compressed. No new CBSAs, no new vendors, zero settlement activity this snapshot."
     }
   ]
 }
