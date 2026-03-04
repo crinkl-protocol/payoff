@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-03T23:19:35.158Z",
+  "updatedAt": "2026-03-04T02:22:30.838Z",
   "observations": [
+    {
+      "ts": "2026-03-04T02:21:20.743Z",
+      "topic": "7d-gmv-contraction",
+      "magnitude": "high",
+      "observation": "7-day GMV dropped sharply from $29,280 to $25,474 (-13%) and 7-day receipt count fell from 576 to 478 (-17%) in a single snapshot — the steepest single-period contraction in the recent signal window. This is the intake compression that the velocity divergence was signaling for 4+ snapshots."
+    },
+    {
+      "ts": "2026-03-04T02:21:20.742Z",
+      "topic": "token-acceleration",
+      "magnitude": "high",
+      "observation": "Token acceleration dropped to 0.883x — the first reading below 1.0x after 14+ consecutive snapshots above 1.0x. This breaks the sustained growth floor and signals the deceleration phase may have arrived. Velocity compressed further to 0.595x simultaneously."
+    },
+    {
+      "ts": "2026-03-03T23:20:26.327Z",
+      "topic": "crinkl-skill-auth",
+      "magnitude": "high",
+      "observation": "The crinkl skill ran 31 turns and 30 tool calls but reports all agent-authenticated endpoints returning auth errors — the API key appears to be rejected. Public endpoints are functional. This is a regression from prior heartbeats and may indicate a key rotation or auth config change."
+    },
     {
       "ts": "2026-03-03T23:17:37.296Z",
       "topic": "velocity-divergence",
@@ -42,24 +60,6 @@
       "topic": "token-dynamics",
       "magnitude": "medium",
       "observation": "Token velocity sits at 0.632x while acceleration holds at 1.004x — velocity compression is deepening even as growth continues. 7-day GMV climbed to $27,498 and receipt count to 533, confirming sustained intake while circulation remains sluggish."
-    },
-    {
-      "ts": "2026-03-03T13:46:58.941Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "medium",
-      "observation": "2 new CBSAs appeared this snapshot (non-metro US-MA, CBSA 14460), bringing active metros to 15 in the signal window. Non-metro Massachusetts is the first New England non-metro entry, extending the Northeast non-metro arc that began with Maine and Maryland."
-    },
-    {
-      "ts": "2026-03-03T09:47:02.201Z",
-      "topic": "token-dynamics",
-      "magnitude": "medium",
-      "observation": "Token velocity dropped to 0.63x while acceleration holds at 1.004x — the velocity compression is deepening even as growth continues. 7-day GMV climbed from $26,609 to $27,028 and receipt count from 523 to 531, confirming intake is sustained but circulation remains sluggish."
-    },
-    {
-      "ts": "2026-03-03T09:47:02.199Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "8 new CBSAs appeared this snapshot (non-metro US-NV, 25775, 19820, 37980, 36837, 15380, 12420, 35840), bringing active metros to 22. The diffusion arc continues its non-metro push, now spanning Nevada, Pennsylvania, New York, and multiple unnamed secondary markets simultaneously."
     }
   ]
 }

@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-03T23:19:35.157Z",
+  "updatedAt": "2026-03-04T02:22:30.837Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic cost gap",
-      "insight": "Verified purchase receipts settle at ~$0.10 per conversion event versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost differential driven by eliminating the attribution problem entirely, not optimizing around it.",
+      "topic": "Deterministic vs. probabilistic signal value",
+      "insight": "The ad industry pays $5–$150 CPA for modeled attribution that infers purchase intent. A cryptographically verified receipt eliminates the inference step entirely — the conversion event is the signal, not a proxy for it.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie signal vacuum",
-      "insight": "With Chrome completing cookie deprecation and device fingerprinting increasingly blocked by regulation and browser privacy updates, the industry has no cross-ecosystem deterministic signal at scale — receipt-layer data is structurally positioned to fill that gap.",
+      "topic": "Post-cookie targeting gap",
+      "insight": "With Chrome completing cookie deprecation and device fingerprinting under regulatory pressure, the industry has no cross-ecosystem deterministic signal at scale. First-party data solves this only within a single company's walled garden.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo blind spots",
-      "insight": "Google, Apple, Microsoft, and Stripe each capture purchase signals only within their own ecosystems and tied to identity; a receipt-based protocol aggregates across all payment rails without identity attachment, producing the cross-ecosystem view no single platform can sell.",
+      "topic": "Cost structure delta",
+      "insight": "Verified receipts are settling at roughly $0.10 per confirmed purchase event against an industry CPA floor of $5. That 50–200x cost gap is structural, not cyclical — it reflects the elimination of attribution infrastructure, not a discount on it.",
       "magnitude": "high"
     },
     {
-      "topic": "Non-metro geographic diffusion",
-      "insight": "Verified receipt signals are now reaching rural and secondary markets across the Northeast — exactly where probabilistic targeting has the least accuracy and ad tech data quality is weakest, making these signals proportionally more valuable for brands with broad geographic distribution.",
+      "topic": "Non-metro geographic reach",
+      "insight": "The dataset has diffused into rural and secondary markets across the Northeast where probabilistic targeting has the weakest signal quality. Verified purchase data from underserved geographies carries a scarcity premium that urban-concentrated panels don't replicate.",
       "magnitude": "medium"
     },
     {
-      "topic": "Closed-loop receipt apps remain locked",
-      "insight": "Fetch and Ibotta hold real purchase data but it is identity-attached and not queryable by third parties; the structural difference here is a protocol that produces verified spend signals without identity linkage, which changes the privacy liability calculus for brands using the data.",
-      "magnitude": "medium"
+      "topic": "Cross-rail receipt aggregation",
+      "insight": "A Stripe receipt, Apple receipt, and Google Play receipt all resolve to the same spend token regardless of payment rail or platform. This cuts across the silo problem that limits every major platform's purchase data to its own ecosystem.",
+      "magnitude": "high"
     },
     {
-      "topic": "Developer infrastructure receipt category emerging",
-      "insight": "Five pending vendor approvals — Notion, Render, Vercel, DigitalOcean, Hetzner — signal SaaS subscription receipts entering the dataset; for B2B marketers, verified SaaS spend is a high-intent, high-predictability signal category that does not currently exist in any open data market.",
+      "topic": "Developer infrastructure spend as a receipt category",
+      "insight": "Five pending vendor approvals — Notion, Render, Vercel, DigitalOcean, Hetzner — target SaaS and cloud infrastructure, a category with predictable subscription cadence and high average order value. Approval expands a queryable, identity-free dataset in a segment most ad tech panels underrepresent.",
       "magnitude": "medium"
     }
   ]
