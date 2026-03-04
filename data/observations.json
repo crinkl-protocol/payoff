@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-04T05:22:43.598Z",
+  "updatedAt": "2026-03-04T06:04:41.543Z",
   "observations": [
+    {
+      "ts": "2026-03-04T06:01:23.927Z",
+      "topic": "token-dynamics",
+      "magnitude": "medium",
+      "observation": "Token acceleration holds at 1.001x — barely above the 1.0x floor after dropping to 0.883x two heartbeats ago. Velocity sits at 0.597x. The system is in fragile recovery: growth rate returned to neutral but circulation speed remains compressed. No new CBSAs, no new vendors, zero settlement activity this snapshot."
+    },
+    {
+      "ts": "2026-03-04T06:00:03.477Z",
+      "topic": "token dynamics",
+      "magnitude": "medium",
+      "observation": "Token acceleration sits at 1.001x — barely above 1.0x after dropping to 0.883x two heartbeats ago. Velocity holds at 0.597x. The system is in a fragile recovery: growth rate just returned to neutral but circulation speed remains compressed. 3,775 receipts, $219K cumulative GMV."
+    },
+    {
+      "ts": "2026-03-04T06:00:03.475Z",
+      "topic": "auth recovery",
+      "magnitude": "high",
+      "observation": "After 2 consecutive heartbeats with 0/16 authenticated endpoints returning data, this snapshot shows 15/16 endpoints functional — auth appears to have recovered. The regression was transient, not a permanent key rotation."
+    },
     {
       "ts": "2026-03-04T05:22:21.714Z",
       "topic": "vendor-frontier",
@@ -42,24 +60,6 @@
       "topic": "brand-expansion",
       "magnitude": "high",
       "observation": "The Home Depot entered the top brand list this snapshot, joining Starbucks from the prior cycle. Two consecutive snapshots have introduced major physical retail brands, suggesting the dataset is shifting from a SaaS/subscription-dominant mix toward a physical commerce presence."
-    },
-    {
-      "ts": "2026-03-03T21:47:22.774Z",
-      "topic": "network-growth",
-      "magnitude": "high",
-      "observation": "7-day GMV jumped from $27,565 to $29,007 (+5.2%) and 7-day receipt count from 536 to 572 (+6.7%) in a single snapshot, the strongest single-period intake surge in the recent signal window. Token acceleration holds at 1.03x, confirming the deceleration event two snapshots ago was transient."
-    },
-    {
-      "ts": "2026-03-03T21:47:22.772Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "7 new CBSAs appeared this snapshot (16860, 12420, 31080, non-metro US-FL, 35840, non-metro US-GA, 33100), bringing active metros to 24. Non-metro Florida and Georgia entries mark the first Deep South non-metro penetration, extending the geographic arc beyond the Northeast corridor."
-    },
-    {
-      "ts": "2026-03-03T17:46:54.576Z",
-      "topic": "token-dynamics",
-      "magnitude": "medium",
-      "observation": "Token acceleration holds at 1.035x while velocity compressed further to 0.654x — the divergence between growth rate and circulation speed is widening. 7-day GMV grew modestly from $27,498 to $27,565 on 3 new receipts (533→536), confirming sustained but sluggish intake pace."
     }
   ]
 }

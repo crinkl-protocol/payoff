@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-04T05:22:43.596Z",
+  "updatedAt": "2026-03-04T06:04:41.518Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic cost delta",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution. This protocol settles at roughly $0.10 per cryptographically verified receipt — a 50–200x cost difference that isn't a negotiating position, it's a structural gap in how purchase proof is produced.",
+      "topic": "Deterministic vs. probabilistic signal value",
+      "insight": "The ad industry pays $5–$150 CPA for probabilistic attribution that infers purchase intent. A cryptographically verified receipt confirms a purchase actually happened — that's not an incremental improvement over cookies, it's a different category of signal.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation creates an opening",
-      "insight": "Chrome's cookie deprecation completes the collapse of cross-site tracking across all major browsers. The protocol produces identity-free, cross-ecosystem purchase signals without cookies, pixels, or lookback windows — the exact primitive the industry lost and hasn't replaced.",
+      "topic": "Post-cookie targeting gap",
+      "insight": "Chrome's deprecation of third-party cookies joins Safari and Firefox, eliminating the primary cross-site tracking primitive. Device fingerprinting is increasingly blocked, and first-party data is blind beyond a single ecosystem — the structural gap for cross-brand purchase verification is now open.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt as conversion event, not proxy",
-      "insight": "3,703 verified receipts represent confirmed purchase events, not behavioral inferences. The receipt IS the conversion record — no modeled attribution, no probabilistic match. That's a different category of signal than anything current ad tech sells.",
+      "topic": "Physical commerce data expansion",
+      "insight": "Home Depot and Starbucks receipts entering the dataset across HB#87–#88 signals a shift from digital/subscription-dominant data toward physical retail — the category where CPG and retail advertisers have the least verified purchase signal and the most to gain.",
       "magnitude": "high"
     },
     {
-      "topic": "Non-metro geographic diffusion",
-      "insight": "The dataset has reached rural and secondary markets across Maine, Maryland, New York, Pennsylvania, and Massachusetts — regions where probabilistic targeting has the least data density and the lowest accuracy. Verified receipts from these markets are proportionally scarcer and more valuable.",
+      "topic": "Platform silo blind spots",
+      "insight": "Amazon knows what you buy on Amazon; Visa knows spend volume but not SKUs; Google knows search, not purchase; Meta knows clicks, not conversions. A receipt-layer dataset sits below all four silos simultaneously without requiring cooperation from any of them.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Brand participation equilibrium",
+      "insight": "Consumer-submitted receipts enter the dataset whether or not a brand has opted in — a Starbucks receipt is valid regardless of Starbucks' participation. Brands that stay out aren't protected from being measured; they're just blind to a dataset that already includes them.",
       "magnitude": "medium"
     },
     {
-      "topic": "Platform silo bypass",
-      "insight": "Stripe, Apple, and Google receipts all produce the same spend token in this protocol regardless of payment rail. That cross-ecosystem view doesn't exist anywhere else — every major platform sees only its own slice of a buyer's spend.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "SaaS receipt frontier expanding",
-      "insight": "Five developer infrastructure vendors — Notion, Render, Vercel, DigitalOcean, Hetzner — are pending DKIM allowlist approval. SaaS subscription receipts are the most predictable and recurring purchase signal in the dataset; each approved domain opens a new verified spend category.",
+      "topic": "Intake compression as leading indicator",
+      "insight": "A 13–17% contraction in GMV and receipt volume at HB#92 followed multiple snapshots of velocity/acceleration divergence — the divergence was the leading indicator, not the drop itself. CMOs evaluating this data source should weight trend-line divergence, not just headline volume.",
       "magnitude": "medium"
     }
   ]
