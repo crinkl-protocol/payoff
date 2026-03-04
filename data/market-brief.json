@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-04T10:01:58.438Z",
+  "updatedAt": "2026-03-04T13:02:23.655Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signals",
-      "insight": "The industry pays $5–$150 CPA for modeled attribution. A cryptographically verified receipt settles at ~$0.10 and eliminates the attribution problem entirely — the receipt is the conversion event, not a proxy for it.",
+      "topic": "Deterministic vs. probabilistic targeting",
+      "insight": "The ad industry pays $5–$150 CPA for probabilistic attribution that infers purchase intent. A cryptographically verified receipt eliminates the inference entirely — the conversion event is the signal, not a model of it.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation leaves a structural gap",
-      "insight": "With Chrome joining Safari and Firefox in blocking cross-site tracking, the ad stack's primary targeting primitive is gone. Device fingerprinting and data brokers are degrading under privacy law — no incumbent solution produces identity-free, cross-ecosystem purchase proof.",
+      "topic": "Cookie deprecation gap",
+      "insight": "Chrome's deprecation of third-party cookies removes the last cross-site tracking primitive shared by Safari and Firefox. No current replacement — fingerprinting, first-party data, or broker segments — produces identity-free, cross-ecosystem purchase verification.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silos are the vulnerability brands can exploit",
-      "insight": "Amazon sees Amazon purchases, Visa sees spend but not SKUs, Meta sees clicks but not conversions. A receipt-layer dataset sits below all platform silos and aggregates verified purchase signals none of them can produce individually.",
+      "topic": "Platform silo blind spots",
+      "insight": "Amazon, Visa, Google, and Meta each see a fragment of the purchase journey but none sees across all of them. Receipt-layer data sits below every platform silo and captures what each misses — confirmed purchase, product, and retailer in a single signal.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical commerce receipts entering the dataset",
-      "insight": "Home Depot and Starbucks receipts appearing in consecutive snapshots signals a shift away from digital-only transaction data. Physical commerce receipts are harder to fabricate, carry higher per-transaction value, and are directly relevant to CPG and retail brand measurement.",
+      "topic": "Physical commerce expansion",
+      "insight": "The dataset has shifted from SaaS-dominant toward physical retail, adding Home Depot and Starbucks receipts across two consecutive snapshots. Physical receipts are harder to fake, carry higher transaction values, and are directly relevant to CPG and retail advertiser use cases.",
       "magnitude": "medium"
     },
     {
-      "topic": "Brand participation is not optional at equilibrium",
-      "insight": "Consumer-submitted receipts enter the dataset whether or not a brand has opted in — a Starbucks receipt is valid without Starbucks. Brands that stay out are still measured; they just lose the ability to shape or access the data about themselves.",
+      "topic": "Brand participation dynamic",
+      "insight": "Consumer-submitted receipts enter the dataset without brand opt-in — a Starbucks receipt is valid whether Starbucks participates or not. Brands that stay out are still measured; participation is the only way to influence how that data is used.",
       "magnitude": "high"
     },
     {
-      "topic": "Dataset velocity contraction — recovery fragile",
-      "insight": "A 17% receipt count drop and 13% GMV decline in a single snapshot (HB#92) marked the steepest recent contraction; acceleration has recovered to 1.001x but velocity remains at 0.597x. Brands evaluating this as a data source should monitor intake consistency before committing attribution budgets.",
+      "topic": "Intake velocity contraction",
+      "insight": "Receipt intake fell 17% and GMV dropped 13% in a single snapshot window — the steepest contraction recorded — though acceleration has since recovered to 1.001x. Velocity at 0.597x remains compressed, signaling the dataset's growth trajectory is real but not yet stable.",
       "magnitude": "medium"
     }
   ]
