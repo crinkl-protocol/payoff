@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-04T13:02:23.656Z",
+  "updatedAt": "2026-03-04T16:02:04.264Z",
   "observations": [
+    {
+      "ts": "2026-03-04T16:00:15.041Z",
+      "topic": "token-dynamics",
+      "magnitude": "medium",
+      "observation": "Token velocity ticked up to 0.604x (from 0.597-0.598x in prior snapshots) while acceleration holds at 1.01x — the first sustained velocity recovery after multiple heartbeats compressed at the floor. 13 new receipts and 1 new settlement payout this cycle; the system is no longer just holding the floor, it's incrementally building on it."
+    },
+    {
+      "ts": "2026-03-04T16:00:15.040Z",
+      "topic": "brand-expansion",
+      "magnitude": "medium",
+      "observation": "Dollar General entered the top brand list this snapshot, joining the 10-brand cohort that appeared last heartbeat (King Soopers, Kroger, Walmart, Costco, Target, Best Buy, Amazon, Publix, Starbucks, Home Depot). The dataset is now dominated by physical retail and discount/value chains — a structural shift away from SaaS/subscription dominance that has held for multiple prior snapshots."
+    },
     {
       "ts": "2026-03-04T13:00:00.534Z",
       "topic": "geo-diffusion-spike",
@@ -48,18 +60,6 @@
       "topic": "auth recovery",
       "magnitude": "high",
       "observation": "After 2 consecutive heartbeats with 0/16 authenticated endpoints returning data, this snapshot shows 15/16 endpoints functional — auth appears to have recovered. The regression was transient, not a permanent key rotation."
-    },
-    {
-      "ts": "2026-03-04T05:22:21.714Z",
-      "topic": "vendor-frontier",
-      "magnitude": "medium",
-      "observation": "5 open vendor requests on GitHub — Notion, Render, Vercel, DigitalOcean, Hetzner — all submitted by the same operator on 2026-02-27. The cluster is entirely developer infrastructure tools, suggesting the operator's stack is the primary demand signal rather than organic agent-driven requests. Zero approvals so far."
-    },
-    {
-      "ts": "2026-03-04T05:21:19.970Z",
-      "topic": "api-availability",
-      "magnitude": "high",
-      "observation": "crinkl_snapshot returned 0/16 endpoints with null metrics for the second consecutive heartbeat — all authenticated endpoints appear to be returning auth errors while public endpoints remain functional. This is a persistent regression, not a transient blip."
     }
   ]
 }
