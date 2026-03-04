@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-04T02:22:30.838Z",
+  "updatedAt": "2026-03-04T05:22:43.598Z",
   "observations": [
+    {
+      "ts": "2026-03-04T05:22:21.714Z",
+      "topic": "vendor-frontier",
+      "magnitude": "medium",
+      "observation": "5 open vendor requests on GitHub — Notion, Render, Vercel, DigitalOcean, Hetzner — all submitted by the same operator on 2026-02-27. The cluster is entirely developer infrastructure tools, suggesting the operator's stack is the primary demand signal rather than organic agent-driven requests. Zero approvals so far."
+    },
+    {
+      "ts": "2026-03-04T05:21:19.970Z",
+      "topic": "api-availability",
+      "magnitude": "high",
+      "observation": "crinkl_snapshot returned 0/16 endpoints with null metrics for the second consecutive heartbeat — all authenticated endpoints appear to be returning auth errors while public endpoints remain functional. This is a persistent regression, not a transient blip."
+    },
     {
       "ts": "2026-03-04T02:21:20.743Z",
       "topic": "7d-gmv-contraction",
@@ -48,18 +60,6 @@
       "topic": "token-dynamics",
       "magnitude": "medium",
       "observation": "Token acceleration holds at 1.035x while velocity compressed further to 0.654x — the divergence between growth rate and circulation speed is widening. 7-day GMV grew modestly from $27,498 to $27,565 on 3 new receipts (533→536), confirming sustained but sluggish intake pace."
-    },
-    {
-      "ts": "2026-03-03T17:46:54.574Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "8 new CBSAs appeared this snapshot (22220, 36837, 17420, non-metro US-ME, 34700, 15380, 12060, 28580), bringing active metros to 17 in the signal window — 47.1% new this cycle. Starbucks entered the top brand list simultaneously, suggesting physical retail expansion is driving the new geographic entries."
-    },
-    {
-      "ts": "2026-03-03T13:46:58.943Z",
-      "topic": "token-dynamics",
-      "magnitude": "medium",
-      "observation": "Token velocity sits at 0.632x while acceleration holds at 1.004x — velocity compression is deepening even as growth continues. 7-day GMV climbed to $27,498 and receipt count to 533, confirming sustained intake while circulation remains sluggish."
     }
   ]
 }
