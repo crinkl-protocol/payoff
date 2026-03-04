@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-04T16:02:04.263Z",
+  "updatedAt": "2026-03-04T19:01:52.356Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal value",
-      "insight": "The ad industry pays $5–$150 CPA for probabilistic attribution that infers purchase intent. A cryptographically verified receipt eliminates the inference entirely — the purchase event is the signal, not a model of it.",
+      "topic": "Deterministic vs. probabilistic signal gap",
+      "insight": "The ad industry pays $5–$150 CPA for modeled attribution that infers purchase intent. A cryptographically verified receipt eliminates the inference entirely — the conversion event is the signal, not a proxy for it.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome completing cookie deprecation and device fingerprinting under regulatory pressure, the cross-site tracking stack that most programmatic buying depends on has no clean successor — verified receipt data operates at a layer that never relied on any of it.",
+      "topic": "Cookie deprecation creates a structural vacuum",
+      "insight": "Chrome's deprecation completes the collapse of the cross-site tracking primitive that most programmatic targeting was built on. First-party data fills the gap only within a single ecosystem — it is blind the moment a consumer leaves.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo blind spots",
-      "insight": "Amazon, Visa, Google, and Meta each see one dimension of the purchase funnel but none see the full transaction. Receipt-layer data sits below all four silos and captures what none of them can share with each other.",
+      "topic": "Platform silos leave cross-ecosystem purchase data unowned",
+      "insight": "Amazon, Visa, Google, and Meta each see a fragment of the purchase journey — none see the full transaction. The receipt layer sits below all four silos and is the only point where cross-ecosystem verified spend data can be aggregated without platform cooperation.",
       "magnitude": "high"
     },
     {
-      "topic": "Cost structure delta",
-      "insight": "Verified receipt signals are settling at roughly $0.10 per confirmed purchase event against an industry CPA range of $5–$150. That gap is structural, not a pricing anomaly — it reflects the elimination of attribution overhead rather than a discount on the same product.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Brand participation asymmetry",
-      "insight": "Consumer-submitted receipts enter the dataset whether or not the brand cooperates, meaning brands are being measured regardless. The strategic choice is between participating to shape that measurement or remaining blind to a dataset that already includes them.",
+      "topic": "Physical commerce receipts entering the dataset",
+      "insight": "Home Depot and Starbucks receipts appearing in consecutive snapshots signals the dataset is moving beyond digital subscriptions into physical retail — the category CPG and brick-and-mortar advertisers need most and currently have the least verified data on.",
       "magnitude": "medium"
     },
     {
-      "topic": "Physical commerce receipt expansion",
-      "insight": "The verified dataset has moved beyond digital and subscription purchases into physical retail — Home Depot and Starbucks receipts are now in the pipeline. Physical receipts are harder to fabricate and carry higher per-transaction value, which is relevant for CPG and brick-and-mortar advertisers evaluating data quality.",
+      "topic": "Brand participation is not optional in the long run",
+      "insight": "Consumer-submitted receipts are valid whether a brand opts in or not, meaning brands are already being measured. The Nash equilibrium is participation — staying out does not prevent inclusion in the dataset, it only removes the ability to shape how that data is used.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Dataset velocity contraction warrants monitoring",
+      "insight": "A 13–17% single-period drop in GMV and receipt count at HB#92 was preceded by velocity/acceleration divergence across four prior snapshots — a leading indicator pattern. Recovery is underway but velocity remains compressed at 0.597x, meaning signal volume is not yet stable.",
       "magnitude": "medium"
     }
   ]

@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-04T16:02:04.264Z",
+  "updatedAt": "2026-03-04T19:01:52.362Z",
   "observations": [
+    {
+      "ts": "2026-03-04T19:00:15.119Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "3 new CBSAs this snapshot (non-metro Maine, CBSA 12060, CBSA 17420), bringing total active metros to 20. The burst-quiet-burst pattern continues — this is the third pulse of geographic expansion in recent heartbeats, with non-metro areas now consistently appearing alongside named CBSAs."
+    },
+    {
+      "ts": "2026-03-04T19:00:06.961Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity ticked up to 0.613x (from 0.604x last heartbeat) while acceleration holds at 1.014x — the third consecutive heartbeat of incremental velocity recovery after the floor at 0.597x. 12 new receipts and 1 new settlement payout this cycle; $4,254 new GMV in 3 hours."
+    },
     {
       "ts": "2026-03-04T16:00:15.041Z",
       "topic": "token-dynamics",
@@ -48,18 +60,6 @@
       "topic": "token-dynamics",
       "magnitude": "medium",
       "observation": "Token acceleration holds at 1.001x — barely above the 1.0x floor after dropping to 0.883x two heartbeats ago. Velocity sits at 0.597x. The system is in fragile recovery: growth rate returned to neutral but circulation speed remains compressed. No new CBSAs, no new vendors, zero settlement activity this snapshot."
-    },
-    {
-      "ts": "2026-03-04T06:00:03.477Z",
-      "topic": "token dynamics",
-      "magnitude": "medium",
-      "observation": "Token acceleration sits at 1.001x — barely above 1.0x after dropping to 0.883x two heartbeats ago. Velocity holds at 0.597x. The system is in a fragile recovery: growth rate just returned to neutral but circulation speed remains compressed. 3,775 receipts, $219K cumulative GMV."
-    },
-    {
-      "ts": "2026-03-04T06:00:03.475Z",
-      "topic": "auth recovery",
-      "magnitude": "high",
-      "observation": "After 2 consecutive heartbeats with 0/16 authenticated endpoints returning data, this snapshot shows 15/16 endpoints functional — auth appears to have recovered. The regression was transient, not a permanent key rotation."
     }
   ]
 }
