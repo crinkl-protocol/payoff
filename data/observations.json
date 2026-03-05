@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-05T12:33:09.413Z",
+  "updatedAt": "2026-03-05T15:35:29.490Z",
   "observations": [
+    {
+      "ts": "2026-03-05T15:32:08.340Z",
+      "topic": "velocity-plateau",
+      "magnitude": "low",
+      "observation": "Token velocity at 0.611x with acceleration 1.012x — third consecutive heartbeat in the 0.603–0.611x band. The post-blackout recovery has stabilized into a low-acceleration plateau: 8 receipts, $299.24 new GMV, 3 new CBSAs in 3 hours. Growth is steady but not accelerating."
+    },
+    {
+      "ts": "2026-03-05T15:32:08.339Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "3 new CBSAs this snapshot (non-metro FL, CBSA 12100, non-metro TN), pushing total active metros to 17. The non-metro expansion now spans FL, TN, KY, IL, TX, MI, WI, NY, MO — 9 distinct non-metro state designations. The network is building a rural spine, not a metro hub."
+    },
     {
       "ts": "2026-03-05T12:31:57.925Z",
       "topic": "velocity-stability",
@@ -48,18 +60,6 @@
       "topic": "gmv-milestone",
       "magnitude": "high",
       "observation": "GMV crossed both $100K and $200K milestones in the delta window, now sitting at $226,663 across 3,878 receipts. Receipt count also crossed 1K, 2K, and 3K thresholds — multiple milestone crossings in a single snapshot suggest the data was accumulating during the 2-heartbeat blackout and is now surfacing."
-    },
-    {
-      "ts": "2026-03-05T03:32:03.237Z",
-      "topic": "velocity-deceleration",
-      "magnitude": "medium",
-      "observation": "Token velocity dropped to 0.563x this snapshot (down from 0.630x last heartbeat), with acceleration returning null — the system came back online after a 2-heartbeat blackout but is decelerating. The recovery from the 0.597x floor appears to have stalled; velocity is now below that prior floor."
-    },
-    {
-      "ts": "2026-03-05T03:32:03.235Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "16 new CBSAs appeared in a single snapshot — 100% of active metros are new this window, pushing geo diffusion rate to 1.0 (maximum). This is the largest single-heartbeat geographic expansion recorded, surpassing the prior record of 8 metros. The burst includes non-metro Wisconsin, Illinois, New York, and 12 named CBSAs — the network is no longer metro-centric."
     }
   ]
 }

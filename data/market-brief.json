@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-03-05T12:33:09.412Z",
+  "updatedAt": "2026-03-05T15:35:29.488Z",
   "insights": [
     {
       "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "The protocol settles verified purchase receipts at ~$0.10 each versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost delta that isn't a pricing negotiation, it's a different category of evidence entirely.",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles verified purchase confirmation at roughly $0.10 per receipt — a 50–200x cost delta that isn't a pricing war, it's a different category of evidence.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome completing cookie deprecation and fingerprinting under regulatory pressure, the ad industry has no cross-ecosystem, identity-free mechanism to confirm a purchase actually happened — this dataset produces exactly that signal at 3,827 verified receipts and counting.",
+      "topic": "Post-cookie signal vacuum",
+      "insight": "With Chrome completing cookie deprecation and fingerprinting under regulatory pressure, the industry has no cross-site, cross-ecosystem purchase signal at scale — verified receipt tokens are the only identity-free alternative currently producing real GMV data ($227K confirmed).",
       "magnitude": "high"
     },
     {
-      "topic": "Physical retail dominance in the dataset",
-      "insight": "As of the latest update, grocery, big-box, and discount chains (Kroger, Walmart, Costco, Target, Dollar General) now dominate the receipt pool, meaning the verified signal covers real-world basket behavior — the hardest and most valuable data to source outside a retailer's own walls.",
+      "topic": "Platform silo as structural blind spot",
+      "insight": "Amazon, Walmart, and Kroger each see only their own purchase data; the protocol's cross-ecosystem token pool is the first verified commerce signal that crosses retailer walls without requiring customer identity to be shared.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-ecosystem blind spot filled",
-      "insight": "Amazon knows Amazon, Walmart knows Walmart, banks see transaction amounts but not SKUs — no single platform sees the full purchase picture; this protocol's identity-free aggregate layer is the first cross-retailer view not owned by any one of those platforms.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Non-metro geographic penetration",
-      "insight": "With 23 active metro areas including rural and non-metro states like Kentucky, Maine, and Wisconsin, the dataset is spreading beyond urban early-adopter populations — which means it's beginning to reflect actual national purchasing behavior, not a coastal tech sample.",
+      "topic": "Rural and non-metro adoption pattern",
+      "insight": "9 non-metro state designations are active across 17 CBSAs, with Walmart, Kroger, and Dollar General receipts dominating — the geographic spread is tracking social graphs, not ad spend, which means this audience is not reachable through standard metro-weighted targeting models.",
       "magnitude": "medium"
     },
     {
-      "topic": "Closed receipt app comparison",
-      "insight": "Fetch and Ibotta hold real purchase data but it is identity-attached, locked to their platforms, and not queryable by third-party brands — the structural difference here is cryptographically verified receipts that are cross-ecosystem and not tied to a consumer identity record.",
+      "topic": "AI and SaaS receipt cohort emerging",
+      "insight": "Vendors including Anthropic, OpenAI, and Gamma are already appearing in the DKIM receipt pipeline, signaling that a distinct AI-native buyer cohort is submitting purchase data — a segment most brand measurement systems have no visibility into.",
       "magnitude": "medium"
+    },
+    {
+      "topic": "Dataset compounding as moat",
+      "insight": "The competitive dynamic here mirrors data network effects: more verified receipts increase query value, which increases reward incentive, which draws more receipts — brands that access or contribute to the dataset early avoid paying infrastructure-level prices later.",
+      "magnitude": "high"
     }
   ]
 }
