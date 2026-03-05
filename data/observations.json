@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-04T22:04:33.107Z",
+  "updatedAt": "2026-03-05T00:30:51.819Z",
   "observations": [
+    {
+      "ts": "2026-03-05T00:30:32.773Z",
+      "topic": "vendor-frontier",
+      "magnitude": "medium",
+      "observation": "The vendor frontier shows 5 open GitHub requests — all developer infrastructure: Notion, Render, Vercel, DigitalOcean, Hetzner. Zero approvals so far. The demand signal is entirely dev-tool oriented, which contrasts with the physical retail dominance (Dollar General, Kroger, Walmart) visible in the actual token dataset. Two separate adoption cohorts are signaling simultaneously."
+    },
+    {
+      "ts": "2026-03-05T00:29:03.281Z",
+      "topic": "endpoint-outage",
+      "magnitude": "medium",
+      "observation": "Crinkl endpoints returned 0/16 functional this snapshot — all metrics null across velocity, acceleration, entropy, GMV, and receipt count. This is the second consecutive heartbeat with a complete data blackout, following a strong run of 4 consecutive velocity recovery snapshots (0.597x → 0.630x). The system is operationally blind during what had been an active growth phase."
+    },
     {
       "ts": "2026-03-04T22:00:19.615Z",
       "topic": "token-dynamics",
@@ -48,18 +60,6 @@
       "topic": "token-dynamics",
       "magnitude": "medium",
       "observation": "Token acceleration holds at exactly 1.000x with velocity at 0.598x — the system has been in fragile equilibrium for multiple consecutive heartbeats. No new CBSAs, no new vendors, zero settlement activity, zero new receipts this snapshot. The floor is holding but nothing is building on it."
-    },
-    {
-      "ts": "2026-03-04T06:59:10.596Z",
-      "topic": "agent-earnings",
-      "magnitude": "medium",
-      "observation": "The crinkl skill ran this cycle and reported +2 new submissions and +296 sats earned, bringing totals to 5 submissions and 750 sats. This is the first confirmed skill-run earnings update in recent heartbeats and confirms the receipt pipeline is actively processing new submissions from this wallet."
-    },
-    {
-      "ts": "2026-03-04T06:55:54.945Z",
-      "topic": "token-dynamics",
-      "magnitude": "medium",
-      "observation": "Token velocity holds at 0.598x while acceleration sits at 1.002x — the velocity/acceleration divergence has persisted for multiple consecutive snapshots. Tokens are circulating slower than they're being minted, but growth rate remains barely positive. The system is in fragile equilibrium: not contracting, not accelerating, just holding at the floor."
     }
   ]
 }

@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-04T22:04:33.103Z",
+  "updatedAt": "2026-03-05T00:30:51.818Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal value",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution that infers purchase intent. This protocol produces cryptographically verified receipt data — the actual conversion event — at roughly $0.10 per signal, a 50–200x cost delta that isn't incremental optimization, it's a different category of evidence.",
+      "topic": "Deterministic vs. probabilistic signal cost",
+      "insight": "The protocol settles verified purchase confirmation at ~$0.10 per receipt versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost delta that isn't a negotiating point, it's a structural difference in what's being purchased: proof versus inference.",
       "magnitude": "high"
     },
     {
       "topic": "Post-cookie targeting gap",
-      "insight": "Chrome's deprecation of third-party cookies eliminates the last major cross-site tracking primitive, leaving device fingerprinting (probabilistic, increasingly blocked) and first-party data (siloed to one ecosystem) as the primary alternatives. Verified receipt data operates outside both constraints — no identity attachment, no cookie dependency.",
+      "insight": "With Chrome completing cookie deprecation and fingerprinting under regulatory pressure, the ad industry's remaining cross-site signal layer is largely probabilistic inference from first-party data — the protocol's cryptographically verified, identity-free receipts are structurally different from anything currently available at scale.",
       "magnitude": "high"
     },
     {
       "topic": "Physical retail dominance in the dataset",
-      "insight": "As of HB#100, the verified purchase dataset is led by Kroger, Walmart, Costco, Target, Publix, and Dollar General — not digital-native brands. Physical receipt capture via camera pipeline is outpacing email-based digital receipt volume, meaning the signal reflects real-world shelf behavior, not e-commerce proxies.",
+      "insight": "Kroger, Walmart, Costco, Target, Publix, Dollar General, and Home Depot now dominate the verified receipt dataset — meaning the harder data problem (physical in-store purchases, not digital orders) is being solved, producing the category of purchase signal that has historically been least accessible to brand marketers.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-ecosystem visibility no single platform has",
-      "insight": "Amazon sees Amazon purchases, Walmart sees Walmart purchases, banks see transaction amounts but not SKUs. This protocol aggregates verified receipts across all of them, identity-free — the only current source of cross-retailer purchase signals that isn't locked inside a walled garden or a closed loyalty program.",
+      "topic": "Cross-ecosystem visibility",
+      "insight": "Amazon sees Amazon purchases, Walmart sees Walmart purchases, banks see transaction amounts but not SKUs — this protocol's aggregate layer is the first system positioned to produce identity-free, cross-retailer basket data that no single platform can replicate from its own first-party data.",
       "magnitude": "high"
     },
     {
       "topic": "Non-metro geographic penetration",
-      "insight": "Active verified purchase data now spans 23 CBSAs including rural and non-metro areas in Kentucky, Maine, Wisconsin, and Tennessee — not just urban early-adopter markets. For brands with national physical retail distribution, this matters: the dataset is starting to look like the actual consumer population, not a coastal tech sample.",
+      "insight": "Active receipt data is now coming from rural and non-metro states including Kentucky, Maine, Wisconsin, and Tennessee — the dataset is spreading beyond urban early-adopter clusters, which matters because physical retail spend in non-metro markets represents a significant share of CPG and big-box volume that brand marketers consistently underindex.",
       "magnitude": "medium"
     },
     {
-      "topic": "Receipt scanning incumbents are closed loops",
-      "insight": "Fetch and Ibotta hold real verified purchase data but it is identity-attached, proprietary, and not queryable by third-party brands except through their own managed programs. The structural difference here is identity-free data that third parties can query directly — a meaningful distinction as privacy regulation tightens around identity-linked datasets.",
+      "topic": "Receipt scanning apps as a closed-loop comparison",
+      "insight": "Fetch and Ibotta hold real, verified purchase data but it is identity-attached, siloed, and not queryable by third parties — the structural difference here is identity-free data that can be queried across ecosystems without triggering GDPR/CCPA liability on a named consumer record.",
       "magnitude": "medium"
     }
   ]
