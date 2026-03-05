@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-05T09:33:47.378Z",
+  "updatedAt": "2026-03-05T12:33:09.412Z",
   "insights": [
     {
       "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution. This protocol settles verified purchase confirmation at roughly $0.10 per receipt — a 50–200x cost delta that isn't a pricing negotiation, it's a different category of signal entirely.",
+      "insight": "The protocol settles verified purchase receipts at ~$0.10 each versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost delta that isn't a pricing negotiation, it's a different category of evidence entirely.",
       "magnitude": "high"
     },
     {
       "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome completing cookie deprecation and fingerprinting under regulatory pressure, the industry has no cross-ecosystem, identity-free purchase signal at scale — this dataset of 3,827 cryptographically verified receipts is the architecture that gap requires.",
+      "insight": "With Chrome completing cookie deprecation and fingerprinting under regulatory pressure, the ad industry has no cross-ecosystem, identity-free mechanism to confirm a purchase actually happened — this dataset produces exactly that signal at 3,827 verified receipts and counting.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical retail dominance in dataset",
-      "insight": "Kroger, Walmart, Costco, Target, Dollar General, and Home Depot now dominate the receipt corpus — meaning the harder data problem (physical, in-store, OCR-dependent) is being solved, not just digital email receipts.",
+      "topic": "Physical retail dominance in the dataset",
+      "insight": "As of the latest update, grocery, big-box, and discount chains (Kroger, Walmart, Costco, Target, Dollar General) now dominate the receipt pool, meaning the verified signal covers real-world basket behavior — the hardest and most valuable data to source outside a retailer's own walls.",
       "magnitude": "high"
     },
     {
-      "topic": "Non-metro geographic spread",
-      "insight": "Active purchase signals are appearing in Kentucky, Maine, Wisconsin, and rural Texas — not just coastal metro early-adopter clusters. The dataset is beginning to look like a national consumer panel, not a tech demo.",
+      "topic": "Cross-ecosystem blind spot filled",
+      "insight": "Amazon knows Amazon, Walmart knows Walmart, banks see transaction amounts but not SKUs — no single platform sees the full purchase picture; this protocol's identity-free aggregate layer is the first cross-retailer view not owned by any one of those platforms.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Non-metro geographic penetration",
+      "insight": "With 23 active metro areas including rural and non-metro states like Kentucky, Maine, and Wisconsin, the dataset is spreading beyond urban early-adopter populations — which means it's beginning to reflect actual national purchasing behavior, not a coastal tech sample.",
       "magnitude": "medium"
     },
     {
-      "topic": "Platform silo blind spot",
-      "insight": "Amazon, Walmart, and your bank each see one slice of a consumer's purchase behavior. This protocol aggregates across all of them without identity attachment — the first cross-ecosystem view that no single retailer or data broker can replicate.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Receipt as conversion event, not proxy",
-      "insight": "Every signal in ad tech infers purchase intent; this protocol records purchase completion. The receipt is the conversion event itself, cryptographically signed — eliminating the attribution modeling layer that ad tech has been selling as a solution.",
+      "topic": "Closed receipt app comparison",
+      "insight": "Fetch and Ibotta hold real purchase data but it is identity-attached, locked to their platforms, and not queryable by third-party brands — the structural difference here is cryptographically verified receipts that are cross-ecosystem and not tied to a consumer identity record.",
       "magnitude": "medium"
     }
   ]

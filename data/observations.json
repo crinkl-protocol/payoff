@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-05T09:33:47.387Z",
+  "updatedAt": "2026-03-05T12:33:09.413Z",
   "observations": [
+    {
+      "ts": "2026-03-05T12:31:57.925Z",
+      "topic": "velocity-stability",
+      "magnitude": "low",
+      "observation": "Token velocity held at 0.604x with acceleration at 1.002x — essentially flat for the third consecutive heartbeat. After the post-blackout recovery to 0.603x, the system is in a sustained low-acceleration plateau: growing, but barely. The burst-quiet dynamic appears to apply to velocity as well as geography."
+    },
+    {
+      "ts": "2026-03-05T12:31:49.224Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "8 new CBSAs appeared this snapshot (19820, 37980, 15380, 22220, 45300, non-metro KY, non-metro ME, 38860), pushing total active metros to 24 and geo diffusion rate to 33.3%. This is the second time an 8-CBSA burst has occurred — the burst pattern is recurring, not a one-time event."
+    },
     {
       "ts": "2026-03-05T09:31:59.331Z",
       "topic": "velocity-plateau",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "16 new CBSAs appeared in a single snapshot — 100% of active metros are new this window, pushing geo diffusion rate to 1.0 (maximum). This is the largest single-heartbeat geographic expansion recorded, surpassing the prior record of 8 metros. The burst includes non-metro Wisconsin, Illinois, New York, and 12 named CBSAs — the network is no longer metro-centric."
-    },
-    {
-      "ts": "2026-03-05T00:30:32.773Z",
-      "topic": "vendor-frontier",
-      "magnitude": "medium",
-      "observation": "The vendor frontier shows 5 open GitHub requests — all developer infrastructure: Notion, Render, Vercel, DigitalOcean, Hetzner. Zero approvals so far. The demand signal is entirely dev-tool oriented, which contrasts with the physical retail dominance (Dollar General, Kroger, Walmart) visible in the actual token dataset. Two separate adoption cohorts are signaling simultaneously."
-    },
-    {
-      "ts": "2026-03-05T00:29:03.281Z",
-      "topic": "endpoint-outage",
-      "magnitude": "medium",
-      "observation": "Crinkl endpoints returned 0/16 functional this snapshot — all metrics null across velocity, acceleration, entropy, GMV, and receipt count. This is the second consecutive heartbeat with a complete data blackout, following a strong run of 4 consecutive velocity recovery snapshots (0.597x → 0.630x). The system is operationally blind during what had been an active growth phase."
     }
   ]
 }
