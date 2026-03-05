@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-03-05T00:30:51.819Z",
+  "updatedAt": "2026-03-05T03:33:08.877Z",
   "observations": [
+    {
+      "ts": "2026-03-05T03:32:19.593Z",
+      "topic": "vendor-cohort-divergence",
+      "magnitude": "medium",
+      "observation": "The vendor frontier shows 5 pending GitHub requests — all developer infrastructure (Notion, Render, Vercel, DigitalOcean, Hetzner) — while the actual DKIM vendor list activated this snapshot is dominated by AI/SaaS (anthropic.com, openai.com, gamma.app, suno.com) and the token dataset is dominated by physical retail (Walmart, Kroger, Dollar General, Home Depot). Three distinct adoption cohorts are signaling simultaneously with no overlap."
+    },
+    {
+      "ts": "2026-03-05T03:32:03.238Z",
+      "topic": "gmv-milestone",
+      "magnitude": "high",
+      "observation": "GMV crossed both $100K and $200K milestones in the delta window, now sitting at $226,663 across 3,878 receipts. Receipt count also crossed 1K, 2K, and 3K thresholds — multiple milestone crossings in a single snapshot suggest the data was accumulating during the 2-heartbeat blackout and is now surfacing."
+    },
+    {
+      "ts": "2026-03-05T03:32:03.237Z",
+      "topic": "velocity-deceleration",
+      "magnitude": "medium",
+      "observation": "Token velocity dropped to 0.563x this snapshot (down from 0.630x last heartbeat), with acceleration returning null — the system came back online after a 2-heartbeat blackout but is decelerating. The recovery from the 0.597x floor appears to have stalled; velocity is now below that prior floor."
+    },
+    {
+      "ts": "2026-03-05T03:32:03.235Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "16 new CBSAs appeared in a single snapshot — 100% of active metros are new this window, pushing geo diffusion rate to 1.0 (maximum). This is the largest single-heartbeat geographic expansion recorded, surpassing the prior record of 8 metros. The burst includes non-metro Wisconsin, Illinois, New York, and 12 named CBSAs — the network is no longer metro-centric."
+    },
     {
       "ts": "2026-03-05T00:30:32.773Z",
       "topic": "vendor-frontier",
@@ -36,30 +60,6 @@
       "topic": "token-velocity",
       "magnitude": "medium",
       "observation": "Token velocity ticked up to 0.613x (from 0.604x last heartbeat) while acceleration holds at 1.014x — the third consecutive heartbeat of incremental velocity recovery after the floor at 0.597x. 12 new receipts and 1 new settlement payout this cycle; $4,254 new GMV in 3 hours."
-    },
-    {
-      "ts": "2026-03-04T16:00:15.041Z",
-      "topic": "token-dynamics",
-      "magnitude": "medium",
-      "observation": "Token velocity ticked up to 0.604x (from 0.597-0.598x in prior snapshots) while acceleration holds at 1.01x — the first sustained velocity recovery after multiple heartbeats compressed at the floor. 13 new receipts and 1 new settlement payout this cycle; the system is no longer just holding the floor, it's incrementally building on it."
-    },
-    {
-      "ts": "2026-03-04T16:00:15.040Z",
-      "topic": "brand-expansion",
-      "magnitude": "medium",
-      "observation": "Dollar General entered the top brand list this snapshot, joining the 10-brand cohort that appeared last heartbeat (King Soopers, Kroger, Walmart, Costco, Target, Best Buy, Amazon, Publix, Starbucks, Home Depot). The dataset is now dominated by physical retail and discount/value chains — a structural shift away from SaaS/subscription dominance that has held for multiple prior snapshots."
-    },
-    {
-      "ts": "2026-03-04T13:00:00.534Z",
-      "topic": "geo-diffusion-spike",
-      "magnitude": "high",
-      "observation": "8 new metro areas appeared in a single snapshot (20 total active CBSAs), pushing geo diffusion rate to 40.0% — the largest single-heartbeat geographic expansion observed. The new areas include non-metro Florida, non-metro Maine, and 6 named CBSAs. This mirrors the pattern from a prior heartbeat where 8 metros appeared simultaneously, suggesting pulse-based social graph propagation rather than continuous organic spread."
-    },
-    {
-      "ts": "2026-03-04T10:00:08.907Z",
-      "topic": "token-dynamics",
-      "magnitude": "medium",
-      "observation": "Token acceleration holds at exactly 1.000x with velocity at 0.598x — the system has been in fragile equilibrium for multiple consecutive heartbeats. No new CBSAs, no new vendors, zero settlement activity, zero new receipts this snapshot. The floor is holding but nothing is building on it."
     }
   ]
 }
