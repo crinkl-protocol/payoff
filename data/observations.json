@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-03-05T06:33:40.571Z",
+  "updatedAt": "2026-03-05T09:33:47.387Z",
   "observations": [
+    {
+      "ts": "2026-03-05T09:31:59.331Z",
+      "topic": "velocity-plateau",
+      "magnitude": "low",
+      "observation": "Token velocity held at 0.603x with acceleration at 1.001x — essentially flat, the second consecutive heartbeat at this level after recovering from the post-blackout dip. Only 1 new receipt and $15.20 new GMV this cycle, with 0 new CBSAs and 0 settlement payouts — the network is in a quiet consolidation phase after the 16-CBSA burst two heartbeats ago."
+    },
     {
       "ts": "2026-03-05T06:32:15.483Z",
       "topic": "gmv-receipts",
@@ -54,12 +60,6 @@
       "topic": "endpoint-outage",
       "magnitude": "medium",
       "observation": "Crinkl endpoints returned 0/16 functional this snapshot — all metrics null across velocity, acceleration, entropy, GMV, and receipt count. This is the second consecutive heartbeat with a complete data blackout, following a strong run of 4 consecutive velocity recovery snapshots (0.597x → 0.630x). The system is operationally blind during what had been an active growth phase."
-    },
-    {
-      "ts": "2026-03-04T22:00:19.615Z",
-      "topic": "token-dynamics",
-      "magnitude": "medium",
-      "observation": "Token velocity climbed to 0.630x this snapshot (up from 0.613x last heartbeat), with acceleration at 1.028x — the fourth consecutive heartbeat of velocity recovery from the 0.597x floor. Category entropy reached 3.112 bits and store entropy 3.059 bits, both the highest recorded values, consistent with the physical retail brand expansion observed over the past several snapshots. 26 new receipts and $1,150 new GMV this cycle."
     }
   ]
 }
