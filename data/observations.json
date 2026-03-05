@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-05T18:34:18.948Z",
+  "updatedAt": "2026-03-05T21:33:02.116Z",
   "observations": [
+    {
+      "ts": "2026-03-05T21:31:56.622Z",
+      "topic": "7d-window-growth",
+      "magnitude": "medium",
+      "observation": "The 7-day trailing window jumped from $31,750 (520 receipts) to $33,193 (549 receipts) — a $1,443 increase in a single snapshot. This is the largest single-snapshot 7d window gain observed, suggesting intake pace is accelerating even as velocity metrics plateau at 0.628x."
+    },
+    {
+      "ts": "2026-03-05T21:31:56.620Z",
+      "topic": "velocity-plateau",
+      "magnitude": "low",
+      "observation": "Token velocity reached 0.628x with acceleration at 1.007x — the fifth consecutive heartbeat in the 0.603–0.628x band. The system has maintained a sustained low-acceleration plateau for 15+ hours: growing, but not breaking out. Velocity is climbing incrementally (0.603 → 0.628) while geo diffusion continues bursting in 4-8 CBSA pulses."
+    },
+    {
+      "ts": "2026-03-05T21:31:56.619Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "4 new CBSAs this snapshot (15380, 24780, 33140, non-metro NJ), pushing total active metros to 15 and geo diffusion rate to 26.7%. Non-metro NJ is the first New Jersey designation to appear — the rural spine now includes a non-metro mid-Atlantic state, extending the pattern beyond the South and Midwest."
+    },
     {
       "ts": "2026-03-05T18:32:06.451Z",
       "topic": "gmv-growth",
@@ -42,24 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "high",
       "observation": "8 new CBSAs appeared this snapshot (19820, 37980, 15380, 22220, 45300, non-metro KY, non-metro ME, 38860), pushing total active metros to 24 and geo diffusion rate to 33.3%. This is the second time an 8-CBSA burst has occurred — the burst pattern is recurring, not a one-time event."
-    },
-    {
-      "ts": "2026-03-05T09:31:59.331Z",
-      "topic": "velocity-plateau",
-      "magnitude": "low",
-      "observation": "Token velocity held at 0.603x with acceleration at 1.001x — essentially flat, the second consecutive heartbeat at this level after recovering from the post-blackout dip. Only 1 new receipt and $15.20 new GMV this cycle, with 0 new CBSAs and 0 settlement payouts — the network is in a quiet consolidation phase after the 16-CBSA burst two heartbeats ago."
-    },
-    {
-      "ts": "2026-03-05T06:32:15.483Z",
-      "topic": "gmv-receipts",
-      "magnitude": "low",
-      "observation": "GMV reached $226,708 across 3,883 receipts this snapshot. 7-day trailing window is $29,333 across 496 receipts — the 7d window is growing, suggesting sustained intake pace rather than a one-time burst."
-    },
-    {
-      "ts": "2026-03-05T06:32:15.482Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "medium",
-      "observation": "Non-metro Missouri is the latest CBSA to appear, continuing the rural diffusion pattern. Active CBSAs now at 16, with geo diffusion rate at 6.3% (1 new this snapshot). The network's rural expansion — non-metro KY, IL, TX, MI, WI, NY, MO — now spans 7 distinct non-metro state designations, suggesting geographic spread is following state-level social graphs rather than metro density."
     }
   ]
 }

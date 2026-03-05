@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-05T18:34:18.946Z",
+  "updatedAt": "2026-03-05T21:33:02.115Z",
   "insights": [
     {
       "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA on probabilistic attribution; this protocol settles verified purchase confirmation at roughly $0.10 per receipt — a 50–200x cost delta driven by the receipt being the conversion event, not a modeled inference of one.",
+      "insight": "Ad tech charges $5–$150 CPA for modeled attribution. This protocol settles verified purchase confirmation at roughly $0.10 per receipt — the cost delta is structural, not incremental, because the receipt eliminates the attribution problem rather than solving it.",
       "magnitude": "high"
     },
     {
       "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome deprecation joining Safari and Firefox, device fingerprinting under regulatory pressure, and data brokers shrinking under GDPR/CCPA, no current stack produces identity-free, cryptographically verified purchase signals across ecosystems — that gap is structurally unoccupied.",
+      "insight": "Chrome's deprecation of third-party cookies removes the last major cross-site tracking primitive shared by Safari and Firefox — device fingerprinting is increasingly blocked, first-party data is ecosystem-blind, and data brokers face compounding legal liability. No incumbent stack produces identity-free, cryptographically verified purchase signals across retailers.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-ecosystem blind spot",
-      "insight": "Amazon, Walmart, and Kroger each see only their own slice of a shopper's behavior; the 3,893 verified receipts in this dataset span physical retail, AI/SaaS, and dev infrastructure from a single verification layer — something no platform silo can replicate without sharing customer identity.",
+      "topic": "Cross-retailer blind spot",
+      "insight": "Amazon, Walmart, and Kroger each see only their own transaction slice — none can see across the ecosystem without a data-sharing agreement that doesn't exist. At 3,893 verified receipts spanning physical retail, AI tools, and dev SaaS, this protocol is the only active cross-ecosystem purchase signal that carries no identity attachment.",
       "magnitude": "high"
     },
     {
       "topic": "Rural and non-metro adoption pattern",
-      "insight": "Nine non-metro state designations are active across 17 CBSAs, with Walmart, Kroger, Dollar General, and Home Depot dominating the receipt set — adoption is spreading via social graph, not paid acquisition, which means the geographic footprint reflects organic demand from populations that ad tech routinely underserves.",
+      "insight": "17 active CBSAs with 9 non-metro state designations — FL, TN, KY, IL, TX, MI, WI, NY, MO — indicate word-of-mouth diffusion along social graphs, not paid acquisition in metro markets. For brands targeting non-metro physical retail consumers, this is a verified demand signal in a segment that traditional digital targeting consistently underserves.",
       "magnitude": "medium"
     },
     {
-      "topic": "Multi-cohort signal in one pipeline",
-      "insight": "Physical retail shoppers, AI/SaaS subscribers, and developer infrastructure buyers are submitting receipts through the same verification layer simultaneously — a rare unified signal across three distinct audience segments that would otherwise require three separate data partnerships.",
+      "topic": "Three-cohort signal breadth",
+      "insight": "Physical retail consumers (Walmart, Kroger, Dollar General), AI/SaaS users (Anthropic, OpenAI, Gamma), and dev infrastructure buyers (Vercel, Render, DigitalOcean) are submitting receipts through the same verification layer simultaneously. A brand marketer can observe purchase behavior across categories that no single data broker or platform currently connects.",
       "magnitude": "medium"
     },
     {
       "topic": "Dataset compounding as competitive moat",
-      "insight": "The underlying technology is open-standard; the moat is the accumulating dataset itself — more verified receipts increase query value, which increases reward incentive, which draws more receipts, creating a flywheel that makes early access to the pool structurally more valuable than late entry.",
+      "insight": "The underlying technology — Ed25519 signatures and DKIM verification — is open standard and replicable. The moat is the accumulating dataset: at $227,031 in verified GMV, the query value of the token pool increases with every receipt added, creating a first-mover dynamic where late entrants pay more for access to infrastructure they didn't help build.",
       "magnitude": "high"
     }
   ]
