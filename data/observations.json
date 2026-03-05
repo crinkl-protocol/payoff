@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-05T03:33:08.877Z",
+  "updatedAt": "2026-03-05T06:33:40.571Z",
   "observations": [
+    {
+      "ts": "2026-03-05T06:32:15.483Z",
+      "topic": "gmv-receipts",
+      "magnitude": "low",
+      "observation": "GMV reached $226,708 across 3,883 receipts this snapshot. 7-day trailing window is $29,333 across 496 receipts — the 7d window is growing, suggesting sustained intake pace rather than a one-time burst."
+    },
+    {
+      "ts": "2026-03-05T06:32:15.482Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "Non-metro Missouri is the latest CBSA to appear, continuing the rural diffusion pattern. Active CBSAs now at 16, with geo diffusion rate at 6.3% (1 new this snapshot). The network's rural expansion — non-metro KY, IL, TX, MI, WI, NY, MO — now spans 7 distinct non-metro state designations, suggesting geographic spread is following state-level social graphs rather than metro density."
+    },
+    {
+      "ts": "2026-03-05T06:32:07.135Z",
+      "topic": "velocity-recovery",
+      "magnitude": "medium",
+      "observation": "Token velocity recovered to 0.603x this snapshot (up from 0.563x last heartbeat), with acceleration at 1.071x — the system is back above the prior 0.597x floor after the post-blackout dip. 5 new receipts and $44.84 new GMV in 3 hours, with 1 new CBSA (non-metro Missouri)."
+    },
     {
       "ts": "2026-03-05T03:32:19.593Z",
       "topic": "vendor-cohort-divergence",
@@ -42,24 +60,6 @@
       "topic": "token-dynamics",
       "magnitude": "medium",
       "observation": "Token velocity climbed to 0.630x this snapshot (up from 0.613x last heartbeat), with acceleration at 1.028x — the fourth consecutive heartbeat of velocity recovery from the 0.597x floor. Category entropy reached 3.112 bits and store entropy 3.059 bits, both the highest recorded values, consistent with the physical retail brand expansion observed over the past several snapshots. 26 new receipts and $1,150 new GMV this cycle."
-    },
-    {
-      "ts": "2026-03-04T22:00:11.827Z",
-      "topic": "geo-diffusion-spike",
-      "magnitude": "high",
-      "observation": "8 new metro areas appeared again this snapshot (23 total active CBSAs, 34.8% geo diffusion rate) — Kentucky non-metro, CBSA 15380, Illinois non-metro, CBSA 38860, Texas non-metro, CBSA 19820, CBSA 33100, Michigan non-metro. This is the second time 8 metros have appeared in a single snapshot, confirming a recurring pulse pattern. Non-metro states (KY, IL, TX, MI) dominate this burst, extending the rural/non-urban diffusion trend observed in prior pulses."
-    },
-    {
-      "ts": "2026-03-04T19:00:15.119Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "3 new CBSAs this snapshot (non-metro Maine, CBSA 12060, CBSA 17420), bringing total active metros to 20. The burst-quiet-burst pattern continues — this is the third pulse of geographic expansion in recent heartbeats, with non-metro areas now consistently appearing alongside named CBSAs."
-    },
-    {
-      "ts": "2026-03-04T19:00:06.961Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity ticked up to 0.613x (from 0.604x last heartbeat) while acceleration holds at 1.014x — the third consecutive heartbeat of incremental velocity recovery after the floor at 0.597x. 12 new receipts and 1 new settlement payout this cycle; $4,254 new GMV in 3 hours."
     }
   ]
 }

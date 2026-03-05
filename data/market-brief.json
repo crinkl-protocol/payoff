@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-05T03:33:08.874Z",
+  "updatedAt": "2026-03-05T06:33:40.570Z",
   "insights": [
     {
-      "topic": "Deterministic vs. Probabilistic Attribution",
-      "insight": "The protocol settles verified purchase proof at ~$0.10 per receipt against ad tech's $5–$150 CPA for modeled attribution — a 50–200x cost delta driven by structural difference, not optimization. A cryptographically signed receipt eliminates the attribution problem entirely; it doesn't solve it more efficiently.",
+      "topic": "Deterministic vs. probabilistic signal cost",
+      "insight": "Verified purchase receipts settle at roughly $0.10 per confirmed conversion event versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost delta that exists because the receipt eliminates the attribution problem rather than modeling around it.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-Cookie Signal Vacuum",
-      "insight": "Chrome's deprecation of third-party cookies completes the collapse of the cross-site tracking stack that fingerprinting and data brokers were already failing to replace. This protocol produces identity-free, cross-ecosystem purchase signals — the specific signal type the industry has no functional replacement for.",
+      "topic": "Cookieless targeting gap",
+      "insight": "Chrome's deprecation of third-party cookies removes the last major cross-site tracking primitive, and no current alternative — fingerprinting, first-party data, or data brokers — produces identity-free, cryptographically verified purchase signals across ecosystems; this protocol does.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical Retail Dominance in Dataset",
-      "insight": "Kroger, Walmart, Costco, Target, Dollar General, and Home Depot now dominate the dataset — not SaaS or digital brands. Physical receipt volume is outpacing email receipt capture, meaning the harder data collection problem (OCR + camera) is the one actually scaling.",
+      "topic": "Physical retail dominance in the dataset",
+      "insight": "King Soopers, Kroger, Walmart, Costco, Target, Publix, Home Depot, and Dollar General now dominate the verified receipt corpus, confirming the camera-based OCR pipeline is capturing real-world brick-and-mortar commerce at scale — the harder and more commercially valuable problem.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-Ecosystem Purchase Visibility",
-      "insight": "Amazon sees Amazon purchases, Walmart sees Walmart purchases, and banks see transaction totals without line items — no single platform sees the full basket. At 3,827 verified receipts across physical and digital retail, this dataset is the first cross-ecosystem purchase record that isn't silo-bound.",
+      "topic": "Cross-ecosystem visibility gap",
+      "insight": "Amazon sees Amazon purchases, Walmart sees Walmart purchases, banks see transaction amounts but not SKUs — no single platform has cross-retailer basket-level data; 3,827 verified receipts across these brands in one aggregate layer is a structural first.",
       "magnitude": "high"
     },
     {
-      "topic": "Non-Metro Geographic Penetration",
-      "insight": "Burst expansion into Kentucky, Maine, Wisconsin, and rural Texas means this is not a coastal tech-demo dataset. Physical retail dominance paired with non-metro geography produces a purchase signal distribution that approximates actual U.S. consumer behavior rather than urban early-adopter behavior.",
+      "topic": "Non-metro geographic penetration",
+      "insight": "Active receipt data is now coming from rural and non-metro states including Kentucky, Maine, Wisconsin, and Tennessee, meaning the dataset is not a coastal tech-demo sample — it is beginning to reflect the geographic distribution of actual U.S. consumer spending.",
       "magnitude": "medium"
     },
     {
-      "topic": "Closed-Loop Competitor Limitation",
-      "insight": "Fetch and Ibotta hold real, receipt-verified purchase data but it is identity-attached, closed-loop, and not queryable by third parties — making it a loyalty product, not an attribution infrastructure. Brands using those networks own none of the underlying signal and cannot port it.",
+      "topic": "Platform silo vulnerability for brand measurement",
+      "insight": "Brands running campaigns across Amazon, Walmart, and physical grocery cannot currently reconcile purchase attribution across those channels in a single, identity-free signal layer; $224,753 in verified GMV across these retailers in one protocol suggests that reconciliation is now technically possible.",
       "magnitude": "medium"
     }
   ]
