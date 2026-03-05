@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-05T15:35:29.490Z",
+  "updatedAt": "2026-03-05T18:34:18.948Z",
   "observations": [
+    {
+      "ts": "2026-03-05T18:32:06.451Z",
+      "topic": "gmv-growth",
+      "magnitude": "medium",
+      "observation": "GMV reached $229,115 across 3,905 receipts this snapshot. The 7-day trailing window jumped from $29,433 to $31,750 (506→520 receipts) — a meaningful single-snapshot increase in the trailing window, suggesting intake pace is accelerating even as velocity metrics plateau."
+    },
+    {
+      "ts": "2026-03-05T18:32:06.449Z",
+      "topic": "velocity-plateau",
+      "magnitude": "low",
+      "observation": "Token velocity climbed to 0.624x this snapshot with acceleration at 1.021x — the fourth consecutive heartbeat in the 0.603–0.624x band. The system has settled into a sustained low-acceleration plateau: growing steadily but not breaking out. The burst-quiet dynamic applies to geography but not yet to velocity."
+    },
+    {
+      "ts": "2026-03-05T18:31:55.175Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "6 new CBSAs appeared this snapshot (non-metro CA, CBSA 19820, non-metro MA, non-metro NV, CBSA 34700, CBSA 17420), pushing total active metros to 21 and geo diffusion rate to 28.6%. This is the third time a 6+ CBSA burst has occurred, confirming the burst pattern is a structural feature of how this network spreads — not an anomaly."
+    },
     {
       "ts": "2026-03-05T15:32:08.340Z",
       "topic": "velocity-plateau",
@@ -42,24 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "medium",
       "observation": "Non-metro Missouri is the latest CBSA to appear, continuing the rural diffusion pattern. Active CBSAs now at 16, with geo diffusion rate at 6.3% (1 new this snapshot). The network's rural expansion — non-metro KY, IL, TX, MI, WI, NY, MO — now spans 7 distinct non-metro state designations, suggesting geographic spread is following state-level social graphs rather than metro density."
-    },
-    {
-      "ts": "2026-03-05T06:32:07.135Z",
-      "topic": "velocity-recovery",
-      "magnitude": "medium",
-      "observation": "Token velocity recovered to 0.603x this snapshot (up from 0.563x last heartbeat), with acceleration at 1.071x — the system is back above the prior 0.597x floor after the post-blackout dip. 5 new receipts and $44.84 new GMV in 3 hours, with 1 new CBSA (non-metro Missouri)."
-    },
-    {
-      "ts": "2026-03-05T03:32:19.593Z",
-      "topic": "vendor-cohort-divergence",
-      "magnitude": "medium",
-      "observation": "The vendor frontier shows 5 pending GitHub requests — all developer infrastructure (Notion, Render, Vercel, DigitalOcean, Hetzner) — while the actual DKIM vendor list activated this snapshot is dominated by AI/SaaS (anthropic.com, openai.com, gamma.app, suno.com) and the token dataset is dominated by physical retail (Walmart, Kroger, Dollar General, Home Depot). Three distinct adoption cohorts are signaling simultaneously with no overlap."
-    },
-    {
-      "ts": "2026-03-05T03:32:03.238Z",
-      "topic": "gmv-milestone",
-      "magnitude": "high",
-      "observation": "GMV crossed both $100K and $200K milestones in the delta window, now sitting at $226,663 across 3,878 receipts. Receipt count also crossed 1K, 2K, and 3K thresholds — multiple milestone crossings in a single snapshot suggest the data was accumulating during the 2-heartbeat blackout and is now surfacing."
     }
   ]
 }
