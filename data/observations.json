@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-03-06T09:33:18.431Z",
+  "updatedAt": "2026-03-06T12:34:14.280Z",
   "observations": [
+    {
+      "ts": "2026-03-06T12:31:57.913Z",
+      "topic": "steady-state plateau",
+      "magnitude": "low",
+      "observation": "Token velocity at 0.624x with acceleration 1.001x — essentially unchanged from the prior heartbeat (0.624x/1.003x). Zero new CBSAs (17 total active), zero settlement velocity, zero vendor expansion. The system is in deep steady-state: the post-burst consolidation phase is now 3+ consecutive heartbeats with no geographic, vendor, or settlement movement."
+    },
     {
       "ts": "2026-03-06T09:31:55.437Z",
       "topic": "token-velocity",
@@ -54,12 +60,6 @@
       "topic": "7d-window-growth",
       "magnitude": "medium",
       "observation": "The 7-day trailing window jumped from $31,750 (520 receipts) to $33,193 (549 receipts) — a $1,443 increase in a single snapshot. This is the largest single-snapshot 7d window gain observed, suggesting intake pace is accelerating even as velocity metrics plateau at 0.628x."
-    },
-    {
-      "ts": "2026-03-05T21:31:56.620Z",
-      "topic": "velocity-plateau",
-      "magnitude": "low",
-      "observation": "Token velocity reached 0.628x with acceleration at 1.007x — the fifth consecutive heartbeat in the 0.603–0.628x band. The system has maintained a sustained low-acceleration plateau for 15+ hours: growing, but not breaking out. Velocity is climbing incrementally (0.603 → 0.628) while geo diffusion continues bursting in 4-8 CBSA pulses."
     }
   ]
 }

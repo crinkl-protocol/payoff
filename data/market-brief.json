@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-06T09:33:18.427Z",
+  "updatedAt": "2026-03-06T12:34:14.279Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles verified purchase events at roughly $0.10 each — a 50–200x cost delta that isn't a pricing negotiation, it's a different category of evidence.",
+      "topic": "Deterministic vs. Probabilistic Attribution",
+      "insight": "Verified receipt data settles attribution at ~$0.10 per confirmed purchase event versus $5–$150 CPA for modeled conversions in standard ad tech — the gap exists because a cryptographically signed receipt eliminates the attribution problem rather than solving it probabilistically.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookieless signal gap",
-      "insight": "With Chrome completing cookie deprecation and fingerprinting under regulatory pressure, the industry has no cross-ecosystem, identity-free purchase signal at scale — verified receipts are the only deterministic alternative that doesn't require a user login or a data broker relationship.",
+      "topic": "Cookieless Signal Gap",
+      "insight": "With Chrome completing cookie deprecation and device fingerprinting increasingly blocked, the ad industry has no cross-ecosystem, identity-free purchase signal at scale — verified receipt infrastructure is one of the few mechanisms that produces deterministic conversion data without requiring PII.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo blind spot",
-      "insight": "Amazon knows Amazon spend; Kroger knows Kroger spend; neither knows what their customers buy elsewhere — a protocol that captures cross-retailer purchase data without identity creates an information advantage no single first-party dataset can replicate.",
+      "topic": "Platform Silo Blind Spot",
+      "insight": "Amazon knows Amazon spend, Kroger knows Kroger spend — neither sees the full wallet; a cross-ecosystem receipt layer captures both simultaneously without identity attachment, which is the specific information gap that no first-party data program can close by definition.",
       "magnitude": "high"
     },
     {
-      "topic": "Rural consumer underrepresentation",
-      "insight": "The network's geographic footprint is building through non-metro markets across 15+ states — populations that are systematically undertargeted by digital advertising and underrepresented in first-party data programs, meaning the signal covers a segment most brand datasets miss.",
+      "topic": "Rural Consumer Coverage",
+      "insight": "The network is expanding across non-metro CBSAs in 15+ states, capturing a consumer population that is systematically underrepresented in cookie-based targeting and first-party data programs — rural spend is real but largely invisible to digital ad infrastructure.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category diversification signal",
-      "insight": "The 14-day brand mix spans grocery (Kroger, H-E-B, King Soopers), mass retail (Walmart, Target), warehouse (Costco), and home improvement (Home Depot) — verified cross-category purchase data that no single retail media network can produce.",
+      "topic": "Category Signal Breadth",
+      "insight": "Current brand coverage spans grocery (Kroger, H-E-B, King Soopers), mass retail (Walmart, Target), warehouse (Costco), and home improvement (Home Depot), meaning the receipt signal crosses category lines that no single retailer's loyalty program can provide.",
       "magnitude": "medium"
     },
     {
-      "topic": "Velocity plateau — watch before committing",
-      "insight": "Token velocity has been range-bound for six consecutive measurement periods despite geographic expansion, meaning intake is steady but not yet compounding; brands evaluating this as a scaled data source should treat current volume as early-stage signal, not mature inventory.",
+      "topic": "Velocity Plateau as Stability Indicator",
+      "insight": "Token velocity has held range-bound for 6+ consecutive measurement windows, suggesting consistent intake rather than speculative or event-driven spikes — for brands evaluating data infrastructure, flat velocity with geographic expansion is a more credible baseline than growth driven by anomalous events.",
       "magnitude": "medium"
     }
   ]
