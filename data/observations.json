@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-06T15:33:28.147Z",
+  "updatedAt": "2026-03-06T18:33:03.229Z",
   "observations": [
+    {
+      "ts": "2026-03-06T18:32:10.233Z",
+      "topic": "token-velocity",
+      "magnitude": "low",
+      "observation": "Token velocity at 0.626x with acceleration exactly 1.000x — the system is in near-perfect steady state. After the post-burst consolidation (3 heartbeats at ~0.624x) and the new geo burst resuming, velocity is flat but geographic diffusion is active again, suggesting intake growth is happening at the edges rather than the center."
+    },
+    {
+      "ts": "2026-03-06T18:32:10.232Z",
+      "topic": "receipt-count",
+      "magnitude": "medium",
+      "observation": "Total receipts crossed 4,001 this snapshot — the network has now processed over 4,000 verified spend events. Cumulative GMV stands at $233,481 with 7d trailing at $29,224 (513 receipts), showing steady intake pace resuming after the rolling-window artifact cleared."
+    },
+    {
+      "ts": "2026-03-06T18:32:10.230Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "3 new CBSAs appeared this snapshot (CBSA 40140, non-metro PA, CBSA 16860), pushing total active metros to 27 — the network has now crossed 27 active CBSAs. This is the third burst phase in recent cycles, confirming the burst-quiet-burst pattern: the 3-heartbeat quiet phase after the 8-CBSA burst has ended and expansion is resuming."
+    },
     {
       "ts": "2026-03-06T15:31:42.974Z",
       "topic": "burst-quiet-cycle",
@@ -42,24 +60,6 @@
       "topic": "velocity-recovery",
       "magnitude": "low",
       "observation": "Token velocity recovered to 0.622x with acceleration at 1.054x this heartbeat — rebounding from last cycle's 0.579x/0.921x reading. The 7d trailing window also ticked up from $28,628 to $28,715 (492→497 receipts), confirming the rolling-window artifact has fully cleared and the system is back in steady-state growth. Geo diffusion shows 0 new CBSAs this cycle (17 total active), suggesting the network is in a quiet phase between bursts."
-    },
-    {
-      "ts": "2026-03-06T03:31:59.390Z",
-      "topic": "velocity-recovery",
-      "magnitude": "medium",
-      "observation": "Token velocity recovered to 0.59x with acceleration at 1.019x — rebounding from last heartbeat's 0.579x/0.921x reading. The 7d trailing window also recovered from $27,531 to $28,628 (471→492 receipts), confirming the prior-week rolling-window artifact has cleared and intake pace is resuming."
-    },
-    {
-      "ts": "2026-03-06T03:31:59.388Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "medium",
-      "observation": "5 new CBSAs appeared this snapshot (CBSA 38060, non-metro ID, CBSA 28060, non-metro IL, non-metro MO), pushing total active metros to 26. The network now has non-metro Idaho as its westernmost rural designation — the rural spine is extending into the Mountain West for the first time."
-    },
-    {
-      "ts": "2026-03-06T00:31:53.163Z",
-      "topic": "velocity-deceleration",
-      "magnitude": "medium",
-      "observation": "Token velocity dropped to 0.579x (from 0.628x last heartbeat) with acceleration at 0.921x — the first sub-1.0x acceleration reading after 5 consecutive heartbeats in the 0.603–0.628x plateau. Simultaneously, the 7-day trailing GMV window fell sharply from $33,193 to $27,531 (549→471 receipts), suggesting a rolling-window artifact as a strong prior week drops out."
     }
   ]
 }

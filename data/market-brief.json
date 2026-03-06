@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-06T15:33:28.145Z",
+  "updatedAt": "2026-03-06T18:33:03.227Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic attribution",
-      "insight": "Ad tech charges $5–$150 CPA to infer a purchase may have happened; a cryptographically verified receipt confirms it did, at roughly $0.10 per signal — a 50–200x cost delta that isn't a product improvement, it's a different category of evidence.",
+      "topic": "Deterministic vs. probabilistic signal cost",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles verified purchase events at roughly $0.10 each — a 50–200x cost delta driven by eliminating the attribution problem entirely, not optimizing around it.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie signal gap",
-      "insight": "With Chrome deprecating cookies and fingerprinting under regulatory pressure, the ad industry's primary cross-site tracking primitives are gone — this protocol produces identity-free, cross-ecosystem purchase verification that no first-party data program or data broker currently offers.",
+      "topic": "Cookieless targeting gap",
+      "insight": "With Chrome completing cookie deprecation and device fingerprinting increasingly blocked, the industry has no cross-ecosystem, identity-free purchase signal at scale — verified receipts are the only class of data that fills that gap without PII liability.",
       "magnitude": "high"
     },
     {
       "topic": "Platform silo blind spot",
-      "insight": "Amazon knows Amazon spend; Kroger knows Kroger spend; neither sees the other — a system that aggregates verified purchase signals across retailers without holding identity gives brands a cross-ecosystem view that no single platform can sell them.",
+      "insight": "Amazon knows Amazon spend; Kroger knows Kroger spend; neither knows the other — and neither can sell that cross-ecosystem view to brands because they don't have it; a system that aggregates verified purchase signals across retailers without identity attachment is structurally what neither can build.",
       "magnitude": "high"
     },
     {
-      "topic": "Rural consumer undercoverage",
-      "insight": "The network's geographic footprint is building through non-metro markets — 15+ rural state designations including first Mountain West entry — capturing spend from populations that are systematically underrepresented in cookie-based and first-party data programs.",
+      "topic": "Rural consumer underrepresentation",
+      "insight": "The network's 26 active CBSAs skew non-metro — populations that are less cookied, less targeted by digital advertising, and less represented in first-party data programs; brands relying on standard ad tech are systematically blind to this spend.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category diversification signal",
-      "insight": "Top-brand data shows verified receipts spanning grocery (King Soopers, Kroger, H-E-B), mass retail (Walmart, Target), warehouse (Costco), and home improvement (Home Depot) — the dataset is not a grocery panel, it is a cross-category commerce signal.",
+      "topic": "Category and retailer signal breadth",
+      "insight": "Within a 14-day window, verified receipts span grocery (King Soopers, Kroger, H-E-B), mass retail (Walmart, Target), home improvement (Home Depot), and club (Costco) — cross-category purchase behavior visible in one dataset without a loyalty card or login.",
       "magnitude": "medium"
     },
     {
-      "topic": "Velocity plateau as intake quality indicator",
-      "insight": "Token velocity has held flat at 0.579–0.628x for six consecutive measurement periods while geographic coverage keeps expanding — intake is consistent but not yet compounding, meaning the dataset is stable and growing but not yet at the scale where trend signals are statistically robust for campaign planning.",
+      "topic": "Velocity plateau as adoption signal",
+      "insight": "Token velocity has been range-bound for six consecutive measurement periods while geographic reach continues expanding in bursts — intake is consistent but not yet compounding, which means the dataset is real and growing but has not hit the inflection point brands would need before treating it as a primary signal source.",
       "magnitude": "medium"
     }
   ]
