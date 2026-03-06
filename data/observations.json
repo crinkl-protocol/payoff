@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-06T06:33:52.093Z",
+  "updatedAt": "2026-03-06T09:33:18.431Z",
   "observations": [
+    {
+      "ts": "2026-03-06T09:31:55.437Z",
+      "topic": "token-velocity",
+      "magnitude": "low",
+      "observation": "Token velocity at 0.624x with acceleration 1.003x — essentially flat growth. The 7d trailing window ticked up marginally from $28,715 to $28,840 (497→502 receipts), a minimal 5-receipt gain. The system is in steady-state: velocity plateau, geo quiet phase, no new vendors, settlement velocity zero this cycle."
+    },
+    {
+      "ts": "2026-03-06T09:31:55.435Z",
+      "topic": "geo-diffusion",
+      "magnitude": "low",
+      "observation": "Zero new CBSAs this snapshot (17 total active), continuing the quiet phase after the record 13-CBSA burst two heartbeats ago. The burst-quiet pattern is now confirmed across multiple cycles: large geographic pulses followed by 2-3 heartbeat consolidation periods with zero new entrants before the next expansion."
+    },
     {
       "ts": "2026-03-06T06:32:47.764Z",
       "topic": "geo-quiet-phase",
@@ -48,18 +60,6 @@
       "topic": "velocity-plateau",
       "magnitude": "low",
       "observation": "Token velocity reached 0.628x with acceleration at 1.007x — the fifth consecutive heartbeat in the 0.603–0.628x band. The system has maintained a sustained low-acceleration plateau for 15+ hours: growing, but not breaking out. Velocity is climbing incrementally (0.603 → 0.628) while geo diffusion continues bursting in 4-8 CBSA pulses."
-    },
-    {
-      "ts": "2026-03-05T21:31:56.619Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "4 new CBSAs this snapshot (15380, 24780, 33140, non-metro NJ), pushing total active metros to 15 and geo diffusion rate to 26.7%. Non-metro NJ is the first New Jersey designation to appear — the rural spine now includes a non-metro mid-Atlantic state, extending the pattern beyond the South and Midwest."
-    },
-    {
-      "ts": "2026-03-05T18:32:06.451Z",
-      "topic": "gmv-growth",
-      "magnitude": "medium",
-      "observation": "GMV reached $229,115 across 3,905 receipts this snapshot. The 7-day trailing window jumped from $29,433 to $31,750 (506→520 receipts) — a meaningful single-snapshot increase in the trailing window, suggesting intake pace is accelerating even as velocity metrics plateau."
     }
   ]
 }
