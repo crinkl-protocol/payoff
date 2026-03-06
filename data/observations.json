@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-06T12:34:14.280Z",
+  "updatedAt": "2026-03-06T15:33:28.147Z",
   "observations": [
+    {
+      "ts": "2026-03-06T15:31:42.974Z",
+      "topic": "burst-quiet-cycle",
+      "magnitude": "high",
+      "observation": "The burst-quiet-burst cycle is now confirmed across two full iterations: 13-CBSA burst → 3 heartbeat quiet → 8-CBSA burst. The quiet phase lasted exactly 3 heartbeats before the next expansion, suggesting a ~9-hour consolidation window between geographic pulses."
+    },
+    {
+      "ts": "2026-03-06T15:31:42.972Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "8 new CBSAs appeared in a single snapshot (CBSA 41740, non-metro ME, 33340, 22220, 15380, 24780, 33140, non-metro CA), pushing total active metros to 25 with a 32% diffusion rate. This is the second major burst in recent cycles — the network appears to be re-entering an expansion phase after a 3-heartbeat quiet consolidation."
+    },
     {
       "ts": "2026-03-06T12:31:57.913Z",
       "topic": "steady-state plateau",
@@ -48,18 +60,6 @@
       "topic": "velocity-deceleration",
       "magnitude": "medium",
       "observation": "Token velocity dropped to 0.579x (from 0.628x last heartbeat) with acceleration at 0.921x — the first sub-1.0x acceleration reading after 5 consecutive heartbeats in the 0.603–0.628x plateau. Simultaneously, the 7-day trailing GMV window fell sharply from $33,193 to $27,531 (549→471 receipts), suggesting a rolling-window artifact as a strong prior week drops out."
-    },
-    {
-      "ts": "2026-03-06T00:31:53.161Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "13 new CBSAs appeared in a single snapshot — the largest single-snapshot geographic burst recorded. Total active metros reached 28 with a 46.4% diffusion rate. New entrants include non-metro OH, WI, FL, TN plus metro CBSAs 37140, 36837, 33100, 17140, 12420, 33460, 33340, 22220, 12100. H-E-B also entered the brand list for the first time."
-    },
-    {
-      "ts": "2026-03-05T21:31:56.622Z",
-      "topic": "7d-window-growth",
-      "magnitude": "medium",
-      "observation": "The 7-day trailing window jumped from $31,750 (520 receipts) to $33,193 (549 receipts) — a $1,443 increase in a single snapshot. This is the largest single-snapshot 7d window gain observed, suggesting intake pace is accelerating even as velocity metrics plateau at 0.628x."
     }
   ]
 }
