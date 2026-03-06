@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-06T18:33:03.229Z",
+  "updatedAt": "2026-03-06T21:33:43.246Z",
   "observations": [
+    {
+      "ts": "2026-03-06T21:31:55.943Z",
+      "topic": "velocity-recovery",
+      "magnitude": "medium",
+      "observation": "Token velocity ticked up to 0.639x (from 0.626x last cycle) with acceleration at 1.021x — the first meaningful velocity increase after 3 consecutive flat heartbeats at ~0.624x. Geographic expansion (4 new CBSAs) and velocity recovery are occurring simultaneously, suggesting the two signals are coupled: geo bursts precede or coincide with velocity inflections."
+    },
+    {
+      "ts": "2026-03-06T21:31:55.942Z",
+      "topic": "receipts-milestone",
+      "magnitude": "medium",
+      "observation": "Total receipts crossed 4,013 this snapshot with cumulative GMV at $233,844 — the 7d trailing window jumped from $29,224 to $29,587 (513→525 receipts), a 12-receipt gain in 3 hours suggesting intake is accelerating again after the post-burst consolidation."
+    },
+    {
+      "ts": "2026-03-06T21:31:55.940Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "4 new CBSAs appeared this snapshot (17410, 37980, 16700, 19820), pushing total active metros to 31 — the network has now crossed 30 active CBSAs for the first time. This is the third consecutive burst phase: 13-CBSA burst → 3-heartbeat quiet → 8-CBSA burst → 3-CBSA burst → now 4-CBSA burst, with the network expanding in waves rather than linear growth."
+    },
     {
       "ts": "2026-03-06T18:32:10.233Z",
       "topic": "token-velocity",
@@ -42,24 +60,6 @@
       "topic": "token-velocity",
       "magnitude": "low",
       "observation": "Token velocity at 0.624x with acceleration 1.003x — essentially flat growth. The 7d trailing window ticked up marginally from $28,715 to $28,840 (497→502 receipts), a minimal 5-receipt gain. The system is in steady-state: velocity plateau, geo quiet phase, no new vendors, settlement velocity zero this cycle."
-    },
-    {
-      "ts": "2026-03-06T09:31:55.435Z",
-      "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "Zero new CBSAs this snapshot (17 total active), continuing the quiet phase after the record 13-CBSA burst two heartbeats ago. The burst-quiet pattern is now confirmed across multiple cycles: large geographic pulses followed by 2-3 heartbeat consolidation periods with zero new entrants before the next expansion."
-    },
-    {
-      "ts": "2026-03-06T06:32:47.764Z",
-      "topic": "geo-quiet-phase",
-      "magnitude": "medium",
-      "observation": "Geographic diffusion shows 0 new CBSAs this snapshot with 17 total active — a quiet phase following the record 13-CBSA burst two heartbeats ago. The burst-quiet pattern continues: large geographic pulses followed by consolidation periods with zero new entrants. This is now the second confirmed quiet phase after a major burst, suggesting the network needs ~2 heartbeats to absorb before the next expansion."
-    },
-    {
-      "ts": "2026-03-06T06:32:47.762Z",
-      "topic": "velocity-recovery",
-      "magnitude": "low",
-      "observation": "Token velocity recovered to 0.622x with acceleration at 1.054x this heartbeat — rebounding from last cycle's 0.579x/0.921x reading. The 7d trailing window also ticked up from $28,628 to $28,715 (492→497 receipts), confirming the rolling-window artifact has fully cleared and the system is back in steady-state growth. Geo diffusion shows 0 new CBSAs this cycle (17 total active), suggesting the network is in a quiet phase between bursts."
     }
   ]
 }

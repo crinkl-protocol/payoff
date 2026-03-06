@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-06T18:33:03.227Z",
+  "updatedAt": "2026-03-06T21:33:43.245Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles verified purchase events at roughly $0.10 each — a 50–200x cost delta driven by eliminating the attribution problem entirely, not optimizing around it.",
+      "topic": "Receipt vs. probabilistic signal cost delta",
+      "insight": "Ad tech charges $5–$150 CPA for modeled attribution; this protocol settles at roughly $0.10 per cryptographically verified purchase event — a 50–200x cost difference that is structural, not incremental.",
       "magnitude": "high"
     },
     {
       "topic": "Cookieless targeting gap",
-      "insight": "With Chrome completing cookie deprecation and device fingerprinting increasingly blocked, the industry has no cross-ecosystem, identity-free purchase signal at scale — verified receipts are the only class of data that fills that gap without PII liability.",
+      "insight": "With Chrome completing cookie deprecation and device fingerprinting under regulatory pressure, the ad stack has no remaining cross-site deterministic signal — verified receipt data fills that gap without identity attachment.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo blind spot",
-      "insight": "Amazon knows Amazon spend; Kroger knows Kroger spend; neither knows the other — and neither can sell that cross-ecosystem view to brands because they don't have it; a system that aggregates verified purchase signals across retailers without identity attachment is structurally what neither can build.",
+      "topic": "The inbox as the only cross-platform purchase record",
+      "insight": "Amazon sees Amazon, Walmart sees Walmart — no platform sees the full consumer purchase picture except the email inbox, which receives receipts from every vendor; this protocol is the first to make that record queryable without exposing identity.",
       "magnitude": "high"
     },
     {
-      "topic": "Rural consumer underrepresentation",
-      "insight": "The network's 26 active CBSAs skew non-metro — populations that are less cookied, less targeted by digital advertising, and less represented in first-party data programs; brands relying on standard ad tech are systematically blind to this spend.",
+      "topic": "Dataset as the durable moat",
+      "insight": "4,001 verified receipts representing $233K in GMV took months to accumulate; any competitor starts at zero, and every new receipt compounds the signal density — the data corpus, not the underlying DKIM technology, is the defensible asset.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category and retailer signal breadth",
-      "insight": "Within a 14-day window, verified receipts span grocery (King Soopers, Kroger, H-E-B), mass retail (Walmart, Target), home improvement (Home Depot), and club (Costco) — cross-category purchase behavior visible in one dataset without a loyalty card or login.",
+      "topic": "SaaS and cloud spend entering the dataset",
+      "insight": "Five pending vendor requests cover developer infrastructure (Vercel, Render, DigitalOcean, Hetzner) — if approved, this marks the first expansion beyond physical retail into digital subscription spend, broadening the signal for B2B and SaaS-adjacent marketers.",
       "magnitude": "medium"
     },
     {
-      "topic": "Velocity plateau as adoption signal",
-      "insight": "Token velocity has been range-bound for six consecutive measurement periods while geographic reach continues expanding in bursts — intake is consistent but not yet compounding, which means the dataset is real and growing but has not hit the inflection point brands would need before treating it as a primary signal source.",
+      "topic": "Network growth pattern and representativeness",
+      "insight": "27 CBSAs active with recent expansion into rural Mountain West suggests social-graph propagation rather than paid acquisition; the dataset is trending toward national household spend representation, not a metro-skewed panel.",
       "magnitude": "medium"
     }
   ]
