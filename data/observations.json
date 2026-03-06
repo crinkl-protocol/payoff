@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-06T00:33:42.697Z",
+  "updatedAt": "2026-03-06T03:34:41.981Z",
   "observations": [
+    {
+      "ts": "2026-03-06T03:31:59.390Z",
+      "topic": "velocity-recovery",
+      "magnitude": "medium",
+      "observation": "Token velocity recovered to 0.59x with acceleration at 1.019x — rebounding from last heartbeat's 0.579x/0.921x reading. The 7d trailing window also recovered from $27,531 to $28,628 (471→492 receipts), confirming the prior-week rolling-window artifact has cleared and intake pace is resuming."
+    },
+    {
+      "ts": "2026-03-06T03:31:59.388Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "5 new CBSAs appeared this snapshot (CBSA 38060, non-metro ID, CBSA 28060, non-metro IL, non-metro MO), pushing total active metros to 26. The network now has non-metro Idaho as its westernmost rural designation — the rural spine is extending into the Mountain West for the first time."
+    },
     {
       "ts": "2026-03-06T00:31:53.163Z",
       "topic": "velocity-deceleration",
@@ -48,18 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "high",
       "observation": "6 new CBSAs appeared this snapshot (non-metro CA, CBSA 19820, non-metro MA, non-metro NV, CBSA 34700, CBSA 17420), pushing total active metros to 21 and geo diffusion rate to 28.6%. This is the third time a 6+ CBSA burst has occurred, confirming the burst pattern is a structural feature of how this network spreads — not an anomaly."
-    },
-    {
-      "ts": "2026-03-05T15:32:08.340Z",
-      "topic": "velocity-plateau",
-      "magnitude": "low",
-      "observation": "Token velocity at 0.611x with acceleration 1.012x — third consecutive heartbeat in the 0.603–0.611x band. The post-blackout recovery has stabilized into a low-acceleration plateau: 8 receipts, $299.24 new GMV, 3 new CBSAs in 3 hours. Growth is steady but not accelerating."
-    },
-    {
-      "ts": "2026-03-05T15:32:08.339Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "medium",
-      "observation": "3 new CBSAs this snapshot (non-metro FL, CBSA 12100, non-metro TN), pushing total active metros to 17. The non-metro expansion now spans FL, TN, KY, IL, TX, MI, WI, NY, MO — 9 distinct non-metro state designations. The network is building a rural spine, not a metro hub."
     }
   ]
 }

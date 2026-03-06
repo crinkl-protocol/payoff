@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-06T00:33:42.696Z",
+  "updatedAt": "2026-03-06T03:34:41.979Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic cost delta",
-      "insight": "Verified receipt signals are settling at ~$0.10 per confirmed conversion event versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost gap that reflects the structural difference between cryptographic proof and statistical inference.",
+      "topic": "Deterministic vs. probabilistic signal cost",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles at roughly $0.10 per cryptographically verified receipt — a 50–200x cost delta that isn't an efficiency gain, it's a structural replacement of the attribution problem itself.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation leaves a real gap",
-      "insight": "With Chrome joining Safari and Firefox in blocking cross-site cookies, device fingerprinting under regulatory pressure, and data brokers shrinking under GDPR/CCPA, no current cookieless alternative produces identity-free, cross-ecosystem, verified purchase signals — this protocol is the only candidate in that category with live receipts.",
+      "topic": "Post-cookie targeting gap",
+      "insight": "With Chrome completing cookie deprecation and device fingerprinting increasingly blocked by regulation and browser privacy updates, the industry has no cross-site deterministic signal at scale — verified receipt tokens are the only identity-free alternative that doesn't depend on a deprecated primitive.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-ecosystem blind spot is the silo problem",
-      "insight": "Amazon, Walmart, and Kroger each see only their own purchase data; no platform sees across the ecosystem, and none will share customer records with competitors — verified receipt tokens carry the commerce fact without the identity, making cross-retailer signal possible for the first time without data-sharing agreements.",
+      "topic": "Cross-ecosystem blind spot",
+      "insight": "Amazon sees Amazon, Walmart sees Walmart — no major retailer has visibility into purchases made outside its own walls; at 3,893 verified receipts spanning Walmart, Kroger, Dollar General, and Home Depot, this dataset is the first cross-ecosystem purchase signal that doesn't require a data-sharing agreement or identity disclosure.",
       "magnitude": "high"
     },
     {
-      "topic": "Rural, non-metro adoption pattern",
-      "insight": "Nine non-metro state designations are active across physical retail receipts from Walmart, Kroger, Dollar General, and Home Depot — the geographic spread is following social graphs, not ad spend, which means the dataset is capturing a consumer segment that metro-first digital targeting routinely underweights.",
+      "topic": "Rural and non-metro consumer reach",
+      "insight": "Nine non-metro state designations are active across 17 CBSAs, with adoption following social graphs rather than metro density — a word-of-mouth spread pattern that reaches the physical-retail consumer segment most underrepresented in digital-first targeting stacks.",
       "magnitude": "medium"
     },
     {
-      "topic": "Three distinct purchase cohorts on one infrastructure",
-      "insight": "Physical retail consumers, AI/SaaS subscribers, and developer infrastructure buyers are all submitting receipts through the same verification layer simultaneously — for brands, this means a single query surface across purchase categories that would otherwise require three separate data partnerships.",
+      "topic": "Closed-loop receipt app limitation",
+      "insight": "Existing receipt platforms like Fetch and Ibotta hold real purchase data but it is identity-attached, siloed, and not queryable by third parties — brands accessing those networks carry regulatory exposure that identity-free verified tokens structurally eliminate.",
       "magnitude": "medium"
     },
     {
-      "topic": "Dataset compounding as the real moat",
-      "insight": "The competitive advantage here is not the cryptographic standards, which are open — it is the accumulating receipt dataset itself; at 3,893 verified receipts and $227K GMV, the pool is early, but the dynamic is self-reinforcing: query value rises with scale, which draws more receipts, which raises query value.",
+      "topic": "Dataset compounding as competitive moat",
+      "insight": "The verified GMV figure — $227,031 across 3,893 receipts — is less important as a current number than as a compounding mechanism: query value rises with dataset size, which increases reward pools, which attracts more receipts; brands that delay access will face a higher entry cost as the dataset matures.",
       "magnitude": "high"
     }
   ]
