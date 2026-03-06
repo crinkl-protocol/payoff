@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-03-06T03:34:41.979Z",
+  "updatedAt": "2026-03-06T06:33:52.086Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles at roughly $0.10 per cryptographically verified receipt — a 50–200x cost delta that isn't an efficiency gain, it's a structural replacement of the attribution problem itself.",
+      "topic": "Deterministic vs. probabilistic cost delta",
+      "insight": "Ad tech charges $5–$150 CPA on probabilistic attribution; this protocol settles verified purchase events at roughly $0.10 each — a 50–200x cost gap that isn't a pricing negotiation, it's a different category of signal.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome completing cookie deprecation and device fingerprinting increasingly blocked by regulation and browser privacy updates, the industry has no cross-site deterministic signal at scale — verified receipt tokens are the only identity-free alternative that doesn't depend on a deprecated primitive.",
+      "topic": "Post-cookie verified purchase signal",
+      "insight": "With Chrome cookie deprecation now complete, the industry is patching with fingerprinting and first-party data — both partial and shrinking; a cryptographically verified receipt sidesteps the entire attribution stack because the purchase event is the proof, not an inference from it.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-ecosystem blind spot",
-      "insight": "Amazon sees Amazon, Walmart sees Walmart — no major retailer has visibility into purchases made outside its own walls; at 3,893 verified receipts spanning Walmart, Kroger, Dollar General, and Home Depot, this dataset is the first cross-ecosystem purchase signal that doesn't require a data-sharing agreement or identity disclosure.",
+      "topic": "Cross-retailer visibility without identity",
+      "insight": "Amazon knows Amazon spend; Kroger knows Kroger spend; neither sees the other — this protocol captures both in the same dataset without attaching identity, which is the specific blind spot that no single first-party data program can fix.",
       "magnitude": "high"
     },
     {
-      "topic": "Rural and non-metro consumer reach",
-      "insight": "Nine non-metro state designations are active across 17 CBSAs, with adoption following social graphs rather than metro density — a word-of-mouth spread pattern that reaches the physical-retail consumer segment most underrepresented in digital-first targeting stacks.",
+      "topic": "Rural consumer coverage gap",
+      "insight": "The network's geographic footprint is building along a rural spine across 26 CBSAs — populations that are systematically underrepresented in cookie-based and first-party data programs, meaning the verified purchase signal is strongest exactly where ad tech coverage is weakest.",
       "magnitude": "medium"
     },
     {
-      "topic": "Closed-loop receipt app limitation",
-      "insight": "Existing receipt platforms like Fetch and Ibotta hold real purchase data but it is identity-attached, siloed, and not queryable by third parties — brands accessing those networks carry regulatory exposure that identity-free verified tokens structurally eliminate.",
+      "topic": "Category diversification signal",
+      "insight": "Top-brand receipt data already spans grocery (King Soopers, Kroger, H-E-B), mass retail (Walmart, Target), warehouse (Costco), and home improvement (Home Depot) — basket composition across categories is visible at the aggregate level without a loyalty card or pixel.",
       "magnitude": "medium"
     },
     {
-      "topic": "Dataset compounding as competitive moat",
-      "insight": "The verified GMV figure — $227,031 across 3,893 receipts — is less important as a current number than as a compounding mechanism: query value rises with dataset size, which increases reward pools, which attracts more receipts; brands that delay access will face a higher entry cost as the dataset matures.",
-      "magnitude": "high"
+      "topic": "Velocity plateau as baseline integrity check",
+      "insight": "Token velocity has held flat at 0.58–0.63x for six consecutive measurement periods even as geographic reach expands — steady intake without artificial spikes is a data quality indicator brands should want before building targeting decisions on top of any new signal source.",
+      "magnitude": "medium"
     }
   ]
 }

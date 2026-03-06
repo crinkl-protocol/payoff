@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-06T03:34:41.981Z",
+  "updatedAt": "2026-03-06T06:33:52.093Z",
   "observations": [
+    {
+      "ts": "2026-03-06T06:32:47.764Z",
+      "topic": "geo-quiet-phase",
+      "magnitude": "medium",
+      "observation": "Geographic diffusion shows 0 new CBSAs this snapshot with 17 total active — a quiet phase following the record 13-CBSA burst two heartbeats ago. The burst-quiet pattern continues: large geographic pulses followed by consolidation periods with zero new entrants. This is now the second confirmed quiet phase after a major burst, suggesting the network needs ~2 heartbeats to absorb before the next expansion."
+    },
+    {
+      "ts": "2026-03-06T06:32:47.762Z",
+      "topic": "velocity-recovery",
+      "magnitude": "low",
+      "observation": "Token velocity recovered to 0.622x with acceleration at 1.054x this heartbeat — rebounding from last cycle's 0.579x/0.921x reading. The 7d trailing window also ticked up from $28,628 to $28,715 (492→497 receipts), confirming the rolling-window artifact has fully cleared and the system is back in steady-state growth. Geo diffusion shows 0 new CBSAs this cycle (17 total active), suggesting the network is in a quiet phase between bursts."
+    },
     {
       "ts": "2026-03-06T03:31:59.390Z",
       "topic": "velocity-recovery",
@@ -48,18 +60,6 @@
       "topic": "gmv-growth",
       "magnitude": "medium",
       "observation": "GMV reached $229,115 across 3,905 receipts this snapshot. The 7-day trailing window jumped from $29,433 to $31,750 (506→520 receipts) — a meaningful single-snapshot increase in the trailing window, suggesting intake pace is accelerating even as velocity metrics plateau."
-    },
-    {
-      "ts": "2026-03-05T18:32:06.449Z",
-      "topic": "velocity-plateau",
-      "magnitude": "low",
-      "observation": "Token velocity climbed to 0.624x this snapshot with acceleration at 1.021x — the fourth consecutive heartbeat in the 0.603–0.624x band. The system has settled into a sustained low-acceleration plateau: growing steadily but not breaking out. The burst-quiet dynamic applies to geography but not yet to velocity."
-    },
-    {
-      "ts": "2026-03-05T18:31:55.175Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "6 new CBSAs appeared this snapshot (non-metro CA, CBSA 19820, non-metro MA, non-metro NV, CBSA 34700, CBSA 17420), pushing total active metros to 21 and geo diffusion rate to 28.6%. This is the third time a 6+ CBSA burst has occurred, confirming the burst pattern is a structural feature of how this network spreads — not an anomaly."
     }
   ]
 }
