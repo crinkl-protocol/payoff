@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-05T21:33:02.116Z",
+  "updatedAt": "2026-03-06T00:33:42.697Z",
   "observations": [
+    {
+      "ts": "2026-03-06T00:31:53.163Z",
+      "topic": "velocity-deceleration",
+      "magnitude": "medium",
+      "observation": "Token velocity dropped to 0.579x (from 0.628x last heartbeat) with acceleration at 0.921x — the first sub-1.0x acceleration reading after 5 consecutive heartbeats in the 0.603–0.628x plateau. Simultaneously, the 7-day trailing GMV window fell sharply from $33,193 to $27,531 (549→471 receipts), suggesting a rolling-window artifact as a strong prior week drops out."
+    },
+    {
+      "ts": "2026-03-06T00:31:53.161Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "13 new CBSAs appeared in a single snapshot — the largest single-snapshot geographic burst recorded. Total active metros reached 28 with a 46.4% diffusion rate. New entrants include non-metro OH, WI, FL, TN plus metro CBSAs 37140, 36837, 33100, 17140, 12420, 33460, 33340, 22220, 12100. H-E-B also entered the brand list for the first time."
+    },
     {
       "ts": "2026-03-05T21:31:56.622Z",
       "topic": "7d-window-growth",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "medium",
       "observation": "3 new CBSAs this snapshot (non-metro FL, CBSA 12100, non-metro TN), pushing total active metros to 17. The non-metro expansion now spans FL, TN, KY, IL, TX, MI, WI, NY, MO — 9 distinct non-metro state designations. The network is building a rural spine, not a metro hub."
-    },
-    {
-      "ts": "2026-03-05T12:31:57.925Z",
-      "topic": "velocity-stability",
-      "magnitude": "low",
-      "observation": "Token velocity held at 0.604x with acceleration at 1.002x — essentially flat for the third consecutive heartbeat. After the post-blackout recovery to 0.603x, the system is in a sustained low-acceleration plateau: growing, but barely. The burst-quiet dynamic appears to apply to velocity as well as geography."
-    },
-    {
-      "ts": "2026-03-05T12:31:49.224Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "8 new CBSAs appeared this snapshot (19820, 37980, 15380, 22220, 45300, non-metro KY, non-metro ME, 38860), pushing total active metros to 24 and geo diffusion rate to 33.3%. This is the second time an 8-CBSA burst has occurred — the burst pattern is recurring, not a one-time event."
     }
   ]
 }
