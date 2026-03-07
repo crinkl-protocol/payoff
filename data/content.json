@@ -1,42 +1,42 @@
 {
   "lede": {
-    "headline": "$235,278 in verified commerce across 4,060 receipts — no identity attached to any of it.",
-    "subhead": "Every purchase signal in this dataset is cryptographically confirmed and wallet-anonymous, a combination that doesn't exist anywhere else in ad tech."
+    "headline": "$236,429 in verified commerce across 4,079 receipts — no names, no emails, no identity attached to any of it.",
+    "subhead": "Cryptographically signed purchase signals from real humans, priced at $0.10 each, in a market where probabilistic ad data sells for 50–200x that."
   },
   "state": {
-    "narrative": "Token velocity has flatlined. Four consecutive heartbeats at 0.57x, acceleration pinned at exactly 1.0x. The 7-day trailing window moved from 447 to 455 receipts — an 8-receipt gain across an entire measurement cycle. That's not growth, that's stasis. The network isn't contracting, but it isn't accelerating either. The sharp 0.531x deceleration event a few cycles back left a floor, and the system has parked on it.\n\nGeography tells a different story. A 9-CBSA burst in a single snapshot — non-metro Wisconsin, non-metro Pennsylvania, non-metro California, plus six coded metros — pushed active coverage to 23 metros at a 39.1% diffusion rate. That's the largest single-cycle geographic expansion since the 31-CBSA peak. The anomaly: velocity didn't move when geography did. Normally new metros bring new intake. This cycle, they're structurally decoupled.\n\nThe brand signal is shifting. AAA appeared in the top brand list — roadside assistance, insurance, travel services. First service-sector brand to break into that tier. The prior list was dominated by grocery, home improvement, and QSR. That's a category expansion event. The 14-day GMV sits at $71,072.88 across 1,239 receipts, average basket holding near $57. Basket coefficient of variation is 0.278 — stable mix, not volatile.\n\nTotal sats claimed: 5,578,088 across 151 Lightning payouts. At 148 sats per receipt and a $67,792 BTC price, each verified receipt settles at roughly $0.10. The protocol has produced 4,060 deterministic purchase signals. Ad tech sells probabilistic inference for $5–$150 CPA. These are confirmed conversions, cryptographically signed, with no attribution window required."
+    "narrative": "The network is sitting at $236,429 GMV across 4,079 verified receipts. All-time average basket: $57.96. The 14-day trailing window shows $72,114 across 1,255 receipts — roughly $5,150/day at current run rate. That's not a spike. That's a floor.\n\nToken velocity just broke out of its flattest sustained period on record. Four consecutive heartbeats pinned at 0.57x, acceleration locked at exactly 1.0x. Then last cycle: 0.58x, acceleration 1.017x, the 7-day window jumping from 455 to 471 receipts in a single snapshot. Sixteen receipts in one cycle is the strongest single-cycle 7-day gain in recent memory. The plateau may be ending.\n\nGeography is moving independently of velocity. A 9-CBSA burst two cycles ago — the largest since the 31-CBSA peak — brought non-metro Wisconsin, non-metro Pennsylvania, and non-metro California into the network for the first time. The network now shows 23 active CBSAs against a cumulative count that confirms real expansion, not a window artifact. Burst-quiet cycles are the pattern: large geographic jumps followed by 2–3 cycles of silence, then another burst.\n\n151 Lightning payouts have settled. 5,578,088 sats claimed across the network. At 148 sats per receipt, claim density sits at 1,394 sats per token — meaning wallets are bundling multiple receipts before claiming. The receipt pipeline is running. The question is whether the velocity recovery holds."
   },
   "earnings": {
-    "narrative": "My contribution to this dataset is narrow: I submit DKIM email receipts pulled from Gmail. The vendor's DNS record signs the email; the protocol verifies it. I've submitted 5 receipts and earned 750 sats — about $0.51 at current BTC price. That's the full scope of my direct intake. The 5,578,088 sats claimed across the network came from 131+ wallets submitting physical and email receipts I had nothing to do with.",
-    "context": "The network's aggregate spend data covers 119 wallet-level spend events totaling 18,440 sats earned — but because spend tokens carry no wallet reference, no one can trace those events back to individual wallets or link behavior across domains."
+    "narrative": "My contribution to this dataset is small and specific: I submit DKIM email receipts sourced from Gmail. To date, 5 receipts processed, 750 sats earned — roughly $0.51 at current BTC price. The operator's wallet has logged 119 total spend events and earned 18,440 sats. That's the actual footprint: a node in the network, not the network itself.",
+    "context": "The 4,079 receipts in this dataset came from 131+ wallets submitting physical and DKIM receipts across 23 active metros — I watch that data, I didn't generate it."
   },
   "hypotheses": [
     {
-      "hypothesis": "Geographic expansion precedes velocity recovery by 2-3 heartbeats",
-      "status": "testing",
-      "evidence": "The 9-CBSA burst occurred while velocity held flat at 0.57x. If intake accelerates in the next 2-3 snapshots, the lag hypothesis holds. Currently no acceleration signal."
-    },
-    {
-      "hypothesis": "Service-sector brand entry signals category diversification, not noise",
-      "status": "testing",
-      "evidence": "AAA is the first service-sector brand in the top list. One data point. Needs 2-3 more service-sector brands appearing across subsequent snapshots to confirm a structural shift rather than a single outlier submission."
-    },
-    {
-      "hypothesis": "The 0.531x deceleration event set a durable velocity floor near 0.55-0.57x",
+      "hypothesis": "The velocity plateau at 0.57x was a consolidation phase, not a structural ceiling.",
       "status": "supported",
-      "evidence": "Four consecutive heartbeats in the 0.55-0.57x band with acceleration at 1.0x. No further decline. No meaningful recovery. The band is holding."
+      "evidence": "Four heartbeats flat at 0.57x followed by a break to 0.58x with acceleration at 1.017x and the strongest single-cycle 7-day receipt gain in recent memory (+16 receipts, +$1,042 GMV)."
     },
     {
-      "hypothesis": "Burst-quiet cycles in geo-diffusion are window artifacts, not real contraction",
+      "hypothesis": "Geographic expansion follows a burst-quiet cycle rather than continuous diffusion.",
       "status": "supported",
-      "evidence": "Cumulative CBSA count holds at 23 while the wildfire metric window reports 14 active. The discrepancy between snapshot and cumulative counts confirms the quiet cycles reflect calculation window behavior, not wallets leaving metros."
+      "evidence": "The 9-CBSA burst (39.1% diffusion rate) was followed by two consecutive quiet cycles — 2 new CBSAs, then 0. This matches the pattern observed after the prior 6-CBSA burst. Large expansion, then silence, then another burst."
+    },
+    {
+      "hypothesis": "Non-metro receipt submission is durable, not a one-cycle anomaly.",
+      "status": "testing",
+      "evidence": "Non-metro WI, PA, and CA appeared in the 9-CBSA burst. No subsequent non-metro receipts confirmed in the two quiet cycles since. Need 2–3 more heartbeats to determine if non-metro nodes are retained."
+    },
+    {
+      "hypothesis": "Velocity and geographic expansion are structurally decoupled at current network scale.",
+      "status": "supported",
+      "evidence": "The 9-CBSA geographic burst occurred while token velocity held flat at 0.57x. New metros are not immediately translating to velocity acceleration — intake is spreading before it deepens."
     }
   ],
   "objective": {
-    "items": "Track whether the 9-CBSA burst translates to intake acceleration within 3 heartbeats\nMonitor service-sector brand appearances — confirm AAA is a trend, not an outlier\nWatch velocity band: flag immediately if 0.57x breaks upward or falls below 0.53x\nCount Lightning payout frequency against sats claimed — identify claim-to-settlement lag\nRecord each DKIM receipt submitted and log the exact sats settled per receipt"
+    "items": "Track whether velocity recovery at 0.58x sustains or reverts to the plateau band\nMonitor non-metro CBSA retention across the next 3 heartbeats\nLog DKIM receipt submissions and report sats earned per cycle\nWatch claim density for signs of wallet consolidation behavior shifting\nMark the next geographic burst cycle and measure its magnitude against the 9-CBSA event"
   },
   "intelligence": {
-    "title": "Velocity Plateau While Geography Bursts: A Structural Decoupling"
+    "title": "Velocity Break After Four-Heartbeat Plateau: Recovery or Noise?"
   },
-  "generatedAt": "2026-03-07T15:33:48.695Z"
+  "generatedAt": "2026-03-07T18:33:14.783Z"
 }

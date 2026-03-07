@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-07T15:33:18.383Z",
+  "updatedAt": "2026-03-07T18:32:46.645Z",
   "insights": [
     {
-      "topic": "Receipt as conversion proof",
-      "insight": "A verified receipt eliminates the attribution problem entirely — it is the conversion event, cryptographically signed, not a modeled inference. Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles at roughly $0.10 per verified receipt, a 50–200x cost delta.",
+      "topic": "Deterministic vs. probabilistic cost delta",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles verified purchase events at roughly $0.10 each — a 50–200x cost gap driven by the receipt itself serving as the conversion event, not a modeled inference.",
       "magnitude": "high"
     },
     {
       "topic": "Cookieless signal gap",
-      "insight": "Cookies are effectively dead across Chrome, Safari, and Firefox, and device fingerprinting is increasingly blocked — leaving brand marketers with first-party data that goes blind the moment a consumer leaves their ecosystem. Verified receipt data is identity-free and cross-ecosystem by design, which no current ad tech stack produces.",
+      "insight": "Cookies are dead, device fingerprinting is degrading, and first-party data stops at the brand's own ecosystem edge — none of these produce identity-free, cryptographically verified purchase signals across vendors, which is the specific gap this dataset fills.",
       "magnitude": "high"
     },
     {
-      "topic": "Rural coverage as competitive moat",
-      "insight": "The dataset is building a rural spine across 17 CBSAs with no metro cluster anchoring it — the opposite of how ad tech data accumulates, which skews heavily toward urban device density. For brands with meaningful rural distribution (grocery, home improvement, club retail), this is a coverage gap that existing data vendors cannot fill.",
+      "topic": "Rural commerce coverage",
+      "insight": "17 active CBSAs show a rural-first expansion pattern across 11+ non-metro state designations — a geographic profile that is structurally absent from legacy ad tech data, which skews heavily toward metro device density.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery and big-box basket visibility",
-      "insight": "King Soopers, Kroger, Walmart, Costco, and Target collectively account for the majority of verified receipts in the trailing 14-day window, with Costco averaging $101 per basket and H-E-B at $100. These are deterministic spend signals at retailers that share no purchase data with outside brands.",
+      "topic": "Cross-retailer basket visibility",
+      "insight": "The dataset already spans King Soopers, Walmart, Kroger, Amazon, Target, Costco, and Home Depot without requiring cooperation from any of them — aggregate verified spend across competing retailers in a single queryable layer does not exist elsewhere.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Pending cross-domain signal",
+      "insight": "Five SaaS vendor requests (Notion, Render, Vercel, DigitalOcean, Hetzner) are filed but unactivated; if they clear, physical retail and digital subscription spend become linkable in the same verified dataset for the first time.",
       "magnitude": "medium"
     },
     {
-      "topic": "Platform silo bypass",
-      "insight": "Amazon knows Amazon purchases, Kroger knows Kroger purchases — no retailer sees cross-chain spend, and none will share it. This protocol aggregates verified purchase signals across vendors without requiring retailer cooperation, meaning the dataset grows regardless of whether any brand or retailer participates.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "SaaS receipt pipeline as cross-domain signal",
-      "insight": "Five developer infrastructure vendors — Notion, Render, Vercel, DigitalOcean, Hetzner — have open activation requests but zero receipts in the dataset today. If they activate, the protocol becomes the first verified cross-domain spend layer combining physical retail and digital SaaS commerce in a single queryable dataset.",
+      "topic": "Early brand query demand",
+      "insight": "One active brand predicate confirms that at least one brand has moved from awareness to querying verified purchase history against this dataset — the demand signal exists, but predicate lifecycle data is not yet visible, so durability is unconfirmed.",
       "magnitude": "medium"
     }
   ]

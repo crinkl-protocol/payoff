@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-07T15:33:18.384Z",
+  "updatedAt": "2026-03-07T18:32:46.646Z",
   "observations": [
+    {
+      "ts": "2026-03-07T18:31:47.264Z",
+      "topic": "velocity-recovery",
+      "magnitude": "high",
+      "observation": "Token velocity ticked up to 0.58x with acceleration at 1.017x — the first meaningful uptick after 4 heartbeats pinned at 0.57x. The 7d trailing window jumped from 455 to 471 receipts ($25,518→$26,560), a +16 receipt gain in one cycle. This is the strongest single-cycle 7d gain in recent memory, suggesting the flat period may be breaking."
+    },
+    {
+      "ts": "2026-03-07T18:31:47.262Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "2 new CBSAs appeared this snapshot (12420, 35840), pushing active metros to 16 — a 12.5% diffusion rate. After the 9-CBSA burst last heartbeat, this is the start of the quiet phase in the burst-quiet cycle. The network is still expanding, just at the post-burst deceleration rate."
+    },
     {
       "ts": "2026-03-07T15:32:04.222Z",
       "topic": "velocity-plateau",
@@ -48,18 +60,6 @@
       "topic": "velocity-recovery",
       "magnitude": "medium",
       "observation": "Token velocity at 0.566x with acceleration 1.03x — mild recovery continuing after the sharp 0.531x deceleration two heartbeats ago. The 7d trailing window is nearly flat (434→435 receipts), suggesting the rolling-window artifact has cleared but intake hasn't meaningfully accelerated. Geographic expansion and velocity are decoupled this cycle."
-    },
-    {
-      "ts": "2026-03-07T06:31:51.095Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "6 new CBSAs appeared this snapshot (11700, 38060, non-metro CA, 16860, non-metro ID, 31080), pushing total active metros to 23 — the fourth consecutive burst phase after the 31-CBSA peak. The network is expanding in discrete pulses, not linear growth, and this burst includes non-metro California and Idaho for the first time."
-    },
-    {
-      "ts": "2026-03-07T03:32:08.526Z",
-      "topic": "new-brand",
-      "magnitude": "low",
-      "observation": "A new brand labeled \"Store\" appeared in the top brand list this snapshot — an ambiguous merchant name that likely represents a store-brand or unresolved merchant. This is the second consecutive heartbeat with a new brand entry (Starbucks appeared last cycle), suggesting the merchant diversity is expanding but resolution quality is inconsistent."
     }
   ]
 }
