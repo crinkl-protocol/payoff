@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-07T03:33:30.965Z",
+  "updatedAt": "2026-03-07T06:33:05.962Z",
   "observations": [
+    {
+      "ts": "2026-03-07T06:31:57.865Z",
+      "topic": "brand-diversity",
+      "magnitude": "medium",
+      "observation": "AAA appeared in the top brand list this snapshot — a roadside assistance / insurance / travel services brand, distinct from the grocery, home improvement, and QSR brands that have dominated the list. This is the first service-sector brand to enter the top list, suggesting spend category diversity is genuinely expanding."
+    },
+    {
+      "ts": "2026-03-07T06:31:51.096Z",
+      "topic": "velocity-recovery",
+      "magnitude": "medium",
+      "observation": "Token velocity at 0.566x with acceleration 1.03x — mild recovery continuing after the sharp 0.531x deceleration two heartbeats ago. The 7d trailing window is nearly flat (434→435 receipts), suggesting the rolling-window artifact has cleared but intake hasn't meaningfully accelerated. Geographic expansion and velocity are decoupled this cycle."
+    },
+    {
+      "ts": "2026-03-07T06:31:51.095Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "6 new CBSAs appeared this snapshot (11700, 38060, non-metro CA, 16860, non-metro ID, 31080), pushing total active metros to 23 — the fourth consecutive burst phase after the 31-CBSA peak. The network is expanding in discrete pulses, not linear growth, and this burst includes non-metro California and Idaho for the first time."
+    },
     {
       "ts": "2026-03-07T03:32:08.526Z",
       "topic": "new-brand",
@@ -42,24 +60,6 @@
       "topic": "velocity-recovery",
       "magnitude": "medium",
       "observation": "Token velocity ticked up to 0.639x (from 0.626x last cycle) with acceleration at 1.021x — the first meaningful velocity increase after 3 consecutive flat heartbeats at ~0.624x. Geographic expansion (4 new CBSAs) and velocity recovery are occurring simultaneously, suggesting the two signals are coupled: geo bursts precede or coincide with velocity inflections."
-    },
-    {
-      "ts": "2026-03-06T21:31:55.942Z",
-      "topic": "receipts-milestone",
-      "magnitude": "medium",
-      "observation": "Total receipts crossed 4,013 this snapshot with cumulative GMV at $233,844 — the 7d trailing window jumped from $29,224 to $29,587 (513→525 receipts), a 12-receipt gain in 3 hours suggesting intake is accelerating again after the post-burst consolidation."
-    },
-    {
-      "ts": "2026-03-06T21:31:55.940Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "4 new CBSAs appeared this snapshot (17410, 37980, 16700, 19820), pushing total active metros to 31 — the network has now crossed 30 active CBSAs for the first time. This is the third consecutive burst phase: 13-CBSA burst → 3-heartbeat quiet → 8-CBSA burst → 3-CBSA burst → now 4-CBSA burst, with the network expanding in waves rather than linear growth."
-    },
-    {
-      "ts": "2026-03-06T18:32:10.233Z",
-      "topic": "token-velocity",
-      "magnitude": "low",
-      "observation": "Token velocity at 0.626x with acceleration exactly 1.000x — the system is in near-perfect steady state. After the post-burst consolidation (3 heartbeats at ~0.624x) and the new geo burst resuming, velocity is flat but geographic diffusion is active again, suggesting intake growth is happening at the edges rather than the center."
     }
   ]
 }

@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-07T03:33:30.962Z",
+  "updatedAt": "2026-03-07T06:33:05.960Z",
   "insights": [
     {
       "topic": "Deterministic vs. probabilistic cost delta",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution; verified receipt signals settle at roughly $0.10 each — a 50–200x cost difference that isn't a negotiating point, it's a structural break in how purchase confirmation is priced.",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles verified purchase proof at roughly $0.10 per receipt — a 50–200x cost difference that isn't a pricing negotiation, it's a different category of signal.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome completing cookie deprecation and fingerprinting under regulatory pressure, the industry's fallback is first-party data that stops at each platform's edge — verified receipt signals are the only cross-ecosystem purchase confirmation that doesn't require identity attachment.",
+      "topic": "Post-cookie verification gap",
+      "insight": "Cookies are dead, device fingerprinting is degrading, and first-party data stops at your own ecosystem boundary; verified receipt data crosses that boundary without identity attachment, which no current ad tech stack produces.",
       "magnitude": "high"
     },
     {
-      "topic": "Inbox as the only cross-platform purchase record",
-      "insight": "Amazon sees Amazon, Walmart sees Walmart — no platform sees the full consumer purchase picture except the email inbox, which receives receipts from every vendor; the protocol converts that universal record into a queryable, identity-free dataset.",
+      "topic": "Rural coverage as a data moat",
+      "insight": "17 active CBSAs with a demonstrated rural spine across 11+ non-metro state designations — ad tech datasets are structurally metro-biased because they follow ad spend density, so this geographic distribution is genuinely differentiated, not just larger.",
       "magnitude": "high"
     },
     {
-      "topic": "Dataset accumulation as the real moat",
-      "insight": "DKIM verification is two-decade-old technology, so the competitive barrier isn't the pipeline — it's the 4,001 verified receipts already accumulated; a new entrant starts at zero, and every receipt added compounds the signal advantage.",
+      "topic": "Brand demand signal emerging",
+      "insight": "One active predicate — a confirmed brand querying verified purchase history — is a thin but real signal that buy-side demand exists; the dataset is being tested against real commercial intent before scale has arrived.",
       "magnitude": "medium"
     },
     {
-      "topic": "SaaS/cloud spend entering the dataset",
-      "insight": "Five pending vendor requests are developer infrastructure platforms (Vercel, Render, DigitalOcean, Hetzner), which would add verified SaaS spend alongside physical retail — the first cross-domain expansion of the verified purchase record.",
+      "topic": "Cross-domain convergence pending",
+      "insight": "Physical retail (grocery, home improvement, club) and SaaS/dev infrastructure receipts are on a collision course in the same dataset; if five pending SaaS vendor requests activate, this becomes the first queryable layer combining verified physical and digital commerce spend.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic representativeness signal",
-      "insight": "The network now spans 27 CBSAs including non-metro rural markets, growing through social graph propagation rather than paid acquisition — the dataset is trending toward national household spend representation, not just urban consumer behavior.",
+      "topic": "Organic network propagation pattern",
+      "insight": "Expansion is arriving in discrete geographic pulses across unconnected markets, not metro clusters — that pattern fingerprints social graph spread, not paid acquisition, which means the supply side is building without marketing costs distorting the data's representativeness.",
       "magnitude": "medium"
     }
   ]
