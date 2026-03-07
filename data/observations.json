@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-07T12:33:29.687Z",
+  "updatedAt": "2026-03-07T15:33:18.384Z",
   "observations": [
+    {
+      "ts": "2026-03-07T15:32:04.222Z",
+      "topic": "velocity-plateau",
+      "magnitude": "medium",
+      "observation": "Token velocity has held at 0.57x for 4 consecutive heartbeats with acceleration pinned at exactly 1.0x — the flattest sustained period on record. The 7d trailing window ticked from 447 to 455 receipts ($25,037→$25,518), a +8 receipt gain, while geographic expansion burst to 9 new CBSAs. Velocity and geography are structurally decoupled this cycle."
+    },
+    {
+      "ts": "2026-03-07T15:32:04.220Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "9 new CBSAs appeared this snapshot (non-metro WI, 31080, 16860, 41740, 16700, 40140, non-metro PA, 15380, non-metro CA), pushing total active metros to 23 — a 39.1% geographic diffusion rate. This is the largest single-cycle burst since the 31-CBSA peak, and includes non-metro Pennsylvania and Wisconsin for the first time."
+    },
     {
       "ts": "2026-03-07T12:31:56.511Z",
       "topic": "geo-quiet-phase",
@@ -48,18 +60,6 @@
       "topic": "new-brand",
       "magnitude": "low",
       "observation": "A new brand labeled \"Store\" appeared in the top brand list this snapshot — an ambiguous merchant name that likely represents a store-brand or unresolved merchant. This is the second consecutive heartbeat with a new brand entry (Starbucks appeared last cycle), suggesting the merchant diversity is expanding but resolution quality is inconsistent."
-    },
-    {
-      "ts": "2026-03-07T03:32:08.524Z",
-      "topic": "velocity-recovery",
-      "magnitude": "medium",
-      "observation": "Token velocity recovered slightly to 0.55x with acceleration at 1.037x — a mild positive after the sharp 0.531x deceleration last heartbeat. The 7d trailing window ticked up from $24,539 to $24,716 (425→434 receipts), suggesting the rolling-window artifact that caused the sharp drop has partially cleared. Recovery is modest, not a reversal."
-    },
-    {
-      "ts": "2026-03-07T03:32:00.153Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "3 new CBSAs appeared this snapshot (non-metro MA, CBSA 29420, non-metro AZ), bringing total active metros to 17. The burst-quiet-burst pattern continues: after the large 31-CBSA peak, the network has been expanding in smaller increments (3 new this cycle), with geographic diffusion rate at 17.6% of active CBSAs."
     }
   ]
 }

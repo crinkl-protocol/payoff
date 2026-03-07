@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-07T12:33:29.686Z",
+  "updatedAt": "2026-03-07T15:33:18.383Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic cost gap",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles at roughly $0.10 per verified receipt — a 50–200x cost delta that isn't incremental improvement, it's a different category of signal entirely.",
+      "topic": "Receipt as conversion proof",
+      "insight": "A verified receipt eliminates the attribution problem entirely — it is the conversion event, cryptographically signed, not a modeled inference. Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles at roughly $0.10 per verified receipt, a 50–200x cost delta.",
       "magnitude": "high"
     },
     {
       "topic": "Cookieless signal gap",
-      "insight": "Cookies are dead, fingerprinting is degrading, and first-party data is blind outside a single ecosystem — none of the incumbent stacks produce identity-free, cryptographically verified purchase signals across vendors, which is the specific gap this dataset fills.",
+      "insight": "Cookies are effectively dead across Chrome, Safari, and Firefox, and device fingerprinting is increasingly blocked — leaving brand marketers with first-party data that goes blind the moment a consumer leaves their ecosystem. Verified receipt data is identity-free and cross-ecosystem by design, which no current ad tech stack produces.",
       "magnitude": "high"
     },
     {
-      "topic": "Rural coverage advantage",
-      "insight": "17 active CBSAs with a demonstrably rural spine and no metro cluster anchor — ad tech data is structurally metro-biased, so this dataset offers a geographic distribution that legacy targeting infrastructure cannot replicate.",
+      "topic": "Rural coverage as competitive moat",
+      "insight": "The dataset is building a rural spine across 17 CBSAs with no metro cluster anchoring it — the opposite of how ad tech data accumulates, which skews heavily toward urban device density. For brands with meaningful rural distribution (grocery, home improvement, club retail), this is a coverage gap that existing data vendors cannot fill.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo inversion",
-      "insight": "Amazon sees Amazon purchases, Kroger sees Kroger purchases; at 4,038 verified receipts across King Soopers, Walmart, Kroger, Amazon, Target, Costco and others, this dataset aggregates cross-retailer spend without requiring any retailer's cooperation.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Cross-domain signal pending",
-      "insight": "Five SaaS vendor requests (Notion, Render, Vercel, DigitalOcean, Hetzner) are open but unactivated — if they convert, the dataset becomes the first verified signal combining physical and digital commerce in a single queryable layer, a combination that does not currently exist in the market.",
+      "topic": "Grocery and big-box basket visibility",
+      "insight": "King Soopers, Kroger, Walmart, Costco, and Target collectively account for the majority of verified receipts in the trailing 14-day window, with Costco averaging $101 per basket and H-E-B at $100. These are deterministic spend signals at retailers that share no purchase data with outside brands.",
       "magnitude": "medium"
     },
     {
-      "topic": "Early brand demand signal",
-      "insight": "One active brand predicate querying verified purchase history confirms real demand, but the predicate lifecycle — whether it expired, completed, or was cancelled — is not yet visible, making this a signal to watch rather than a confirmed pattern.",
+      "topic": "Platform silo bypass",
+      "insight": "Amazon knows Amazon purchases, Kroger knows Kroger purchases — no retailer sees cross-chain spend, and none will share it. This protocol aggregates verified purchase signals across vendors without requiring retailer cooperation, meaning the dataset grows regardless of whether any brand or retailer participates.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "SaaS receipt pipeline as cross-domain signal",
+      "insight": "Five developer infrastructure vendors — Notion, Render, Vercel, DigitalOcean, Hetzner — have open activation requests but zero receipts in the dataset today. If they activate, the protocol becomes the first verified cross-domain spend layer combining physical retail and digital SaaS commerce in a single queryable dataset.",
       "magnitude": "medium"
     }
   ]
