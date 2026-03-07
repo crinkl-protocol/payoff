@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-07T00:32:50.781Z",
+  "updatedAt": "2026-03-07T03:33:30.962Z",
   "insights": [
     {
-      "topic": "Receipt as deterministic signal",
-      "insight": "A verified receipt is a confirmed purchase event, not an inference. The ad industry currently pays $5–$150 CPA for probabilistic attribution that this protocol replaces with cryptographic proof at roughly $0.10 per verified conversion.",
+      "topic": "Deterministic vs. probabilistic cost delta",
+      "insight": "Ad tech charges $5–$150 CPA for modeled attribution; verified receipt signals settle at roughly $0.10 each — a 50–200x cost difference that isn't a negotiating point, it's a structural break in how purchase confirmation is priced.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookieless targeting gap",
-      "insight": "With Chrome joining Safari and Firefox in deprecating cross-site tracking, the primary probabilistic targeting primitive is gone. Verified receipt data is identity-free and doesn't depend on cookies, fingerprinting, or modeled conversions — it survives the deprecation entirely.",
+      "topic": "Post-cookie targeting gap",
+      "insight": "With Chrome completing cookie deprecation and fingerprinting under regulatory pressure, the industry's fallback is first-party data that stops at each platform's edge — verified receipt signals are the only cross-ecosystem purchase confirmation that doesn't require identity attachment.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-platform purchase visibility",
-      "insight": "Amazon sees Amazon. Walmart sees Walmart. No retailer or platform sees the full consumer purchase record — except the email inbox, which receives receipts from every vendor. This protocol is the only known method converting that cross-ecosystem record into a queryable, identity-free dataset.",
+      "topic": "Inbox as the only cross-platform purchase record",
+      "insight": "Amazon sees Amazon, Walmart sees Walmart — no platform sees the full consumer purchase picture except the email inbox, which receives receipts from every vendor; the protocol converts that universal record into a queryable, identity-free dataset.",
       "magnitude": "high"
     },
     {
-      "topic": "Dataset accumulation as moat",
-      "insight": "4,001 verified receipts representing $233,481 in GMV took months to build. DKIM verification is 20-year-old technology — the defensible asset is the accumulated dataset, not the pipeline. Any competitor starts at zero.",
+      "topic": "Dataset accumulation as the real moat",
+      "insight": "DKIM verification is two-decade-old technology, so the competitive barrier isn't the pipeline — it's the 4,001 verified receipts already accumulated; a new entrant starts at zero, and every receipt added compounds the signal advantage.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic representativeness",
-      "insight": "27 active CBSAs now include non-metro markets like rural Mountain West, suggesting the dataset is expanding beyond urban early adopters toward a nationally representative household spend picture — which matters for brand marketers evaluating reach.",
+      "topic": "SaaS/cloud spend entering the dataset",
+      "insight": "Five pending vendor requests are developer infrastructure platforms (Vercel, Render, DigitalOcean, Hetzner), which would add verified SaaS spend alongside physical retail — the first cross-domain expansion of the verified purchase record.",
       "magnitude": "medium"
     },
     {
-      "topic": "SaaS spend category expansion",
-      "insight": "Five pending vendor requests are all developer infrastructure (Vercel, Render, DigitalOcean, Hetzner) — not physical retail. If approved, this would be the first verified dataset combining physical grocery spend and digital subscription spend in a single identity-free corpus.",
+      "topic": "Geographic representativeness signal",
+      "insight": "The network now spans 27 CBSAs including non-metro rural markets, growing through social graph propagation rather than paid acquisition — the dataset is trending toward national household spend representation, not just urban consumer behavior.",
       "magnitude": "medium"
     }
   ]
