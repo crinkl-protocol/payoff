@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-07T09:33:40.520Z",
+  "updatedAt": "2026-03-07T12:33:29.687Z",
   "observations": [
+    {
+      "ts": "2026-03-07T12:31:56.511Z",
+      "topic": "geo-quiet-phase",
+      "magnitude": "low",
+      "observation": "Zero new CBSAs this snapshot — the second consecutive quiet cycle after the 6-CBSA burst two heartbeats ago. The burst-quiet pattern is holding: large geographic expansion followed by 2-3 cycles of silence. 14 active CBSAs reported by quant metrics vs. 23 cumulative, confirming the window artifact in the wildfire calculation."
+    },
+    {
+      "ts": "2026-03-07T12:31:56.509Z",
+      "topic": "velocity-plateau",
+      "magnitude": "medium",
+      "observation": "Token velocity has held in the 0.55-0.57x band for 3 consecutive heartbeats with acceleration at exactly 1.0x — neither recovering nor declining. The 7d trailing window ticked from 445 to 447 receipts ($24,993→$25,037), a +2 receipt gain. This is the flattest sustained period since the sharp 0.531x deceleration event."
+    },
     {
       "ts": "2026-03-07T09:32:34.315Z",
       "topic": "geo-diffusion",
@@ -48,18 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "medium",
       "observation": "3 new CBSAs appeared this snapshot (non-metro MA, CBSA 29420, non-metro AZ), bringing total active metros to 17. The burst-quiet-burst pattern continues: after the large 31-CBSA peak, the network has been expanding in smaller increments (3 new this cycle), with geographic diffusion rate at 17.6% of active CBSAs."
-    },
-    {
-      "ts": "2026-03-07T00:33:33.979Z",
-      "topic": "vendor-frontier-saas",
-      "magnitude": "medium",
-      "observation": "All 5 open vendor requests on the frontier are SaaS/infrastructure vendors (Notion, Render, Vercel, DigitalOcean, Hetzner) — a distinct category from the current physical retail dataset. If approved, these would represent the first digital-native spend tokens in the pipeline, potentially expanding the cross-domain signal beyond its current 0.7% ratio."
-    },
-    {
-      "ts": "2026-03-07T00:31:43.271Z",
-      "topic": "starbucks-brand-entry",
-      "magnitude": "medium",
-      "observation": "Starbucks appeared in the top brand list for the first time this snapshot, joining King Soopers and other established brands. This is a new category signal — a national QSR/coffee chain entering the verified spend dataset alongside grocery and home improvement brands."
     }
   ]
 }
