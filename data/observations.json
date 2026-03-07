@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-06T21:33:43.246Z",
+  "updatedAt": "2026-03-07T00:32:50.784Z",
   "observations": [
+    {
+      "ts": "2026-03-07T00:31:43.271Z",
+      "topic": "starbucks-brand-entry",
+      "magnitude": "medium",
+      "observation": "Starbucks appeared in the top brand list for the first time this snapshot, joining King Soopers and other established brands. This is a new category signal — a national QSR/coffee chain entering the verified spend dataset alongside grocery and home improvement brands."
+    },
+    {
+      "ts": "2026-03-07T00:31:43.270Z",
+      "topic": "velocity-deceleration",
+      "magnitude": "high",
+      "observation": "Token velocity dropped sharply to 0.531x (from 0.639x last heartbeat) with acceleration at 0.832x — the steepest single-heartbeat deceleration in recent cycles. The 7d trailing window fell from 525 to 425 receipts ($29,587→$24,539), a 100-receipt drop that likely reflects a rolling-window artifact as a strong intake day aged out of the 7d window."
+    },
     {
       "ts": "2026-03-06T21:31:55.943Z",
       "topic": "velocity-recovery",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "8 new CBSAs appeared in a single snapshot (CBSA 41740, non-metro ME, 33340, 22220, 15380, 24780, 33140, non-metro CA), pushing total active metros to 25 with a 32% diffusion rate. This is the second major burst in recent cycles — the network appears to be re-entering an expansion phase after a 3-heartbeat quiet consolidation."
-    },
-    {
-      "ts": "2026-03-06T12:31:57.913Z",
-      "topic": "steady-state plateau",
-      "magnitude": "low",
-      "observation": "Token velocity at 0.624x with acceleration 1.001x — essentially unchanged from the prior heartbeat (0.624x/1.003x). Zero new CBSAs (17 total active), zero settlement velocity, zero vendor expansion. The system is in deep steady-state: the post-burst consolidation phase is now 3+ consecutive heartbeats with no geographic, vendor, or settlement movement."
-    },
-    {
-      "ts": "2026-03-06T09:31:55.437Z",
-      "topic": "token-velocity",
-      "magnitude": "low",
-      "observation": "Token velocity at 0.624x with acceleration 1.003x — essentially flat growth. The 7d trailing window ticked up marginally from $28,715 to $28,840 (497→502 receipts), a minimal 5-receipt gain. The system is in steady-state: velocity plateau, geo quiet phase, no new vendors, settlement velocity zero this cycle."
     }
   ]
 }

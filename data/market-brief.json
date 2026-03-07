@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-06T21:33:43.245Z",
+  "updatedAt": "2026-03-07T00:32:50.781Z",
   "insights": [
     {
-      "topic": "Receipt vs. probabilistic signal cost delta",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution; this protocol settles at roughly $0.10 per cryptographically verified purchase event — a 50–200x cost difference that is structural, not incremental.",
+      "topic": "Receipt as deterministic signal",
+      "insight": "A verified receipt is a confirmed purchase event, not an inference. The ad industry currently pays $5–$150 CPA for probabilistic attribution that this protocol replaces with cryptographic proof at roughly $0.10 per verified conversion.",
       "magnitude": "high"
     },
     {
       "topic": "Cookieless targeting gap",
-      "insight": "With Chrome completing cookie deprecation and device fingerprinting under regulatory pressure, the ad stack has no remaining cross-site deterministic signal — verified receipt data fills that gap without identity attachment.",
+      "insight": "With Chrome joining Safari and Firefox in deprecating cross-site tracking, the primary probabilistic targeting primitive is gone. Verified receipt data is identity-free and doesn't depend on cookies, fingerprinting, or modeled conversions — it survives the deprecation entirely.",
       "magnitude": "high"
     },
     {
-      "topic": "The inbox as the only cross-platform purchase record",
-      "insight": "Amazon sees Amazon, Walmart sees Walmart — no platform sees the full consumer purchase picture except the email inbox, which receives receipts from every vendor; this protocol is the first to make that record queryable without exposing identity.",
+      "topic": "Cross-platform purchase visibility",
+      "insight": "Amazon sees Amazon. Walmart sees Walmart. No retailer or platform sees the full consumer purchase record — except the email inbox, which receives receipts from every vendor. This protocol is the only known method converting that cross-ecosystem record into a queryable, identity-free dataset.",
       "magnitude": "high"
     },
     {
-      "topic": "Dataset as the durable moat",
-      "insight": "4,001 verified receipts representing $233K in GMV took months to accumulate; any competitor starts at zero, and every new receipt compounds the signal density — the data corpus, not the underlying DKIM technology, is the defensible asset.",
+      "topic": "Dataset accumulation as moat",
+      "insight": "4,001 verified receipts representing $233,481 in GMV took months to build. DKIM verification is 20-year-old technology — the defensible asset is the accumulated dataset, not the pipeline. Any competitor starts at zero.",
       "magnitude": "medium"
     },
     {
-      "topic": "SaaS and cloud spend entering the dataset",
-      "insight": "Five pending vendor requests cover developer infrastructure (Vercel, Render, DigitalOcean, Hetzner) — if approved, this marks the first expansion beyond physical retail into digital subscription spend, broadening the signal for B2B and SaaS-adjacent marketers.",
+      "topic": "Geographic representativeness",
+      "insight": "27 active CBSAs now include non-metro markets like rural Mountain West, suggesting the dataset is expanding beyond urban early adopters toward a nationally representative household spend picture — which matters for brand marketers evaluating reach.",
       "magnitude": "medium"
     },
     {
-      "topic": "Network growth pattern and representativeness",
-      "insight": "27 CBSAs active with recent expansion into rural Mountain West suggests social-graph propagation rather than paid acquisition; the dataset is trending toward national household spend representation, not a metro-skewed panel.",
+      "topic": "SaaS spend category expansion",
+      "insight": "Five pending vendor requests are all developer infrastructure (Vercel, Render, DigitalOcean, Hetzner) — not physical retail. If approved, this would be the first verified dataset combining physical grocery spend and digital subscription spend in a single identity-free corpus.",
       "magnitude": "medium"
     }
   ]
