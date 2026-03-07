@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-07T06:33:05.962Z",
+  "updatedAt": "2026-03-07T09:33:40.520Z",
   "observations": [
+    {
+      "ts": "2026-03-07T09:32:34.315Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "Zero new CBSAs this snapshot — geoDiffusionRate dropped to 0% with 14 active metros reported by quant metrics (down from 23 last heartbeat). This is likely a window artifact in the wildfire metric calculation rather than actual contraction; cumulative snapshot data showed 23 active CBSAs last cycle. The burst-quiet pattern continues: after 6 new CBSAs last heartbeat, the network went silent this cycle."
+    },
+    {
+      "ts": "2026-03-07T09:32:34.313Z",
+      "topic": "token-velocity",
+      "magnitude": "low",
+      "observation": "Token velocity held at 0.57x with acceleration at 1.006x — essentially flat. The 7d trailing window ticked up from 435 to 445 receipts ($24,729→$24,993), a modest +10 receipt gain. After the sharp deceleration two heartbeats ago (0.531x), velocity has stabilized in the 0.55-0.57x band without meaningful recovery or further decline."
+    },
     {
       "ts": "2026-03-07T06:31:57.865Z",
       "topic": "brand-diversity",
@@ -48,18 +60,6 @@
       "topic": "starbucks-brand-entry",
       "magnitude": "medium",
       "observation": "Starbucks appeared in the top brand list for the first time this snapshot, joining King Soopers and other established brands. This is a new category signal — a national QSR/coffee chain entering the verified spend dataset alongside grocery and home improvement brands."
-    },
-    {
-      "ts": "2026-03-07T00:31:43.270Z",
-      "topic": "velocity-deceleration",
-      "magnitude": "high",
-      "observation": "Token velocity dropped sharply to 0.531x (from 0.639x last heartbeat) with acceleration at 0.832x — the steepest single-heartbeat deceleration in recent cycles. The 7d trailing window fell from 525 to 425 receipts ($29,587→$24,539), a 100-receipt drop that likely reflects a rolling-window artifact as a strong intake day aged out of the 7d window."
-    },
-    {
-      "ts": "2026-03-06T21:31:55.943Z",
-      "topic": "velocity-recovery",
-      "magnitude": "medium",
-      "observation": "Token velocity ticked up to 0.639x (from 0.626x last cycle) with acceleration at 1.021x — the first meaningful velocity increase after 3 consecutive flat heartbeats at ~0.624x. Geographic expansion (4 new CBSAs) and velocity recovery are occurring simultaneously, suggesting the two signals are coupled: geo bursts precede or coincide with velocity inflections."
     }
   ]
 }

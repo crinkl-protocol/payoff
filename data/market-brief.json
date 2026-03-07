@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-07T06:33:05.960Z",
+  "updatedAt": "2026-03-07T09:33:40.519Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic cost delta",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles verified purchase proof at roughly $0.10 per receipt — a 50–200x cost difference that isn't a pricing negotiation, it's a different category of signal.",
+      "topic": "Deterministic vs. probabilistic attribution",
+      "insight": "The protocol settles verified purchase confirmation at roughly $0.10 per receipt versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost delta that exists because the receipt is the conversion event, not an inference about it.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie verification gap",
-      "insight": "Cookies are dead, device fingerprinting is degrading, and first-party data stops at your own ecosystem boundary; verified receipt data crosses that boundary without identity attachment, which no current ad tech stack produces.",
+      "topic": "Post-cookie signal vacuum",
+      "insight": "With Chrome joining Safari and Firefox in killing cross-site cookies, the ad industry's primary targeting primitive is gone — and device fingerprinting is degrading under privacy regulation, leaving verified purchase signals as the most durable first-party-equivalent data layer available.",
       "magnitude": "high"
     },
     {
-      "topic": "Rural coverage as a data moat",
-      "insight": "17 active CBSAs with a demonstrated rural spine across 11+ non-metro state designations — ad tech datasets are structurally metro-biased because they follow ad spend density, so this geographic distribution is genuinely differentiated, not just larger.",
+      "topic": "Rural commerce coverage gap",
+      "insight": "The dataset is building a rural spine across 17 CBSAs with no dominant metro cluster — a geographic distribution that is structurally different from cookie- and device-based ad tech data, which skews toward dense urban markets where ad spend concentrates.",
       "magnitude": "high"
     },
     {
-      "topic": "Brand demand signal emerging",
-      "insight": "One active predicate — a confirmed brand querying verified purchase history — is a thin but real signal that buy-side demand exists; the dataset is being tested against real commercial intent before scale has arrived.",
+      "topic": "Closed-loop receipt data remains locked",
+      "insight": "Fetch and Ibotta hold real, identity-attached purchase data but it is not queryable by third parties — the verified receipt dataset here is identity-free and cross-ecosystem, which is the attribute those platforms cannot offer brands without regulatory exposure.",
       "magnitude": "medium"
     },
     {
-      "topic": "Cross-domain convergence pending",
-      "insight": "Physical retail (grocery, home improvement, club) and SaaS/dev infrastructure receipts are on a collision course in the same dataset; if five pending SaaS vendor requests activate, this becomes the first queryable layer combining verified physical and digital commerce spend.",
+      "topic": "Cross-domain signal convergence pending",
+      "insight": "Physical retail receipts (grocery, home improvement, club) and SaaS/dev-tool receipts exist in the same pipeline but have not yet merged into a single queryable layer; five open SaaS vendor requests sit unactivated, and their activation would produce the first verified cross-domain spend signal at scale.",
       "magnitude": "medium"
     },
     {
-      "topic": "Organic network propagation pattern",
-      "insight": "Expansion is arriving in discrete geographic pulses across unconnected markets, not metro clusters — that pattern fingerprints social graph spread, not paid acquisition, which means the supply side is building without marketing costs distorting the data's representativeness.",
+      "topic": "Live brand query demand confirmed",
+      "insight": "One active predicate — a brand querying verified purchase history against the dataset — is the first confirmed commercial demand signal, indicating that at least one brand has moved from awareness to active data pull against 4,038 cryptographically verified receipts.",
       "magnitude": "medium"
     }
   ]
