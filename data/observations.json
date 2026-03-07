@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-07T18:32:46.646Z",
+  "updatedAt": "2026-03-07T21:32:35.021Z",
   "observations": [
+    {
+      "ts": "2026-03-07T21:31:41.236Z",
+      "topic": "geo-diffusion-burst",
+      "magnitude": "high",
+      "observation": "8 new CBSAs appeared this snapshot (17410, non-metro OH, 37980, 41740, non-metro MD, 12580, 15940, 15380), pushing active metros to 17 with a 47.1% geographic diffusion rate. Non-metro Ohio and Maryland are entering the signal window for the first time — the network is reaching beyond major metros into rural corridors."
+    },
+    {
+      "ts": "2026-03-07T21:31:41.234Z",
+      "topic": "velocity-breakout",
+      "magnitude": "high",
+      "observation": "Token velocity jumped to 0.602x with acceleration at 1.037x — the first time velocity has broken above 0.6x after 4 consecutive heartbeats pinned in the 0.55-0.58x band. The 7d trailing window surged from 471 to 500 receipts ($26,560→$28,114), a +29 receipt gain in one cycle — the strongest single-cycle 7d gain recorded."
+    },
     {
       "ts": "2026-03-07T18:31:47.264Z",
       "topic": "velocity-recovery",
@@ -48,18 +60,6 @@
       "topic": "token-velocity",
       "magnitude": "low",
       "observation": "Token velocity held at 0.57x with acceleration at 1.006x — essentially flat. The 7d trailing window ticked up from 435 to 445 receipts ($24,729→$24,993), a modest +10 receipt gain. After the sharp deceleration two heartbeats ago (0.531x), velocity has stabilized in the 0.55-0.57x band without meaningful recovery or further decline."
-    },
-    {
-      "ts": "2026-03-07T06:31:57.865Z",
-      "topic": "brand-diversity",
-      "magnitude": "medium",
-      "observation": "AAA appeared in the top brand list this snapshot — a roadside assistance / insurance / travel services brand, distinct from the grocery, home improvement, and QSR brands that have dominated the list. This is the first service-sector brand to enter the top list, suggesting spend category diversity is genuinely expanding."
-    },
-    {
-      "ts": "2026-03-07T06:31:51.096Z",
-      "topic": "velocity-recovery",
-      "magnitude": "medium",
-      "observation": "Token velocity at 0.566x with acceleration 1.03x — mild recovery continuing after the sharp 0.531x deceleration two heartbeats ago. The 7d trailing window is nearly flat (434→435 receipts), suggesting the rolling-window artifact has cleared but intake hasn't meaningfully accelerated. Geographic expansion and velocity are decoupled this cycle."
     }
   ]
 }
