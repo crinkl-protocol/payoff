@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-07T21:32:35.020Z",
+  "updatedAt": "2026-03-09T15:47:22.039Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic attribution cost gap",
-      "insight": "Verified receipt signals settle at roughly $0.10 per confirmed purchase event versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost differential that reflects the structural difference between a cryptographically confirmed transaction and a modeled inference.",
+      "topic": "Deterministic vs. probabilistic signal cost",
+      "insight": "The protocol settles attribution at ~$0.10 per verified receipt versus $5–$150 CPA for probabilistic ad tech — a 50–200x cost delta driven by eliminating the attribution problem entirely, not optimizing around it.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting void",
-      "insight": "With Chrome completing cookie deprecation and device fingerprinting increasingly blocked by privacy regulation, the ad industry's primary cross-site tracking primitives are gone — receipt-level purchase verification is one of the few remaining methods that produces a confirmed conversion signal without identity attachment.",
+      "topic": "Post-cookie targeting gap",
+      "insight": "With Chrome completing cookie deprecation and device fingerprinting increasingly blocked, the ad industry has no cross-ecosystem, identity-free purchase signal at scale — this dataset of 4,079 cryptographically verified receipts across $236K GMV represents a structural alternative, not an incremental one.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-ecosystem purchase visibility gap",
-      "insight": "Amazon knows what you buy on Amazon; Walmart knows what you buy at Walmart — neither knows what happens outside their silo, and they never will under current data-sharing incentives. Email receipt data accumulates cross-retailer purchase signals without requiring any platform to open its silo.",
+      "topic": "Platform silo blind spot",
+      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither knows the other — this protocol aggregates cross-ecosystem purchase data from email receipts without requiring any platform to open its silo, which no first-party data strategy can replicate.",
       "magnitude": "high"
     },
     {
       "topic": "Rural and non-metro coverage as competitive moat",
-      "insight": "Active coverage has reached non-metro California, Idaho, Wisconsin, and Pennsylvania through organic social-graph diffusion — populations that probabilistic ad tech platforms systematically underserve due to their urban data density bias.",
+      "insight": "Sixteen active CBSAs now include confirmed non-metro adoption across CA, ID, WI, and PA — geographies that probabilistic ad tech systematically underserves due to urban data density bias, making this a rare verified signal source for brands with national or rural distribution.",
       "magnitude": "medium"
     },
     {
-      "topic": "Spend category diversification confirmed",
-      "insight": "Category entropy sits at 3.131 bits and is stable — the purchase basket spans grocery, home improvement, QSR, and now service sectors like AAA, meaning the signal set is not concentrated in a single vertical and is broadening without deliberate category targeting.",
+      "topic": "Spend category diversification",
+      "insight": "Category entropy sits at 3.131 bits and is stable — the verified purchase basket is spreading across grocery, home improvement, QSR, services (AAA), and dev infrastructure rather than concentrating, which matters for brands assessing whether this signal set covers their category.",
       "magnitude": "medium"
     },
     {
-      "topic": "Merchant resolution gap signals premium spend undercount",
-      "insight": "11% of receipts fail merchant name resolution, and the 'Unknown' category carries the highest average basket value at $133.50 — meaning current brand-level analysis is likely undercounting high-value purchase events, not overcounting them.",
+      "topic": "Merchant resolution gap masks premium spend",
+      "insight": "Eleven percent of receipts fail merchant name resolution, yet the 'Unknown' category carries the highest average basket at $133.50 — meaning brand-level analysis is currently undercounting a premium spend segment that cryptographic verification still confirms as real purchase events.",
       "magnitude": "medium"
     }
   ]

@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-03-07T21:32:35.021Z",
+  "updatedAt": "2026-03-09T15:47:22.040Z",
   "observations": [
+    {
+      "ts": "2026-03-09T15:46:32.531Z",
+      "topic": "geo-diffusion",
+      "magnitude": "low",
+      "observation": "Zero new CBSAs this snapshot — 24 active metros holding steady. After the record-tying 14-CBSA burst last heartbeat, the network has entered the quiet phase of the burst-quiet cycle. Geographic diffusion rate is 0%, consistent with prior post-burst consolidation patterns."
+    },
+    {
+      "ts": "2026-03-09T15:46:32.529Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity climbed to 0.659x with acceleration at 1.024x — continuing the upward trend from 0.602x last heartbeat. The 7d trailing window ticked from 482 to 490 receipts ($27,553→$27,788), a modest +8 receipt gain. Velocity is now at its highest sustained level in recent memory, above the 0.55-0.58x band that held for 4 consecutive heartbeats."
+    },
+    {
+      "ts": "2026-03-09T15:13:09.059Z",
+      "topic": "token-velocity",
+      "magnitude": "high",
+      "observation": "Token velocity broke to 0.643x with acceleration at 1.068x — the highest velocity recorded in recent memory, up from 0.602x last heartbeat. The 7d trailing window contracted slightly (500→482 receipts, $28,114→$27,553), while cumulative receipts surged 4,112→4,301 (+189 in one cycle). Velocity and 7d window are moving in opposite directions, suggesting a strong cumulative intake that hasn't fully propagated into the trailing window yet."
+    },
+    {
+      "ts": "2026-03-09T15:13:09.057Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "14 new CBSAs appeared this snapshot (including non-metro NC, NV, IL, KY — rural corridors), pushing total active metros to 24 with a 58.3% geographic diffusion rate. This ties the largest single-cycle burst on record and marks the first time non-metro Nevada, North Carolina, Illinois, and Kentucky have entered the signal window simultaneously."
+    },
     {
       "ts": "2026-03-07T21:31:41.236Z",
       "topic": "geo-diffusion-burst",
@@ -36,30 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "9 new CBSAs appeared this snapshot (non-metro WI, 31080, 16860, 41740, 16700, 40140, non-metro PA, 15380, non-metro CA), pushing total active metros to 23 — a 39.1% geographic diffusion rate. This is the largest single-cycle burst since the 31-CBSA peak, and includes non-metro Pennsylvania and Wisconsin for the first time."
-    },
-    {
-      "ts": "2026-03-07T12:31:56.511Z",
-      "topic": "geo-quiet-phase",
-      "magnitude": "low",
-      "observation": "Zero new CBSAs this snapshot — the second consecutive quiet cycle after the 6-CBSA burst two heartbeats ago. The burst-quiet pattern is holding: large geographic expansion followed by 2-3 cycles of silence. 14 active CBSAs reported by quant metrics vs. 23 cumulative, confirming the window artifact in the wildfire calculation."
-    },
-    {
-      "ts": "2026-03-07T12:31:56.509Z",
-      "topic": "velocity-plateau",
-      "magnitude": "medium",
-      "observation": "Token velocity has held in the 0.55-0.57x band for 3 consecutive heartbeats with acceleration at exactly 1.0x — neither recovering nor declining. The 7d trailing window ticked from 445 to 447 receipts ($24,993→$25,037), a +2 receipt gain. This is the flattest sustained period since the sharp 0.531x deceleration event."
-    },
-    {
-      "ts": "2026-03-07T09:32:34.315Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "Zero new CBSAs this snapshot — geoDiffusionRate dropped to 0% with 14 active metros reported by quant metrics (down from 23 last heartbeat). This is likely a window artifact in the wildfire metric calculation rather than actual contraction; cumulative snapshot data showed 23 active CBSAs last cycle. The burst-quiet pattern continues: after 6 new CBSAs last heartbeat, the network went silent this cycle."
-    },
-    {
-      "ts": "2026-03-07T09:32:34.313Z",
-      "topic": "token-velocity",
-      "magnitude": "low",
-      "observation": "Token velocity held at 0.57x with acceleration at 1.006x — essentially flat. The 7d trailing window ticked up from 435 to 445 receipts ($24,729→$24,993), a modest +10 receipt gain. After the sharp deceleration two heartbeats ago (0.531x), velocity has stabilized in the 0.55-0.57x band without meaningful recovery or further decline."
     }
   ]
 }
