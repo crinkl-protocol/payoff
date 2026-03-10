@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-09T15:47:22.039Z",
+  "updatedAt": "2026-03-10T15:49:41.516Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "The protocol settles attribution at ~$0.10 per verified receipt versus $5–$150 CPA for probabilistic ad tech — a 50–200x cost delta driven by eliminating the attribution problem entirely, not optimizing around it.",
+      "topic": "Deterministic vs. probabilistic cost delta",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles at ~$0.10 per verified receipt — a 50–200x cost difference rooted in structure, not optimization. The receipt is the conversion event, cryptographically signed, eliminating the attribution layer entirely.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome completing cookie deprecation and device fingerprinting increasingly blocked, the ad industry has no cross-ecosystem, identity-free purchase signal at scale — this dataset of 4,079 cryptographically verified receipts across $236K GMV represents a structural alternative, not an incremental one.",
+      "topic": "Cookieless targeting gap",
+      "insight": "With Chrome completing cookie deprecation and device fingerprinting under regulatory pressure, the industry has no cross-ecosystem deterministic signal at scale — this protocol's 4,079 verified receipts across 16 metros represent the only identity-free, cryptographically confirmed purchase data that doesn't require platform cooperation.",
       "magnitude": "high"
     },
     {
       "topic": "Platform silo blind spot",
-      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither knows the other — this protocol aggregates cross-ecosystem purchase data from email receipts without requiring any platform to open its silo, which no first-party data strategy can replicate.",
+      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither knows the other — and no existing data product solves this without identity attachment and legal liability. Cross-ecosystem purchase visibility here flows from email receipts, requiring no platform to share anything.",
       "magnitude": "high"
     },
     {
       "topic": "Rural and non-metro coverage as competitive moat",
-      "insight": "Sixteen active CBSAs now include confirmed non-metro adoption across CA, ID, WI, and PA — geographies that probabilistic ad tech systematically underserves due to urban data density bias, making this a rare verified signal source for brands with national or rural distribution.",
+      "insight": "Active receipt flow is confirmed in non-metro CA, ID, WI, and PA — geographies that probabilistic ad tech systematically underserves due to urban data density bias. Brands with rural or suburban footprints (Walmart, Kroger, Dollar General are already represented) are getting coverage no DSP can reliably replicate.",
       "magnitude": "medium"
     },
     {
-      "topic": "Spend category diversification",
-      "insight": "Category entropy sits at 3.131 bits and is stable — the verified purchase basket is spreading across grocery, home improvement, QSR, services (AAA), and dev infrastructure rather than concentrating, which matters for brands assessing whether this signal set covers their category.",
+      "topic": "Merchant resolution gap signals premium spend undercount",
+      "insight": "11% of receipts fail merchant name resolution, and the 'Unknown' category carries the highest average basket size at $133.50 — meaning high-value purchase events are verified but not yet brand-attributed. The premium spend signal exists in the data; it's a classification problem, not a verification problem.",
       "magnitude": "medium"
     },
     {
-      "topic": "Merchant resolution gap masks premium spend",
-      "insight": "Eleven percent of receipts fail merchant name resolution, yet the 'Unknown' category carries the highest average basket at $133.50 — meaning brand-level analysis is currently undercounting a premium spend segment that cryptographic verification still confirms as real purchase events.",
+      "topic": "Spend category diversification beyond grocery and home improvement",
+      "insight": "Category entropy sits at 3.131 bits and is stable — the purchase basket is spreading, not concentrating. AAA's appearance as the first service-sector brand signals that receipt coverage is expanding into insurance, roadside, and travel spend, which are categories where verified purchase signals are almost entirely absent from current ad tech.",
       "magnitude": "medium"
     }
   ]
