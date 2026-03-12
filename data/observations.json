@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-03-10T15:49:41.518Z",
+  "updatedAt": "2026-03-12T20:32:12.898Z",
   "observations": [
+    {
+      "ts": "2026-03-12T15:48:50.765Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "8 new CBSAs appeared this snapshot (non-metro ME, CBSA 10580, 29420, non-metro NY, 15380, non-metro MA, non-metro VA, 41740), pushing 16 total active metros with 50% geographic diffusion rate. Non-metro Virginia enters the signal window for the first time, joining a sustained rural corridor expansion pattern now spanning ME, NY, MA, VA, FL, AL, NC."
+    },
+    {
+      "ts": "2026-03-12T15:48:37.875Z",
+      "topic": "token-velocity",
+      "magnitude": "high",
+      "observation": "Token velocity reached 0.839x this snapshot — a new record high — with acceleration at 1.065x confirming sustained growth. The 7d trailing window surged from $27,117 to $39,139 (+$12,022, +62 receipts) — the largest single-cycle 7d window expansion recorded. Cumulative receipts: 4,622 (+35 this cycle), cumulative GMV: $276,105."
+    },
+    {
+      "ts": "2026-03-12T03:48:45.681Z",
+      "topic": "geo-diffusion-shopify",
+      "magnitude": "high",
+      "observation": "9 new CBSAs appeared this snapshot (including CBSA 35620, 24780, 38060, 17140, 15980, non-metro IL, 37140, 45300, 33340), pushing 17 total active metros with 52.9% geographic diffusion rate. Shopify entered the top brand list for the first time — a signal that direct-to-consumer digital commerce is entering the verified receipt window alongside physical retail."
+    },
+    {
+      "ts": "2026-03-12T03:48:33.723Z",
+      "topic": "velocity-new-high",
+      "magnitude": "high",
+      "observation": "Token velocity reached 0.788x this snapshot — a new record high — with acceleration at 1.037x confirming sustained growth. Cumulative receipts: 4,587 (+82 this cycle), cumulative GMV: $274,725. The 7d trailing window contracted ($30,388 → $27,117, -57 receipts) while the 14d window expanded ($69,132 → $77,064, +$7,932) — velocity peak is driven by cumulative momentum, not a short-term surge."
+    },
+    {
+      "ts": "2026-03-11T15:48:45.494Z",
+      "topic": "velocity-record",
+      "magnitude": "high",
+      "observation": "Token velocity reached 0.76x this snapshot — a new record high — with acceleration at 1.016x confirming sustained growth. Cumulative receipts: 4,505 (+22 this cycle), cumulative GMV: $262,039. Category entropy sits at 3.174 bits, the highest recorded, indicating the token mix is diversifying as velocity climbs."
+    },
+    {
+      "ts": "2026-03-11T15:48:45.492Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "8 new CBSAs appeared this snapshot (CBSA 47900, non-metro MA, non-metro ME, CBSA 16860, non-metro AL, CBSA 36837, non-metro NC, non-metro FL), pushing 23 total active metros with 34.8% geographic diffusion rate. Non-metro Florida, Alabama, North Carolina, and Maine entering the signal window simultaneously — the Southeast rural corridor is activating in force."
+    },
+    {
+      "ts": "2026-03-11T03:48:44.982Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "7 new CBSAs appeared this snapshot (36740, non-metro NV, 40140, 22220, 14460, 17410, 12420), pushing 15 total active metros with 46.7% geographic diffusion rate. Non-metro Nevada re-enters the signal window. The burst-quiet-burst pattern continues — this is the third significant geo burst in 4 heartbeats."
+    },
+    {
+      "ts": "2026-03-11T03:48:44.979Z",
+      "topic": "token-velocity-peak",
+      "magnitude": "high",
+      "observation": "Token velocity reached 0.748x this snapshot — the highest recorded value. Acceleration sits at 1.03x, confirming growth is still accelerating. Cumulative receipts: 4,483 (+82 this cycle), cumulative GMV: $261,171. The 7d trailing window pulled back slightly ($31,207 → $29,921, -507 receipts), suggesting the velocity peak is driven by cumulative intake outpacing the trailing window — not a 7d surge."
+    },
     {
       "ts": "2026-03-10T15:48:44.893Z",
       "topic": "geo-diffusion-publix",
@@ -12,54 +60,6 @@
       "topic": "acceleration-reversal",
       "magnitude": "high",
       "observation": "Token acceleration snapped back to 1.184x this snapshot after dropping to 0.93x last heartbeat — the sharpest single-cycle acceleration recovery recorded. Velocity climbed to 0.726x (from 0.613x), and the 7d window grew from $30,817 to $31,207 (+$390, +15 receipts). The sub-1.0x reading lasted exactly one cycle."
-    },
-    {
-      "ts": "2026-03-10T03:48:42.988Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "14 new CBSAs appeared this snapshot (including non-metro AZ, KS, NJ, TN, IN), pushing 20 total active metros with a 70% geographic diffusion rate. Non-metro Arizona, Kansas, New Jersey, Tennessee, and Indiana are entering the signal window for the first time — the network continues its rural corridor expansion pattern."
-    },
-    {
-      "ts": "2026-03-10T03:48:42.986Z",
-      "topic": "velocity-deceleration",
-      "magnitude": "high",
-      "observation": "Token velocity sits at 0.613x but acceleration has dropped to 0.93x — the first sub-1.0x acceleration reading after a sustained period above 1.0x. Growth is still positive but the rate of growth is contracting. The 14d distribution window also contracted (1,233 → 1,195 receipts, $68,104 → $67,378), signaling the trailing window is cooling even as cumulative GMV hits a milestone."
-    },
-    {
-      "ts": "2026-03-10T03:48:42.984Z",
-      "topic": "gmv-milestone",
-      "magnitude": "high",
-      "observation": "GMV crossed $250,000 this snapshot ($248,462 → $256,173), with cumulative receipts reaching 4,385 (+84 in one cycle). The 7d trailing window surged from $27,788 to $30,817 (+$3,029 in one cycle) — the strongest 7d dollar gain recorded. The $250K milestone arrived alongside 14 new CBSAs and a new brand (Mr. Submarine) entering the top list."
-    },
-    {
-      "ts": "2026-03-09T15:46:32.531Z",
-      "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "Zero new CBSAs this snapshot — 24 active metros holding steady. After the record-tying 14-CBSA burst last heartbeat, the network has entered the quiet phase of the burst-quiet cycle. Geographic diffusion rate is 0%, consistent with prior post-burst consolidation patterns."
-    },
-    {
-      "ts": "2026-03-09T15:46:32.529Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity climbed to 0.659x with acceleration at 1.024x — continuing the upward trend from 0.602x last heartbeat. The 7d trailing window ticked from 482 to 490 receipts ($27,553→$27,788), a modest +8 receipt gain. Velocity is now at its highest sustained level in recent memory, above the 0.55-0.58x band that held for 4 consecutive heartbeats."
-    },
-    {
-      "ts": "2026-03-09T15:13:09.059Z",
-      "topic": "token-velocity",
-      "magnitude": "high",
-      "observation": "Token velocity broke to 0.643x with acceleration at 1.068x — the highest velocity recorded in recent memory, up from 0.602x last heartbeat. The 7d trailing window contracted slightly (500→482 receipts, $28,114→$27,553), while cumulative receipts surged 4,112→4,301 (+189 in one cycle). Velocity and 7d window are moving in opposite directions, suggesting a strong cumulative intake that hasn't fully propagated into the trailing window yet."
-    },
-    {
-      "ts": "2026-03-09T15:13:09.057Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "14 new CBSAs appeared this snapshot (including non-metro NC, NV, IL, KY — rural corridors), pushing total active metros to 24 with a 58.3% geographic diffusion rate. This ties the largest single-cycle burst on record and marks the first time non-metro Nevada, North Carolina, Illinois, and Kentucky have entered the signal window simultaneously."
-    },
-    {
-      "ts": "2026-03-07T21:31:41.236Z",
-      "topic": "geo-diffusion-burst",
-      "magnitude": "high",
-      "observation": "8 new CBSAs appeared this snapshot (17410, non-metro OH, 37980, 41740, non-metro MD, 12580, 15940, 15380), pushing active metros to 17 with a 47.1% geographic diffusion rate. Non-metro Ohio and Maryland are entering the signal window for the first time — the network is reaching beyond major metros into rural corridors."
     }
   ]
 }
