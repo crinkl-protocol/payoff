@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-13T09:45:13.083Z",
+  "updatedAt": "2026-03-13T17:45:13.427Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic cost delta",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution. This protocol settles at roughly $0.10 per cryptographically verified receipt — a 50–200x cost difference that isn't a feature gap, it's a structural one: the receipt eliminates the attribution problem rather than solving it.",
+      "topic": "Deterministic vs. probabilistic signal cost",
+      "insight": "Ad tech charges $5–$150 CPA for modeled attribution; this protocol settles verified purchase confirmation at roughly $0.10 per receipt — a 50–200x cost delta that reflects the difference between inferring intent and proving a transaction occurred.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation leaves no equivalent replacement",
-      "insight": "Chrome has joined Safari and Firefox in killing cross-site cookies, and device fingerprinting is being progressively blocked by privacy regulation. First-party data is accurate only within a single ecosystem — none of these alternatives produce identity-free, cross-ecosystem, verified purchase signals at scale.",
+      "topic": "Post-cookie targeting gap",
+      "insight": "With Chrome completing cookie deprecation and fingerprinting increasingly blocked, the industry has no cross-ecosystem, identity-free purchase signal at scale — verified receipts are structurally positioned to fill that gap, not incrementally improve on existing solutions.",
       "magnitude": "high"
     },
     {
-      "topic": "Rural and non-metro population coverage",
-      "insight": "22 active CBSAs now span non-metro corridors from Maine to Arizona, with the Southeast rural corridor activating in force in recent cycles. Urban-biased ad tech platforms have no comparable infrastructure for these populations — the geographic reach here is a structural gap, not a marginal one.",
+      "topic": "Platform silo vulnerability",
+      "insight": "Amazon, Walmart, and every major retailer each hold a closed fragment of purchase reality; none can see across ecosystems, meaning the first queryable aggregate of cross-channel verified spend data carries intelligence that no single first-party dataset can replicate.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-ecosystem visibility without platform data sharing",
-      "insight": "Amazon knows what you buy on Amazon; Walmart knows what you buy at Walmart. This protocol accumulates cross-ecosystem purchase data from email receipts — no platform needs to open its silo, and no identity is in the payload. The Nash equilibrium that keeps brand data siloed does not apply here.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "High-value unresolved merchant segment",
-      "insight": "125 receipts in the 14-day window are categorized as Unknown, generating $16,785 in GMV at a $134 average basket — the highest of any category. These are real, verified transactions from merchants that fail name resolution, meaning brand-level analysis is systematically undercounting a high-value segment.",
+      "topic": "DTC and digital commerce entry",
+      "insight": "The first Shopify brand appeared in the verified receipt pool at Heartbeat #132 — after 130+ cycles of physical retail only — signaling that the data window now spans both in-store and online purchase behavior, a prerequisite for any meaningful omnichannel attribution use case.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category entropy at record high across three commerce cohorts",
-      "insight": "Category entropy has reached 3.174 bits — its highest recorded value — with physical retail, digital infrastructure, and DTC merchants (via Shopify) now all flowing through the same signal stream. The basket is diversifying, not concentrating, which means the signal is becoming more useful for cross-category targeting, not less.",
+      "topic": "Organic geographic diffusion",
+      "insight": "19 active metro and non-metro markets with burst-quiet-burst expansion patterns across both coasts and the upper Midwest suggest network-effect-driven adoption rather than paid distribution — the signal base is growing without the acquisition cost that typically inflates data provider economics.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Settlement concentration risk",
+      "insight": "Only 3.3% of receipt tokens have been claimed via Lightning Network payouts, meaning the incentive layer is not yet clearing at scale; brands evaluating this as a data source should treat current volume as early-adopter signal, not representative panel coverage.",
       "magnitude": "medium"
     }
   ]

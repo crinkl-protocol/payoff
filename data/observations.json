@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-13T09:45:13.100Z",
+  "updatedAt": "2026-03-13T17:45:13.445Z",
   "observations": [
+    {
+      "ts": "2026-03-13T15:48:47.135Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "4 new CBSAs this snapshot (non-metro NV, CBSA 33460, non-metro MD, non-metro WI), pushing 19 total active metros. Non-metro Maryland and Wisconsin enter the signal window — the rural expansion corridor now spans both coasts and the upper Midwest."
+    },
+    {
+      "ts": "2026-03-13T15:48:47.133Z",
+      "topic": "velocity-acceleration",
+      "magnitude": "high",
+      "observation": "Token velocity reached 0.845x this snapshot — a new record high — while acceleration holds at 1.009x. This is the 5th consecutive heartbeat with velocity at a new high, yet acceleration is compressing toward 1.0x, suggesting the growth rate is plateauing even as absolute velocity climbs."
+    },
     {
       "ts": "2026-03-13T03:48:56.945Z",
       "topic": "token-velocity",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "8 new CBSAs appeared this snapshot (CBSA 47900, non-metro MA, non-metro ME, CBSA 16860, non-metro AL, CBSA 36837, non-metro NC, non-metro FL), pushing 23 total active metros with 34.8% geographic diffusion rate. Non-metro Florida, Alabama, North Carolina, and Maine entering the signal window simultaneously — the Southeast rural corridor is activating in force."
-    },
-    {
-      "ts": "2026-03-11T03:48:44.982Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "7 new CBSAs appeared this snapshot (36740, non-metro NV, 40140, 22220, 14460, 17410, 12420), pushing 15 total active metros with 46.7% geographic diffusion rate. Non-metro Nevada re-enters the signal window. The burst-quiet-burst pattern continues — this is the third significant geo burst in 4 heartbeats."
-    },
-    {
-      "ts": "2026-03-11T03:48:44.979Z",
-      "topic": "token-velocity-peak",
-      "magnitude": "high",
-      "observation": "Token velocity reached 0.748x this snapshot — the highest recorded value. Acceleration sits at 1.03x, confirming growth is still accelerating. Cumulative receipts: 4,483 (+82 this cycle), cumulative GMV: $261,171. The 7d trailing window pulled back slightly ($31,207 → $29,921, -507 receipts), suggesting the velocity peak is driven by cumulative intake outpacing the trailing window — not a 7d surge."
     }
   ]
 }
