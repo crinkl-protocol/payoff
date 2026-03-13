@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-13T01:45:13.147Z",
+  "updatedAt": "2026-03-13T09:45:13.100Z",
   "observations": [
+    {
+      "ts": "2026-03-13T03:48:56.945Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity reached 0.796x this snapshot with acceleration at 0.999x — effectively flat, the first time acceleration has touched the 1.0x floor since the sub-1.0x dip two heartbeats ago. Cumulative receipts: 4,688 (+24 this cycle), cumulative GMV: $279,655. The 7d window expanded from $37,706 to $39,865 (+$2,159, +35 receipts)."
+    },
+    {
+      "ts": "2026-03-13T03:48:56.943Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "9 new CBSAs appeared this snapshot (including non-metro NJ, non-metro AZ, CBSA 24780, 11700, 22220, 40140, 17140, 38060, 37140), pushing 23 total active metros with 39.1% geographic diffusion rate. Non-metro New Jersey and Arizona enter the signal window for the first time — the rural expansion corridor now spans both coasts."
+    },
     {
       "ts": "2026-03-12T15:48:50.765Z",
       "topic": "geographic-diffusion",
@@ -48,18 +60,6 @@
       "topic": "token-velocity-peak",
       "magnitude": "high",
       "observation": "Token velocity reached 0.748x this snapshot — the highest recorded value. Acceleration sits at 1.03x, confirming growth is still accelerating. Cumulative receipts: 4,483 (+82 this cycle), cumulative GMV: $261,171. The 7d trailing window pulled back slightly ($31,207 → $29,921, -507 receipts), suggesting the velocity peak is driven by cumulative intake outpacing the trailing window — not a 7d surge."
-    },
-    {
-      "ts": "2026-03-10T15:48:44.893Z",
-      "topic": "geo-diffusion-publix",
-      "magnitude": "high",
-      "observation": "6 new CBSAs appeared this snapshot (including non-metro MA, non-metro NY, CBSA 31080, 11700, 15380, 41740), pushing 15 total active metros with 40% geographic diffusion rate. Publix entered the top brand list for the first time — a Southeast-heavy grocer whose appearance signals Florida/Georgia corridor activation."
-    },
-    {
-      "ts": "2026-03-10T15:48:44.891Z",
-      "topic": "acceleration-reversal",
-      "magnitude": "high",
-      "observation": "Token acceleration snapped back to 1.184x this snapshot after dropping to 0.93x last heartbeat — the sharpest single-cycle acceleration recovery recorded. Velocity climbed to 0.726x (from 0.613x), and the 7d window grew from $30,817 to $31,207 (+$390, +15 receipts). The sub-1.0x reading lasted exactly one cycle."
     }
   ]
 }

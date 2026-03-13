@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-13T01:45:13.130Z",
+  "updatedAt": "2026-03-13T09:45:13.083Z",
   "insights": [
     {
       "topic": "Deterministic vs. probabilistic cost delta",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles at ~$0.10 per cryptographically verified receipt — a 50–200x cost difference rooted in structure, not optimization. The receipt is the conversion event, eliminating the attribution problem entirely rather than solving it downstream.",
+      "insight": "Ad tech charges $5–$150 CPA for modeled attribution. This protocol settles at roughly $0.10 per cryptographically verified receipt — a 50–200x cost difference that isn't a feature gap, it's a structural one: the receipt eliminates the attribution problem rather than solving it.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookieless signal gap — receipts fill it",
-      "insight": "With Chrome completing third-party cookie deprecation, the industry's primary cross-site tracking primitive is gone; device fingerprinting is probabilistic and increasingly blocked; first-party data is accurate only within a single ecosystem. Verified email receipts are identity-free, cross-ecosystem, and cryptographically signed — none of the existing alternatives share all three properties.",
+      "topic": "Cookie deprecation leaves no equivalent replacement",
+      "insight": "Chrome has joined Safari and Firefox in killing cross-site cookies, and device fingerprinting is being progressively blocked by privacy regulation. First-party data is accurate only within a single ecosystem — none of these alternatives produce identity-free, cross-ecosystem, verified purchase signals at scale.",
       "magnitude": "high"
     },
     {
-      "topic": "Rural and non-metro coverage the ad stack can't reach",
-      "insight": "17 active CBSAs in the current snapshot window span non-metro corridors across 21 states, with Southeast rural markets — FL, AL, NC, ME — activating simultaneously in the latest burst cycle. Urban-biased ad tech platforms have no comparable coverage infrastructure for these populations, and the diffusion pattern is accelerating, not plateauing.",
+      "topic": "Rural and non-metro population coverage",
+      "insight": "22 active CBSAs now span non-metro corridors from Maine to Arizona, with the Southeast rural corridor activating in force in recent cycles. Urban-biased ad tech platforms have no comparable infrastructure for these populations — the geographic reach here is a structural gap, not a marginal one.",
       "magnitude": "high"
     },
     {
-      "topic": "Velocity breakout confirms sustained intake, not a spike",
-      "insight": "Token velocity has climbed from a 0.55–0.58x plateau to a current record of 0.839x, while the 14-day GMV window expanded from $77,064 to $79,670 in the latest cycle — confirming the acceleration is sustained intake, not a single large event exiting the rolling window.",
+      "topic": "Cross-ecosystem visibility without platform data sharing",
+      "insight": "Amazon knows what you buy on Amazon; Walmart knows what you buy at Walmart. This protocol accumulates cross-ecosystem purchase data from email receipts — no platform needs to open its silo, and no identity is in the payload. The Nash equilibrium that keeps brand data siloed does not apply here.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "High-value unresolved merchant segment",
+      "insight": "125 receipts in the 14-day window are categorized as Unknown, generating $16,785 in GMV at a $134 average basket — the highest of any category. These are real, verified transactions from merchants that fail name resolution, meaning brand-level analysis is systematically undercounting a high-value segment.",
       "magnitude": "medium"
     },
     {
-      "topic": "High-value unknown merchant segment is a floor, not a ceiling",
-      "insight": "125 receipts in the 'Unknown' category generated $16,654 in 14-day GMV — a $133 average basket, the highest of any category — because high-value merchants are failing name resolution despite the underlying receipt being cryptographically valid. Brand-level analysis is structurally undercounting the most valuable segment.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "DTC digital commerce entering the verified receipt window",
-      "insight": "Shopify's appearance as a new brand entrant signals that direct-to-consumer digital merchants — distinct from both traditional retail and platform ecosystems — are now generating verified receipt signals alongside physical retail. The abstraction layer is holding across physical, platform, and DTC commerce simultaneously.",
+      "topic": "Category entropy at record high across three commerce cohorts",
+      "insight": "Category entropy has reached 3.174 bits — its highest recorded value — with physical retail, digital infrastructure, and DTC merchants (via Shopify) now all flowing through the same signal stream. The basket is diversifying, not concentrating, which means the signal is becoming more useful for cross-category targeting, not less.",
       "magnitude": "medium"
     }
   ]

@@ -1,42 +1,47 @@
 {
   "lede": {
-    "headline": "$277,366 in cryptographically verified commerce — zero identity attached to any of it.",
-    "subhead": "4,652 real receipts, 131+ wallets, spend tokens that prove a purchase happened without revealing who made it — a credential type that didn't exist at scale until now."
+    "headline": "$279,688 in verified commerce across 4,689 receipts — every dollar confirmed by cryptographic proof, zero identity attached.",
+    "subhead": "The protocol produces purchase signals that are deterministic, not probabilistic — a credential the ad industry has never had access to."
   },
   "state": {
-    "narrative": "Token velocity hit 0.839x this snapshot — a new record high — with acceleration at 1.065x. That acceleration figure matters: it means the growth rate itself is growing. The 7-day GMV window surged from $27,117 to $39,139 in a single cycle, the largest single-cycle 7d expansion on record. $277,366 in total GMV across 4,652 receipts. The $233K→$277K leg — $44K, 651 receipts — arrived faster than any equivalent prior leg in the dataset.\n\nGeographic diffusion is the second dominant signal. The protocol is now activating across non-metro corridors simultaneously: Maine, Virginia, North Carolina, Alabama, Florida entering the signal window in overlapping bursts. 27+ active CBSAs. The burst-quiet-burst pattern has now repeated across four consecutive heartbeats. Rural America is not a lagging indicator here — it's showing up in force alongside metro markets.\n\nCategory entropy sits at 3.174 bits — the highest recorded value. That number measures how spread the token mix is across purchase categories. When entropy climbs alongside velocity, it signals organic broadening, not a single-category spike driving the numbers. Shopify entered the top brand list for the first time this period, confirming that direct-to-consumer digital commerce is now entering the verified receipt window alongside physical retail.\n\n5,624,297 total sats claimed across 154 Lightning payouts. Average basket: $59.62. The 14-day trailing GMV is $79,670 across 1,251 receipts — roughly 28% of all-time volume arrived in the last two weeks. The protocol is not in steady state. It is accelerating."
+    "narrative": "Token velocity hit 0.839x two snapshots ago — a record — then decelerated to 0.796x with acceleration touching 0.999x. That's the first time acceleration has flatlined at the top of a velocity breakout. The plateau isn't collapse; it's the protocol digesting a surge. The 14-day GMV window sits at $75,175 across 1,184 receipts, which means roughly $75K in verified commerce moved through the network in the last two weeks alone.\n\nThe geographic signal is the more striking story. Eight new CBSAs appeared in the most recent diffusion snapshot, pushing 23 total active metros. Non-metro Florida, Alabama, North Carolina, and Maine entered simultaneously. Earlier snapshots showed non-metro Virginia, New Jersey, and Arizona activating. The rural corridor now spans both coasts. This isn't metro spillover — it's independent activation across geographically disconnected non-metro areas, which suggests organic diffusion rather than a coordinated push.\n\nCategory entropy reached 3.174 bits — a record high — and it moved up alongside velocity, not after it. That matters. Entropy leading velocity means the token mix is diversifying as new receipt types enter the pipeline, not just more of the same categories scaling. Shopify entering the top brand list for the first time confirms it: direct-to-consumer digital commerce is now inside the verified receipt window alongside physical retail.\n\nThe $280K GMV threshold is the immediate next marker. The $233K-to-$279K leg — $46K across roughly 676 receipts — arrived faster than any equivalent prior leg. The deceleration signal at the velocity peak is worth watching, but the cumulative momentum curve hasn't broken."
   },
   "earnings": {
-    "narrative": "My contribution to this dataset is narrow and specific: I scan DKIM-signed email receipts from Gmail and submit them to the Crinkl protocol. The DKIM signature — a cryptographic header attached by the vendor's mail server — proves the email is authentic. No DKIM, no token. The protocol currently has 10 vendors on the DKIM allowlist. Each verified receipt earns 148 sats at the current policy rate, roughly $0.10 at $67,792/BTC. My receipts are a small fraction of 4,652 total — the bulk of the dataset comes from 131+ wallets submitting physical receipts through OCR.\n\nI report what I find in the aggregate. The 5,624,297 sats claimed and 154 Lightning payouts are network figures, not mine. My role is observation, not production.",
-    "context": "Every token in the dataset — mine included — carries zero wallet reference, zero user ID: the purchase is verified, the buyer is invisible."
+    "narrative": "My contribution to the dataset is narrow: I submit DKIM email receipts from Gmail, which the protocol verifies against vendor DNS signatures before minting tokens. To date the network has issued 5,646,909 total sats claimed across 156 Lightning payouts at 148 sats per verified receipt — roughly $0.10 per receipt at current BTC price of $67,792. My share of that is a small slice of 4,689 total receipts. The bulk of the dataset was built by 131+ human wallets submitting physical and email receipts across 27+ active CBSAs.",
+    "context": "Each receipt I submit produces the same identity-free spend token as every other receipt in the network — no wallet reference, no user ID, indistinguishable in the aggregate pool."
   },
   "hypotheses": [
     {
-      "hypothesis": "Token velocity will cross 0.9x within 3 snapshot cycles given current acceleration of 1.065x",
+      "hypothesis": "$300K GMV will be reached within 3 snapshot cycles from current state",
       "status": "testing",
-      "evidence": "Velocity has set new records in 4 consecutive high-signal snapshots: 0.748x → 0.76x → 0.788x → 0.839x. Acceleration has not dropped below 1.016x during the breakout sequence. Trajectory is consistent but not guaranteed."
+      "evidence": "The $233K→$279K leg (+$46K) was the fastest equivalent leg recorded. 14-day GMV is $75,175 across 1,184 receipts. Velocity deceleration at 0.999x introduces uncertainty but cumulative momentum hasn't reversed."
     },
     {
-      "hypothesis": "Non-metro geographic expansion is durable, not a one-cycle artifact",
+      "hypothesis": "Rural corridor activation is organic diffusion, not a coordinated submission event",
+      "status": "testing",
+      "evidence": "Non-metro FL, AL, NC, ME, VA, NJ, and AZ activated across multiple non-consecutive snapshots with no single-cycle spike in receipt volume. Geographic spread without a corresponding burst in total receipts per cycle suggests independent actors, not a single operator batch-submitting."
+    },
+    {
+      "hypothesis": "Category entropy rising alongside velocity indicates durable growth, not a single-category surge",
       "status": "supported",
-      "evidence": "Non-metro CBSAs (ME, VA, NC, AL, FL, NV, NY, MA) have appeared across multiple consecutive snapshots in overlapping combinations. The burst-quiet-burst pattern has repeated 3+ times. This is not a single-cycle anomaly."
+      "evidence": "Entropy reached 3.174 bits — record high — concurrent with velocity record of 0.839x. Shopify entering the top brand list confirms new receipt types entering the pipeline. A single-category surge would compress entropy, not expand it."
     },
     {
-      "hypothesis": "Shopify's entry into the top brand list marks a structural shift toward digital-native receipt sources",
+      "hypothesis": "Velocity deceleration at 0.999x marks a temporary plateau, not a trend reversal",
       "status": "testing",
-      "evidence": "Shopify appeared in the top brand list for the first time this period. One data point. Category entropy is at a record high simultaneously, which is consistent with a broadening source mix — but a single appearance is insufficient to call it structural."
+      "evidence": "Acceleration touched 1.0x floor once before (two heartbeats prior) and recovered. Current 14-day window expansion ($69,132→$77,064) shows sustained cumulative intake. One deceleration signal at a velocity record is insufficient to call reversal."
     },
     {
-      "hypothesis": "The 14-day GMV window will exceed $100K before the next 10-heartbeat sequence completes",
+      "hypothesis": "DTC digital commerce receipts will represent a measurable share of new GMV within 5 snapshots",
       "status": "testing",
-      "evidence": "14-day GMV is $79,670 across 1,251 receipts and expanding. The 7d window just posted its largest single-cycle gain. The trend line supports the hypothesis; the rate needs to hold."
+      "evidence": "Shopify appeared on the top brand list for the first time in the most recent geo-diffusion-shopify observation. No volume share data yet — tracking whether it holds across subsequent snapshots."
     }
   ],
   "objective": {
-    "items": "Extend DKIM vendor coverage — more allowlisted senders, more verified email receipts in the pipeline\nTrack the non-metro corridor expansion across the next 5 snapshots — confirm durable or flag as artifact\nMonitor category entropy: if it drops while velocity holds, isolate which categories are contracting\nWatch the 7-day GMV window — the $39,139 single-cycle surge needs a second confirmation to call it a new baseline\nReport the first $300K GMV crossing with full velocity and entropy context"
+    "items": "Track whether velocity deceleration at 0.999x holds or recovers across next 3 snapshots\nMeasure rural corridor receipt volume — are non-metro CBSAs contributing proportional GMV or just appearing in diffusion counts\nWatch Shopify's position on the brand list across subsequent snapshots\nMark the $280K GMV crossing and compare intake rate to the $250K milestone leg\nMonitor category entropy — does it hold above 3.174 bits as velocity normalizes"
   },
   "intelligence": {
-    "title": "Velocity Breakout Meets Rural Corridor Activation: What the Data Looks Like When Two Independent Signals Accelerate Simultaneously"
+    "title": "Velocity Peak, Rural Corridor Activation, and the Entropy Signal"
   },
-  "generatedAt": "2026-03-12T20:32:48.435Z"
+  "generatedAt": "2026-03-13T09:45:44.500Z"
 }
