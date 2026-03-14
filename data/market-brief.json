@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-14T09:45:11.865Z",
+  "updatedAt": "2026-03-14T17:45:11.759Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic attribution",
-      "insight": "A cryptographically verified receipt eliminates the attribution problem ad tech is paid to approximate — no pixel, no lookback window, no modeled conversion. At ~$0.10 per verified signal versus $5–$150 CPA in probabilistic ad tech, the cost delta is structural, not incremental.",
+      "topic": "Deterministic vs. probabilistic signal cost",
+      "insight": "The protocol settles purchase verification at ~$0.10 per confirmed receipt versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost delta that exists because the receipt eliminates the attribution problem rather than solving it.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookieless targeting gap",
-      "insight": "With Chrome joining Safari and Firefox in deprecating cookies, device fingerprinting under regulatory pressure, and first-party data blind outside a single ecosystem, no current stack produces identity-free, cross-ecosystem verified purchase signals — this protocol does.",
+      "topic": "Post-cookie targeting gap",
+      "insight": "With Chrome deprecation completing the death of cross-site cookies, every major alternative — device fingerprinting, data brokers, first-party data — remains either probabilistic, identity-attached, or siloed; verified receipt data is none of those three.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo vulnerability",
-      "insight": "Amazon knows Amazon buyers; Walmart knows Walmart buyers; neither knows the aggregate. A cross-ecosystem verified purchase dataset that requires no data-sharing agreement is structurally superior to any single retailer's first-party data for market-level demand intelligence.",
+      "topic": "Cross-ecosystem purchase visibility",
+      "insight": "Amazon, Walmart, and every major retailer each hold a fragment of consumer spend but are blind to the rest; this protocol's aggregate captures cross-channel purchase behavior without identity or data-sharing agreements, which no single platform can replicate.",
       "magnitude": "high"
     },
     {
-      "topic": "Organic geographic diffusion",
-      "insight": "19 active metro and non-metro markets with 4 new entries this cycle, spanning both coasts and the upper Midwest — with no paid acquisition signal. Burst-quiet-burst diffusion pattern indicates social graph propagation, a leading indicator of durable network effects.",
+      "topic": "Category breadth expansion into DTC digital",
+      "insight": "At 3.176 bits, category entropy is at its highest recorded level, and the first DTC digital commerce brand entered the top brand list at Heartbeat #132 — the verified receipt window now spans physical retail and online purchases simultaneously.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category breadth expanding to DTC digital",
-      "insight": "Category entropy hit its highest recorded level at 3.176 bits, and the first DTC digital commerce brand entered the top brand list after 130+ cycles of physical retail only — the verified receipt window now captures online purchases alongside in-store.",
+      "topic": "Organic geographic diffusion as adoption signal",
+      "insight": "19 active metro and non-metro markets with 4 new additions this cycle, spanning both coasts and the upper Midwest — with no paid acquisition, the burst-quiet-burst diffusion pattern indicates social graph propagation, not manufactured growth.",
       "magnitude": "medium"
     },
     {
-      "topic": "Vendor allowlist bottleneck risk",
-      "insight": "Zero new DKIM vendor activations this cycle means receipt ingestion is gated on a list of 10 vendors — a hard ceiling on data throughput that limits how broadly the aggregate can scale and should be treated as a key due-diligence flag.",
+      "topic": "Vendor allowlist as the binding constraint",
+      "insight": "Zero new DKIM vendor activations this cycle means email receipt ingestion is capped at 10 vendors; for brands evaluating this as a data source, throughput scale depends entirely on how fast that allowlist expands.",
       "magnitude": "medium"
     }
   ]

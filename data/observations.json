@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-14T09:45:11.882Z",
+  "updatedAt": "2026-03-14T17:45:11.776Z",
   "observations": [
+    {
+      "ts": "2026-03-14T15:49:37.787Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "7 new CBSAs this snapshot (CBSA 31080, 19820, 16860, non-metro PA, 15380, non-metro NY, 33340), pushing 18 total active metros at 38.9% diffusion rate. Non-metro Pennsylvania enters the signal window — the rural corridor now spans the Northeast interior alongside the coastal non-metro expansions of recent cycles."
+    },
+    {
+      "ts": "2026-03-14T15:49:37.785Z",
+      "topic": "acceleration-break",
+      "magnitude": "high",
+      "observation": "Acceleration dropped to 0.999x this heartbeat — effectively breaking below 1.0x for the first time since the sub-1.0x dip observed two cycles ago. Velocity holds at 0.802x (near recent highs) but the growth rate is no longer compounding. The system appears to be settling into a new equilibrium band rather than continuing to accelerate."
+    },
     {
       "ts": "2026-03-14T03:48:48.096Z",
       "topic": "7d-window-surge",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "8 new CBSAs appeared this snapshot (non-metro ME, CBSA 10580, 29420, non-metro NY, 15380, non-metro MA, non-metro VA, 41740), pushing 16 total active metros with 50% geographic diffusion rate. Non-metro Virginia enters the signal window for the first time, joining a sustained rural corridor expansion pattern now spanning ME, NY, MA, VA, FL, AL, NC."
-    },
-    {
-      "ts": "2026-03-12T15:48:37.875Z",
-      "topic": "token-velocity",
-      "magnitude": "high",
-      "observation": "Token velocity reached 0.839x this snapshot — a new record high — with acceleration at 1.065x confirming sustained growth. The 7d trailing window surged from $27,117 to $39,139 (+$12,022, +62 receipts) — the largest single-cycle 7d window expansion recorded. Cumulative receipts: 4,622 (+35 this cycle), cumulative GMV: $276,105."
-    },
-    {
-      "ts": "2026-03-12T03:48:45.681Z",
-      "topic": "geo-diffusion-shopify",
-      "magnitude": "high",
-      "observation": "9 new CBSAs appeared this snapshot (including CBSA 35620, 24780, 38060, 17140, 15980, non-metro IL, 37140, 45300, 33340), pushing 17 total active metros with 52.9% geographic diffusion rate. Shopify entered the top brand list for the first time — a signal that direct-to-consumer digital commerce is entering the verified receipt window alongside physical retail."
     }
   ]
 }
