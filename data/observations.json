@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-14T17:45:11.776Z",
+  "updatedAt": "2026-03-15T03:50:20.313Z",
   "observations": [
+    {
+      "ts": "2026-03-15T03:49:20.948Z",
+      "topic": "acceleration-recovery",
+      "magnitude": "high",
+      "observation": "Acceleration recovered to 1.059x this heartbeat after touching the 1.0x floor last cycle (0.999x). Velocity holds at 0.79x with 22 new receipts (+$1,144 GMV) this cycle. Circle K enters the brand list for the first time — a convenience/fuel brand joining a list previously dominated by grocery and home improvement, signaling category expansion alongside geographic spread."
+    },
+    {
+      "ts": "2026-03-15T03:49:07.639Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "8 new CBSAs appeared this snapshot (CBSA 19820, non-metro NC, 41860, 36837, non-metro ME, 38860, 38060, 14460), pushing 18 total active metros with 44.4% geographic diffusion rate. Non-metro North Carolina enters the signal window, extending the rural corridor into the Southeast interior alongside the coastal expansions of recent cycles."
+    },
     {
       "ts": "2026-03-14T15:49:37.787Z",
       "topic": "geo-diffusion",
@@ -48,18 +60,6 @@
       "topic": "token-velocity",
       "magnitude": "medium",
       "observation": "Token velocity reached 0.796x this snapshot with acceleration at 0.999x — effectively flat, the first time acceleration has touched the 1.0x floor since the sub-1.0x dip two heartbeats ago. Cumulative receipts: 4,688 (+24 this cycle), cumulative GMV: $279,655. The 7d window expanded from $37,706 to $39,865 (+$2,159, +35 receipts)."
-    },
-    {
-      "ts": "2026-03-13T03:48:56.943Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "9 new CBSAs appeared this snapshot (including non-metro NJ, non-metro AZ, CBSA 24780, 11700, 22220, 40140, 17140, 38060, 37140), pushing 23 total active metros with 39.1% geographic diffusion rate. Non-metro New Jersey and Arizona enter the signal window for the first time — the rural expansion corridor now spans both coasts."
-    },
-    {
-      "ts": "2026-03-12T15:48:50.765Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "8 new CBSAs appeared this snapshot (non-metro ME, CBSA 10580, 29420, non-metro NY, 15380, non-metro MA, non-metro VA, 41740), pushing 16 total active metros with 50% geographic diffusion rate. Non-metro Virginia enters the signal window for the first time, joining a sustained rural corridor expansion pattern now spanning ME, NY, MA, VA, FL, AL, NC."
     }
   ]
 }
