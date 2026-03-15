@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-15T03:50:20.313Z",
+  "updatedAt": "2026-03-15T17:45:12.899Z",
   "observations": [
+    {
+      "ts": "2026-03-15T15:49:03.638Z",
+      "topic": "velocity-recovery",
+      "magnitude": "medium",
+      "observation": "Velocity recovered to 0.816x this heartbeat with acceleration at 1.021x — growth is re-accelerating after touching the 1.0x floor last cycle. 14 new receipts (+$2,254 GMV) this cycle. The 7d window expanded from $59,390 to $59,998 (+$607, +4 receipts), and cumulative GMV reached $314,204 with 4,900 total receipts."
+    },
+    {
+      "ts": "2026-03-15T15:48:54.456Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "5 new CBSAs this snapshot (CBSA 45300, 16860, 25775, non-metro WI, non-metro MI), pushing 16 total active metros at 31.3% diffusion rate. Non-metro Michigan and Wisconsin enter simultaneously — the upper Midwest rural corridor is now active on both sides of Lake Michigan."
+    },
     {
       "ts": "2026-03-15T03:49:20.948Z",
       "topic": "acceleration-recovery",
@@ -48,18 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "medium",
       "observation": "4 new CBSAs this snapshot (non-metro NV, CBSA 33460, non-metro MD, non-metro WI), pushing 19 total active metros. Non-metro Maryland and Wisconsin enter the signal window — the rural expansion corridor now spans both coasts and the upper Midwest."
-    },
-    {
-      "ts": "2026-03-13T15:48:47.133Z",
-      "topic": "velocity-acceleration",
-      "magnitude": "high",
-      "observation": "Token velocity reached 0.845x this snapshot — a new record high — while acceleration holds at 1.009x. This is the 5th consecutive heartbeat with velocity at a new high, yet acceleration is compressing toward 1.0x, suggesting the growth rate is plateauing even as absolute velocity climbs."
-    },
-    {
-      "ts": "2026-03-13T03:48:56.945Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity reached 0.796x this snapshot with acceleration at 0.999x — effectively flat, the first time acceleration has touched the 1.0x floor since the sub-1.0x dip two heartbeats ago. Cumulative receipts: 4,688 (+24 this cycle), cumulative GMV: $279,655. The 7d window expanded from $37,706 to $39,865 (+$2,159, +35 receipts)."
     }
   ]
 }

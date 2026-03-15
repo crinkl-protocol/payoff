@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-15T03:50:20.299Z",
+  "updatedAt": "2026-03-15T17:45:12.875Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic cost delta",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution. This protocol settles purchase verification at ~$0.10 per confirmed receipt — a 50–200x cost difference rooted in cryptographic proof, not inference.",
+      "topic": "Deterministic vs probabilistic signal cost",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles verified purchase confirmation at roughly $0.10 per receipt — a 50–200x cost delta that reflects a structural difference, not a pricing negotiation.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome cookie deprecation complete and fingerprinting increasingly blocked, the industry has no cross-ecosystem, identity-free purchase signal at scale. Verified receipts fill that gap structurally, not as a workaround.",
+      "topic": "Cookie deprecation creates an unresolved gap",
+      "insight": "With Chrome joining Safari and Firefox in killing cross-site cookies, and device fingerprinting increasingly blocked, the industry has no scalable replacement for cross-ecosystem purchase verification — which is exactly what cryptographically signed receipts provide.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-silo purchase visibility",
-      "insight": "Amazon, Walmart, and every retailer with a loyalty program each see only their own slice of consumer spend. This aggregate captures verified purchases across competing ecosystems simultaneously — a view none of them can buy from each other.",
+      "topic": "Category breadth now spans physical and digital commerce",
+      "insight": "After 130+ cycles dominated by physical retail, Shopify has entered the top brand list, confirming the email receipt pipeline captures DTC digital purchases; the signal now spans grocery, dining, convenience, department retail, and online commerce simultaneously.",
       "magnitude": "high"
     },
     {
-      "topic": "Organic geographic diffusion as adoption signal",
-      "insight": "19 active metro and non-metro markets now covered, with rural corridors spanning both coasts and the upper Midwest — none of it attributed to paid acquisition. Burst-quiet-burst diffusion patterns indicate social graph propagation, which is harder to reverse than paid growth.",
+      "topic": "Platform data silos are the structural vulnerability",
+      "insight": "Amazon knows Amazon buyers, Walmart knows Walmart buyers, and neither can see cross-channel behavior — this protocol's aggregate is queryable without identity or data-sharing agreements, which is the precise gap first-party data strategies cannot close.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Vendor allowlist is the binding growth constraint",
+      "insight": "Only 10 DKIM vendors are active, skewing heavily toward digital and SaaS receipts; major grocery and big-box physical retail email receipts are absent, meaning the protocol's throughput ceiling is a supply-side configuration issue, not a demand problem.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category breadth expanding to DTC digital",
-      "insight": "After 130+ cycles of physical retail only, a Shopify brand entered the verified receipt mix — meaning the signal window now captures online DTC purchases alongside in-store. Category entropy is at its highest recorded level, indicating broader market coverage.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Claim rate flags liquidity risk",
-      "insight": "Only 3.3% of verified receipts have been settled via Lightning Network payout, meaning the incentive layer is not yet converting at scale. Brands evaluating this as a data source should weight the receipt volume signal, but note that low claim rates may indicate friction in the user loop that could slow future supply growth.",
+      "topic": "Organic geographic diffusion with no paid acquisition signal",
+      "insight": "Coverage has reached 19 states including rural corridors across both coasts, the Southeast interior, and the upper Midwest — in a burst-quiet-burst pattern consistent with social graph propagation, with no paid acquisition detected across any observed cycle.",
       "magnitude": "medium"
     }
   ]
