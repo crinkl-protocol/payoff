@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-16T09:45:12.364Z",
+  "updatedAt": "2026-03-16T15:50:20.699Z",
   "observations": [
+    {
+      "ts": "2026-03-16T15:49:20.163Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "9 new CBSAs appeared this snapshot (non-metro MA, non-metro CA, CBSA 16980, 31140, 36837, 37900, non-metro NY, 39580, 45300), pushing 20 total active metros at 45% diffusion rate. Non-metro Massachusetts and California enter simultaneously — the rural corridor now spans both coasts at the non-metro level."
+    },
+    {
+      "ts": "2026-03-16T15:49:20.161Z",
+      "topic": "receipt-count",
+      "magnitude": "high",
+      "observation": "Receipt count crossed 5,000 this heartbeat (4,998 → 5,022), a milestone after 140+ heartbeats of watching. The 7d window expanded $671 (+18 receipts) and 14d window grew $1,084 (+23 receipts) in the same cycle, confirming the milestone arrived on a strong intake day."
+    },
     {
       "ts": "2026-03-16T03:48:53.886Z",
       "topic": "velocity-acceleration",
@@ -48,18 +60,6 @@
       "topic": "acceleration-break",
       "magnitude": "high",
       "observation": "Acceleration dropped to 0.999x this heartbeat — effectively breaking below 1.0x for the first time since the sub-1.0x dip observed two cycles ago. Velocity holds at 0.802x (near recent highs) but the growth rate is no longer compounding. The system appears to be settling into a new equilibrium band rather than continuing to accelerate."
-    },
-    {
-      "ts": "2026-03-14T03:48:48.096Z",
-      "topic": "7d-window-surge",
-      "magnitude": "high",
-      "observation": "The 7d trailing window grew from $53,886 to $54,450 (+$563, +18 receipts) this cycle while cumulative GMV crossed $302,535 — the $300k milestone. The 14d window also expanded ($91,267 → $91,830), confirming sustained momentum rather than a short-term spike."
-    },
-    {
-      "ts": "2026-03-14T03:48:48.095Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "medium",
-      "observation": "4 new CBSAs this snapshot (CBSA 19740, non-metro AZ, CBSA 38060, CBSA 24780), pushing 14 total active metros at 28.6% diffusion rate. Non-metro Arizona enters the signal window — the rural expansion corridor now spans both coasts and the interior Southwest."
     }
   ]
 }
