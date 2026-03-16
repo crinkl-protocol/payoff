@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-03-15T17:45:12.877Z",
-  "verifiedReceipts": 4903,
-  "verifiedGMVCents": "31432599",
-  "verifiedGMV": "$314,325.99",
+  "updatedAt": "2026-03-16T01:45:12.308Z",
+  "verifiedReceipts": 4971,
+  "verifiedGMVCents": "31833358",
+  "verifiedGMV": "$318,333.58",
   "satsPerReceipt": 148,
   "lightningPayouts": 162,
   "totalSatsClaimed": 5722570,
   "distributed": "$3,879",
   "btcPrice": 67792.115,
-  "trailing14dCents": "9753075",
-  "trailing14dReceipts": 1156
+  "trailing14dCents": "9618952",
+  "trailing14dReceipts": 1133
 }

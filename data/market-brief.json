@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-15T17:45:12.875Z",
+  "updatedAt": "2026-03-16T01:45:12.306Z",
   "insights": [
     {
-      "topic": "Deterministic vs probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles verified purchase confirmation at roughly $0.10 per receipt — a 50–200x cost delta that reflects a structural difference, not a pricing negotiation.",
+      "topic": "Deterministic vs probabilistic attribution cost gap",
+      "insight": "Verified receipt signals are settling at roughly $0.10 per confirmed purchase event versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost delta that reflects structural elimination of the attribution problem, not incremental optimization.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation creates an unresolved gap",
-      "insight": "With Chrome joining Safari and Firefox in killing cross-site cookies, and device fingerprinting increasingly blocked, the industry has no scalable replacement for cross-ecosystem purchase verification — which is exactly what cryptographically signed receipts provide.",
+      "topic": "Post-cookie targeting void",
+      "insight": "With Chrome deprecation joining Safari and Firefox, the cross-site tracking primitive is effectively gone; device fingerprinting is increasingly blocked; and data broker utility is shrinking under GDPR/CCPA — the verified receipt fills the signal gap none of these alternatives can.",
       "magnitude": "high"
     },
     {
-      "topic": "Category breadth now spans physical and digital commerce",
-      "insight": "After 130+ cycles dominated by physical retail, Shopify has entered the top brand list, confirming the email receipt pipeline captures DTC digital purchases; the signal now spans grocery, dining, convenience, department retail, and online commerce simultaneously.",
+      "topic": "Cross-ecosystem purchase visibility",
+      "insight": "Amazon knows Amazon buyers, Walmart knows Walmart buyers, neither knows the aggregate — this protocol's 4,903 verified receipts spanning grocery, retail, dining, fuel, and DTC digital commerce represent the kind of cross-channel purchase picture that no single first-party data silo can produce.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform data silos are the structural vulnerability",
-      "insight": "Amazon knows Amazon buyers, Walmart knows Walmart buyers, and neither can see cross-channel behavior — this protocol's aggregate is queryable without identity or data-sharing agreements, which is the precise gap first-party data strategies cannot close.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Vendor allowlist is the binding growth constraint",
-      "insight": "Only 10 DKIM vendors are active, skewing heavily toward digital and SaaS receipts; major grocery and big-box physical retail email receipts are absent, meaning the protocol's throughput ceiling is a supply-side configuration issue, not a demand problem.",
+      "topic": "DTC and digital commerce signal now confirmed",
+      "insight": "Shopify appeared in the top brand list for the first time after 130+ cycles of physical retail dominance, confirming the email receipt pipeline captures online purchases — the signal window now spans physical retail, grocery, convenience, dining, and DTC in a single queryable aggregate.",
       "magnitude": "medium"
     },
     {
-      "topic": "Organic geographic diffusion with no paid acquisition signal",
-      "insight": "Coverage has reached 19 states including rural corridors across both coasts, the Southeast interior, and the upper Midwest — in a burst-quiet-burst pattern consistent with social graph propagation, with no paid acquisition detected across any observed cycle.",
+      "topic": "Rural and non-metro geographic diffusion",
+      "insight": "Active coverage now spans 20+ non-metro CBSAs across both coasts, the Southeast interior, upper Midwest, and interior Southwest — a geography that closed-loop retail data programs and urban-skewed panels systematically underrepresent.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Category entropy at record breadth",
+      "insight": "Category entropy has reached 3.174–3.176 bits with restaurants/dining now the highest receipt-count category at 253 receipts in 14 days, surpassing grocery — brands outside CPG now have a measurable, verified demand signal in this dataset.",
       "magnitude": "medium"
     }
   ]
