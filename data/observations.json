@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-16T01:45:12.326Z",
+  "updatedAt": "2026-03-16T09:45:12.364Z",
   "observations": [
+    {
+      "ts": "2026-03-16T03:48:53.886Z",
+      "topic": "velocity-acceleration",
+      "magnitude": "high",
+      "observation": "Velocity at 0.779x with acceleration at 1.041x — growth is re-accelerating after touching the 1.0x floor. 21 new receipts (+$1,239 GMV) this cycle. The 7d window surged from $55,562 to $57,366 (+$1,804, +23 receipts), the largest 7d expansion in recent cycles."
+    },
+    {
+      "ts": "2026-03-16T03:48:53.882Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "7 new CBSAs this snapshot (CBSA 31080, 16860, 22420, 11700, non-metro PA, 39740, 37980), pushing 16 total active metros at 43.8% diffusion rate. Non-metro Pennsylvania re-enters the signal window — the rural corridor continues to pulse rather than spread smoothly."
+    },
     {
       "ts": "2026-03-15T15:49:03.638Z",
       "topic": "velocity-recovery",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "medium",
       "observation": "4 new CBSAs this snapshot (CBSA 19740, non-metro AZ, CBSA 38060, CBSA 24780), pushing 14 total active metros at 28.6% diffusion rate. Non-metro Arizona enters the signal window — the rural expansion corridor now spans both coasts and the interior Southwest."
-    },
-    {
-      "ts": "2026-03-14T03:48:48.093Z",
-      "topic": "velocity-plateau",
-      "magnitude": "high",
-      "observation": "Token velocity reached 0.794x this snapshot with acceleration at 1.044x — but this marks the 5th consecutive heartbeat where velocity is near record highs while acceleration oscillates tightly around 1.0x (range: 0.999x–1.065x). The growth rate is compressing even as absolute velocity climbs, suggesting the system is approaching a ceiling or a new equilibrium band."
-    },
-    {
-      "ts": "2026-03-13T15:48:47.135Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "4 new CBSAs this snapshot (non-metro NV, CBSA 33460, non-metro MD, non-metro WI), pushing 19 total active metros. Non-metro Maryland and Wisconsin enter the signal window — the rural expansion corridor now spans both coasts and the upper Midwest."
     }
   ]
 }

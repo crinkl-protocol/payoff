@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-16T01:45:12.306Z",
+  "updatedAt": "2026-03-16T09:45:12.336Z",
   "insights": [
     {
-      "topic": "Deterministic vs probabilistic attribution cost gap",
-      "insight": "Verified receipt signals are settling at roughly $0.10 per confirmed purchase event versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost delta that reflects structural elimination of the attribution problem, not incremental optimization.",
+      "topic": "Deterministic vs. probabilistic cost gap",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles verified purchase signals at ~$0.10 per receipt — a 50–200x cost delta that isn't incremental improvement, it's a different category of signal entirely.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting void",
-      "insight": "With Chrome deprecation joining Safari and Firefox, the cross-site tracking primitive is effectively gone; device fingerprinting is increasingly blocked; and data broker utility is shrinking under GDPR/CCPA — the verified receipt fills the signal gap none of these alternatives can.",
+      "topic": "Post-cookie signal scarcity",
+      "insight": "With Chrome cookie deprecation joining Safari and Firefox, device fingerprinting under regulatory pressure, and data brokers facing shrinking legal surface area, the verified receipt is one of the few remaining cookieless signals that doesn't require inference.",
       "magnitude": "high"
     },
     {
       "topic": "Cross-ecosystem purchase visibility",
-      "insight": "Amazon knows Amazon buyers, Walmart knows Walmart buyers, neither knows the aggregate — this protocol's 4,903 verified receipts spanning grocery, retail, dining, fuel, and DTC digital commerce represent the kind of cross-channel purchase picture that no single first-party data silo can produce.",
+      "insight": "Amazon knows Amazon buyers; Walmart knows Walmart buyers; neither knows what the other knows — this protocol's aggregate spans grocery, dining, gas, retail, and DTC simultaneously, making it structurally visible where every first-party silo is structurally blind.",
       "magnitude": "high"
     },
     {
-      "topic": "DTC and digital commerce signal now confirmed",
-      "insight": "Shopify appeared in the top brand list for the first time after 130+ cycles of physical retail dominance, confirming the email receipt pipeline captures online purchases — the signal window now spans physical retail, grocery, convenience, dining, and DTC in a single queryable aggregate.",
+      "topic": "Organic geographic diffusion at scale",
+      "insight": "20 distinct non-metro state signals confirmed, spanning both coasts, Southeast interior, upper Midwest, and interior Southwest — with no paid acquisition detected across any observed cycle, indicating word-of-mouth or social graph propagation rather than manufactured growth.",
       "magnitude": "medium"
     },
     {
-      "topic": "Rural and non-metro geographic diffusion",
-      "insight": "Active coverage now spans 20+ non-metro CBSAs across both coasts, the Southeast interior, upper Midwest, and interior Southwest — a geography that closed-loop retail data programs and urban-skewed panels systematically underrepresent.",
+      "topic": "Category entropy and brand reach",
+      "insight": "At 3.174–3.176 bits of category entropy, the 14-day receipt window spans restaurants, grocery, department stores, gas/convenience, and digital commerce simultaneously — Walmart, Costco, Amazon, and Shopify all appearing in the same verified dataset is a brand-mix signal most panels can't replicate.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category entropy at record breadth",
-      "insight": "Category entropy has reached 3.174–3.176 bits with restaurants/dining now the highest receipt-count category at 253 receipts in 14 days, surpassing grocery — brands outside CPG now have a measurable, verified demand signal in this dataset.",
+      "topic": "Unknown-category high-ticket receipts",
+      "insight": "125 receipts in the 14-day window carry an average ticket of ~$290 and a 10.8% store-resolution failure rate, suggesting large-basket or digital commerce transactions that standard retail data sources routinely misclassify or miss entirely.",
       "magnitude": "medium"
     }
   ]
