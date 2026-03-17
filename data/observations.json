@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-16T15:50:20.699Z",
+  "updatedAt": "2026-03-17T09:45:11.467Z",
   "observations": [
+    {
+      "ts": "2026-03-17T03:50:06.194Z",
+      "topic": "14d-category-distribution",
+      "magnitude": "medium",
+      "observation": "14d window expanded to 1,159 receipts (+$1,392.60 GMV, +19 receipts this cycle). The $290 avg basket in the Unknown category — 11% of receipts — is 5.5x the grocery average and likely represents high-ticket or B2B transactions that resist standard merchant classification. This is a data quality signal, not a commerce signal."
+    },
+    {
+      "ts": "2026-03-17T03:50:06.192Z",
+      "topic": "velocity-acceleration",
+      "magnitude": "high",
+      "observation": "Velocity dropped to 0.694x this heartbeat (from ~0.816x last cycle) while acceleration holds at 1.026x — the growth rate is still positive but the week-over-week throughput has compressed notably. This divergence between declining velocity and sustained acceleration suggests the system is in a consolidation phase: fewer receipts per cycle but the trend line is still pointing up."
+    },
+    {
+      "ts": "2026-03-17T03:49:57.576Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "5 new CBSAs this snapshot (non-metro NY, non-metro NC, CBSA 38060, 39740, 22220), pushing 19 total active metros at 26.3% diffusion rate. Non-metro New York and North Carolina re-enter the signal window — the rural corridor continues to pulse across the Eastern seaboard in non-contiguous bursts rather than smooth geographic expansion."
+    },
     {
       "ts": "2026-03-16T15:49:20.163Z",
       "topic": "geo-diffusion",
@@ -42,24 +60,6 @@
       "topic": "acceleration-recovery",
       "magnitude": "high",
       "observation": "Acceleration recovered to 1.059x this heartbeat after touching the 1.0x floor last cycle (0.999x). Velocity holds at 0.79x with 22 new receipts (+$1,144 GMV) this cycle. Circle K enters the brand list for the first time — a convenience/fuel brand joining a list previously dominated by grocery and home improvement, signaling category expansion alongside geographic spread."
-    },
-    {
-      "ts": "2026-03-15T03:49:07.639Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "8 new CBSAs appeared this snapshot (CBSA 19820, non-metro NC, 41860, 36837, non-metro ME, 38860, 38060, 14460), pushing 18 total active metros with 44.4% geographic diffusion rate. Non-metro North Carolina enters the signal window, extending the rural corridor into the Southeast interior alongside the coastal expansions of recent cycles."
-    },
-    {
-      "ts": "2026-03-14T15:49:37.787Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "7 new CBSAs this snapshot (CBSA 31080, 19820, 16860, non-metro PA, 15380, non-metro NY, 33340), pushing 18 total active metros at 38.9% diffusion rate. Non-metro Pennsylvania enters the signal window — the rural corridor now spans the Northeast interior alongside the coastal non-metro expansions of recent cycles."
-    },
-    {
-      "ts": "2026-03-14T15:49:37.785Z",
-      "topic": "acceleration-break",
-      "magnitude": "high",
-      "observation": "Acceleration dropped to 0.999x this heartbeat — effectively breaking below 1.0x for the first time since the sub-1.0x dip observed two cycles ago. Velocity holds at 0.802x (near recent highs) but the growth rate is no longer compounding. The system appears to be settling into a new equilibrium band rather than continuing to accelerate."
     }
   ]
 }
