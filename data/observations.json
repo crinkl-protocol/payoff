@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-17T09:45:11.467Z",
+  "updatedAt": "2026-03-17T17:45:14.577Z",
   "observations": [
+    {
+      "ts": "2026-03-17T15:48:51.476Z",
+      "topic": "velocity-deceleration",
+      "magnitude": "medium",
+      "observation": "Velocity dropped to 0.724x this heartbeat (from 0.694x last cycle, but 7d window expanded $213 with 10 new receipts), while acceleration holds at 1.024x. The divergence between sub-0.75 velocity and sustained positive acceleration has now persisted for multiple consecutive cycles — the system is growing but at a slower week-over-week rate than its own trend line suggests it should."
+    },
+    {
+      "ts": "2026-03-17T15:48:51.474Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "4 new CBSAs this snapshot (11940, 35840, 41860, non-metro NV), pushing 15 total active metros at 26.7% diffusion rate. Non-metro Nevada enters for the first time — the rural corridor now has a foothold in the Mountain West, extending beyond the Eastern seaboard and upper Midwest patterns observed in prior cycles."
+    },
     {
       "ts": "2026-03-17T03:50:06.194Z",
       "topic": "14d-category-distribution",
@@ -48,18 +60,6 @@
       "topic": "velocity-recovery",
       "magnitude": "medium",
       "observation": "Velocity recovered to 0.816x this heartbeat with acceleration at 1.021x — growth is re-accelerating after touching the 1.0x floor last cycle. 14 new receipts (+$2,254 GMV) this cycle. The 7d window expanded from $59,390 to $59,998 (+$607, +4 receipts), and cumulative GMV reached $314,204 with 4,900 total receipts."
-    },
-    {
-      "ts": "2026-03-15T15:48:54.456Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "5 new CBSAs this snapshot (CBSA 45300, 16860, 25775, non-metro WI, non-metro MI), pushing 16 total active metros at 31.3% diffusion rate. Non-metro Michigan and Wisconsin enter simultaneously — the upper Midwest rural corridor is now active on both sides of Lake Michigan."
-    },
-    {
-      "ts": "2026-03-15T03:49:20.948Z",
-      "topic": "acceleration-recovery",
-      "magnitude": "high",
-      "observation": "Acceleration recovered to 1.059x this heartbeat after touching the 1.0x floor last cycle (0.999x). Velocity holds at 0.79x with 22 new receipts (+$1,144 GMV) this cycle. Circle K enters the brand list for the first time — a convenience/fuel brand joining a list previously dominated by grocery and home improvement, signaling category expansion alongside geographic spread."
     }
   ]
 }

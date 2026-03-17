@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-17T09:45:11.442Z",
+  "updatedAt": "2026-03-17T17:45:14.554Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles at ~$0.10 per verified receipt — a 50–200x cost delta that exists because the receipt eliminates the attribution problem rather than solving it.",
+      "topic": "Deterministic vs. probabilistic cost delta",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution. This protocol settles verified purchase events at ~$0.10 per receipt — a 50–200x cost difference rooted in structure, not negotiation: the receipt eliminates the attribution problem rather than solving it.",
       "magnitude": "high"
     },
     {
       "topic": "Post-cookie targeting gap",
-      "insight": "Cookies, device fingerprinting, and third-party data brokers are all degrading simultaneously, and first-party data is blind to everything outside a single ecosystem — verified receipt signals operate outside all three failure modes.",
+      "insight": "Cookies are gone, device fingerprinting is degrading, and first-party data stops at your own ecosystem boundary. Verified, identity-free receipt signals are one of the few remaining mechanisms that confirm a purchase actually occurred — without requiring identity attachment.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-ecosystem visibility",
-      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither sees the full wallet. At 5,071 cryptographically verified receipts across categories, this dataset captures the cross-ecosystem signal that no single retailer can build internally.",
+      "topic": "Cross-ecosystem blind spot",
+      "insight": "Amazon knows what you buy on Amazon. Walmart knows what you buy at Walmart. Neither sees the full wallet. At 5,071 verified receipts across brick-and-mortar, grocery, pharmacy, and online channels, this dataset reflects cross-ecosystem purchase behavior that no single retailer can observe internally.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical commerce dominance in the signal set",
-      "insight": "78%+ of receipts in the current 14-day window are brick-and-mortar — restaurants, grocery, department stores, gas — which is precisely the offline purchase behavior that digital ad tech has historically been unable to verify.",
+      "topic": "Physical commerce signal dominance",
+      "insight": "78%+ of receipts in the current 14-day window are brick-and-mortar — restaurants, grocery, gas, retail. This is the commerce that digital ad targeting has always struggled to attribute. The signal is strongest precisely where cookies were weakest.",
       "magnitude": "medium"
     },
     {
-      "topic": "Data quality ceiling at 11% unresolved merchants",
-      "insight": "One in nine receipts currently fails merchant classification, landing in an 'Unknown' bucket with a $290 average transaction value that likely reflects high-ticket or B2B spend — until merchant resolution improves, cross-domain and category-level signals carry a known accuracy ceiling.",
+      "topic": "Data quality ceiling at merchant resolution",
+      "insight": "11% of receipts currently fail merchant classification, landing in an 'Unknown' bucket with a $290 average transaction — likely high-ticket or B2B. Cross-domain purchase analysis should be treated as an inference until resolution improves, not a confirmed signal.",
       "magnitude": "medium"
     },
     {
-      "topic": "Growth pattern: consolidation, not acceleration",
-      "insight": "Token velocity dropped week-over-week (0.694x) while acceleration held above 1x — fewer receipts per cycle but the trend line holds slope, which is a more durable foundation for data reliability than a spike-driven growth pattern.",
+      "topic": "Growth pattern: consolidation, not spike",
+      "insight": "Token velocity dropped week-over-week (0.694x) while acceleration held above 1.0x. That divergence — fewer receipts per cycle but a stable growth trend line — suggests durable adoption rather than a promotional spike. Brands evaluating this data source should weight trend slope over weekly volume.",
       "magnitude": "medium"
     }
   ]
