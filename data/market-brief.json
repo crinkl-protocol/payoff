@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-19T01:45:17.079Z",
+  "updatedAt": "2026-03-19T09:45:12.819Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic attribution",
-      "insight": "Ad tech charges $5–$150 CPA to infer a purchase may have happened; a verified receipt confirms it did, at ~$0.10 per signal — a 50–200x cost delta that eliminates the attribution problem rather than approximating around it.",
+      "topic": "Deterministic vs. probabilistic signal cost",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles at ~$0.10 per verified receipt — a 50–200x cost delta driven not by efficiency gains but by structural elimination of the attribution problem itself.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie signal gap",
-      "insight": "Cookies are gone, fingerprinting is degrading, and first-party data is blind beyond a single ecosystem — the protocol produces identity-free, cryptographically signed purchase signals that none of the incumbent alternatives can replicate.",
+      "topic": "Cookieless targeting gap",
+      "insight": "With Chrome deprecating cookies and fingerprinting increasingly blocked, the industry has no cross-ecosystem, identity-free, cryptographically verified purchase signal — every current alternative (first-party data, data brokers, receipt apps) is either siloed, probabilistic, or identity-attached and therefore a regulatory liability.",
       "magnitude": "high"
     },
     {
-      "topic": "Digital commerce receipts entering the pipeline",
-      "insight": "Amazon, Shopify, Stripe, Gumroad, and Paddle now appear in the verified receipt window alongside Walmart and Target, confirming the verifiable signal universe has expanded beyond physical retail into DTC and SaaS commerce.",
+      "topic": "Cross-ecosystem blind spot",
+      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither sees the full consumer basket — the protocol's 5,328 verified receipts across grocery, dining, retail, gas, and digital commerce represent a cross-ecosystem signal that no single platform can replicate internally.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-ecosystem visibility gap",
-      "insight": "Amazon knows your Amazon purchases; Walmart knows yours at Walmart; neither sees cross-retailer behavior — at 5,226 verified receipts across 15+ metro areas and multiple retail categories, this protocol captures the cross-ecosystem signal both are structurally blind to.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "High-ticket and B2B classification gap",
-      "insight": "10.3% of receipts are unresolved to a merchant category but carry a $272 average basket — 6.7x the grocery average — indicating high-ticket and B2B transactions are flowing through but failing standard taxonomy, a data quality gap worth watching for brands in those verticals.",
+      "topic": "Category parity signal for spend allocation",
+      "insight": "Grocery (274 receipts, $40.84 avg basket) and restaurants/dining (265 receipts, $50.34 avg basket) are trading the top position within a few receipts of each other across consecutive 14-day windows — the stable read is near-parity in consumer frequency, not a category shift, which matters for brands allocating between CPG and foodservice.",
       "magnitude": "medium"
     },
     {
-      "topic": "Dining overtaking grocery in spend share",
-      "insight": "Restaurants-dining has pulled ahead of grocery-supermarkets in both receipt count (263 vs. 269, near parity) and total spend ($14,571 vs. $10,898) within the 14-day window — a category rotation that CPG and QSR brands should track as a leading behavioral shift.",
+      "topic": "High-ticket unclassified segment",
+      "insight": "10.6% of receipts fail standard merchant taxonomy but carry a $262.84 average basket — 6.4x the grocery average — indicating a durable B2B or high-ticket commerce segment that existing ad tech category targeting systematically misses and cannot model.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Digital commerce durability in verified signal",
+      "insight": "Amazon (9 receipts) and Shopify (7 receipts) are holding consistent positions in the 14-day brand mix alongside Walmart (76), Target (31), and Costco (30), confirming that digital-native purchase behavior is a stable component of the verified signal pool, not a single-cycle anomaly.",
       "magnitude": "medium"
     }
   ]

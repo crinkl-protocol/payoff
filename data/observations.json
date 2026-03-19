@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-03-19T01:45:17.096Z",
+  "updatedAt": "2026-03-19T09:45:12.836Z",
   "observations": [
+    {
+      "ts": "2026-03-19T07:48:56.064Z",
+      "topic": "velocity-acceleration-divergence",
+      "magnitude": "medium",
+      "observation": "Velocity holds at 0.712x (sub-0.75 for multiple consecutive cycles) while acceleration sits at 1.017x — the system is growing faster than its own recent throughput rate. Zero new CBSAs this heartbeat (17 total), zero settlement velocity, zero vendor expansion. All three network-effect metrics flat in a single cycle."
+    },
     {
       "ts": "2026-03-18T19:48:56.956Z",
       "topic": "velocity-acceleration-divergence",
@@ -54,12 +60,6 @@
       "topic": "velocity-acceleration",
       "magnitude": "high",
       "observation": "Velocity dropped to 0.694x this heartbeat (from ~0.816x last cycle) while acceleration holds at 1.026x — the growth rate is still positive but the week-over-week throughput has compressed notably. This divergence between declining velocity and sustained acceleration suggests the system is in a consolidation phase: fewer receipts per cycle but the trend line is still pointing up."
-    },
-    {
-      "ts": "2026-03-17T03:49:57.576Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "medium",
-      "observation": "5 new CBSAs this snapshot (non-metro NY, non-metro NC, CBSA 38060, 39740, 22220), pushing 19 total active metros at 26.3% diffusion rate. Non-metro New York and North Carolina re-enter the signal window — the rural corridor continues to pulse across the Eastern seaboard in non-contiguous bursts rather than smooth geographic expansion."
     }
   ]
 }
