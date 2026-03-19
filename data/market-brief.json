@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-17T17:45:14.554Z",
+  "updatedAt": "2026-03-19T01:45:17.079Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic cost delta",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution. This protocol settles verified purchase events at ~$0.10 per receipt — a 50–200x cost difference rooted in structure, not negotiation: the receipt eliminates the attribution problem rather than solving it.",
+      "topic": "Deterministic vs. probabilistic attribution",
+      "insight": "Ad tech charges $5–$150 CPA to infer a purchase may have happened; a verified receipt confirms it did, at ~$0.10 per signal — a 50–200x cost delta that eliminates the attribution problem rather than approximating around it.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting gap",
-      "insight": "Cookies are gone, device fingerprinting is degrading, and first-party data stops at your own ecosystem boundary. Verified, identity-free receipt signals are one of the few remaining mechanisms that confirm a purchase actually occurred — without requiring identity attachment.",
+      "topic": "Post-cookie signal gap",
+      "insight": "Cookies are gone, fingerprinting is degrading, and first-party data is blind beyond a single ecosystem — the protocol produces identity-free, cryptographically signed purchase signals that none of the incumbent alternatives can replicate.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-ecosystem blind spot",
-      "insight": "Amazon knows what you buy on Amazon. Walmart knows what you buy at Walmart. Neither sees the full wallet. At 5,071 verified receipts across brick-and-mortar, grocery, pharmacy, and online channels, this dataset reflects cross-ecosystem purchase behavior that no single retailer can observe internally.",
+      "topic": "Digital commerce receipts entering the pipeline",
+      "insight": "Amazon, Shopify, Stripe, Gumroad, and Paddle now appear in the verified receipt window alongside Walmart and Target, confirming the verifiable signal universe has expanded beyond physical retail into DTC and SaaS commerce.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical commerce signal dominance",
-      "insight": "78%+ of receipts in the current 14-day window are brick-and-mortar — restaurants, grocery, gas, retail. This is the commerce that digital ad targeting has always struggled to attribute. The signal is strongest precisely where cookies were weakest.",
+      "topic": "Cross-ecosystem visibility gap",
+      "insight": "Amazon knows your Amazon purchases; Walmart knows yours at Walmart; neither sees cross-retailer behavior — at 5,226 verified receipts across 15+ metro areas and multiple retail categories, this protocol captures the cross-ecosystem signal both are structurally blind to.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "High-ticket and B2B classification gap",
+      "insight": "10.3% of receipts are unresolved to a merchant category but carry a $272 average basket — 6.7x the grocery average — indicating high-ticket and B2B transactions are flowing through but failing standard taxonomy, a data quality gap worth watching for brands in those verticals.",
       "magnitude": "medium"
     },
     {
-      "topic": "Data quality ceiling at merchant resolution",
-      "insight": "11% of receipts currently fail merchant classification, landing in an 'Unknown' bucket with a $290 average transaction — likely high-ticket or B2B. Cross-domain purchase analysis should be treated as an inference until resolution improves, not a confirmed signal.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Growth pattern: consolidation, not spike",
-      "insight": "Token velocity dropped week-over-week (0.694x) while acceleration held above 1.0x. That divergence — fewer receipts per cycle but a stable growth trend line — suggests durable adoption rather than a promotional spike. Brands evaluating this data source should weight trend slope over weekly volume.",
+      "topic": "Dining overtaking grocery in spend share",
+      "insight": "Restaurants-dining has pulled ahead of grocery-supermarkets in both receipt count (263 vs. 269, near parity) and total spend ($14,571 vs. $10,898) within the 14-day window — a category rotation that CPG and QSR brands should track as a leading behavioral shift.",
       "magnitude": "medium"
     }
   ]

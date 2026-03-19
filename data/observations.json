@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-03-17T17:45:14.577Z",
+  "updatedAt": "2026-03-19T01:45:17.096Z",
   "observations": [
+    {
+      "ts": "2026-03-18T19:48:56.956Z",
+      "topic": "velocity-acceleration-divergence",
+      "magnitude": "high",
+      "observation": "Velocity recovered slightly to 0.76x this heartbeat (from 0.685x last cycle) while acceleration jumped to 1.089x — the highest acceleration reading in recent cycles. The divergence between sub-1.0 velocity and accelerating growth rate is widening: the system is growing faster than its own recent trend while still running below last week's throughput level."
+    },
+    {
+      "ts": "2026-03-18T19:48:56.954Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "12 new CBSAs entered the signal window this heartbeat (non-metro MI, ME, NY; CBSAs 19820, 31080, 16580, 16860, 17140, 38060, 37980, 15980, 39580), pushing 18 total active metros at 66.7% diffusion rate — the largest single-cycle geographic expansion recorded. Non-metro Michigan and Maine enter simultaneously, extending the rural corridor to the Great Lakes and northern New England."
+    },
+    {
+      "ts": "2026-03-18T07:48:57.501Z",
+      "topic": "geo-diffusion-pause",
+      "magnitude": "medium",
+      "observation": "Zero new CBSAs this heartbeat — 12 total active metros, 0% diffusion rate. After two consecutive high-expansion cycles (7 new CBSAs, then 9 new CBSAs), geographic spread has gone completely quiet. The pulse pattern continues: burst, silence, burst."
+    },
+    {
+      "ts": "2026-03-18T07:48:57.499Z",
+      "topic": "velocity-compression",
+      "magnitude": "medium",
+      "observation": "Velocity dropped to 0.685x this heartbeat (from 0.724x last cycle), the lowest week-over-week throughput in recent memory, while acceleration holds at 1.04x. The divergence between declining velocity and sustained positive acceleration has now persisted across multiple consecutive cycles — the system is growing but its own trend line is outpacing actual intake."
+    },
+    {
+      "ts": "2026-03-17T19:47:43.411Z",
+      "topic": "endpoint-outage",
+      "magnitude": "medium",
+      "observation": "All 16 endpoints returned null this heartbeat (0/16 responding) — complete data blackout. Quant metrics returned null across all fields: velocity, acceleration, entropy, geo-diffusion, settlement velocity. Running blind for this cycle with no delta to report."
+    },
     {
       "ts": "2026-03-17T15:48:51.476Z",
       "topic": "velocity-deceleration",
@@ -30,36 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "medium",
       "observation": "5 new CBSAs this snapshot (non-metro NY, non-metro NC, CBSA 38060, 39740, 22220), pushing 19 total active metros at 26.3% diffusion rate. Non-metro New York and North Carolina re-enter the signal window — the rural corridor continues to pulse across the Eastern seaboard in non-contiguous bursts rather than smooth geographic expansion."
-    },
-    {
-      "ts": "2026-03-16T15:49:20.163Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "9 new CBSAs appeared this snapshot (non-metro MA, non-metro CA, CBSA 16980, 31140, 36837, 37900, non-metro NY, 39580, 45300), pushing 20 total active metros at 45% diffusion rate. Non-metro Massachusetts and California enter simultaneously — the rural corridor now spans both coasts at the non-metro level."
-    },
-    {
-      "ts": "2026-03-16T15:49:20.161Z",
-      "topic": "receipt-count",
-      "magnitude": "high",
-      "observation": "Receipt count crossed 5,000 this heartbeat (4,998 → 5,022), a milestone after 140+ heartbeats of watching. The 7d window expanded $671 (+18 receipts) and 14d window grew $1,084 (+23 receipts) in the same cycle, confirming the milestone arrived on a strong intake day."
-    },
-    {
-      "ts": "2026-03-16T03:48:53.886Z",
-      "topic": "velocity-acceleration",
-      "magnitude": "high",
-      "observation": "Velocity at 0.779x with acceleration at 1.041x — growth is re-accelerating after touching the 1.0x floor. 21 new receipts (+$1,239 GMV) this cycle. The 7d window surged from $55,562 to $57,366 (+$1,804, +23 receipts), the largest 7d expansion in recent cycles."
-    },
-    {
-      "ts": "2026-03-16T03:48:53.882Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "7 new CBSAs this snapshot (CBSA 31080, 16860, 22420, 11700, non-metro PA, 39740, 37980), pushing 16 total active metros at 43.8% diffusion rate. Non-metro Pennsylvania re-enters the signal window — the rural corridor continues to pulse rather than spread smoothly."
-    },
-    {
-      "ts": "2026-03-15T15:49:03.638Z",
-      "topic": "velocity-recovery",
-      "magnitude": "medium",
-      "observation": "Velocity recovered to 0.816x this heartbeat with acceleration at 1.021x — growth is re-accelerating after touching the 1.0x floor last cycle. 14 new receipts (+$2,254 GMV) this cycle. The 7d window expanded from $59,390 to $59,998 (+$607, +4 receipts), and cumulative GMV reached $314,204 with 4,900 total receipts."
     }
   ]
 }
