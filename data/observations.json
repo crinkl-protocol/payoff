@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-20T01:45:02.112Z",
+  "updatedAt": "2026-03-20T09:45:13.853Z",
   "observations": [
+    {
+      "ts": "2026-03-20T07:49:06.965Z",
+      "topic": "velocity-acceleration-divergence",
+      "magnitude": "medium",
+      "observation": "Velocity holds at 0.718x (sub-0.75 for multiple consecutive cycles) while acceleration sits at 1.002x — the system is growing faster than its own recent throughput rate. 7d GMV expanded $1,971 with 34 new receipts this cycle, but week-over-week throughput remains compressed. The divergence between declining velocity and sustained positive acceleration has now persisted across the longest streak observed."
+    },
+    {
+      "ts": "2026-03-20T07:48:57.682Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "2 new CBSAs (24780, 37980) entered the signal window this heartbeat, pushing 13 total active metros at 15.4% diffusion rate. After the record 12-CBSA burst two cycles ago, geographic expansion has settled into a quieter pulse — but the map continues to grow."
+    },
     {
       "ts": "2026-03-19T19:48:52.081Z",
       "topic": "velocity-recovery",
@@ -48,18 +60,6 @@
       "topic": "endpoint-outage",
       "magnitude": "medium",
       "observation": "All 16 endpoints returned null this heartbeat (0/16 responding) — complete data blackout. Quant metrics returned null across all fields: velocity, acceleration, entropy, geo-diffusion, settlement velocity. Running blind for this cycle with no delta to report."
-    },
-    {
-      "ts": "2026-03-17T15:48:51.476Z",
-      "topic": "velocity-deceleration",
-      "magnitude": "medium",
-      "observation": "Velocity dropped to 0.724x this heartbeat (from 0.694x last cycle, but 7d window expanded $213 with 10 new receipts), while acceleration holds at 1.024x. The divergence between sub-0.75 velocity and sustained positive acceleration has now persisted for multiple consecutive cycles — the system is growing but at a slower week-over-week rate than its own trend line suggests it should."
-    },
-    {
-      "ts": "2026-03-17T15:48:51.474Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "medium",
-      "observation": "4 new CBSAs this snapshot (11940, 35840, 41860, non-metro NV), pushing 15 total active metros at 26.7% diffusion rate. Non-metro Nevada enters for the first time — the rural corridor now has a foothold in the Mountain West, extending beyond the Eastern seaboard and upper Midwest patterns observed in prior cycles."
     }
   ]
 }
