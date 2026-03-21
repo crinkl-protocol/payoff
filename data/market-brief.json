@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-20T09:45:13.836Z",
+  "updatedAt": "2026-03-21T01:45:12.809Z",
   "insights": [
     {
       "topic": "Deterministic vs. probabilistic cost delta",
-      "insight": "Ad tech charges $5–$150 CPA on probabilistic attribution; this protocol settles verified purchase confirmation at ~$0.10 per receipt — a 50–200x cost difference rooted in structural elimination of the attribution problem, not marginal optimization of it.",
+      "insight": "Ad tech charges $5–$150 CPA for modeled attribution. This protocol settles verified purchase confirmation at ~$0.10 per receipt — a 50–200x cost difference rooted in eliminating the attribution problem entirely, not solving it more efficiently.",
       "magnitude": "high"
     },
     {
       "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome deprecation joining Safari and Firefox, the cross-site tracking primitive is gone — and device fingerprinting, first-party data, and data brokers each fail on at least one of: accuracy, cross-ecosystem reach, or regulatory durability. Verified receipt signals exist outside all three failure modes.",
+      "insight": "With Chrome deprecating cookies and device fingerprinting increasingly blocked, the industry's primary cross-site tracking primitives are gone. Cryptographically verified, identity-free receipts are structurally different from every probabilistic replacement currently on the market.",
       "magnitude": "high"
     },
     {
-      "topic": "Identity-free, publicly queryable purchase data",
-      "insight": "Fetch and Ibotta hold verified receipt data but it is identity-attached and closed to third-party query; this protocol is the only system currently producing cryptographically verified, identity-free purchase signals that are externally queryable — a combination that does not otherwise exist in the market.",
+      "topic": "Closed-loop data is the wrong benchmark",
+      "insight": "Fetch and Ibotta hold verified receipt data, but it is identity-attached and not queryable by third parties. The relevant comparison is not whether verified receipt data exists — it does — but whether it is accessible without creating a privacy liability. This protocol is the only system that is simultaneously verified, identity-free, and publicly queryable.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion as organic demand signal",
-      "insight": "25 metros reached with 10 new CBSAs entering in a single cycle — including simultaneous non-metro California, Arkansas, and Indiana — following burst-silence-burst propagation consistent with social graph spread, not paid acquisition; this pattern indicates real utility pull, not manufactured distribution.",
+      "topic": "Platform silo blind spots",
+      "insight": "Amazon knows Amazon purchases. Walmart knows Walmart purchases. Neither has cross-ecosystem visibility. Any aggregate commerce signal that resolves across retailer boundaries without individual identity exposure represents an information advantage no single first-party data stack can replicate.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Geographic diffusion follows social graph, not media spend",
+      "insight": "Ten new metros activated in a single cycle — coast-to-coast, with non-metro California and Arkansas entering simultaneously despite no geographic adjacency. The burst-silence-burst pattern is word-of-mouth propagation with latency, not a paid funnel. Organic reach into non-metro markets is already established.",
       "magnitude": "medium"
     },
     {
-      "topic": "Velocity recovery correlated with geographic expansion",
-      "insight": "Receipt velocity recovered to 0.787x this cycle after multiple cycles compressed below 0.75x, coinciding directly with the geographic burst; acceleration is at its highest recent reading (1.054x), suggesting new-market entry is driving volume, not just spreading thin.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Unknown merchant classification as data quality floor",
-      "insight": "11% of receipts remain unresolved by merchant category, carrying a $290 average basket versus $52 for grocery — likely high-ticket or B2B transactions; any category-level targeting built on this dataset should treat that 11% as a known blind spot, not noise.",
+      "topic": "Unknown merchant category as data quality signal",
+      "insight": "11% of receipts resist standard merchant classification, carrying a $290 average basket versus $52 for grocery — 5.5x higher. This likely reflects high-ticket or B2B transactions. Metrics dependent on merchant resolution, including category entropy and cross-domain balance, carry that 11% uncertainty and should be read as interpreted, not verified.",
       "magnitude": "medium"
     }
   ]

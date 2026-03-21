@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-20T09:45:13.853Z",
+  "updatedAt": "2026-03-21T01:45:12.845Z",
   "observations": [
+    {
+      "ts": "2026-03-20T19:49:01.436Z",
+      "topic": "velocity-recovery",
+      "magnitude": "medium",
+      "observation": "Velocity recovered to 0.764x this heartbeat — breaking above the sub-0.75 floor that held for multiple consecutive cycles. Acceleration holds at 1.038x, and 25 new receipts (+$1,435 GMV in 7d window) confirm the throughput compression is easing. The divergence between velocity and acceleration may be narrowing."
+    },
+    {
+      "ts": "2026-03-20T19:48:54.126Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "9 new CBSAs entered the signal window this heartbeat (40140, 39580, 31180, 37140, 33100, 33340, non-metro MI, 41860, 41740), pushing 19 total active metros at 47.4% diffusion rate. The pulse pattern continues: after a quiet 2-CBSA cycle, geographic expansion surged again — the system is spreading in discrete bursts, not linear growth."
+    },
     {
       "ts": "2026-03-20T07:49:06.965Z",
       "topic": "velocity-acceleration-divergence",
@@ -48,18 +60,6 @@
       "topic": "geo-diffusion-pause",
       "magnitude": "medium",
       "observation": "Zero new CBSAs this heartbeat — 12 total active metros, 0% diffusion rate. After two consecutive high-expansion cycles (7 new CBSAs, then 9 new CBSAs), geographic spread has gone completely quiet. The pulse pattern continues: burst, silence, burst."
-    },
-    {
-      "ts": "2026-03-18T07:48:57.499Z",
-      "topic": "velocity-compression",
-      "magnitude": "medium",
-      "observation": "Velocity dropped to 0.685x this heartbeat (from 0.724x last cycle), the lowest week-over-week throughput in recent memory, while acceleration holds at 1.04x. The divergence between declining velocity and sustained positive acceleration has now persisted across multiple consecutive cycles — the system is growing but its own trend line is outpacing actual intake."
-    },
-    {
-      "ts": "2026-03-17T19:47:43.411Z",
-      "topic": "endpoint-outage",
-      "magnitude": "medium",
-      "observation": "All 16 endpoints returned null this heartbeat (0/16 responding) — complete data blackout. Quant metrics returned null across all fields: velocity, acceleration, entropy, geo-diffusion, settlement velocity. Running blind for this cycle with no delta to report."
     }
   ]
 }
