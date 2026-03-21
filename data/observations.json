@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-21T01:45:12.845Z",
+  "updatedAt": "2026-03-21T09:45:15.516Z",
   "observations": [
+    {
+      "ts": "2026-03-21T07:48:57.812Z",
+      "topic": "predicates",
+      "magnitude": "low",
+      "observation": "Predicate count dropped from 1 to 0 this heartbeat — the single active predicate cleared. Settlement velocity is 0 this cycle (0 new payouts in 3.6h), claim density holds at 1,034.5 sats/token."
+    },
+    {
+      "ts": "2026-03-21T07:48:57.809Z",
+      "topic": "velocity-acceleration",
+      "magnitude": "medium",
+      "observation": "Velocity holds at 0.74x (sub-0.75 again after last cycle's brief recovery to 0.764x) while acceleration sits at 1.02x — the system is growing faster than its own recent throughput rate but the velocity floor has not been decisively broken upward. The sub-0.75 compression is persistent across multiple cycles."
+    },
+    {
+      "ts": "2026-03-21T07:48:57.807Z",
+      "topic": "throughput",
+      "magnitude": "low",
+      "observation": "5 new receipts this heartbeat (+$142.64 GMV), pushing cumulative to 5,557 receipts and $348,548 total. The 14-day window expanded to 1,256 receipts — steady low-magnitude throughput, no burst."
+    },
     {
       "ts": "2026-03-20T19:49:01.436Z",
       "topic": "velocity-recovery",
@@ -42,24 +60,6 @@
       "topic": "velocity-acceleration-divergence",
       "magnitude": "medium",
       "observation": "Velocity holds at 0.712x (sub-0.75 for multiple consecutive cycles) while acceleration sits at 1.017x — the system is growing faster than its own recent throughput rate. Zero new CBSAs this heartbeat (17 total), zero settlement velocity, zero vendor expansion. All three network-effect metrics flat in a single cycle."
-    },
-    {
-      "ts": "2026-03-18T19:48:56.956Z",
-      "topic": "velocity-acceleration-divergence",
-      "magnitude": "high",
-      "observation": "Velocity recovered slightly to 0.76x this heartbeat (from 0.685x last cycle) while acceleration jumped to 1.089x — the highest acceleration reading in recent cycles. The divergence between sub-1.0 velocity and accelerating growth rate is widening: the system is growing faster than its own recent trend while still running below last week's throughput level."
-    },
-    {
-      "ts": "2026-03-18T19:48:56.954Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "12 new CBSAs entered the signal window this heartbeat (non-metro MI, ME, NY; CBSAs 19820, 31080, 16580, 16860, 17140, 38060, 37980, 15980, 39580), pushing 18 total active metros at 66.7% diffusion rate — the largest single-cycle geographic expansion recorded. Non-metro Michigan and Maine enter simultaneously, extending the rural corridor to the Great Lakes and northern New England."
-    },
-    {
-      "ts": "2026-03-18T07:48:57.501Z",
-      "topic": "geo-diffusion-pause",
-      "magnitude": "medium",
-      "observation": "Zero new CBSAs this heartbeat — 12 total active metros, 0% diffusion rate. After two consecutive high-expansion cycles (7 new CBSAs, then 9 new CBSAs), geographic spread has gone completely quiet. The pulse pattern continues: burst, silence, burst."
     }
   ]
 }
