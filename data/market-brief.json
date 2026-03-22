@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-21T09:45:15.499Z",
+  "updatedAt": "2026-03-22T01:45:16.267Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution that infers purchase intent. This protocol settles at ~$0.10 per cryptographically verified receipt — a 50–200x cost delta that isn't a pricing negotiation, it's a structural difference in what you're buying.",
+      "topic": "Deterministic vs. probabilistic attribution",
+      "insight": "Ad tech charges $5–$150 CPA on probabilistic signals inferred from behavior; each verified receipt here settles at ~$0.10 and confirms a purchase happened — no pixel, no lookback window, no model. That 50–200x cost delta is structural, not marginal.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie signal collapse",
-      "insight": "Cookies are gone, device fingerprinting is degrading, and data broker utility is shrinking under GDPR and state privacy laws — the probabilistic targeting stack is being dismantled from multiple directions simultaneously, with no industry-wide replacement in production.",
+      "topic": "Post-cookie targeting gap",
+      "insight": "Cookies are gone, device fingerprinting is degrading, and first-party data stops at your own ecosystem edge — none of these produce identity-free, cryptographically verified purchase signals across merchants. This protocol does.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt as conversion proof, not proxy",
-      "insight": "A verified receipt eliminates the attribution problem entirely: no lookback window, no modeled conversion, no pixel dependency. The purchase event is the signal, not an inference about it.",
+      "topic": "Unknown category GMV concentration",
+      "insight": "133 unclassified receipts account for 35.8% of 14-day GMV at $271.65 average basket — six times the grocery average — meaning high-ticket and likely B2B transactions are flowing through but resisting standard merchant classification. Any targeting or measurement built on category data is working with a significant blind spot.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo blind spots",
-      "insight": "Amazon knows Amazon purchases. Walmart knows Walmart purchases. Neither has visibility into cross-retailer behavior. Any system that aggregates verified purchase signals across ecosystems without identity attachment creates an information asymmetry that every brand competing across channels needs.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Geographic diffusion pattern as adoption signal",
-      "insight": "Ten new metros entered in a single cycle — including non-metro California, Arkansas, and Indiana simultaneously — following a burst-silence-burst pattern consistent with word-of-mouth propagation, not paid acquisition. This is organic geographic spread with no common regional logic, which is a harder signal to manufacture and a more durable one.",
+      "topic": "Rural and non-metro geographic diffusion",
+      "insight": "Simultaneous receipt activity is appearing in non-contiguous non-metro markets — MI, ME, AR, CA, IN, WI — with no geographic adjacency, following social graph topology rather than paid acquisition logic. Walmart leads 14-day brand volume at 79 receipts, consistent with this rural skew.",
       "magnitude": "medium"
     },
     {
-      "topic": "Unknown merchant category as data quality flag",
-      "insight": "11% of receipts resist merchant classification and carry a $290 average basket — 5.5x the grocery average — likely high-ticket or B2B transactions. Any brand using this data for category analysis needs to account for this gap; entropy and cross-domain metrics built on unresolved merchants are interpreted, not verified.",
+      "topic": "Platform silo vulnerability",
+      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither knows the other, and neither can sell that cross-ecosystem view to brands. A verified, identity-free signal that crosses merchant boundaries is the gap none of the incumbents can fill from inside their own walled garden.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Velocity divergence as a caution flag",
+      "insight": "Cumulative GMV has crossed $350K and receipt count is growing, but 7-day throughput has dropped from a $34,034 peak to $29,750 — rolling windows are contracting while cumulative totals grow. Brands evaluating this as a data source should track weekly run rate, not just cumulative figures.",
       "magnitude": "medium"
     }
   ]

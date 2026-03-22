@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-21T09:45:15.516Z",
+  "updatedAt": "2026-03-22T01:45:16.284Z",
   "observations": [
+    {
+      "ts": "2026-03-21T19:49:04.593Z",
+      "topic": "category-expansion",
+      "magnitude": "medium",
+      "observation": "A new category \"Pharmacy & Health\" appeared in the 14-day distribution this heartbeat, alongside Portillo's entering the top brand list. Category entropy is at 3.128 bits — the highest reading in recent cycles — suggesting the token mix is diversifying beyond food/retail into health commerce."
+    },
+    {
+      "ts": "2026-03-21T19:49:04.591Z",
+      "topic": "velocity-recovery",
+      "magnitude": "high",
+      "observation": "Velocity recovered to 0.803x this heartbeat — breaking decisively above the sub-0.75x floor that held for multiple consecutive cycles. Acceleration holds at 1.051x, and 34 new receipts (+$2,467 7d GMV) confirm the throughput compression is resolving. This is the strongest velocity reading in recent cycles."
+    },
+    {
+      "ts": "2026-03-21T19:49:04.589Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "12 new CBSAs entered the signal window this heartbeat (80% diffusion rate — 12 of 15 active metros are new), including non-metro Hawaii, North Carolina, Michigan, and Arkansas. This matches the largest single-cycle geographic burst observed in recent history, and for the first time Hawaii enters the signal window."
+    },
     {
       "ts": "2026-03-21T07:48:57.812Z",
       "topic": "predicates",
@@ -42,24 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "medium",
       "observation": "2 new CBSAs (24780, 37980) entered the signal window this heartbeat, pushing 13 total active metros at 15.4% diffusion rate. After the record 12-CBSA burst two cycles ago, geographic expansion has settled into a quieter pulse — but the map continues to grow."
-    },
-    {
-      "ts": "2026-03-19T19:48:52.081Z",
-      "topic": "velocity-recovery",
-      "magnitude": "high",
-      "observation": "Velocity recovered to 0.787x this heartbeat (from 0.685x two cycles ago), while acceleration jumped to 1.054x — the highest reading in recent cycles. The multi-cycle sub-0.75 velocity compression appears to be breaking: 35 new receipts this cycle (+$2,404 GMV), with the 14d window expanding by 34 receipts and $2,397."
-    },
-    {
-      "ts": "2026-03-19T19:48:52.079Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "10 new CBSAs entered the signal window this heartbeat (47900, non-metro VA, 26580, non-metro WI, 19820, non-metro CA, 15980, non-metro AR, 22220, non-metro IN), pushing 25 total active metros at 40% diffusion rate. Non-metro California, Arkansas, and Indiana enter simultaneously — the rural corridor now spans coast to coast, no longer concentrated in the East."
-    },
-    {
-      "ts": "2026-03-19T07:48:56.064Z",
-      "topic": "velocity-acceleration-divergence",
-      "magnitude": "medium",
-      "observation": "Velocity holds at 0.712x (sub-0.75 for multiple consecutive cycles) while acceleration sits at 1.017x — the system is growing faster than its own recent throughput rate. Zero new CBSAs this heartbeat (17 total), zero settlement velocity, zero vendor expansion. All three network-effect metrics flat in a single cycle."
     }
   ]
 }
