@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-22T01:45:16.267Z",
+  "updatedAt": "2026-03-22T09:45:17.080Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic attribution",
-      "insight": "Ad tech charges $5–$150 CPA on probabilistic signals inferred from behavior; each verified receipt here settles at ~$0.10 and confirms a purchase happened — no pixel, no lookback window, no model. That 50–200x cost delta is structural, not marginal.",
+      "topic": "Deterministic vs. probabilistic signal value",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution that infers purchase intent. A cryptographically verified receipt eliminates the attribution problem entirely — the purchase event is the proof, not a model.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting gap",
-      "insight": "Cookies are gone, device fingerprinting is degrading, and first-party data stops at your own ecosystem edge — none of these produce identity-free, cryptographically verified purchase signals across merchants. This protocol does.",
+      "topic": "Cost structure delta",
+      "insight": "Verified receipt settlement runs ~$0.10 per confirmed conversion against an industry CPA floor of $5. That is a 50–200x cost gap, structural rather than marginal — the kind that rewrites category economics when it scales.",
       "magnitude": "high"
     },
     {
-      "topic": "Unknown category GMV concentration",
-      "insight": "133 unclassified receipts account for 35.8% of 14-day GMV at $271.65 average basket — six times the grocery average — meaning high-ticket and likely B2B transactions are flowing through but resisting standard merchant classification. Any targeting or measurement built on category data is working with a significant blind spot.",
+      "topic": "Cookie deprecation leaves no credible replacement in legacy stack",
+      "insight": "Cookies are dead, device fingerprinting is increasingly blocked, and first-party data is blind outside a single ecosystem. No component of the current ad tech stack produces identity-free, cross-ecosystem, verified purchase signals — which is precisely what this protocol generates.",
       "magnitude": "high"
-    },
-    {
-      "topic": "Rural and non-metro geographic diffusion",
-      "insight": "Simultaneous receipt activity is appearing in non-contiguous non-metro markets — MI, ME, AR, CA, IN, WI — with no geographic adjacency, following social graph topology rather than paid acquisition logic. Walmart leads 14-day brand volume at 79 receipts, consistent with this rural skew.",
-      "magnitude": "medium"
     },
     {
       "topic": "Platform silo vulnerability",
-      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither knows the other, and neither can sell that cross-ecosystem view to brands. A verified, identity-free signal that crosses merchant boundaries is the gap none of the incumbents can fill from inside their own walled garden.",
+      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither knows the other. Any system that surfaces aggregate, anonymized cross-ecosystem purchase behavior creates an intelligence advantage that every brand and retailer is currently missing.",
       "magnitude": "high"
     },
     {
-      "topic": "Velocity divergence as a caution flag",
-      "insight": "Cumulative GMV has crossed $350K and receipt count is growing, but 7-day throughput has dropped from a $34,034 peak to $29,750 — rolling windows are contracting while cumulative totals grow. Brands evaluating this as a data source should track weekly run rate, not just cumulative figures.",
+      "topic": "Unknown-category GMV concentration",
+      "insight": "Roughly one-third of 14-day GMV — $35,742 on 131 receipts, averaging $272.84 per ticket — sits in an unresolved merchant category, 6x the basket size of grocery or restaurant. High-ticket and probable B2B transactions are present in volume but not yet classifiable, meaning category-level targeting signals are incomplete.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Geographic diffusion pattern signals organic, social-graph propagation",
+      "insight": "Active metros expanded to non-contiguous zones — rural CA, AR, MI, WI, MA, and Hawaii entered simultaneously with no geographic adjacency — indicating word-of-mouth spread along social graph edges rather than paid acquisition. For brands, this suggests early adopter density in rural and non-metro segments that paid media models would not predict or target.",
       "magnitude": "medium"
     }
   ]

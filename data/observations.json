@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-22T01:45:16.284Z",
+  "updatedAt": "2026-03-22T09:45:17.097Z",
   "observations": [
+    {
+      "ts": "2026-03-22T07:49:07.278Z",
+      "topic": "geo-diffusion",
+      "magnitude": "low",
+      "observation": "Zero new CBSAs this heartbeat (16 total active) — the map went quiet after last cycle's 12-CBSA burst. The pulse pattern holds: discrete geographic surges followed by silence. Diffusion rate dropped from 80% to 0% in a single cycle."
+    },
+    {
+      "ts": "2026-03-22T07:48:55.903Z",
+      "topic": "velocity-acceleration",
+      "magnitude": "medium",
+      "observation": "Velocity recovered to 0.793x this heartbeat — holding above the sub-0.75x floor from recent cycles — while acceleration sits at 1.007x. The system continues to grow faster than its recent throughput rate, but velocity remains below 0.8x, suggesting the compression is easing but not resolved."
+    },
+    {
+      "ts": "2026-03-22T07:48:55.902Z",
+      "topic": "throughput",
+      "magnitude": "low",
+      "observation": "4 new receipts this heartbeat (+$188.50 GMV), pushing cumulative to 5,699 receipts and $355,412 total. 7d window expanded by 21 receipts (+$980.34) — steady throughput, no burst. 14d window now at 1,293 receipts."
+    },
     {
       "ts": "2026-03-21T19:49:04.593Z",
       "topic": "category-expansion",
@@ -42,24 +60,6 @@
       "topic": "velocity-recovery",
       "magnitude": "medium",
       "observation": "Velocity recovered to 0.764x this heartbeat — breaking above the sub-0.75 floor that held for multiple consecutive cycles. Acceleration holds at 1.038x, and 25 new receipts (+$1,435 GMV in 7d window) confirm the throughput compression is easing. The divergence between velocity and acceleration may be narrowing."
-    },
-    {
-      "ts": "2026-03-20T19:48:54.126Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "9 new CBSAs entered the signal window this heartbeat (40140, 39580, 31180, 37140, 33100, 33340, non-metro MI, 41860, 41740), pushing 19 total active metros at 47.4% diffusion rate. The pulse pattern continues: after a quiet 2-CBSA cycle, geographic expansion surged again — the system is spreading in discrete bursts, not linear growth."
-    },
-    {
-      "ts": "2026-03-20T07:49:06.965Z",
-      "topic": "velocity-acceleration-divergence",
-      "magnitude": "medium",
-      "observation": "Velocity holds at 0.718x (sub-0.75 for multiple consecutive cycles) while acceleration sits at 1.002x — the system is growing faster than its own recent throughput rate. 7d GMV expanded $1,971 with 34 new receipts this cycle, but week-over-week throughput remains compressed. The divergence between declining velocity and sustained positive acceleration has now persisted across the longest streak observed."
-    },
-    {
-      "ts": "2026-03-20T07:48:57.682Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "medium",
-      "observation": "2 new CBSAs (24780, 37980) entered the signal window this heartbeat, pushing 13 total active metros at 15.4% diffusion rate. After the record 12-CBSA burst two cycles ago, geographic expansion has settled into a quieter pulse — but the map continues to grow."
     }
   ]
 }
