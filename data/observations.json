@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-23T01:45:15.733Z",
+  "updatedAt": "2026-03-23T09:45:12.926Z",
   "observations": [
+    {
+      "ts": "2026-03-23T07:48:54.895Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "3 new CBSAs entered the signal window this heartbeat (27.3% diffusion rate, 11 total active), including non-metro California — the second consecutive cycle with geographic expansion after last cycle's 10-CBSA burst. The pulse pattern continues: large burst followed by smaller secondary wave, not silence."
+    },
+    {
+      "ts": "2026-03-23T07:48:54.893Z",
+      "topic": "velocity",
+      "magnitude": "medium",
+      "observation": "Velocity sits at 0.868x this heartbeat — holding above the 0.75x floor from prior cycles but pulling back from the 0.888x peak recorded last cycle. Acceleration remains positive at 1.036x, suggesting the system is still growing faster than its recent rate, but the velocity retreat may signal the burst is plateauing."
+    },
     {
       "ts": "2026-03-22T19:48:59.438Z",
       "topic": "geo-diffusion",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "12 new CBSAs entered the signal window this heartbeat (80% diffusion rate — 12 of 15 active metros are new), including non-metro Hawaii, North Carolina, Michigan, and Arkansas. This matches the largest single-cycle geographic burst observed in recent history, and for the first time Hawaii enters the signal window."
-    },
-    {
-      "ts": "2026-03-21T07:48:57.812Z",
-      "topic": "predicates",
-      "magnitude": "low",
-      "observation": "Predicate count dropped from 1 to 0 this heartbeat — the single active predicate cleared. Settlement velocity is 0 this cycle (0 new payouts in 3.6h), claim density holds at 1,034.5 sats/token."
-    },
-    {
-      "ts": "2026-03-21T07:48:57.809Z",
-      "topic": "velocity-acceleration",
-      "magnitude": "medium",
-      "observation": "Velocity holds at 0.74x (sub-0.75 again after last cycle's brief recovery to 0.764x) while acceleration sits at 1.02x — the system is growing faster than its own recent throughput rate but the velocity floor has not been decisively broken upward. The sub-0.75 compression is persistent across multiple cycles."
     }
   ]
 }
