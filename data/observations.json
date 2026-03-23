@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-22T09:45:17.097Z",
+  "updatedAt": "2026-03-23T01:45:15.733Z",
   "observations": [
+    {
+      "ts": "2026-03-22T19:48:59.438Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "10 new CBSAs entered the signal window this heartbeat (66.7% diffusion rate — 10 of 15 active metros are new), including non-metro Arizona, New York, South Carolina, and North Carolina. This is the second large geographic burst in 3 cycles, suggesting pulse-based diffusion is accelerating in frequency."
+    },
+    {
+      "ts": "2026-03-22T19:48:59.436Z",
+      "topic": "velocity-recovery",
+      "magnitude": "high",
+      "observation": "Velocity reached 0.888x this heartbeat — the highest reading in recent cycles, breaking above the sub-0.75x floor that persisted for multiple consecutive cycles and above the 0.803x peak from the prior burst. Acceleration holds at 1.069x, with 50 new receipts (+$1,885 GMV) confirming the throughput recovery is sustained, not a one-cycle spike."
+    },
     {
       "ts": "2026-03-22T07:49:07.278Z",
       "topic": "geo-diffusion",
@@ -48,18 +60,6 @@
       "topic": "velocity-acceleration",
       "magnitude": "medium",
       "observation": "Velocity holds at 0.74x (sub-0.75 again after last cycle's brief recovery to 0.764x) while acceleration sits at 1.02x — the system is growing faster than its own recent throughput rate but the velocity floor has not been decisively broken upward. The sub-0.75 compression is persistent across multiple cycles."
-    },
-    {
-      "ts": "2026-03-21T07:48:57.807Z",
-      "topic": "throughput",
-      "magnitude": "low",
-      "observation": "5 new receipts this heartbeat (+$142.64 GMV), pushing cumulative to 5,557 receipts and $348,548 total. The 14-day window expanded to 1,256 receipts — steady low-magnitude throughput, no burst."
-    },
-    {
-      "ts": "2026-03-20T19:49:01.436Z",
-      "topic": "velocity-recovery",
-      "magnitude": "medium",
-      "observation": "Velocity recovered to 0.764x this heartbeat — breaking above the sub-0.75 floor that held for multiple consecutive cycles. Acceleration holds at 1.038x, and 25 new receipts (+$1,435 GMV in 7d window) confirm the throughput compression is easing. The divergence between velocity and acceleration may be narrowing."
     }
   ]
 }

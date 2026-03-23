@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-22T09:45:17.080Z",
+  "updatedAt": "2026-03-23T01:45:15.713Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal value",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution that infers purchase intent. A cryptographically verified receipt eliminates the attribution problem entirely — the purchase event is the proof, not a model.",
+      "topic": "Deterministic vs. probabilistic cost delta",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution; this protocol settles verified purchase events at ~$0.10 each — a 50–200x cost gap that isn't a feature comparison, it's a structural replacement of the attribution problem itself.",
       "magnitude": "high"
     },
     {
-      "topic": "Cost structure delta",
-      "insight": "Verified receipt settlement runs ~$0.10 per confirmed conversion against an industry CPA floor of $5. That is a 50–200x cost gap, structural rather than marginal — the kind that rewrites category economics when it scales.",
+      "topic": "Post-cookie targeting gap",
+      "insight": "With Chrome completing cookie deprecation and fingerprinting increasingly blocked, the industry has no cross-ecosystem, identity-free signal that confirms a purchase actually occurred — verified receipts fill exactly that void.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation leaves no credible replacement in legacy stack",
-      "insight": "Cookies are dead, device fingerprinting is increasingly blocked, and first-party data is blind outside a single ecosystem. No component of the current ad tech stack produces identity-free, cross-ecosystem, verified purchase signals — which is precisely what this protocol generates.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Platform silo vulnerability",
-      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither knows the other. Any system that surfaces aggregate, anonymized cross-ecosystem purchase behavior creates an intelligence advantage that every brand and retailer is currently missing.",
+      "topic": "Platform silo blind spot",
+      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither knows the other — and neither can sell you a cross-ecosystem view without identity liability; a protocol producing aggregate verified signals without PII is the only architecture that solves this.",
       "magnitude": "high"
     },
     {
       "topic": "Unknown-category GMV concentration",
-      "insight": "Roughly one-third of 14-day GMV — $35,742 on 131 receipts, averaging $272.84 per ticket — sits in an unresolved merchant category, 6x the basket size of grocery or restaurant. High-ticket and probable B2B transactions are present in volume but not yet classifiable, meaning category-level targeting signals are incomplete.",
+      "insight": "Receipts classified as 'Unknown' represent 10% of 14-day volume but 34.7% of 14-day GMV ($269 average ticket vs. $46–$55 for grocery, restaurant, and retail), suggesting high-value purchase categories — likely electronics, luxury, or specialty — are flowing through the protocol untagged and underexploited for targeting.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Geographic diffusion topology",
+      "insight": "Adoption is expanding via social graph propagation, not paid acquisition — simultaneous activation in non-contiguous non-metro markets (Hawaii, rural CA, AR, MI, MA in the same cycle) means the verified signal base is reaching demographics and geographies that traditional digital targeting consistently underindexes.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic diffusion pattern signals organic, social-graph propagation",
-      "insight": "Active metros expanded to non-contiguous zones — rural CA, AR, MI, WI, MA, and Hawaii entered simultaneously with no geographic adjacency — indicating word-of-mouth spread along social graph edges rather than paid acquisition. For brands, this suggests early adopter density in rural and non-metro segments that paid media models would not predict or target.",
+      "topic": "Weekly throughput plateau risk",
+      "insight": "7-day GMV has oscillated in a $29–$34K band rather than compounding, and velocity has repeatedly approached but not sustained a break above 0.8x — cumulative growth is real, but marketers evaluating scale should treat weekly throughput as range-bound until a multi-cycle hold above that threshold is confirmed.",
       "magnitude": "medium"
     }
   ]
