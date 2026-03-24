@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-24T01:45:12.758Z",
+  "updatedAt": "2026-03-24T09:45:16.465Z",
   "insights": [
     {
-      "topic": "Deterministic vs probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution. This protocol settles at roughly $0.10 per verified receipt — a 50–200x cost delta that isn't a negotiating point, it's a structural difference in what you're actually buying.",
+      "topic": "Deterministic vs. probabilistic cost delta",
+      "insight": "The protocol settles attribution at ~$0.10 per verified receipt versus $5–$150 CPA for probabilistic ad tech — a 50–200x cost difference rooted in the receipt being the conversion event itself, not a modeled inference of one.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation creates an unmet need",
-      "insight": "With Chrome joining Safari and Firefox in killing cross-site cookies, the industry's primary targeting primitive is gone. Device fingerprinting is probabilistic and increasingly blocked; first-party data is accurate but silo-bound. Verified, identity-free purchase signals fill a gap that no current stack addresses.",
+      "topic": "Post-cookie targeting gap",
+      "insight": "With Chrome deprecating cookies and device fingerprinting increasingly blocked, the ad industry's primary cross-site tracking primitives are gone — this protocol produces identity-free, cryptographically verified purchase signals that no current stack, including first-party data or data brokers, can replicate.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt as conversion event, not proxy",
-      "insight": "A cryptographically signed receipt eliminates the attribution problem entirely — no pixel, no lookback window, no modeled conversion. The receipt is the conversion event. That's a different category of evidence than anything the ad tech stack currently sells.",
+      "topic": "Cross-ecosystem receipt verification at scale",
+      "insight": "DKIM-verified vendors now span Amazon, Walmart, Target, Costco, Stripe, Gumroad, and AI-native platforms including Anthropic, OpenAI, and Suno — confirming the protocol is not single-vertical and that verified purchase signals are accumulating across retail, marketplace, and digital commerce simultaneously.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo vulnerability",
-      "insight": "Amazon knows Amazon purchases. Walmart knows Walmart purchases. Neither knows the other. Any system that surfaces aggregate cross-ecosystem purchase behavior — without individual identity exposure — holds an information advantage that every brand and retailer currently lacks.",
+      "topic": "Platform silo blind spots",
+      "insight": "Amazon knows what you buy on Amazon; Walmart knows what you buy at Walmart — neither knows the other, and neither can see aggregate cross-ecosystem purchase behavior without identity exposure; at 5,996 verified receipts and $366,902 in confirmed GMV, this protocol is building the dataset that fills that blind spot.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion pattern signals organic reach",
-      "insight": "Simultaneous activation in non-adjacent markets — Hawaii, Arizona, North Carolina, Arkansas entering the same cycle — follows social graph topology, not a paid acquisition funnel. For brand marketers, this means the signal base is expanding through word-of-mouth, not media spend.",
+      "topic": "Geographic diffusion follows social graph, not marketing logic",
+      "insight": "Non-metro zones in AZ, NY, AR, KY, OH, NC, and NJ activated in the same cycle with no geographic adjacency — the diffusion pattern tracks social graph edges, which means organic adoption is spreading through trust networks rather than paid acquisition, a signal relevant to brand community strategy.",
       "magnitude": "medium"
     },
     {
-      "topic": "Velocity recovery confirms sustained engagement",
-      "insight": "Seven-day GMV sits at $30,191 across 657 receipts with a velocity ratio recovering to 0.868x after weeks of sub-0.75x compression. The trend line was rising throughout the compression period; the metric was lagging. The data now confirms the acceleration was real.",
+      "topic": "Verified grocery and dining purchase signals emerging at scale",
+      "insight": "In the most recent 14-day window, grocery and restaurant receipts account for 612 of 1,361 verified transactions at average tickets of $43–$44 — categories where CPG and QSR brands currently rely almost entirely on probabilistic panel data and retailer media networks with no cross-retailer visibility.",
       "magnitude": "medium"
     }
   ]

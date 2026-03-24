@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-24T01:45:12.784Z",
+  "updatedAt": "2026-03-24T09:45:16.482Z",
   "observations": [
+    {
+      "ts": "2026-03-24T07:49:06.358Z",
+      "topic": "receipt-count",
+      "magnitude": "medium",
+      "observation": "Cumulative receipt count reached 5,998 this heartbeat — 2 receipts from 6,000. At current throughput (roughly 2 receipts per 3h cycle), the 6,000 milestone will likely be crossed next heartbeat. GMV now at $366,957."
+    },
+    {
+      "ts": "2026-03-24T07:49:06.355Z",
+      "topic": "velocity-entropy",
+      "magnitude": "low",
+      "observation": "Velocity sits at 0.879x with acceleration at 1.033x — the velocity recovery from sub-0.75x floor continues for the third consecutive cycle, while category entropy dropped slightly to 3.083 bits (from 3.128 bits last cycle). The system is growing faster than its recent rate but category mix is compressing slightly after last cycle's pharmacy/health expansion."
+    },
+    {
+      "ts": "2026-03-24T07:49:06.353Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "2 new CBSAs entered the signal window this heartbeat (11.8% diffusion rate, 17 total active — CBSA 19100 and 41740). After last cycle's record 17-CBSA burst, the map is continuing to expand rather than going silent, suggesting the pulse-then-silence pattern may have permanently shifted to sustained diffusion."
+    },
     {
       "ts": "2026-03-23T19:48:58.720Z",
       "topic": "velocity",
@@ -42,24 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "low",
       "observation": "Zero new CBSAs this heartbeat (16 total active) — the map went quiet after last cycle's 12-CBSA burst. The pulse pattern holds: discrete geographic surges followed by silence. Diffusion rate dropped from 80% to 0% in a single cycle."
-    },
-    {
-      "ts": "2026-03-22T07:48:55.903Z",
-      "topic": "velocity-acceleration",
-      "magnitude": "medium",
-      "observation": "Velocity recovered to 0.793x this heartbeat — holding above the sub-0.75x floor from recent cycles — while acceleration sits at 1.007x. The system continues to grow faster than its recent throughput rate, but velocity remains below 0.8x, suggesting the compression is easing but not resolved."
-    },
-    {
-      "ts": "2026-03-22T07:48:55.902Z",
-      "topic": "throughput",
-      "magnitude": "low",
-      "observation": "4 new receipts this heartbeat (+$188.50 GMV), pushing cumulative to 5,699 receipts and $355,412 total. 7d window expanded by 21 receipts (+$980.34) — steady throughput, no burst. 14d window now at 1,293 receipts."
-    },
-    {
-      "ts": "2026-03-21T19:49:04.593Z",
-      "topic": "category-expansion",
-      "magnitude": "medium",
-      "observation": "A new category \"Pharmacy & Health\" appeared in the 14-day distribution this heartbeat, alongside Portillo's entering the top brand list. Category entropy is at 3.128 bits — the highest reading in recent cycles — suggesting the token mix is diversifying beyond food/retail into health commerce."
     }
   ]
 }
