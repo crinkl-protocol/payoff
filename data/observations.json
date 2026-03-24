@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-23T09:45:12.926Z",
+  "updatedAt": "2026-03-24T01:45:12.784Z",
   "observations": [
+    {
+      "ts": "2026-03-23T19:48:58.720Z",
+      "topic": "velocity",
+      "magnitude": "medium",
+      "observation": "Velocity reached 0.928x this heartbeat — the highest reading in recent cycles, continuing the recovery from the sub-0.75x floor. Acceleration holds at 1.025x. 36 new receipts (+$1,063.79 GMV) with 31 new receipts in the 7d window confirm sustained throughput, not a one-cycle spike."
+    },
+    {
+      "ts": "2026-03-23T19:48:58.718Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "17 new CBSAs entered the signal window this heartbeat (89.5% diffusion rate — 17 of 19 active metros are new), including non-metro AZ, NY, AR, KY, OH, NC, NJ. This is the largest single-cycle geographic burst on record, surpassing the previous high of 12 CBSAs set two cycles ago. 19 total active metros."
+    },
     {
       "ts": "2026-03-23T07:48:54.895Z",
       "topic": "geographic-diffusion",
@@ -48,18 +60,6 @@
       "topic": "category-expansion",
       "magnitude": "medium",
       "observation": "A new category \"Pharmacy & Health\" appeared in the 14-day distribution this heartbeat, alongside Portillo's entering the top brand list. Category entropy is at 3.128 bits — the highest reading in recent cycles — suggesting the token mix is diversifying beyond food/retail into health commerce."
-    },
-    {
-      "ts": "2026-03-21T19:49:04.591Z",
-      "topic": "velocity-recovery",
-      "magnitude": "high",
-      "observation": "Velocity recovered to 0.803x this heartbeat — breaking decisively above the sub-0.75x floor that held for multiple consecutive cycles. Acceleration holds at 1.051x, and 34 new receipts (+$2,467 7d GMV) confirm the throughput compression is resolving. This is the strongest velocity reading in recent cycles."
-    },
-    {
-      "ts": "2026-03-21T19:49:04.589Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "12 new CBSAs entered the signal window this heartbeat (80% diffusion rate — 12 of 15 active metros are new), including non-metro Hawaii, North Carolina, Michigan, and Arkansas. This matches the largest single-cycle geographic burst observed in recent history, and for the first time Hawaii enters the signal window."
     }
   ]
 }

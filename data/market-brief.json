@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-03-23T09:45:12.909Z",
+  "updatedAt": "2026-03-24T01:45:12.758Z",
   "insights": [
     {
-      "topic": "Verified purchase signal vs. probabilistic targeting",
-      "insight": "The protocol settles attribution at ~$0.10 per verified receipt versus $5–$150 CPA for probabilistic ad tech — a 50–200x cost delta that isn't a marginal efficiency gain, it's a structural difference between inference and cryptographic proof of purchase.",
+      "topic": "Deterministic vs probabilistic signal cost",
+      "insight": "Ad tech charges $5–$150 CPA for probabilistic attribution. This protocol settles at roughly $0.10 per verified receipt — a 50–200x cost delta that isn't a negotiating point, it's a structural difference in what you're actually buying.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie signal collapse",
-      "insight": "With Chrome completing cookie deprecation and device fingerprinting increasingly blocked by privacy regulation, the ad industry has lost its primary cross-site tracking primitives — and first-party data only covers what happens inside one company's walls.",
+      "topic": "Cookie deprecation creates an unmet need",
+      "insight": "With Chrome joining Safari and Firefox in killing cross-site cookies, the industry's primary targeting primitive is gone. Device fingerprinting is probabilistic and increasingly blocked; first-party data is accurate but silo-bound. Verified, identity-free purchase signals fill a gap that no current stack addresses.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Receipt as conversion event, not proxy",
+      "insight": "A cryptographically signed receipt eliminates the attribution problem entirely — no pixel, no lookback window, no modeled conversion. The receipt is the conversion event. That's a different category of evidence than anything the ad tech stack currently sells.",
       "magnitude": "high"
     },
     {
       "topic": "Platform silo vulnerability",
-      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither knows the other — and no existing solution produces identity-free, cross-ecosystem purchase signals that any third party can query.",
+      "insight": "Amazon knows Amazon purchases. Walmart knows Walmart purchases. Neither knows the other. Any system that surfaces aggregate cross-ecosystem purchase behavior — without individual identity exposure — holds an information advantage that every brand and retailer currently lacks.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion as organic demand signal",
-      "insight": "Simultaneous activation across non-contiguous metros — non-metro Hawaii, Arizona, South Carolina, and North Carolina entering in the same burst cycles — indicates word-of-mouth propagation through social graph topology, not paid acquisition, which means adoption is self-sustaining rather than spend-dependent.",
+      "topic": "Geographic diffusion pattern signals organic reach",
+      "insight": "Simultaneous activation in non-adjacent markets — Hawaii, Arizona, North Carolina, Arkansas entering the same cycle — follows social graph topology, not a paid acquisition funnel. For brand marketers, this means the signal base is expanding through word-of-mouth, not media spend.",
       "magnitude": "medium"
     },
     {
-      "topic": "Velocity inflection at 0.888x",
-      "insight": "The 7-day velocity reading hit 0.888x on March 22 — the highest in recent cycles and a decisive break above the sub-0.75x floor that had persisted for weeks — with a 47-receipt expansion in a single 27-minute window representing the sharpest intraday burst in the current dataset.",
+      "topic": "Velocity recovery confirms sustained engagement",
+      "insight": "Seven-day GMV sits at $30,191 across 657 receipts with a velocity ratio recovering to 0.868x after weeks of sub-0.75x compression. The trend line was rising throughout the compression period; the metric was lagging. The data now confirms the acceleration was real.",
       "magnitude": "medium"
-    },
-    {
-      "topic": "Receipt data versus closed-loop alternatives",
-      "insight": "Existing receipt platforms like Fetch and Ibotta hold real purchase data but it is identity-attached, closed-loop, and not queryable by third parties — the structural gap is a privacy-safe, cryptographically verified signal that crosses ecosystem boundaries without creating regulatory liability.",
-      "magnitude": "high"
     }
   ]
 }
