@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-25T01:45:13.386Z",
+  "updatedAt": "2026-03-25T09:45:13.584Z",
   "insights": [
     {
-      "topic": "Cost delta vs. ad tech attribution",
-      "insight": "The protocol settles verified purchase confirmation at ~$0.10 per receipt (148 sats); ad tech charges $5–$150 CPA for probabilistic attribution. That is a 50–200x cost differential rooted in structure, not efficiency gains — the receipt eliminates the attribution problem rather than solving it.",
+      "topic": "Deterministic vs probabilistic signal cost",
+      "insight": "Ad tech charges $5–$150 CPA for modeled attribution. This protocol settles verified purchase confirmation at roughly $0.10 per receipt — a 50–200x cost differential that is structural, not negotiable.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookieless signal quality",
-      "insight": "Verified receipts are deterministic purchase events, cryptographically signed — not inferred from behavioral proxies. As Chrome completes cookie deprecation and fingerprinting faces regulatory pressure, this is one of the few signal types that does not degrade under privacy law.",
+      "topic": "Post-cookie replacement signal",
+      "insight": "With Chrome completing cookie deprecation and device fingerprinting under regulatory pressure, the protocol produces identity-free, cryptographically signed purchase receipts — the only verified conversion signal that doesn't depend on tracking infrastructure that no longer reliably exists.",
       "magnitude": "high"
     },
     {
-      "topic": "Cross-ecosystem visibility",
-      "insight": "DKIM vendor coverage spans Amazon, Walmart, Target, Costco, Stripe, Gumroad, Paddle, Suno, and multiple AI-native commerce platforms in a single dataset. No single retailer's first-party data achieves this; the protocol's value is precisely what falls between platform silos.",
+      "topic": "Cross-ecosystem purchase visibility",
+      "insight": "Amazon knows Amazon. Walmart knows Walmart. DKIM vendor coverage here spans Amazon, Stripe, Paddle, Gumroad, Suno, and AI-native platforms in the same dataset — the cross-silo purchase view that first-party data programs cannot replicate by design.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion topology",
-      "insight": "The 17-CBSA expansion on 2026-03-23 activated non-metro AZ, NY, AR, KY, OH, NC, and NJ simultaneously — states sharing no borders. Activation follows social graph edges, not geographic adjacency, which means audience reach does not map to traditional DMA-based media planning assumptions.",
+      "topic": "Rural and non-metro consumer reach",
+      "insight": "Geographic diffusion now spans non-metro PA, NY, NC, NV, WI, MI, ME, MA, CA, AR, IN, HI, AZ, SC, KY, OH, NJ, and FL — activating via social graph topology, not urban cascade. Brands targeting non-metro consumers are looking at a signal source that urban-first ad tech historically underserves.",
       "magnitude": "medium"
     },
     {
-      "topic": "Velocity recovery post-compression",
-      "insight": "After a mid-March velocity compression, the 7-day window has rebuilt to 666 receipts and $30,826 GMV, with the 14-day window approaching $100,000. The afternoon throughput rate — 48 receipts and $2,228 GMV in 12 hours on 2026-03-24 — is the fastest daylight rebuild recorded, suggesting demand is not plateauing.",
+      "topic": "Verified GMV scale and trajectory",
+      "insight": "The protocol has confirmed $380,630 in verified GMV across 6,155 receipts, with the 7-day window reaching $35,310 after recovering from a mid-March compression period. The trajectory is accelerating, not plateauing.",
       "magnitude": "medium"
     },
     {
-      "topic": "Identity-free purchase data as liability hedge",
-      "insight": "Existing receipt-data incumbents (Fetch, Ibotta) hold identity-attached purchase records, which constitute growing regulatory liability under GDPR, CCPA, and state privacy laws. The protocol produces verified purchase signals without identity attachment, shifting the compliance posture for any brand that ingests it.",
+      "topic": "Receipt-as-conversion-event eliminates attribution modeling",
+      "insight": "Ad tech attribution requires pixels, lookback windows, and probabilistic modeling because the purchase event itself is not directly observable. A cryptographically signed receipt eliminates the modeling layer entirely — the receipt is the conversion event, not an inference about it.",
       "magnitude": "high"
     }
   ]
