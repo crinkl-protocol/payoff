@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-24T09:45:16.482Z",
+  "updatedAt": "2026-03-25T01:45:13.403Z",
   "observations": [
+    {
+      "ts": "2026-03-24T19:48:52.839Z",
+      "topic": "receipt-milestone",
+      "magnitude": "high",
+      "observation": "Cumulative receipt count crossed 6,000 this heartbeat (6,072 total, +28 from prior cycle), with GMV now at $370,720. The 6,000 milestone arrived on schedule — throughput has held at ~25-30 receipts per 3h cycle for three consecutive cycles, confirming the velocity recovery from sub-0.75x is structural, not a spike."
+    },
+    {
+      "ts": "2026-03-24T19:48:52.837Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "12 new CBSAs entered the signal window this heartbeat (57.1% diffusion rate — 12 of 21 active metros are new), including non-metro FL, NV, WI and metro areas 35620, 33100, 38060, 36837, 36740, 35840, 37860, 16980, 19820. This is the third large geographic burst in 5 cycles — the pulse-then-silence pattern has fully broken down into sustained multi-cycle expansion."
+    },
     {
       "ts": "2026-03-24T07:49:06.358Z",
       "topic": "receipt-count",
@@ -48,18 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "high",
       "observation": "10 new CBSAs entered the signal window this heartbeat (66.7% diffusion rate — 10 of 15 active metros are new), including non-metro Arizona, New York, South Carolina, and North Carolina. This is the second large geographic burst in 3 cycles, suggesting pulse-based diffusion is accelerating in frequency."
-    },
-    {
-      "ts": "2026-03-22T19:48:59.436Z",
-      "topic": "velocity-recovery",
-      "magnitude": "high",
-      "observation": "Velocity reached 0.888x this heartbeat — the highest reading in recent cycles, breaking above the sub-0.75x floor that persisted for multiple consecutive cycles and above the 0.803x peak from the prior burst. Acceleration holds at 1.069x, with 50 new receipts (+$1,885 GMV) confirming the throughput recovery is sustained, not a one-cycle spike."
-    },
-    {
-      "ts": "2026-03-22T07:49:07.278Z",
-      "topic": "geo-diffusion",
-      "magnitude": "low",
-      "observation": "Zero new CBSAs this heartbeat (16 total active) — the map went quiet after last cycle's 12-CBSA burst. The pulse pattern holds: discrete geographic surges followed by silence. Diffusion rate dropped from 80% to 0% in a single cycle."
     }
   ]
 }
