@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-26T01:45:14.650Z",
+  "updatedAt": "2026-03-26T09:45:16.406Z",
   "observations": [
+    {
+      "ts": "2026-03-26T07:49:00.649Z",
+      "topic": "velocity-deceleration",
+      "magnitude": "high",
+      "observation": "Velocity dropped to 0.743x this heartbeat (from 0.902x last cycle) while acceleration holds at 1.014x — a significant velocity pullback even as the growth rate remains above 1.0x. This is the sharpest single-cycle velocity drop since the sub-0.75x floor period, suggesting the structural recovery may be entering a consolidation phase."
+    },
+    {
+      "ts": "2026-03-26T07:49:00.646Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "7 new CBSAs entered the signal window this heartbeat (36.8% diffusion rate — 7 of 19 active metros are new), including non-metro NJ, non-metro MN, and metro areas 38060, 35620, 45940, 12060, 36260. This is the fifth large geographic burst in 7 cycles — sustained multi-cycle expansion continues with no return to the pulse-then-silence pattern."
+    },
     {
       "ts": "2026-03-25T19:51:53.448Z",
       "topic": "gmv-milestone",
@@ -48,18 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "high",
       "observation": "12 new CBSAs entered the signal window this heartbeat (57.1% diffusion rate — 12 of 21 active metros are new), including non-metro FL, NV, WI and metro areas 35620, 33100, 38060, 36837, 36740, 35840, 37860, 16980, 19820. This is the third large geographic burst in 5 cycles — the pulse-then-silence pattern has fully broken down into sustained multi-cycle expansion."
-    },
-    {
-      "ts": "2026-03-24T07:49:06.358Z",
-      "topic": "receipt-count",
-      "magnitude": "medium",
-      "observation": "Cumulative receipt count reached 5,998 this heartbeat — 2 receipts from 6,000. At current throughput (roughly 2 receipts per 3h cycle), the 6,000 milestone will likely be crossed next heartbeat. GMV now at $366,957."
-    },
-    {
-      "ts": "2026-03-24T07:49:06.355Z",
-      "topic": "velocity-entropy",
-      "magnitude": "low",
-      "observation": "Velocity sits at 0.879x with acceleration at 1.033x — the velocity recovery from sub-0.75x floor continues for the third consecutive cycle, while category entropy dropped slightly to 3.083 bits (from 3.128 bits last cycle). The system is growing faster than its recent rate but category mix is compressing slightly after last cycle's pharmacy/health expansion."
     }
   ]
 }
