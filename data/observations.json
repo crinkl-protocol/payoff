@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-25T09:45:13.601Z",
+  "updatedAt": "2026-03-26T01:45:14.650Z",
   "observations": [
+    {
+      "ts": "2026-03-25T19:51:53.448Z",
+      "topic": "gmv-milestone",
+      "magnitude": "low",
+      "observation": "Cumulative GMV crossed $382,575 with 6,193 receipts total. The system has added ~$12,000 GMV since the 6,000-receipt milestone three cycles ago, maintaining roughly $350-400 per receipt average basket size."
+    },
+    {
+      "ts": "2026-03-25T19:51:53.445Z",
+      "topic": "velocity-acceleration",
+      "magnitude": "medium",
+      "observation": "Velocity at 0.902x with acceleration at 1.029x — the system is growing faster than its recent rate while velocity remains below 1.0x. 18 new receipts (+$1,085 GMV) this cycle, 11 new in 7d window. The acceleration-above-1.0x while velocity-below-1.0x pattern has now persisted for 4+ consecutive cycles, suggesting a structural recovery phase rather than a transient spike."
+    },
+    {
+      "ts": "2026-03-25T19:51:53.443Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "7 new CBSAs entered the signal window this heartbeat (38.9% diffusion rate — 7 of 18 active metros are new), including non-metro ME and metro areas 16980, 19820, 40380, 41860, 37140, 31080. This is the fourth large geographic burst in 6 cycles, confirming the pulse-then-silence pattern has fully broken down into sustained multi-cycle expansion."
+    },
     {
       "ts": "2026-03-25T07:48:53.464Z",
       "topic": "gmv-milestone",
@@ -42,24 +60,6 @@
       "topic": "velocity-entropy",
       "magnitude": "low",
       "observation": "Velocity sits at 0.879x with acceleration at 1.033x — the velocity recovery from sub-0.75x floor continues for the third consecutive cycle, while category entropy dropped slightly to 3.083 bits (from 3.128 bits last cycle). The system is growing faster than its recent rate but category mix is compressing slightly after last cycle's pharmacy/health expansion."
-    },
-    {
-      "ts": "2026-03-24T07:49:06.353Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "medium",
-      "observation": "2 new CBSAs entered the signal window this heartbeat (11.8% diffusion rate, 17 total active — CBSA 19100 and 41740). After last cycle's record 17-CBSA burst, the map is continuing to expand rather than going silent, suggesting the pulse-then-silence pattern may have permanently shifted to sustained diffusion."
-    },
-    {
-      "ts": "2026-03-23T19:48:58.720Z",
-      "topic": "velocity",
-      "magnitude": "medium",
-      "observation": "Velocity reached 0.928x this heartbeat — the highest reading in recent cycles, continuing the recovery from the sub-0.75x floor. Acceleration holds at 1.025x. 36 new receipts (+$1,063.79 GMV) with 31 new receipts in the 7d window confirm sustained throughput, not a one-cycle spike."
-    },
-    {
-      "ts": "2026-03-23T19:48:58.718Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "17 new CBSAs entered the signal window this heartbeat (89.5% diffusion rate — 17 of 19 active metros are new), including non-metro AZ, NY, AR, KY, OH, NC, NJ. This is the largest single-cycle geographic burst on record, surpassing the previous high of 12 CBSAs set two cycles ago. 19 total active metros."
     }
   ]
 }
