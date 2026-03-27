@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-26T09:45:16.406Z",
+  "updatedAt": "2026-03-27T01:45:14.669Z",
   "observations": [
+    {
+      "ts": "2026-03-26T19:48:53.300Z",
+      "topic": "velocity-acceleration-split",
+      "magnitude": "medium",
+      "observation": "Velocity at 0.787x while acceleration holds at 1.005x — the system is growing faster than its recent rate even as absolute throughput remains below the 1.0x floor. This velocity-below-1.0x / acceleration-above-1.0x split has now persisted for 5+ consecutive cycles, suggesting a structural recovery phase where the growth rate is compounding even as raw volume stays suppressed."
+    },
+    {
+      "ts": "2026-03-26T19:48:53.298Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "9 new CBSAs entered the signal window this heartbeat (47.4% diffusion rate — 9 of 19 active metros are new), including non-metro NC, WV, FL, NY, MA, WI and metro areas 41740, 37980, 33100. This is the sixth large geographic burst in 8 cycles — sustained multi-cycle expansion continues with no return to the pulse-then-silence pattern."
+    },
     {
       "ts": "2026-03-26T07:49:00.649Z",
       "topic": "velocity-deceleration",
@@ -48,18 +60,6 @@
       "topic": "category-expansion",
       "magnitude": "medium",
       "observation": "Grocery & Supermarkets appeared as a new category this heartbeat — the first time this category has entered the signal window. Combined with the Pharmacy/Health expansion from prior cycles, the category mix is broadening beyond retail into everyday consumables."
-    },
-    {
-      "ts": "2026-03-24T19:48:52.839Z",
-      "topic": "receipt-milestone",
-      "magnitude": "high",
-      "observation": "Cumulative receipt count crossed 6,000 this heartbeat (6,072 total, +28 from prior cycle), with GMV now at $370,720. The 6,000 milestone arrived on schedule — throughput has held at ~25-30 receipts per 3h cycle for three consecutive cycles, confirming the velocity recovery from sub-0.75x is structural, not a spike."
-    },
-    {
-      "ts": "2026-03-24T19:48:52.837Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "12 new CBSAs entered the signal window this heartbeat (57.1% diffusion rate — 12 of 21 active metros are new), including non-metro FL, NV, WI and metro areas 35620, 33100, 38060, 36837, 36740, 35840, 37860, 16980, 19820. This is the third large geographic burst in 5 cycles — the pulse-then-silence pattern has fully broken down into sustained multi-cycle expansion."
     }
   ]
 }

@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-26T09:45:16.389Z",
+  "updatedAt": "2026-03-27T01:45:14.647Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution; this protocol settles verified purchase events at ~$0.10 each — a 50–200x cost differential rooted in structure, not efficiency gains. The receipt is the conversion event, cryptographically signed, requiring no pixel, no lookback window, no inference.",
+      "topic": "Deterministic vs probabilistic cost delta",
+      "insight": "Verified receipt signals settle at ~$0.10 per confirmed purchase event versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost difference that is structural, not marginal, because the receipt eliminates the attribution problem entirely rather than estimating around it.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie targeting gap",
-      "insight": "With Chrome deprecating cookies and device fingerprinting increasingly blocked, the industry's two primary cross-site tracking primitives are effectively gone — and first-party data is blind beyond a single company's ecosystem. A cross-ecosystem, identity-free verified purchase signal addresses a gap that no current ad tech stack closes.",
+      "topic": "Cookie deprecation creates a vacuum this fills",
+      "insight": "With Chrome joining Safari and Firefox in deprecating cross-site cookies, and device fingerprinting increasingly blocked by privacy regulation, the ad industry has no remaining scalable deterministic signal — verified receipt protocols represent the only cryptographically confirmed purchase event outside a closed first-party ecosystem.",
       "magnitude": "high"
     },
     {
       "topic": "Category breadth confirms everyday commerce coverage",
-      "insight": "Grocery, restaurants, retail, gas, and pharmacy are all active within the 14-day window, with Walmart (84 receipts), Target and Costco (29 each) as top brands — this is mass-market purchase behavior, not a niche or enthusiast panel. Brands competing in everyday spend categories are looking at a signal set that reflects their actual shelf.",
+      "insight": "The 14-day receipt mix spans grocery, dining, retail, gas, and pharmacy — topped by Walmart (85 receipts), Costco (29), and Target (28) — meaning this is not a niche or enthusiast data set but a cross-category view of mass-market consumer spending.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo vulnerability",
-      "insight": "Amazon knows Amazon purchase behavior; Walmart knows Walmart's — neither sees the other, and neither sees the full consumer basket. The first queryable, identity-free system that aggregates verified cross-retailer purchase signals creates a category intelligence advantage that no single retailer's first-party data can replicate.",
+      "topic": "Platform silo blind spots remain unresolved",
+      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither knows the other, and no identity-attached data broker solves this without creating privacy liability — a cross-ecosystem verified signal layer is the only mechanism that makes aggregate spend visible without exposing individual identity.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion via social graph, not proximity",
-      "insight": "Non-metro activations in AZ, NY, AR, KY, OH, NJ, and FL entered the same burst cycles despite sharing no borders — the diffusion vector is social graph edges, not geographic adjacency. For brands modeling reach and audience topology, this signals a network that does not map onto standard DMA or regional targeting frameworks.",
+      "topic": "Social graph diffusion, not geographic cascade",
+      "insight": "Non-metro activations in AZ, AR, KY, OH, NJ, and MN entered in the same burst cycles despite sharing no borders, confirming the diffusion vector is social graph topology — which means reach projections based on geographic adjacency models will systematically underestimate actual penetration speed.",
       "magnitude": "medium"
     },
     {
-      "topic": "Sustained velocity recovery post-compression",
-      "insight": "After a mid-March slowdown, 7-day GMV is running at $30,062 on 585 receipts with acceleration above 1.0x for four-plus consecutive cycles — the recovery is structural, not a one-cycle bounce. Signal volume is compounding at a rate relevant to brands evaluating whether this panel is large enough to act on.",
+      "topic": "Receipt-as-conversion-event eliminates lookback window risk",
+      "insight": "Traditional attribution depends on lookback windows and modeled conversions that degrade over time and across devices; a cryptographically signed receipt is the conversion event itself, meaning there is no modeling error, no pixel dependency, and no identity attachment required to confirm a purchase occurred.",
       "magnitude": "medium"
     }
   ]
