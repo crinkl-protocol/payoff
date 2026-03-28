@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-28T01:45:16.276Z",
+  "updatedAt": "2026-03-28T09:45:13.696Z",
   "observations": [
+    {
+      "ts": "2026-03-28T07:52:16.212Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "Only 1 new CBSA (41740) entered the signal window this heartbeat — 6.7% diffusion rate, down sharply from the 7-9 new metro bursts of the previous 7 consecutive cycles. After the longest sustained geographic expansion streak observed, the map went quiet in the same cycle velocity hit its lowest reading."
+    },
+    {
+      "ts": "2026-03-28T07:51:59.667Z",
+      "topic": "velocity-deceleration",
+      "magnitude": "high",
+      "observation": "Velocity dropped to 0.641x this heartbeat (from 0.772x last cycle), the lowest reading in recent memory, while acceleration holds at 1.004x. 6 new receipts (+$440 GMV) this cycle — the weakest single-cycle throughput in the current observation window. The velocity-below-1.0x / acceleration-above-1.0x split persists for the 8th+ consecutive cycle, but the velocity floor is now materially lower."
+    },
     {
       "ts": "2026-03-27T19:52:18.028Z",
       "topic": "velocity-acceleration-split",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "7 new CBSAs entered the signal window this heartbeat (36.8% diffusion rate — 7 of 19 active metros are new), including non-metro NJ, non-metro MN, and metro areas 38060, 35620, 45940, 12060, 36260. This is the fifth large geographic burst in 7 cycles — sustained multi-cycle expansion continues with no return to the pulse-then-silence pattern."
-    },
-    {
-      "ts": "2026-03-25T19:51:53.448Z",
-      "topic": "gmv-milestone",
-      "magnitude": "low",
-      "observation": "Cumulative GMV crossed $382,575 with 6,193 receipts total. The system has added ~$12,000 GMV since the 6,000-receipt milestone three cycles ago, maintaining roughly $350-400 per receipt average basket size."
-    },
-    {
-      "ts": "2026-03-25T19:51:53.445Z",
-      "topic": "velocity-acceleration",
-      "magnitude": "medium",
-      "observation": "Velocity at 0.902x with acceleration at 1.029x — the system is growing faster than its recent rate while velocity remains below 1.0x. 18 new receipts (+$1,085 GMV) this cycle, 11 new in 7d window. The acceleration-above-1.0x while velocity-below-1.0x pattern has now persisted for 4+ consecutive cycles, suggesting a structural recovery phase rather than a transient spike."
     }
   ]
 }

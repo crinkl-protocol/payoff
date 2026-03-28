@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-28T01:45:16.254Z",
+  "updatedAt": "2026-03-28T09:45:13.678Z",
   "insights": [
     {
-      "topic": "Verified purchase signal vs. probabilistic targeting",
-      "insight": "Ad tech sells inferred intent at $5–$150 CPA; this protocol settles a cryptographically signed purchase confirmation at roughly $0.10 per event — a 50–200x cost delta that isn't a pricing advantage, it's a different category of data entirely.",
+      "topic": "Deterministic vs. probabilistic attribution",
+      "insight": "Ad tech charges $5–$150 CPA for modeled conversions built on inference; this protocol settles attribution at ~$0.10 per cryptographically verified receipt — a 50–200x cost delta that isn't a pricing negotiation, it's a different category of evidence.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation creates structural gap this fills",
-      "insight": "With Chrome joining Safari and Firefox in eliminating cross-site cookies, the industry's primary attribution primitive is gone — and the replacements (fingerprinting, data brokers, first-party data) are all probabilistic and narrowing under GDPR/CCPA pressure; verified receipt data sidesteps this entirely because the purchase event is the proof, not a modeled proxy for it.",
+      "topic": "Cookieless targeting gap",
+      "insight": "Chrome's cookie deprecation joins Safari and Firefox, and device fingerprinting is eroding under regulation — the industry's fallback stack is probabilistic all the way down, with no native mechanism to confirm a purchase actually occurred.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical commerce dominates the signal set",
-      "insight": "Grocery, dining, and gas together account for 56% of verified receipts in the trailing 14-day window — high-frequency categories where brand marketers have historically had the weakest closed-loop attribution because transactions happen off-platform and out of sight.",
+      "topic": "Physical commerce signal concentration",
+      "insight": "Grocery, dining, and gas account for 56% of verified receipts in the trailing 14-day window — high-frequency, real-world purchase categories that first-party digital data structurally undercounts because most of these transactions never touch a brand's owned properties.",
       "magnitude": "high"
     },
     {
-      "topic": "Unknown category signals large-basket gap",
-      "insight": "The unresolved 'Unknown' category carries a $107 average basket — roughly 2–2.5x the classified categories — suggesting the store resolver is missing a disproportionate share of high-value purchases; brands in big-ticket retail should treat this as an early data-quality flag before building targeting models on it.",
+      "topic": "Unknown category basket anomaly",
+      "insight": "The unclassified 'Unknown' category carries a $107 average basket — roughly 2–2.5x the classified categories — suggesting the store resolver is missing a disproportionate share of large-ticket purchases; brands in electronics, home goods, or specialty retail should treat this as a coverage gap worth monitoring.",
       "magnitude": "medium"
     },
     {
-      "topic": "Growth rate compounding despite suppressed volume",
-      "insight": "Velocity sits below 1.0x week-over-week but acceleration has held above 1.0x for six or more consecutive cycles, meaning the rate of growth is itself growing even while raw throughput is muted — a pattern that typically precedes a volume inflection rather than a plateau.",
+      "topic": "Geographic expansion pattern",
+      "insight": "19 metros are now active, with expansion arriving in social-graph pulses rather than paid acquisition bursts — the current consolidation cycle after a 5-cycle expansion streak is the expected behavior, not a stall, and signals organic network propagation that paid media cannot replicate.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic expansion follows social graph, not paid acquisition",
-      "insight": "New metro clusters appeared in sustained bursts of 7–9 CBSAs per cycle across five consecutive heartbeats before this consolidation cycle — a diffusion pattern consistent with peer-to-peer adoption, which implies the user base has genuine behavioral cohesion rather than paid-install demographics that erode quickly.",
+      "topic": "Velocity-acceleration divergence",
+      "insight": "Week-over-week volume velocity sits at 0.738x — below baseline — while the acceleration coefficient is 1.005x and has held above 1.0x for six consecutive cycles; the growth rate is compounding even as raw throughput stays suppressed, a pattern that typically precedes a volume inflection rather than a plateau.",
       "magnitude": "medium"
     }
   ]
