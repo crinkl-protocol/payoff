@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-27T01:45:14.647Z",
+  "updatedAt": "2026-03-28T01:45:16.254Z",
   "insights": [
     {
-      "topic": "Deterministic vs probabilistic cost delta",
-      "insight": "Verified receipt signals settle at ~$0.10 per confirmed purchase event versus $5–$150 CPA for probabilistic ad tech attribution — a 50–200x cost difference that is structural, not marginal, because the receipt eliminates the attribution problem entirely rather than estimating around it.",
+      "topic": "Verified purchase signal vs. probabilistic targeting",
+      "insight": "Ad tech sells inferred intent at $5–$150 CPA; this protocol settles a cryptographically signed purchase confirmation at roughly $0.10 per event — a 50–200x cost delta that isn't a pricing advantage, it's a different category of data entirely.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookie deprecation creates a vacuum this fills",
-      "insight": "With Chrome joining Safari and Firefox in deprecating cross-site cookies, and device fingerprinting increasingly blocked by privacy regulation, the ad industry has no remaining scalable deterministic signal — verified receipt protocols represent the only cryptographically confirmed purchase event outside a closed first-party ecosystem.",
+      "topic": "Cookie deprecation creates structural gap this fills",
+      "insight": "With Chrome joining Safari and Firefox in eliminating cross-site cookies, the industry's primary attribution primitive is gone — and the replacements (fingerprinting, data brokers, first-party data) are all probabilistic and narrowing under GDPR/CCPA pressure; verified receipt data sidesteps this entirely because the purchase event is the proof, not a modeled proxy for it.",
       "magnitude": "high"
     },
     {
-      "topic": "Category breadth confirms everyday commerce coverage",
-      "insight": "The 14-day receipt mix spans grocery, dining, retail, gas, and pharmacy — topped by Walmart (85 receipts), Costco (29), and Target (28) — meaning this is not a niche or enthusiast data set but a cross-category view of mass-market consumer spending.",
+      "topic": "Physical commerce dominates the signal set",
+      "insight": "Grocery, dining, and gas together account for 56% of verified receipts in the trailing 14-day window — high-frequency categories where brand marketers have historically had the weakest closed-loop attribution because transactions happen off-platform and out of sight.",
       "magnitude": "high"
     },
     {
-      "topic": "Platform silo blind spots remain unresolved",
-      "insight": "Amazon knows Amazon purchases; Walmart knows Walmart purchases; neither knows the other, and no identity-attached data broker solves this without creating privacy liability — a cross-ecosystem verified signal layer is the only mechanism that makes aggregate spend visible without exposing individual identity.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Social graph diffusion, not geographic cascade",
-      "insight": "Non-metro activations in AZ, AR, KY, OH, NJ, and MN entered in the same burst cycles despite sharing no borders, confirming the diffusion vector is social graph topology — which means reach projections based on geographic adjacency models will systematically underestimate actual penetration speed.",
+      "topic": "Unknown category signals large-basket gap",
+      "insight": "The unresolved 'Unknown' category carries a $107 average basket — roughly 2–2.5x the classified categories — suggesting the store resolver is missing a disproportionate share of high-value purchases; brands in big-ticket retail should treat this as an early data-quality flag before building targeting models on it.",
       "magnitude": "medium"
     },
     {
-      "topic": "Receipt-as-conversion-event eliminates lookback window risk",
-      "insight": "Traditional attribution depends on lookback windows and modeled conversions that degrade over time and across devices; a cryptographically signed receipt is the conversion event itself, meaning there is no modeling error, no pixel dependency, and no identity attachment required to confirm a purchase occurred.",
+      "topic": "Growth rate compounding despite suppressed volume",
+      "insight": "Velocity sits below 1.0x week-over-week but acceleration has held above 1.0x for six or more consecutive cycles, meaning the rate of growth is itself growing even while raw throughput is muted — a pattern that typically precedes a volume inflection rather than a plateau.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Geographic expansion follows social graph, not paid acquisition",
+      "insight": "New metro clusters appeared in sustained bursts of 7–9 CBSAs per cycle across five consecutive heartbeats before this consolidation cycle — a diffusion pattern consistent with peer-to-peer adoption, which implies the user base has genuine behavioral cohesion rather than paid-install demographics that erode quickly.",
       "magnitude": "medium"
     }
   ]

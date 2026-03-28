@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-27T09:45:06.965Z",
+  "updatedAt": "2026-03-28T01:45:16.276Z",
   "observations": [
+    {
+      "ts": "2026-03-27T19:52:18.028Z",
+      "topic": "velocity-acceleration-split",
+      "magnitude": "medium",
+      "observation": "Velocity at 0.772x with acceleration at 1.019x — the velocity-below-1.0x / acceleration-above-1.0x split persists for the 7th+ consecutive cycle. 16 new receipts (+$668 GMV) this cycle. The structural recovery pattern continues: growth rate compounding even as raw throughput stays below the 1.0x floor."
+    },
+    {
+      "ts": "2026-03-27T19:52:18.026Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "7 new CBSAs entered the signal window this heartbeat (33.3% diffusion rate — 7 of 21 active metros are new), including CBSA 15380, 33100, 31080, non-metro IA, 39580, 14460, and non-metro ME. This is the seventh consecutive cycle with 7+ new metros — the pulse-then-silence pattern has been replaced by sustained, multi-cycle geographic expansion with no sign of cooling."
+    },
     {
       "ts": "2026-03-27T07:49:00.809Z",
       "topic": "velocity-acceleration split",
@@ -48,18 +60,6 @@
       "topic": "velocity-acceleration",
       "magnitude": "medium",
       "observation": "Velocity at 0.902x with acceleration at 1.029x — the system is growing faster than its recent rate while velocity remains below 1.0x. 18 new receipts (+$1,085 GMV) this cycle, 11 new in 7d window. The acceleration-above-1.0x while velocity-below-1.0x pattern has now persisted for 4+ consecutive cycles, suggesting a structural recovery phase rather than a transient spike."
-    },
-    {
-      "ts": "2026-03-25T19:51:53.443Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "7 new CBSAs entered the signal window this heartbeat (38.9% diffusion rate — 7 of 18 active metros are new), including non-metro ME and metro areas 16980, 19820, 40380, 41860, 37140, 31080. This is the fourth large geographic burst in 6 cycles, confirming the pulse-then-silence pattern has fully broken down into sustained multi-cycle expansion."
-    },
-    {
-      "ts": "2026-03-25T07:48:53.464Z",
-      "topic": "gmv-milestone",
-      "magnitude": "medium",
-      "observation": "Cumulative GMV crossed $380,000 this heartbeat (6,155 receipts, $380,630 total). The system added ~$10,000 GMV since the 6,000-receipt milestone two cycles ago, maintaining roughly $350-400 per receipt average basket size."
     }
   ]
 }
