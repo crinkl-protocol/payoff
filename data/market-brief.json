@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-28T09:45:13.678Z",
+  "updatedAt": "2026-03-28T19:50:16.543Z",
   "insights": [
     {
       "topic": "Deterministic vs. probabilistic attribution",
-      "insight": "Ad tech charges $5–$150 CPA for modeled conversions built on inference; this protocol settles attribution at ~$0.10 per cryptographically verified receipt — a 50–200x cost delta that isn't a pricing negotiation, it's a different category of evidence.",
+      "insight": "At 148 sats (~$0.10) per verified receipt versus $5–$150 CPA for modeled attribution, the cost delta is structural, not incremental — the receipt is the conversion event, not a signal inferred from one.",
       "magnitude": "high"
     },
     {
       "topic": "Cookieless targeting gap",
-      "insight": "Chrome's cookie deprecation joins Safari and Firefox, and device fingerprinting is eroding under regulation — the industry's fallback stack is probabilistic all the way down, with no native mechanism to confirm a purchase actually occurred.",
+      "insight": "With Chrome deprecating cookies and fingerprinting increasingly blocked, the ad stack has no cross-site primitive left that produces a verified purchase — only signals that infer one; 6,372 cryptographically signed receipts represent what the stack cannot produce.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical commerce signal concentration",
-      "insight": "Grocery, dining, and gas account for 56% of verified receipts in the trailing 14-day window — high-frequency, real-world purchase categories that first-party digital data structurally undercounts because most of these transactions never touch a brand's owned properties.",
+      "topic": "Physical commerce dominance",
+      "insight": "Grocery, dining, and gas account for 56% of verified receipts in the trailing 14-day window — the highest-frequency, hardest-to-attribute categories in any brand's media mix are where verified purchase data is accumulating fastest.",
       "magnitude": "high"
     },
     {
-      "topic": "Unknown category basket anomaly",
-      "insight": "The unclassified 'Unknown' category carries a $107 average basket — roughly 2–2.5x the classified categories — suggesting the store resolver is missing a disproportionate share of large-ticket purchases; brands in electronics, home goods, or specialty retail should treat this as a coverage gap worth monitoring.",
+      "topic": "Unknown category basket size",
+      "insight": "The unresolved 'Unknown' store category carries a $107 average basket — nearly double any classified category — suggesting large-ticket purchases are being captured but not yet surfaced, a quality gap that understates the protocol's coverage of high-value transactions.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Growth structure: velocity below 1.0x, acceleration above 1.0x",
+      "insight": "Raw receipt volume remains suppressed week-over-week, but the growth rate itself is compounding at 1.005x for six consecutive cycles — the system is building throughput capacity faster than current volume reflects.",
       "magnitude": "medium"
     },
     {
       "topic": "Geographic expansion pattern",
-      "insight": "19 metros are now active, with expansion arriving in social-graph pulses rather than paid acquisition bursts — the current consolidation cycle after a 5-cycle expansion streak is the expected behavior, not a stall, and signals organic network propagation that paid media cannot replicate.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Velocity-acceleration divergence",
-      "insight": "Week-over-week volume velocity sits at 0.738x — below baseline — while the acceleration coefficient is 1.005x and has held above 1.0x for six consecutive cycles; the growth rate is compounding even as raw throughput stays suppressed, a pattern that typically precedes a volume inflection rather than a plateau.",
+      "insight": "19 metros added in social-graph pulses rather than paid campaigns — five consecutive cycles each adding 7–9 new CBSAs — indicates organic adoption propagation, which is relevant to brands modeling where verified purchase coverage will appear next.",
       "magnitude": "medium"
     }
   ]

@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-28T09:45:13.696Z",
+  "updatedAt": "2026-03-28T19:50:16.555Z",
   "observations": [
+    {
+      "ts": "2026-03-28T19:48:59.751Z",
+      "topic": "brand-expansion",
+      "magnitude": "medium",
+      "observation": "Whole Foods Market entered the top brand list this heartbeat — the first new brand to appear in the top list in recent cycles. 21 receipts added this cycle (6517→6538), with $1,275 GMV, pushing cumulative total to $399,984 — within $16 of the $400K milestone."
+    },
+    {
+      "ts": "2026-03-28T19:48:59.749Z",
+      "topic": "velocity-acceleration-split",
+      "magnitude": "high",
+      "observation": "Velocity at 0.674x (down from 0.641x last cycle) while acceleration jumps to 1.039x — the highest acceleration reading in recent memory. The velocity-below-1.0x / acceleration-above-1.0x split persists for the 9th+ consecutive cycle, but the acceleration spike suggests the growth rate is compounding faster even as raw throughput stays suppressed."
+    },
+    {
+      "ts": "2026-03-28T19:48:59.747Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "8 new CBSAs entered the signal window this heartbeat (40.0% diffusion rate — 8 of 20 active metros are new), including CBSAs 35840, 34900, 17410, 16700, 39580, 31080, 22220, and 14460. This is the eighth consecutive cycle with 7+ new metros — sustained multi-cycle geographic expansion continues with no sign of cooling."
+    },
     {
       "ts": "2026-03-28T07:52:16.212Z",
       "topic": "geographic-diffusion",
@@ -42,24 +60,6 @@
       "topic": "velocity-acceleration-split",
       "magnitude": "medium",
       "observation": "Velocity at 0.787x while acceleration holds at 1.005x — the system is growing faster than its recent rate even as absolute throughput remains below the 1.0x floor. This velocity-below-1.0x / acceleration-above-1.0x split has now persisted for 5+ consecutive cycles, suggesting a structural recovery phase where the growth rate is compounding even as raw volume stays suppressed."
-    },
-    {
-      "ts": "2026-03-26T19:48:53.298Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "9 new CBSAs entered the signal window this heartbeat (47.4% diffusion rate — 9 of 19 active metros are new), including non-metro NC, WV, FL, NY, MA, WI and metro areas 41740, 37980, 33100. This is the sixth large geographic burst in 8 cycles — sustained multi-cycle expansion continues with no return to the pulse-then-silence pattern."
-    },
-    {
-      "ts": "2026-03-26T07:49:00.649Z",
-      "topic": "velocity-deceleration",
-      "magnitude": "high",
-      "observation": "Velocity dropped to 0.743x this heartbeat (from 0.902x last cycle) while acceleration holds at 1.014x — a significant velocity pullback even as the growth rate remains above 1.0x. This is the sharpest single-cycle velocity drop since the sub-0.75x floor period, suggesting the structural recovery may be entering a consolidation phase."
-    },
-    {
-      "ts": "2026-03-26T07:49:00.646Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "7 new CBSAs entered the signal window this heartbeat (36.8% diffusion rate — 7 of 19 active metros are new), including non-metro NJ, non-metro MN, and metro areas 38060, 35620, 45940, 12060, 36260. This is the fifth large geographic burst in 7 cycles — sustained multi-cycle expansion continues with no return to the pulse-then-silence pattern."
     }
   ]
 }
