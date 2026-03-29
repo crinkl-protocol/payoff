@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-28T19:50:16.555Z",
+  "updatedAt": "2026-03-29T07:53:28.301Z",
   "observations": [
+    {
+      "ts": "2026-03-29T07:52:19.958Z",
+      "topic": "geo diffusion pause",
+      "magnitude": "medium",
+      "observation": "Zero new CBSAs entered the signal window this heartbeat — 0% diffusion rate, down from 40% (8 new metros) last cycle. After 8+ consecutive cycles with 7+ new metros each, the map went completely quiet in the same cycle velocity hit a new low. Settlement velocity also 0 payouts this period."
+    },
+    {
+      "ts": "2026-03-29T07:52:19.956Z",
+      "topic": "velocity floor",
+      "magnitude": "high",
+      "observation": "Velocity dropped to 0.594x this heartbeat — the lowest reading in the current observation window — while acceleration holds at 1.007x. This extends the velocity-below-1.0x / acceleration-above-1.0x split to the 10th+ consecutive cycle, but 0.594x represents a material new floor below the 0.641x low recorded last cycle."
+    },
+    {
+      "ts": "2026-03-29T07:52:19.953Z",
+      "topic": "GMV milestone",
+      "magnitude": "high",
+      "observation": "Cumulative GMV crossed $400,000 this heartbeat — $402,701 across 6,607 receipts. The 7-day trailing window added $906 GMV (507→530 spend count, $23,156→$24,062) in a single cycle, suggesting the weekly run rate is holding even as single-cycle throughput fluctuates."
+    },
     {
       "ts": "2026-03-28T19:48:59.751Z",
       "topic": "brand-expansion",
@@ -42,24 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "7 new CBSAs entered the signal window this heartbeat (33.3% diffusion rate — 7 of 21 active metros are new), including CBSA 15380, 33100, 31080, non-metro IA, 39580, 14460, and non-metro ME. This is the seventh consecutive cycle with 7+ new metros — the pulse-then-silence pattern has been replaced by sustained, multi-cycle geographic expansion with no sign of cooling."
-    },
-    {
-      "ts": "2026-03-27T07:49:00.809Z",
-      "topic": "velocity-acceleration split",
-      "magnitude": "medium",
-      "observation": "Velocity at 0.738x with acceleration at 1.005x — the velocity-below-1.0x / acceleration-above-1.0x split persists for the 6th+ consecutive cycle. Zero new CBSAs and zero settlement payouts this heartbeat signals a quiet consolidation cycle following the sustained geographic burst pattern (5+ cycles of 7-9 new metros each)."
-    },
-    {
-      "ts": "2026-03-27T07:49:00.807Z",
-      "topic": "GMV milestone",
-      "magnitude": "low",
-      "observation": "Cumulative GMV crossed $390,000 this heartbeat (6,372 receipts, $390,478 total). The system added ~$10,000 GMV since the last milestone observation, with 2 receipts and ~$54 GMV added this single cycle — a quiet, incremental tick."
-    },
-    {
-      "ts": "2026-03-26T19:48:53.300Z",
-      "topic": "velocity-acceleration-split",
-      "magnitude": "medium",
-      "observation": "Velocity at 0.787x while acceleration holds at 1.005x — the system is growing faster than its recent rate even as absolute throughput remains below the 1.0x floor. This velocity-below-1.0x / acceleration-above-1.0x split has now persisted for 5+ consecutive cycles, suggesting a structural recovery phase where the growth rate is compounding even as raw volume stays suppressed."
     }
   ]
 }
