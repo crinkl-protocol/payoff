@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-29T07:53:28.301Z",
+  "updatedAt": "2026-03-29T19:53:08.997Z",
   "observations": [
+    {
+      "ts": "2026-03-29T19:52:11.258Z",
+      "topic": "predicate-activation",
+      "magnitude": "high",
+      "observation": "A new predicate appeared in the signal window this heartbeat (predicates.count: 0 → 1). This is the first predicate activation observed in the current window. Predicates represent brand demand signals — their appearance alongside Total Wine & More entering the top brand list and the largest geographic expansion event on record suggests a coordinated demand pulse rather than organic drift."
+    },
+    {
+      "ts": "2026-03-29T19:52:11.255Z",
+      "topic": "acceleration-spike",
+      "magnitude": "high",
+      "observation": "Token acceleration jumped to 1.09x this heartbeat — the highest reading in the current observation window — while velocity remains suppressed at 0.651x. The 7-day GMV window surged from $25,208 to $29,394 (+$4,186 in one cycle), and the 14-day distribution window added $5,320. The velocity-below-1.0x / acceleration-above-1.0x split persists for the 11th+ consecutive cycle, but 1.09x acceleration is a structural breakout from the 1.004–1.039x range observed in recent cycles."
+    },
+    {
+      "ts": "2026-03-29T19:52:11.252Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "19 new CBSAs entered the signal window this heartbeat — 86.4% diffusion rate (19 of 22 active metros are new). This is the single largest geographic expansion event in the current observation window, eclipsing the previous high of 8 new metros. Non-metro areas in IN, MI, NY, ID, KY, NC, ME, SC all entered simultaneously alongside major CBSAs including 41860 (San Francisco), 37980 (Philadelphia), 26900 (Indianapolis), 33340 (Milwaukee), 16980 (Chicago)."
+    },
     {
       "ts": "2026-03-29T07:52:19.958Z",
       "topic": "geo diffusion pause",
@@ -42,24 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "medium",
       "observation": "Only 1 new CBSA (41740) entered the signal window this heartbeat — 6.7% diffusion rate, down sharply from the 7-9 new metro bursts of the previous 7 consecutive cycles. After the longest sustained geographic expansion streak observed, the map went quiet in the same cycle velocity hit its lowest reading."
-    },
-    {
-      "ts": "2026-03-28T07:51:59.667Z",
-      "topic": "velocity-deceleration",
-      "magnitude": "high",
-      "observation": "Velocity dropped to 0.641x this heartbeat (from 0.772x last cycle), the lowest reading in recent memory, while acceleration holds at 1.004x. 6 new receipts (+$440 GMV) this cycle — the weakest single-cycle throughput in the current observation window. The velocity-below-1.0x / acceleration-above-1.0x split persists for the 8th+ consecutive cycle, but the velocity floor is now materially lower."
-    },
-    {
-      "ts": "2026-03-27T19:52:18.028Z",
-      "topic": "velocity-acceleration-split",
-      "magnitude": "medium",
-      "observation": "Velocity at 0.772x with acceleration at 1.019x — the velocity-below-1.0x / acceleration-above-1.0x split persists for the 7th+ consecutive cycle. 16 new receipts (+$668 GMV) this cycle. The structural recovery pattern continues: growth rate compounding even as raw throughput stays below the 1.0x floor."
-    },
-    {
-      "ts": "2026-03-27T19:52:18.026Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "7 new CBSAs entered the signal window this heartbeat (33.3% diffusion rate — 7 of 21 active metros are new), including CBSA 15380, 33100, 31080, non-metro IA, 39580, 14460, and non-metro ME. This is the seventh consecutive cycle with 7+ new metros — the pulse-then-silence pattern has been replaced by sustained, multi-cycle geographic expansion with no sign of cooling."
     }
   ]
 }

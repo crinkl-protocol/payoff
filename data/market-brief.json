@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-03-29T07:53:28.298Z",
+  "updatedAt": "2026-03-29T19:53:08.995Z",
   "insights": [
     {
-      "topic": "Deterministic purchase proof vs. probabilistic targeting",
-      "insight": "Each of the 6,607 verified receipts is a confirmed purchase event — not an inferred intent signal. Ad tech charges $5–$150 CPA to model conversions that this protocol settles for ~$0.10 per cryptographically signed receipt, a 50–200x cost delta that isn't a pricing advantage but a structural difference in what's being sold.",
+      "topic": "Verified purchase cost vs. ad tech CPA",
+      "insight": "The protocol settles a verified, cryptographically signed purchase event at roughly $0.10 per receipt — compared to $5–$150 CPA charged by probabilistic ad tech stacks. That is not a marginal efficiency gain; it is a structural repricing of what a confirmed conversion costs.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookieless attribution gap",
-      "insight": "Chrome's cookie deprecation eliminates the primary cross-site tracking primitive that ad tech attribution is built on; device fingerprinting and data brokers remain probabilistic and face tightening GDPR/CCPA exposure. Verified receipt data sidesteps the attribution problem entirely because the receipt is the conversion event, not a downstream inference from it.",
+      "topic": "Post-cookie attribution gap",
+      "insight": "With Chrome cookie deprecation joining Safari and Firefox, the primary cross-site tracking primitive is gone — and device fingerprinting, first-party data, and data brokers all produce signals, not proof. A verified receipt is the only artifact that eliminates the attribution problem rather than approximating around it.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical commerce dominance in verified GMV",
-      "insight": "Grocery, dining, and gas account for 56% of receipts in the 14-day window — categories where brand marketers have historically had the weakest closed-loop attribution. Walmart alone generated 86 verified receipts in 14 days, with Costco and Target also in the top five, confirming the signal set covers mass-market physical retail, not just digital transactions.",
+      "topic": "Physical commerce dominance in the signal set",
+      "insight": "Grocery, Dining, and Gas account for 56% of receipts across two consecutive 14-day observation windows — a structurally stable share, not a sampling artifact. Brands competing in everyday physical categories have a higher-density signal pool here than in digital-first panels.",
       "magnitude": "high"
+    },
+    {
+      "topic": "Walmart concentration and premium grocery entry",
+      "insight": "Walmart holds 84 of the top brand receipts in the trailing 14-day window; Whole Foods Market entered the brand list for the first time on 2026-03-28. That pairing — mass and premium grocery in the same verified dataset — signals category range expanding beyond value-tier shoppers.",
+      "magnitude": "medium"
     },
     {
       "topic": "Non-metro geographic diffusion pattern",
-      "insight": "Active receipt submission spans 21 CBSAs with documented expansion into non-metro AZ, CA, FL, IA, KY, MA, ME, MN, NC, NJ, WV, and WI — not concentrated in top-10 media markets. The diffusion pattern is consistent with organic social-graph spread, which tends to produce more representative consumer panels than market-by-market campaign rollouts.",
+      "insight": "Active coverage spans 21+ CBSAs with documented burst expansion into non-metro AZ, CA, FL, IA, KY, MA, ME, MN, NC, NJ, NV, NY, OH, SC, WI, and WV — not concentrated in top-10 DMAs. The diffusion pattern is consistent with organic social-graph spread, which tends to produce more durable geographic reach than paid campaign rollouts.",
       "magnitude": "medium"
     },
     {
-      "topic": "Premium grocery signal emerging",
-      "insight": "Whole Foods Market entered the top brand list for the first time on 2026-03-28, the first new brand to appear in recent cycles. For CPG and premium grocery marketers, this is an early indicator that the verified receipt panel is beginning to capture higher-income purchase behavior alongside mass-market retail.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Velocity-acceleration divergence as a leading indicator",
-      "insight": "Absolute receipt throughput velocity has stayed below 1.0x for 9+ consecutive cycles while acceleration has stayed above 1.0x for the same stretch — meaning the growth rate is compounding even as single-cycle volume appears suppressed. The lowest velocity reading (0.641x) was immediately followed by the highest acceleration reading (1.039x) and an 8-CBSA geographic burst, suggesting quiet cycles precede expansion rather than signal decay.",
-      "magnitude": "medium"
+      "topic": "Scale checkpoint: $405K GMV across 6,632 receipts",
+      "insight": "The protocol has crossed $400K in verified GMV with no observed deceleration in category mix or geographic coverage across milestone thresholds. At current 7-day run rate ($25,208 GMV, 546 receipts), the dataset is compounding — not plateauing — which matters for brands evaluating whether the signal pool is large enough to act on.",
+      "magnitude": "high"
     }
   ]
 }
