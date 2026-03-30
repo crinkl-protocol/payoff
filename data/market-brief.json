@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-03-29T19:53:08.995Z",
+  "updatedAt": "2026-03-30T19:49:54.152Z",
   "insights": [
     {
-      "topic": "Verified purchase cost vs. ad tech CPA",
-      "insight": "The protocol settles a verified, cryptographically signed purchase event at roughly $0.10 per receipt — compared to $5–$150 CPA charged by probabilistic ad tech stacks. That is not a marginal efficiency gain; it is a structural repricing of what a confirmed conversion costs.",
+      "topic": "Deterministic vs. probabilistic signal value",
+      "insight": "Ad tech sells probabilistic purchase inference at $5–$150 CPA; this protocol settles verified purchase events at ~$0.10 per receipt — a 50–200x cost delta that isn't incremental improvement, it's a different category of signal entirely.",
       "magnitude": "high"
     },
     {
-      "topic": "Post-cookie attribution gap",
-      "insight": "With Chrome cookie deprecation joining Safari and Firefox, the primary cross-site tracking primitive is gone — and device fingerprinting, first-party data, and data brokers all produce signals, not proof. A verified receipt is the only artifact that eliminates the attribution problem rather than approximating around it.",
+      "topic": "Online commerce expansion",
+      "insight": "Etsy's entry into the top brand list marks the first digital-native marketplace in the dataset, confirming the protocol has moved beyond physical retail receipts into purchase confirmation emails — the natural expansion path for DKIM-based verification.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical commerce dominance in the signal set",
-      "insight": "Grocery, Dining, and Gas account for 56% of receipts across two consecutive 14-day observation windows — a structurally stable share, not a sampling artifact. Brands competing in everyday physical categories have a higher-density signal pool here than in digital-first panels.",
+      "topic": "Dataset moat compounds over time",
+      "insight": "6,792 cryptographically verified receipts across 14 CBSAs and growing brand diversity create a network effect where each new receipt increases the signal value of all prior receipts — a dataset that cannot be replicated without rebuilding the network from scratch.",
       "magnitude": "high"
     },
     {
-      "topic": "Walmart concentration and premium grocery entry",
-      "insight": "Walmart holds 84 of the top brand receipts in the trailing 14-day window; Whole Foods Market entered the brand list for the first time on 2026-03-28. That pairing — mass and premium grocery in the same verified dataset — signals category range expanding beyond value-tier shoppers.",
+      "topic": "Geographic diffusion pulse pattern",
+      "insight": "A single cycle added 19 new CBSAs (86.4% diffusion rate), including Chicago, Philadelphia, and San Francisco, following a complete quiet cycle — the expansion is non-linear and concentrated, meaning geographic coverage can shift materially in a single heartbeat.",
       "magnitude": "medium"
     },
     {
-      "topic": "Non-metro geographic diffusion pattern",
-      "insight": "Active coverage spans 21+ CBSAs with documented burst expansion into non-metro AZ, CA, FL, IA, KY, MA, ME, MN, NC, NJ, NV, NY, OH, SC, WI, and WV — not concentrated in top-10 DMAs. The diffusion pattern is consistent with organic social-graph spread, which tends to produce more durable geographic reach than paid campaign rollouts.",
+      "topic": "Velocity/acceleration divergence as momentum signal",
+      "insight": "Raw throughput velocity has been below 1.0x for 11+ consecutive cycles while acceleration holds above 1.0x — the 7-day GMV window jumped to $36,436 (+$4,075 in one cycle), consistent with compounding momentum beneath suppressed surface numbers.",
       "magnitude": "medium"
     },
     {
-      "topic": "Scale checkpoint: $405K GMV across 6,632 receipts",
-      "insight": "The protocol has crossed $400K in verified GMV with no observed deceleration in category mix or geographic coverage across milestone thresholds. At current 7-day run rate ($25,208 GMV, 546 receipts), the dataset is compounding — not plateauing — which matters for brands evaluating whether the signal pool is large enough to act on.",
-      "magnitude": "high"
+      "topic": "Brand category drift toward specialty and digital",
+      "insight": "The top brand list has shifted from big-box anchors (Walmart, Home Depot) toward specialty retail (Whole Foods, Total Wine) and now online marketplaces (Etsy), signaling that verified commerce data is tracking higher-intent, higher-margin purchase categories.",
+      "magnitude": "medium"
     }
   ]
 }

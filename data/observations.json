@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-03-29T19:53:08.997Z",
+  "updatedAt": "2026-03-30T19:49:54.153Z",
   "observations": [
+    {
+      "ts": "2026-03-30T19:48:57.391Z",
+      "topic": "velocity-acceleration-split",
+      "magnitude": "high",
+      "observation": "Velocity recovered to 0.71x this heartbeat (up from 0.594x low last cycle) while acceleration holds at 1.042x — the velocity-below-1.0x / acceleration-above-1.0x split persists for the 12th+ consecutive cycle. The 7-day GMV window jumped from $37,333 to $40,242 (+$2,909 in one cycle), the first time the 7-day window has crossed $40K."
+    },
+    {
+      "ts": "2026-03-30T19:48:57.389Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "12 new CBSAs entered the signal window this heartbeat (70.6% diffusion rate, 12 of 17 active metros are new), including non-metro areas in AZ, MN, CA, WY and CBSAs 37140, 24540, 17410, 27060, 40380, 33460, 35840, 36837. This is the second consecutive high-diffusion heartbeat following last cycle's 19-CBSA record, suggesting sustained geographic expansion rather than a one-cycle anomaly."
+    },
+    {
+      "ts": "2026-03-30T07:49:03.048Z",
+      "topic": "brand-expansion",
+      "magnitude": "medium",
+      "observation": "Etsy entered the top brand list this heartbeat — the first marketplace/e-commerce brand to appear in the verified top list. Combined with Total Wine & More and Whole Foods Market in recent cycles, the brand mix is expanding beyond grocery and big-box retail into specialty and online commerce categories."
+    },
+    {
+      "ts": "2026-03-30T07:49:03.046Z",
+      "topic": "gmv-milestone",
+      "magnitude": "medium",
+      "observation": "Cumulative GMV reached $438,480.51 across 6,792 receipts this heartbeat. The 7-day trailing window surged from $32,361 to $36,436 (+$4,075 in one cycle), the largest 7-day window increase in recent cycles — suggesting weekly run rate is accelerating even as single-cycle throughput remains moderate (12 receipts, ~$1,023 GMV this cycle)."
+    },
     {
       "ts": "2026-03-29T19:52:11.258Z",
       "topic": "predicate-activation",
@@ -36,30 +60,6 @@
       "topic": "GMV milestone",
       "magnitude": "high",
       "observation": "Cumulative GMV crossed $400,000 this heartbeat — $402,701 across 6,607 receipts. The 7-day trailing window added $906 GMV (507→530 spend count, $23,156→$24,062) in a single cycle, suggesting the weekly run rate is holding even as single-cycle throughput fluctuates."
-    },
-    {
-      "ts": "2026-03-28T19:48:59.751Z",
-      "topic": "brand-expansion",
-      "magnitude": "medium",
-      "observation": "Whole Foods Market entered the top brand list this heartbeat — the first new brand to appear in the top list in recent cycles. 21 receipts added this cycle (6517→6538), with $1,275 GMV, pushing cumulative total to $399,984 — within $16 of the $400K milestone."
-    },
-    {
-      "ts": "2026-03-28T19:48:59.749Z",
-      "topic": "velocity-acceleration-split",
-      "magnitude": "high",
-      "observation": "Velocity at 0.674x (down from 0.641x last cycle) while acceleration jumps to 1.039x — the highest acceleration reading in recent memory. The velocity-below-1.0x / acceleration-above-1.0x split persists for the 9th+ consecutive cycle, but the acceleration spike suggests the growth rate is compounding faster even as raw throughput stays suppressed."
-    },
-    {
-      "ts": "2026-03-28T19:48:59.747Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "8 new CBSAs entered the signal window this heartbeat (40.0% diffusion rate — 8 of 20 active metros are new), including CBSAs 35840, 34900, 17410, 16700, 39580, 31080, 22220, and 14460. This is the eighth consecutive cycle with 7+ new metros — sustained multi-cycle geographic expansion continues with no sign of cooling."
-    },
-    {
-      "ts": "2026-03-28T07:52:16.212Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "medium",
-      "observation": "Only 1 new CBSA (41740) entered the signal window this heartbeat — 6.7% diffusion rate, down sharply from the 7-9 new metro bursts of the previous 7 consecutive cycles. After the longest sustained geographic expansion streak observed, the map went quiet in the same cycle velocity hit its lowest reading."
     }
   ]
 }
