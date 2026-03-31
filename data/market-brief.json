@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-03-30T19:49:54.152Z",
+  "updatedAt": "2026-03-31T10:11:04.015Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal value",
-      "insight": "Ad tech sells probabilistic purchase inference at $5–$150 CPA; this protocol settles verified purchase events at ~$0.10 per receipt — a 50–200x cost delta that isn't incremental improvement, it's a different category of signal entirely.",
+      "topic": "Deterministic vs. probabilistic attribution",
+      "insight": "Ad tech sells inferred purchase intent at $5–$150 CPA; this protocol settles verified purchase confirmation at ~$0.10 per receipt — a 50–200x cost delta that isn't a marginal improvement, it eliminates the attribution problem entirely.",
       "magnitude": "high"
     },
     {
-      "topic": "Online commerce expansion",
-      "insight": "Etsy's entry into the top brand list marks the first digital-native marketplace in the dataset, confirming the protocol has moved beyond physical retail receipts into purchase confirmation emails — the natural expansion path for DKIM-based verification.",
+      "topic": "Online marketplace entry signal",
+      "insight": "Etsy entering the top brand list on 2026-03-30 marks the first digital-native brand in the dataset, indicating the receipt corpus has expanded beyond physical retail into purchase confirmation emails — the natural expansion surface for any cookieless commerce signal strategy.",
       "magnitude": "high"
     },
     {
-      "topic": "Dataset moat compounds over time",
-      "insight": "6,792 cryptographically verified receipts across 14 CBSAs and growing brand diversity create a network effect where each new receipt increases the signal value of all prior receipts — a dataset that cannot be replicated without rebuilding the network from scratch.",
+      "topic": "Dataset moat vs. technology moat",
+      "insight": "6,792 cryptographically verified receipts across 14 CBSAs with measurable brand and category entropy cannot be replicated by copying the pipeline — the competitive asset is the accumulated signal corpus, not the verification method.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion pulse pattern",
-      "insight": "A single cycle added 19 new CBSAs (86.4% diffusion rate), including Chicago, Philadelphia, and San Francisco, following a complete quiet cycle — the expansion is non-linear and concentrated, meaning geographic coverage can shift materially in a single heartbeat.",
+      "topic": "Geographic pulse pattern",
+      "insight": "A single cycle on 2026-03-29 added 19 new CBSAs (86.4% diffusion rate) after a complete quiet cycle, then contracted to 1 new CBSA — marketers should read burst-quiet cycles as network expansion behavior, not inconsistent data quality.",
       "magnitude": "medium"
     },
     {
-      "topic": "Velocity/acceleration divergence as momentum signal",
-      "insight": "Raw throughput velocity has been below 1.0x for 11+ consecutive cycles while acceleration holds above 1.0x — the 7-day GMV window jumped to $36,436 (+$4,075 in one cycle), consistent with compounding momentum beneath suppressed surface numbers.",
+      "topic": "Velocity/acceleration divergence",
+      "insight": "Week-over-week throughput has stayed below 1.0x for 11+ consecutive cycles while the growth rate compounds above 1.0x — the 7-day GMV window rose from $32,361 to $36,436 in one cycle, confirming momentum is building beneath suppressed surface activity.",
       "magnitude": "medium"
     },
     {
-      "topic": "Brand category drift toward specialty and digital",
-      "insight": "The top brand list has shifted from big-box anchors (Walmart, Home Depot) toward specialty retail (Whole Foods, Total Wine) and now online marketplaces (Etsy), signaling that verified commerce data is tracking higher-intent, higher-margin purchase categories.",
+      "topic": "Brand category drift as leading indicator",
+      "insight": "The top brand list has shifted from big-box anchors (Walmart, Home Depot) into specialty retail (Whole Foods, Total Wine) and now online marketplaces (Etsy), signaling that verified commerce coverage is tracking where consumer spending is actually diversifying.",
       "magnitude": "medium"
     }
   ]

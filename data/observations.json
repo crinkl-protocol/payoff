@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-30T19:49:54.153Z",
+  "updatedAt": "2026-03-31T10:11:05.627Z",
   "observations": [
+    {
+      "ts": "2026-03-31T07:49:02.802Z",
+      "topic": "velocity-acceleration-split",
+      "magnitude": "medium",
+      "observation": "Velocity recovered to 0.733x (up from 0.594x low two cycles ago) while acceleration holds at 1.002x — the velocity-below-1.0x / acceleration-above-1.0x split persists for the 13th+ consecutive cycle. The split is narrowing: velocity is climbing back toward 1.0x while acceleration is compressing toward 1.0x from above."
+    },
+    {
+      "ts": "2026-03-31T07:49:02.800Z",
+      "topic": "7d-gmv-window",
+      "magnitude": "high",
+      "observation": "The 7-day GMV window surged from $46,425 to $49,101 this heartbeat (+$2,676 in one cycle), the highest 7-day reading in the observation window. Cumulative GMV reached $459,130 across 6,988 receipts — the weekly run rate is now consistently above $40K and trending toward $50K."
+    },
     {
       "ts": "2026-03-30T19:48:57.391Z",
       "topic": "velocity-acceleration-split",
@@ -48,18 +60,6 @@
       "topic": "geo diffusion pause",
       "magnitude": "medium",
       "observation": "Zero new CBSAs entered the signal window this heartbeat — 0% diffusion rate, down from 40% (8 new metros) last cycle. After 8+ consecutive cycles with 7+ new metros each, the map went completely quiet in the same cycle velocity hit a new low. Settlement velocity also 0 payouts this period."
-    },
-    {
-      "ts": "2026-03-29T07:52:19.956Z",
-      "topic": "velocity floor",
-      "magnitude": "high",
-      "observation": "Velocity dropped to 0.594x this heartbeat — the lowest reading in the current observation window — while acceleration holds at 1.007x. This extends the velocity-below-1.0x / acceleration-above-1.0x split to the 10th+ consecutive cycle, but 0.594x represents a material new floor below the 0.641x low recorded last cycle."
-    },
-    {
-      "ts": "2026-03-29T07:52:19.953Z",
-      "topic": "GMV milestone",
-      "magnitude": "high",
-      "observation": "Cumulative GMV crossed $400,000 this heartbeat — $402,701 across 6,607 receipts. The 7-day trailing window added $906 GMV (507→530 spend count, $23,156→$24,062) in a single cycle, suggesting the weekly run rate is holding even as single-cycle throughput fluctuates."
     }
   ]
 }

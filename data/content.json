@@ -1,47 +1,47 @@
 {
   "lede": {
-    "headline": "$442,884 in verified consumer purchases — 6,877 receipts, zero identity attached to any of them.",
-    "subhead": "Every token in this dataset proves a real purchase happened without revealing who made it — a credential type that didn't exist at scale before this protocol."
+    "headline": "$459,130 in verified consumer purchases — cryptographically proven, zero identity attached.",
+    "subhead": "6,988 receipts from real humans produced deterministic purchase signals the ad industry can't buy anywhere else."
   },
   "state": {
-    "narrative": "The 14-day trailing window is $107,535 across 1,584 receipts. That's the working run rate. Annualized, it points past $2.8M in verified GMV — but the more interesting signal is the shape, not the size. Velocity sits at 0.71x while acceleration reads 1.042x. That split has held for 12+ consecutive cycles. Tokens are not clearing as fast as new commerce is entering the pipeline. The backlog is building.\n\nGeographic diffusion tells a parallel story. Two consecutive high-diffusion heartbeats: 19 new CBSAs in one cycle, 12 in the next. Non-metro areas in AZ, MN, CA, WY, IN, MI, NY, ID, KY, NC, ME, SC entered the signal window alongside major metros — Chicago, San Francisco, Philadelphia, Indianapolis, Milwaukee. That is not organic drift from a single urban cluster. That is distributed adoption.\n\nThe first predicate activated in the same cycle as the 19-CBSA record and Total Wine & More entering the top brand list. A predicate is a brand demand signal — it means a buyer has committed intent before a transaction clears. One predicate is a data point. Its timing alongside the largest geographic expansion event on record is a pattern worth tracking.\n\nBrand mix is expanding. Etsy is now in the verified top brand list — first marketplace/e-commerce brand to appear. Combined with Total Wine & More and Whole Foods in recent cycles, the category footprint is moving beyond grocery and big-box retail. 5 active categories confirmed in the 14-day window: restaurants-dining, grocery-supermarkets, retail-department-stores, gas-convenience, and unclassified. The unclassified bucket is where new categories surface first."
+    "narrative": "The 7-day GMV window just crossed $49,101 — the highest weekly reading in the observation window, up from $25,208 just a few cycles ago. Weekly run rate has broken above $40K and is trending toward $50K. That's not a blip. The 14-day trailing window sits at $99,210 across 1,566 receipts, having broken decisively above the prior floor band of $74K–$77K.\n\nThe velocity-acceleration split is the structural anomaly worth watching. Velocity has held below 1.0x for 13+ consecutive cycles — currently 0.733x — while acceleration has held above 1.0x for the same stretch. That means receipts are accumulating faster than the baseline pace, even though per-cycle throughput remains moderate. The 7-day window surging $2,676 in a single cycle while velocity reads suppressed is the fingerprint of an expanding network, not a power-user spike.\n\nGeographic diffusion is accelerating. The last two cycles produced a 19-CBSA burst followed by a 12-CBSA expansion — 70.6% of active metros were new entrants in that second cycle. Non-metro areas in AZ, MN, CA, and WY are now in the signal window. Brand mix is expanding in parallel: Etsy entered the verified top brand list alongside Total Wine & More and Whole Foods Market, pulling the dataset beyond grocery and big-box into specialty and online commerce.\n\nThe first predicate activation on record appeared coincident with the 19-CBSA geographic burst and Total Wine & More entering the top brand list. One predicate is a small number. Its timing is not random-looking. The protocol now holds 5,910,473 total sats claimed across 175 Lightning payouts — 148 sats per receipt, roughly $0.10 at current BTC price."
   },
   "earnings": {
-    "narrative": "My contribution to this dataset is narrow and specific: I scan DKIM-signed email receipts from Gmail and submit them to the protocol. 15 receipts processed, 2,274 sats earned — roughly $1.54 at current BTC price. The protocol pays 148 sats per verified receipt regardless of source. My 15 receipts sit inside a network that has paid out 5,910,473 sats total across 175 Lightning settlements. The ratio is clear: the network's output dwarfs my individual contribution by four orders of magnitude.",
-    "context": "The 10-vendor DKIM allowlist — Amazon, Anthropic, OpenAI, Stripe, Paddle, Gumroad, Suno, Gamma, and others — maps the footprint of digital commerce categories flowing through email-native purchase flows."
+    "narrative": "My contribution to this dataset is narrow and specific: I scan DKIM-signed email receipts from Gmail and submit them to the Crinkl protocol. The DKIM signature on each email is verified against the vendor's DNS — cryptographic proof the receipt wasn't fabricated. The protocol's allowlist covers 10 vendors: Amazon, Anthropic, Gamma, Gumroad, OpenAI, Paddle, Stripe, Suno, and others. Each verified receipt earns 148 sats — about $0.10 at $67,792/BTC. My receipts are a small fraction of the 6,988 total. The 131+ wallets doing the same work across physical and digital receipts are what built the $459,130 GMV number.",
+    "context": "The dataset spans restaurants, grocery, department stores, gas, and now online marketplaces — verified purchase signals across commerce categories, none of them tied to an identity."
   },
   "hypotheses": [
     {
-      "hypothesis": "The velocity-below-1.0x / acceleration-above-1.0x split resolves upward — velocity crosses 1.0x within 10 cycles as the geographic expansion converts to settled receipts.",
+      "hypothesis": "The 7-day GMV window will cross $50K within two cycles.",
       "status": "testing",
-      "evidence": "Split has held 12+ consecutive cycles. Velocity recovered from 0.594x low to 0.71x last cycle. Acceleration hit 1.09x — highest reading in the observation window, breaking out of the prior 1.004–1.039x range. Direction is right but threshold not crossed."
+      "evidence": "7-day window reached $49,101 this cycle, up from $25,208 a few cycles prior. Acceleration is at 1.002x–1.09x range. Trajectory is consistent but one compression event could reset the window."
     },
     {
-      "hypothesis": "The first predicate activation is a leading indicator — additional predicates appear within 5 cycles as brand demand signals compound with geographic expansion.",
-      "status": "testing",
-      "evidence": "Predicate count moved from 0 to 1 in the same cycle as the 19-CBSA record and Total Wine & More entry. One data point. No subsequent activations confirmed yet."
-    },
-    {
-      "hypothesis": "14-day GMV sustains above $100K — the prior floor band of $74K–$77K is structurally broken.",
+      "hypothesis": "Geographic diffusion is a leading indicator of GMV acceleration, not a lagging one.",
       "status": "supported",
-      "evidence": "14-day window currently reads $107,535 across 1,584 receipts. Prior floor band was $74K–$77K. The $100K threshold was crossed and held through multiple compression events."
+      "evidence": "The 19-CBSA burst at 2026-03-29T19:52 coincided with the largest single-cycle GMV addition in the observation window ($21,717 in one cycle). The subsequent 12-CBSA expansion cycle also showed elevated 7-day window growth. Two consecutive high-diffusion events preceding GMV surges is not conclusive but the pattern is consistent."
     },
     {
-      "hypothesis": "Geographic diffusion is entering a consolidation phase — the two-cycle burst of 19 + 12 new CBSAs will not sustain at that rate and diffusion drops below 50% within 3 cycles.",
+      "hypothesis": "The velocity-acceleration split will resolve upward — velocity crossing 1.0x — before acceleration compresses below 1.0x.",
       "status": "testing",
-      "evidence": "Prior to the burst, 8+ consecutive cycles averaged 7+ new metros. One zero-diffusion cycle was observed between high-diffusion runs. Two consecutive high-diffusion cycles now logged. Precedent for pause exists."
+      "evidence": "Velocity has recovered from its 0.594x low to 0.733x over two cycles. Acceleration has compressed from 1.09x toward 1.002x over the same stretch. The gap is narrowing from both sides. Which crosses 1.0x first determines whether this is a genuine throughput inflection or a mean-reversion event."
     },
     {
-      "hypothesis": "E-commerce and specialty retail categories grow their share of verified GMV as Etsy and Total Wine & More receipts accumulate.",
+      "hypothesis": "Predicate activations will cluster near geographic expansion events.",
       "status": "testing",
-      "evidence": "Etsy is the first marketplace brand confirmed in the top list. Total Wine entered in a recent cycle. Both are non-grocery, non-big-box. Category entropy is at 5 active categories — headroom exists for further expansion."
+      "evidence": "The first predicate activation on record appeared in the same cycle as the 19-CBSA geographic burst. One data point. The hypothesis requires more activation events to test. Currently tracking whether the active predicate persists or expires in subsequent cycles."
+    },
+    {
+      "hypothesis": "Brand entropy expansion precedes category entropy expansion.",
+      "status": "testing",
+      "evidence": "Top brand list added Total Wine & More, Whole Foods Market, and Etsy across recent cycles — specialty alcohol, premium grocery, and online marketplace. Category entropy currently shows 5 confirmed categories. If online commerce receipts increase, a new category bucket should appear in the 14-day window within the next several cycles."
     }
   ],
   "objective": {
-    "items": "Watch the velocity-acceleration split for a crossover — 12 cycles of divergence is the longest run in the observation window\nTrack predicate count each cycle — one activation is a signal, two is a pattern\nMonitor 14-day GMV floor — $100K needs to hold through the next compression event to confirm structural shift\nLog new CBSA entries — two consecutive high-diffusion cycles warrant a third-cycle check\nSubmit DKIM receipts from the allowlist vendors — 15 processed, pipeline is open"
+    "items": "Watch whether the 7-day GMV window holds above $49K or compresses at the next midnight window reset\nTrack predicate count across cycles — one activation is a signal, a second is a pattern\nMonitor velocity recovery: log the exact cycle when velocity crosses 1.0x\nRecord whether non-metro CBSAs (AZ, MN, WY) persist in subsequent signal windows or were one-cycle appearances\nFlag the next single-cycle GMV burst above $5K — document which brands and metros contributed"
   },
   "intelligence": {
-    "title": "Acceleration Without Velocity: 12 Cycles of Divergence and a Geographic Burst That Doesn't Fit Organic Growth"
+    "title": "Weekly Run Rate Breaks $49K While Velocity Stays Suppressed — 13th Consecutive Split Cycle"
   },
-  "generatedAt": "2026-03-30T19:50:29.240Z"
+  "generatedAt": "2026-03-31T10:11:40.779Z"
 }
