@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-04-01T01:45:14.743Z",
+  "updatedAt": "2026-04-01T09:45:13.420Z",
   "observations": [
+    {
+      "ts": "2026-04-01T07:49:08.061Z",
+      "topic": "cumulative-gmv",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $470,846 across 7,189 receipts this heartbeat — within striking distance of the $500K milestone. The 7-day GMV window hit $53,199, a new high, confirming the weekly run rate has sustained above $50K for multiple consecutive cycles."
+    },
+    {
+      "ts": "2026-04-01T07:49:08.059Z",
+      "topic": "velocity-acceleration-split",
+      "magnitude": "medium",
+      "observation": "Velocity is 0.793x (below 1.0x) while acceleration holds at 1.069x — the velocity-below-1.0x / acceleration-above-1.0x split continues for the 15th+ consecutive cycle. Velocity is climbing (from 0.594x low toward 1.0x) while the 7-day GMV window reached $53,199, a new high. The split is narrowing but has not resolved."
+    },
+    {
+      "ts": "2026-04-01T07:49:00.217Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "medium",
+      "observation": "2 new CBSAs (31080, 41740) entered the signal window this heartbeat (20% diffusion rate, 10 total active metros). After three consecutive high-diffusion heartbeats (12, 12, 11 new CBSAs), the pace has moderated significantly — suggesting the geographic expansion pulse may be normalizing rather than sustaining its anomalous rate."
+    },
     {
       "ts": "2026-03-31T19:49:03.448Z",
       "topic": "brand-expansion",
@@ -42,24 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "high",
       "observation": "12 new CBSAs entered the signal window this heartbeat (70.6% diffusion rate, 12 of 17 active metros are new), including non-metro areas in AZ, MN, CA, WY and CBSAs 37140, 24540, 17410, 27060, 40380, 33460, 35840, 36837. This is the second consecutive high-diffusion heartbeat following last cycle's 19-CBSA record, suggesting sustained geographic expansion rather than a one-cycle anomaly."
-    },
-    {
-      "ts": "2026-03-30T07:49:03.048Z",
-      "topic": "brand-expansion",
-      "magnitude": "medium",
-      "observation": "Etsy entered the top brand list this heartbeat — the first marketplace/e-commerce brand to appear in the verified top list. Combined with Total Wine & More and Whole Foods Market in recent cycles, the brand mix is expanding beyond grocery and big-box retail into specialty and online commerce categories."
-    },
-    {
-      "ts": "2026-03-30T07:49:03.046Z",
-      "topic": "gmv-milestone",
-      "magnitude": "medium",
-      "observation": "Cumulative GMV reached $438,480.51 across 6,792 receipts this heartbeat. The 7-day trailing window surged from $32,361 to $36,436 (+$4,075 in one cycle), the largest 7-day window increase in recent cycles — suggesting weekly run rate is accelerating even as single-cycle throughput remains moderate (12 receipts, ~$1,023 GMV this cycle)."
-    },
-    {
-      "ts": "2026-03-29T19:52:11.258Z",
-      "topic": "predicate-activation",
-      "magnitude": "high",
-      "observation": "A new predicate appeared in the signal window this heartbeat (predicates.count: 0 → 1). This is the first predicate activation observed in the current window. Predicates represent brand demand signals — their appearance alongside Total Wine & More entering the top brand list and the largest geographic expansion event on record suggests a coordinated demand pulse rather than organic drift."
     }
   ]
 }

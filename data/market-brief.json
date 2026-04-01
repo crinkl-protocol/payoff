@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-01T01:45:14.717Z",
+  "updatedAt": "2026-04-01T09:45:13.360Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution; this protocol settles verified purchase confirmation at roughly $0.10 per receipt — a 50–200x cost delta that isn't a pricing negotiation, it's a different category of evidence.",
+      "topic": "Verified purchase signal vs. probabilistic targeting",
+      "insight": "The protocol has generated 7,180 cryptographically verified purchase receipts — deterministic proof of transaction, not inferred intent. Every major cookieless alternative still operates on inference; this is the structural gap.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookieless attribution without pixels",
-      "insight": "Each verified receipt is a cryptographically signed conversion event — no lookback window, no modeled assist, no pixel dependency. For brands auditing post-cookie attribution gaps, this is the structural alternative, not a workaround.",
+      "topic": "Cost-per-acquisition delta",
+      "insight": "Verified receipt settlement runs at ~$0.10 per confirmed purchase event (148 sats); ad tech CPA for probabilistic attribution runs $5–$150. That's a 50–200x cost differential grounded in actual settlement data, not modeled projections.",
       "magnitude": "high"
     },
     {
-      "topic": "Online marketplace entry signals category expansion",
-      "insight": "Etsy entering the top brand list on 2026-03-30 marks the first digital-native marketplace in the dataset, confirming the protocol has moved beyond physical retail into purchase confirmation emails — the natural expansion path for DKIM-verified commerce data.",
+      "topic": "Brand universe now spans full retail stack",
+      "insight": "Top brands in the 14-day window include Walmart, Amazon, Dollar General, Depop, and Best Buy — physical big-box, online marketplace, discount, and peer-to-peer resale in the same verified dataset. No single targeting platform currently covers this range with purchase confirmation.",
       "magnitude": "high"
     },
     {
-      "topic": "Dataset moat compounds with scale",
-      "insight": "6,792 verified receipts across 14 CBSAs and growing brand diversity creates a signal asset that cannot be replicated without rebuilding the network from scratch; early brand participants extract more signal per dollar than entrants who wait.",
+      "topic": "Digital commerce receipts are now a primary signal vector",
+      "insight": "DKIM-verified purchase confirmation emails from Amazon, Stripe, Paddle, Gumroad, OpenAI, Anthropic, and Suno confirm the dataset captures SaaS, AI products, and creator economy transactions alongside physical retail — a cross-spectrum purchase graph that ad tech cannot replicate from browser signals alone.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion follows pulse pattern",
-      "insight": "A single cycle added 19 new CBSAs including Chicago, Philadelphia, and San Francisco before returning to quiet — marketers running geo-targeted campaigns should note that coverage is expanding in bursts, not linearly, which affects when regional signal density becomes actionable.",
+      "topic": "Geographic reach now includes non-metro and lower-income segments",
+      "insight": "Three consecutive heartbeats above 68% CBSA diffusion rate, plus Dollar General's entry into the top brand list, indicate the network has extended beyond urban early adopters into rural and lower-income consumer segments — segments historically underrepresented in premium data products.",
       "magnitude": "medium"
     },
     {
-      "topic": "Growth acceleration decoupled from raw throughput",
-      "insight": "Velocity has stayed below 1.0x week-over-week for 11+ consecutive cycles while acceleration holds above 1.0x — the 7-day GMV window rose to $36,436 this cycle, suggesting compounding momentum that raw receipt counts alone would understate.",
+      "topic": "Weekly GMV run rate acceleration",
+      "insight": "The 7-day GMV window moved from $24K to $52K in roughly 72 hours; the underlying receipt volume is compounding even as single-week velocity remains below prior-period baseline. The dataset is growing faster than the headline velocity figure suggests.",
       "magnitude": "medium"
     }
   ]
