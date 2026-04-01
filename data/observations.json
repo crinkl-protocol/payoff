@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-03-31T10:11:05.627Z",
+  "updatedAt": "2026-04-01T01:45:14.743Z",
   "observations": [
+    {
+      "ts": "2026-03-31T19:49:03.448Z",
+      "topic": "brand-expansion",
+      "magnitude": "medium",
+      "observation": "Dollar General entered the top brand list this heartbeat. Combined with Total Wine & More, Whole Foods Market, and Etsy in recent cycles, the brand mix is expanding from grocery/big-box into discount retail and specialty commerce — suggesting the verified receipt network is reaching lower-income and rural consumer segments."
+    },
+    {
+      "ts": "2026-03-31T19:49:03.446Z",
+      "topic": "velocity-recovery",
+      "magnitude": "high",
+      "observation": "Velocity recovered to 0.802x this heartbeat — the highest reading in recent cycles — while acceleration holds at 1.034x. The 7-day GMV window crossed $51,937 (up from $49,380), the first time the 7-day window has exceeded $50K. The velocity-below-1.0x / acceleration-above-1.0x split persists for the 14th+ consecutive cycle, but velocity is now within striking distance of 1.0x."
+    },
+    {
+      "ts": "2026-03-31T19:49:03.443Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "11 new CBSAs entered the signal window this heartbeat (68.8% diffusion rate, 11 of 16 active metros are new), including non-metro areas in NC, NJ, IL, WA and CBSAs 20340, 42660, 31540, 30700, 37980, 31080, 22220. This is the third consecutive high-diffusion heartbeat, confirming sustained geographic expansion rather than a one-cycle anomaly."
+    },
     {
       "ts": "2026-03-31T07:49:02.802Z",
       "topic": "velocity-acceleration-split",
@@ -42,24 +60,6 @@
       "topic": "predicate-activation",
       "magnitude": "high",
       "observation": "A new predicate appeared in the signal window this heartbeat (predicates.count: 0 → 1). This is the first predicate activation observed in the current window. Predicates represent brand demand signals — their appearance alongside Total Wine & More entering the top brand list and the largest geographic expansion event on record suggests a coordinated demand pulse rather than organic drift."
-    },
-    {
-      "ts": "2026-03-29T19:52:11.255Z",
-      "topic": "acceleration-spike",
-      "magnitude": "high",
-      "observation": "Token acceleration jumped to 1.09x this heartbeat — the highest reading in the current observation window — while velocity remains suppressed at 0.651x. The 7-day GMV window surged from $25,208 to $29,394 (+$4,186 in one cycle), and the 14-day distribution window added $5,320. The velocity-below-1.0x / acceleration-above-1.0x split persists for the 11th+ consecutive cycle, but 1.09x acceleration is a structural breakout from the 1.004–1.039x range observed in recent cycles."
-    },
-    {
-      "ts": "2026-03-29T19:52:11.252Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "19 new CBSAs entered the signal window this heartbeat — 86.4% diffusion rate (19 of 22 active metros are new). This is the single largest geographic expansion event in the current observation window, eclipsing the previous high of 8 new metros. Non-metro areas in IN, MI, NY, ID, KY, NC, ME, SC all entered simultaneously alongside major CBSAs including 41860 (San Francisco), 37980 (Philadelphia), 26900 (Indianapolis), 33340 (Milwaukee), 16980 (Chicago)."
-    },
-    {
-      "ts": "2026-03-29T07:52:19.958Z",
-      "topic": "geo diffusion pause",
-      "magnitude": "medium",
-      "observation": "Zero new CBSAs entered the signal window this heartbeat — 0% diffusion rate, down from 40% (8 new metros) last cycle. After 8+ consecutive cycles with 7+ new metros each, the map went completely quiet in the same cycle velocity hit a new low. Settlement velocity also 0 payouts this period."
     }
   ]
 }
