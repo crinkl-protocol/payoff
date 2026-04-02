@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-02T01:45:16.153Z",
+  "updatedAt": "2026-04-02T09:45:12.876Z",
   "observations": [
+    {
+      "ts": "2026-04-02T07:48:59.951Z",
+      "topic": "gmv-milestone",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $481,895.70 across 7,415 receipts — now within $18,105 of the $500K milestone. The 14-day window hit $107,121.40 across 1,710 receipts, meaning 22%+ of all-time volume is in the trailing two weeks."
+    },
+    {
+      "ts": "2026-04-02T07:48:59.949Z",
+      "topic": "velocity-recovery",
+      "magnitude": "high",
+      "observation": "Velocity jumped to 0.902x this heartbeat — the highest reading in the observation window and the first time velocity has crossed 0.9x — while acceleration holds at 1.075x. The velocity-below-1.0x / acceleration-above-1.0x split that has persisted for 15+ consecutive cycles is now within 0.1x of resolving."
+    },
     {
       "ts": "2026-04-01T19:49:01.837Z",
       "topic": "gmv-milestone",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "11 new CBSAs entered the signal window this heartbeat (68.8% diffusion rate, 11 of 16 active metros are new), including non-metro areas in NC, NJ, IL, WA and CBSAs 20340, 42660, 31540, 30700, 37980, 31080, 22220. This is the third consecutive high-diffusion heartbeat, confirming sustained geographic expansion rather than a one-cycle anomaly."
-    },
-    {
-      "ts": "2026-03-31T07:49:02.802Z",
-      "topic": "velocity-acceleration-split",
-      "magnitude": "medium",
-      "observation": "Velocity recovered to 0.733x (up from 0.594x low two cycles ago) while acceleration holds at 1.002x — the velocity-below-1.0x / acceleration-above-1.0x split persists for the 13th+ consecutive cycle. The split is narrowing: velocity is climbing back toward 1.0x while acceleration is compressing toward 1.0x from above."
-    },
-    {
-      "ts": "2026-03-31T07:49:02.800Z",
-      "topic": "7d-gmv-window",
-      "magnitude": "high",
-      "observation": "The 7-day GMV window surged from $46,425 to $49,101 this heartbeat (+$2,676 in one cycle), the highest 7-day reading in the observation window. Cumulative GMV reached $459,130 across 6,988 receipts — the weekly run rate is now consistently above $40K and trending toward $50K."
     }
   ]
 }
