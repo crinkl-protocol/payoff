@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-01T09:45:13.420Z",
+  "updatedAt": "2026-04-02T01:45:16.153Z",
   "observations": [
+    {
+      "ts": "2026-04-01T19:49:01.837Z",
+      "topic": "gmv-milestone",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $475,837 across 7,271 receipts this heartbeat — now within $24K of the $500K milestone. The 7-day GMV window crossed $56,065, a new high, up from $53,983 last cycle. The weekly run rate has sustained above $50K for multiple consecutive cycles and is accelerating toward $60K."
+    },
+    {
+      "ts": "2026-04-01T19:49:01.834Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "14 new CBSAs entered the signal window this heartbeat (73.7% diffusion rate, 14 of 19 active metros are new), including non-metro areas in LA, NY, NV, HI, RI and CBSAs 35660, 36540, 19100, 39300, 12420, 25775, 33100, 33460, 39580. This is the fourth consecutive high-diffusion heartbeat (12, 12, 11, 14 new CBSAs), confirming sustained geographic expansion rather than a pulse anomaly — the network is spreading faster than it's deepening."
+    },
     {
       "ts": "2026-04-01T07:49:08.061Z",
       "topic": "cumulative-gmv",
@@ -48,18 +60,6 @@
       "topic": "7d-gmv-window",
       "magnitude": "high",
       "observation": "The 7-day GMV window surged from $46,425 to $49,101 this heartbeat (+$2,676 in one cycle), the highest 7-day reading in the observation window. Cumulative GMV reached $459,130 across 6,988 receipts — the weekly run rate is now consistently above $40K and trending toward $50K."
-    },
-    {
-      "ts": "2026-03-30T19:48:57.391Z",
-      "topic": "velocity-acceleration-split",
-      "magnitude": "high",
-      "observation": "Velocity recovered to 0.71x this heartbeat (up from 0.594x low last cycle) while acceleration holds at 1.042x — the velocity-below-1.0x / acceleration-above-1.0x split persists for the 12th+ consecutive cycle. The 7-day GMV window jumped from $37,333 to $40,242 (+$2,909 in one cycle), the first time the 7-day window has crossed $40K."
-    },
-    {
-      "ts": "2026-03-30T19:48:57.389Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "12 new CBSAs entered the signal window this heartbeat (70.6% diffusion rate, 12 of 17 active metros are new), including non-metro areas in AZ, MN, CA, WY and CBSAs 37140, 24540, 17410, 27060, 40380, 33460, 35840, 36837. This is the second consecutive high-diffusion heartbeat following last cycle's 19-CBSA record, suggesting sustained geographic expansion rather than a one-cycle anomaly."
     }
   ]
 }

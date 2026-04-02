@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-01T09:45:13.360Z",
+  "updatedAt": "2026-04-02T01:45:16.114Z",
   "insights": [
     {
-      "topic": "Verified purchase signal vs. probabilistic targeting",
-      "insight": "The protocol has generated 7,180 cryptographically verified purchase receipts — deterministic proof of transaction, not inferred intent. Every major cookieless alternative still operates on inference; this is the structural gap.",
+      "topic": "Deterministic vs. probabilistic signal gap",
+      "insight": "The protocol has produced 7,234 cryptographically verified purchase confirmations at ~$0.10 per receipt — against an ad tech CPA range of $5–$150 for modeled conversions. That 50–200x cost delta is structural: it reflects the difference between a receipt that proves a transaction occurred and an inference that one might.",
       "magnitude": "high"
     },
     {
-      "topic": "Cost-per-acquisition delta",
-      "insight": "Verified receipt settlement runs at ~$0.10 per confirmed purchase event (148 sats); ad tech CPA for probabilistic attribution runs $5–$150. That's a 50–200x cost differential grounded in actual settlement data, not modeled projections.",
+      "topic": "Retail stack coverage is now complete",
+      "insight": "The confirmed brand list now spans big-box (Walmart, 97 receipts), online marketplace (Amazon, 48), specialty (Total Wine), discount (Dollar General), and peer-to-peer resale (Depop) — the full retail stack in a single verified dataset. For brand marketers, this means purchase-verified audience segments are no longer skewed toward a single income tier or channel.",
       "magnitude": "high"
     },
     {
-      "topic": "Brand universe now spans full retail stack",
-      "insight": "Top brands in the 14-day window include Walmart, Amazon, Dollar General, Depop, and Best Buy — physical big-box, online marketplace, discount, and peer-to-peer resale in the same verified dataset. No single targeting platform currently covers this range with purchase confirmation.",
+      "topic": "Weekly GMV run rate has doubled in under 96 hours",
+      "insight": "The 7-day GMV window moved from roughly $24K to $53.98K between March 29 and April 1 — more than doubling the weekly run rate in approximately four days. That pace of signal accumulation matters for planners evaluating whether the dataset is large enough to act on now.",
       "magnitude": "high"
     },
     {
-      "topic": "Digital commerce receipts are now a primary signal vector",
-      "insight": "DKIM-verified purchase confirmation emails from Amazon, Stripe, Paddle, Gumroad, OpenAI, Anthropic, and Suno confirm the dataset captures SaaS, AI products, and creator economy transactions alongside physical retail — a cross-spectrum purchase graph that ad tech cannot replicate from browser signals alone.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Geographic reach now includes non-metro and lower-income segments",
-      "insight": "Three consecutive heartbeats above 68% CBSA diffusion rate, plus Dollar General's entry into the top brand list, indicate the network has extended beyond urban early adopters into rural and lower-income consumer segments — segments historically underrepresented in premium data products.",
+      "topic": "Geographic footprint is broadening, not just deepening",
+      "insight": "A burst of 19 new CBSAs in a single cycle (March 29) followed by two more cycles above 68% diffusion rate confirms the protocol is expanding into new metros, not just increasing density in existing ones — now confirmed across 15+ metro areas and non-metro areas in 15+ states.",
       "magnitude": "medium"
     },
     {
-      "topic": "Weekly GMV run rate acceleration",
-      "insight": "The 7-day GMV window moved from $24K to $52K in roughly 72 hours; the underlying receipt volume is compounding even as single-week velocity remains below prior-period baseline. The dataset is growing faster than the headline velocity figure suggests.",
+      "topic": "Unknown category carries the highest average ticket",
+      "insight": "148 receipts in the 'Unknown' category produced $12,830 in 14-day GMV — an implied average ticket roughly 3x that of grocery or dining. Before this data is used for audience segmentation, category resolution on that cohort should be treated as a priority gap.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "DKIM vendor list confirms digital purchase confirmation as primary receipt vector",
+      "insight": "Active DKIM vendors include Amazon, Stripe, Paddle, Gumroad, Anthropic, and multiple OpenAI variants — meaning email purchase confirmations from digital-native and SaaS merchants are now a meaningful share of verified receipt volume. CMOs in software, AI tooling, and creator economy categories have a verified purchase signal pathway that didn't exist in prior attribution frameworks.",
       "magnitude": "medium"
     }
   ]
