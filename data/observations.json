@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-04-02T09:45:12.876Z",
+  "updatedAt": "2026-04-03T01:45:11.843Z",
   "observations": [
+    {
+      "ts": "2026-04-02T19:49:02.174Z",
+      "topic": "brand-expansion",
+      "magnitude": "medium",
+      "observation": "NAPA Auto Parts and BJ's Wholesale Club entered the top brand list this heartbeat. NAPA signals automotive commerce entering the verified receipt network — a category not previously represented. BJ's adds a second warehouse club alongside existing big-box presence, deepening the bulk-retail segment."
+    },
+    {
+      "ts": "2026-04-02T19:49:02.172Z",
+      "topic": "gmv-approaching-500k",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $489,491.83 across 7,532 receipts — now within $10,508 of the $500K milestone. The 7-day window hit $58,957.84 and the 14-day window crossed $114,717.53. At the current weekly run rate (~$59K/week), $500K should be crossed within 12-18 hours."
+    },
+    {
+      "ts": "2026-04-02T19:49:02.170Z",
+      "topic": "velocity-crossover",
+      "magnitude": "high",
+      "observation": "Token velocity crossed 1.0x this heartbeat — reading 1.008x — ending the velocity-below-1.0x / acceleration-above-1.0x split that persisted for 15+ consecutive cycles. Velocity climbed from a low of 0.594x, through 0.802x, 0.902x, and now above 1.0x while acceleration holds at 1.052x. The split has resolved: the network is now growing faster than its own trailing baseline."
+    },
     {
       "ts": "2026-04-02T07:48:59.951Z",
       "topic": "gmv-milestone",
@@ -42,24 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "medium",
       "observation": "2 new CBSAs (31080, 41740) entered the signal window this heartbeat (20% diffusion rate, 10 total active metros). After three consecutive high-diffusion heartbeats (12, 12, 11 new CBSAs), the pace has moderated significantly — suggesting the geographic expansion pulse may be normalizing rather than sustaining its anomalous rate."
-    },
-    {
-      "ts": "2026-03-31T19:49:03.448Z",
-      "topic": "brand-expansion",
-      "magnitude": "medium",
-      "observation": "Dollar General entered the top brand list this heartbeat. Combined with Total Wine & More, Whole Foods Market, and Etsy in recent cycles, the brand mix is expanding from grocery/big-box into discount retail and specialty commerce — suggesting the verified receipt network is reaching lower-income and rural consumer segments."
-    },
-    {
-      "ts": "2026-03-31T19:49:03.446Z",
-      "topic": "velocity-recovery",
-      "magnitude": "high",
-      "observation": "Velocity recovered to 0.802x this heartbeat — the highest reading in recent cycles — while acceleration holds at 1.034x. The 7-day GMV window crossed $51,937 (up from $49,380), the first time the 7-day window has exceeded $50K. The velocity-below-1.0x / acceleration-above-1.0x split persists for the 14th+ consecutive cycle, but velocity is now within striking distance of 1.0x."
-    },
-    {
-      "ts": "2026-03-31T19:49:03.443Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "11 new CBSAs entered the signal window this heartbeat (68.8% diffusion rate, 11 of 16 active metros are new), including non-metro areas in NC, NJ, IL, WA and CBSAs 20340, 42660, 31540, 30700, 37980, 31080, 22220. This is the third consecutive high-diffusion heartbeat, confirming sustained geographic expansion rather than a one-cycle anomaly."
     }
   ]
 }
