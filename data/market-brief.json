@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-03T01:45:11.810Z",
+  "updatedAt": "2026-04-06T09:45:14.127Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal cost",
-      "insight": "Ad tech charges $5–$150 CPA for modeled attribution. This protocol settles verified purchase confirmation at ~$0.10 per receipt — a 50–200x cost delta that is structural, not a promotional rate.",
+      "topic": "Deterministic vs probabilistic signal cost",
+      "insight": "The protocol settles verified purchase receipts at ~$0.10 per confirmation (148 sats) against ad tech CPA rates of $5–$150 for probabilistic attribution — a 50–200x cost delta that is structural, not a promotional rate.",
       "magnitude": "high"
     },
     {
-      "topic": "Big-box retail coverage now complete",
-      "insight": "Walmart, Amazon, and Target — the three largest US retailers by revenue — all hold meaningful receipt counts in the 14-day window. Target's entry at 28 receipts displaced Best Buy entirely, confirming the protocol has crossed the density threshold for the full big-box tier.",
+      "topic": "Retail category coverage breadth",
+      "insight": "Verified receipts now span grocery, big-box, pharmacy, discount, warehouse club, automotive, peer-to-peer resale, and online marketplaces — meaning the signal set reflects the full consumer spending stack, not a skewed sample of digital-native buyers.",
       "magnitude": "high"
     },
     {
-      "topic": "Trailing-two-week GMV concentration",
-      "insight": "The 14-day window accounts for $109,747 of $484,522 in all-time protocol GMV — 22.6% of total volume in the most recent two weeks. The protocol is not running on historical momentum; current acquisition is accelerating.",
+      "topic": "CVS Pharmacy entry signals health category unlock",
+      "insight": "CVS Pharmacy entered the top-brand list at 30 receipts in the 14-day window, the first pharmacy/drugstore chain to appear — health and wellness purchase data is now entering the verified receipt pool, a category historically difficult to attribute in cookieless environments.",
       "magnitude": "high"
     },
     {
-      "topic": "Full retail stack coverage",
-      "insight": "Receipt flow now spans grocery, big-box, specialty retail, discount, online marketplaces, and peer-to-peer resale. For a brand marketer building audience segments, that is the complete purchase funnel — not a single-channel sample.",
+      "topic": "Acceleration ratio confirms current-period concentration",
+      "insight": "The 14-day window accounts for 29.0% of all-time protocol GMV, up sharply from 22.6% in the prior reading — the dataset is compounding into present activity, not diluted by a long historical tail, which increases signal freshness for targeting use cases.",
       "magnitude": "high"
     },
     {
-      "topic": "Online purchase confirmation as primary receipt vector",
-      "insight": "DKIM vendors include Amazon, Stripe, Paddle, Gumroad, Anthropic, OpenAI, and Suno — confirming that email purchase receipts from digital transactions are a core data source alongside physical retail, which matters for brands running D2C or SaaS alongside physical SKUs.",
+      "topic": "Amazon ecosystem approaching Walmart parity",
+      "insight": "Combined Amazon receipts (115 across two DKIM variants) are effectively tied with Walmart (116) at the top of the brand stack — two-channel capture within a single vendor ecosystem is producing redundant confirmation signals that strengthen attribution confidence.",
       "magnitude": "medium"
     },
     {
-      "topic": "High-ticket unresolved category",
-      "insight": "The 'Unknown' category carries an average ticket of ~$91 across 145 receipts in the 14-day window — the highest of any resolved category. Resolving this classification would materially shift the retail-versus-services split and could surface a high-value audience segment currently invisible.",
+      "topic": "Gas/convenience average ticket anomaly",
+      "insight": "Gas and convenience receipts average ~$127 per transaction across 193 receipts in the 14-day window — the highest resolved per-receipt average in the dataset, suggesting high-value fuel or fleet purchases are entering the pool and may represent a distinct buyer segment worth isolating.",
       "magnitude": "medium"
     }
   ]
