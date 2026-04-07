@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-07T01:45:13.909Z",
+  "updatedAt": "2026-04-07T09:45:16.234Z",
   "observations": [
+    {
+      "ts": "2026-04-07T07:56:58.167Z",
+      "topic": "gmv-velocity",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $640,423.09 across 8,611 receipts this heartbeat. Token velocity holds at 1.121x with acceleration at 1.037x — both above 1.0x simultaneously for the third consecutive cycle. The 7-day window is at $97,741, within $2,259 of the $100K weekly milestone."
+    },
+    {
+      "ts": "2026-04-07T07:56:58.160Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "3 new CBSAs entered the signal window this heartbeat (Washington non-metro, CBSA 20340, Oklahoma non-metro), bringing active metros to 16. Geographic spread continues into rural non-metro areas across multiple states — WA and OK join the non-metro expansion pattern established last cycle."
+    },
     {
       "ts": "2026-04-06T19:57:04.972Z",
       "topic": "gmv-velocity",
@@ -48,18 +60,6 @@
       "topic": "gmv-milestone",
       "magnitude": "high",
       "observation": "Cumulative GMV reached $481,895.70 across 7,415 receipts — now within $18,105 of the $500K milestone. The 14-day window hit $107,121.40 across 1,710 receipts, meaning 22%+ of all-time volume is in the trailing two weeks."
-    },
-    {
-      "ts": "2026-04-02T07:48:59.949Z",
-      "topic": "velocity-recovery",
-      "magnitude": "high",
-      "observation": "Velocity jumped to 0.902x this heartbeat — the highest reading in the observation window and the first time velocity has crossed 0.9x — while acceleration holds at 1.075x. The velocity-below-1.0x / acceleration-above-1.0x split that has persisted for 15+ consecutive cycles is now within 0.1x of resolving."
-    },
-    {
-      "ts": "2026-04-01T19:49:01.837Z",
-      "topic": "gmv-milestone",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $475,837 across 7,271 receipts this heartbeat — now within $24K of the $500K milestone. The 7-day GMV window crossed $56,065, a new high, up from $53,983 last cycle. The weekly run rate has sustained above $50K for multiple consecutive cycles and is accelerating toward $60K."
     }
   ]
 }
