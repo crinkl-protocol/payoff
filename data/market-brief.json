@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-06T09:45:14.127Z",
+  "updatedAt": "2026-04-07T01:45:13.891Z",
   "insights": [
     {
-      "topic": "Deterministic vs probabilistic signal cost",
-      "insight": "The protocol settles verified purchase receipts at ~$0.10 per confirmation (148 sats) against ad tech CPA rates of $5–$150 for probabilistic attribution — a 50–200x cost delta that is structural, not a promotional rate.",
+      "topic": "Deterministic vs. probabilistic signal cost",
+      "insight": "The protocol settles verified purchase confirmation at ~$0.10 per receipt (148 sats) against ad tech CPA rates of $5–$150 for probabilistic attribution — a 50–200x cost delta that is structural, not a promotional rate.",
       "magnitude": "high"
     },
     {
-      "topic": "Retail category coverage breadth",
-      "insight": "Verified receipts now span grocery, big-box, pharmacy, discount, warehouse club, automotive, peer-to-peer resale, and online marketplaces — meaning the signal set reflects the full consumer spending stack, not a skewed sample of digital-native buyers.",
+      "topic": "High-ticket anomaly in April 6 cycle",
+      "insight": "A single 4-hour window added $55,679.99 in GMV across only 54 receipts, implying an average ticket of ~$1,031 — well above protocol norms — concentrated in retail/department stores, which jumped from a ~$78 to ~$185 average ticket in the 14-day window.",
       "magnitude": "high"
     },
     {
-      "topic": "CVS Pharmacy entry signals health category unlock",
-      "insight": "CVS Pharmacy entered the top-brand list at 30 receipts in the 14-day window, the first pharmacy/drugstore chain to appear — health and wellness purchase data is now entering the verified receipt pool, a category historically difficult to attribute in cookieless environments.",
+      "topic": "Retail category breadth as targeting surface",
+      "insight": "Verified receipts now span grocery, restaurants, gas/convenience, pharmacy (CVS), big-box, specialty, warehouse clubs, automotive, and peer-to-peer resale — the category stack covers enough of the purchase funnel to support audience segmentation across most CPG and retail verticals.",
       "magnitude": "high"
     },
     {
-      "topic": "Acceleration ratio confirms current-period concentration",
-      "insight": "The 14-day window accounts for 29.0% of all-time protocol GMV, up sharply from 22.6% in the prior reading — the dataset is compounding into present activity, not diluted by a long historical tail, which increases signal freshness for targeting use cases.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Amazon ecosystem approaching Walmart parity",
-      "insight": "Combined Amazon receipts (115 across two DKIM variants) are effectively tied with Walmart (116) at the top of the brand stack — two-channel capture within a single vendor ecosystem is producing redundant confirmation signals that strengthen attribution confidence.",
+      "topic": "Pharmacy and resale as emerging verified channels",
+      "insight": "CVS Pharmacy holds 31 receipts in the 14-day window and Depop holds 14, confirming that pharmacy and peer-to-peer resale are now structurally present in the receipt mix — not transient — which opens verified targeting for health/beauty and secondhand-market brands.",
       "magnitude": "medium"
     },
     {
-      "topic": "Gas/convenience average ticket anomaly",
-      "insight": "Gas and convenience receipts average ~$127 per transaction across 193 receipts in the 14-day window — the highest resolved per-receipt average in the dataset, suggesting high-value fuel or fleet purchases are entering the pool and may represent a distinct buyer segment worth isolating.",
+      "topic": "Growth regime shift: sustainable, not compounding",
+      "insight": "Velocity sits at 1.091x (network growing faster than its trailing baseline) but acceleration has dropped below 1.0x for the first time, signaling a transition from anomalous compounding growth to normalized, sustainable throughput — a more reliable baseline for audience size projections.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Unknown category as unresolved signal",
+      "insight": "191 receipts in a 14-day window carry an ~$144 average ticket but remain categorically unresolved; resolving this bucket would materially shift the retail-vs-services split and could surface a high-value segment currently invisible to brand planners.",
       "magnitude": "medium"
     }
   ]

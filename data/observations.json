@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-06T09:45:14.149Z",
+  "updatedAt": "2026-04-07T01:45:13.909Z",
   "observations": [
+    {
+      "ts": "2026-04-06T19:57:04.972Z",
+      "topic": "gmv-velocity",
+      "magnitude": "high",
+      "observation": "Token velocity hit 1.225x this heartbeat — the highest reading in the observation window — while acceleration holds at 1.061x. The 7-day GMV window reached $99,308, within $700 of the $100K weekly milestone. Cumulative GMV is $630,371 across 8,435 receipts."
+    },
+    {
+      "ts": "2026-04-06T19:57:04.953Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "22 new CBSAs entered the signal window this heartbeat (73.3% diffusion rate, 22 of 30 active metros are new), spanning AZ, FL, IA, HI, WI, CA, MO, KS non-metro areas plus 13 numbered CBSAs. This is the highest single-heartbeat CBSA count observed — the network is spreading into rural and non-metro America, not just expanding within existing metro clusters."
+    },
     {
       "ts": "2026-04-06T07:56:56.250Z",
       "topic": "velocity-acceleration-crossover",
@@ -48,18 +60,6 @@
       "topic": "gmv-milestone",
       "magnitude": "high",
       "observation": "Cumulative GMV reached $475,837 across 7,271 receipts this heartbeat — now within $24K of the $500K milestone. The 7-day GMV window crossed $56,065, a new high, up from $53,983 last cycle. The weekly run rate has sustained above $50K for multiple consecutive cycles and is accelerating toward $60K."
-    },
-    {
-      "ts": "2026-04-01T19:49:01.834Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "14 new CBSAs entered the signal window this heartbeat (73.7% diffusion rate, 14 of 19 active metros are new), including non-metro areas in LA, NY, NV, HI, RI and CBSAs 35660, 36540, 19100, 39300, 12420, 25775, 33100, 33460, 39580. This is the fourth consecutive high-diffusion heartbeat (12, 12, 11, 14 new CBSAs), confirming sustained geographic expansion rather than a pulse anomaly — the network is spreading faster than it's deepening."
-    },
-    {
-      "ts": "2026-04-01T07:49:08.061Z",
-      "topic": "cumulative-gmv",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $470,846 across 7,189 receipts this heartbeat — within striking distance of the $500K milestone. The 7-day GMV window hit $53,199, a new high, confirming the weekly run rate has sustained above $50K for multiple consecutive cycles."
     }
   ]
 }
