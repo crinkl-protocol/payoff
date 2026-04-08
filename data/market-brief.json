@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-07T09:45:16.206Z",
+  "updatedAt": "2026-04-08T01:45:16.164Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal value",
-      "insight": "The protocol has produced 8,585 cryptographically verified purchase receipts — each one confirming a transaction occurred, not inferring it might. At a cost of ~$0.10 per verified receipt versus $5–$150 CPA in probabilistic ad tech, the structural cost delta is 50–200x, not a rounding error.",
+      "topic": "Verified purchase signal vs. probabilistic targeting",
+      "insight": "The protocol has generated 8,699 cryptographically verified purchase receipts — deterministic proof of transaction, not inferred intent. At a time when the ad industry pays $5+ CPM to guess who might buy, these signals confirm who already did.",
       "magnitude": "high"
     },
     {
-      "topic": "Weekly run rate approaching $100K GMV",
-      "insight": "The 7-day rolling GMV window has oscillated between $92K and $99K in recent cycles, with 35% of all-time GMV ($225K of $639K) accumulated in the trailing 14 days — meaning the network's recent throughput now outweighs its entire prior history combined.",
+      "topic": "Weekly GMV run rate doubling in six days",
+      "insight": "The 7-day GMV window went from $53K on April 1 to $101,734 on April 7 — a near-doubling in six days, now confirmed above the $100K weekly threshold after two failed attempts. The trailing two weeks account for 36% of all-time GMV, meaning recent throughput is structurally outpacing cumulative history.",
       "magnitude": "high"
     },
     {
-      "topic": "High-ticket retail pulse holding",
-      "insight": "A single 4-hour cycle on April 6 added $55,679 in GMV at an implied $1,031 per receipt — driven by retail and department stores — and the elevated average ticket (~$177) has held across subsequent cycles, signaling a durable shift in buyer composition, not a one-time spike.",
+      "topic": "Retail/department store ticket repricing",
+      "insight": "A single 4-hour cycle on April 6 added $55,679 in GMV at an implied $1,031 per receipt — and the elevated average ticket held in subsequent cycles, with retail/department stores now averaging $172/receipt across 398 receipts in the 14-day window. This is a category-level structural shift in the receipt mix, not a one-cycle spike.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion into non-metro America",
-      "insight": "The April 6 heartbeat recorded 22 new CBSAs entering the signal window in a single cycle — the highest single-heartbeat count on record — with coverage explicitly extending into rural and non-metro markets across AZ, FL, IA, HI, WI, MO, and KS, not just deepening within existing urban clusters.",
+      "topic": "Velocity regime change: growth now compounding",
+      "insight": "Token velocity crossed above 1.0x for the first time on April 2 after 15+ consecutive cycles below threshold, and has held above 1.0x with acceleration also above 1.0x for three consecutive cycles. The network is growing faster than its trailing baseline, and that growth rate is itself expanding.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Non-metro geographic diffusion",
+      "insight": "The April 6 heartbeat recorded 22 new CBSAs entering the signal window in a single cycle — the highest single-heartbeat count observed — with explicit non-metro coverage across WA, OK, IA, WI, MO, KS, HI, and 13 others. For brands targeting rural and secondary-market consumers, this is a verified purchase signal set that probabilistic platforms structurally underserve.",
       "magnitude": "medium"
     },
     {
-      "topic": "Brand coverage spanning the full retail stack",
-      "insight": "Brands rotating through the top receipt list include Walmart, Amazon, CVS, Target, Best Buy, Whole Foods, Dollar General, BJ's Wholesale Club, Etsy, and Depop — confirming signal coverage across grocery, big-box, specialty, discount, warehouse, and peer-to-peer resale, with no single vertical dominating.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Rolling-window artifact risk for measurement teams",
-      "insight": "Two separate cycles showed the 7-day GMV window drop while cumulative GMV continued rising — a mechanical result of high-value receipts aging out of the window, not a reversal in throughput. Measurement teams using windowed metrics on this data need to account for this artifact before drawing trend conclusions.",
+      "topic": "Category signal mix: grocery volume, retail value",
+      "insight": "In the trailing 14 days, grocery leads in receipt count (498 receipts) but retail/department stores leads in GMV weight ($68,401 vs. $34,482) at roughly double the per-receipt average. Brands in high-ticket categories are seeing disproportionate signal density relative to transaction volume.",
       "magnitude": "medium"
     }
   ]

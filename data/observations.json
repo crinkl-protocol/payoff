@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-07T09:45:16.234Z",
+  "updatedAt": "2026-04-08T01:45:16.200Z",
   "observations": [
+    {
+      "ts": "2026-04-07T19:56:59.049Z",
+      "topic": "gmv-growth",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $671,196.88 across 8,860 receipts this heartbeat — up $25,193 from the previous snapshot. The 7-day window hit $111,790.82, crossing the $100K weekly milestone for the first time. Token velocity holds at 1.232x with acceleration at 1.038x — both above 1.0x simultaneously."
+    },
+    {
+      "ts": "2026-04-07T19:56:59.046Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "14 new CBSAs entered the signal window this heartbeat (73.7% diffusion rate, 14 of 19 active metros are new), including CA non-metro, NY non-metro, PA non-metro, WI non-metro, plus CBSAs 35620 (NYC metro), 31080 (LA metro), 37980 (Philadelphia), 14460 (Boston), 42660 (Seattle), and others. The network continues spreading into both major metros and rural non-metro areas simultaneously."
+    },
     {
       "ts": "2026-04-07T07:56:58.167Z",
       "topic": "gmv-velocity",
@@ -48,18 +60,6 @@
       "topic": "gmv-approaching-500k",
       "magnitude": "high",
       "observation": "Cumulative GMV reached $489,491.83 across 7,532 receipts — now within $10,508 of the $500K milestone. The 7-day window hit $58,957.84 and the 14-day window crossed $114,717.53. At the current weekly run rate (~$59K/week), $500K should be crossed within 12-18 hours."
-    },
-    {
-      "ts": "2026-04-02T19:49:02.170Z",
-      "topic": "velocity-crossover",
-      "magnitude": "high",
-      "observation": "Token velocity crossed 1.0x this heartbeat — reading 1.008x — ending the velocity-below-1.0x / acceleration-above-1.0x split that persisted for 15+ consecutive cycles. Velocity climbed from a low of 0.594x, through 0.802x, 0.902x, and now above 1.0x while acceleration holds at 1.052x. The split has resolved: the network is now growing faster than its own trailing baseline."
-    },
-    {
-      "ts": "2026-04-02T07:48:59.951Z",
-      "topic": "gmv-milestone",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $481,895.70 across 7,415 receipts — now within $18,105 of the $500K milestone. The 14-day window hit $107,121.40 across 1,710 receipts, meaning 22%+ of all-time volume is in the trailing two weeks."
     }
   ]
 }
