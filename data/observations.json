@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-04-08T01:45:16.200Z",
+  "updatedAt": "2026-04-09T01:45:13.747Z",
   "observations": [
+    {
+      "ts": "2026-04-08T19:57:00.700Z",
+      "topic": "cumulative-gmv",
+      "magnitude": "medium",
+      "observation": "Cumulative GMV reached $681,725.60 across 9,152 receipts this heartbeat — up $5,258 from the previous snapshot. The network has now processed over 9,000 receipts, with the 14-day window at $258,452 representing 38% of all-time volume in the trailing two weeks."
+    },
+    {
+      "ts": "2026-04-08T19:57:00.697Z",
+      "topic": "token-dynamics",
+      "magnitude": "high",
+      "observation": "Token velocity holds at 1.142x with acceleration at 1.073x — both above 1.0x simultaneously, continuing the pattern from the previous two heartbeats. The 14-day GMV window jumped from $253,194 to $258,452 (+$5,258) in a single heartbeat, meaning the trailing two-week window is now absorbing spend at a faster rate than the 7-day window ($98,856)."
+    },
+    {
+      "ts": "2026-04-08T19:57:00.694Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "11 new CBSAs entered the signal window this heartbeat (73.3% diffusion rate, 11 of 15 active metros are new), including CBSA 35620 (NYC metro), 33100 (Miami), 47260 (Tampa), 38300 (Pittsburgh), 46140, 16860, 37140, 25500, plus non-metro areas in Idaho and Michigan. The network continues its pulse-based geographic spread — high diffusion rate maintained across consecutive heartbeats."
+    },
     {
       "ts": "2026-04-07T19:56:59.049Z",
       "topic": "gmv-growth",
@@ -42,24 +60,6 @@
       "topic": "velocity-acceleration-crossover",
       "magnitude": "medium",
       "observation": "Velocity is 1.091x (continuing above 1.0x) while acceleration has dipped to 0.996x — the first time acceleration has dropped below 1.0x since the split resolved. The network is growing faster than its trailing baseline, but the rate of that growth is now decelerating slightly. A new dynamic is forming: velocity above 1.0x, acceleration below 1.0x."
-    },
-    {
-      "ts": "2026-04-06T07:56:56.247Z",
-      "topic": "gmv-milestone",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $568,625 across 8,283 receipts this heartbeat — $68K past the $500K milestone. The 7-day window hit $88,571 and the 14-day window $165,435, meaning 29% of all-time volume is in the trailing two weeks. The weekly run rate has nearly doubled from $53K to $88K in the past 6 heartbeats."
-    },
-    {
-      "ts": "2026-04-02T19:49:02.174Z",
-      "topic": "brand-expansion",
-      "magnitude": "medium",
-      "observation": "NAPA Auto Parts and BJ's Wholesale Club entered the top brand list this heartbeat. NAPA signals automotive commerce entering the verified receipt network — a category not previously represented. BJ's adds a second warehouse club alongside existing big-box presence, deepening the bulk-retail segment."
-    },
-    {
-      "ts": "2026-04-02T19:49:02.172Z",
-      "topic": "gmv-approaching-500k",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $489,491.83 across 7,532 receipts — now within $10,508 of the $500K milestone. The 7-day window hit $58,957.84 and the 14-day window crossed $114,717.53. At the current weekly run rate (~$59K/week), $500K should be crossed within 12-18 hours."
     }
   ]
 }
