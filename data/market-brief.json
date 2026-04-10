@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-10T01:45:17.230Z",
+  "updatedAt": "2026-04-10T09:45:16.656Z",
   "insights": [
     {
-      "topic": "Deterministic signal vs. probabilistic targeting",
-      "insight": "At 9,290 verified receipts and $689K in confirmed GMV, every signal in this network is a cryptographic proof of purchase — not an inference. The ad industry pays $5+ CPM for probabilistic targeting built on behavioral guesses; this protocol produces the thing those guesses are trying to approximate.",
+      "topic": "Deterministic purchase signals vs. probabilistic targeting",
+      "insight": "9,743 cryptographically verified receipts represent confirmed purchase events — not inferred intent. At a time when cookie deprecation is forcing brands back to probabilistic proxies, each of these signals carries a certainty premium the open ad market structurally cannot replicate.",
       "magnitude": "high"
     },
     {
-      "topic": "Weekly run rate trajectory",
-      "insight": "The 7-day GMV window has gone from $53K on April 1 to a peak of $111.8K on April 7 — more than doubling in eight days. A structural floor near $100K/week is forming, with recovery to that level now happening within four hours of each midnight rollback.",
+      "topic": "High-value transaction burst (April 9)",
+      "insight": "The single largest GMV cycle on record added $56,064 in 4 hours on only 42 receipts — an average ticket north of $1,300 per receipt in that window. This signals that verified commerce data is capturing high-consideration purchases, not just convenience-store noise.",
       "magnitude": "high"
     },
     {
-      "topic": "Retail and grocery as anchor categories",
-      "insight": "Retail/department stores leads all categories at ~$154 per receipt, while grocery leads in receipt volume at 582 transactions — together they account for the highest-frequency, highest-value purchase signals in the network. For CPG and mass-market retail brands, these are the categories where verified commerce data is densest.",
+      "topic": "Category entropy as a cross-sell signal",
+      "insight": "At 3.262 bits of category entropy, no single vertical dominates — grocery, home improvement, electronics, restaurant, and now SaaS subscriptions coexist in the same verified signal pool. For brands seeking cross-category purchase attribution or basket-level insights, this diversity is structurally rare in deterministic data sets.",
       "magnitude": "high"
     },
     {
-      "topic": "Amazon and Depop confirm e-commerce and resale are structural",
-      "insight": "Amazon at 76 receipts in the trailing 14 days is not incidental — it ranks second among all brands and confirms digital purchase verification is working at scale alongside physical retail. Depop's sustained top-five presence signals that secondary market and resale commerce has entered the verified data set, a segment most brand measurement systems ignore entirely.",
+      "topic": "SaaS-subscription category entry",
+      "insight": "The first non-physical commerce category appeared in the network on April 9 — a meaningful inflection because it extends verified purchase signals beyond brick-and-mortar into recurring digital spend. Brands targeting software buyers or subscription-economy consumers now have a potential deterministic touchpoint that does not exist in retail media networks.",
       "magnitude": "medium"
     },
     {
-      "topic": "Receipt correction event — ledger integrity to monitor",
-      "insight": "Between April 8 04:15 and 07:56, cumulative GMV dropped from $684,959 to $668,833 and receipt count fell simultaneously — the first observed reversal in any cycle. Rolling windows were unaffected and cumulative GMV has since recovered to a new high, pointing to a restatement rather than a throughput problem, but this is a data quality signal worth tracking for recurrence.",
+      "topic": "Geographic footprint and metro concentration",
+      "insight": "16 active CBSAs now include eight major metros — NYC, LA, Philadelphia, Boston, Seattle, Miami, Tampa, Pittsburgh — plus non-metro expansion into WA, OK, AL, ID, MI, RI, MA, and DC. The coverage map is beginning to match the DMA footprints that brand media plans are built around.",
       "magnitude": "medium"
     },
     {
-      "topic": "DKIM vendor mix reveals digital-native commerce layer",
-      "insight": "Verified senders include Stripe, Paddle, Gumroad, Amazon, OpenAI, and Suno — a cross-section of SaaS, creator economy, and AI-product transactions sitting alongside physical retail receipts. For brands trying to reach digitally-active, high-intent buyers, this network is already capturing purchase behavior that conventional retail panels miss.",
+      "topic": "Velocity recovery during geographic expansion",
+      "insight": "Token velocity rebounded to 1.037x even as two new CBSAs were added in the same cycle, suggesting new markets are generating repeat verified transactions faster than the prior 'thin new metros' pattern predicted. For marketers, this implies the signal density per market is approaching usable frequency thresholds sooner than expected.",
       "magnitude": "medium"
     }
   ]

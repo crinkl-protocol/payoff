@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-10T01:45:17.254Z",
+  "updatedAt": "2026-04-10T09:45:16.679Z",
   "observations": [
+    {
+      "ts": "2026-04-10T07:57:05.589Z",
+      "topic": "gmv-receipts",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $826,638 across 9,743 receipts this heartbeat — approaching the $1M GMV threshold. The 7-day window is at $208,920 and the 14-day window at $386,785, with 46.8% of all-time volume concentrated in the trailing two weeks."
+    },
+    {
+      "ts": "2026-04-10T07:57:05.586Z",
+      "topic": "velocity-recovery",
+      "magnitude": "high",
+      "observation": "Token velocity crossed back above 1.0x this heartbeat (0.958x → 1.037x) with acceleration at 1.082x — both metrics above 1.0x simultaneously. This reversal follows a period of sub-1.0x velocity, suggesting the network absorbed the geographic expansion and is now compounding again."
+    },
     {
       "ts": "2026-04-09T19:57:11.629Z",
       "topic": "cumulative-gmv",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "14 new CBSAs entered the signal window this heartbeat (73.7% diffusion rate, 14 of 19 active metros are new), including CA non-metro, NY non-metro, PA non-metro, WI non-metro, plus CBSAs 35620 (NYC metro), 31080 (LA metro), 37980 (Philadelphia), 14460 (Boston), 42660 (Seattle), and others. The network continues spreading into both major metros and rural non-metro areas simultaneously."
-    },
-    {
-      "ts": "2026-04-07T07:56:58.167Z",
-      "topic": "gmv-velocity",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $640,423.09 across 8,611 receipts this heartbeat. Token velocity holds at 1.121x with acceleration at 1.037x — both above 1.0x simultaneously for the third consecutive cycle. The 7-day window is at $97,741, within $2,259 of the $100K weekly milestone."
-    },
-    {
-      "ts": "2026-04-07T07:56:58.160Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "3 new CBSAs entered the signal window this heartbeat (Washington non-metro, CBSA 20340, Oklahoma non-metro), bringing active metros to 16. Geographic spread continues into rural non-metro areas across multiple states — WA and OK join the non-metro expansion pattern established last cycle."
     }
   ]
 }
