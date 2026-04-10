@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-09T01:45:13.727Z",
+  "updatedAt": "2026-04-10T01:45:17.230Z",
   "insights": [
     {
-      "topic": "Deterministic purchase signal vs. probabilistic targeting",
-      "insight": "At 9,052 verified receipts and $684,959.93 in confirmed GMV, every signal here is a cryptographically proven transaction — not an inferred intent. The ad industry pays $5+ CPM to guess someone might buy; this protocol confirms they did.",
+      "topic": "Deterministic signal vs. probabilistic targeting",
+      "insight": "At 9,290 verified receipts and $689K in confirmed GMV, every signal in this network is a cryptographic proof of purchase — not an inference. The ad industry pays $5+ CPM for probabilistic targeting built on behavioral guesses; this protocol produces the thing those guesses are trying to approximate.",
       "magnitude": "high"
     },
     {
-      "topic": "Weekly run rate crossing $100K and accelerating",
-      "insight": "The 7-day GMV window went from $53K on April 1 to a $111.8K peak on April 7 — more than doubling in one week. Post-midnight rollbacks are rolling-window artifacts; cumulative GMV has risen monotonically across every observed cycle.",
+      "topic": "Weekly run rate trajectory",
+      "insight": "The 7-day GMV window has gone from $53K on April 1 to a peak of $111.8K on April 7 — more than doubling in eight days. A structural floor near $100K/week is forming, with recovery to that level now happening within four hours of each midnight rollback.",
       "magnitude": "high"
     },
     {
-      "topic": "Retail and e-commerce category mix",
-      "insight": "Retail/department stores leads all categories in GMV ($69,275 over 14 days) at ~$162 per receipt, while Amazon ranks second by receipt count in the trailing window — confirming e-commerce transactions are a meaningful and growing share of the verified signal pool.",
+      "topic": "Retail and grocery as anchor categories",
+      "insight": "Retail/department stores leads all categories at ~$154 per receipt, while grocery leads in receipt volume at 582 transactions — together they account for the highest-frequency, highest-value purchase signals in the network. For CPG and mass-market retail brands, these are the categories where verified commerce data is densest.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion reaching simultaneous metro and rural coverage",
-      "insight": "The April 7 heartbeat added 14 CBSAs in a single cycle, including NYC, LA, Philadelphia, Boston, and Seattle alongside CA, NY, PA, and WI non-metro areas — meaning verified purchase signals are no longer concentrated in a single market tier.",
+      "topic": "Amazon and Depop confirm e-commerce and resale are structural",
+      "insight": "Amazon at 76 receipts in the trailing 14 days is not incidental — it ranks second among all brands and confirms digital purchase verification is working at scale alongside physical retail. Depop's sustained top-five presence signals that secondary market and resale commerce has entered the verified data set, a segment most brand measurement systems ignore entirely.",
       "magnitude": "medium"
     },
     {
-      "topic": "Secondary market and creator economy receipts entering the mix",
-      "insight": "Depop (peer-to-peer resale) and digital commerce vendors including Stripe, Paddle, Gumroad, and Suno now appear in the DKIM vendor set — signaling the protocol is capturing commerce beyond physical retail into resale and the creator economy.",
+      "topic": "Receipt correction event — ledger integrity to monitor",
+      "insight": "Between April 8 04:15 and 07:56, cumulative GMV dropped from $684,959 to $668,833 and receipt count fell simultaneously — the first observed reversal in any cycle. Rolling windows were unaffected and cumulative GMV has since recovered to a new high, pointing to a restatement rather than a throughput problem, but this is a data quality signal worth tracking for recurrence.",
       "magnitude": "medium"
     },
     {
-      "topic": "Velocity trend: successive peaks rising above 1.0x floor",
-      "insight": "Token velocity hit a record 1.232x on April 7, with each successive velocity peak higher than the last since the 1.0x crossover on April 2. The floor has risen — even recovery cycles after rollbacks are holding above 1.0x, indicating sustained throughput expansion rather than episodic spikes.",
+      "topic": "DKIM vendor mix reveals digital-native commerce layer",
+      "insight": "Verified senders include Stripe, Paddle, Gumroad, Amazon, OpenAI, and Suno — a cross-section of SaaS, creator economy, and AI-product transactions sitting alongside physical retail receipts. For brands trying to reach digitally-active, high-intent buyers, this network is already capturing purchase behavior that conventional retail panels miss.",
       "magnitude": "medium"
     }
   ]

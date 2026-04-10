@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-04-09T01:45:13.747Z",
+  "updatedAt": "2026-04-10T01:45:17.254Z",
   "observations": [
+    {
+      "ts": "2026-04-09T19:57:11.629Z",
+      "topic": "cumulative-gmv",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $803,037 across 9,501 receipts this heartbeat — crossing both the $800K GMV milestone and the 9,500 receipt threshold simultaneously. The 7-day window is at $208,888 and the 14-day window at $373,099, with 38% of all-time volume concentrated in the trailing two weeks."
+    },
+    {
+      "ts": "2026-04-09T19:57:11.622Z",
+      "topic": "category-expansion",
+      "magnitude": "high",
+      "observation": "A new category \"saas-subscription\" appeared in the signal window this heartbeat — the first non-physical-commerce category observed. This is a structural shift: the network now spans both physical retail receipts and digital subscription spend, expanding the category entropy from physical-only to a mixed physical/digital signal."
+    },
+    {
+      "ts": "2026-04-09T19:57:11.620Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "13 new CBSAs entered the signal window this heartbeat (61.9% diffusion rate, 13 of 21 active metros are new), including RI non-metro, MA non-metro, DC non-metro, MI non-metro, plus CBSAs 47900, 21660, 16860, 39300, 38060, 42940, 21540, 12540, 38860. The pulse-based geographic spread continues — Northeast non-metro areas (RI, MA, DC) now entering the network for the first time."
+    },
     {
       "ts": "2026-04-08T19:57:00.700Z",
       "topic": "cumulative-gmv",
@@ -42,24 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "medium",
       "observation": "3 new CBSAs entered the signal window this heartbeat (Washington non-metro, CBSA 20340, Oklahoma non-metro), bringing active metros to 16. Geographic spread continues into rural non-metro areas across multiple states — WA and OK join the non-metro expansion pattern established last cycle."
-    },
-    {
-      "ts": "2026-04-06T19:57:04.972Z",
-      "topic": "gmv-velocity",
-      "magnitude": "high",
-      "observation": "Token velocity hit 1.225x this heartbeat — the highest reading in the observation window — while acceleration holds at 1.061x. The 7-day GMV window reached $99,308, within $700 of the $100K weekly milestone. Cumulative GMV is $630,371 across 8,435 receipts."
-    },
-    {
-      "ts": "2026-04-06T19:57:04.953Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "22 new CBSAs entered the signal window this heartbeat (73.3% diffusion rate, 22 of 30 active metros are new), spanning AZ, FL, IA, HI, WI, CA, MO, KS non-metro areas plus 13 numbered CBSAs. This is the highest single-heartbeat CBSA count observed — the network is spreading into rural and non-metro America, not just expanding within existing metro clusters."
-    },
-    {
-      "ts": "2026-04-06T07:56:56.250Z",
-      "topic": "velocity-acceleration-crossover",
-      "magnitude": "medium",
-      "observation": "Velocity is 1.091x (continuing above 1.0x) while acceleration has dipped to 0.996x — the first time acceleration has dropped below 1.0x since the split resolved. The network is growing faster than its trailing baseline, but the rate of that growth is now decelerating slightly. A new dynamic is forming: velocity above 1.0x, acceleration below 1.0x."
     }
   ]
 }
