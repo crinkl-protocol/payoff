@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-10T09:45:16.656Z",
+  "updatedAt": "2026-04-11T09:45:12.744Z",
   "insights": [
     {
-      "topic": "Deterministic purchase signals vs. probabilistic targeting",
-      "insight": "9,743 cryptographically verified receipts represent confirmed purchase events — not inferred intent. At a time when cookie deprecation is forcing brands back to probabilistic proxies, each of these signals carries a certainty premium the open ad market structurally cannot replicate.",
+      "topic": "Deterministic vs. probabilistic signal value",
+      "insight": "The protocol has produced 9,743 cryptographically verified purchase receipts — each one a confirmed transaction, not an inferred intent. In a post-cookie environment where $5+ CPM buys a probabilistic guess, a verified receipt is a categorically different asset.",
       "magnitude": "high"
     },
     {
-      "topic": "High-value transaction burst (April 9)",
-      "insight": "The single largest GMV cycle on record added $56,064 in 4 hours on only 42 receipts — an average ticket north of $1,300 per receipt in that window. This signals that verified commerce data is capturing high-consideration purchases, not just convenience-store noise.",
+      "topic": "Spend concentration in high-value receipts",
+      "insight": "The April 9 record cycle added $56,064 in GMV from only 42 receipts — roughly $1,335 per receipt — indicating the network is capturing high-basket, high-intent buyers, not just frequent small-ticket transactions.",
       "magnitude": "high"
     },
     {
-      "topic": "Category entropy as a cross-sell signal",
-      "insight": "At 3.262 bits of category entropy, no single vertical dominates — grocery, home improvement, electronics, restaurant, and now SaaS subscriptions coexist in the same verified signal pool. For brands seeking cross-category purchase attribution or basket-level insights, this diversity is structurally rare in deterministic data sets.",
+      "topic": "Weekly GMV run rate crossing $200K",
+      "insight": "The 7-day GMV window reached $208,920 as of April 10, up from $101,734 one week prior — a doubling of weekly velocity that suggests the signal pool is compounding, not plateauing.",
       "magnitude": "high"
     },
     {
-      "topic": "SaaS-subscription category entry",
-      "insight": "The first non-physical commerce category appeared in the network on April 9 — a meaningful inflection because it extends verified purchase signals beyond brick-and-mortar into recurring digital spend. Brands targeting software buyers or subscription-economy consumers now have a potential deterministic touchpoint that does not exist in retail media networks.",
+      "topic": "Geographic reach now spans 16 CBSAs including major DMAs",
+      "insight": "Confirmed metros include NYC, LA, Philadelphia, Boston, Seattle, Miami, Tampa, and Pittsburgh, with non-metro coverage in WA, OK, AL, ID, MI, RI, MA, and DC — a footprint that supports national campaign planning, not just pilot markets.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic footprint and metro concentration",
-      "insight": "16 active CBSAs now include eight major metros — NYC, LA, Philadelphia, Boston, Seattle, Miami, Tampa, Pittsburgh — plus non-metro expansion into WA, OK, AL, ID, MI, RI, MA, and DC. The coverage map is beginning to match the DMA footprints that brand media plans are built around.",
+      "topic": "Category entropy signals cross-vertical targeting potential",
+      "insight": "At 3.262 bits of category entropy, no single retail vertical dominates the receipt pool — grocery, home improvement, electronics, restaurant, and now SaaS-subscription coexist, meaning the dataset can support targeting briefs across multiple brand categories.",
       "magnitude": "medium"
     },
     {
-      "topic": "Velocity recovery during geographic expansion",
-      "insight": "Token velocity rebounded to 1.037x even as two new CBSAs were added in the same cycle, suggesting new markets are generating repeat verified transactions faster than the prior 'thin new metros' pattern predicted. For marketers, this implies the signal density per market is approaching usable frequency thresholds sooner than expected.",
+      "topic": "SaaS-subscription receipts enter the network",
+      "insight": "April 9 marked the first non-physical-commerce category in the protocol's history, opening the signal set beyond brick-and-mortar retail to digital subscription buyers — a distinct and historically hard-to-verify audience segment.",
       "magnitude": "medium"
     }
   ]

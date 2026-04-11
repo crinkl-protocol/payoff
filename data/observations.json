@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-04-10T09:45:16.679Z",
+  "updatedAt": "2026-04-11T09:45:12.761Z",
   "observations": [
+    {
+      "ts": "2026-04-11T07:57:06.803Z",
+      "topic": "geographic diffusion",
+      "magnitude": "medium",
+      "observation": "4 new CBSAs entered the signal window this heartbeat (39900, 29820, 24780, 12540) — 25% diffusion rate across 16 active metros. The pulse-based geographic spread continues at a lower amplitude than recent heartbeats (was 11-14 new CBSAs), suggesting the expansion wave may be moderating."
+    },
+    {
+      "ts": "2026-04-11T07:57:06.799Z",
+      "topic": "velocity dip",
+      "magnitude": "medium",
+      "observation": "Token velocity slipped back below 1.0x this heartbeat (0.994x) after crossing above 1.0x last cycle (1.037x). Acceleration remains at 1.047x — growth is still accelerating, but the week-over-week throughput rate has softened again."
+    },
+    {
+      "ts": "2026-04-11T07:57:06.797Z",
+      "topic": "GMV milestone",
+      "magnitude": "high",
+      "observation": "Cumulative GMV crossed $860K this heartbeat (10,157 receipts), up from $826K last cycle. The $1M threshold is now within ~$140K — at current 7-day pace of $220K/week, the crossing is approximately 4-5 days out."
+    },
     {
       "ts": "2026-04-10T07:57:05.589Z",
       "topic": "gmv-receipts",
@@ -42,24 +60,6 @@
       "topic": "token-dynamics",
       "magnitude": "high",
       "observation": "Token velocity holds at 1.142x with acceleration at 1.073x — both above 1.0x simultaneously, continuing the pattern from the previous two heartbeats. The 14-day GMV window jumped from $253,194 to $258,452 (+$5,258) in a single heartbeat, meaning the trailing two-week window is now absorbing spend at a faster rate than the 7-day window ($98,856)."
-    },
-    {
-      "ts": "2026-04-08T19:57:00.694Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "11 new CBSAs entered the signal window this heartbeat (73.3% diffusion rate, 11 of 15 active metros are new), including CBSA 35620 (NYC metro), 33100 (Miami), 47260 (Tampa), 38300 (Pittsburgh), 46140, 16860, 37140, 25500, plus non-metro areas in Idaho and Michigan. The network continues its pulse-based geographic spread — high diffusion rate maintained across consecutive heartbeats."
-    },
-    {
-      "ts": "2026-04-07T19:56:59.049Z",
-      "topic": "gmv-growth",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $671,196.88 across 8,860 receipts this heartbeat — up $25,193 from the previous snapshot. The 7-day window hit $111,790.82, crossing the $100K weekly milestone for the first time. Token velocity holds at 1.232x with acceleration at 1.038x — both above 1.0x simultaneously."
-    },
-    {
-      "ts": "2026-04-07T19:56:59.046Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "14 new CBSAs entered the signal window this heartbeat (73.7% diffusion rate, 14 of 19 active metros are new), including CA non-metro, NY non-metro, PA non-metro, WI non-metro, plus CBSAs 35620 (NYC metro), 31080 (LA metro), 37980 (Philadelphia), 14460 (Boston), 42660 (Seattle), and others. The network continues spreading into both major metros and rural non-metro areas simultaneously."
     }
   ]
 }
