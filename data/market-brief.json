@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-11T09:45:12.744Z",
+  "updatedAt": "2026-04-12T01:45:12.719Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal value",
-      "insight": "The protocol has produced 9,743 cryptographically verified purchase receipts — each one a confirmed transaction, not an inferred intent. In a post-cookie environment where $5+ CPM buys a probabilistic guess, a verified receipt is a categorically different asset.",
+      "topic": "Deterministic purchase signals vs. probabilistic targeting",
+      "insight": "9,743 cryptographically verified receipts represent confirmed purchase events — not inferred intent. In a market paying $5+ CPM for probabilistic signals, each receipt is a higher-fidelity targeting input than anything the programmatic stack currently sells.",
       "magnitude": "high"
     },
     {
-      "topic": "Spend concentration in high-value receipts",
-      "insight": "The April 9 record cycle added $56,064 in GMV from only 42 receipts — roughly $1,335 per receipt — indicating the network is capturing high-basket, high-intent buyers, not just frequent small-ticket transactions.",
+      "topic": "Verified GMV scale and trajectory",
+      "insight": "The protocol crossed $826K cumulative GMV with a 7-day window of $208,920 — meaning roughly 25% of total volume was generated in the last week alone. At this run rate, the $1M threshold is a near-term event, not a projection.",
       "magnitude": "high"
     },
     {
-      "topic": "Weekly GMV run rate crossing $200K",
-      "insight": "The 7-day GMV window reached $208,920 as of April 10, up from $101,734 one week prior — a doubling of weekly velocity that suggests the signal pool is compounding, not plateauing.",
+      "topic": "High-value receipt anomaly on April 9",
+      "insight": "The largest single-cycle GMV burst on record ($56,064 in 4 hours) was driven by only 42 receipts — an average of $1,334 per receipt in that window. This signals the presence of high-spend buyers, not just transaction volume, which is the segment brand marketers actually want to reach.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic reach now spans 16 CBSAs including major DMAs",
-      "insight": "Confirmed metros include NYC, LA, Philadelphia, Boston, Seattle, Miami, Tampa, and Pittsburgh, with non-metro coverage in WA, OK, AL, ID, MI, RI, MA, and DC — a footprint that supports national campaign planning, not just pilot markets.",
+      "topic": "SaaS-subscription category entry",
+      "insight": "April 9 marked the first non-physical-commerce category in network history. The appearance of SaaS subscription receipts alongside grocery, home improvement, and restaurant signals that verified purchase data is expanding beyond retail into recurring digital spend — a category with no existing deterministic signal infrastructure.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category entropy signals cross-vertical targeting potential",
-      "insight": "At 3.262 bits of category entropy, no single retail vertical dominates the receipt pool — grocery, home improvement, electronics, restaurant, and now SaaS-subscription coexist, meaning the dataset can support targeting briefs across multiple brand categories.",
+      "topic": "Geographic reach across 16 CBSAs",
+      "insight": "Active coverage now spans 16 CBSAs including NYC, LA, Boston, Seattle, and Miami, with non-metro areas in WA, AL, ID, and RI also represented. Velocity recovered to 1.037x even as two new CBSAs were added this cycle, suggesting new markets are generating repeat activity faster than the thin-market hypothesis predicted.",
       "magnitude": "medium"
     },
     {
-      "topic": "SaaS-subscription receipts enter the network",
-      "insight": "April 9 marked the first non-physical-commerce category in the protocol's history, opening the signal set beyond brick-and-mortar retail to digital subscription buyers — a distinct and historically hard-to-verify audience segment.",
+      "topic": "Category diversity as a targeting surface",
+      "insight": "Category entropy at 3.262 bits indicates no single retail vertical dominates the signal pool — grocery, home improvement, electronics, restaurant, and now SaaS are all present. For CMOs building audience segments, this breadth means cross-category purchase behavior is observable in a single verified data layer.",
       "magnitude": "medium"
     }
   ]
