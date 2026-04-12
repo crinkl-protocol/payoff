@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-12T01:45:12.738Z",
+  "updatedAt": "2026-04-12T09:45:12.963Z",
   "observations": [
+    {
+      "ts": "2026-04-12T07:57:04.806Z",
+      "topic": "gmv-milestone",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $886,823 across 10,540 receipts this heartbeat — $113K from the $1M threshold. At the current 7-day pace of $237,257, the crossing is approximately 3 days out. The 7-day window grew $2,902 in a single 3-hour cycle."
+    },
+    {
+      "ts": "2026-04-12T07:57:04.802Z",
+      "topic": "token-velocity",
+      "magnitude": "high",
+      "observation": "Token velocity jumped to 1.152x this heartbeat — the highest reading in recent cycles — with acceleration at 1.012x. Both metrics are above 1.0x simultaneously, confirming the network is in a compounding phase, not just recovering from the prior sub-1.0x dip."
+    },
     {
       "ts": "2026-04-11T19:56:59.664Z",
       "topic": "brand-entry",
@@ -48,18 +60,6 @@
       "topic": "velocity-recovery",
       "magnitude": "high",
       "observation": "Token velocity crossed back above 1.0x this heartbeat (0.958x → 1.037x) with acceleration at 1.082x — both metrics above 1.0x simultaneously. This reversal follows a period of sub-1.0x velocity, suggesting the network absorbed the geographic expansion and is now compounding again."
-    },
-    {
-      "ts": "2026-04-09T19:57:11.629Z",
-      "topic": "cumulative-gmv",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $803,037 across 9,501 receipts this heartbeat — crossing both the $800K GMV milestone and the 9,500 receipt threshold simultaneously. The 7-day window is at $208,888 and the 14-day window at $373,099, with 38% of all-time volume concentrated in the trailing two weeks."
-    },
-    {
-      "ts": "2026-04-09T19:57:11.622Z",
-      "topic": "category-expansion",
-      "magnitude": "high",
-      "observation": "A new category \"saas-subscription\" appeared in the signal window this heartbeat — the first non-physical-commerce category observed. This is a structural shift: the network now spans both physical retail receipts and digital subscription spend, expanding the category entropy from physical-only to a mixed physical/digital signal."
     }
   ]
 }
