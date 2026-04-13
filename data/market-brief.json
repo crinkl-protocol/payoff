@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-13T01:45:14.437Z",
+  "updatedAt": "2026-04-13T09:45:14.305Z",
   "insights": [
     {
-      "topic": "Deterministic purchase signals vs. probabilistic targeting",
-      "insight": "10,634 cryptographically verified receipts represent confirmed purchase events — not inferred intent. At a $5+ CPM industry benchmark for probabilistic signals, each verified receipt carries structural pricing power that cookie-based targeting cannot match.",
+      "topic": "Deterministic purchase signal volume",
+      "insight": "10,915 cryptographically verified receipts represent confirmed purchase events — not modeled intent. At $908K cumulative GMV, each receipt carries an average basket of ~$83, making this a high-value, post-transaction signal set that probabilistic targeting cannot replicate.",
       "magnitude": "high"
     },
     {
-      "topic": "$1M GMV threshold imminent — velocity confirmation",
-      "insight": "Seven-day GMV of $242,124 on 1,906 receipts puts the $1M cumulative milestone roughly 2–3 days out from April 12; 14-day volume represents 41.5% of all-time GMV, confirming the acceleration is front-loaded and compounding, not averaging up.",
+      "topic": "$1M GMV threshold proximity",
+      "insight": "At a 14-day run rate of $366,559 — 40% of all-time volume compressed into two weeks — the network crosses $1M GMV before April 16. The pace is structurally intact; the 7-day dip from $248K to $190K is a window-roll artifact, not a demand signal.",
       "magnitude": "high"
     },
     {
-      "topic": "Category diversity at 3.262 bits entropy — no single dominant vertical",
-      "insight": "Grocery, department stores, dining, gas, and now SaaS-subscription receipts coexist in the same verified stream, with the unclassified 'Unknown' bucket averaging $255 per receipt versus $94 for grocery — signaling high-value digital transactions are entering the network faster than classification can keep pace.",
+      "topic": "Geographic diffusion into non-metro markets",
+      "insight": "The April 12 heartbeat recorded 22 simultaneously active CBSAs — a network record — including first entries from WI, NC, and RI non-metro areas. For brands whose customers over-index in secondary and rural markets, this is a rare verified-purchase signal outside the usual coastal concentration.",
       "magnitude": "high"
     },
     {
-      "topic": "Digital commerce vendors confirmed in DKIM record",
-      "insight": "Amazon, Anthropic, OpenAI, Paddle, Gumroad, and Stripe are now represented as verified email-receipt sources, meaning subscription and creator-economy spend is sitting alongside physical retail in one unified purchase graph — a data layer that did not exist in this form before April 9.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Geographic footprint: 8 major metros plus non-metro rural entries",
-      "insight": "Confirmed CBSAs include NYC, LA, Philadelphia, Boston, Seattle, Miami, Tampa, and Pittsburgh, with non-metro entries across WA, OK, AL, ID, MI, TN, and others — the receipt graph is not confined to coastal urban clusters, which matters for CPG and auto-parts brands targeting mid-market geographies.",
+      "topic": "Velocity pattern: higher highs on each recovery",
+      "insight": "Token velocity has set successive records — 1.008x, then 1.232x, now 1.241x — with each post-dip recovery exceeding the prior peak. Acceleration holding above 1.0x throughout confirms the oscillation is geographic expansion rhythm, not demand decay.",
       "magnitude": "medium"
     },
     {
-      "topic": "Peer-to-peer resale (Depop) now in the verified receipt stream",
-      "insight": "Depop's presence alongside Walmart and Costco confirms the network captures secondhand and recommerce transactions — a category most brand measurement tools treat as invisible, but one that directly indexes consumer sentiment on brand durability and resale value.",
+      "topic": "Category expansion beyond physical retail",
+      "insight": "SaaS subscriptions entered the receipt network for the first time on April 9, alongside warehouse/bulk retail (Costco) on April 11. For CMOs planning cross-category attribution, the signal set is no longer limited to grocery or CPG — the addressable data footprint is widening.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Single-cycle GMV concentration risk and opportunity",
+      "insight": "The April 9 burst added $56K GMV in four hours on only 42 receipts — an average ticket above $1,300 per receipt. This signals a high-AOV buyer cohort exists within the network, relevant for luxury, B2B, and big-ticket brands evaluating verified-purchase audience targeting.",
       "magnitude": "medium"
     }
   ]

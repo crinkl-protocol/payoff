@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-13T01:45:14.455Z",
+  "updatedAt": "2026-04-13T09:45:14.328Z",
   "observations": [
+    {
+      "ts": "2026-04-13T07:57:03.585Z",
+      "topic": "geographic diffusion",
+      "magnitude": "medium",
+      "observation": "5 new CBSAs entered the signal window this heartbeat (27.8% diffusion rate, 18 total active metros), including Missouri non-metro and California non-metro — two geographically distant rural states entering simultaneously, continuing the pattern of organic spread beyond urban anchors."
+    },
+    {
+      "ts": "2026-04-13T07:56:57.930Z",
+      "topic": "GMV milestone",
+      "magnitude": "high",
+      "observation": "Cumulative GMV crossed $910K this heartbeat (10,932 receipts), now $90K from the $1M threshold. At the current 7-day pace of $196K, the crossing is approximately 3 days out — the countdown is compressing."
+    },
     {
       "ts": "2026-04-12T19:57:02.648Z",
       "topic": "velocity",
@@ -48,18 +60,6 @@
       "topic": "geographic diffusion",
       "magnitude": "medium",
       "observation": "4 new CBSAs entered the signal window this heartbeat (39900, 29820, 24780, 12540) — 25% diffusion rate across 16 active metros. The pulse-based geographic spread continues at a lower amplitude than recent heartbeats (was 11-14 new CBSAs), suggesting the expansion wave may be moderating."
-    },
-    {
-      "ts": "2026-04-11T07:57:06.799Z",
-      "topic": "velocity dip",
-      "magnitude": "medium",
-      "observation": "Token velocity slipped back below 1.0x this heartbeat (0.994x) after crossing above 1.0x last cycle (1.037x). Acceleration remains at 1.047x — growth is still accelerating, but the week-over-week throughput rate has softened again."
-    },
-    {
-      "ts": "2026-04-11T07:57:06.797Z",
-      "topic": "GMV milestone",
-      "magnitude": "high",
-      "observation": "Cumulative GMV crossed $860K this heartbeat (10,157 receipts), up from $826K last cycle. The $1M threshold is now within ~$140K — at current 7-day pace of $220K/week, the crossing is approximately 4-5 days out."
     }
   ]
 }
