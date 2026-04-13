@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-12T09:45:12.946Z",
+  "updatedAt": "2026-04-13T01:45:14.437Z",
   "insights": [
     {
-      "topic": "Deterministic vs. probabilistic signal gap",
-      "insight": "Every one of the 9,743 receipts in this network is a confirmed purchase event — not a behavioral inference. The ad industry pays $5+ CPM to guess who might buy; this protocol sells proof that someone already did.",
+      "topic": "Deterministic purchase signals vs. probabilistic targeting",
+      "insight": "10,634 cryptographically verified receipts represent confirmed purchase events — not inferred intent. At a $5+ CPM industry benchmark for probabilistic signals, each verified receipt carries structural pricing power that cookie-based targeting cannot match.",
       "magnitude": "high"
     },
     {
-      "topic": "Weekly GMV velocity as a targeting freshness indicator",
-      "insight": "The 7-day GMV window hit $208,920 as of April 10, up from roughly $100K just three days prior — meaning the signal pool is refreshing fast enough to support near-real-time audience activation, not just retrospective analysis.",
+      "topic": "$1M GMV threshold imminent — velocity confirmation",
+      "insight": "Seven-day GMV of $242,124 on 1,906 receipts puts the $1M cumulative milestone roughly 2–3 days out from April 12; 14-day volume represents 41.5% of all-time GMV, confirming the acceleration is front-loaded and compounding, not averaging up.",
       "magnitude": "high"
     },
     {
-      "topic": "High-value receipt anomaly on April 9",
-      "insight": "The single largest GMV burst on record — $56,064 in one 4-hour cycle — was driven by only 42 new receipts, implying a cluster of high-basket-size transactions; for brands targeting premium or high-LTV buyers, this is the segment to watch.",
+      "topic": "Category diversity at 3.262 bits entropy — no single dominant vertical",
+      "insight": "Grocery, department stores, dining, gas, and now SaaS-subscription receipts coexist in the same verified stream, with the unclassified 'Unknown' bucket averaging $255 per receipt versus $94 for grocery — signaling high-value digital transactions are entering the network faster than classification can keep pace.",
       "magnitude": "high"
     },
     {
-      "topic": "SaaS-subscription category entry",
-      "insight": "April 9 marked the first non-physical-commerce category in network history, signaling the protocol is beginning to capture digital spend alongside retail; for CMOs, this opens the possibility of cross-domain attribution between software purchases and physical buying behavior.",
+      "topic": "Digital commerce vendors confirmed in DKIM record",
+      "insight": "Amazon, Anthropic, OpenAI, Paddle, Gumroad, and Stripe are now represented as verified email-receipt sources, meaning subscription and creator-economy spend is sitting alongside physical retail in one unified purchase graph — a data layer that did not exist in this form before April 9.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Geographic footprint: 8 major metros plus non-metro rural entries",
+      "insight": "Confirmed CBSAs include NYC, LA, Philadelphia, Boston, Seattle, Miami, Tampa, and Pittsburgh, with non-metro entries across WA, OK, AL, ID, MI, TN, and others — the receipt graph is not confined to coastal urban clusters, which matters for CPG and auto-parts brands targeting mid-market geographies.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic expansion breadth and depth",
-      "insight": "The network reached 16 active CBSAs spanning major metros (NYC, LA, Miami, Seattle) and non-metro areas (Alabama, Idaho, Rhode Island), with velocity recovering to 1.037x even as two new markets were added — suggesting audience scale is building without sacrificing signal density in established markets.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Category diversity as a targeting surface",
-      "insight": "At 3.262 bits of category entropy, no single retail vertical dominates the receipt pool — grocery, home improvement, electronics, restaurant, and now SaaS all contribute, giving brand marketers a multi-category verified audience rather than a single-vertical panel.",
+      "topic": "Peer-to-peer resale (Depop) now in the verified receipt stream",
+      "insight": "Depop's presence alongside Walmart and Costco confirms the network captures secondhand and recommerce transactions — a category most brand measurement tools treat as invisible, but one that directly indexes consumer sentiment on brand durability and resale value.",
       "magnitude": "medium"
     }
   ]

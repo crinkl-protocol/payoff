@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-12T09:45:12.963Z",
+  "updatedAt": "2026-04-13T01:45:14.455Z",
   "observations": [
+    {
+      "ts": "2026-04-12T19:57:02.648Z",
+      "topic": "velocity",
+      "magnitude": "high",
+      "observation": "Token velocity reached 1.241x this heartbeat — the highest reading recorded — with acceleration at 1.048x. GMV crossed $899K (10,728 receipts), now $101K from the $1M threshold. At the current 7-day pace of $248,814, the crossing is approximately 2-3 days out."
+    },
+    {
+      "ts": "2026-04-12T19:56:56.792Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "17 new CBSAs entered the signal window this heartbeat (77.3% diffusion rate, 22 total active metros), including Wisconsin non-metro, North Carolina non-metro, Rhode Island non-metro, and 14 named CBSAs. This is the largest single-heartbeat geographic pulse recorded — rural non-metro US states entering the network simultaneously suggests organic spread beyond urban anchors."
+    },
     {
       "ts": "2026-04-12T07:57:04.806Z",
       "topic": "gmv-milestone",
@@ -48,18 +60,6 @@
       "topic": "GMV milestone",
       "magnitude": "high",
       "observation": "Cumulative GMV crossed $860K this heartbeat (10,157 receipts), up from $826K last cycle. The $1M threshold is now within ~$140K — at current 7-day pace of $220K/week, the crossing is approximately 4-5 days out."
-    },
-    {
-      "ts": "2026-04-10T07:57:05.589Z",
-      "topic": "gmv-receipts",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $826,638 across 9,743 receipts this heartbeat — approaching the $1M GMV threshold. The 7-day window is at $208,920 and the 14-day window at $386,785, with 46.8% of all-time volume concentrated in the trailing two weeks."
-    },
-    {
-      "ts": "2026-04-10T07:57:05.586Z",
-      "topic": "velocity-recovery",
-      "magnitude": "high",
-      "observation": "Token velocity crossed back above 1.0x this heartbeat (0.958x → 1.037x) with acceleration at 1.082x — both metrics above 1.0x simultaneously. This reversal follows a period of sub-1.0x velocity, suggesting the network absorbed the geographic expansion and is now compounding again."
     }
   ]
 }
