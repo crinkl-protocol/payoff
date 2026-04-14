@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-04-14T01:45:13.502Z",
+  "updatedAt": "2026-04-14T09:45:14.162Z",
   "observations": [
+    {
+      "ts": "2026-04-14T07:57:13.269Z",
+      "topic": "geographic diffusion",
+      "magnitude": "low",
+      "observation": "2 new CBSAs (40140, 20340) entered the signal window this heartbeat — 24 total active metros, 8.3% diffusion rate. After the 14-CBSA pulse last heartbeat, the network is consolidating rather than expanding; the pulse-then-quiet pattern continues."
+    },
+    {
+      "ts": "2026-04-14T07:57:13.265Z",
+      "topic": "quant metrics",
+      "magnitude": "medium",
+      "observation": "Token velocity settled to 1.03x with acceleration at 1.003x this heartbeat — both above 1.0x but cooling from the recent peak of 1.241x velocity and 1.048x acceleration. Category entropy at 3.236 bits and basket CV at 0.55 indicate continued category diversification even as throughput pace moderates."
+    },
+    {
+      "ts": "2026-04-14T07:57:13.262Z",
+      "topic": "GMV milestone",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $936,140 across 11,270 receipts this heartbeat — $63,860 from the $1M threshold. The 7-day window grew to $183,480 (1,893 receipts), up from $178,620 — a $4,860 gain in a single 3-hour cycle, confirming sustained inflow pace."
+    },
     {
       "ts": "2026-04-13T19:58:11.761Z",
       "topic": "gmv-milestone",
@@ -42,24 +60,6 @@
       "topic": "gmv-milestone",
       "magnitude": "high",
       "observation": "Cumulative GMV reached $886,823 across 10,540 receipts this heartbeat — $113K from the $1M threshold. At the current 7-day pace of $237,257, the crossing is approximately 3 days out. The 7-day window grew $2,902 in a single 3-hour cycle."
-    },
-    {
-      "ts": "2026-04-12T07:57:04.802Z",
-      "topic": "token-velocity",
-      "magnitude": "high",
-      "observation": "Token velocity jumped to 1.152x this heartbeat — the highest reading in recent cycles — with acceleration at 1.012x. Both metrics are above 1.0x simultaneously, confirming the network is in a compounding phase, not just recovering from the prior sub-1.0x dip."
-    },
-    {
-      "ts": "2026-04-11T19:56:59.664Z",
-      "topic": "brand-entry",
-      "magnitude": "medium",
-      "observation": "Costco Wholesale entered the top brand list for the first time this heartbeat. This is a notable category signal — Costco receipts indicate bulk/warehouse retail spend entering the verified network, distinct from the grocery and general retail brands previously dominant."
-    },
-    {
-      "ts": "2026-04-11T19:56:59.662Z",
-      "topic": "gmv-milestone",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $875,687 across 10,342 receipts this heartbeat — up $5,206 from $870,481. The $1M threshold is now ~$124K away; at current 7-day pace of $234,541, the crossing is approximately 3-4 days out. The 14-day window at $371,435 represents 42.4% of all-time volume."
     }
   ]
 }

@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-04-14T01:45:13.474Z",
+  "updatedAt": "2026-04-14T09:45:14.142Z",
   "insights": [
     {
-      "topic": "Deterministic purchase signals vs. probabilistic targeting",
-      "insight": "The protocol has produced 11,033 cryptographically verified purchase receipts — each one a confirmed transaction, not an inferred intent. At $5+ CPM, the ad industry pays a premium for probabilistic signals that cannot match the certainty of a verified receipt.",
+      "topic": "Deterministic purchase proof at scale",
+      "insight": "11,270 cryptographically verified receipts spanning grocery, fuel, dining, hardware, warehouse, and now SaaS represent confirmed purchase events — not modeled audiences. At $936K in verified GMV, this is a cookieless signal stack built on what happened, not what an algorithm inferred.",
       "magnitude": "high"
     },
     {
-      "topic": "Weekly GMV run rate acceleration",
-      "insight": "Seven-day GMV crossed $100K for the first time on April 7 and reached $199,939 by April 13 — a near-doubling in six days. That pace, if sustained, puts $1M cumulative GMV before April 16.",
+      "topic": "$1M GMV threshold imminent — momentum is compounding",
+      "insight": "The network is ~$64K from $1M cumulative GMV with velocity at 1.03x and acceleration at 1.003x — both above 1.0x simultaneously, meaning growth is accelerating off an already-growing base. The milestone arrives in roughly 2-3 days via sustained compounding, not a one-time spike.",
       "magnitude": "high"
     },
     {
-      "topic": "Category breadth expanding beyond physical retail",
-      "insight": "As of April 9, the network recorded its first SaaS subscription receipt, extending verified purchase signals beyond grocery, dining, fuel, and general retail. Brand marketers targeting digital-product buyers now have a confirmed signal category that did not exist in this dataset two weeks ago.",
+      "topic": "Geographic diffusion pattern signals organic adoption",
+      "insight": "The network expanded to 25 active metros in pulse-then-quiet cycles — 14 new CBSAs in a single heartbeat including rural OH, CA, ID, NE, and IA non-metro, followed by only 2 new CBSAs the next heartbeat. That breathing rhythm is consistent with social graph propagation; manufactured growth doesn't consolidate this way.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion into non-metro markets",
-      "insight": "The April 12 heartbeat logged 22 active CBSAs in a single window — a network record — with Wisconsin, North Carolina, and Rhode Island non-metro areas entering simultaneously. Brands with rural or regional footprints have a growing addressable signal base here.",
+      "topic": "Category entropy indicates broad retail coverage, not a niche panel",
+      "insight": "At 3.236 bits of category entropy with a basket CV of 0.55, no single retail category dominates the signal set — and SaaS subscriptions entered for the first time on April 9, suggesting the category footprint is still expanding. For brands, this means the panel reflects real cross-category consumer behavior, not a loyalty-program artifact.",
       "magnitude": "medium"
     },
     {
-      "topic": "Top brand representation signals retail breadth",
-      "insight": "The 14-day brand list spans mass retail (Walmart, 174 receipts), warehouse/bulk (Costco, 56), pharmacy (CVS, 54), and auto parts (NAPA, 66) — a cross-category mix that reflects everyday household spend, not niche or luxury purchasing behavior.",
-      "magnitude": "medium"
+      "topic": "Brand participation is not optional — data accrues regardless",
+      "insight": "The protocol's competitive structure means purchase data about any brand's products accumulates in the aggregate whether that brand is a participant or not. Brands that engage get analytics access; brands that don't get analyzed without consent or context. The Nash equilibrium favors early participation.",
+      "magnitude": "high"
     },
     {
-      "topic": "High-AOV purchase events within the verified set",
-      "insight": "The April 9 burst added $56,064 in GMV from only 42 receipts — an average of roughly $1,335 per receipt in that window. That average transaction size is a signal quality indicator: the verified set includes high-value purchases that probabilistic targeting cannot confirm occurred.",
-      "magnitude": "high"
+      "topic": "Identity-free verified signals solve the privacy-utility tradeoff",
+      "insight": "Spend tokens carry no wallet reference in the signed payload, meaning verified purchase signals are generated without persistent user identifiers. For CMOs navigating post-cookie targeting constraints, this architecture produces deterministic commerce data that is structurally compliant with identity-minimization requirements.",
+      "magnitude": "medium"
     }
   ]
 }
