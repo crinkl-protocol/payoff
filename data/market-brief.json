@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-04-13T09:45:14.305Z",
+  "updatedAt": "2026-04-14T01:45:13.474Z",
   "insights": [
     {
-      "topic": "Deterministic purchase signal volume",
-      "insight": "10,915 cryptographically verified receipts represent confirmed purchase events — not modeled intent. At $908K cumulative GMV, each receipt carries an average basket of ~$83, making this a high-value, post-transaction signal set that probabilistic targeting cannot replicate.",
+      "topic": "Deterministic purchase signals vs. probabilistic targeting",
+      "insight": "The protocol has produced 11,033 cryptographically verified purchase receipts — each one a confirmed transaction, not an inferred intent. At $5+ CPM, the ad industry pays a premium for probabilistic signals that cannot match the certainty of a verified receipt.",
       "magnitude": "high"
     },
     {
-      "topic": "$1M GMV threshold proximity",
-      "insight": "At a 14-day run rate of $366,559 — 40% of all-time volume compressed into two weeks — the network crosses $1M GMV before April 16. The pace is structurally intact; the 7-day dip from $248K to $190K is a window-roll artifact, not a demand signal.",
+      "topic": "Weekly GMV run rate acceleration",
+      "insight": "Seven-day GMV crossed $100K for the first time on April 7 and reached $199,939 by April 13 — a near-doubling in six days. That pace, if sustained, puts $1M cumulative GMV before April 16.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Category breadth expanding beyond physical retail",
+      "insight": "As of April 9, the network recorded its first SaaS subscription receipt, extending verified purchase signals beyond grocery, dining, fuel, and general retail. Brand marketers targeting digital-product buyers now have a confirmed signal category that did not exist in this dataset two weeks ago.",
       "magnitude": "high"
     },
     {
       "topic": "Geographic diffusion into non-metro markets",
-      "insight": "The April 12 heartbeat recorded 22 simultaneously active CBSAs — a network record — including first entries from WI, NC, and RI non-metro areas. For brands whose customers over-index in secondary and rural markets, this is a rare verified-purchase signal outside the usual coastal concentration.",
+      "insight": "The April 12 heartbeat logged 22 active CBSAs in a single window — a network record — with Wisconsin, North Carolina, and Rhode Island non-metro areas entering simultaneously. Brands with rural or regional footprints have a growing addressable signal base here.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Top brand representation signals retail breadth",
+      "insight": "The 14-day brand list spans mass retail (Walmart, 174 receipts), warehouse/bulk (Costco, 56), pharmacy (CVS, 54), and auto parts (NAPA, 66) — a cross-category mix that reflects everyday household spend, not niche or luxury purchasing behavior.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "High-AOV purchase events within the verified set",
+      "insight": "The April 9 burst added $56,064 in GMV from only 42 receipts — an average of roughly $1,335 per receipt in that window. That average transaction size is a signal quality indicator: the verified set includes high-value purchases that probabilistic targeting cannot confirm occurred.",
       "magnitude": "high"
-    },
-    {
-      "topic": "Velocity pattern: higher highs on each recovery",
-      "insight": "Token velocity has set successive records — 1.008x, then 1.232x, now 1.241x — with each post-dip recovery exceeding the prior peak. Acceleration holding above 1.0x throughout confirms the oscillation is geographic expansion rhythm, not demand decay.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Category expansion beyond physical retail",
-      "insight": "SaaS subscriptions entered the receipt network for the first time on April 9, alongside warehouse/bulk retail (Costco) on April 11. For CMOs planning cross-category attribution, the signal set is no longer limited to grocery or CPG — the addressable data footprint is widening.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Single-cycle GMV concentration risk and opportunity",
-      "insight": "The April 9 burst added $56K GMV in four hours on only 42 receipts — an average ticket above $1,300 per receipt. This signals a high-AOV buyer cohort exists within the network, relevant for luxury, B2B, and big-ticket brands evaluating verified-purchase audience targeting.",
-      "magnitude": "medium"
     }
   ]
 }

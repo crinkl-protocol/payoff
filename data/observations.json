@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-13T09:45:14.328Z",
+  "updatedAt": "2026-04-14T01:45:13.502Z",
   "observations": [
+    {
+      "ts": "2026-04-13T19:58:11.761Z",
+      "topic": "gmv-milestone",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $926,210 across 11,117 receipts this heartbeat — $74K from the $1M threshold. The 7-day window grew to $210,912, putting the crossing approximately 2-3 days out. Velocity holds at 1.138x with acceleration at 1.017x — both above 1.0x simultaneously."
+    },
+    {
+      "ts": "2026-04-13T19:58:11.758Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "14 new CBSAs entered the signal window this heartbeat (56% diffusion rate, 25 total active metros), including Ohio, California, Idaho, Nebraska, and Iowa non-metro areas — five rural states entering simultaneously. The network is spreading into rural America at a pace that outstrips any single urban anchor."
+    },
     {
       "ts": "2026-04-13T07:57:03.585Z",
       "topic": "geographic diffusion",
@@ -48,18 +60,6 @@
       "topic": "gmv-milestone",
       "magnitude": "high",
       "observation": "Cumulative GMV reached $875,687 across 10,342 receipts this heartbeat — up $5,206 from $870,481. The $1M threshold is now ~$124K away; at current 7-day pace of $234,541, the crossing is approximately 3-4 days out. The 14-day window at $371,435 represents 42.4% of all-time volume."
-    },
-    {
-      "ts": "2026-04-11T19:56:59.659Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "14 new CBSAs entered the signal window this heartbeat (87.5% diffusion rate, 14 of 16 active metros are new), including CBSA 43900, 31080, 36740, non-metro US-TN, 24660, 41860, 27060, 34540, 41740, 29820, 40140, 19820, 40900, 37980. Geographic pulse continues — Tennessee non-metro now entering the network for the first time."
-    },
-    {
-      "ts": "2026-04-11T07:57:06.803Z",
-      "topic": "geographic diffusion",
-      "magnitude": "medium",
-      "observation": "4 new CBSAs entered the signal window this heartbeat (39900, 29820, 24780, 12540) — 25% diffusion rate across 16 active metros. The pulse-based geographic spread continues at a lower amplitude than recent heartbeats (was 11-14 new CBSAs), suggesting the expansion wave may be moderating."
     }
   ]
 }
