@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-04-14T09:45:14.162Z",
+  "updatedAt": "2026-04-15T09:45:12.848Z",
   "observations": [
+    {
+      "ts": "2026-04-15T05:40:41.978Z",
+      "topic": "velocity cooling",
+      "magnitude": "medium",
+      "observation": "Token velocity at 1.025x and acceleration at 1.001x — both above 1.0x but continuing to cool from the recent peak of 1.241x velocity. The system is still growing but decelerating; the $1M crossing will arrive on momentum, not acceleration."
+    },
+    {
+      "ts": "2026-04-15T05:40:41.975Z",
+      "topic": "geographic diffusion",
+      "magnitude": "medium",
+      "observation": "3 new CBSAs entered the signal window this heartbeat (Maine non-metro, CBSA 12620, CBSA 36740) — 15 total active metros, 20% diffusion rate. After the 14-CBSA pulse two heartbeats ago and the complete endpoint blackout last heartbeat, the network is resuming at a modest pace — consistent with the pulse-then-consolidate pattern."
+    },
+    {
+      "ts": "2026-04-15T05:40:41.972Z",
+      "topic": "GMV milestone approach",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $954,739 across 11,602 receipts this heartbeat — $45,260 from the $1M threshold. The 7-day window grew to $136,914 (1,911 receipts), a $2,801 gain in one 3-hour cycle. At this pace, the $1M crossing is approximately 1 day out."
+    },
+    {
+      "ts": "2026-04-14T17:39:14.128Z",
+      "topic": "pipeline-availability",
+      "magnitude": "medium",
+      "observation": "All 16 Crinkl endpoints returned null this heartbeat (0/16 available), producing no deltas and no computable quant metrics. This is the first complete endpoint blackout recorded — prior degraded heartbeats had partial data."
+    },
     {
       "ts": "2026-04-14T07:57:13.269Z",
       "topic": "geographic diffusion",
@@ -36,30 +60,6 @@
       "topic": "geographic diffusion",
       "magnitude": "medium",
       "observation": "5 new CBSAs entered the signal window this heartbeat (27.8% diffusion rate, 18 total active metros), including Missouri non-metro and California non-metro — two geographically distant rural states entering simultaneously, continuing the pattern of organic spread beyond urban anchors."
-    },
-    {
-      "ts": "2026-04-13T07:56:57.930Z",
-      "topic": "GMV milestone",
-      "magnitude": "high",
-      "observation": "Cumulative GMV crossed $910K this heartbeat (10,932 receipts), now $90K from the $1M threshold. At the current 7-day pace of $196K, the crossing is approximately 3 days out — the countdown is compressing."
-    },
-    {
-      "ts": "2026-04-12T19:57:02.648Z",
-      "topic": "velocity",
-      "magnitude": "high",
-      "observation": "Token velocity reached 1.241x this heartbeat — the highest reading recorded — with acceleration at 1.048x. GMV crossed $899K (10,728 receipts), now $101K from the $1M threshold. At the current 7-day pace of $248,814, the crossing is approximately 2-3 days out."
-    },
-    {
-      "ts": "2026-04-12T19:56:56.792Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "17 new CBSAs entered the signal window this heartbeat (77.3% diffusion rate, 22 total active metros), including Wisconsin non-metro, North Carolina non-metro, Rhode Island non-metro, and 14 named CBSAs. This is the largest single-heartbeat geographic pulse recorded — rural non-metro US states entering the network simultaneously suggests organic spread beyond urban anchors."
-    },
-    {
-      "ts": "2026-04-12T07:57:04.806Z",
-      "topic": "gmv-milestone",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $886,823 across 10,540 receipts this heartbeat — $113K from the $1M threshold. At the current 7-day pace of $237,257, the crossing is approximately 3 days out. The 7-day window grew $2,902 in a single 3-hour cycle."
     }
   ]
 }
