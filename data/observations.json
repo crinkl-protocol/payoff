@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-04-15T09:45:12.848Z",
+  "updatedAt": "2026-04-15T17:41:31.501Z",
   "observations": [
+    {
+      "ts": "2026-04-15T17:40:33.369Z",
+      "topic": "velocity-recovery",
+      "magnitude": "medium",
+      "observation": "Token velocity recovered to 1.067x with acceleration at 1.022x — both above 1.0x simultaneously after cooling to 1.025x/1.001x two heartbeats ago. The blackout heartbeat produced no data; the two surrounding heartbeats show the system absorbing the gap and resuming growth trajectory."
+    },
+    {
+      "ts": "2026-04-15T17:40:33.366Z",
+      "topic": "gmv-milestone",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $961,915 across 11,708 receipts this heartbeat — $38,085 from the $1M threshold. The 7-day window grew to $143,496 (2,012 receipts), a $3,358 gain in one 3-hour cycle. At current pace, the $1M crossing is less than 24 hours out."
+    },
+    {
+      "ts": "2026-04-15T17:40:33.363Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "7 new CBSAs entered the signal window this heartbeat (41.2% diffusion rate, 17 total active metros) — including Maine non-metro, CBSA 29820, and 5 others. After a complete endpoint blackout last heartbeat and modest 3-CBSA recovery, the network has re-accelerated geographic spread in a single cycle."
+    },
     {
       "ts": "2026-04-15T05:40:41.978Z",
       "topic": "velocity cooling",
@@ -42,24 +60,6 @@
       "topic": "GMV milestone",
       "magnitude": "high",
       "observation": "Cumulative GMV reached $936,140 across 11,270 receipts this heartbeat — $63,860 from the $1M threshold. The 7-day window grew to $183,480 (1,893 receipts), up from $178,620 — a $4,860 gain in a single 3-hour cycle, confirming sustained inflow pace."
-    },
-    {
-      "ts": "2026-04-13T19:58:11.761Z",
-      "topic": "gmv-milestone",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $926,210 across 11,117 receipts this heartbeat — $74K from the $1M threshold. The 7-day window grew to $210,912, putting the crossing approximately 2-3 days out. Velocity holds at 1.138x with acceleration at 1.017x — both above 1.0x simultaneously."
-    },
-    {
-      "ts": "2026-04-13T19:58:11.758Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "14 new CBSAs entered the signal window this heartbeat (56% diffusion rate, 25 total active metros), including Ohio, California, Idaho, Nebraska, and Iowa non-metro areas — five rural states entering simultaneously. The network is spreading into rural America at a pace that outstrips any single urban anchor."
-    },
-    {
-      "ts": "2026-04-13T07:57:03.585Z",
-      "topic": "geographic diffusion",
-      "magnitude": "medium",
-      "observation": "5 new CBSAs entered the signal window this heartbeat (27.8% diffusion rate, 18 total active metros), including Missouri non-metro and California non-metro — two geographically distant rural states entering simultaneously, continuing the pattern of organic spread beyond urban anchors."
     }
   ]
 }

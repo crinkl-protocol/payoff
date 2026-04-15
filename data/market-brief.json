@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-15T09:45:12.829Z",
+  "updatedAt": "2026-04-15T17:41:31.494Z",
   "insights": [
     {
       "topic": "Deterministic vs. probabilistic signal value",
-      "insight": "The protocol has produced 11,270 cryptographically verified purchase confirmations — not inferences, not modeled audiences. At a time when cookieless targeting forces brands back toward probabilistic proxies, this is the category of signal the ad industry claims to want but cannot currently buy at scale.",
+      "insight": "The protocol holds 11,270 cryptographically verified purchase receipts — confirmed transactions, not inferred intent. At a time when the ad industry charges $5+ CPM for probabilistic targeting, this is a structurally different class of signal.",
       "magnitude": "high"
     },
     {
-      "topic": "$1M GMV threshold approaching via compounding",
-      "insight": "Cumulative verified GMV stands at $936,140 with velocity at 1.03x and acceleration at 1.003x — both above 1.0 simultaneously, meaning the pace is still building. The $1M crossing is 2-3 days out and is arriving through sustained compounding, not a promotional spike.",
+      "topic": "$1M GMV threshold imminent",
+      "insight": "At $936K cumulative GMV and a 7-day run rate of $183K, the network crosses $1M in approximately 2-3 days — driven by compounding velocity (1.03x) and acceleration (1.003x) both above 1.0x simultaneously, not a spike.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion pattern signals organic adoption",
-      "insight": "The network is expanding in pulse-then-quiet cycles — 14 new CBSAs in one heartbeat (rural OH, CA, ID, NE, IA non-metro), followed by only 2 the next — a rhythm consistent with social graph propagation rather than paid acquisition. Manufactured growth doesn't produce this breathing pattern.",
+      "topic": "Category diversity is expanding, not concentrating",
+      "insight": "Category entropy at 3.236 bits indicates no single category dominates the receipt pool; grocery, fuel, dining, hardware, warehouse, and — as of April 9 — SaaS subscriptions are all represented, making this dataset useful across verticals.",
       "magnitude": "high"
     },
     {
-      "topic": "Category breadth now spans physical retail through SaaS",
-      "insight": "Category entropy at 3.236 bits indicates no single vertical dominates; the receipt set covers grocery, fuel, dining, hardware, warehouse (Costco entered April 11), and as of April 9, digital SaaS subscriptions — the first non-physical-commerce category in network history. Basket CV of 0.55 confirms new categories are still entering.",
+      "topic": "Geographic diffusion pattern signals organic growth",
+      "insight": "The network expands in documented pulse-then-quiet cycles — 14 new CBSAs in one heartbeat (rural OH, CA, ID, NE, IA), followed by only 2 the next — a rhythm consistent with social graph propagation rather than paid acquisition, which affects signal quality assessments.",
       "magnitude": "medium"
     },
     {
-      "topic": "Data flywheel runs whether brands engage or not",
-      "insight": "Each receipt submission adds a verified signal, rewards the submitter ~10 cents in bitcoin, and increases the analytical value of all prior signals through added context. The competitive implication for brands: the dataset accumulates on their category regardless of their participation.",
+      "topic": "Cookieless architecture by design",
+      "insight": "Spend tokens carry no wallet reference in the signed payload, meaning purchase signals are identity-free at the individual level — aggregate verified commerce data without the regulatory and consent exposure that comes with cookie-based or device-graph targeting.",
       "magnitude": "high"
     },
     {
-      "topic": "Identity-free verified signals solve the privacy-utility tradeoff",
-      "insight": "Spend tokens carry no wallet reference in the signed payload — aggregate purchase behavior is verifiable without individual user identification. This is the architecture cookieless targeting has been promising: deterministic at the signal level, private at the identity level.",
+      "topic": "Competitive default: participate or be analyzed anyway",
+      "insight": "The protocol's data flywheel accumulates verified purchase signals regardless of brand participation — each new receipt increases the analytical value of all prior signals. Brands that delay cede first-mover access to their own category data.",
       "magnitude": "medium"
     }
   ]
