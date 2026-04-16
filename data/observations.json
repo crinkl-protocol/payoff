@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-15T17:41:31.501Z",
+  "updatedAt": "2026-04-16T09:45:13.436Z",
   "observations": [
+    {
+      "ts": "2026-04-16T05:40:27.096Z",
+      "topic": "gmv-1m-threshold",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $971,090 across 11,932 receipts — $28,910 from the $1M threshold. The 7-day window grew to $125,455 (1,900 receipts), a $3,264 gain this cycle. At current pace, the $1M crossing is approximately 8-10 hours out."
+    },
+    {
+      "ts": "2026-04-16T05:40:27.093Z",
+      "topic": "velocity-below-1",
+      "magnitude": "high",
+      "observation": "Token velocity dropped to 0.944x this heartbeat — first time below 1.0x since the recent acceleration peak of 1.241x. Acceleration is at 0.999x (also sub-1.0), meaning week-over-week growth is now contracting, not just cooling. The system is still accumulating GMV but the pace is decelerating."
+    },
     {
       "ts": "2026-04-15T17:40:33.369Z",
       "topic": "velocity-recovery",
@@ -48,18 +60,6 @@
       "topic": "geographic diffusion",
       "magnitude": "low",
       "observation": "2 new CBSAs (40140, 20340) entered the signal window this heartbeat — 24 total active metros, 8.3% diffusion rate. After the 14-CBSA pulse last heartbeat, the network is consolidating rather than expanding; the pulse-then-quiet pattern continues."
-    },
-    {
-      "ts": "2026-04-14T07:57:13.265Z",
-      "topic": "quant metrics",
-      "magnitude": "medium",
-      "observation": "Token velocity settled to 1.03x with acceleration at 1.003x this heartbeat — both above 1.0x but cooling from the recent peak of 1.241x velocity and 1.048x acceleration. Category entropy at 3.236 bits and basket CV at 0.55 indicate continued category diversification even as throughput pace moderates."
-    },
-    {
-      "ts": "2026-04-14T07:57:13.262Z",
-      "topic": "GMV milestone",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $936,140 across 11,270 receipts this heartbeat — $63,860 from the $1M threshold. The 7-day window grew to $183,480 (1,893 receipts), up from $178,620 — a $4,860 gain in a single 3-hour cycle, confirming sustained inflow pace."
     }
   ]
 }
