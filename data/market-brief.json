@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-16T09:45:13.418Z",
+  "updatedAt": "2026-04-16T17:41:40.120Z",
   "insights": [
     {
-      "topic": "Deterministic purchase proof at scale",
-      "insight": "11,932 cryptographically verified receipts spanning grocery, auto parts, dining, fuel, and digital SaaS represent confirmed purchase events — not behavioral inference. At $971K cumulative GMV, the dataset is large enough to benchmark category-level spend patterns against probabilistic ad-targeting assumptions.",
+      "topic": "Deterministic purchase proof vs. probabilistic targeting",
+      "insight": "The network has cryptographically verified 11,932 purchase events totaling $971K in GMV — each receipt is a confirmed transaction, not an inferred intent signal. That is a structurally different input for targeting than cookie-based or behavioral inference models.",
       "magnitude": "high"
     },
     {
-      "topic": "Unknown category is the largest GMV bucket",
-      "insight": "The 'Unknown' category accounts for $109,460 — 29.3% of 14-day GMV — driven by SaaS and digital receipts that existing classification systems haven't caught up to. For brands operating in digital services, this is where verified spend signal is accumulating fastest.",
+      "topic": "Unknown/digital category is the largest GMV bucket",
+      "insight": "The 'Unknown' category accounts for $109,460 — 29.3% of 14-day GMV — and is almost certainly SaaS and digital subscription spend based on the DKIM vendor list (OpenAI, Anthropic, Stripe, Paddle, Gumroad). Brands selling software, subscriptions, or digital products have a verified-spend audience here that physical-retail targeting misses entirely.",
       "magnitude": "high"
     },
     {
-      "topic": "Non-metro and rural geographic diffusion",
-      "insight": "Active verified purchase signals now span Maine, Tennessee, Missouri, Idaho, Nebraska, Iowa, and other non-metro CBSAs — not just urban anchors. Brands whose mass-market distribution extends beyond top-25 DMAs have a rare opportunity to validate reach in markets where panel-based measurement historically underperforms.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "NAPA Auto Parts as second-ranked brand by receipt count",
-      "insight": "NAPA Auto Parts at 87 verified receipts over 14 days ranks second only to Walmart in the top-brand list, confirming that automotive parts retail is a durable and material share of verified spend — not a sampling artifact. Auto aftermarket brands should note this category is already represented in the receipt graph.",
+      "topic": "Automotive parts as a durable verified-spend category",
+      "insight": "NAPA Auto Parts ranks second by receipt count at 87 receipts in 14 days, behind only Walmart at 181 — it is not a one-cycle anomaly. Automotive aftermarket is an established, recurring share of verified spend in this network, relevant to any brand targeting vehicle owners or home improvement buyers.",
       "magnitude": "medium"
     },
     {
-      "topic": "Velocity contraction post-April 12 peak",
-      "insight": "Token velocity has dropped to 0.944x with acceleration at 0.999x — the first sub-1.0x reading since the April 12 record high. Week-over-week throughput is contracting; the $1M milestone arrives on residual momentum, not growth. Post-milestone trajectory is the more relevant planning signal for brands evaluating data volume commitments.",
+      "topic": "Rural and non-metro geographic diffusion",
+      "insight": "The network has expanded to confirmed non-metro CBSAs across Maine, Tennessee, Missouri, Idaho, Nebraska, Iowa, Wisconsin, North Carolina, and Rhode Island — markets where digital ad targeting is notoriously thin and third-party data is weakest. Verified purchase signals in these geographies are comparatively rare and therefore higher-value.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Velocity contraction is a structural signal, not noise",
+      "insight": "Token velocity has dropped to 0.944x with acceleration at 0.999x — the first sub-1.0x reading since the April 12 peak — meaning week-over-week throughput is now contracting. CMOs evaluating this network for scale should track whether this is post-expansion consolidation (consistent with the observed pulse pattern) or the beginning of a sustained slowdown.",
       "magnitude": "medium"
     },
     {
-      "topic": "10 DKIM vendors confirm digital receipt verification is live",
-      "insight": "Verified vendors include Stripe, Paddle, Amazon, OpenAI, Anthropic, Gumroad, and Suno — meaning digital subscription and SaaS purchase receipts are being cryptographically authenticated alongside physical retail. For brands in software, media, or fintech, this pipeline is already capturing their category's purchase events.",
+      "topic": "Warehouse and mass-market retail anchor the receipt base",
+      "insight": "Walmart (181 receipts) and Costco (63 receipts) together represent a high-frequency, high-basket-size consumer segment within the verified pool. For CPG and household brands, these receipts identify actual buyers at the two largest US retailers — without relying on retailer data-sharing agreements.",
       "magnitude": "medium"
     }
   ]
