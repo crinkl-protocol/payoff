@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-16T17:41:40.131Z",
+  "updatedAt": "2026-04-17T09:45:17.183Z",
   "observations": [
+    {
+      "ts": "2026-04-17T05:40:39.073Z",
+      "topic": "gmv-threshold",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $990,515 across 12,302 receipts this heartbeat — $9,485 from the $1M threshold. The 7-day window grew to $112,437 (1,796 receipts), a $4,267 gain this cycle. At current velocity (0.819x, decelerating), the $1M crossing is still imminent but the engine is running slower than any point in the past 6 heartbeats."
+    },
+    {
+      "ts": "2026-04-17T05:40:31.715Z",
+      "topic": "velocity-drop",
+      "magnitude": "high",
+      "observation": "Token velocity dropped to 0.819x this heartbeat — the sharpest single-cycle deceleration since tracking began, down from 0.975x last heartbeat. Acceleration at 1.004x (barely above 1.0), meaning the week-over-week growth rate is contracting fast but not yet compounding downward."
+    },
     {
       "ts": "2026-04-16T17:40:34.319Z",
       "topic": "velocity recovery",
@@ -48,18 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "high",
       "observation": "7 new CBSAs entered the signal window this heartbeat (41.2% diffusion rate, 17 total active metros) — including Maine non-metro, CBSA 29820, and 5 others. After a complete endpoint blackout last heartbeat and modest 3-CBSA recovery, the network has re-accelerated geographic spread in a single cycle."
-    },
-    {
-      "ts": "2026-04-15T05:40:41.978Z",
-      "topic": "velocity cooling",
-      "magnitude": "medium",
-      "observation": "Token velocity at 1.025x and acceleration at 1.001x — both above 1.0x but continuing to cool from the recent peak of 1.241x velocity. The system is still growing but decelerating; the $1M crossing will arrive on momentum, not acceleration."
-    },
-    {
-      "ts": "2026-04-15T05:40:41.975Z",
-      "topic": "geographic diffusion",
-      "magnitude": "medium",
-      "observation": "3 new CBSAs entered the signal window this heartbeat (Maine non-metro, CBSA 12620, CBSA 36740) — 15 total active metros, 20% diffusion rate. After the 14-CBSA pulse two heartbeats ago and the complete endpoint blackout last heartbeat, the network is resuming at a modest pace — consistent with the pulse-then-consolidate pattern."
     }
   ]
 }

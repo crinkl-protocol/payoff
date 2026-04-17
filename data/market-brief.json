@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-16T17:41:40.120Z",
+  "updatedAt": "2026-04-17T09:45:17.156Z",
   "insights": [
     {
-      "topic": "Deterministic purchase proof vs. probabilistic targeting",
-      "insight": "The network has cryptographically verified 11,932 purchase events totaling $971K in GMV — each receipt is a confirmed transaction, not an inferred intent signal. That is a structurally different input for targeting than cookie-based or behavioral inference models.",
+      "topic": "Deterministic purchase proof at scale",
+      "insight": "12,302 cryptographically verified receipts spanning physical retail, dining, fuel, warehouse, and SaaS subscriptions represent confirmed purchase events — not inferred intent. At $990K in verified GMV, this is a cookieless signal set built on transaction fact, not behavioral probability.",
       "magnitude": "high"
     },
     {
-      "topic": "Unknown/digital category is the largest GMV bucket",
-      "insight": "The 'Unknown' category accounts for $109,460 — 29.3% of 14-day GMV — and is almost certainly SaaS and digital subscription spend based on the DKIM vendor list (OpenAI, Anthropic, Stripe, Paddle, Gumroad). Brands selling software, subscriptions, or digital products have a verified-spend audience here that physical-retail targeting misses entirely.",
+      "topic": "$1M GMV threshold imminent",
+      "insight": "The protocol sits $9,485 from $1M in verified GMV, with recent 4-hour cycle inflows reaching $5,016 — meaning the crossing arrives on the next material burst, not a trend. For marketers evaluating the network, this is an inflection point for case study and attribution benchmarking.",
       "magnitude": "high"
     },
     {
-      "topic": "Automotive parts as a durable verified-spend category",
-      "insight": "NAPA Auto Parts ranks second by receipt count at 87 receipts in 14 days, behind only Walmart at 181 — it is not a one-cycle anomaly. Automotive aftermarket is an established, recurring share of verified spend in this network, relevant to any brand targeting vehicle owners or home improvement buyers.",
+      "topic": "Velocity deceleration is real but not a collapse",
+      "insight": "Token velocity dropped from 1.241x on April 12 to 0.819x on April 17 — the steepest single-cycle decline recorded — but acceleration holds at 1.004x, meaning the contraction rate is not yet compounding. The primary mechanical cause is high-volume April 8–12 receipts rolling out of the 7-day window, not a demand reversal.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Geographic diffusion reaching non-metro America",
+      "insight": "Active CBSAs expanded to 25 metros in a single heartbeat on April 13, with simultaneous entry from rural Ohio, California, Idaho, Nebraska, and Iowa — followed by Maine and Rhode Island non-metro. For CPG and QSR brands with national footprints, this signals verified purchase data is no longer confined to top-tier urban markets.",
       "magnitude": "medium"
     },
     {
-      "topic": "Rural and non-metro geographic diffusion",
-      "insight": "The network has expanded to confirmed non-metro CBSAs across Maine, Tennessee, Missouri, Idaho, Nebraska, Iowa, Wisconsin, North Carolina, and Rhode Island — markets where digital ad targeting is notoriously thin and third-party data is weakest. Verified purchase signals in these geographies are comparatively rare and therefore higher-value.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Velocity contraction is a structural signal, not noise",
-      "insight": "Token velocity has dropped to 0.944x with acceleration at 0.999x — the first sub-1.0x reading since the April 12 peak — meaning week-over-week throughput is now contracting. CMOs evaluating this network for scale should track whether this is post-expansion consolidation (consistent with the observed pulse pattern) or the beginning of a sustained slowdown.",
+      "topic": "SaaS subscriptions as a new verified category",
+      "insight": "Digital SaaS subscriptions entered the receipt network on April 9 — the first non-physical commerce category in the protocol's history. Brand marketers can now cross-reference physical purchase behavior with software subscription signals, opening a path to verified B2SMB and prosumer audience segments.",
       "magnitude": "medium"
     },
     {
-      "topic": "Warehouse and mass-market retail anchor the receipt base",
-      "insight": "Walmart (181 receipts) and Costco (63 receipts) together represent a high-frequency, high-basket-size consumer segment within the verified pool. For CPG and household brands, these receipts identify actual buyers at the two largest US retailers — without relying on retailer data-sharing agreements.",
+      "topic": "Network resilience after complete blackout",
+      "insight": "A total endpoint blackout on April 14 — 0 of 16 endpoints available — resolved within roughly 12 hours, with 15 metros active and 3 new CBSAs added in the recovery cycle. For brands considering this as infrastructure for always-on attribution, the blackout-and-recovery sequence is the first real stress test of operational durability.",
       "magnitude": "medium"
     }
   ]
