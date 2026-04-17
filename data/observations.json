@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-04-17T09:45:17.183Z",
+  "updatedAt": "2026-04-17T17:45:14.870Z",
   "observations": [
+    {
+      "ts": "2026-04-17T17:40:32.239Z",
+      "topic": "velocity/acceleration divergence",
+      "magnitude": "medium",
+      "observation": "Token velocity is 0.855x (week-over-week contraction) while acceleration is 1.013x (the rate of change is itself accelerating). This divergence — velocity below 1.0 but acceleration above 1.0 — suggests the deceleration is bottoming out, not compounding. The system is slowing but the slowdown is stabilizing."
+    },
+    {
+      "ts": "2026-04-17T17:40:32.237Z",
+      "topic": "geographic diffusion pulse",
+      "magnitude": "high",
+      "observation": "7 new CBSAs entered the signal window this heartbeat (38.9% diffusion rate, 18 total active metros) — including CBSA 40380, 31080, 15380, and non-metro areas in Kansas, Wisconsin, Massachusetts, and South Carolina. This is the third consecutive 7-CBSA burst, suggesting a sustained geographic expansion wave rather than isolated pulses."
+    },
+    {
+      "ts": "2026-04-17T17:40:32.234Z",
+      "topic": "GMV milestone proximity",
+      "magnitude": "high",
+      "observation": "Cumulative GMV reached $996,004 across 12,411 receipts this heartbeat — $3,996 from the $1M threshold. The 7-day window grew to $117,684 (1,901 receipts), a $1,995 gain this cycle. At current velocity (0.855x, decelerating), the $1M crossing is imminent — likely within 1-2 heartbeats."
+    },
     {
       "ts": "2026-04-17T05:40:39.073Z",
       "topic": "gmv-threshold",
@@ -42,24 +60,6 @@
       "topic": "velocity-below-1",
       "magnitude": "high",
       "observation": "Token velocity dropped to 0.944x this heartbeat — first time below 1.0x since the recent acceleration peak of 1.241x. Acceleration is at 0.999x (also sub-1.0), meaning week-over-week growth is now contracting, not just cooling. The system is still accumulating GMV but the pace is decelerating."
-    },
-    {
-      "ts": "2026-04-15T17:40:33.369Z",
-      "topic": "velocity-recovery",
-      "magnitude": "medium",
-      "observation": "Token velocity recovered to 1.067x with acceleration at 1.022x — both above 1.0x simultaneously after cooling to 1.025x/1.001x two heartbeats ago. The blackout heartbeat produced no data; the two surrounding heartbeats show the system absorbing the gap and resuming growth trajectory."
-    },
-    {
-      "ts": "2026-04-15T17:40:33.366Z",
-      "topic": "gmv-milestone",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $961,915 across 11,708 receipts this heartbeat — $38,085 from the $1M threshold. The 7-day window grew to $143,496 (2,012 receipts), a $3,358 gain in one 3-hour cycle. At current pace, the $1M crossing is less than 24 hours out."
-    },
-    {
-      "ts": "2026-04-15T17:40:33.363Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "7 new CBSAs entered the signal window this heartbeat (41.2% diffusion rate, 17 total active metros) — including Maine non-metro, CBSA 29820, and 5 others. After a complete endpoint blackout last heartbeat and modest 3-CBSA recovery, the network has re-accelerated geographic spread in a single cycle."
     }
   ]
 }

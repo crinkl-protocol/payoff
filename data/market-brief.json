@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-17T09:45:17.156Z",
+  "updatedAt": "2026-04-17T17:45:14.853Z",
   "insights": [
     {
-      "topic": "Deterministic purchase proof at scale",
-      "insight": "12,302 cryptographically verified receipts spanning physical retail, dining, fuel, warehouse, and SaaS subscriptions represent confirmed purchase events — not inferred intent. At $990K in verified GMV, this is a cookieless signal set built on transaction fact, not behavioral probability.",
+      "topic": "Deterministic vs. probabilistic signal value",
+      "insight": "12,302 cryptographically verified receipts confirm purchases happened — no inference, no modeling. At $990K in verified GMV, this dataset represents the kind of closed-loop purchase confirmation that probabilistic cookie-based targeting cannot replicate.",
       "magnitude": "high"
     },
     {
       "topic": "$1M GMV threshold imminent",
-      "insight": "The protocol sits $9,485 from $1M in verified GMV, with recent 4-hour cycle inflows reaching $5,016 — meaning the crossing arrives on the next material burst, not a trend. For marketers evaluating the network, this is an inflection point for case study and attribution benchmarking.",
+      "insight": "The network sits $9,485 from $1M in verified commerce volume, with recent 4-hour cycle inflows ranging $3K–$5K. The milestone crossing is a concrete proof-of-scale moment, not a projection — the gap is smaller than a single strong inflow cycle.",
       "magnitude": "high"
     },
     {
-      "topic": "Velocity deceleration is real but not a collapse",
-      "insight": "Token velocity dropped from 1.241x on April 12 to 0.819x on April 17 — the steepest single-cycle decline recorded — but acceleration holds at 1.004x, meaning the contraction rate is not yet compounding. The primary mechanical cause is high-volume April 8–12 receipts rolling out of the 7-day window, not a demand reversal.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Geographic diffusion reaching non-metro America",
-      "insight": "Active CBSAs expanded to 25 metros in a single heartbeat on April 13, with simultaneous entry from rural Ohio, California, Idaho, Nebraska, and Iowa — followed by Maine and Rhode Island non-metro. For CPG and QSR brands with national footprints, this signals verified purchase data is no longer confined to top-tier urban markets.",
+      "topic": "Velocity deceleration is real but not a demand collapse",
+      "insight": "Token velocity dropped to 0.819x — the steepest single-cycle decline recorded — but the mechanical cause is a rolling 7-day window clearing an unusually high-volume week from April 8–12, not a behavioral drop-off. Acceleration holding at 1.004x means the contraction is not yet compounding.",
       "magnitude": "medium"
     },
     {
-      "topic": "SaaS subscriptions as a new verified category",
-      "insight": "Digital SaaS subscriptions entered the receipt network on April 9 — the first non-physical commerce category in the protocol's history. Brand marketers can now cross-reference physical purchase behavior with software subscription signals, opening a path to verified B2SMB and prosumer audience segments.",
+      "topic": "Geographic diffusion now reaches rural and non-metro America",
+      "insight": "Active CBSAs have expanded to 21 metro areas including non-metro geographies across WI, NC, RI, OH, CA, ID, NE, IA, ME — markets where physical retail is dominant and digital targeting data is historically thin. This is a meaningful coverage signal for brands with national or rural distribution.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Category breadth spans physical retail, dining, fuel, warehouse, and SaaS",
+      "insight": "The protocol now captures receipts across five distinct commerce categories, with SaaS subscriptions entering the dataset on April 9 — the first non-physical-commerce signal in network history. For brand marketers, this means purchase context extends beyond store trips into recurring digital spend.",
       "magnitude": "medium"
     },
     {
       "topic": "Network resilience after complete blackout",
-      "insight": "A total endpoint blackout on April 14 — 0 of 16 endpoints available — resolved within roughly 12 hours, with 15 metros active and 3 new CBSAs added in the recovery cycle. For brands considering this as infrastructure for always-on attribution, the blackout-and-recovery sequence is the first real stress test of operational durability.",
+      "insight": "A total endpoint blackout on April 14 — all 16 endpoints down simultaneously — resolved within roughly 12 hours, with three new CBSAs added in the recovery cycle. The system's ability to resume geographic diffusion post-outage is a relevant reliability data point for any brand considering this as infrastructure.",
       "magnitude": "medium"
     }
   ]
