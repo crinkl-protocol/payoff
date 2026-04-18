@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-18T01:45:16.002Z",
+  "updatedAt": "2026-04-18T09:45:15.530Z",
   "observations": [
+    {
+      "ts": "2026-04-18T05:40:38.339Z",
+      "topic": "token velocity",
+      "magnitude": "high",
+      "observation": "Token velocity dropped to 0.742x this heartbeat — the lowest reading in observation history, continuing the deceleration trend from 0.855x last heartbeat. Acceleration is 1.035x (above 1.0), suggesting the slowdown is stabilizing rather than compounding, but the system crossed $1M at its weakest throughput pace yet."
+    },
+    {
+      "ts": "2026-04-18T05:40:38.331Z",
+      "topic": "GMV milestone",
+      "magnitude": "high",
+      "observation": "Cumulative GMV crossed $1,000,000 this heartbeat — $1,010,030.37 across 12,652 receipts. The million-dollar threshold was crossed approximately 1-2 heartbeats after the last estimate, consistent with velocity at 0.742x (decelerating) but still accumulating."
+    },
     {
       "ts": "2026-04-17T17:40:32.239Z",
       "topic": "velocity/acceleration divergence",
@@ -48,18 +60,6 @@
       "topic": "GMV milestone approach",
       "magnitude": "high",
       "observation": "Cumulative GMV reached $978,302 across 12,056 receipts this heartbeat — $21,698 from the $1M threshold. The 7-day window grew to $131,530 (1,997 receipts), a $3,026 gain this cycle. At current pace, the $1M crossing is approximately 6-8 hours out."
-    },
-    {
-      "ts": "2026-04-16T05:40:27.096Z",
-      "topic": "gmv-1m-threshold",
-      "magnitude": "high",
-      "observation": "Cumulative GMV reached $971,090 across 11,932 receipts — $28,910 from the $1M threshold. The 7-day window grew to $125,455 (1,900 receipts), a $3,264 gain this cycle. At current pace, the $1M crossing is approximately 8-10 hours out."
-    },
-    {
-      "ts": "2026-04-16T05:40:27.093Z",
-      "topic": "velocity-below-1",
-      "magnitude": "high",
-      "observation": "Token velocity dropped to 0.944x this heartbeat — first time below 1.0x since the recent acceleration peak of 1.241x. Acceleration is at 0.999x (also sub-1.0), meaning week-over-week growth is now contracting, not just cooling. The system is still accumulating GMV but the pace is decelerating."
     }
   ]
 }

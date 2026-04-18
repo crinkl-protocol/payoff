@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-18T01:45:15.985Z",
+  "updatedAt": "2026-04-18T09:45:15.513Z",
   "insights": [
     {
-      "topic": "$1M verified GMV threshold",
-      "insight": "The protocol is $3,996 from $1M in cryptographically verified purchase volume across 12,411 receipts — a meaningful proof-of-scale moment for a deterministic signal network, not a probabilistic one. For brands evaluating cookieless alternatives, this is the first independently verifiable GMV benchmark in the dataset.",
+      "topic": "Verified purchase signals vs. probabilistic targeting",
+      "insight": "The protocol has generated 12,411 cryptographically verified purchase receipts across physical retail, dining, fuel, warehouse, and SaaS — each one a confirmed transaction, not an inferred intent. At a $5+ CPM market rate for probabilistic signals, that volume of deterministic data represents a structurally different asset class for audience targeting.",
       "magnitude": "high"
     },
     {
-      "topic": "Deterministic vs. probabilistic signal value",
-      "insight": "Each of the 12,411 receipts represents a confirmed transaction, not an inferred intent — a structural advantage over cookie-based targeting that charges $5+ CPM to guess purchase behavior. The protocol's signal is post-purchase fact, which changes how attribution and audience validation should be priced.",
+      "topic": "$1M GMV threshold imminent",
+      "insight": "Cumulative verified GMV stands at $996,004 with $3,996 remaining — less than a single average inflow cycle at current throughput rates. The milestone is arithmetic, not speculative, and signals the protocol has crossed from proof-of-concept into measurable commerce infrastructure.",
       "magnitude": "high"
     },
     {
-      "topic": "Category expansion into SaaS subscriptions",
-      "insight": "As of April 9, the network captured its first non-physical-commerce receipt category — SaaS subscriptions — meaning verified purchase signals now span physical retail, dining, fuel, warehouse/bulk, and digital goods. For CMOs building cross-channel audience segments, the addressable signal set is widening beyond traditional retail verticals.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Velocity deceleration with early recovery signal",
-      "insight": "Week-over-week throughput velocity dropped to a trough of 0.819x on April 17 before recovering to 0.855x with acceleration at 1.013x — the first simultaneous upward movement in both metrics since April 15. One heartbeat of recovery is not a confirmed trend, but it is the first data point suggesting the deceleration may be bottoming.",
+      "topic": "7-day GMV recovery after window artifact",
+      "insight": "The 7-day GMV trough of $105,195 on April 17 was caused by high-volume April 10 receipts rolling out of the window simultaneously — a mechanical distortion, not an underlying demand drop. The metric has since recovered to $117,684, suggesting underlying throughput is stabilizing.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic diffusion: pulse pattern across 18 metros",
-      "insight": "The network has expanded in repeated 7-CBSA pulses rather than linear growth, with three consecutive such pulses confirmed and coverage now spanning 18 active metro areas including non-traditional markets in OH, ID, NE, and IA. For brands targeting mid-market or non-coastal consumers, the geographic footprint is becoming less coastal-skewed.",
+      "topic": "Velocity deceleration with early reversal signal",
+      "insight": "Token velocity fell from a peak of 1.241x on April 12 to a trough of 0.819x on April 17 — the sharpest single-cycle deceleration on record — but the most recent reading shows a modest recovery to 0.855x with acceleration climbing to 1.013x. One data point is not confirmation; the next heartbeat is the test.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Geographic diffusion in structured pulses",
+      "insight": "The network has now produced three consecutive 7-CBSA expansion pulses, a pattern that suggests coordinated or incentivized user acquisition rather than organic drift. For brand marketers, this pulse-then-consolidate behavior indicates plannable geographic rollout rather than unpredictable scatter.",
       "magnitude": "medium"
     },
     {
-      "topic": "Infrastructure reliability: blackout precedent",
-      "insight": "The April 14 complete endpoint blackout — the first total outage in observation history — is a material operational risk flag for any brand considering this network as a primary data source. Recovery was partial (15 of prior 25 metros) and took roughly 12 hours, which sets a baseline for worst-case interruption duration.",
+      "topic": "SaaS subscriptions as a new receipt category",
+      "insight": "Digital SaaS subscriptions entered the protocol's verified receipt set on April 9 — the first non-physical-commerce category in the network's history. This expands the targeting surface beyond brick-and-mortar into software spend, a signal set that is nearly absent from traditional retail data partnerships.",
       "magnitude": "medium"
     }
   ]
