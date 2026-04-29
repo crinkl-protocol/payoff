@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-19T06:19:19.355Z",
+  "updatedAt": "2026-04-29T17:45:16.672Z",
   "insights": [
     {
-      "topic": "Deterministic purchase proof at scale",
-      "insight": "The protocol has logged 12,411 cryptographically verified receipts spanning grocery, fuel, dining, warehouse, and SaaS — each one a confirmed transaction, not a behavioral inference. At $996K in verified GMV, the dataset is small but structurally distinct from any probabilistic targeting stack.",
+      "topic": "Verified purchase signal scale",
+      "insight": "The protocol has generated 12,411 cryptographically confirmed purchase receipts totaling $996,004 in verified GMV — deterministic proof of transaction, not probabilistic inference. For brands paying $5+ CPM for cookie-based targeting, this represents a fundamentally different data class: the purchase already happened.",
       "magnitude": "high"
     },
     {
       "topic": "$1M GMV threshold imminent",
-      "insight": "The network sits $3,996 from $1M in verified GMV, with the most recent single heartbeat adding $2,055 — meaning the crossing is within one or two data cycles. This is the first auditable commerce milestone of this kind for the protocol and marks a natural evaluation checkpoint for prospective data buyers.",
+      "insight": "At $3,996 remaining and a single heartbeat adding $2,055, the $1M cumulative GMV crossing is arithmetic — not speculative. The milestone marks the first meaningful proof-of-scale checkpoint for a verified commerce data network operating across physical retail, dining, fuel, warehouse, and SaaS categories.",
       "magnitude": "high"
     },
     {
       "topic": "Velocity deceleration with early stabilization signal",
-      "insight": "Week-over-week token velocity dropped from a peak of 1.241x on April 12 to a trough of 0.819x on April 17 morning — the sharpest single-cycle deceleration on record — before recovering modestly to 0.855x with acceleration now at 1.013x. The recovery is real but unconfirmed; one additional heartbeat of upward movement is required before treating this as a trend reversal rather than noise.",
+      "insight": "Token velocity fell from a peak of 1.241x on April 12 to a trough of 0.819x on April 17T05:40 — the sharpest single-cycle drop recorded — before recovering to 0.855x with acceleration climbing to 1.013x. One data point does not confirm a floor; the next heartbeat is the confirmation test.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic diffusion in structured pulses",
-      "insight": "The network does not expand linearly — it fires in discrete geographic pulses, with three consecutive 7-CBSA additions observed across recent cycles covering markets including Ohio, California, Idaho, Nebraska, and Iowa non-metro. For brands planning regional or flyover-market campaigns, this pulse pattern determines when verified local purchase data actually becomes available.",
+      "topic": "Geographic diffusion pattern: pulse, not linear",
+      "insight": "Three consecutive 7-CBSA expansion pulses have occurred across April 15–17, following a 14-CBSA single-heartbeat record on April 13. The network does not grow continuously — it surges, consolidates, then surges again, which has direct implications for how brands should model regional audience availability.",
       "magnitude": "medium"
     },
     {
-      "topic": "SaaS subscription category now in dataset",
-      "insight": "As of April 9, the protocol recorded its first non-physical-commerce receipt category — digital SaaS subscriptions — expanding the signal set beyond retail and dining. Brands in software, streaming, or digital services now have a precedent category in the verified receipt graph, though volume in this segment remains early-stage.",
+      "topic": "Category breadth now includes SaaS subscriptions",
+      "insight": "SaaS subscription receipts entered the network on April 9 — the first non-physical-commerce category in the protocol's history. For CMOs, this signals the data layer is no longer limited to in-store or dining purchase verification; digital subscription behavior is now in scope.",
       "magnitude": "medium"
     },
     {
-      "topic": "Post-blackout network resilience",
-      "insight": "A complete endpoint blackout on April 14 took all 16 endpoints offline simultaneously — the first total outage in observation history — and the network recovered to 15 active metros within roughly 12 hours. For CMOs evaluating this as a data infrastructure dependency, the blackout is a material risk data point; the recovery speed is the partially offsetting factor.",
+      "topic": "Infrastructure resilience after total blackout",
+      "insight": "A complete endpoint blackout on April 14 — all 16 endpoints offline simultaneously — resolved within roughly 12 hours, with the network resuming across 15 metros and adding 3 new CBSAs post-recovery. For marketers evaluating this as a data dependency, the blackout is a documented risk event; the recovery speed is the counterweight.",
       "magnitude": "medium"
     }
   ]
