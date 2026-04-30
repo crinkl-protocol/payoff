@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-29T17:45:16.672Z",
+  "updatedAt": "2026-04-30T00:35:32.647Z",
   "insights": [
     {
-      "topic": "Verified purchase signal scale",
-      "insight": "The protocol has generated 12,411 cryptographically confirmed purchase receipts totaling $996,004 in verified GMV — deterministic proof of transaction, not probabilistic inference. For brands paying $5+ CPM for cookie-based targeting, this represents a fundamentally different data class: the purchase already happened.",
+      "topic": "Verified purchase signals vs. probabilistic targeting",
+      "insight": "The network has produced 16,901 cryptographically verified purchase events across $1.056M in confirmed GMV — deterministic signals that confirm a transaction occurred, not inferred intent from browsing behavior. For marketers paying $5+ CPM on probabilistic audiences, this represents a structurally different input: proof of purchase, not prediction of purchase.",
       "magnitude": "high"
     },
     {
-      "topic": "$1M GMV threshold imminent",
-      "insight": "At $3,996 remaining and a single heartbeat adding $2,055, the $1M cumulative GMV crossing is arithmetic — not speculative. The milestone marks the first meaningful proof-of-scale checkpoint for a verified commerce data network operating across physical retail, dining, fuel, warehouse, and SaaS categories.",
+      "topic": "Throughput compression post-$1M",
+      "insight": "7-day GMV has fallen from a $210,912 peak on April 13 to $76,909 as of April 29 — a 64% contraction in rolling weekly volume in under three weeks. The network is still generating inflow every cycle, but any marketer evaluating signal volume for campaign planning should model against current throughput, not the April peak.",
       "magnitude": "high"
     },
     {
-      "topic": "Velocity deceleration with early stabilization signal",
-      "insight": "Token velocity fell from a peak of 1.241x on April 12 to a trough of 0.819x on April 17T05:40 — the sharpest single-cycle drop recorded — before recovering to 0.855x with acceleration climbing to 1.013x. One data point does not confirm a floor; the next heartbeat is the confirmation test.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Geographic diffusion pattern: pulse, not linear",
-      "insight": "Three consecutive 7-CBSA expansion pulses have occurred across April 15–17, following a 14-CBSA single-heartbeat record on April 13. The network does not grow continuously — it surges, consolidates, then surges again, which has direct implications for how brands should model regional audience availability.",
+      "topic": "Digital commerce entry via Google",
+      "insight": "Google appeared in the 14-day top brand list on April 28, the first digital-native brand to reach that threshold in network history — following SaaS-subscription receipts first appearing April 9. The verified receipt model is beginning to capture digital transaction proof, expanding the addressable use case beyond physical retail.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category breadth now includes SaaS subscriptions",
-      "insight": "SaaS subscription receipts entered the network on April 9 — the first non-physical-commerce category in the protocol's history. For CMOs, this signals the data layer is no longer limited to in-store or dining purchase verification; digital subscription behavior is now in scope.",
+      "topic": "Category basket-size divergence",
+      "insight": "Department stores and grocery are nearly tied on 14-day GMV ($37,937 vs. $37,895), but grocery runs 34% more receipts — meaning department store baskets are materially larger per transaction. Brands in home goods, apparel, and general merchandise have a higher-value verified buyer signal available than receipt volume alone would suggest.",
       "magnitude": "medium"
     },
     {
-      "topic": "Infrastructure resilience after total blackout",
-      "insight": "A complete endpoint blackout on April 14 — all 16 endpoints offline simultaneously — resolved within roughly 12 hours, with the network resuming across 15 metros and adding 3 new CBSAs post-recovery. For marketers evaluating this as a data dependency, the blackout is a documented risk event; the recovery speed is the counterweight.",
+      "topic": "Geographic diffusion breadth",
+      "insight": "The network reached 17 active CBSAs in a single heartbeat on April 18, with 81% diffusion — the highest geographic spread rate recorded. For brand marketers, this indicates the verified signal base is not concentrated in one or two metros, which matters for national campaign targeting and regional audience construction.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Data quality gap in the Unknown category",
+      "insight": "10.2% of 14-day receipts — 469 transactions representing $26,511 in GMV — carry no category classification. For any marketer building audience segments from this data, one in ten signals currently cannot be attributed to a vertical, which is a material gap in targeting precision that should be resolved before scaling spend against this feed.",
       "magnitude": "medium"
     }
   ]

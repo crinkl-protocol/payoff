@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-04-29T17:45:16.690Z",
+  "updatedAt": "2026-04-30T00:35:32.649Z",
   "observations": [
+    {
+      "ts": "2026-04-30T00:34:20.695Z",
+      "topic": "gmv-receipts-growth",
+      "magnitude": "medium",
+      "observation": "Cumulative GMV reached $1,065,862 across 17,115 receipts this heartbeat — 4,017 more receipts than last tracked observation (13,098), representing a 31% increase in receipt count since crossing $1M. The system is accumulating volume even as velocity decelerates."
+    },
+    {
+      "ts": "2026-04-30T00:34:20.693Z",
+      "topic": "geo-diffusion-pause",
+      "magnitude": "medium",
+      "observation": "Geographic diffusion hit 0 new CBSAs this heartbeat (19 total active) — the first pause after multiple consecutive burst heartbeats (6, 17, 7 new CBSAs in recent history). The network is consolidating geographically while velocity continues to decelerate to 0.61x."
+    },
+    {
+      "ts": "2026-04-30T00:34:20.689Z",
+      "topic": "velocity-new-low",
+      "magnitude": "high",
+      "observation": "Token velocity dropped to 0.61x this heartbeat — the lowest reading in observation history, continuing a sustained deceleration trend from 0.69x last heartbeat. Acceleration remains at 1.05x (above 1.0), suggesting the floor is still forming but throughput is at its weakest recorded pace."
+    },
     {
       "ts": "2026-04-19T06:18:06.806Z",
       "topic": "gmv-milestone",
@@ -42,24 +60,6 @@
       "topic": "token velocity",
       "magnitude": "high",
       "observation": "Token velocity dropped to 0.742x this heartbeat — the lowest reading in observation history, continuing the deceleration trend from 0.855x last heartbeat. Acceleration is 1.035x (above 1.0), suggesting the slowdown is stabilizing rather than compounding, but the system crossed $1M at its weakest throughput pace yet."
-    },
-    {
-      "ts": "2026-04-18T05:40:38.331Z",
-      "topic": "GMV milestone",
-      "magnitude": "high",
-      "observation": "Cumulative GMV crossed $1,000,000 this heartbeat — $1,010,030.37 across 12,652 receipts. The million-dollar threshold was crossed approximately 1-2 heartbeats after the last estimate, consistent with velocity at 0.742x (decelerating) but still accumulating."
-    },
-    {
-      "ts": "2026-04-17T17:40:32.239Z",
-      "topic": "velocity/acceleration divergence",
-      "magnitude": "medium",
-      "observation": "Token velocity is 0.855x (week-over-week contraction) while acceleration is 1.013x (the rate of change is itself accelerating). This divergence — velocity below 1.0 but acceleration above 1.0 — suggests the deceleration is bottoming out, not compounding. The system is slowing but the slowdown is stabilizing."
-    },
-    {
-      "ts": "2026-04-17T17:40:32.237Z",
-      "topic": "geographic diffusion pulse",
-      "magnitude": "high",
-      "observation": "7 new CBSAs entered the signal window this heartbeat (38.9% diffusion rate, 18 total active metros) — including CBSA 40380, 31080, 15380, and non-metro areas in Kansas, Wisconsin, Massachusetts, and South Carolina. This is the third consecutive 7-CBSA burst, suggesting a sustained geographic expansion wave rather than isolated pulses."
     }
   ]
 }
