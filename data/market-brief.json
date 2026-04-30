@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-04-30T00:35:32.647Z",
+  "updatedAt": "2026-04-30T17:45:17.429Z",
   "insights": [
     {
-      "topic": "Verified purchase signals vs. probabilistic targeting",
-      "insight": "The network has produced 16,901 cryptographically verified purchase events across $1.056M in confirmed GMV — deterministic signals that confirm a transaction occurred, not inferred intent from browsing behavior. For marketers paying $5+ CPM on probabilistic audiences, this represents a structurally different input: proof of purchase, not prediction of purchase.",
+      "topic": "Deterministic purchase proof at scale",
+      "insight": "The network has verified 17,193 actual transactions totaling $1.07M in GMV — not modeled audiences, not intent signals, but cryptographically confirmed purchases spanning physical retail, dining, fuel, warehouse, and digital SaaS. For brands paying $5+ CPM for probabilistic targeting, this is the structural alternative: a receipt is a closed loop, not an inference.",
       "magnitude": "high"
     },
     {
-      "topic": "Throughput compression post-$1M",
-      "insight": "7-day GMV has fallen from a $210,912 peak on April 13 to $76,909 as of April 29 — a 64% contraction in rolling weekly volume in under three weeks. The network is still generating inflow every cycle, but any marketer evaluating signal volume for campaign planning should model against current throughput, not the April peak.",
+      "topic": "Category breadth now includes digital commerce",
+      "insight": "Google entered the top-brand list on April 28, marking the first time a digital commerce provider appeared in the 14-day brand rankings — a category that was entirely absent before April 9. The network now spans physical-to-digital purchase verification, which expands its utility beyond CPG and retail into subscription and SaaS audience targeting.",
       "magnitude": "high"
     },
     {
-      "topic": "Digital commerce entry via Google",
-      "insight": "Google appeared in the 14-day top brand list on April 28, the first digital-native brand to reach that threshold in network history — following SaaS-subscription receipts first appearing April 9. The verified receipt model is beginning to capture digital transaction proof, expanding the addressable use case beyond physical retail.",
+      "topic": "Throughput compression is real but appears to be flooring",
+      "insight": "Weekly GMV has dropped 64% from its $210K peak on April 13 to a current $76.5K band, and velocity hit an all-time low of 0.61x on April 30 — but the series has shown intraday stabilization in a $66K–$81K range over the past five days with no zero-inflow heartbeats. Brands evaluating data volume commitments should treat current throughput as the working baseline, not the peak.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Geographic diffusion reached 29 metros",
+      "insight": "The network hit 29 active metros on April 19 and recorded a 17-CBSA single-heartbeat expansion — the highest geographic diffusion rate in its history at 81%. For marketers requiring regional or local purchase verification, the addressable footprint has grown materially and quickly, though it has since settled back to 18 active metros in the current reading.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category basket-size divergence",
-      "insight": "Department stores and grocery are nearly tied on 14-day GMV ($37,937 vs. $37,895), but grocery runs 34% more receipts — meaning department store baskets are materially larger per transaction. Brands in home goods, apparel, and general merchandise have a higher-value verified buyer signal available than receipt volume alone would suggest.",
+      "topic": "Intraday receipt flow follows a predictable cycle",
+      "insight": "Across multiple consecutive days, the 16:15–20:15 UTC window consistently produces the highest receipt volumes, with 00:15 cycles as structural troughs. This pattern is stable enough to inform how brands should time data pulls or audience refreshes if integrating this signal into campaign activation workflows.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic diffusion breadth",
-      "insight": "The network reached 17 active CBSAs in a single heartbeat on April 18, with 81% diffusion — the highest geographic spread rate recorded. For brand marketers, this indicates the verified signal base is not concentrated in one or two metros, which matters for national campaign targeting and regional audience construction.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Data quality gap in the Unknown category",
-      "insight": "10.2% of 14-day receipts — 469 transactions representing $26,511 in GMV — carry no category classification. For any marketer building audience segments from this data, one in ten signals currently cannot be attributed to a vertical, which is a material gap in targeting precision that should be resolved before scaling spend against this feed.",
+      "topic": "Lightning micropayment layer is live but nascent",
+      "insight": "253 Lightning payouts have been made against 17,193 receipts — a 1.5% claim rate — with 6.7M sats distributed at 129 sats per receipt at current BTC pricing. The incentive layer is functional but underutilized, which means the existing verified GMV was generated largely without financial inducement, reducing the selection-bias concern that often undermines incentivized receipt programs.",
       "magnitude": "medium"
     }
   ]

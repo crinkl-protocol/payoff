@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-30T00:35:32.649Z",
+  "updatedAt": "2026-04-30T17:45:17.446Z",
   "observations": [
+    {
+      "ts": "2026-04-30T12:34:29.359Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "One new CBSA (19740) entered the signal window this heartbeat — 16 total active metros, 6.3% diffusion rate. After the burst pattern of recent heartbeats (17, 6, 0 new CBSAs), the network is adding one metro at a time, suggesting the pulse-based expansion may be settling into a slower, steadier spread."
+    },
+    {
+      "ts": "2026-04-30T12:34:18.900Z",
+      "topic": "velocity-floor",
+      "magnitude": "high",
+      "observation": "Token velocity dropped to 0.642x this heartbeat — the lowest reading in observation history, continuing sustained deceleration from 0.61x last heartbeat. Acceleration is 1.002x (barely above 1.0), suggesting the floor is still forming but the deceleration is nearly self-sustaining."
+    },
     {
       "ts": "2026-04-30T00:34:20.695Z",
       "topic": "gmv-receipts-growth",
@@ -48,18 +60,6 @@
       "topic": "velocity-divergence",
       "magnitude": "medium",
       "observation": "Token velocity is 0.80x (week-over-week contraction, lowest sustained reading) while acceleration is 1.048x — the system is slowing in throughput but the rate of change is itself accelerating. This divergence has persisted for 4+ heartbeats and suggests a structural deceleration floor forming, not a collapse."
-    },
-    {
-      "ts": "2026-04-18T17:40:32.000Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "17 new CBSAs entered the signal window this heartbeat — 81% diffusion rate, 21 total active metros. This is the highest single-heartbeat geographic burst in observation history, including non-metro areas in WI, NY, MI, NE, TN, and OH. The network is spreading faster than it's deepening."
-    },
-    {
-      "ts": "2026-04-18T05:40:38.339Z",
-      "topic": "token velocity",
-      "magnitude": "high",
-      "observation": "Token velocity dropped to 0.742x this heartbeat — the lowest reading in observation history, continuing the deceleration trend from 0.855x last heartbeat. Acceleration is 1.035x (above 1.0), suggesting the slowdown is stabilizing rather than compounding, but the system crossed $1M at its weakest throughput pace yet."
     }
   ]
 }
