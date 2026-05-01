@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-05-01T01:45:14.474Z",
+  "updatedAt": "2026-05-01T17:45:16.056Z",
   "insights": [
     {
-      "topic": "Verified purchase signal volume",
-      "insight": "The network has produced 17,273 cryptographically verified receipts spanning physical retail, dining, fuel, warehouse, and digital SaaS — each one a confirmed transaction, not a behavioral inference. At $1.07M in verified GMV, the addressable signal pool is small but deterministic in a way no cookie-based or panel-based data source can match.",
+      "topic": "Verified purchase data vs. probabilistic targeting",
+      "insight": "The protocol has confirmed $1,087,101 in actual transactions across 17,563 receipts — deterministic purchase proof, not modeled intent. At $5+ CPM for probabilistic signals, brands are paying a premium for inference when cryptographically verified GMV data exists at scale.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt vs. probabilistic targeting cost gap",
-      "insight": "Display advertising pays $5+ CPM to infer purchase intent from browsing behavior; a verified receipt confirms a purchase already happened. That gap — probabilistic inference versus cryptographic proof — is the core pricing inefficiency brands should be evaluating as cookie deprecation removes the inferential layer entirely.",
+      "topic": "Throughput deceleration now self-sustaining",
+      "insight": "Token acceleration crossed below 1.0x for the first time on May 1 (0.999x), meaning the slowdown is no longer just cooling — it is compounding. Weekly GMV has fallen from a $210,912 peak on April 13 to a $66K–$85K operating band, a 60%+ contraction in verified weekly commerce volume.",
       "magnitude": "high"
     },
     {
-      "topic": "Category expansion into digital commerce",
-      "insight": "Google entered the top brand list on April 28, and SaaS subscriptions were first observed April 9 — signaling that verified receipt data is no longer confined to physical retail. For brands running digital acquisition campaigns, this opens the possibility of closing-loop measurement across both online and offline purchase confirmation.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Throughput deceleration — floor still unconfirmed",
-      "insight": "Weekly GMV has compressed from a $211K peak on April 13 to a $66K–$81K operating band as of April 30, with velocity hitting a record low of 0.642x. The signal pool is growing but at a reduced pace; brands evaluating this data source should size expectations against current run-rate, not peak-week figures.",
+      "topic": "Intraday purchase pattern is stable and actionable",
+      "insight": "Across April 29–May 1, peak receipt inflow consistently occurs in the 16:15–20:15 window, with structural troughs at 00:15 as prior-week volume rolls off. For brands timing promotions or audience activation against verified buyers, this cycle is repeatable and measurable.",
       "magnitude": "medium"
     },
     {
       "topic": "Geographic diffusion reaching 29 metros",
-      "insight": "The network hit 29 active metros on April 19 — up from 25 on April 13 — with a single-heartbeat 17-CBSA expansion recorded at the $1M crossing. For marketers who need regional or local purchase verification, the footprint is widening, though concentration by market has not been disclosed.",
+      "insight": "The network hit 29 active metros on April 19 — its highest count in observation history — with a single-heartbeat burst of 17 CBSAs at 81% diffusion rate. That footprint is now contracting to 20 active metros, signaling the initial expansion wave has peaked.",
       "magnitude": "medium"
     },
     {
-      "topic": "Structural intraday signal pattern",
-      "insight": "Receipt inflow peaks consistently in the 16:15–20:15 window and troughs at 00:15 as prior-week volume rolls off — a repeatable pattern confirmed across multiple days. Marketers building real-time activation workflows on top of verified purchase data should account for this cadence when setting attribution windows or trigger logic.",
+      "topic": "Digital commerce entering the receipt graph",
+      "insight": "Google appeared in the 14-day top brands list on April 28, the first digital-native brand in observation history, following SaaS subscriptions entering the category mix on April 9. The receipt corpus is no longer purely physical retail — digital spend verification is beginning to accumulate.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Lightning payout volume as proxy for engaged user quality",
+      "insight": "Only 257 Lightning payouts have been claimed out of 17,563 receipts, representing a small but self-selected cohort of users with active crypto wallets completing the full verification loop. For brands, this subset likely over-indexes on tech-forward, high-intent buyers worth isolating as a targeting segment.",
       "magnitude": "medium"
     }
   ]

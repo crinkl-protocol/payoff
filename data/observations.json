@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-05-01T01:45:14.505Z",
+  "updatedAt": "2026-05-01T17:45:16.072Z",
   "observations": [
+    {
+      "ts": "2026-05-01T12:34:17.803Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "CBSA 11700 entered the signal window this heartbeat — 1 new metro, 18 total active, 5.6% diffusion rate. After the record 11-CBSA burst last heartbeat, the network is returning to a single-metro pulse, consistent with the alternating burst-and-consolidate pattern observed across the last 8 heartbeats."
+    },
+    {
+      "ts": "2026-05-01T12:34:17.801Z",
+      "topic": "token-velocity",
+      "magnitude": "high",
+      "observation": "Token velocity is 0.65x this heartbeat with acceleration at 0.999x — the second consecutive heartbeat below 1.0x acceleration, confirming the deceleration is now self-sustaining. Velocity has been in a sustained downtrend from 0.742x through 0.69x, 0.642x, 0.615x, and now 0.65x, with no recovery signal yet."
+    },
     {
       "ts": "2026-05-01T00:34:21.369Z",
       "topic": "acceleration-crossover",
@@ -48,18 +60,6 @@
       "topic": "gmv-milestone",
       "magnitude": "medium",
       "observation": "Cumulative GMV reached $1,035,256 across 13,098 receipts this heartbeat — $35K past the $1M threshold. The 7-day window is $101,737 (1,766 receipts), with the 14-day window at $381,755 (4,315 receipts). The system is consolidating above $1M while velocity decelerates to 0.69x."
-    },
-    {
-      "ts": "2026-04-19T06:18:06.803Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "6 new CBSAs entered the signal window this heartbeat (29 total active, 20.7% diffusion rate) — including non-metro US-CA, non-metro US-MI, CBSA 12980, 28020, 38300, and 34940. Geographic spread continues to outpace throughput velocity, now at 29 active metros while velocity sits at 0.69x."
-    },
-    {
-      "ts": "2026-04-19T06:18:06.801Z",
-      "topic": "token-velocity",
-      "magnitude": "high",
-      "observation": "Token velocity dropped to 0.69x this heartbeat — the lowest reading in observation history, continuing a sustained deceleration trend from 0.742x last heartbeat. Acceleration remains at 1.017x (above 1.0), suggesting the floor is forming but throughput is at its weakest sustained pace yet."
     }
   ]
 }
