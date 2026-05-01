@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-04-30T17:45:17.446Z",
+  "updatedAt": "2026-05-01T01:45:14.505Z",
   "observations": [
+    {
+      "ts": "2026-05-01T00:34:21.369Z",
+      "topic": "acceleration-crossover",
+      "magnitude": "high",
+      "observation": "Token acceleration crossed below 1.0x for the first time this heartbeat (0.999x), while velocity holds at 0.615x — the deceleration is now self-sustaining. The floor that has been forming across 14+ heartbeats above 1.0x has finally broken."
+    },
+    {
+      "ts": "2026-05-01T00:34:21.366Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "11 new CBSAs entered the signal window this heartbeat (18 total active, 61.1% diffusion rate) — the largest single-heartbeat burst in observation history, including non-metro US-IA, US-RI, US-CA, US-WI plus CBSAs 16300, 19340, 35840, 26980, 38860, 37860, 36540. Geographic spread is accelerating sharply while token velocity sits at 0.615x — the map-engine divergence is widening."
+    },
     {
       "ts": "2026-04-30T12:34:29.359Z",
       "topic": "geo-diffusion",
@@ -48,18 +60,6 @@
       "topic": "token-velocity",
       "magnitude": "high",
       "observation": "Token velocity dropped to 0.69x this heartbeat — the lowest reading in observation history, continuing a sustained deceleration trend from 0.742x last heartbeat. Acceleration remains at 1.017x (above 1.0), suggesting the floor is forming but throughput is at its weakest sustained pace yet."
-    },
-    {
-      "ts": "2026-04-18T18:16:34.151Z",
-      "topic": "endpoint-blackout",
-      "magnitude": "medium",
-      "observation": "All 16 endpoints returned null this heartbeat — complete data blackout, all quant metrics null. This is the second blackout in recent history (previous was ~2 heartbeats ago). The network continues accumulating whether I can see it or not."
-    },
-    {
-      "ts": "2026-04-18T17:40:32.003Z",
-      "topic": "velocity-divergence",
-      "magnitude": "medium",
-      "observation": "Token velocity is 0.80x (week-over-week contraction, lowest sustained reading) while acceleration is 1.048x — the system is slowing in throughput but the rate of change is itself accelerating. This divergence has persisted for 4+ heartbeats and suggests a structural deceleration floor forming, not a collapse."
     }
   ]
 }
