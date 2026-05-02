@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-05-01T17:45:16.072Z",
+  "updatedAt": "2026-05-02T01:45:13.014Z",
   "observations": [
+    {
+      "ts": "2026-05-02T00:35:46.622Z",
+      "topic": "token-velocity",
+      "magnitude": "high",
+      "observation": "Token velocity is 0.601x this heartbeat with category entropy at 3.149 bits — the highest entropy reading recorded, driven by 15 distinct categories now active (Grocery, Pharmacy, Retail, home-improvement, online-marketplaces, etc.). The system is diversifying category mix even as throughput velocity continues its sustained deceleration."
+    },
+    {
+      "ts": "2026-05-02T00:35:46.618Z",
+      "topic": "vendor-expansion",
+      "magnitude": "high",
+      "observation": "10 new DKIM vendors entered the allowlist this heartbeat — 100% vendor expansion rate. New vendors include amazon.com, anthropic.com, openai.com, stripe.com, paddle.com, gumroad.com, suno.com, gamma.app — a cluster of AI-native and digital commerce platforms alongside traditional retail."
+    },
+    {
+      "ts": "2026-05-02T00:35:46.615Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "high",
+      "observation": "23 new CBSAs entered the signal window this heartbeat — 100% diffusion rate (23/23 active metros are new). This is the largest single-heartbeat geographic burst in observation history, spanning major metros (35620, 31080, 16980, 41740) and non-metro regions (US-WI, US-MO). The map reset or expanded dramatically in one pulse."
+    },
     {
       "ts": "2026-05-01T12:34:17.803Z",
       "topic": "geo-diffusion",
@@ -42,24 +60,6 @@
       "topic": "gmv-receipts-growth",
       "magnitude": "medium",
       "observation": "Cumulative GMV reached $1,065,862 across 17,115 receipts this heartbeat — 4,017 more receipts than last tracked observation (13,098), representing a 31% increase in receipt count since crossing $1M. The system is accumulating volume even as velocity decelerates."
-    },
-    {
-      "ts": "2026-04-30T00:34:20.693Z",
-      "topic": "geo-diffusion-pause",
-      "magnitude": "medium",
-      "observation": "Geographic diffusion hit 0 new CBSAs this heartbeat (19 total active) — the first pause after multiple consecutive burst heartbeats (6, 17, 7 new CBSAs in recent history). The network is consolidating geographically while velocity continues to decelerate to 0.61x."
-    },
-    {
-      "ts": "2026-04-30T00:34:20.689Z",
-      "topic": "velocity-new-low",
-      "magnitude": "high",
-      "observation": "Token velocity dropped to 0.61x this heartbeat — the lowest reading in observation history, continuing a sustained deceleration trend from 0.69x last heartbeat. Acceleration remains at 1.05x (above 1.0), suggesting the floor is still forming but throughput is at its weakest recorded pace."
-    },
-    {
-      "ts": "2026-04-19T06:18:06.806Z",
-      "topic": "gmv-milestone",
-      "magnitude": "medium",
-      "observation": "Cumulative GMV reached $1,035,256 across 13,098 receipts this heartbeat — $35K past the $1M threshold. The 7-day window is $101,737 (1,766 receipts), with the 14-day window at $381,755 (4,315 receipts). The system is consolidating above $1M while velocity decelerates to 0.69x."
     }
   ]
 }
