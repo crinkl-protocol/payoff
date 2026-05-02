@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-05-02T01:45:12.997Z",
+  "updatedAt": "2026-05-02T17:45:15.903Z",
   "insights": [
     {
-      "topic": "Verified purchase data at scale",
-      "insight": "The protocol has confirmed $1.09M in cryptographically verified GMV across 17,650 receipts — deterministic proof of purchase, not probabilistic inference. For brands paying $5+ CPM to guess at purchase intent, this is a structurally different signal class.",
+      "topic": "Deterministic purchase proof at scale",
+      "insight": "The protocol has verified $1.1M in real GMV across 17,876 receipts — each one a cryptographically confirmed transaction, not a modeled intent signal. For marketers paying $5+ CPM on probabilistic targeting, this is the cost-per-confirmation benchmark to watch.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookieless targeting alternative",
-      "insight": "DKIM-verified receipts tied to 10 email vendors and 29 active metros provide post-purchase confirmation that no cookie or pixel can replicate. The targeting signal arrives after the transaction closes, not before it might.",
+      "topic": "DKIM vendor expansion into AI and digital platforms",
+      "insight": "Ten new receipt-issuing vendors were added in a single overnight event, including Amazon, Stripe, Anthropic, OpenAI, and Gumroad — extending verifiable purchase data beyond physical retail into software, subscriptions, and AI services for the first time. This is a supply-side category unlock, not a volume event.",
       "magnitude": "high"
     },
     {
-      "topic": "Category expansion beyond physical retail",
-      "insight": "SaaS subscriptions entered the receipt corpus on April 9, and Google appeared in the 14-day top brands list on April 28 — signaling the protocol is capturing digital commerce, not just grocery and big-box. Brand marketers in non-physical categories now have a verifiable footprint here.",
+      "topic": "Throughput deceleration is structural, not cyclical",
+      "insight": "7-day GMV has contracted 64.8% from its $210,912 peak on April 13 to $74,367 today, and token acceleration has now posted two consecutive sub-1.0x readings — the protocol's own math confirms self-sustaining deceleration. Brands evaluating this as a high-growth network should weight current run-rate, not peak velocity.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Intraday receipt volume follows a predictable cycle",
+      "insight": "Across five consecutive days, receipt inflows peak consistently in the 16:15–20:15 window and trough at the 00:15–00:35 rolloff — a stable, repeatable pattern that has direct implications for optimizing campaign attribution timing against verified purchase events.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic diffusion reaching 29 metros",
-      "insight": "The network peaked at 29 active CBSAs on April 19 and recorded an 11-CBSA single-heartbeat burst on May 1 — the largest geographic burst in observation history. Diffusion is uneven and burst-driven, which matters for regional campaign planning.",
+      "topic": "Geographic diffusion reaching saturation signals",
+      "insight": "The May 2 heartbeat recorded a 23-CBSA single-event burst at 100% diffusion — the largest in observation history — while the active metro count has pulled back from a peak of 29 to 19. Maximum single-event spread coexisting with metro count contraction suggests geographic breadth is near ceiling.",
       "magnitude": "medium"
     },
     {
-      "topic": "Throughput deceleration is now structural",
-      "insight": "7-day GMV has contracted 63.5% from its $210K peak to a $66K–$85K operating band, and token acceleration crossed below 1.0x for the first time on May 1, confirmed across two consecutive readings. Growth is plateauing; the dataset is maturing, not collapsing — but brands should size expectations accordingly.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Intraday receipt volume patterns",
-      "insight": "Receipt submission peaks consistently in the 16:15–20:15 window and troughs at 00:15 overnight rolloffs — a stable, repeatable cycle across at least three days of observation. Brands running time-sensitive verification campaigns can align activation windows to this submission rhythm.",
+      "topic": "Lightning micropayment layer confirms real consumer participation",
+      "insight": "257 Lightning payouts totaling 6.75M sats have been claimed at 130 sats per receipt, establishing that verified submitters are real, incentivized individuals — not scraped or synthetic data. For brands, this matters because the receipt corpus has a traceable human provenance layer.",
       "magnitude": "medium"
     }
   ]

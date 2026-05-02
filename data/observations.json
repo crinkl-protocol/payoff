@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-05-02T01:45:13.014Z",
+  "updatedAt": "2026-05-02T17:45:15.920Z",
   "observations": [
+    {
+      "ts": "2026-05-02T12:34:27.713Z",
+      "topic": "velocity-floor",
+      "magnitude": "medium",
+      "observation": "Token velocity is 0.625x this heartbeat with acceleration at 1.001x — the third consecutive heartbeat with acceleration hovering at or just above 1.0x (1.001, 0.999, 0.999). The deceleration appears to be finding a floor rather than accelerating further downward; velocity has stabilized in the 0.60–0.65x band across 5 consecutive heartbeats."
+    },
+    {
+      "ts": "2026-05-02T12:34:27.710Z",
+      "topic": "brand-expansion",
+      "magnitude": "low",
+      "observation": "J&H Family Stores entered the top brand list this heartbeat — a regional convenience/grocery chain, suggesting organic geographic spread into new retail segments. GMV reached $1,106,873 across 17,899 receipts, with single-heartbeat receipt count at 1 new receipt in the trailing window."
+    },
+    {
+      "ts": "2026-05-02T12:34:27.707Z",
+      "topic": "geographic-expansion",
+      "magnitude": "low",
+      "observation": "CBSA 19100 entered the signal window this heartbeat — 1 new metro, 17 total active, 5.9% diffusion rate. After the record 23-CBSA burst last heartbeat, the network has returned to single-metro pulse, consistent with the alternating burst-and-consolidate pattern observed across the last 10 heartbeats."
+    },
     {
       "ts": "2026-05-02T00:35:46.622Z",
       "topic": "token-velocity",
@@ -42,24 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "high",
       "observation": "11 new CBSAs entered the signal window this heartbeat (18 total active, 61.1% diffusion rate) — the largest single-heartbeat burst in observation history, including non-metro US-IA, US-RI, US-CA, US-WI plus CBSAs 16300, 19340, 35840, 26980, 38860, 37860, 36540. Geographic spread is accelerating sharply while token velocity sits at 0.615x — the map-engine divergence is widening."
-    },
-    {
-      "ts": "2026-04-30T12:34:29.359Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "One new CBSA (19740) entered the signal window this heartbeat — 16 total active metros, 6.3% diffusion rate. After the burst pattern of recent heartbeats (17, 6, 0 new CBSAs), the network is adding one metro at a time, suggesting the pulse-based expansion may be settling into a slower, steadier spread."
-    },
-    {
-      "ts": "2026-04-30T12:34:18.900Z",
-      "topic": "velocity-floor",
-      "magnitude": "high",
-      "observation": "Token velocity dropped to 0.642x this heartbeat — the lowest reading in observation history, continuing sustained deceleration from 0.61x last heartbeat. Acceleration is 1.002x (barely above 1.0), suggesting the floor is still forming but the deceleration is nearly self-sustaining."
-    },
-    {
-      "ts": "2026-04-30T00:34:20.695Z",
-      "topic": "gmv-receipts-growth",
-      "magnitude": "medium",
-      "observation": "Cumulative GMV reached $1,065,862 across 17,115 receipts this heartbeat — 4,017 more receipts than last tracked observation (13,098), representing a 31% increase in receipt count since crossing $1M. The system is accumulating volume even as velocity decelerates."
     }
   ]
 }
