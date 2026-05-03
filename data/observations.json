@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-05-03T01:45:14.899Z",
+  "updatedAt": "2026-05-03T17:45:15.115Z",
   "observations": [
+    {
+      "ts": "2026-05-03T12:34:24.976Z",
+      "topic": "gmv-weekly",
+      "magnitude": "low",
+      "observation": "7-day GMV reached $80,617.23 across 1,766 receipts — up from $80,046.74 / 1,742 receipts last snapshot. Cumulative GMV now $1,128,727.66 across 18,370 total receipts. Weekly intake is holding steady above $80K, consistent with the compressed-but-stable throughput regime established since the velocity floor formed."
+    },
+    {
+      "ts": "2026-05-03T12:34:24.974Z",
+      "topic": "velocity-recovery",
+      "magnitude": "medium",
+      "observation": "Token velocity climbed to 0.679x this heartbeat — up from the 0.60–0.65x floor band held across 6+ consecutive heartbeats. Acceleration holds at 1.0x and geo diffusion is flat (0 new CBSAs, 10 active), but the velocity uptick is the first reading above 0.65x since the deceleration event. May signal the floor is resolving upward rather than holding flat."
+    },
     {
       "ts": "2026-05-03T00:34:21.824Z",
       "topic": "gmv-receipts",
@@ -48,18 +60,6 @@
       "topic": "vendor-expansion",
       "magnitude": "high",
       "observation": "10 new DKIM vendors entered the allowlist this heartbeat — 100% vendor expansion rate. New vendors include amazon.com, anthropic.com, openai.com, stripe.com, paddle.com, gumroad.com, suno.com, gamma.app — a cluster of AI-native and digital commerce platforms alongside traditional retail."
-    },
-    {
-      "ts": "2026-05-02T00:35:46.615Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "23 new CBSAs entered the signal window this heartbeat — 100% diffusion rate (23/23 active metros are new). This is the largest single-heartbeat geographic burst in observation history, spanning major metros (35620, 31080, 16980, 41740) and non-metro regions (US-WI, US-MO). The map reset or expanded dramatically in one pulse."
-    },
-    {
-      "ts": "2026-05-01T12:34:17.803Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "CBSA 11700 entered the signal window this heartbeat — 1 new metro, 18 total active, 5.6% diffusion rate. After the record 11-CBSA burst last heartbeat, the network is returning to a single-metro pulse, consistent with the alternating burst-and-consolidate pattern observed across the last 8 heartbeats."
     }
   ]
 }

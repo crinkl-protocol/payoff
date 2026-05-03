@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-05-03T01:45:14.867Z",
+  "updatedAt": "2026-05-03T17:45:15.082Z",
   "insights": [
     {
-      "topic": "Deterministic purchase proof at scale",
-      "insight": "The protocol has cryptographically verified $1.1M in real transactions across 17,969 receipts — not modeled intent, not inferred behavior, but confirmed purchases tied to specific brands and categories. For marketers paying $5+ CPM for probabilistic targeting, this is the same signal without the inference layer.",
+      "topic": "Verified purchase signal vs. probabilistic targeting",
+      "insight": "The protocol has confirmed 18,331 cryptographically verified purchase receipts totaling $1.13M in GMV — each receipt is a deterministic proof of transaction, not an inferred intent signal. For marketers paying $5+ CPM to reach people who might buy, this is a structurally different data layer.",
       "magnitude": "high"
     },
     {
-      "topic": "Category breadth now covers digital and AI-native commerce",
-      "insight": "A single overnight update on May 2 doubled the verified vendor list to 20, adding Amazon, Stripe, Anthropic, OpenAI, and others — meaning verifiable purchase signals now extend beyond physical retail into SaaS, subscriptions, and AI services. Brands competing in digital categories have a new attribution surface.",
+      "topic": "AI and digital commerce now verifiable",
+      "insight": "A single May 2 event doubled the DKIM vendor allowlist to 20, adding Anthropic, OpenAI, Stripe, Paddle, Gumroad, and Suno — extending verified receipt coverage from physical retail into SaaS, AI subscriptions, and creator platforms. No throughput from these vendors has appeared in the 14-day window yet, meaning the category signal is supply-side infrastructure, not live audience data.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery and restaurant categories dominate verified spend",
-      "insight": "In the trailing 14 days, grocery-supermarkets (985 receipts, $41K) and restaurants-dining (952 receipts, $35K) lead all categories, with Walmart, Costco, and Target as the top verified brands. For CPG and QSR marketers specifically, the existing receipt corpus already maps their competitive battleground.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Geographic diffusion is real but episodic",
-      "insight": "The May 2 heartbeat recorded a 23-CBSA single-pulse burst at 100% diffusion — the largest in observation history — but typical readings hold 19 active metros, suggesting geographic reach is broad but not yet structurally consistent across all markets.",
+      "topic": "Category breadth at record entropy",
+      "insight": "15 distinct active categories are now generating verified receipts, with category entropy at a record 3.149 bits — grocery, dining, department stores, gas/convenience, and an uncategorized cohort of 310 receipts ($17,485) that likely represents newly onboarded merchant types. Breadth is expanding faster than classification is keeping up.",
       "magnitude": "medium"
     },
     {
-      "topic": "Throughput is decelerating, not collapsing",
-      "insight": "7-day GMV has contracted 63% from its April 13 peak of $211K to a $66K–$86K weekly band, with acceleration holding just below 1.0x for five consecutive readings. The floor pattern indicates a stable but slower-growing data supply — sufficient for panel-scale insights, not yet at media-network scale.",
+      "topic": "Mass-market retail dominates verified GMV",
+      "insight": "Walmart, Costco, and Target account for the top three brand slots in the 14-day window, anchoring verified purchase identity squarely in high-frequency, high-basket physical retail — the same audience segments that are most exposed to cookie deprecation in CPG and FMCG targeting.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Network velocity floor, not collapse",
+      "insight": "Velocity has held 0.60–0.65x for six consecutive measurement intervals and acceleration is oscillating at 0.999x–1.001x — the network is decelerating into a stable floor, adding receipts in modest consistent pulses rather than spiking or dropping out. For marketers evaluating the data asset, this indicates a durable low-growth state, not a signal in decline.",
       "magnitude": "medium"
     },
     {
-      "topic": "Regional and independent retail entering the signal set",
-      "insight": "J&H Family Stores appeared in the 14-day brand list on May 2 alongside national chains, indicating organic user adoption is pulling in regional convenience and grocery operators that are invisible in most first-party data programs. For brands trying to measure performance outside major retail, this is a structurally undervalued signal.",
+      "topic": "Geographic diffusion reaching full coverage bursts",
+      "insight": "The May 2 geographic pulse hit 100% diffusion rate across 23 CBSAs in a single heartbeat — the largest single-period expansion recorded. Combined with 29 active metros at peak, the verified receipt footprint now spans enough geography to support national audience construction, not just local pilots.",
       "magnitude": "medium"
     }
   ]
