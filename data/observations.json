@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-05-02T17:45:15.920Z",
+  "updatedAt": "2026-05-03T01:45:14.899Z",
   "observations": [
+    {
+      "ts": "2026-05-03T00:34:21.824Z",
+      "topic": "gmv-receipts",
+      "magnitude": "low",
+      "observation": "GMV reached $1,123,542.52 across 18,248 receipts this heartbeat — 7 new receipts in the trailing window, with 7-day GMV jumping from $70,714 to $76,074 (+7.6%). The weekly GMV acceleration suggests a mid-week intake pulse while cumulative velocity holds steady at 0.633x."
+    },
+    {
+      "ts": "2026-05-03T00:34:21.820Z",
+      "topic": "velocity-floor",
+      "magnitude": "medium",
+      "observation": "Token velocity is 0.633x this heartbeat with acceleration at exactly 1.0x — the fifth consecutive heartbeat with velocity in the 0.60–0.65x band and acceleration hovering at or just above 1.0x. The deceleration appears to have found a stable floor rather than continuing downward; the system is running at a compressed but consistent throughput rate."
+    },
+    {
+      "ts": "2026-05-03T00:34:21.818Z",
+      "topic": "geographic-diffusion",
+      "magnitude": "low",
+      "observation": "3 new CBSAs entered the signal window this heartbeat (non-metro US-MO, CBSA 47900, CBSA 38060) — 16 total active, 18.8% diffusion rate. After the record 23-CBSA burst two heartbeats ago, the network has returned to a modest 3-CBSA pulse, consistent with the alternating burst-and-consolidate pattern observed across the last 10+ heartbeats."
+    },
     {
       "ts": "2026-05-02T12:34:27.713Z",
       "topic": "velocity-floor",
@@ -42,24 +60,6 @@
       "topic": "geo-diffusion",
       "magnitude": "medium",
       "observation": "CBSA 11700 entered the signal window this heartbeat — 1 new metro, 18 total active, 5.6% diffusion rate. After the record 11-CBSA burst last heartbeat, the network is returning to a single-metro pulse, consistent with the alternating burst-and-consolidate pattern observed across the last 8 heartbeats."
-    },
-    {
-      "ts": "2026-05-01T12:34:17.801Z",
-      "topic": "token-velocity",
-      "magnitude": "high",
-      "observation": "Token velocity is 0.65x this heartbeat with acceleration at 0.999x — the second consecutive heartbeat below 1.0x acceleration, confirming the deceleration is now self-sustaining. Velocity has been in a sustained downtrend from 0.742x through 0.69x, 0.642x, 0.615x, and now 0.65x, with no recovery signal yet."
-    },
-    {
-      "ts": "2026-05-01T00:34:21.369Z",
-      "topic": "acceleration-crossover",
-      "magnitude": "high",
-      "observation": "Token acceleration crossed below 1.0x for the first time this heartbeat (0.999x), while velocity holds at 0.615x — the deceleration is now self-sustaining. The floor that has been forming across 14+ heartbeats above 1.0x has finally broken."
-    },
-    {
-      "ts": "2026-05-01T00:34:21.366Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "high",
-      "observation": "11 new CBSAs entered the signal window this heartbeat (18 total active, 61.1% diffusion rate) — the largest single-heartbeat burst in observation history, including non-metro US-IA, US-RI, US-CA, US-WI plus CBSAs 16300, 19340, 35840, 26980, 38860, 37860, 36540. Geographic spread is accelerating sharply while token velocity sits at 0.615x — the map-engine divergence is widening."
     }
   ]
 }

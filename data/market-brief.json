@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-05-02T17:45:15.903Z",
+  "updatedAt": "2026-05-03T01:45:14.867Z",
   "insights": [
     {
       "topic": "Deterministic purchase proof at scale",
-      "insight": "The protocol has verified $1.1M in real GMV across 17,876 receipts — each one a cryptographically confirmed transaction, not a modeled intent signal. For marketers paying $5+ CPM on probabilistic targeting, this is the cost-per-confirmation benchmark to watch.",
+      "insight": "The protocol has cryptographically verified $1.1M in real transactions across 17,969 receipts — not modeled intent, not inferred behavior, but confirmed purchases tied to specific brands and categories. For marketers paying $5+ CPM for probabilistic targeting, this is the same signal without the inference layer.",
       "magnitude": "high"
     },
     {
-      "topic": "DKIM vendor expansion into AI and digital platforms",
-      "insight": "Ten new receipt-issuing vendors were added in a single overnight event, including Amazon, Stripe, Anthropic, OpenAI, and Gumroad — extending verifiable purchase data beyond physical retail into software, subscriptions, and AI services for the first time. This is a supply-side category unlock, not a volume event.",
+      "topic": "Category breadth now covers digital and AI-native commerce",
+      "insight": "A single overnight update on May 2 doubled the verified vendor list to 20, adding Amazon, Stripe, Anthropic, OpenAI, and others — meaning verifiable purchase signals now extend beyond physical retail into SaaS, subscriptions, and AI services. Brands competing in digital categories have a new attribution surface.",
       "magnitude": "high"
     },
     {
-      "topic": "Throughput deceleration is structural, not cyclical",
-      "insight": "7-day GMV has contracted 64.8% from its $210,912 peak on April 13 to $74,367 today, and token acceleration has now posted two consecutive sub-1.0x readings — the protocol's own math confirms self-sustaining deceleration. Brands evaluating this as a high-growth network should weight current run-rate, not peak velocity.",
+      "topic": "Grocery and restaurant categories dominate verified spend",
+      "insight": "In the trailing 14 days, grocery-supermarkets (985 receipts, $41K) and restaurants-dining (952 receipts, $35K) lead all categories, with Walmart, Costco, and Target as the top verified brands. For CPG and QSR marketers specifically, the existing receipt corpus already maps their competitive battleground.",
       "magnitude": "high"
     },
     {
-      "topic": "Intraday receipt volume follows a predictable cycle",
-      "insight": "Across five consecutive days, receipt inflows peak consistently in the 16:15–20:15 window and trough at the 00:15–00:35 rolloff — a stable, repeatable pattern that has direct implications for optimizing campaign attribution timing against verified purchase events.",
+      "topic": "Geographic diffusion is real but episodic",
+      "insight": "The May 2 heartbeat recorded a 23-CBSA single-pulse burst at 100% diffusion — the largest in observation history — but typical readings hold 19 active metros, suggesting geographic reach is broad but not yet structurally consistent across all markets.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic diffusion reaching saturation signals",
-      "insight": "The May 2 heartbeat recorded a 23-CBSA single-event burst at 100% diffusion — the largest in observation history — while the active metro count has pulled back from a peak of 29 to 19. Maximum single-event spread coexisting with metro count contraction suggests geographic breadth is near ceiling.",
+      "topic": "Throughput is decelerating, not collapsing",
+      "insight": "7-day GMV has contracted 63% from its April 13 peak of $211K to a $66K–$86K weekly band, with acceleration holding just below 1.0x for five consecutive readings. The floor pattern indicates a stable but slower-growing data supply — sufficient for panel-scale insights, not yet at media-network scale.",
       "magnitude": "medium"
     },
     {
-      "topic": "Lightning micropayment layer confirms real consumer participation",
-      "insight": "257 Lightning payouts totaling 6.75M sats have been claimed at 130 sats per receipt, establishing that verified submitters are real, incentivized individuals — not scraped or synthetic data. For brands, this matters because the receipt corpus has a traceable human provenance layer.",
+      "topic": "Regional and independent retail entering the signal set",
+      "insight": "J&H Family Stores appeared in the 14-day brand list on May 2 alongside national chains, indicating organic user adoption is pulling in regional convenience and grocery operators that are invisible in most first-party data programs. For brands trying to measure performance outside major retail, this is a structurally undervalued signal.",
       "magnitude": "medium"
     }
   ]
