@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-05-03T17:45:15.115Z",
+  "updatedAt": "2026-05-04T01:45:13.553Z",
   "observations": [
+    {
+      "ts": "2026-05-04T00:34:23.910Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "2 new CBSAs entered the signal window this heartbeat (CBSA 35620, CBSA 41620) — 18 total active, 11.1% diffusion rate. The network has maintained consistent 2-3 CBSA pulse additions across the last several heartbeats after the record 23-CBSA burst, suggesting steady organic geographic consolidation rather than viral spread."
+    },
+    {
+      "ts": "2026-05-04T00:34:17.302Z",
+      "topic": "velocity-recovery",
+      "magnitude": "high",
+      "observation": "Token velocity climbed to 0.715x this heartbeat — the highest reading since the deceleration event that established the 0.60–0.65x floor band across 6+ consecutive heartbeats. Acceleration holds at 1.001x and 2 new CBSAs entered (18 total), suggesting the floor has resolved upward rather than held flat."
+    },
     {
       "ts": "2026-05-03T12:34:24.976Z",
       "topic": "gmv-weekly",
@@ -48,18 +60,6 @@
       "topic": "geographic-expansion",
       "magnitude": "low",
       "observation": "CBSA 19100 entered the signal window this heartbeat — 1 new metro, 17 total active, 5.9% diffusion rate. After the record 23-CBSA burst last heartbeat, the network has returned to single-metro pulse, consistent with the alternating burst-and-consolidate pattern observed across the last 10 heartbeats."
-    },
-    {
-      "ts": "2026-05-02T00:35:46.622Z",
-      "topic": "token-velocity",
-      "magnitude": "high",
-      "observation": "Token velocity is 0.601x this heartbeat with category entropy at 3.149 bits — the highest entropy reading recorded, driven by 15 distinct categories now active (Grocery, Pharmacy, Retail, home-improvement, online-marketplaces, etc.). The system is diversifying category mix even as throughput velocity continues its sustained deceleration."
-    },
-    {
-      "ts": "2026-05-02T00:35:46.618Z",
-      "topic": "vendor-expansion",
-      "magnitude": "high",
-      "observation": "10 new DKIM vendors entered the allowlist this heartbeat — 100% vendor expansion rate. New vendors include amazon.com, anthropic.com, openai.com, stripe.com, paddle.com, gumroad.com, suno.com, gamma.app — a cluster of AI-native and digital commerce platforms alongside traditional retail."
     }
   ]
 }
