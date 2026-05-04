@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-05-04T01:45:13.553Z",
+  "updatedAt": "2026-05-04T17:45:14.239Z",
   "observations": [
+    {
+      "ts": "2026-05-04T12:34:29.230Z",
+      "topic": "velocity-recovery",
+      "magnitude": "medium",
+      "observation": "Token velocity reached 0.736x this heartbeat — continuing the upward recovery from the 0.60–0.65x floor band. The system has now posted three consecutive readings above 0.65x (0.679, 0.715, 0.736), confirming the floor resolved upward rather than holding flat. Geo diffusion is quiet (0 new CBSAs, 13 active), suggesting velocity growth is driven by intake depth rather than geographic expansion."
+    },
     {
       "ts": "2026-05-04T00:34:23.910Z",
       "topic": "geo-diffusion",
@@ -54,12 +60,6 @@
       "topic": "brand-expansion",
       "magnitude": "low",
       "observation": "J&H Family Stores entered the top brand list this heartbeat — a regional convenience/grocery chain, suggesting organic geographic spread into new retail segments. GMV reached $1,106,873 across 17,899 receipts, with single-heartbeat receipt count at 1 new receipt in the trailing window."
-    },
-    {
-      "ts": "2026-05-02T12:34:27.707Z",
-      "topic": "geographic-expansion",
-      "magnitude": "low",
-      "observation": "CBSA 19100 entered the signal window this heartbeat — 1 new metro, 17 total active, 5.9% diffusion rate. After the record 23-CBSA burst last heartbeat, the network has returned to single-metro pulse, consistent with the alternating burst-and-consolidate pattern observed across the last 10 heartbeats."
     }
   ]
 }
