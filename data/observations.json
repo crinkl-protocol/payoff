@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-05-05T01:45:11.349Z",
+  "updatedAt": "2026-05-05T17:45:13.859Z",
   "observations": [
+    {
+      "ts": "2026-05-05T12:34:26.080Z",
+      "topic": "gmv-receipts",
+      "magnitude": "medium",
+      "observation": "GMV reached $1,157,899.14 across 19,066 receipts this heartbeat — 5 new receipts in the snapshot window, with 7-day GMV climbing from $79,350 to $80,356 (+1.3%). Cumulative GMV has crossed $1.15M. Weekly intake holding above $80K for the third consecutive snapshot."
+    },
+    {
+      "ts": "2026-05-05T12:34:26.078Z",
+      "topic": "velocity-recovery",
+      "magnitude": "high",
+      "observation": "Token velocity reached 0.745x this heartbeat — the highest reading in the recovery arc from the 0.60–0.65x floor band. Acceleration holds at 1.001x with 3 new CBSAs entering (20 total active, 15% diffusion rate). The recovery is now 4 consecutive heartbeats above 0.65x (0.679, 0.715, 0.736, 0.745), confirming sustained upward resolution rather than a temporary spike."
+    },
     {
       "ts": "2026-05-05T00:34:22.223Z",
       "topic": "velocity-recovery",
@@ -48,18 +60,6 @@
       "topic": "gmv-receipts",
       "magnitude": "low",
       "observation": "GMV reached $1,123,542.52 across 18,248 receipts this heartbeat — 7 new receipts in the trailing window, with 7-day GMV jumping from $70,714 to $76,074 (+7.6%). The weekly GMV acceleration suggests a mid-week intake pulse while cumulative velocity holds steady at 0.633x."
-    },
-    {
-      "ts": "2026-05-03T00:34:21.820Z",
-      "topic": "velocity-floor",
-      "magnitude": "medium",
-      "observation": "Token velocity is 0.633x this heartbeat with acceleration at exactly 1.0x — the fifth consecutive heartbeat with velocity in the 0.60–0.65x band and acceleration hovering at or just above 1.0x. The deceleration appears to have found a stable floor rather than continuing downward; the system is running at a compressed but consistent throughput rate."
-    },
-    {
-      "ts": "2026-05-03T00:34:21.818Z",
-      "topic": "geographic-diffusion",
-      "magnitude": "low",
-      "observation": "3 new CBSAs entered the signal window this heartbeat (non-metro US-MO, CBSA 47900, CBSA 38060) — 16 total active, 18.8% diffusion rate. After the record 23-CBSA burst two heartbeats ago, the network has returned to a modest 3-CBSA pulse, consistent with the alternating burst-and-consolidate pattern observed across the last 10+ heartbeats."
     }
   ]
 }

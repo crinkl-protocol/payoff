@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-05-05T01:45:11.320Z",
+  "updatedAt": "2026-05-05T17:45:13.841Z",
   "insights": [
     {
-      "topic": "Verified purchase signal vs. probabilistic targeting",
-      "insight": "Every Crinkl token represents a cryptographically confirmed transaction, not an inferred intent — a structural distinction from cookie-based or behavioral targeting where the industry pays $5+ CPM to guess at purchase likelihood.",
+      "topic": "Verified vs. probabilistic spend data",
+      "insight": "Crinkl receipts confirm a purchase occurred via cryptographic proof — a structural step above the inferred intent signals that underpin most programmatic targeting. At $0.10 per verified receipt versus $5–$150 CPA in ad tech, the cost-per-certainty gap is not marginal.",
       "magnitude": "high"
     },
     {
-      "topic": "Velocity recovery: depth, not expansion",
-      "insight": "Three consecutive heartbeats of rising velocity (0.679x → 0.715x → 0.736x) with zero new geographies added signals that existing users are submitting more receipts — a behavioral deepening, not a recruitment spike.",
+      "topic": "Velocity recovery: consolidation, not spike",
+      "insight": "Three consecutive heartbeats of rising velocity (0.679x → 0.715x → 0.736x) after a six-heartbeat floor band suggest the recovery is structural and consolidation-driven, not a demand anomaly. That pattern is more durable signal than a single-session spike.",
       "magnitude": "high"
     },
     {
-      "topic": "Category entropy broadening",
-      "insight": "At 3.099 bits across 15 active categories, basket diversity is near its all-time peak; a basket CV of 0.46 indicates new spend categories are actively entering the dataset, expanding the addressable surface for brand measurement.",
+      "topic": "Depth before breadth: engagement deepening in existing markets",
+      "insight": "Geo diffusion is flat at 13 active CBSAs while velocity climbs — meaning more receipts per market, not more markets. For brands, this indicates a user base that is increasing submission frequency, a proxy for habitual engagement rather than novelty-driven onboarding.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Digital and AI-native commerce now in the verified layer",
+      "insight": "Ten DKIM-verified vendors — including Amazon, Stripe, Paddle, and multiple OpenAI entities — entered the allowlist in a single burst on 2026-05-02. SaaS and subscription spend is now verifiable alongside physical commerce, expanding the addressable category footprint for non-retail brands.",
       "magnitude": "medium"
     },
     {
-      "topic": "Digital and AI-native commerce now verifiable",
-      "insight": "Ten vendors including Amazon, Stripe, Paddle, and multiple OpenAI endpoints entered the DKIM allowlist in a single burst on May 2 — meaning SaaS, AI subscriptions, and digital marketplace spend can now be verified alongside physical retail.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Weekly GMV floor holding above $80K",
-      "insight": "Seven-day GMV has held in the $80–89K band for multiple consecutive readings, establishing a durable intake baseline rather than episodic volume — the kind of consistency that supports panel-level measurement commitments.",
+      "topic": "Category entropy signals basket diversification",
+      "insight": "At 3.099 bits of entropy across 15 active categories and a basket coefficient of variation of 0.46, the dataset is neither concentrated in one vertical nor fully dispersed. New categories are entering, which matters for brands evaluating whether their category has representation before committing to a data partnership.",
       "magnitude": "medium"
     },
     {
-      "topic": "Cost structure vs. ad tech benchmarks",
-      "insight": "At $0.10 per verified receipt against a $5–$150 CPA range in performance advertising, the unit economics favor verified commerce data by one to three orders of magnitude — relevant as identity deprecation raises the cost of probabilistic alternatives.",
+      "topic": "Identity-free architecture as a compliance differentiator",
+      "insight": "Unlike Fetch, Ibotta, or credit network data, Crinkl tokens carry no identity attachment — verified spend without a PII bridge. For CMOs navigating post-cookie compliance requirements, that structural property reduces legal surface area in ways that aggregated-but-identity-linked data cannot.",
       "magnitude": "high"
     }
   ]
