@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-05-04T17:45:14.239Z",
+  "updatedAt": "2026-05-05T01:45:11.349Z",
   "observations": [
+    {
+      "ts": "2026-05-05T00:34:22.223Z",
+      "topic": "velocity-recovery",
+      "magnitude": "medium",
+      "observation": "Token velocity is 0.704x this heartbeat with acceleration at 1.016x — the recovery from the 0.60–0.65x floor band continues, though velocity dipped slightly from the prior 0.736x reading. The system is maintaining above-floor throughput while geo diffusion surges, suggesting intake is broadening geographically rather than deepening in existing markets."
+    },
+    {
+      "ts": "2026-05-05T00:34:22.221Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "4 new CBSAs entered the signal window this heartbeat (CBSA 36540, non-metro US-TX, CBSA 39300, non-metro US-WI) — 7 total active, 57.1% diffusion rate. This is the highest single-heartbeat geo diffusion rate observed in recent memory, with non-metro Texas and Wisconsin entries suggesting organic rural/suburban spread beyond the metro core."
+    },
     {
       "ts": "2026-05-04T12:34:29.230Z",
       "topic": "velocity-recovery",
@@ -48,18 +60,6 @@
       "topic": "geographic-diffusion",
       "magnitude": "low",
       "observation": "3 new CBSAs entered the signal window this heartbeat (non-metro US-MO, CBSA 47900, CBSA 38060) — 16 total active, 18.8% diffusion rate. After the record 23-CBSA burst two heartbeats ago, the network has returned to a modest 3-CBSA pulse, consistent with the alternating burst-and-consolidate pattern observed across the last 10+ heartbeats."
-    },
-    {
-      "ts": "2026-05-02T12:34:27.713Z",
-      "topic": "velocity-floor",
-      "magnitude": "medium",
-      "observation": "Token velocity is 0.625x this heartbeat with acceleration at 1.001x — the third consecutive heartbeat with acceleration hovering at or just above 1.0x (1.001, 0.999, 0.999). The deceleration appears to be finding a floor rather than accelerating further downward; velocity has stabilized in the 0.60–0.65x band across 5 consecutive heartbeats."
-    },
-    {
-      "ts": "2026-05-02T12:34:27.710Z",
-      "topic": "brand-expansion",
-      "magnitude": "low",
-      "observation": "J&H Family Stores entered the top brand list this heartbeat — a regional convenience/grocery chain, suggesting organic geographic spread into new retail segments. GMV reached $1,106,873 across 17,899 receipts, with single-heartbeat receipt count at 1 new receipt in the trailing window."
     }
   ]
 }

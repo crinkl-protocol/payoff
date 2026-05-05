@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-05-04T17:45:14.213Z",
+  "updatedAt": "2026-05-05T01:45:11.320Z",
   "insights": [
     {
-      "topic": "Verified purchase data vs. probabilistic inference",
-      "insight": "Crinkl receipts are cryptographically confirmed transactions — not modeled intent signals. The gap between a verified $1.14M GMV dataset and a recipe-site audience segment is the difference between proof of purchase and a guess.",
+      "topic": "Verified purchase signal vs. probabilistic targeting",
+      "insight": "Every Crinkl token represents a cryptographically confirmed transaction, not an inferred intent — a structural distinction from cookie-based or behavioral targeting where the industry pays $5+ CPM to guess at purchase likelihood.",
       "magnitude": "high"
     },
     {
-      "topic": "Velocity recovery: consolidation, not spike",
-      "insight": "Three consecutive heartbeats of rising velocity (0.679x → 0.715x → 0.736x) after a 6-heartbeat floor suggests organic deepening, not a promotional or acquisition burst — the kind of durable signal that holds up across a campaign window.",
+      "topic": "Velocity recovery: depth, not expansion",
+      "insight": "Three consecutive heartbeats of rising velocity (0.679x → 0.715x → 0.736x) with zero new geographies added signals that existing users are submitting more receipts — a behavioral deepening, not a recruitment spike.",
       "magnitude": "high"
     },
     {
-      "topic": "Digital-native commerce now in the verified layer",
-      "insight": "Ten AI and SaaS vendors — including Amazon, Stripe, and OpenAI — entered the DKIM allowlist in a single batch on May 2; for brands targeting software buyers or AI-adjacent consumers, verified spend in these categories is now available for the first time.",
+      "topic": "Category entropy broadening",
+      "insight": "At 3.099 bits across 15 active categories, basket diversity is near its all-time peak; a basket CV of 0.46 indicates new spend categories are actively entering the dataset, expanding the addressable surface for brand measurement.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Digital and AI-native commerce now verifiable",
+      "insight": "Ten vendors including Amazon, Stripe, Paddle, and multiple OpenAI endpoints entered the DKIM allowlist in a single burst on May 2 — meaning SaaS, AI subscriptions, and digital marketplace spend can now be verified alongside physical retail.",
       "magnitude": "high"
     },
     {
-      "topic": "Depth before breadth: existing markets densifying",
-      "insight": "Geographic diffusion is flat at 13 CBSAs while velocity climbs, meaning receipt volume is increasing inside established markets rather than from new-user onboarding — a pattern that produces more stable, repeat-buyer signal than frontier expansion.",
+      "topic": "Weekly GMV floor holding above $80K",
+      "insight": "Seven-day GMV has held in the $80–89K band for multiple consecutive readings, establishing a durable intake baseline rather than episodic volume — the kind of consistency that supports panel-level measurement commitments.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category breadth at 15 active categories",
-      "insight": "With 15 distinct categories and entropy near peak at 3.099 bits, the basket is diversified enough to support cross-category audience construction — though a basket CV of 0.46 signals meaningful spend variance that warrants segment-level analysis before activation.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Cost structure vs. ad-tech alternatives",
-      "insight": "At $0.10 per verified receipt versus $5–$150 CPA in paid media, the unit economics favor Crinkl for post-purchase validation and suppression use cases — but at 18,715 receipts the dataset is still pre-scale, and reach constraints will limit direct targeting applications today.",
-      "magnitude": "medium"
+      "topic": "Cost structure vs. ad tech benchmarks",
+      "insight": "At $0.10 per verified receipt against a $5–$150 CPA range in performance advertising, the unit economics favor verified commerce data by one to three orders of magnitude — relevant as identity deprecation raises the cost of probabilistic alternatives.",
+      "magnitude": "high"
     }
   ]
 }
