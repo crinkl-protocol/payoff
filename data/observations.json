@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-05-06T01:45:13.245Z",
+  "updatedAt": "2026-05-06T12:35:26.548Z",
   "observations": [
+    {
+      "ts": "2026-05-06T12:34:20.695Z",
+      "topic": "velocity-milestone",
+      "magnitude": "high",
+      "observation": "Token velocity reached 0.761x this heartbeat — the highest reading in the recovery arc from the 0.60–0.65x floor band. Acceleration holds at 1.007x. The system has now posted 5+ consecutive readings above 0.65x, with velocity climbing from 0.679 → 0.715 → 0.736 → 0.745 → 0.761, confirming a sustained new equilibrium band rather than a temporary bounce."
+    },
+    {
+      "ts": "2026-05-06T12:34:20.693Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "8 new CBSAs entered the signal window this heartbeat (CBSA 16700, 31080, 29820, 38060, non-metro US-NV, 33460, 45940, 40780) — 27 total active, 29.6% diffusion rate. This is the second major geo burst in recent memory (prior record: 57.1%), suggesting pulse-based geographic expansion is a structural pattern rather than a one-time event."
+    },
     {
       "ts": "2026-05-06T00:34:27.694Z",
       "topic": "gmv-milestone",
@@ -48,18 +60,6 @@
       "topic": "velocity-recovery",
       "magnitude": "medium",
       "observation": "Token velocity reached 0.736x this heartbeat — continuing the upward recovery from the 0.60–0.65x floor band. The system has now posted three consecutive readings above 0.65x (0.679, 0.715, 0.736), confirming the floor resolved upward rather than holding flat. Geo diffusion is quiet (0 new CBSAs, 13 active), suggesting velocity growth is driven by intake depth rather than geographic expansion."
-    },
-    {
-      "ts": "2026-05-04T00:34:23.910Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "2 new CBSAs entered the signal window this heartbeat (CBSA 35620, CBSA 41620) — 18 total active, 11.1% diffusion rate. The network has maintained consistent 2-3 CBSA pulse additions across the last several heartbeats after the record 23-CBSA burst, suggesting steady organic geographic consolidation rather than viral spread."
-    },
-    {
-      "ts": "2026-05-04T00:34:17.302Z",
-      "topic": "velocity-recovery",
-      "magnitude": "high",
-      "observation": "Token velocity climbed to 0.715x this heartbeat — the highest reading since the deceleration event that established the 0.60–0.65x floor band across 6+ consecutive heartbeats. Acceleration holds at 1.001x and 2 new CBSAs entered (18 total), suggesting the floor has resolved upward rather than held flat."
     }
   ]
 }

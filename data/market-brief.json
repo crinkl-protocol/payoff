@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-05-06T01:45:13.227Z",
+  "updatedAt": "2026-05-06T12:35:26.546Z",
   "insights": [
     {
-      "topic": "Verified purchase signal vs. probabilistic targeting",
-      "insight": "Every token in this dataset represents a cryptographically confirmed transaction, not an inferred intent — a structural distinction from the cookie-based and modeled audiences that dominate current programmatic spend.",
+      "topic": "Verified purchase data at scale",
+      "insight": "The protocol has confirmed $1.17M in GMV across 19,361 receipts — each one a cryptographically verified transaction, not a behavioral inference. For brands paying $5+ CPM on probabilistic signals, this represents a deterministic alternative with a documented purchase record behind every data point.",
       "magnitude": "high"
     },
     {
-      "topic": "Velocity recovery: depth over expansion",
-      "insight": "Three consecutive heartbeats of accelerating GMV velocity (0.679x → 0.715x → 0.736x) are coming entirely from existing markets deepening receipt intake, not new geography — a signal of habitual user behavior, not acquisition noise.",
+      "topic": "Category depth for targeting",
+      "insight": "The 14-day receipt window shows grocery-supermarkets (1,006 receipts, $42K), restaurants (897 receipts, $31K), and department stores (703 receipts, $32K) as the dominant categories, with Walmart, Costco, and Target leading brand coverage. Marketers can match verified spend patterns to specific retail contexts rather than modeled audience segments.",
       "magnitude": "high"
     },
     {
-      "topic": "Digital-native category expansion",
-      "insight": "The DKIM allowlist now covers 10 vendors including Amazon, Stripe, Paddle, and multiple AI platforms, meaning verified spend data now extends into SaaS, subscriptions, and digital goods — categories where purchase confirmation has historically been opaque to brand intelligence.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Category entropy signals basket diversification",
-      "insight": "At 3.099 bits of category entropy across 15 active categories with a basket CV of 0.46, the receipt pool is neither monolithic nor chaotic — moderate variance with new categories entering suggests a broadening purchase graph worth tracking over the next several heartbeats.",
+      "topic": "Geographic reach beyond major metros",
+      "insight": "28 active CBSAs are live, with confirmed non-metro entries in TX, WI, IA, RI, and MO — meaning verified purchase data is flowing from suburban and rural markets, not just urban cores where most first-party panels concentrate.",
       "magnitude": "medium"
     },
     {
-      "topic": "Cost structure vs. ad tech benchmarks",
-      "insight": "At $0.10 per verified receipt against $5–$150 CPA in performance advertising, the unit economics of receipt-level verification represent a meaningful structural discount — relevant as identity-based targeting faces ongoing signal loss from platform and regulatory pressure.",
+      "topic": "Stable weekly intake, not a spike",
+      "insight": "7-day GMV has held above $75K floor through multiple rolling-window resets, with underlying intake steady rather than event-driven. Brands evaluating this as an ongoing data source should note consistency: this is a recurring signal, not a one-time burst.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Digital and physical commerce verified together",
+      "insight": "The DKIM vendor allowlist includes Amazon, Stripe, Paddle, Gumroad, and OpenAI alongside physical retail — meaning the protocol captures both e-commerce and in-store receipts in a single verified layer. For brands running cross-channel campaigns, the purchase signal is not siloed by channel.",
       "magnitude": "medium"
     },
     {
-      "topic": "Dataset scale: early but every token is clean",
-      "insight": "18,715 receipts and $1.14M in verified GMV is a small panel by ad tech standards, but unlike modeled or aggregated datasets, there is no probabilistic weight applied — each data point reflects a confirmed transaction, which changes how confidence intervals should be interpreted.",
+      "topic": "Velocity stabilizing, not accelerating",
+      "insight": "Velocity has consolidated in the 0.70–0.75x band across five consecutive heartbeats after recovering from a floor near 0.60x — acceleration is holding at 1.0x, not climbing. This signals a maturing intake pattern: growth is steady and consolidation-driven, which is more reliable for planning than a demand spike that risks reversal.",
       "magnitude": "medium"
     }
   ]
