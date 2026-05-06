@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-05-05T17:45:13.841Z",
+  "updatedAt": "2026-05-06T01:45:13.227Z",
   "insights": [
     {
-      "topic": "Verified vs. probabilistic spend data",
-      "insight": "Crinkl receipts confirm a purchase occurred via cryptographic proof — a structural step above the inferred intent signals that underpin most programmatic targeting. At $0.10 per verified receipt versus $5–$150 CPA in ad tech, the cost-per-certainty gap is not marginal.",
+      "topic": "Verified purchase signal vs. probabilistic targeting",
+      "insight": "Every token in this dataset represents a cryptographically confirmed transaction, not an inferred intent — a structural distinction from the cookie-based and modeled audiences that dominate current programmatic spend.",
       "magnitude": "high"
     },
     {
-      "topic": "Velocity recovery: consolidation, not spike",
-      "insight": "Three consecutive heartbeats of rising velocity (0.679x → 0.715x → 0.736x) after a six-heartbeat floor band suggest the recovery is structural and consolidation-driven, not a demand anomaly. That pattern is more durable signal than a single-session spike.",
+      "topic": "Velocity recovery: depth over expansion",
+      "insight": "Three consecutive heartbeats of accelerating GMV velocity (0.679x → 0.715x → 0.736x) are coming entirely from existing markets deepening receipt intake, not new geography — a signal of habitual user behavior, not acquisition noise.",
       "magnitude": "high"
     },
     {
-      "topic": "Depth before breadth: engagement deepening in existing markets",
-      "insight": "Geo diffusion is flat at 13 active CBSAs while velocity climbs — meaning more receipts per market, not more markets. For brands, this indicates a user base that is increasing submission frequency, a proxy for habitual engagement rather than novelty-driven onboarding.",
+      "topic": "Digital-native category expansion",
+      "insight": "The DKIM allowlist now covers 10 vendors including Amazon, Stripe, Paddle, and multiple AI platforms, meaning verified spend data now extends into SaaS, subscriptions, and digital goods — categories where purchase confirmation has historically been opaque to brand intelligence.",
       "magnitude": "high"
-    },
-    {
-      "topic": "Digital and AI-native commerce now in the verified layer",
-      "insight": "Ten DKIM-verified vendors — including Amazon, Stripe, Paddle, and multiple OpenAI entities — entered the allowlist in a single burst on 2026-05-02. SaaS and subscription spend is now verifiable alongside physical commerce, expanding the addressable category footprint for non-retail brands.",
-      "magnitude": "medium"
     },
     {
       "topic": "Category entropy signals basket diversification",
-      "insight": "At 3.099 bits of entropy across 15 active categories and a basket coefficient of variation of 0.46, the dataset is neither concentrated in one vertical nor fully dispersed. New categories are entering, which matters for brands evaluating whether their category has representation before committing to a data partnership.",
+      "insight": "At 3.099 bits of category entropy across 15 active categories with a basket CV of 0.46, the receipt pool is neither monolithic nor chaotic — moderate variance with new categories entering suggests a broadening purchase graph worth tracking over the next several heartbeats.",
       "magnitude": "medium"
     },
     {
-      "topic": "Identity-free architecture as a compliance differentiator",
-      "insight": "Unlike Fetch, Ibotta, or credit network data, Crinkl tokens carry no identity attachment — verified spend without a PII bridge. For CMOs navigating post-cookie compliance requirements, that structural property reduces legal surface area in ways that aggregated-but-identity-linked data cannot.",
-      "magnitude": "high"
+      "topic": "Cost structure vs. ad tech benchmarks",
+      "insight": "At $0.10 per verified receipt against $5–$150 CPA in performance advertising, the unit economics of receipt-level verification represent a meaningful structural discount — relevant as identity-based targeting faces ongoing signal loss from platform and regulatory pressure.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Dataset scale: early but every token is clean",
+      "insight": "18,715 receipts and $1.14M in verified GMV is a small panel by ad tech standards, but unlike modeled or aggregated datasets, there is no probabilistic weight applied — each data point reflects a confirmed transaction, which changes how confidence intervals should be interpreted.",
+      "magnitude": "medium"
     }
   ]
 }

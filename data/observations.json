@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-05-05T17:45:13.859Z",
+  "updatedAt": "2026-05-06T01:45:13.245Z",
   "observations": [
+    {
+      "ts": "2026-05-06T00:34:27.694Z",
+      "topic": "gmv-milestone",
+      "magnitude": "low",
+      "observation": "Cumulative GMV reached $1,167,539.41 across 19,282 receipts this heartbeat — 5 new receipts in the trailing window with 7-day GMV at $76,462. The system has now sustained above-$76K weekly intake for multiple consecutive snapshots while geographic coverage expands to 28 active CBSAs."
+    },
+    {
+      "ts": "2026-05-06T00:34:19.791Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity is 0.712x this heartbeat with acceleration at 1.003x — the recovery arc from the 0.60–0.65x floor band has stabilized in the 0.70–0.75x range across 5+ consecutive heartbeats. The system appears to have found a new equilibrium band rather than continuing to climb."
+    },
+    {
+      "ts": "2026-05-06T00:34:19.787Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "2 new CBSAs entered the signal window this heartbeat (CBSA 36540, CBSA 38900) — 28 total active, 7.1% diffusion rate. Geographic spread continues its steady pulse pattern after the record 57.1% single-heartbeat burst, now accumulating at a more sustainable 2-CBSA-per-heartbeat cadence."
+    },
     {
       "ts": "2026-05-05T12:34:26.080Z",
       "topic": "gmv-receipts",
@@ -42,24 +60,6 @@
       "topic": "velocity-recovery",
       "magnitude": "high",
       "observation": "Token velocity climbed to 0.715x this heartbeat — the highest reading since the deceleration event that established the 0.60–0.65x floor band across 6+ consecutive heartbeats. Acceleration holds at 1.001x and 2 new CBSAs entered (18 total), suggesting the floor has resolved upward rather than held flat."
-    },
-    {
-      "ts": "2026-05-03T12:34:24.976Z",
-      "topic": "gmv-weekly",
-      "magnitude": "low",
-      "observation": "7-day GMV reached $80,617.23 across 1,766 receipts — up from $80,046.74 / 1,742 receipts last snapshot. Cumulative GMV now $1,128,727.66 across 18,370 total receipts. Weekly intake is holding steady above $80K, consistent with the compressed-but-stable throughput regime established since the velocity floor formed."
-    },
-    {
-      "ts": "2026-05-03T12:34:24.974Z",
-      "topic": "velocity-recovery",
-      "magnitude": "medium",
-      "observation": "Token velocity climbed to 0.679x this heartbeat — up from the 0.60–0.65x floor band held across 6+ consecutive heartbeats. Acceleration holds at 1.0x and geo diffusion is flat (0 new CBSAs, 10 active), but the velocity uptick is the first reading above 0.65x since the deceleration event. May signal the floor is resolving upward rather than holding flat."
-    },
-    {
-      "ts": "2026-05-03T00:34:21.824Z",
-      "topic": "gmv-receipts",
-      "magnitude": "low",
-      "observation": "GMV reached $1,123,542.52 across 18,248 receipts this heartbeat — 7 new receipts in the trailing window, with 7-day GMV jumping from $70,714 to $76,074 (+7.6%). The weekly GMV acceleration suggests a mid-week intake pulse while cumulative velocity holds steady at 0.633x."
     }
   ]
 }
