@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-05-06T12:35:26.546Z",
+  "updatedAt": "2026-05-08T00:35:05.874Z",
   "insights": [
     {
       "topic": "Verified purchase data at scale",
-      "insight": "The protocol has confirmed $1.17M in GMV across 19,361 receipts — each one a cryptographically verified transaction, not a behavioral inference. For brands paying $5+ CPM on probabilistic signals, this represents a deterministic alternative with a documented purchase record behind every data point.",
+      "insight": "The protocol has confirmed 19,465 receipts totaling $1.18M in verified GMV — not modeled, not inferred, cryptographically confirmed purchases. For brands paying $5+ CPM to probabilistically target people who might buy, this is the structural alternative.",
       "magnitude": "high"
     },
     {
-      "topic": "Category depth for targeting",
-      "insight": "The 14-day receipt window shows grocery-supermarkets (1,006 receipts, $42K), restaurants (897 receipts, $31K), and department stores (703 receipts, $32K) as the dominant categories, with Walmart, Costco, and Target leading brand coverage. Marketers can match verified spend patterns to specific retail contexts rather than modeled audience segments.",
+      "topic": "Cookieless signal quality gap",
+      "insight": "A verified receipt closes the loop that probabilistic targeting cannot: it confirms a transaction occurred, at a specific retailer, in a specific category. The delta between 'visited a recipe site' and 'bought groceries at Walmart' is the entire attribution problem brands are trying to solve.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Category depth across everyday spend",
+      "insight": "In the trailing 14 days: 1,041 grocery receipts ($43K GMV), 927 restaurant receipts ($32K), 716 department store receipts ($33K), 453 gas and convenience receipts ($19K). Walmart leads brand coverage at 261 receipts, followed by Costco, Target, and Aldi — this is mainstream household spend, not a niche panel.",
       "magnitude": "high"
     },
     {
       "topic": "Geographic reach beyond major metros",
-      "insight": "28 active CBSAs are live, with confirmed non-metro entries in TX, WI, IA, RI, and MO — meaning verified purchase data is flowing from suburban and rural markets, not just urban cores where most first-party panels concentrate.",
+      "insight": "Non-metro markets in TX, WI, IA, RI, MO, and NV are now confirmed active, with 27–28 CBSAs at or near the all-time peak of 29. Organic suburban and rural diffusion matters for CPG and mass-market brands whose volumes do not concentrate in top-10 DMAs.",
       "magnitude": "medium"
     },
     {
-      "topic": "Stable weekly intake, not a spike",
-      "insight": "7-day GMV has held above $75K floor through multiple rolling-window resets, with underlying intake steady rather than event-driven. Brands evaluating this as an ongoing data source should note consistency: this is a recurring signal, not a one-time burst.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Digital and physical commerce verified together",
-      "insight": "The DKIM vendor allowlist includes Amazon, Stripe, Paddle, Gumroad, and OpenAI alongside physical retail — meaning the protocol captures both e-commerce and in-store receipts in a single verified layer. For brands running cross-channel campaigns, the purchase signal is not siloed by channel.",
+      "topic": "Intake velocity stabilizing at a higher floor",
+      "insight": "After a deceleration trough in late April, the protocol has posted six consecutive velocity readings in the 0.70–0.76x band, with 7-day GMV floors rising across successive rolling windows ($75K → $76K → $79K). This is consolidation into higher sustained throughput, not a spike.",
       "magnitude": "medium"
     },
     {
-      "topic": "Velocity stabilizing, not accelerating",
-      "insight": "Velocity has consolidated in the 0.70–0.75x band across five consecutive heartbeats after recovering from a floor near 0.60x — acceleration is holding at 1.0x, not climbing. This signals a maturing intake pattern: growth is steady and consolidation-driven, which is more reliable for planning than a demand spike that risks reversal.",
+      "topic": "Digital and physical commerce verified in the same layer",
+      "insight": "The DKIM vendor set includes Amazon, Stripe, Paddle, and Gumroad alongside physical retail — meaning the same receipt verification infrastructure covers both e-commerce and in-store spend. Brands running omnichannel measurement do not need separate pipes.",
       "magnitude": "medium"
     }
   ]

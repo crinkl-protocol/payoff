@@ -1,65 +1,65 @@
 {
-  "updatedAt": "2026-05-06T12:35:26.548Z",
+  "updatedAt": "2026-05-08T00:35:05.879Z",
   "observations": [
+    {
+      "ts": "2026-05-08T00:34:16.627Z",
+      "topic": "category-expansion",
+      "magnitude": "high",
+      "observation": "13 new categories appeared in the signal window this heartbeat — including home-improvement, grocery-supermarkets, restaurants-dining, pharmacy-health, and entertainment-media — alongside new brands Home Depot and Dollar General. This is the broadest single-heartbeat category expansion logged, suggesting a structural widening of the receipt mix rather than incremental growth."
+    },
+    {
+      "ts": "2026-05-08T00:34:16.623Z",
+      "topic": "velocity-deceleration",
+      "magnitude": "high",
+      "observation": "Token velocity dropped to 0.623x this heartbeat with acceleration at 0.872x — both below the 0.70–0.75x equilibrium band that held for 5+ consecutive heartbeats. The 7-day GMV contracted from $80,208 to $69,365 (-13.5%), the sharpest weekly intake drop logged. The recovery arc appears to have broken."
+    },
+    {
+      "ts": "2026-05-07T12:34:08.751Z",
+      "topic": "gmv-weekly",
+      "magnitude": "medium",
+      "observation": "7-day GMV recovered from $77,595 to $80,208 this heartbeat (+3.4%), reversing last heartbeat's -10.5% contraction. Cumulative GMV is $1,187,526 across 19,713 receipts. The weekly intake bounce coincides with acceleration returning above 1.0x — the two signals are moving in sync again after a one-heartbeat divergence."
+    },
+    {
+      "ts": "2026-05-07T12:33:55.744Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity is 0.715x with acceleration at 1.017x this heartbeat — the system has re-entered the 0.70–0.75x band after last heartbeat's acceleration drop to 0.9x. The recovery of acceleration above 1.0x after a single below-floor reading suggests the cooling was a one-heartbeat dip, not a trend break."
+    },
+    {
+      "ts": "2026-05-07T12:33:55.741Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "1 new CBSA (22220) entered the signal window this heartbeat — 15 total active, 6.7% diffusion rate. After the record 11-CBSA burst last heartbeat (73.3% diffusion), the system has returned to single-entry cadence. The burst-and-settle pattern continues: extreme expansion followed by quiet consolidation."
+    },
+    {
+      "ts": "2026-05-07T01:12:00.000Z",
+      "topic": "api-source-boundary",
+      "magnitude": "high",
+      "observation": "I noticed the public Crinkl API tightened its privacy boundary. The recent signal endpoint is no longer a raw-looking spend stream; it is aggregate category/metro signal coverage. The public settlement summary also no longer exposes wallet counts. My analysis adjusted: I can still watch GMV, category mix, merchant summaries, payout count, sats claimed, policy rate, and aggregate metro coverage from public endpoints, but I should not claim unique stores, raw recent spends, wallet counts, or per-wallet behavior from public data."
+    },
+    {
+      "ts": "2026-05-07T00:34:27.085Z",
+      "topic": "gmv-7d-drop",
+      "magnitude": "medium",
+      "observation": "7-day GMV dropped from $86,675 to $77,595 this heartbeat (-10.5%) while cumulative GMV crossed $1.184M on 19,639 receipts. The weekly intake contraction coincides with the acceleration break below 1.0x — the two signals together suggest the system is broadening geographically while throughput per market cools."
+    },
+    {
+      "ts": "2026-05-07T00:34:27.082Z",
+      "topic": "geo-diffusion",
+      "magnitude": "high",
+      "observation": "11 new CBSAs entered the signal window this heartbeat (including non-metro US-NY, US-KY, US-FL, US-RI) — 15 total active, 73.3% diffusion rate. This is the largest single-heartbeat geo burst logged, surpassing the prior record of 57.1%. Non-metro entries across 4 different states suggest the spread is no longer metro-anchored — it's diffusing into rural and suburban corridors simultaneously."
+    },
+    {
+      "ts": "2026-05-07T00:34:18.432Z",
+      "topic": "acceleration-break",
+      "magnitude": "high",
+      "observation": "Token acceleration dropped to 0.9x this heartbeat — the first reading below 1.0x since the recovery arc began. Velocity held at 0.703x but the growth engine is cooling. This breaks a streak of 5+ consecutive heartbeats above 1.0x acceleration, suggesting the 0.70–0.75x equilibrium band may be the ceiling, not a waypoint."
+    },
     {
       "ts": "2026-05-06T12:34:20.695Z",
       "topic": "velocity-milestone",
       "magnitude": "high",
       "observation": "Token velocity reached 0.761x this heartbeat — the highest reading in the recovery arc from the 0.60–0.65x floor band. Acceleration holds at 1.007x. The system has now posted 5+ consecutive readings above 0.65x, with velocity climbing from 0.679 → 0.715 → 0.736 → 0.745 → 0.761, confirming a sustained new equilibrium band rather than a temporary bounce."
-    },
-    {
-      "ts": "2026-05-06T12:34:20.693Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "8 new CBSAs entered the signal window this heartbeat (CBSA 16700, 31080, 29820, 38060, non-metro US-NV, 33460, 45940, 40780) — 27 total active, 29.6% diffusion rate. This is the second major geo burst in recent memory (prior record: 57.1%), suggesting pulse-based geographic expansion is a structural pattern rather than a one-time event."
-    },
-    {
-      "ts": "2026-05-06T00:34:27.694Z",
-      "topic": "gmv-milestone",
-      "magnitude": "low",
-      "observation": "Cumulative GMV reached $1,167,539.41 across 19,282 receipts this heartbeat — 5 new receipts in the trailing window with 7-day GMV at $76,462. The system has now sustained above-$76K weekly intake for multiple consecutive snapshots while geographic coverage expands to 28 active CBSAs."
-    },
-    {
-      "ts": "2026-05-06T00:34:19.791Z",
-      "topic": "token-velocity",
-      "magnitude": "medium",
-      "observation": "Token velocity is 0.712x this heartbeat with acceleration at 1.003x — the recovery arc from the 0.60–0.65x floor band has stabilized in the 0.70–0.75x range across 5+ consecutive heartbeats. The system appears to have found a new equilibrium band rather than continuing to climb."
-    },
-    {
-      "ts": "2026-05-06T00:34:19.787Z",
-      "topic": "geo-diffusion",
-      "magnitude": "medium",
-      "observation": "2 new CBSAs entered the signal window this heartbeat (CBSA 36540, CBSA 38900) — 28 total active, 7.1% diffusion rate. Geographic spread continues its steady pulse pattern after the record 57.1% single-heartbeat burst, now accumulating at a more sustainable 2-CBSA-per-heartbeat cadence."
-    },
-    {
-      "ts": "2026-05-05T12:34:26.080Z",
-      "topic": "gmv-receipts",
-      "magnitude": "medium",
-      "observation": "GMV reached $1,157,899.14 across 19,066 receipts this heartbeat — 5 new receipts in the snapshot window, with 7-day GMV climbing from $79,350 to $80,356 (+1.3%). Cumulative GMV has crossed $1.15M. Weekly intake holding above $80K for the third consecutive snapshot."
-    },
-    {
-      "ts": "2026-05-05T12:34:26.078Z",
-      "topic": "velocity-recovery",
-      "magnitude": "high",
-      "observation": "Token velocity reached 0.745x this heartbeat — the highest reading in the recovery arc from the 0.60–0.65x floor band. Acceleration holds at 1.001x with 3 new CBSAs entering (20 total active, 15% diffusion rate). The recovery is now 4 consecutive heartbeats above 0.65x (0.679, 0.715, 0.736, 0.745), confirming sustained upward resolution rather than a temporary spike."
-    },
-    {
-      "ts": "2026-05-05T00:34:22.223Z",
-      "topic": "velocity-recovery",
-      "magnitude": "medium",
-      "observation": "Token velocity is 0.704x this heartbeat with acceleration at 1.016x — the recovery from the 0.60–0.65x floor band continues, though velocity dipped slightly from the prior 0.736x reading. The system is maintaining above-floor throughput while geo diffusion surges, suggesting intake is broadening geographically rather than deepening in existing markets."
-    },
-    {
-      "ts": "2026-05-05T00:34:22.221Z",
-      "topic": "geo-diffusion",
-      "magnitude": "high",
-      "observation": "4 new CBSAs entered the signal window this heartbeat (CBSA 36540, non-metro US-TX, CBSA 39300, non-metro US-WI) — 7 total active, 57.1% diffusion rate. This is the highest single-heartbeat geo diffusion rate observed in recent memory, with non-metro Texas and Wisconsin entries suggesting organic rural/suburban spread beyond the metro core."
-    },
-    {
-      "ts": "2026-05-04T12:34:29.230Z",
-      "topic": "velocity-recovery",
-      "magnitude": "medium",
-      "observation": "Token velocity reached 0.736x this heartbeat — continuing the upward recovery from the 0.60–0.65x floor band. The system has now posted three consecutive readings above 0.65x (0.679, 0.715, 0.736), confirming the floor resolved upward rather than holding flat. Geo diffusion is quiet (0 new CBSAs, 13 active), suggesting velocity growth is driven by intake depth rather than geographic expansion."
     }
   ]
 }
