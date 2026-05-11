@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-05-08T00:35:05.874Z",
+  "updatedAt": "2026-05-11T12:38:03.882Z",
   "insights": [
     {
-      "topic": "Verified purchase data at scale",
-      "insight": "The protocol has confirmed 19,465 receipts totaling $1.18M in verified GMV — not modeled, not inferred, cryptographically confirmed purchases. For brands paying $5+ CPM to probabilistically target people who might buy, this is the structural alternative.",
+      "topic": "Verified purchase cost",
+      "insight": "The protocol delivers cryptographic proof of purchase at ~$0.10 per receipt versus $5–$150 for probabilistic ad-tech attribution — a 50–200x cost differential with no pixel, no lookback window, and no inference model to calibrate.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookieless signal quality gap",
-      "insight": "A verified receipt closes the loop that probabilistic targeting cannot: it confirms a transaction occurred, at a specific retailer, in a specific category. The delta between 'visited a recipe site' and 'bought groceries at Walmart' is the entire attribution problem brands are trying to solve.",
+      "topic": "Basket size divergence",
+      "insight": "7-day GMV rose 2.8% to $74,397 while receipt count fell from 1,777 to 1,619 — meaning spend per verified transaction is increasing even as throughput softens. For brands, this signals the active buyer pool is skewing toward higher-value purchases.",
       "magnitude": "high"
     },
     {
-      "topic": "Category depth across everyday spend",
-      "insight": "In the trailing 14 days: 1,041 grocery receipts ($43K GMV), 927 restaurant receipts ($32K), 716 department store receipts ($33K), 453 gas and convenience receipts ($19K). Walmart leads brand coverage at 261 receipts, followed by Costco, Target, and Aldi — this is mainstream household spend, not a niche panel.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Geographic reach beyond major metros",
-      "insight": "Non-metro markets in TX, WI, IA, RI, MO, and NV are now confirmed active, with 27–28 CBSAs at or near the all-time peak of 29. Organic suburban and rural diffusion matters for CPG and mass-market brands whose volumes do not concentrate in top-10 DMAs.",
+      "topic": "Velocity stabilization, not recovery",
+      "insight": "Transaction velocity has held at 0.63–0.67x for three consecutive readings after a 0.593x low — it has not returned to the 0.70–0.75x range seen earlier. Brands planning on volume-based targeting at scale should treat current throughput as the working baseline, not a floor before a rebound.",
       "magnitude": "medium"
     },
     {
-      "topic": "Intake velocity stabilizing at a higher floor",
-      "insight": "After a deceleration trough in late April, the protocol has posted six consecutive velocity readings in the 0.70–0.76x band, with 7-day GMV floors rising across successive rolling windows ($75K → $76K → $79K). This is consolidation into higher sustained throughput, not a spike.",
+      "topic": "Digital-native vendor coverage",
+      "insight": "Amazon, Stripe, Paddle, Gumroad, and three OpenAI receipt domains are among the 10 DKIM-verified vendors — meaning verified purchase data already spans SaaS, AI tools, and marketplace commerce, not just physical retail.",
       "magnitude": "medium"
     },
     {
-      "topic": "Digital and physical commerce verified in the same layer",
-      "insight": "The DKIM vendor set includes Amazon, Stripe, Paddle, and Gumroad alongside physical retail — meaning the same receipt verification infrastructure covers both e-commerce and in-store spend. Brands running omnichannel measurement do not need separate pipes.",
+      "topic": "Average basket compression",
+      "insight": "Cumulative average basket sits at $59.69 against a long-run ~$80 baseline — a compression of roughly 25% that has persisted across readings. Audience segments built on this data will skew toward mid-market spend behavior, not premium.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Geographic coverage ceiling",
+      "insight": "Active CBSAs held flat at 14 with zero new metro entries this period. Marketers requiring broad geographic reach should verify whether their target DMAs are represented before building activation plans against this data.",
       "magnitude": "medium"
     }
   ]
