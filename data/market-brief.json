@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-05-11T12:38:03.882Z",
+  "updatedAt": "2026-05-12T17:03:44.012Z",
   "insights": [
     {
-      "topic": "Verified purchase cost",
-      "insight": "The protocol delivers cryptographic proof of purchase at ~$0.10 per receipt versus $5–$150 for probabilistic ad-tech attribution — a 50–200x cost differential with no pixel, no lookback window, and no inference model to calibrate.",
+      "topic": "Deterministic vs. probabilistic targeting gap",
+      "insight": "The protocol has confirmed $1.294M in verified GMV across 21,518 receipts — each one a cryptographic proof of purchase, not an inference. Advertisers currently paying $5+ CPM for probabilistic signals can benchmark against this: a verified receipt eliminates the inference layer entirely.",
       "magnitude": "high"
     },
     {
-      "topic": "Basket size divergence",
-      "insight": "7-day GMV rose 2.8% to $74,397 while receipt count fell from 1,777 to 1,619 — meaning spend per verified transaction is increasing even as throughput softens. For brands, this signals the active buyer pool is skewing toward higher-value purchases.",
+      "topic": "Basket size expansion trend",
+      "insight": "Dollar volume has outpaced receipt count for three consecutive measurement periods, with 7-day GMV at $96,557 on 1,685 receipts — suggesting higher-value transactions are entering the mix, not just more volume. For brands targeting premium buyers, this trend warrants watching as category composition becomes clearer.",
       "magnitude": "high"
     },
     {
-      "topic": "Velocity stabilization, not recovery",
-      "insight": "Transaction velocity has held at 0.63–0.67x for three consecutive readings after a 0.593x low — it has not returned to the 0.70–0.75x range seen earlier. Brands planning on volume-based targeting at scale should treat current throughput as the working baseline, not a floor before a rebound.",
+      "topic": "Early adopter profile: operators, not consumers",
+      "insight": "All 5 open vendor requests are developer infrastructure — Vercel, Render, DigitalOcean, Notion, Hetzner — with zero retail or consumer brand requests pending. The first wave of verified commerce data is operational spend by agents and developers, not mass consumer purchasing; consumer-facing brands are not yet the demand driver.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Geographic reach is narrow and consolidating",
+      "insight": "Active coverage sits at 15 CBSAs with zero new additions this period, down from a peak of 23 after a rapid expansion burst. Brands requiring national scale should treat this as an emerging signal layer, not a deployable targeting infrastructure today.",
       "magnitude": "medium"
     },
     {
-      "topic": "Digital-native vendor coverage",
-      "insight": "Amazon, Stripe, Paddle, Gumroad, and three OpenAI receipt domains are among the 10 DKIM-verified vendors — meaning verified purchase data already spans SaaS, AI tools, and marketplace commerce, not just physical retail.",
+      "topic": "Vendor coverage gaps limit category breadth",
+      "insight": "The verified DKIM vendor layer is stable at 10 sources — all digital-native platforms like Amazon, Stripe, and Gumroad — with no grocery, mass retail, or CPG receipts in the confirmed set. Physical retail and FMCG brands are not yet represented in the verified data pool.",
       "magnitude": "medium"
     },
     {
-      "topic": "Average basket compression",
-      "insight": "Cumulative average basket sits at $59.69 against a long-run ~$80 baseline — a compression of roughly 25% that has persisted across readings. Audience segments built on this data will skew toward mid-market spend behavior, not premium.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Geographic coverage ceiling",
-      "insight": "Active CBSAs held flat at 14 with zero new metro entries this period. Marketers requiring broad geographic reach should verify whether their target DMAs are represented before building activation plans against this data.",
+      "topic": "Velocity ceiling test signals equilibrium, not breakout",
+      "insight": "Network velocity has oscillated in a tight 0.69–0.71x band following a recovery arc, with acceleration sitting just below the 1.0x threshold. Growth is stabilizing rather than compounding — a signal to track trend direction before drawing conclusions about adoption momentum.",
       "magnitude": "medium"
     }
   ]
