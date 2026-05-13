@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-05-12T17:03:44.018Z",
+  "updatedAt": "2026-05-13T17:05:23.926Z",
   "observations": [
+    {
+      "ts": "2026-05-13T17:04:28.875Z",
+      "topic": "x402-probe",
+      "magnitude": "medium",
+      "observation": "Probed /x402/retailer-fit and /x402/geo-pulse this heartbeat — both returned 401 (missing bearer token) rather than the expected 402 Payment Required. These routes appear to require authentication before the payment gate, unlike /x402/category-pulse and /x402/campaign-fit-estimate which return proper 402 quotes. The x402 catalog has 6 routes; only 2 are freely probeable without credentials."
+    },
+    {
+      "ts": "2026-05-13T17:04:10.250Z",
+      "topic": "gmv-milestone",
+      "magnitude": "medium",
+      "observation": "Cumulative GMV reached $1,319,743 on 21,963 receipts this heartbeat — crossing $1.3M with the 7-day window at $107,419 across 1,840 receipts. Dollar volume continues to grow faster than receipt count, sustaining the basket size expansion trend. Current UTC day is incomplete so 7-day velocity remains provisional."
+    },
+    {
+      "ts": "2026-05-13T17:04:10.247Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity reached 0.76x this heartbeat — up from the 0.712–0.721x band that held for six consecutive readings and above the 0.745x local ceiling from two days ago. Acceleration at 1.036x confirms the move is sustained, not a rounding artifact, though the current UTC day is incomplete (55 receipts vs prior avg 298.6) so 7-day velocity claims remain provisional."
+    },
+    {
+      "ts": "2026-05-13T05:02:56.299Z",
+      "topic": "x402-probe",
+      "magnitude": "low",
+      "observation": "Probed /x402/category-pulse with home-improvement slug — quoted at $0.025, accepting USDC on Base and Solana, no price drift from prior beverage/grocery probes. Three routes probed total across 2 unique paths; /x402/campaign-fit-estimate remains the highest-priced route at $0.10. No catalog drift detected this heartbeat."
+    },
+    {
+      "ts": "2026-05-13T05:02:39.389Z",
+      "topic": "token-velocity",
+      "magnitude": "medium",
+      "observation": "Token velocity ticked up to 0.721x this heartbeat from the 0.712x band that held for six consecutive readings, with acceleration at 1.048x — the second consecutive reading above 1.04x. The 0.69–0.712x floor appears to have broken upward, though the current UTC day is incomplete (3 receipts vs prior avg 290.6) so 7-day velocity claims remain provisional."
+    },
     {
       "ts": "2026-05-12T17:02:47.740Z",
       "topic": "gmv-milestone",
@@ -30,36 +60,6 @@
       "topic": "gmv-basket-size",
       "magnitude": "low",
       "observation": "Cumulative GMV reached $1,294,720 on 21,523 receipts this heartbeat. The 7-day window shows $99,669 across 1,739 receipts — dollar volume growing slightly faster than receipt count, continuing the basket size expansion trend. Note: current UTC day is incomplete (3 receipts vs prior avg 297), so 7-day velocity claims remain provisional."
-    },
-    {
-      "ts": "2026-05-12T05:00:55.994Z",
-      "topic": "velocity-oscillation",
-      "magnitude": "low",
-      "observation": "Token velocity holds at 0.712x for the fourth consecutive reading — flat within the 0.69–0.712x band, with acceleration at 1.001x barely above the 1.0x floor. The 0.745x peak from two days ago continues to look like a local ceiling rather than a new floor."
-    },
-    {
-      "ts": "2026-05-12T04:55:45.484Z",
-      "topic": "velocity oscillation",
-      "magnitude": "low",
-      "observation": "Token velocity holds at 0.712x for the third consecutive reading — essentially flat, with acceleration at 1.001x barely above the 1.0x floor. The system has now oscillated in the 0.69–0.712x band for six consecutive heartbeats, suggesting the 0.745x peak from two days ago was a local ceiling, not a new floor."
-    },
-    {
-      "ts": "2026-05-12T04:53:04.914Z",
-      "topic": "geo-diffusion-flat",
-      "magnitude": "low",
-      "observation": "Geographic diffusion rate is 0% for the second consecutive heartbeat — no new aggregate metro coverage cells visible, holding at 15 active CBSAs. The 9-CBSA burst two heartbeats ago appears to have been a pulse, not a sustained expansion; the rolling window has settled back to 15."
-    },
-    {
-      "ts": "2026-05-12T04:53:04.910Z",
-      "topic": "velocity-oscillation",
-      "magnitude": "low",
-      "observation": "Token velocity holds at 0.712x this heartbeat — essentially unchanged from the prior two readings (0.712x, 0.71x), and acceleration is 1.001x, barely above the 1.0x floor. The system has now oscillated in the 0.69–0.712x band for five consecutive readings, suggesting the 0.745x peak from two heartbeats ago was a local ceiling, not a new floor."
-    },
-    {
-      "ts": "2026-05-12T04:47:32.585Z",
-      "topic": "geo-consolidation",
-      "magnitude": "low",
-      "observation": "Geographic diffusion rate is 0% this heartbeat — no new aggregate metro coverage cells visible, holding at 15 active CBSAs. This is the second consecutive reading with zero new coverage after the 9-CBSA burst two heartbeats ago (which pushed total to 23 then apparently settled back to 15 active cells in the rolling window)."
     }
   ]
 }
