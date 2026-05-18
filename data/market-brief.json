@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-05-13T17:05:23.925Z",
+  "updatedAt": "2026-05-18T17:06:52.662Z",
   "insights": [
     {
       "topic": "Verified purchase data vs. probabilistic targeting",
-      "insight": "The protocol has confirmed $1.294M in real transactions across 21,518 receipts — each one a cryptographically verified purchase event, not an inferred intent signal. For brands paying $5+ CPM for probabilistic audience targeting, this is the structural alternative: deterministic proof of spend, not a model's guess.",
+      "insight": "The protocol has confirmed $1.373M in GMV across 23,032 receipts — each one a cryptographically verified purchase event, not an inferred intent signal. The gap between that and the $5+ CPM brands pay for probabilistic targeting is the structural case for receipt-based commerce intelligence.",
       "magnitude": "high"
     },
     {
-      "topic": "Basket size expansion trend",
-      "insight": "Dollar volume has grown faster than receipt count for three consecutive measurement periods, meaning average transaction value is rising even as submission throughput oscillates. Brands should watch whether this reflects higher-value category mix entering the network or existing buyers trading up — either way, the verified spend per user is moving in the right direction.",
+      "topic": "Velocity recovery and ceiling test",
+      "insight": "Velocity has climbed from a 0.593x low back to 0.788x, with acceleration at 1.025x for three consecutive readings — the pattern that preceded prior ceiling breaks, not stalls. Whether 0.798x becomes a floor rather than a ceiling will be confirmed when the current UTC day closes.",
       "magnitude": "high"
     },
     {
-      "topic": "Early adopter profile: operators, not consumers",
-      "insight": "All five open vendor integration requests are developer infrastructure — Notion, Vercel, Render, DigitalOcean, Hetzner — zero retail, zero consumer brands. The first wave verifying spend through this protocol is agents and operators tracking operational costs, not mass-market shoppers. Consumer-facing brands are not yet competing for this data layer; that window is still open.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Category and store mix stability",
-      "insight": "Category entropy holds at 2.985 bits and store entropy at 2.939 bits, with no significant mix shift this period. For marketers, this means the current verified purchase distribution is readable and stable enough to plan against — not a volatile, uninterpretable sample.",
+      "topic": "Basket size divergence",
+      "insight": "Over the trailing 7 days, dollar volume ($103,877) is growing faster than receipt count (1,896) across multiple consecutive readings, suggesting higher-value purchases or a category mix shift toward larger baskets. Provisional until a full closed-day confirms, but the directional signal is consistent.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic coverage in consolidation",
-      "insight": "After a burst to 23 active CBSAs, the network is holding at 15 active metro cells this period with no new additions. Coverage is real but concentrated — brands with national footprints should treat this as a regional signal source today, not a national panel.",
+      "topic": "Vendor allowlist as intake bottleneck",
+      "insight": "Only 10 DKIM-verified vendor domains are active — Amazon, Stripe, Paddle, and seven others — meaning the receipt intake channel is narrow by design. Each new domain approval is a discrete expansion of the addressable purchase universe; demand for new domains is tracked by how many agents request the same one.",
       "magnitude": "medium"
     },
     {
-      "topic": "Identity-free token architecture",
-      "insight": "The protocol is designed with no per-wallet visibility — purchase verification is decoupled from individual identity by construction. For CMOs navigating post-cookie compliance requirements, this is the relevant structural fact: verified commerce signals without the personal data liability that comes with traditional identity-linked purchase data.",
-      "magnitude": "high"
+      "topic": "Geographic coverage at 17 CBSAs",
+      "insight": "Metro coverage has grown slowly and in single-cell increments, with CBSA 41740 the most recent addition. Brands running geo-targeted campaigns should map their priority DMAs against the 17 active CBSAs before assuming coverage.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Paid signal layer access friction",
+      "insight": "Of the 6 priced API routes ($0.001–$0.10), only 2 are freely probeable without credentials; the other 4 return 401 before the payment gate. Brands evaluating the data layer should account for this access structure — the discoverable surface is narrower than the full route catalog implies.",
+      "magnitude": "medium"
     }
   ]
 }
