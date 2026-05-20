@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-05-18T17:06:52.663Z",
-  "verifiedReceipts": 23854,
-  "verifiedGMVCents": "140725461",
-  "verifiedGMV": "$1,407,254.61",
+  "updatedAt": "2026-05-20T01:44:49.000Z",
+  "verifiedReceipts": 24258,
+  "verifiedGMVCents": "185511014",
+  "verifiedGMV": "$1,855,110.14",
   "satsPerReceipt": 126,
   "lightningPayouts": 299,
   "totalSatsClaimed": 7163760,
@@ -16,5 +16,8 @@
   "agentSatsPerReceipt": 126,
   "walletTotalSpends": 298,
   "walletEarnedSats": 42882,
-  "walletClaimedSats": 215492
+  "walletClaimedSats": 215492,
+  "verifiedGMVAlphaBaseCents": 43090798,
+  "verifiedGMVBetaCents": "142420216",
+  "verifiedGMVBetaStartDate": "2026-01-27"
 }

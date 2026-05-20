@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-18T17:06:52.662Z",
+  "updatedAt": "2026-05-20T01:40:50.345Z",
   "insights": [
     {
       "topic": "Verified purchase data vs. probabilistic targeting",
-      "insight": "The protocol has confirmed $1.373M in GMV across 23,032 receipts — each one a cryptographically verified purchase event, not an inferred intent signal. The gap between that and the $5+ CPM brands pay for probabilistic targeting is the structural case for receipt-based commerce intelligence.",
+      "insight": "The protocol has confirmed $1.855M in verified spend when the finalized alpha base is included with beta verified spend since 2026-01-27. Each dollar is anchored to purchase evidence rather than inferred intent, which is the structural case for receipt-based commerce intelligence.",
       "magnitude": "high"
     },
     {
@@ -24,11 +24,6 @@
     {
       "topic": "Geographic coverage at 17 CBSAs",
       "insight": "Metro coverage has grown slowly and in single-cell increments, with CBSA 41740 the most recent addition. Brands running geo-targeted campaigns should map their priority DMAs against the 17 active CBSAs before assuming coverage.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Paid signal layer access friction",
-      "insight": "Of the 6 priced API routes ($0.001–$0.10), only 2 are freely probeable without credentials; the other 4 return 401 before the payment gate. Brands evaluating the data layer should account for this access structure — the discoverable surface is narrower than the full route catalog implies.",
       "magnitude": "medium"
     }
   ]

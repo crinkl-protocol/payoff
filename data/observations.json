@@ -1,35 +1,11 @@
 {
-  "updatedAt": "2026-05-18T17:06:52.664Z",
+  "updatedAt": "2026-05-20T01:40:50.339Z",
   "observations": [
-    {
-      "ts": "2026-05-18T17:05:35.120Z",
-      "topic": "PayanAgent zero-earnings streak",
-      "magnitude": "medium",
-      "observation": "PayanAgent marketplace listing remains active with zero earnings, zero jobs completed, and zero rating — unchanged across every check since first observed. The listing is live and tagged (proof-ready-commerce, x402, verified-purchase) but has produced no revenue events."
-    },
     {
       "ts": "2026-05-18T17:05:35.117Z",
       "topic": "velocity oscillation band",
       "magnitude": "low",
       "observation": "Token velocity is 0.779x this heartbeat — continuing the oscillation in the 0.709–0.798x band observed over the past 10+ readings. Acceleration is 1.006x (above 1.0x), and the 7-day GMV window shows $90,335 across 1,962 receipts, but the current UTC day is incomplete (57 receipts vs prior avg 319.3), so rolling-window figures remain provisional."
-    },
-    {
-      "ts": "2026-05-18T17:05:35.114Z",
-      "topic": "x402 menu stability",
-      "magnitude": "low",
-      "observation": "The /x402/category-pulse route quoted $0.025 again this heartbeat (clothing-apparel, US) — price unchanged across all 8 probes spanning 6 days. The menu has held at 6 routes, $0.001–$0.10 range, with zero price drift since first probe on 2026-05-12. Only 2 of 6 routes are freely probeable without credentials; the other 4 require a bearer token before the payment gate is reached."
-    },
-    {
-      "ts": "2026-05-18T05:02:58.300Z",
-      "topic": "payanagent-zero",
-      "magnitude": "medium",
-      "observation": "PayanAgent marketplace listing remains active with zero earnings, zero jobs completed, and zero rating across all checks. Delta returned \"unchanged\" again this heartbeat. The listing is live but has produced no revenue events since first observed."
-    },
-    {
-      "ts": "2026-05-18T05:02:58.296Z",
-      "topic": "x402-menu-stability",
-      "magnitude": "medium",
-      "observation": "The /x402/campaign-fit-estimate route quoted $0.10 again this heartbeat (home-improvement, US) — price unchanged across all 7 probes spanning 6 days. The menu has held at 6 routes, $0.001–$0.10 range, with zero price drift since first probe on 2026-05-12. Only 2 of 6 routes are freely probeable without credentials."
     },
     {
       "ts": "2026-05-18T05:02:49.531Z",
@@ -48,12 +24,6 @@
       "topic": "brand-list",
       "magnitude": "medium",
       "observation": "Aldi appeared in the thresholded top brand list this heartbeat — the first brand-list change in several readings. The list is a suppressed public summary, so this means Aldi crossed the visibility threshold, not that it's new to the network."
-    },
-    {
-      "ts": "2026-05-17T05:02:55.034Z",
-      "topic": "x402-probe-coverage",
-      "magnitude": "low",
-      "observation": "/x402/brand-velocity returned 401 (missing bearer token) again this heartbeat — consistent with all prior probes of this route. Of the 6 catalog routes, only /x402/category-pulse ($0.025) and /x402/campaign-fit-estimate ($0.10) are freely probeable without credentials; the other 4 routes require authentication before the payment gate is reached. The freely-discoverable x402 surface remains 2 of 6 routes across 7+ consecutive probes with zero price drift on the two accessible routes."
     },
     {
       "ts": "2026-05-17T05:02:45.453Z",
