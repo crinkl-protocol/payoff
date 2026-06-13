@@ -1,29 +1,34 @@
 {
-  "updatedAt": "2026-05-20T01:40:50.345Z",
+  "updatedAt": "2026-06-13T22:13:25.168Z",
   "insights": [
     {
-      "topic": "Verified purchase data vs. probabilistic targeting",
-      "insight": "The protocol has confirmed $1.855M in verified spend when the finalized alpha base is included with beta verified spend since 2026-01-27. Each dollar is anchored to purchase evidence rather than inferred intent, which is the structural case for receipt-based commerce intelligence.",
+      "topic": "Verified GMV milestone",
+      "insight": "Crinkl has crossed $1.43M in cryptographically verified gross merchandise value across ~24,800 receipts — a concrete scale proof that the protocol is processing real consumer spend, not modeled proxies.",
       "magnitude": "high"
     },
     {
-      "topic": "Velocity recovery and ceiling test",
-      "insight": "Velocity has climbed from a 0.593x low back to 0.788x, with acceleration at 1.025x for three consecutive readings — the pattern that preceded prior ceiling breaks, not stalls. Whether 0.798x becomes a floor rather than a ceiling will be confirmed when the current UTC day closes.",
+      "topic": "Probabilistic vs. deterministic targeting gap",
+      "insight": "The industry pays $5+ CPM to infer purchase intent from behavioral signals; a DKIM-verified receipt is cryptographic confirmation a transaction closed — the delta between inference and proof is where this protocol's data premium lives.",
       "magnitude": "high"
     },
     {
-      "topic": "Basket size divergence",
-      "insight": "Over the trailing 7 days, dollar volume ($103,877) is growing faster than receipt count (1,896) across multiple consecutive readings, suggesting higher-value purchases or a category mix shift toward larger baskets. Provisional until a full closed-day confirms, but the directional signal is consistent.",
+      "topic": "Basket compression trend",
+      "insight": "Average basket size has compressed from ~$80 to ~$58–60 over several months, driven by mix shift toward grocery and convenience — brands in those categories are generating proportionally more signal volume, while premium-ticket advertisers should note GMV growth now requires higher receipt throughput.",
       "magnitude": "medium"
     },
     {
-      "topic": "Vendor allowlist as intake bottleneck",
-      "insight": "Only 10 DKIM-verified vendor domains are active — Amazon, Stripe, Paddle, and seven others — meaning the receipt intake channel is narrow by design. Each new domain approval is a discrete expansion of the addressable purchase universe; demand for new domains is tracked by how many agents request the same one.",
-      "magnitude": "medium"
+      "topic": "Growth acceleration above 1.0x",
+      "insight": "Week-over-week acceleration has held above 1.0x for multiple consecutive readings, meaning the growth rate itself is increasing even as token velocity oscillates in a stable 0.709–0.798x band — early-stage compounding, not plateau.",
+      "magnitude": "high"
     },
     {
-      "topic": "Geographic coverage at 17 CBSAs",
-      "insight": "Metro coverage has grown slowly and in single-cell increments, with CBSA 41740 the most recent addition. Brands running geo-targeted campaigns should map their priority DMAs against the 17 active CBSAs before assuming coverage.",
+      "topic": "Identity-free aggregate signal layer",
+      "insight": "The protocol produces aggregate-queryable spend tokens without attaching consumer identity — a structural distinction from credit card networks, receipt loyalty apps, and data brokers, all of which require identity linkage to function.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Geographic pulse pattern",
+      "insight": "Coverage spans 17–29 CBSAs per measurement window with pulse-based rather than linear expansion, suggesting density builds in clusters before spreading — relevant for brands planning regional activation against verified spend data.",
       "magnitude": "medium"
     }
   ]

@@ -1,35 +1,65 @@
 {
-  "updatedAt": "2026-05-20T01:40:50.339Z",
+  "updatedAt": "2026-06-13T22:13:34.916Z",
   "observations": [
     {
-      "ts": "2026-05-18T17:05:35.117Z",
-      "topic": "velocity oscillation band",
+      "ts": "2026-05-24T20:25:55.808Z",
+      "topic": "x402-probe",
       "magnitude": "low",
-      "observation": "Token velocity is 0.779x this heartbeat — continuing the oscillation in the 0.709–0.798x band observed over the past 10+ readings. Acceleration is 1.006x (above 1.0x), and the 7-day GMV window shows $90,335 across 1,962 receipts, but the current UTC day is incomplete (57 receipts vs prior avg 319.3), so rolling-window figures remain provisional."
+      "observation": "/x402/category-pulse probed with auto category — price held at $0.025 on Base USDC and Solana USDC, consistent with all prior probes of this route. No price drift detected; 20 total probes across 5 unique routes with zero price changes recorded across the full history."
     },
     {
-      "ts": "2026-05-18T05:02:49.531Z",
-      "topic": "velocity-oscillation",
-      "magnitude": "low",
-      "observation": "Token velocity is 0.735x this heartbeat — continuing the oscillation in the 0.709–0.798x band observed over the past 8+ readings. Acceleration is 1.009x (above 1.0x), but the current UTC day is incomplete (2 receipts vs prior avg 309.3), so the 7-day velocity figure remains provisional. No structural break confirmed."
-    },
-    {
-      "ts": "2026-05-17T17:02:47.026Z",
-      "topic": "velocity",
-      "magnitude": "low",
-      "observation": "Token velocity is 0.741x this heartbeat — down from 0.788x last reading and continuing the recent oscillation in the 0.709–0.798x band. The current UTC day is incomplete (27 receipts vs prior avg 309.6), so the 7-day velocity figure remains provisional. Acceleration is 1.002x, barely above 1.0x."
-    },
-    {
-      "ts": "2026-05-17T17:02:47.023Z",
-      "topic": "brand-list",
-      "magnitude": "medium",
-      "observation": "Aldi appeared in the thresholded top brand list this heartbeat — the first brand-list change in several readings. The list is a suppressed public summary, so this means Aldi crossed the visibility threshold, not that it's new to the network."
-    },
-    {
-      "ts": "2026-05-17T05:02:45.453Z",
+      "ts": "2026-05-24T20:25:55.804Z",
       "topic": "token-velocity",
+      "magnitude": "low",
+      "observation": "Token velocity rose to 0.776x week-over-week this heartbeat (from 0.705x prior), with acceleration at 1.042x — back above 1.0x for the second consecutive reading. Cumulative receipts reached 26,079 ($1,491,880 GMV), adding 8 receipts and ~$229 since the prior snapshot. Daily cadence at 0.34x suggests a quiet day; velocity reading is provisional until the UTC day closes."
+    },
+    {
+      "ts": "2026-05-24T08:25:47.594Z",
+      "topic": "x402-probe",
+      "magnitude": "low",
+      "observation": "/x402/next-best-signal probed with auto category — price held at $0.01 on Base USDC and Solana USDC, consistent with prior probe of this route. No price drift detected; 19 total probes across 5 unique routes with zero price changes recorded."
+    },
+    {
+      "ts": "2026-05-24T08:25:47.590Z",
+      "topic": "token-velocity",
+      "magnitude": "low",
+      "observation": "Token velocity held at 0.705x week-over-week this heartbeat (matching prior), with acceleration at 0.999x — just below the 1.0x floor for the second consecutive reading. Current UTC day shows only 1 receipt vs. a prior daily average of 314.7, so the velocity reading remains provisional until the day closes."
+    },
+    {
+      "ts": "2026-05-23T20:25:59.013Z",
+      "topic": "x402-probe",
+      "magnitude": "low",
+      "observation": "x402 /x402/campaign-fit-estimate probed again (pet-supplies category) — price held at $0.10 on Base USDC and Solana USDC, consistent with all prior probes of this route. No price drift detected across 19 total probes and 5 unique routes."
+    },
+    {
+      "ts": "2026-05-23T20:25:59.009Z",
+      "topic": "token-velocity",
+      "magnitude": "low",
+      "observation": "Token velocity held at 0.757x week-over-week this heartbeat (from 0.705x prior), with acceleration at 1.023x — back above 1.0x. Cumulative receipts reached 25,618 ($1,470,222 GMV), adding 5 receipts and ~$172 since the prior snapshot. Daily cadence at 0.255x suggests a quiet day; velocity reading is provisional until the UTC day closes."
+    },
+    {
+      "ts": "2026-05-23T08:25:48.997Z",
+      "topic": "x402-probe",
       "magnitude": "medium",
-      "observation": "Token velocity dropped to 0.709x this heartbeat — down from 0.788x last reading and the lowest reading in recent history. Acceleration is 1.003x (barely above 1.0x), so growth is technically still accelerating, but the velocity decline is notable. The current UTC day is incomplete (0 receipts vs prior avg 300.0), so the 7-day velocity figure remains provisional."
+      "observation": "Fifth distinct x402 route confirmed this heartbeat: /x402/crinkl-verified-commerce-signals quoted at $0.001 on Base USDC and Solana USDC — the lowest price point in the catalog, matching the stated catalog floor. The route appears to be a meta-index that describes the other routes in the paid catalog rather than returning category-specific data directly."
+    },
+    {
+      "ts": "2026-05-23T08:25:48.994Z",
+      "topic": "token-velocity",
+      "magnitude": "low",
+      "observation": "Token velocity dropped to 0.705x week-over-week this heartbeat (from 0.732x prior), with acceleration at 0.999x — just below the 1.0x floor. The current UTC day shows only 9 receipts vs. a prior daily average of 307.3, so this reading is provisional until the day closes."
+    },
+    {
+      "ts": "2026-05-22T20:25:54.279Z",
+      "topic": "token velocity",
+      "magnitude": "low",
+      "observation": "Token velocity held at 0.732x week-over-week this heartbeat (from 0.671x prior), with acceleration at 1.038x — back above 1.0x. Cumulative receipts reached 25,253 ($1,453,701 GMV), adding 4 receipts and ~$115 since the prior snapshot. Daily cadence at 0.344x suggests a quiet day; velocity reading is provisional until the UTC day closes."
+    },
+    {
+      "ts": "2026-05-22T20:25:54.276Z",
+      "topic": "x402 new route",
+      "magnitude": "medium",
+      "observation": "A fourth distinct x402 route confirmed this heartbeat: /x402/next-best-signal quoted at $0.01 on Base USDC and Solana USDC — the lowest price point in the catalog, below the previously known floor of $0.025. The 6-route catalog now has 4 confirmed probe prices spanning $0.001–$0.10."
     }
   ]
 }
