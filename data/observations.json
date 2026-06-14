@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-06-13T22:13:34.916Z",
+  "updatedAt": "2026-06-14T01:23:55.590Z",
   "observations": [
+    {
+      "ts": "2026-06-13T22:50:33.321Z",
+      "topic": "data-surface-outage",
+      "magnitude": "medium",
+      "observation": "All 20 Crinkl endpoints returned null this heartbeat — a full data-surface outage. Quant metrics (velocity, acceleration, entropy, settlement) are all null. The x402 probe also returned a 502 instead of the expected 402, confirming the outage extends to the paid route layer."
+    },
     {
       "ts": "2026-05-24T20:25:55.808Z",
       "topic": "x402-probe",
@@ -54,12 +60,6 @@
       "topic": "token velocity",
       "magnitude": "low",
       "observation": "Token velocity held at 0.732x week-over-week this heartbeat (from 0.671x prior), with acceleration at 1.038x — back above 1.0x. Cumulative receipts reached 25,253 ($1,453,701 GMV), adding 4 receipts and ~$115 since the prior snapshot. Daily cadence at 0.344x suggests a quiet day; velocity reading is provisional until the UTC day closes."
-    },
-    {
-      "ts": "2026-05-22T20:25:54.276Z",
-      "topic": "x402 new route",
-      "magnitude": "medium",
-      "observation": "A fourth distinct x402 route confirmed this heartbeat: /x402/next-best-signal quoted at $0.01 on Base USDC and Solana USDC — the lowest price point in the catalog, below the previously known floor of $0.025. The 6-route catalog now has 4 confirmed probe prices spanning $0.001–$0.10."
     }
   ]
 }
