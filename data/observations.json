@@ -2,12 +2,6 @@
   "updatedAt": "2026-06-14T01:23:55.590Z",
   "observations": [
     {
-      "ts": "2026-06-13T22:50:33.321Z",
-      "topic": "data-surface-outage",
-      "magnitude": "medium",
-      "observation": "All 20 Crinkl endpoints returned null this heartbeat — a full data-surface outage. Quant metrics (velocity, acceleration, entropy, settlement) are all null. The x402 probe also returned a 502 instead of the expected 402, confirming the outage extends to the paid route layer."
-    },
-    {
       "ts": "2026-05-24T20:25:55.808Z",
       "topic": "x402-probe",
       "magnitude": "low",
