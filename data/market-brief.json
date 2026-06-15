@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-06-13T22:13:25.168Z",
+  "updatedAt": "2026-06-15T01:45:14.583Z",
   "insights": [
     {
       "topic": "Verified GMV milestone",
-      "insight": "Crinkl has crossed $1.43M in cryptographically verified gross merchandise value across ~24,800 receipts — a concrete scale proof that the protocol is processing real consumer spend, not modeled proxies.",
+      "insight": "Crinkl crossed $2M in cryptographically verified cumulative GMV on 2026-06-14, with a full-snapshot figure of $2.42M including the alpha base — confirming the protocol is processing real consumer spend at scale, not pilot volume.",
       "magnitude": "high"
     },
     {
-      "topic": "Probabilistic vs. deterministic targeting gap",
-      "insight": "The industry pays $5+ CPM to infer purchase intent from behavioral signals; a DKIM-verified receipt is cryptographic confirmation a transaction closed — the delta between inference and proof is where this protocol's data premium lives.",
+      "topic": "Sustained receipt velocity",
+      "insight": "The protocol is ingesting approximately 420 receipts per day, with 34,518 cumulative receipts confirmed — a cadence that generates statistically meaningful purchase signals across grocery, dining, retail, and home improvement without relying on probabilistic inference.",
       "magnitude": "high"
     },
     {
-      "topic": "Basket compression trend",
-      "insight": "Average basket size has compressed from ~$80 to ~$58–60 over several months, driven by mix shift toward grocery and convenience — brands in those categories are generating proportionally more signal volume, while premium-ticket advertisers should note GMV growth now requires higher receipt throughput.",
+      "topic": "Category mix and brand coverage",
+      "insight": "Walmart (323 receipts), Costco (151), Home Depot (84), and Kroger (69) lead the 14-day brand count, with grocery and restaurants each clearing 1,100+ receipts — the coverage map already reflects the categories where most CPG and retail brand budgets compete.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Basket size recovery signal",
+      "insight": "The 7-day average basket has rebounded to ~$80.40 after a prior compression period that pushed averages into the $58–60 range; the 14-day named-category average still runs ~$57, so the recovery is real but narrow and warrants watching across a longer window before treating it as a trend reversal.",
       "magnitude": "medium"
     },
     {
-      "topic": "Growth acceleration above 1.0x",
-      "insight": "Week-over-week acceleration has held above 1.0x for multiple consecutive readings, meaning the growth rate itself is increasing even as token velocity oscillates in a stable 0.709–0.798x band — early-stage compounding, not plateau.",
-      "magnitude": "high"
+      "topic": "Unknown category outlier",
+      "insight": "189 receipts in an uncategorized bucket carry a $354 average basket in the 14-day window — roughly 6x the named-category average — suggesting large-ticket digital or B2B spend is entering the verified stream and may represent a distinct high-value targeting segment once resolved.",
+      "magnitude": "medium"
     },
     {
-      "topic": "Identity-free aggregate signal layer",
-      "insight": "The protocol produces aggregate-queryable spend tokens without attaching consumer identity — a structural distinction from credit card networks, receipt loyalty apps, and data brokers, all of which require identity linkage to function.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Geographic pulse pattern",
-      "insight": "Coverage spans 17–29 CBSAs per measurement window with pulse-based rather than linear expansion, suggesting density builds in clusters before spreading — relevant for brands planning regional activation against verified spend data.",
+      "topic": "Digital subscription capture",
+      "insight": "YouTube receipts are appearing in brand-level data, confirming the protocol's DKIM-verified allowlist now reaches digital subscription purchases alongside physical retail — expanding the addressable signal set for marketers targeting streaming and software audiences.",
       "magnitude": "medium"
     }
   ]
