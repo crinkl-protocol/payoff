@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-06-15T01:45:14.583Z",
+  "updatedAt": "2026-06-16T09:45:13.928Z",
   "insights": [
     {
-      "topic": "Verified GMV milestone",
-      "insight": "Crinkl crossed $2M in cryptographically verified cumulative GMV on 2026-06-14, with a full-snapshot figure of $2.42M including the alpha base — confirming the protocol is processing real consumer spend at scale, not pilot volume.",
+      "topic": "Verified GMV crosses $2M threshold",
+      "insight": "Cumulative verified spend on the Crinkl protocol crossed $2M on June 14 and reached $2.05M by June 16 — deterministic purchase confirmation at a scale that begins to support statistically meaningful targeting segments across grocery, dining, and retail.",
       "magnitude": "high"
     },
     {
-      "topic": "Sustained receipt velocity",
-      "insight": "The protocol is ingesting approximately 420 receipts per day, with 34,518 cumulative receipts confirmed — a cadence that generates statistically meaningful purchase signals across grocery, dining, retail, and home improvement without relying on probabilistic inference.",
+      "topic": "Receipt cadence: ~410/day sustained",
+      "insight": "The protocol is adding roughly 410 verified receipts per day on a sustained basis, producing ~10,700 receipts over the last 26 days — a volume floor that gives campaign planners a predictable signal refresh rate rather than a one-time data snapshot.",
       "magnitude": "high"
     },
     {
-      "topic": "Category mix and brand coverage",
-      "insight": "Walmart (323 receipts), Costco (151), Home Depot (84), and Kroger (69) lead the 14-day brand count, with grocery and restaurants each clearing 1,100+ receipts — the coverage map already reflects the categories where most CPG and retail brand budgets compete.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Basket size recovery signal",
-      "insight": "The 7-day average basket has rebounded to ~$80.40 after a prior compression period that pushed averages into the $58–60 range; the 14-day named-category average still runs ~$57, so the recovery is real but narrow and warrants watching across a longer window before treating it as a trend reversal.",
+      "topic": "Basket compression: grocery and convenience dominating mix",
+      "insight": "The 7-day average basket has compressed from ~$80 to ~$57 as grocery and gas-convenience receipts make up an increasing share of volume; brands in higher-consideration categories should note that GMV growth currently requires proportionally more receipt volume to sustain, which affects segment density for big-ticket verticals.",
       "magnitude": "medium"
     },
     {
-      "topic": "Unknown category outlier",
-      "insight": "189 receipts in an uncategorized bucket carry a $354 average basket in the 14-day window — roughly 6x the named-category average — suggesting large-ticket digital or B2B spend is entering the verified stream and may represent a distinct high-value targeting segment once resolved.",
+      "topic": "Unknown category: $364 average basket, unresolved",
+      "insight": "A distinct bucket of 189 receipts in the 14-day window carries an average basket of ~$364 — roughly 6x the grocery average — with category attribution still unresolved; if this resolves to large-ticket retail, electronics, or B2B spend, it represents a high-value targeting segment currently invisible to category-level buyers.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Brand footprint broadening beyond grocery core",
+      "insight": "Target (116 receipts) and Publix entered the top-brand threshold in the current 14-day window alongside Walmart, Costco, and Kroger — signaling that the verified purchase graph is expanding from a warehouse/grocery core into mainstream mass-market retail, widening the addressable audience for CPG and general merchandise brands.",
       "magnitude": "medium"
     },
     {
-      "topic": "Digital subscription capture",
-      "insight": "YouTube receipts are appearing in brand-level data, confirming the protocol's DKIM-verified allowlist now reaches digital subscription purchases alongside physical retail — expanding the addressable signal set for marketers targeting streaming and software audiences.",
+      "topic": "Geographic coverage at new high: 18 metros",
+      "insight": "The protocol now shows verified purchase signals across 18 metro areas, a new high, though coverage remains pulse-based rather than continuous — marketers planning geo-targeted activations should treat current metro breadth as directional and validate specific CBSA depth before committing spend.",
       "magnitude": "medium"
     }
   ]
