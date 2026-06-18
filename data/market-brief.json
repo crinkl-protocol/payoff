@@ -1,34 +1,29 @@
 {
-  "updatedAt": "2026-06-16T09:45:13.928Z",
+  "updatedAt": "2026-06-18T01:45:11.500Z",
   "insights": [
     {
-      "topic": "Verified GMV crosses $2M threshold",
-      "insight": "Cumulative verified spend on the Crinkl protocol crossed $2M on June 14 and reached $2.05M by June 16 — deterministic purchase confirmation at a scale that begins to support statistically meaningful targeting segments across grocery, dining, and retail.",
+      "topic": "Verified GMV scale",
+      "insight": "The protocol has cleared $2.5M in cryptographically verified purchase GMV across 35,947 receipts — deterministic proof of transaction, not inferred intent. That volume, accumulated in beta, establishes a live data asset, not a pilot.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt cadence: ~410/day sustained",
-      "insight": "The protocol is adding roughly 410 verified receipts per day on a sustained basis, producing ~10,700 receipts over the last 26 days — a volume floor that gives campaign planners a predictable signal refresh rate rather than a one-time data snapshot.",
+      "topic": "Basket size by category",
+      "insight": "Grocery leads receipt volume at ~$61 average basket, but an unresolved 'Unknown' category averages ~$349 per receipt — roughly 5.7x grocery — suggesting a high-ticket segment that category labeling has not yet surfaced for targeting use.",
       "magnitude": "high"
     },
     {
-      "topic": "Basket compression: grocery and convenience dominating mix",
-      "insight": "The 7-day average basket has compressed from ~$80 to ~$57 as grocery and gas-convenience receipts make up an increasing share of volume; brands in higher-consideration categories should note that GMV growth currently requires proportionally more receipt volume to sustain, which affects segment density for big-ticket verticals.",
+      "topic": "Retailer concentration",
+      "insight": "Walmart accounts for 355 of the 14-day receipts, with Costco, Target, Home Depot, and Kroger rounding out the top five — the brand footprint skews heavily toward mass and home-improvement channels, which defines the current addressable audience for brand campaigns.",
       "magnitude": "medium"
     },
     {
-      "topic": "Unknown category: $364 average basket, unresolved",
-      "insight": "A distinct bucket of 189 receipts in the 14-day window carries an average basket of ~$364 — roughly 6x the grocery average — with category attribution still unresolved; if this resolves to large-ticket retail, electronics, or B2B spend, it represents a high-value targeting segment currently invisible to category-level buyers.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Brand footprint broadening beyond grocery core",
-      "insight": "Target (116 receipts) and Publix entered the top-brand threshold in the current 14-day window alongside Walmart, Costco, and Kroger — signaling that the verified purchase graph is expanding from a warehouse/grocery core into mainstream mass-market retail, widening the addressable audience for CPG and general merchandise brands.",
+      "topic": "7-day vs. 14-day basket spread",
+      "insight": "The 7-day average basket is $56 versus $65 on the 14-day window, indicating that higher-ticket purchases are older in the cohort and recent intake is skewing toward lower-value grocery and dining transactions — a category mix shift, not demand softness.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic coverage at new high: 18 metros",
-      "insight": "The protocol now shows verified purchase signals across 18 metro areas, a new high, though coverage remains pulse-based rather than continuous — marketers planning geo-targeted activations should treat current metro breadth as directional and validate specific CBSA depth before committing spend.",
+      "topic": "Throughput cadence",
+      "insight": "Receipt ingestion is running at a structural rate of roughly 350–360 receipts per day with no acceleration or decay, giving planners a predictable signal refresh rate for audience sizing and campaign timing.",
       "magnitude": "medium"
     }
   ]
