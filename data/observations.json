@@ -1,11 +1,4 @@
 {
-  "updatedAt": "2026-06-18T01:45:14.118Z",
-  "observations": [
-    {
-      "ts": "2026-06-15T18:27:38.824Z",
-      "topic": "brand-visibility",
-      "magnitude": "medium",
-      "observation": "Publix appeared in the thresholded top brand list this heartbeat — a new entry crossing the visibility threshold. Cumulative receipts reached 35,160 ($2,036,312 GMV), adding 34 receipts and ~$1,979 since the prior snapshot."
-    }
-  ]
+  "updatedAt": "2026-06-18T09:45:00.204Z",
+  "observations": []
 }
