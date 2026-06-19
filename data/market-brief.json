@@ -1,29 +1,34 @@
 {
-  "updatedAt": "2026-06-18T01:45:11.500Z",
+  "updatedAt": "2026-06-19T09:45:14.024Z",
   "insights": [
     {
-      "topic": "Verified GMV scale",
-      "insight": "The protocol has cleared $2.5M in cryptographically verified purchase GMV across 35,947 receipts — deterministic proof of transaction, not inferred intent. That volume, accumulated in beta, establishes a live data asset, not a pilot.",
+      "topic": "Verified purchase volume baseline",
+      "insight": "$2.55M in cryptographically confirmed GMV across 36,822 receipts establishes a live, deterministic purchase dataset — not modeled, not inferred. At ~370–380 receipts per day with no decay, this is a stable signal base, not a spike artifact.",
       "magnitude": "high"
     },
     {
-      "topic": "Basket size by category",
-      "insight": "Grocery leads receipt volume at ~$61 average basket, but an unresolved 'Unknown' category averages ~$349 per receipt — roughly 5.7x grocery — suggesting a high-ticket segment that category labeling has not yet surfaced for targeting use.",
+      "topic": "Basket economics by category",
+      "insight": "Grocery leads receipt volume (1,287 receipts, ~$61 avg basket) but restaurants compress average ticket to ~$37; an unclassified 'Unknown' category runs ~$338/receipt — roughly 5.5x grocery — and its count is edging up, suggesting high-ticket purchase behavior that warrants category resolution before media planning.",
       "magnitude": "high"
     },
     {
-      "topic": "Retailer concentration",
-      "insight": "Walmart accounts for 355 of the 14-day receipts, with Costco, Target, Home Depot, and Kroger rounding out the top five — the brand footprint skews heavily toward mass and home-improvement channels, which defines the current addressable audience for brand campaigns.",
+      "topic": "Deterministic vs. probabilistic targeting gap",
+      "insight": "The industry pays $5+ CPM to infer purchase intent from browsing signals; a verified receipt is a closed-loop confirmation that a transaction occurred at a named merchant. The structural value of that gap compounds as third-party cookie deprecation removes the probabilistic layer entirely.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Brand footprint concentration",
+      "insight": "Walmart (360 receipts), Costco (165), Target (113), Kroger (80), and The Home Depot (77) account for a disproportionate share of confirmed 14-day purchase activity — useful for benchmarking competitive share-of-wallet and identifying switching behavior at the receipt level.",
       "magnitude": "medium"
     },
     {
-      "topic": "7-day vs. 14-day basket spread",
-      "insight": "The 7-day average basket is $56 versus $65 on the 14-day window, indicating that higher-ticket purchases are older in the cohort and recent intake is skewing toward lower-value grocery and dining transactions — a category mix shift, not demand softness.",
+      "topic": "Rolling-window cadence stability",
+      "insight": "Four consecutive UTC midnight rollovers produced mechanical GMV drops of 15–35% that fully recovered within four hours each time — confirming the throughput signal is structurally stable and that short-window reads taken before noon should be treated as provisional, not directional.",
       "magnitude": "medium"
     },
     {
-      "topic": "Throughput cadence",
-      "insight": "Receipt ingestion is running at a structural rate of roughly 350–360 receipts per day with no acceleration or decay, giving planners a predictable signal refresh rate for audience sizing and campaign timing.",
+      "topic": "Category mix shift compressing average basket",
+      "insight": "Average basket has compressed from prior ~$80 readings to ~$65.57 on the 14-day window and ~$54.70 on the 7-day — driven by grocery and dining gaining receipt share, not by demand softening. CMOs benchmarking against older basket figures should adjust for category mix before drawing performance conclusions.",
       "magnitude": "medium"
     }
   ]
