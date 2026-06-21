@@ -1,11 +1,5 @@
 {
-  "updatedAt": "2026-06-21T01:45:12.438Z",
-  "verifiedReceipts": 37354,
-  "verifiedGMVCents": "259010766",
-  "verifiedGMV": "$2,590,107.66",
-  "verifiedGMVAlphaBaseCents": 43090798,
-  "verifiedGMVBetaCents": "215919968",
-  "verifiedGMVBetaStartDate": "2026-01-27",
+  "updatedAt": "2026-06-21T09:45:00.391Z",
   "satsPerReceipt": 129,
   "lightningPayouts": 411,
   "totalSatsClaimed": 8483400,
