@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-06-19T09:45:14.024Z",
+  "updatedAt": "2026-06-21T01:45:12.436Z",
   "insights": [
     {
-      "topic": "Verified purchase volume baseline",
-      "insight": "$2.55M in cryptographically confirmed GMV across 36,822 receipts establishes a live, deterministic purchase dataset — not modeled, not inferred. At ~370–380 receipts per day with no decay, this is a stable signal base, not a spike artifact.",
+      "topic": "Verified purchase data at scale",
+      "insight": "37,385 cryptographically confirmed receipts representing $2.58M in verified GMV establishes a deterministic purchase signal corpus — not modeled, not inferred — at a scale where category and brand patterns are statistically stable across rolling windows.",
       "magnitude": "high"
     },
     {
-      "topic": "Basket economics by category",
-      "insight": "Grocery leads receipt volume (1,287 receipts, ~$61 avg basket) but restaurants compress average ticket to ~$37; an unclassified 'Unknown' category runs ~$338/receipt — roughly 5.5x grocery — and its count is edging up, suggesting high-ticket purchase behavior that warrants category resolution before media planning.",
+      "topic": "Cookieless targeting delta",
+      "insight": "Probabilistic ad targeting pays $5+ CPM to infer purchase intent; a verified receipt confirms a transaction occurred, at a specific retailer, in a specific category — the gap between inference and proof is where this data asset sits.",
       "magnitude": "high"
     },
     {
-      "topic": "Deterministic vs. probabilistic targeting gap",
-      "insight": "The industry pays $5+ CPM to infer purchase intent from browsing signals; a verified receipt is a closed-loop confirmation that a transaction occurred at a named merchant. The structural value of that gap compounds as third-party cookie deprecation removes the probabilistic layer entirely.",
+      "topic": "Category mix reveals real consumer behavior",
+      "insight": "Grocery-supermarkets leads 14-day volume at 1,312 receipts ($61 average basket), with restaurants-dining, mass retail, and gas-convenience rounding out the footprint — a cross-category purchase graph built from ground truth, not panel estimates.",
       "magnitude": "high"
     },
     {
-      "topic": "Brand footprint concentration",
-      "insight": "Walmart (360 receipts), Costco (165), Target (113), Kroger (80), and The Home Depot (77) account for a disproportionate share of confirmed 14-day purchase activity — useful for benchmarking competitive share-of-wallet and identifying switching behavior at the receipt level.",
+      "topic": "Brand-level purchase frequency is measurable",
+      "insight": "Walmart at 367 receipts, Costco at 162, Target at 118, Kroger at 76, and Home Depot at 72 over 14 days — brand-level confirmed purchase frequency, not share-of-voice or click attribution, with counts stable enough to track rolling-window churn.",
       "magnitude": "medium"
     },
     {
-      "topic": "Rolling-window cadence stability",
-      "insight": "Four consecutive UTC midnight rollovers produced mechanical GMV drops of 15–35% that fully recovered within four hours each time — confirming the throughput signal is structurally stable and that short-window reads taken before noon should be treated as provisional, not directional.",
+      "topic": "Structural throughput pace is consistent",
+      "insight": "Receipt accumulation has held at approximately 360–380 per day across the full monitoring window with no acceleration or decay, indicating a stable, repeatable data supply rather than burst-driven collection artifacts.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category mix shift compressing average basket",
-      "insight": "Average basket has compressed from prior ~$80 readings to ~$65.57 on the 14-day window and ~$54.70 on the 7-day — driven by grocery and dining gaining receipt share, not by demand softening. CMOs benchmarking against older basket figures should adjust for category mix before drawing performance conclusions.",
+      "topic": "High-value unclassified segment warrants attention",
+      "insight": "217 receipts in the Unknown category carry an average basket of $336 — roughly 5.5x the grocery average — suggesting a concentration of high-ticket verified spend that category resolution will unlock for targeting or measurement use cases.",
       "magnitude": "medium"
     }
   ]
