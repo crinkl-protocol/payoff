@@ -1,4 +1,11 @@
 {
-  "updatedAt": "2026-06-22T09:45:15.649Z",
-  "observations": []
+  "updatedAt": "2026-06-23T01:45:00.212Z",
+  "observations": [
+    {
+      "ts": "2026-06-22T18:27:06.304Z",
+      "topic": "geo-coverage",
+      "magnitude": "medium",
+      "observation": "9 aggregate metro coverage cells became newly visible this snapshot (27 total active), including CBSA 36740, 22220, 36540, 36420, 16540, 40140, 24340, non-metro US-KY, and non-metro US-MI — a 33.3% single-heartbeat expansion of the visible public map surface. GMV/velocity endpoints remain null for a fourth consecutive snapshot, so this is the clearest signal of network spread available."
+    }
+  ]
 }
