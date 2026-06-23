@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-06-23T01:45:00.212Z",
+  "updatedAt": "2026-06-23T09:45:00.360Z",
   "observations": [
+    {
+      "ts": "2026-06-23T06:26:59.357Z",
+      "topic": "brand-list",
+      "magnitude": "medium",
+      "observation": "Sam's Club became newly visible in the thresholded top brand list this snapshot — the first brand-list movement in several heartbeats. GMV/velocity endpoints remain null for a fifth consecutive snapshot, making brand-list and settlement data the primary available signals."
+    },
     {
       "ts": "2026-06-22T18:27:06.304Z",
       "topic": "geo-coverage",
