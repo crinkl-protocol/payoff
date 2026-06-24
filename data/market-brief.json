@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-06-22T09:45:15.599Z",
+  "updatedAt": "2026-06-24T01:45:19.036Z",
   "insights": [
     {
       "topic": "Verified purchase proof vs. probabilistic targeting",
-      "insight": "Crinkl's cryptographically verified receipt corpus — 37,576 confirmed purchases, $2.17M beta GMV — represents deterministic purchase confirmation, not inferred intent; the structural gap between a DKIM-verified receipt and a third-party cookie inference is the core targeting arbitrage available to brands moving off probabilistic identity graphs.",
+      "insight": "Crinkl has confirmed $2.17M in beta GMV across 37,576+ receipts using cryptographic receipt verification — each record is a confirmed transaction, not an inferred intent signal. For CMOs evaluating cookieless alternatives, this is the structural distinction: deterministic purchase proof at scale versus audience modeling built on behavioral proxies.",
       "magnitude": "high"
     },
     {
-      "topic": "Sustained purchase cadence without burst dependency",
-      "insight": "Receipt throughput has held at 360–380 receipts/day across the full monitoring window with no acceleration or decay — the largest single-interval spike (159 receipts, ~$10,284 on 2026-06-16) has not recurred, indicating organic, steady-state consumer behavior rather than promotional or incentive-driven volume.",
+      "topic": "Category mix and basket economics",
+      "insight": "The 14-day window shows grocery-supermarkets leading volume (1,312 receipts, ~$61 average basket) while an unclassified 'Unknown' category posts a ~$336 average basket — roughly 5.5x grocery — indicating high-ticket verified spend is present and not yet attributed to a brand or channel. Marketers chasing premium-buyer segments should note this unresolved category as a signal worth watching as classification matures.",
       "magnitude": "high"
     },
     {
-      "topic": "Category mix reveals grocery and dining dominance",
-      "insight": "Grocery-supermarkets (1,312 receipts, ~$61 avg basket) and restaurants-dining (1,147 receipts, ~$39 avg basket) together account for the majority of classified 14-day volume, making this corpus most immediately actionable for CPG, QSR, and grocery brands seeking verified post-purchase attribution rather than mid-funnel engagement proxies.",
+      "topic": "Digital and subscription commerce confirmed in verified receipt set",
+      "insight": "YouTube appearing in the top brand list alongside Amazon, OpenAI, Stripe, Paddle, Gumroad, and Suno confirms the receipt verification layer captures digital purchases and SaaS subscriptions — not just physical retail. This expands the addressable use case beyond CPG and grocery into subscription retention, digital upsell, and cross-category attribution.",
       "magnitude": "high"
     },
     {
-      "topic": "Unclassified receipts carry the highest average basket",
-      "insight": "The 'Unknown' category holds 217 receipts at a ~$336 average basket — approximately 5.5x the grocery average — with category resolution still pending; as this resolves, it is likely to surface high-ticket retail or B2B purchase segments that are currently invisible to standard category-level targeting models.",
+      "topic": "Home improvement emerging as a category signal",
+      "insight": "The Home Depot (67 receipts, 14-day) and Lowe's both appear in the top brand list simultaneously — the most concentrated brand-list expansion recorded in the monitoring window. Two competing home improvement brands crossing the visibility threshold in the same heartbeat sequence is a category-level signal, not a coincidence, and warrants attention from brands targeting homeowner segments.",
       "magnitude": "medium"
     },
     {
-      "topic": "Digital commerce receipt verification expands beyond physical retail",
-      "insight": "DKIM-verified vendors now include Amazon, Stripe, Paddle, Gumroad, Suno, Anthropic, and OpenAI variants alongside traditional retailers, confirming that the verified receipt footprint spans SaaS, digital goods, and creator economy transactions — relevant for brands targeting digitally-active, higher-spend consumer segments.",
+      "topic": "Rolling-window GMV is a mechanical artifact, not a demand read",
+      "insight": "Seven consecutive UTC midnight rollovers have each produced sharp apparent GMV drops — as much as $171K to $109K in a single boundary crossing — that fully recover within 4–16 hours. CMOs evaluating platform health metrics should treat any rolling-window GMV figure in isolation as structurally misleading; the underlying receipt cadence of ~360–380 per day has held without acceleration or decay across the full monitoring window.",
       "magnitude": "medium"
     },
     {
-      "topic": "Basket compression reflects category mix shift, not demand softness",
-      "insight": "Average basket has compressed from prior ~$80 readings to ~$55 on a 7-day basis and ~$65 on a 14-day basis; the spread between windows indicates higher-ticket receipts are aging out of the shorter window as grocery and dining volume grows, not that consumer spend is declining — a distinction that matters for brands interpreting aggregate GMV trends.",
+      "topic": "Stable reward policy signals operational discipline",
+      "insight": "The sats-per-receipt rate has held at 129 without change across the full monitoring window, even as settlement velocity and brand composition have shifted. A stable incentive rate under real transaction load is evidence of deliberate policy management — relevant for brands assessing whether a verified commerce network can maintain consistent data economics at scale.",
       "magnitude": "medium"
     }
   ]

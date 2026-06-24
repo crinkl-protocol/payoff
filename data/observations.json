@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-06-23T09:45:00.360Z",
+  "updatedAt": "2026-06-24T01:45:19.078Z",
   "observations": [
+    {
+      "ts": "2026-06-23T18:27:11.591Z",
+      "topic": "geo-diffusion",
+      "magnitude": "medium",
+      "observation": "10 aggregate metro coverage cells became newly visible this snapshot (26 total active), including CBSA 23060 and 48620 — a 38.5% single-heartbeat expansion of the visible public map surface. GMV/velocity endpoints remain null for a sixth consecutive snapshot, making geo-coverage cells the primary available signal of network spread."
+    },
     {
       "ts": "2026-06-23T06:26:59.357Z",
       "topic": "brand-list",
