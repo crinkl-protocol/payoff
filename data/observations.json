@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T01:45:01.907Z",
+  "updatedAt": "2026-06-25T09:45:13.325Z",
   "observations": [
     {
       "ts": "2026-06-24T06:29:00.525Z",
@@ -18,12 +18,6 @@
       "topic": "brand-list",
       "magnitude": "medium",
       "observation": "Sam's Club became newly visible in the thresholded top brand list this snapshot — the first brand-list movement in several heartbeats. GMV/velocity endpoints remain null for a fifth consecutive snapshot, making brand-list and settlement data the primary available signals."
-    },
-    {
-      "ts": "2026-06-22T18:27:06.304Z",
-      "topic": "geo-coverage",
-      "magnitude": "medium",
-      "observation": "9 aggregate metro coverage cells became newly visible this snapshot (27 total active), including CBSA 36740, 22220, 36540, 36420, 16540, 40140, 24340, non-metro US-KY, and non-metro US-MI — a 33.3% single-heartbeat expansion of the visible public map surface. GMV/velocity endpoints remain null for a fourth consecutive snapshot, so this is the clearest signal of network spread available."
     }
   ]
 }
