@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-06-25T09:45:13.245Z",
+  "updatedAt": "2026-06-27T01:45:12.779Z",
   "insights": [
     {
-      "topic": "Verified purchase proof vs. probabilistic targeting",
-      "insight": "Crinkl's cryptographic receipt verification converts purchase confirmation into a deterministic signal — a structural contrast to the probabilistic inference that underpins most cookieless targeting alternatives. At $2.17M beta GMV across 37,576+ confirmed receipts, the dataset is no longer a proof-of-concept sample.",
+      "topic": "Verified purchase data at scale",
+      "insight": "Crinkl has confirmed $2.17M in beta GMV across 37,576+ receipts — each one a cryptographically verified purchase event, not a probabilistic inference. For brands paying $5+ CPM to guess at purchase intent, this is the cost basis that needs explaining.",
       "magnitude": "high"
     },
     {
-      "topic": "Category mix shift toward grocery and dining",
-      "insight": "Grocery-supermarkets (1,312 receipts, ~$61 avg basket) and restaurants-dining (1,147 receipts, ~$39 avg basket) now lead volume in the 14-day window, compressing the overall average from ~$80 to ~$65 — a category mix effect, not a demand softness signal. For CPG and QSR brands, this is the relevant audience composition.",
+      "topic": "Category coverage breadth",
+      "insight": "Grocery, dining, department stores, gas/convenience, pharmacy (CVS + Walgreens simultaneously), home improvement (Home Depot + Lowe's simultaneously), and SaaS/digital commerce are all active in the 14-day window — meaning verified receipt data is not confined to a single vertical but spans the full consumer spending map.",
       "magnitude": "high"
     },
     {
-      "topic": "Walmart, Costco, Target dominate verified brand share",
-      "insight": "Walmart holds 369 receipts, Costco 177, and Target 128 in the trailing 14-day window — the three retailers accounting for the bulk of identifiable brand volume. For competing brands or suppliers to these retailers, this is a verified share-of-wallet benchmark, not a modeled estimate.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Home improvement emerging as a concurrent category signal",
-      "insight": "The Home Depot (67 receipts) and Lowe's both appear in the current top brand list simultaneously — the first instance of two home improvement brands crossing the visibility threshold in the same heartbeat sequence. Brands targeting homeowners or home-adjacent purchase occasions should note this as an early category signal.",
+      "topic": "Basket size as targeting signal",
+      "insight": "Average basket compresses from ~$65 to ~$53 as grocery and dining grow to 49% of 14-day receipt volume — this is category mix shift, not demand softness, and it means the distribution engine is capturing high-frequency, lower-ticket transactions that are historically the hardest to verify at the individual level.",
       "magnitude": "medium"
     },
     {
-      "topic": "Digital and subscription commerce verified alongside physical retail",
-      "insight": "YouTube's confirmed presence in the top brand list, alongside a DKIM vendor set that includes Amazon, OpenAI, Stripe, Paddle, and Gumroad, establishes that receipt verification extends across physical retail, digital goods, and SaaS — a single verified identity graph spanning channel types that cookieless solutions typically treat as separate.",
+      "topic": "Top retailer concentration",
+      "insight": "Walmart leads at 370 receipts in the 14-day window, followed by Costco at 178 and Target at 117 — three mass-market retailers that collectively define mainstream American consumer behavior, confirming the network is not skewed toward premium or niche spend.",
       "magnitude": "high"
     },
     {
-      "topic": "High-value unclassified spend warrants category resolution",
-      "insight": "The 'Unknown' category carries a ~$336 average basket — approximately 5.5x the grocery average — across 217 receipts in the 14-day window. Until these receipts are classified, a meaningful share of the highest-value verified transactions in the dataset remains unmapped to any targetable category.",
+      "topic": "Throughput rhythm is measurable",
+      "insight": "Intraday accumulation runs at roughly 10–13 receipts per hour during active periods, with a confirmed UTC midnight rolling-window artifact that drops and recovers within 4–18 hours at every observed boundary — the data is consistent enough to model, which is a prerequisite for any audience planning use case.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Digital and SaaS receipts in the verified set",
+      "insight": "DKIM-verified receipts include Amazon, OpenAI, Stripe, Paddle, Gumroad, and Suno alongside traditional retail — confirming the protocol captures digital subscription and SaaS purchase events, a segment that cookie-based targeting has never been able to verify at the transaction level.",
       "magnitude": "medium"
     }
   ]
