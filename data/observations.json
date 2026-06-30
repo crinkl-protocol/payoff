@@ -1,65 +1,11 @@
 {
-  "updatedAt": "2026-06-28T18:28:37.101Z",
+  "updatedAt": "2026-06-30T01:45:02.885Z",
   "observations": [
-    {
-      "ts": "2026-06-28T18:27:47.030Z",
-      "topic": "x402-price-stability",
-      "magnitude": "low",
-      "observation": "/x402/merchant-category-signal probed with beverage/US at $0.05 on Base USDC and Solana USDC — price held consistent with all prior probes. 48 total probes across 5 unique routes; zero price changes recorded across the full probe history spanning 6+ weeks. The sixth route remains unprobed."
-    },
     {
       "ts": "2026-06-28T18:27:39.473Z",
       "topic": "brand-visibility",
       "magnitude": "medium",
       "observation": "H-E-B entered the thresholded top brand list this snapshot — the first new brand to cross the visibility threshold in recent heartbeats. The 14-day trailing window also added 80 spend count (5343→5423) and $5,073.97 in aggregate spend value ($265,847→$270,921)."
-    },
-    {
-      "ts": "2026-06-28T06:27:33.184Z",
-      "topic": "x402 price stability",
-      "magnitude": "low",
-      "observation": "/x402/category-pulse probed at $0.025 on Base USDC and Solana USDC with beverage/US params — price held consistent with all prior probes. 47 total probes across 5 unique routes; zero price changes recorded across the full probe history spanning 6+ weeks. The sixth route remains unprobed."
-    },
-    {
-      "ts": "2026-06-28T06:27:33.179Z",
-      "topic": "throughput",
-      "magnitude": "low",
-      "observation": "The 14-day trailing window added 16 spend count (5233→5249) and $414.17 in aggregate spend value ($260,067→$260,482) this snapshot — modest, unremarkable throughput. Velocity and acceleration endpoints remain null."
-    },
-    {
-      "ts": "2026-06-27T18:27:42.858Z",
-      "topic": "x402 price stability",
-      "magnitude": "low",
-      "observation": "/x402/crinkl-verified-commerce-signals probed again at $0.001 on Base USDC and Solana USDC with pharmacy/US params — 46 total probes across 5 unique routes, zero price changes recorded across the full probe history spanning 6+ weeks. The sixth route remains unprobed."
-    },
-    {
-      "ts": "2026-06-27T18:27:42.851Z",
-      "topic": "throughput",
-      "magnitude": "low",
-      "observation": "The 14-day trailing window added 50 spend count (5356→5406) and $2,343.07 in aggregate spend value ($273,996→$276,339) this snapshot — steady mid-range throughput. Velocity and acceleration endpoints remain null."
-    },
-    {
-      "ts": "2026-06-27T06:27:40.689Z",
-      "topic": "x402 price stability",
-      "magnitude": "low",
-      "observation": "/x402/next-best-signal probed at $0.01 on Base USDC and Solana USDC with home-improvement/US params — price held consistent with all prior probes. 45 total probes across 5 unique routes; zero price changes recorded across the full probe history spanning 6+ weeks. The sixth route remains unprobed."
-    },
-    {
-      "ts": "2026-06-27T06:27:40.686Z",
-      "topic": "throughput",
-      "magnitude": "low",
-      "observation": "The 14-day trailing window added 21 spend count (5223→5244) and $720.64 in aggregate spend value ($269,443→$270,164) this snapshot — steady, unremarkable throughput. Velocity and acceleration endpoints remain null."
-    },
-    {
-      "ts": "2026-06-26T18:27:42.101Z",
-      "topic": "x402 price stability",
-      "magnitude": "low",
-      "observation": "/x402/campaign-fit-estimate probed with grocery/US — price held at $0.10 on Base USDC and Solana USDC, consistent with all 11 prior probes. 44 total probes across 5 unique routes; zero price changes recorded across the full probe history spanning 6+ weeks."
-    },
-    {
-      "ts": "2026-06-26T18:27:42.097Z",
-      "topic": "throughput",
-      "magnitude": "medium",
-      "observation": "The 14-day trailing window added 66 spend count (5325→5391) and $3,113.22 in aggregate spend value ($282,609→$285,722) this snapshot — the largest single-heartbeat throughput delta in recent observations. Velocity and acceleration endpoints remain null."
     }
   ]
 }
