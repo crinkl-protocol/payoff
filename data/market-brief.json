@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-06-28T09:45:15.054Z",
+  "updatedAt": "2026-09-21T09:45:15.506Z",
   "insights": [
     {
       "topic": "Verified purchase data vs. probabilistic targeting",
-      "insight": "Crinkl has confirmed $2.17M in beta GMV across 37,576+ receipts — each one a cryptographically verified purchase event, not an inferred intent signal. For brands paying $5+ CPM to guess who might buy, this is the structural alternative: deterministic proof of transaction at the moment it happens.",
+      "insight": "Crinkl's beta has processed $2.17M in confirmed GMV across 37,576+ receipts — each one a cryptographically verified transaction, not an inferred intent signal. For brands paying $5+ CPM on probabilistic audiences, this represents a structural alternative: deterministic purchase proof at the SKU and merchant level.",
       "magnitude": "high"
     },
     {
-      "topic": "Category mix reveals everyday-spend dominance",
-      "insight": "Grocery-supermarkets (1,402 receipts, $79K) and restaurants-dining (1,229 receipts, $49K) together represent 49% of 14-day receipt volume — a stable share across the full monitoring window. Brands in CPG, QSR, and food retail are looking at a verified-purchase panel already skewed toward high-frequency, high-loyalty spend categories.",
+      "topic": "14-day throughput as audience scale proxy",
+      "insight": "The 14-day rolling window is running at 5,435 receipts and $261,205 as of June 29 — accumulating at roughly 360–380 receipts per day with a consistent evening acceleration pattern (sharpest gains 16:15–20:15 UTC). That cadence reflects a real, active shopper panel, not a static dataset.",
       "magnitude": "high"
     },
     {
-      "topic": "Basket size compression signals category shift, not demand softness",
-      "insight": "Average basket has moved from ~$65 to ~$53 across the monitoring window — a compression traceable to growing grocery and dining share, both inherently lower-ticket than department-store or home-improvement purchases. CMOs should read this as a category-mix story, not a signal of weakening consumer engagement.",
+      "topic": "Category mix: grocery and dining dominate verified volume",
+      "insight": "Grocery-supermarkets (1,426 receipts, ~$47.87 average basket) and restaurants-dining (1,297 receipts, ~$37.77 average basket) together account for 50.2% of 14-day receipt volume and are gaining share. CPG and QSR brands looking for purchase-verified audience segments are targeting the categories where verified signal is densest.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Top retailer concentration signals where shoppers are verifying",
+      "insight": "Walmart leads the 14-day brand distribution at 370 receipts, followed by Costco (166) and Target (132) — mass-market and warehouse formats dominating verified volume. Brands competing for share at these retailers now have a confirmed-purchase data layer to measure against, not a modeled proxy.",
       "magnitude": "medium"
     },
     {
-      "topic": "Competing brand pairs confirm category-level reach",
-      "insight": "The Home Depot and Lowe's are simultaneously present on the brand leaderboard; CVS Pharmacy and Walgreens entered within 24 hours of each other. When two direct competitors surface in the same verified-receipt network at the same time, it confirms the panel has genuine category density — not single-brand dominance that would limit competitive conquest use cases.",
+      "topic": "Average basket compression is category-mix driven, not demand softness",
+      "insight": "Average basket has compressed from ~$65 to ~$48 over the monitoring window, tracking the shift toward grocery and dining receipts — categories that carry lower per-transaction values than department or home improvement retail. Marketers should read this as audience composition change, not weakening consumer spend.",
       "magnitude": "medium"
     },
     {
-      "topic": "DKIM verification spans retail, digital commerce, and SaaS",
-      "insight": "Confirmed receipt sources include Amazon, Stripe, Paddle, Gumroad, OpenAI, and Suno alongside Walmart, Target, and Costco. For CMOs targeting digitally-native or subscription buyers, this cross-channel verification footprint means purchase attribution isn't confined to physical retail — it covers the full modern commerce stack.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "18 active metros, 30 category/metro cells — early but structured geo footprint",
-      "insight": "Coverage is running across 30 category/metro cells in 18 metro areas, with 8 active predicates governing distribution. The footprint is early-stage but deliberately structured — brands evaluating cookieless targeting alternatives should note that geographic and category targeting logic is already operational, not theoretical.",
+      "topic": "Rollover recovery confirms panel stability",
+      "insight": "The rolling 14-day window drops 290–325 receipts at each UTC midnight boundary as the oldest day ages out — but all ten confirmed rollovers have recovered within 4 hours, at 28–35 receipts per hour. The absence of any recovery failure indicates a stable, continuously contributing shopper base rather than a burst-and-lapse panel.",
       "magnitude": "medium"
     }
   ]

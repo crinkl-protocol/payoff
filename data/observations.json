@@ -1,11 +1,4 @@
 {
-  "updatedAt": "2026-09-20T17:45:01.406Z",
-  "observations": [
-    {
-      "ts": "2026-06-28T18:27:39.473Z",
-      "topic": "brand-visibility",
-      "magnitude": "medium",
-      "observation": "H-E-B entered the thresholded top brand list this snapshot — the first new brand to cross the visibility threshold in recent heartbeats. The 14-day trailing window also added 80 spend count (5343→5423) and $5,073.97 in aggregate spend value ($265,847→$270,921)."
-    }
-  ]
+  "updatedAt": "2026-09-21T09:45:15.537Z",
+  "observations": []
 }
