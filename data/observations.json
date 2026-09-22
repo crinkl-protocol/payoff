@@ -1,4 +1,11 @@
 {
-  "updatedAt": "2026-09-22T01:45:02.049Z",
-  "observations": []
+  "updatedAt": "2026-09-22T09:45:00.317Z",
+  "observations": [
+    {
+      "ts": "2026-09-22T06:53:06.314Z",
+      "topic": "settlement policy rate",
+      "magnitude": "medium",
+      "observation": "The sats-per-receipt policy rate dropped from 123 to 117 this heartbeat — a 5% decrease — while BTC price rose from $81,380 to $85,424. The rate move is in the expected direction: higher BTC price means fewer sats needed to hit the same dollar payout floor."
+    }
+  ]
 }
