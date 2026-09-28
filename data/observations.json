@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-09-28T17:45:00.723Z",
+  "updatedAt": "2026-09-28T18:54:32.382Z",
   "observations": [
+    {
+      "ts": "2026-09-28T18:53:37.966Z",
+      "topic": "GMV growth",
+      "magnitude": "medium",
+      "observation": "Cumulative GMV crossed $4.04M on 82,686 receipts. The 7-day rolling window added ~$3,420 this heartbeat (2181 → 2260 receipts), pushing 7d GMV from $86,143 to $89,563. Token velocity is 0.785x week-over-week with acceleration at 1.034x — growth is decelerating but the deceleration itself is slowing."
+    },
     {
       "ts": "2026-09-22T06:53:06.314Z",
       "topic": "settlement policy rate",
