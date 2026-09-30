@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-09-28T18:54:32.380Z",
+  "updatedAt": "2026-09-30T01:45:14.385Z",
   "insights": [
     {
-      "topic": "Verified purchase data vs. probabilistic targeting",
-      "insight": "Crinkl's beta network has confirmed $2.17M in GMV across 37,576+ receipts — each one a cryptographically verified purchase event, not an inferred intent signal. For CMOs paying $5+ CPM to reach audiences who might buy, this represents a fundamentally different data class: deterministic proof of transaction, not behavioral inference.",
+      "topic": "Verified purchase volume at scale",
+      "insight": "Crinkl has confirmed 83,017+ cryptographically verified receipts representing $4.47M in cumulative GMV — this is deterministic purchase proof, not modeled audience inference, across 17 active metro areas and 30 category/metro cells.",
       "magnitude": "high"
     },
     {
-      "topic": "14-day throughput as a live demand signal",
-      "insight": "$261,205 across 5,435 receipts in the trailing 14-day window puts average basket size at $48.05 — a computable, real-time measure of consumer spending by category and metro that updates at sub-hourly intervals. No survey, panel, or modeled dataset produces this resolution.",
+      "topic": "Category mix reveals true cookieless audience composition",
+      "insight": "Grocery-supermarkets (1,407 receipts, ~$39 avg basket) and restaurants-dining (1,175 receipts, ~$31 avg basket) together account for 51.5% of 14-day verified receipt volume, giving CPG and QSR brands a ground-truth category signal that no probabilistic panel can replicate.",
       "magnitude": "high"
     },
     {
-      "topic": "Category mix reveals where verified buyers actually spend",
-      "insight": "Grocery-supermarkets leads with 1,426 receipts at a $47.87 average basket; restaurants-dining follows at 1,297 receipts and $37.77 average. Together they represent 50.2% of 14-day receipt volume — a share that has been rising consistently, confirming that everyday consumable categories dominate verified purchase behavior in this network.",
+      "topic": "Brand-level purchase frequency is observable",
+      "insight": "Walmart leads at 371 verified receipts in the 14-day window, followed by Kroger (154), Costco (146), Publix (138), and Target (118) — brand marketers can benchmark verified in-store capture rates against named retail partners without relying on self-reported survey data.",
       "magnitude": "high"
     },
     {
-      "topic": "Average basket compression signals category shift, not demand softness",
-      "insight": "Average basket has compressed from ~$65 to ~$48 over the monitoring window — but the driver is category mix rotating toward grocery and dining, not unit price erosion or weakening demand. CMOs using basket size as a proxy for consumer health should weight category composition before drawing conclusions.",
+      "topic": "Average basket compression signals category mix shift, not demand softness",
+      "insight": "14-day average basket has compressed from ~$48 to ~$38.41 as lower-ticket categories (dining, coffee-fast-casual at ~$21.56 avg) gain receipt share; brands targeting higher-basket categories like gas-convenience (~$40.37, essentially flat) should weight their targeting accordingly.",
       "magnitude": "medium"
     },
     {
-      "topic": "Brand-level receipt attribution is computable in real time",
-      "insight": "Walmart leads at 370 receipts in the 14-day window, followed by Costco at 166 and Target at 132 — brand-level purchase frequency visible without cookies, panels, or modeled attribution. This is the direct competitive intelligence layer that receipt-verified commerce enables for retail and CPG brand teams.",
-      "magnitude": "high"
+      "topic": "Intraday purchase timing is measurable at the receipt level",
+      "insight": "Afternoon hours (UTC 12:16–16:16) consistently produce the largest intraday receipt accumulation — the 2026-09-29 window added 66 receipts and $2,377 in 7-day GMV in a single 4-hour block — giving media planners a verified daypart signal tied to actual transactions rather than clickstream proxies.",
+      "magnitude": "medium"
     },
     {
-      "topic": "Evening accumulation pattern is structurally consistent",
-      "insight": "The 16:15–20:15 UTC window consistently produces the sharpest receipt accumulation — the 2026-06-28 peak of 5,472 receipts and $272,638 was set at 20:15, and the 2026-06-29T16:16 interval added 75 receipts in a single heartbeat. For brands running time-sensitive commerce campaigns, this cadence identifies when verified purchase activity is highest.",
+      "topic": "Receipt accumulation pace is accelerating structurally",
+      "insight": "Net receipt intake has run at approximately 450 receipts per day over the past 100 days, up from the prior monitoring window's 360–380/day pace; week-over-week deceleration (0.785x velocity) is itself decelerating (1.034x acceleration factor), suggesting the data asset is still in growth phase rather than plateau.",
       "magnitude": "medium"
     }
   ]
