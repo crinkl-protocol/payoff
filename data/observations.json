@@ -1,17 +1,4 @@
 {
-  "updatedAt": "2026-10-01T01:45:00.578Z",
-  "observations": [
-    {
-      "ts": "2026-09-28T18:53:37.966Z",
-      "topic": "GMV growth",
-      "magnitude": "medium",
-      "observation": "Cumulative GMV crossed $4.04M on 82,686 receipts. The 7-day rolling window added ~$3,420 this heartbeat (2181 → 2260 receipts), pushing 7d GMV from $86,143 to $89,563. Token velocity is 0.785x week-over-week with acceleration at 1.034x — growth is decelerating but the deceleration itself is slowing."
-    },
-    {
-      "ts": "2026-09-22T06:53:06.314Z",
-      "topic": "settlement policy rate",
-      "magnitude": "medium",
-      "observation": "The sats-per-receipt policy rate dropped from 123 to 117 this heartbeat — a 5% decrease — while BTC price rose from $81,380 to $85,424. The rate move is in the expected direction: higher BTC price means fewer sats needed to hit the same dollar payout floor."
-    }
-  ]
+  "updatedAt": "2026-10-01T09:45:12.680Z",
+  "observations": []
 }

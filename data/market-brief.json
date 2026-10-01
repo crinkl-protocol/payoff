@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-09-30T01:45:14.385Z",
+  "updatedAt": "2026-10-01T09:45:12.640Z",
   "insights": [
     {
-      "topic": "Verified purchase volume at scale",
-      "insight": "Crinkl has confirmed 83,017+ cryptographically verified receipts representing $4.47M in cumulative GMV — this is deterministic purchase proof, not modeled audience inference, across 17 active metro areas and 30 category/metro cells.",
+      "topic": "Verified purchase volume",
+      "insight": "$4.51M in cryptographically verified GMV across 83,856+ receipts represents a deterministic purchase signal at scale — not a modeled proxy, but confirmed transactions with category, brand, and basket-size attribution.",
       "magnitude": "high"
     },
     {
-      "topic": "Category mix reveals true cookieless audience composition",
-      "insight": "Grocery-supermarkets (1,407 receipts, ~$39 avg basket) and restaurants-dining (1,175 receipts, ~$31 avg basket) together account for 51.5% of 14-day verified receipt volume, giving CPG and QSR brands a ground-truth category signal that no probabilistic panel can replicate.",
+      "topic": "Receipt accumulation pace",
+      "insight": "The network is adding approximately 454 receipts per day with no compression in that rate over a 102-day observation window, giving brands a stable and growing pool of verified buyers to target against.",
       "magnitude": "high"
     },
     {
-      "topic": "Brand-level purchase frequency is observable",
-      "insight": "Walmart leads at 371 verified receipts in the 14-day window, followed by Kroger (154), Costco (146), Publix (138), and Target (118) — brand marketers can benchmark verified in-store capture rates against named retail partners without relying on self-reported survey data.",
+      "topic": "Category composition and basket stability",
+      "insight": "Grocery-supermarkets (1,406 receipts, ~$40.47 average basket) and restaurants-dining (1,212 receipts, ~$31.55) together account for 52% of 14-day verified volume — category-level purchase frequency sufficient to build audience cohorts without probabilistic inference.",
       "magnitude": "high"
     },
     {
-      "topic": "Average basket compression signals category mix shift, not demand softness",
-      "insight": "14-day average basket has compressed from ~$48 to ~$38.41 as lower-ticket categories (dining, coffee-fast-casual at ~$21.56 avg) gain receipt share; brands targeting higher-basket categories like gas-convenience (~$40.37, essentially flat) should weight their targeting accordingly.",
+      "topic": "Brand-level receipt attribution",
+      "insight": "Walmart holds 368 of 5,013 visible 14-day receipts (7.3% of verified volume) with Costco, Kroger, and Publix each above 150 receipts — brand-specific purchase confirmation at a granularity that probabilistic targeting cannot replicate.",
       "magnitude": "medium"
     },
     {
-      "topic": "Intraday purchase timing is measurable at the receipt level",
-      "insight": "Afternoon hours (UTC 12:16–16:16) consistently produce the largest intraday receipt accumulation — the 2026-09-29 window added 66 receipts and $2,377 in 7-day GMV in a single 4-hour block — giving media planners a verified daypart signal tied to actual transactions rather than clickstream proxies.",
+      "topic": "Average basket as targeting signal",
+      "insight": "The 7-day average basket (~$42.34) running above the 14-day average (~$39.70) indicates recent transaction sizes are holding or modestly firming, giving media buyers a near-real-time read on buyer quality within the network.",
       "magnitude": "medium"
     },
     {
-      "topic": "Receipt accumulation pace is accelerating structurally",
-      "insight": "Net receipt intake has run at approximately 450 receipts per day over the past 100 days, up from the prior monitoring window's 360–380/day pace; week-over-week deceleration (0.785x velocity) is itself decelerating (1.034x acceleration factor), suggesting the data asset is still in growth phase rather than plateau.",
-      "magnitude": "medium"
+      "topic": "Cookieless signal fidelity gap",
+      "insight": "The core pricing asymmetry holds: the industry pays $5+ CPM for probabilistic purchase inference while verified receipt data — confirming a specific transaction at a specific retailer — remains structurally underpriced relative to its targeting precision.",
+      "magnitude": "high"
     }
   ]
 }
