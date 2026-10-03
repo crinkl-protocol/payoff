@@ -1,4 +1,11 @@
 {
-  "updatedAt": "2026-10-03T01:45:15.480Z",
-  "observations": []
+  "updatedAt": "2026-10-03T09:45:01.596Z",
+  "observations": [
+    {
+      "ts": "2026-10-03T06:53:33.164Z",
+      "topic": "brand-list",
+      "magnitude": "medium",
+      "observation": "Safeway appeared in the thresholded top brand list this heartbeat — the first time this brand has crossed the visibility threshold. Cumulative GMV is $4.126M on 84,813 receipts; the 7-day rolling window added ~$1,036 and 21 receipts (2,056 → 2,077), provisional due to incomplete current UTC day (2 receipts vs prior avg 356.6)."
+    }
+  ]
 }
