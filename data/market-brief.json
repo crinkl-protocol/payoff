@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-10-01T09:45:12.640Z",
+  "updatedAt": "2026-10-03T01:45:15.453Z",
   "insights": [
     {
-      "topic": "Verified purchase volume",
-      "insight": "$4.51M in cryptographically verified GMV across 83,856+ receipts represents a deterministic purchase signal at scale — not a modeled proxy, but confirmed transactions with category, brand, and basket-size attribution.",
+      "topic": "Verified purchase proof vs. probabilistic targeting",
+      "insight": "Crinkl's protocol has confirmed $4.51M in cryptographically verified GMV across 83,856+ receipts — each one a deterministic purchase event, not an inferred intent signal. For brands paying $5+ CPM on probabilistic targeting, this represents a structurally different data class: proof of transaction, not prediction of behavior.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt accumulation pace",
-      "insight": "The network is adding approximately 454 receipts per day with no compression in that rate over a 102-day observation window, giving brands a stable and growing pool of verified buyers to target against.",
+      "topic": "Category composition as audience signal",
+      "insight": "Grocery-supermarkets (1,406 receipts, ~$40.47 avg basket) and restaurants-dining (1,212 receipts, ~$31.55 avg basket) together account for 52.3% of 14-day verified receipt volume, with gas-convenience and retail rounding out the top five — giving brand marketers a clean, receipt-verified category map of where wallet share is actually going.",
       "magnitude": "high"
     },
     {
-      "topic": "Category composition and basket stability",
-      "insight": "Grocery-supermarkets (1,406 receipts, ~$40.47 average basket) and restaurants-dining (1,212 receipts, ~$31.55) together account for 52% of 14-day verified volume — category-level purchase frequency sufficient to build audience cohorts without probabilistic inference.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Brand-level receipt attribution",
-      "insight": "Walmart holds 368 of 5,013 visible 14-day receipts (7.3% of verified volume) with Costco, Kroger, and Publix each above 150 receipts — brand-specific purchase confirmation at a granularity that probabilistic targeting cannot replicate.",
+      "topic": "Basket size stabilization after category mix shift",
+      "insight": "Average basket compressed from ~$48 to ~$40 as lower-ticket categories (coffee, dining) grew their share of receipt volume, but the compression appears to be plateauing — 7-day average basket ($42.34) is now running above the 14-day figure ($39.70), suggesting recent-day spend is holding or modestly firming within established categories.",
       "magnitude": "medium"
     },
     {
-      "topic": "Average basket as targeting signal",
-      "insight": "The 7-day average basket (~$42.34) running above the 14-day average (~$39.70) indicates recent transaction sizes are holding or modestly firming, giving media buyers a near-real-time read on buyer quality within the network.",
+      "topic": "Walmart structural dominance in verified purchase data",
+      "insight": "Walmart holds the top brand position across every observed 14-day snapshot at 368 receipts — 7.3% of all visible verified receipts — with Costco, Kroger, and Publix occupying the next three slots; together the top-5 brands account for 20.5% of 14-day volume, confirming mass-market grocery as the anchor of this verified purchase dataset.",
       "magnitude": "medium"
     },
     {
-      "topic": "Cookieless signal fidelity gap",
-      "insight": "The core pricing asymmetry holds: the industry pays $5+ CPM for probabilistic purchase inference while verified receipt data — confirming a specific transaction at a specific retailer — remains structurally underpriced relative to its targeting precision.",
+      "topic": "Throughput pace — sustained, not compressing",
+      "insight": "The protocol is accumulating approximately 454 verified receipts per day, a rate that has held consistent across a 102-day observation window from ~37,576 to 83,856+ receipts; growth is decelerating but the deceleration rate itself is stabilizing, meaning the dataset is expanding at a predictable, investable pace rather than spiking or stalling.",
       "magnitude": "high"
+    },
+    {
+      "topic": "Intraday purchase concentration — afternoon hours dominate",
+      "insight": "Receipt accumulation is consistently heaviest between 16:00–20:00 UTC, with the 2026-09-30 afternoon window alone adding 70 receipts and $3,232 in verified GMV in roughly 2.5 hours — a behavioral pattern that maps directly to end-of-workday shopping and has implications for daypart targeting and promotional timing decisions.",
+      "magnitude": "medium"
     }
   ]
 }
