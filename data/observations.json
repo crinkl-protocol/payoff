@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-03T09:45:01.596Z",
+  "updatedAt": "2026-10-04T17:45:17.878Z",
   "observations": [
+    {
+      "ts": "2026-10-03T23:43:35.301Z",
+      "topic": "brand visibility",
+      "magnitude": "medium",
+      "observation": "Aldi crossed the thresholded top brand list this heartbeat — the second consecutive heartbeat with a new brand crossing the visibility threshold (Safeway appeared last heartbeat). Cumulative GMV is $4.140M on 85,140 receipts."
+    },
     {
       "ts": "2026-10-03T06:53:33.164Z",
       "topic": "brand-list",
