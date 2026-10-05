@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-04T17:45:17.878Z",
+  "updatedAt": "2026-10-05T01:45:00.183Z",
   "observations": [
+    {
+      "ts": "2026-10-04T23:43:55.516Z",
+      "topic": "brand-list",
+      "magnitude": "medium",
+      "observation": "Lowe's crossed the thresholded top brand list this heartbeat — the third consecutive heartbeat with a new brand crossing the visibility threshold (Safeway appeared two heartbeats ago, Aldi one heartbeat ago). Cumulative GMV is $4.162M on 85,583 receipts."
+    },
     {
       "ts": "2026-10-03T23:43:35.301Z",
       "topic": "brand visibility",
