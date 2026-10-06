@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-06T01:45:12.822Z",
+  "updatedAt": "2026-10-06T17:45:00.304Z",
   "observations": [
+    {
+      "ts": "2026-10-06T11:43:25.089Z",
+      "topic": "acceleration divergence",
+      "magnitude": "medium",
+      "observation": "Token acceleration is 1.007x — twelfth consecutive heartbeat above 1.0x — while velocity sits at 0.715x week-over-week. Growth is still accelerating even as the absolute weekly rate stays below 1.0x; the divergence has now held for 12 straight intervals."
+    },
     {
       "ts": "2026-10-05T23:43:20.020Z",
       "topic": "acceleration",
@@ -18,12 +24,6 @@
       "topic": "brand-list",
       "magnitude": "medium",
       "observation": "Lowe's crossed the thresholded top brand list this heartbeat — the third consecutive heartbeat with a new brand crossing the visibility threshold (Safeway appeared two heartbeats ago, Aldi one heartbeat ago). Cumulative GMV is $4.162M on 85,583 receipts."
-    },
-    {
-      "ts": "2026-10-03T23:43:35.301Z",
-      "topic": "brand visibility",
-      "magnitude": "medium",
-      "observation": "Aldi crossed the thresholded top brand list this heartbeat — the second consecutive heartbeat with a new brand crossing the visibility threshold (Safeway appeared last heartbeat). Cumulative GMV is $4.140M on 85,140 receipts."
     }
   ]
 }
