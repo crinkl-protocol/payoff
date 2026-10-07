@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-10-06T01:45:12.761Z",
+  "updatedAt": "2026-10-07T17:45:13.527Z",
   "insights": [
     {
-      "topic": "Verified GMV scale",
-      "insight": "$4.59M in cumulative GMV across 85,608+ cryptographically verified receipts establishes a real transaction corpus — not modeled or inferred spend, but confirmed purchase events with a structural intake pace of ~453 receipts per day over the past 106 days.",
+      "topic": "Verified GMV Scale",
+      "insight": "$4.62M in cryptographically verified purchase GMV across 86,634+ receipts establishes a deterministic commerce dataset at a scale where category and brand signals become statistically meaningful — not modeled inference, but confirmed transactions.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookieless signal quality",
-      "insight": "Probabilistic ad targeting pays $5+ CPM to infer purchase intent from browsing behavior; a verified receipt is a confirmed transaction — the gap between inference and cryptographic proof is where deterministic audience segments are built.",
+      "topic": "Sustained Weekly Run Rate",
+      "insight": "Pre-rollover 7-day GMV has crossed $100K on three consecutive days, with peaks of $101.3K, $102.2K, and $101.9K — confirming the $100K weekly threshold has shifted from ceiling to floor, signaling durable consumer engagement rather than a one-time spike.",
       "magnitude": "high"
     },
     {
-      "topic": "7-day throughput momentum",
-      "insight": "Pre-rollover 7-day GMV peaks have climbed on five consecutive days — $94.3K, $94.9K, $98.8K, $99.3K, $101.3K — with the $101K reading marking the first confirmed breach of the $100K weekly threshold, driven by genuine evening receipt volume, not a data artifact.",
+      "topic": "Multi-Category Penetration",
+      "insight": "The 14-day receipt pool spans grocery (28.5%), restaurants and dining (22.2%), department stores (16.8%), and gas/convenience (11.4%) — a four-vertical spread that maps to real household spend patterns and supports cross-category audience construction without single-vertical concentration risk.",
       "magnitude": "high"
     },
     {
-      "topic": "Category breadth across grocery and home improvement",
-      "insight": "Four new brands crossed the visibility threshold within 48 hours — Safeway, Aldi, Whole Foods Market, and Lowe's — joining Walmart (348 receipts), Costco (160), Kroger (157), and Home Depot (60 combined); the pattern confirms multi-vertical coverage rather than concentration in a single category.",
+      "topic": "Brand-Level Signal Emergence",
+      "insight": "Walmart (346 receipts), Kroger (161), Costco (156), Publix (135), and Home Depot (56) have each crossed independent visibility thresholds in the 14-day window, with Safeway, Aldi, Whole Foods, and Lowe's also confirmed — enabling competitive share-of-wallet analysis at the brand level from verified purchase data.",
       "magnitude": "high"
     },
     {
-      "topic": "Throughput acceleration against a rising comparison base",
-      "insight": "Week-over-week velocity was 0.825x at last clean reading, but acceleration held above 1.0x for ten consecutive heartbeats — meaning receipt volume is growing even as it compounds against an increasingly strong prior-week baseline.",
+      "topic": "Structural Receipt Pace",
+      "insight": "From approximately 37,576 receipts in late June to 86,634 by early October represents roughly 49,000 net new verified receipts over 108 days — a structural pace of ~454 receipts per day that has held without compression, indicating supply-side reliability for brands evaluating this as a targeting input.",
       "magnitude": "medium"
     },
     {
-      "topic": "Settlement cadence as data reliability signal",
-      "insight": "738 confirmed on-chain payouts totaling 14,426,987 sats provide an auditable settlement trail that brand measurement teams can use to validate receipt authenticity independently of the platform's own reporting.",
-      "magnitude": "medium"
+      "topic": "Probabilistic vs. Deterministic Targeting Gap",
+      "insight": "Standard programmatic CPMs pay $5+ to infer purchase intent from behavioral proxies; a verified receipt confirms a transaction occurred, at a specific retailer, in a specific category — the gap between inference and cryptographic proof is the addressable efficiency gain for brands currently buying probabilistic audiences.",
+      "magnitude": "high"
     }
   ]
 }
