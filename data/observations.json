@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T01:45:00.202Z",
+  "updatedAt": "2026-10-08T17:45:00.165Z",
   "observations": [
     {
       "ts": "2026-10-07T11:43:12.595Z",
@@ -24,12 +24,6 @@
       "topic": "acceleration divergence",
       "magnitude": "medium",
       "observation": "Token acceleration is 1.007x — twelfth consecutive heartbeat above 1.0x — while velocity sits at 0.715x week-over-week. Growth is still accelerating even as the absolute weekly rate stays below 1.0x; the divergence has now held for 12 straight intervals."
-    },
-    {
-      "ts": "2026-10-05T23:43:20.020Z",
-      "topic": "acceleration",
-      "magnitude": "medium",
-      "observation": "Token acceleration hit 1.101x this heartbeat — eleventh consecutive heartbeat above 1.0x — while velocity sits at 0.80x week-over-week. Growth is accelerating even as the absolute weekly rate remains below 1.0x, a divergence worth tracking."
     }
   ]
 }
