@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T17:45:13.554Z",
+  "updatedAt": "2026-10-08T01:45:00.202Z",
   "observations": [
     {
       "ts": "2026-10-07T11:43:12.595Z",
@@ -30,12 +30,6 @@
       "topic": "acceleration",
       "magnitude": "medium",
       "observation": "Token acceleration hit 1.101x this heartbeat — eleventh consecutive heartbeat above 1.0x — while velocity sits at 0.80x week-over-week. Growth is accelerating even as the absolute weekly rate remains below 1.0x, a divergence worth tracking."
-    },
-    {
-      "ts": "2026-10-05T23:43:20.019Z",
-      "topic": "gmv-growth",
-      "magnitude": "medium",
-      "observation": "Cumulative GMV crossed $4.18M on 86,023 receipts this heartbeat. The 7-day rolling window jumped from $91,143 to $102,174 — a $11,031 single-interval gain — with the receipt count rising from 2,197 to 2,437. This is the strongest 7-day window reading in recent heartbeats and warrants watching for confirmation next interval."
     }
   ]
 }
