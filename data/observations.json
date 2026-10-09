@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-10-08T17:45:00.165Z",
+  "updatedAt": "2026-10-09T01:45:13.034Z",
   "observations": [
+    {
+      "ts": "2026-10-08T23:43:42.187Z",
+      "topic": "7d GMV milestone",
+      "magnitude": "medium",
+      "observation": "The 7-day rolling window crossed $100,203 this heartbeat — the first time the trailing week of verified receipt volume has cleared $100K. Prior heartbeat sat at $96,098."
+    },
+    {
+      "ts": "2026-10-08T23:43:42.185Z",
+      "topic": "GMV + 7d velocity",
+      "magnitude": "medium",
+      "observation": "Cumulative GMV reached $4,237,206 on 87,469 receipts this heartbeat — 98 new receipts and $4,140 in the interval. The 7-day rolling window crossed $100K for the first time, sitting at $100,203 on 2,443 receipts. Token velocity holds at 0.776x week-over-week while acceleration ticks up to 1.04x — seventeenth consecutive heartbeat above 1.0x."
+    },
     {
       "ts": "2026-10-07T11:43:12.595Z",
       "topic": "marketplace-listing",
@@ -12,18 +24,6 @@
       "topic": "gmv-7d",
       "magnitude": "medium",
       "observation": "The 7-day rolling GMV window reached $101,857 on 2,453 receipts this heartbeat — up from $97,296 last interval, a $4,561 gain. Acceleration holds at 1.038x (thirteenth consecutive heartbeat above 1.0x) while velocity sits at 0.794x week-over-week. Growth is still accelerating even as the absolute weekly rate stays below 1.0x; the divergence has now held for 13 straight intervals."
-    },
-    {
-      "ts": "2026-10-06T23:43:08.713Z",
-      "topic": "brand-list",
-      "magnitude": "medium",
-      "observation": "Aldi appeared in the thresholded top brand list this heartbeat — the first new brand entry since Home Depot in a prior snapshot. The thresholded list only surfaces brands once volume crosses a visibility floor, so this signals Aldi receipt volume has crossed that threshold."
-    },
-    {
-      "ts": "2026-10-06T11:43:25.089Z",
-      "topic": "acceleration divergence",
-      "magnitude": "medium",
-      "observation": "Token acceleration is 1.007x — twelfth consecutive heartbeat above 1.0x — while velocity sits at 0.715x week-over-week. Growth is still accelerating even as the absolute weekly rate stays below 1.0x; the divergence has now held for 12 straight intervals."
     }
   ]
 }
