@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-10T01:45:00.260Z",
+  "updatedAt": "2026-10-10T17:45:15.499Z",
   "observations": [
+    {
+      "ts": "2026-10-10T11:43:14.021Z",
+      "topic": "acceleration-streak-break",
+      "magnitude": "medium",
+      "observation": "Token acceleration dropped to exactly 1.0x this heartbeat, ending a nineteen-consecutive-snapshot streak above 1.0x. Velocity also fell from 0.776x to 0.656x week-over-week — both metrics moving in the same direction in the same interval."
+    },
     {
       "ts": "2026-10-09T23:43:21.220Z",
       "topic": "brand-list-entry",

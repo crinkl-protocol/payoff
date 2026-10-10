@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-10-09T01:45:12.976Z",
+  "updatedAt": "2026-10-10T17:45:15.464Z",
   "insights": [
     {
       "topic": "Verified GMV scale",
-      "insight": "$4.63M in cryptographically verified purchase GMV across 86,781 receipts confirms this is no longer a pilot — it is a functioning commerce data layer with structural throughput of ~456 verified receipts per day.",
+      "insight": "$4.68M in cryptographically verified purchase GMV across 88,121+ receipts establishes a deterministic data asset — not modeled, not inferred. At ~455 receipts/day structural pace, the dataset is compounding faster than most brand-side measurement teams can act on.",
       "magnitude": "high"
     },
     {
-      "topic": "Deterministic vs. probabilistic targeting",
-      "insight": "Every receipt in this corpus is a confirmed purchase event, not a behavioral inference — the gap between a verified receipt and a cookie-based audience segment is the difference between proof and probability, which is the core value proposition for cookieless measurement.",
+      "topic": "Probabilistic vs. deterministic targeting delta",
+      "insight": "The industry pays $5+ CPM to infer purchase intent from behavioral signals; a verified receipt confirms a transaction happened, at a specific retailer, for a specific amount. That gap — inference versus proof — is the core arbitrage available to brands willing to work with receipt-level data.",
       "magnitude": "high"
     },
     {
-      "topic": "Pre-rollover GMV floor at $100K weekly",
-      "insight": "Three consecutive pre-rollover 7-day readings above $100K ($101.3K, $101.9K, and a prior $99.3K trending through) indicate the $100K weekly GMV threshold has become a structural floor, not a ceiling — sustained demand, not a spike.",
+      "topic": "Rolling 7-day GMV ceiling: $101K crossed three times",
+      "insight": "The trailing 7-day window has cleared $101K on three consecutive pre-rollover readings (Oct 5, 6, 9), with post-rollover floors holding consistently in the $82–86K range — a mechanical UTC artifact, not demand softness. The floor is rising alongside the ceiling, signaling genuine throughput growth rather than volatility.",
       "magnitude": "high"
     },
     {
-      "topic": "Category breadth — grocery plus home improvement",
-      "insight": "The 14-day receipt mix spans grocery-supermarkets (28.3%), restaurants-dining (22.3%), retail-department-stores (16.9%), and gas-convenience (11.4%), with named brands including Walmart, Kroger, Costco, Publix, Lowe's, and Home Depot — multi-vertical coverage that supports cross-category audience construction.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Restaurants & Dining as a durable category",
-      "insight": "Restaurants & Dining crossed the visibility threshold on 2026-10-03 and has held structural position across every subsequent heartbeat — this is no longer a provisional category, making it actionable for QSR and casual dining brands evaluating verified purchase audiences.",
+      "topic": "Grocery dominates but category spread is real",
+      "insight": "Grocery-supermarkets lead at 28.2% of 14-day receipts, but restaurants-dining (21.8%), retail-department-stores (17.2%), and gas-convenience are all structurally present — this is a four-category dataset, not a single-vertical panel, which expands its utility for cross-category brand measurement.",
       "magnitude": "medium"
     },
     {
-      "topic": "Rollover artifacts are mechanical, not demand signals",
-      "insight": "The UTC midnight drop pattern — confirmed across eight consecutive instances — is a rolling-window boundary artifact, not a demand contraction; CMOs interpreting weekly GMV snapshots should anchor to pre-rollover peaks or 14-day windows to avoid misreading the signal.",
+      "topic": "Brand-level receipt visibility: Kroger holds over Costco, Whole Foods emerging",
+      "insight": "In the 14-day window, Kroger (173 receipts) has widened its gap over Costco (127 receipts), while Whole Foods crossed the visibility threshold for the first time on Oct 9 — structural status pending, but the direction is toward premium grocery representation alongside mass-market chains.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "BTC-denominated incentive layer with dollar-stable payout logic",
+      "insight": "Consumer incentives are paid in sats at 122 sats/receipt, with the rate inverse-adjusted to BTC price (~$82,186) to hold dollar-denominated payout value roughly stable — meaning the incentive mechanism is designed to be price-agnostic to consumers, which reduces churn risk tied to crypto volatility.",
       "magnitude": "medium"
     }
   ]
