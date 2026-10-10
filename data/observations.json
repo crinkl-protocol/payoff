@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-09T17:45:00.352Z",
+  "updatedAt": "2026-10-10T01:45:00.260Z",
   "observations": [
+    {
+      "ts": "2026-10-09T23:43:21.220Z",
+      "topic": "brand-list-entry",
+      "magnitude": "medium",
+      "observation": "Whole Foods Market appeared in the thresholded top brand list this heartbeat — the first time this brand has crossed the visibility threshold in the trailing summary. The thresholded list only surfaces brands with sufficient receipt volume to clear suppression."
+    },
     {
       "ts": "2026-10-09T11:43:27.997Z",
       "topic": "acceleration streak",
