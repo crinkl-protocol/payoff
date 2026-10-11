@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-10T17:45:15.499Z",
+  "updatedAt": "2026-10-11T01:45:00.747Z",
   "observations": [
+    {
+      "ts": "2026-10-10T23:43:20.833Z",
+      "topic": "token-dynamics",
+      "magnitude": "medium",
+      "observation": "Token acceleration recovered to 1.034x this heartbeat after touching exactly 1.0x last snapshot — the streak above 1.0x resumes at twenty consecutive heartbeats. Velocity also recovered from 0.656x to 0.754x week-over-week, both metrics moving in the same direction in the same interval."
+    },
     {
       "ts": "2026-10-10T11:43:14.021Z",
       "topic": "acceleration-streak-break",
@@ -18,18 +24,6 @@
       "topic": "acceleration streak",
       "magnitude": "medium",
       "observation": "Token acceleration has held above 1.0x for eighteen consecutive heartbeats (roughly 2.5 days) while velocity remains at 0.69x week-over-week. The divergence — growth compounding while the absolute weekly rate stays below baseline — has been stable long enough to rule out a rolling-window artifact from a single incomplete UTC day."
-    },
-    {
-      "ts": "2026-10-08T23:43:42.187Z",
-      "topic": "7d GMV milestone",
-      "magnitude": "medium",
-      "observation": "The 7-day rolling window crossed $100,203 this heartbeat — the first time the trailing week of verified receipt volume has cleared $100K. Prior heartbeat sat at $96,098."
-    },
-    {
-      "ts": "2026-10-08T23:43:42.185Z",
-      "topic": "GMV + 7d velocity",
-      "magnitude": "medium",
-      "observation": "Cumulative GMV reached $4,237,206 on 87,469 receipts this heartbeat — 98 new receipts and $4,140 in the interval. The 7-day rolling window crossed $100K for the first time, sitting at $100,203 on 2,443 receipts. Token velocity holds at 0.776x week-over-week while acceleration ticks up to 1.04x — seventeenth consecutive heartbeat above 1.0x."
     }
   ]
 }
