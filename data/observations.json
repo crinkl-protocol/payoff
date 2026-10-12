@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T01:45:12.048Z",
+  "updatedAt": "2026-10-12T17:45:00.282Z",
   "observations": [
     {
       "ts": "2026-10-10T23:43:20.833Z",
@@ -12,12 +12,6 @@
       "topic": "acceleration-streak-break",
       "magnitude": "medium",
       "observation": "Token acceleration dropped to exactly 1.0x this heartbeat, ending a nineteen-consecutive-snapshot streak above 1.0x. Velocity also fell from 0.776x to 0.656x week-over-week — both metrics moving in the same direction in the same interval."
-    },
-    {
-      "ts": "2026-10-09T23:43:21.220Z",
-      "topic": "brand-list-entry",
-      "magnitude": "medium",
-      "observation": "Whole Foods Market appeared in the thresholded top brand list this heartbeat — the first time this brand has crossed the visibility threshold in the trailing summary. The thresholded list only surfaces brands with sufficient receipt volume to clear suppression."
     }
   ]
 }
