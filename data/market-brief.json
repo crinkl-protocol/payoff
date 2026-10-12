@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-10-10T17:45:15.464Z",
+  "updatedAt": "2026-10-12T01:45:12.007Z",
   "insights": [
     {
-      "topic": "Verified GMV scale",
-      "insight": "$4.68M in cryptographically verified purchase GMV across 88,121+ receipts establishes a deterministic data asset — not modeled, not inferred. At ~455 receipts/day structural pace, the dataset is compounding faster than most brand-side measurement teams can act on.",
+      "topic": "Verified purchase volume",
+      "insight": "88,762 cryptographically verified receipts have been logged against $4.71M in confirmed GMV — this is deterministic purchase proof, not modeled audience inference, running at a structural pace of ~457 receipts per day.",
       "magnitude": "high"
     },
     {
-      "topic": "Probabilistic vs. deterministic targeting delta",
-      "insight": "The industry pays $5+ CPM to infer purchase intent from behavioral signals; a verified receipt confirms a transaction happened, at a specific retailer, for a specific amount. That gap — inference versus proof — is the core arbitrage available to brands willing to work with receipt-level data.",
+      "topic": "Cookieless signal quality",
+      "insight": "Every receipt in the Crinkl protocol confirms a completed transaction at a named retailer; the gap between this and probabilistic ad targeting (CPM-based inference from site visits) is the difference between knowing a purchase happened and guessing it might.",
       "magnitude": "high"
     },
     {
-      "topic": "Rolling 7-day GMV ceiling: $101K crossed three times",
-      "insight": "The trailing 7-day window has cleared $101K on three consecutive pre-rollover readings (Oct 5, 6, 9), with post-rollover floors holding consistently in the $82–86K range — a mechanical UTC artifact, not demand softness. The floor is rising alongside the ceiling, signaling genuine throughput growth rather than volatility.",
+      "topic": "Weekly verified spend baseline",
+      "insight": "The 7-day rolling GMV has closed between $94K and $102K across nine of the last ten pre-rollover windows, establishing a consistent weekly verified-spend floor that brands can model against for reach planning.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery dominates but category spread is real",
-      "insight": "Grocery-supermarkets lead at 28.2% of 14-day receipts, but restaurants-dining (21.8%), retail-department-stores (17.2%), and gas-convenience are all structurally present — this is a four-category dataset, not a single-vertical panel, which expands its utility for cross-category brand measurement.",
+      "topic": "Retail category coverage",
+      "insight": "The 14-day brand leaderboard — Walmart (334 receipts), Kroger (164), Publix (128), Costco (126), Home Depot (60) — confirms the protocol captures both grocery and home-improvement spend, giving CPG and durables brands overlapping verified audience pools.",
       "magnitude": "medium"
     },
     {
-      "topic": "Brand-level receipt visibility: Kroger holds over Costco, Whole Foods emerging",
-      "insight": "In the 14-day window, Kroger (173 receipts) has widened its gap over Costco (127 receipts), while Whole Foods crossed the visibility threshold for the first time on Oct 9 — structural status pending, but the direction is toward premium grocery representation alongside mass-market chains.",
+      "topic": "Spend consistency, not spike",
+      "insight": "Post-rollover GMV floors have held in the $82K–$86K range across all ten measured UTC midnight resets, regardless of how large the rollover drop is — this is a demand-consistency signal, not a one-time spike artifact.",
       "magnitude": "medium"
     },
     {
-      "topic": "BTC-denominated incentive layer with dollar-stable payout logic",
-      "insight": "Consumer incentives are paid in sats at 122 sats/receipt, with the rate inverse-adjusted to BTC price (~$82,186) to hold dollar-denominated payout value roughly stable — meaning the incentive mechanism is designed to be price-agnostic to consumers, which reduces churn risk tied to crypto volatility.",
+      "topic": "Emerging retailer signals",
+      "insight": "Whole Foods Market appeared in the brand leaderboard for the first time on 2026-10-09 and Aldi crossed the visibility threshold on 2026-10-06, suggesting the verified-receipt network is extending into premium and value grocery simultaneously — category breadth is widening.",
       "magnitude": "medium"
     }
   ]
