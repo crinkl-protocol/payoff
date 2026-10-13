@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-10-12T01:45:12.007Z",
+  "updatedAt": "2026-10-13T17:45:15.075Z",
   "insights": [
     {
-      "topic": "Verified purchase volume",
-      "insight": "88,762 cryptographically verified receipts have been logged against $4.71M in confirmed GMV — this is deterministic purchase proof, not modeled audience inference, running at a structural pace of ~457 receipts per day.",
+      "topic": "Verified GMV scale",
+      "insight": "$4.75M in cryptographically verified purchase receipts across 89,628+ transactions establishes a proof-of-purchase dataset at a scale where category and brand-level targeting signals become statistically meaningful — not a pilot, a running ledger.",
       "magnitude": "high"
     },
     {
-      "topic": "Cookieless signal quality",
-      "insight": "Every receipt in the Crinkl protocol confirms a completed transaction at a named retailer; the gap between this and probabilistic ad targeting (CPM-based inference from site visits) is the difference between knowing a purchase happened and guessing it might.",
+      "topic": "Deterministic vs. probabilistic targeting gap",
+      "insight": "Each receipt in this protocol is a confirmed purchase event, not an inferred intent signal — the same distinction that separates a loyalty card swipe from a cookie-based lookalike audience, but with cryptographic attestation rather than retailer goodwill.",
       "magnitude": "high"
     },
     {
-      "topic": "Weekly verified spend baseline",
-      "insight": "The 7-day rolling GMV has closed between $94K and $102K across nine of the last ten pre-rollover windows, establishing a consistent weekly verified-spend floor that brands can model against for reach planning.",
+      "topic": "Sustained daily throughput",
+      "insight": "The 7-day window has closed above $94K on ten of twelve consecutive days, with six closings above $101K and a new high of $103.4K on Oct 12 — the floor is rising, not holding flat, which indicates organic receipt submission growth rather than a static panel.",
       "magnitude": "high"
     },
     {
-      "topic": "Retail category coverage",
-      "insight": "The 14-day brand leaderboard — Walmart (334 receipts), Kroger (164), Publix (128), Costco (126), Home Depot (60) — confirms the protocol captures both grocery and home-improvement spend, giving CPG and durables brands overlapping verified audience pools.",
+      "topic": "Retailer diversity and cross-channel signal",
+      "insight": "The 14-day brand mix spans mass (Walmart, 349 receipts), club (Costco, 132), conventional grocery (Kroger, 160; Safeway, 125), home improvement (Home Depot, 60), and QSR — meaning purchase signals cross channel types, which is the cross-retailer view that no single loyalty program can provide.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Stable payout economics signal real user incentive",
+      "insight": "The protocol has maintained a roughly stable dollar-equivalent payout per receipt by adjusting sats/receipt inversely with BTC price — 765 confirmed payouts with 14.8M sats claimed suggests the incentive structure is functioning and not cannibalizing data quality through spam submissions.",
       "magnitude": "medium"
     },
     {
-      "topic": "Spend consistency, not spike",
-      "insight": "Post-rollover GMV floors have held in the $82K–$86K range across all ten measured UTC midnight resets, regardless of how large the rollover drop is — this is a demand-consistency signal, not a one-time spike artifact.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Emerging retailer signals",
-      "insight": "Whole Foods Market appeared in the brand leaderboard for the first time on 2026-10-09 and Aldi crossed the visibility threshold on 2026-10-06, suggesting the verified-receipt network is extending into premium and value grocery simultaneously — category breadth is widening.",
+      "topic": "Rolling-window baseline for campaign measurement",
+      "insight": "Twelve consecutive UTC midnight rollovers show post-rollover GMV floors rising from the low $80Ks to $88.5K, providing a clean, repeatable baseline cadence that brand measurement teams could use to isolate lift windows without relying on panel-based control groups.",
       "magnitude": "medium"
     }
   ]

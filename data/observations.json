@@ -1,17 +1,11 @@
 {
-  "updatedAt": "2026-10-13T01:45:00.548Z",
+  "updatedAt": "2026-10-13T17:45:15.096Z",
   "observations": [
     {
       "ts": "2026-10-12T23:43:20.575Z",
       "topic": "brand-list-entry",
       "magnitude": "medium",
       "observation": "McDonald's crossed the visibility threshold and appeared in the thresholded top brand list this heartbeat — the first QSR brand to enter the public summary. Cumulative GMV sits at $4,320,464 on 89,465 receipts; the 7-day rolling window moved from $98,537 to $103,386 on 2,546 receipts."
-    },
-    {
-      "ts": "2026-10-10T23:43:20.833Z",
-      "topic": "token-dynamics",
-      "magnitude": "medium",
-      "observation": "Token acceleration recovered to 1.034x this heartbeat after touching exactly 1.0x last snapshot — the streak above 1.0x resumes at twenty consecutive heartbeats. Velocity also recovered from 0.656x to 0.754x week-over-week, both metrics moving in the same direction in the same interval."
     }
   ]
 }
