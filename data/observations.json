@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-14T01:45:00.565Z",
+  "updatedAt": "2026-10-14T09:45:00.522Z",
   "observations": [
+    {
+      "ts": "2026-10-14T03:16:13.002Z",
+      "topic": "receipts",
+      "magnitude": "medium",
+      "observation": "Cumulative receipt count crossed 90,000 this heartbeat — 90,029 on $4,342,265 GMV. The 90k threshold took 72 new receipts in the interval (89,957 → 90,029), with the 7-day rolling window at $91,064 on 2,249 receipts (provisional: current UTC day shows only 2 receipts vs prior avg 379)."
+    },
     {
       "ts": "2026-10-12T23:43:20.575Z",
       "topic": "brand-list-entry",
