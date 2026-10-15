@@ -1,35 +1,30 @@
 {
-  "updatedAt": "2026-10-13T17:45:15.075Z",
+  "updatedAt": "2026-10-15T01:45:13.391Z",
   "insights": [
     {
-      "topic": "Verified GMV scale",
-      "insight": "$4.75M in cryptographically verified purchase receipts across 89,628+ transactions establishes a proof-of-purchase dataset at a scale where category and brand-level targeting signals become statistically meaningful — not a pilot, a running ledger.",
+      "topic": "Verified purchase scale",
+      "insight": "Crinkl has crossed 90,182 cryptographically verified receipts representing $4.77M in confirmed consumer spend — a deterministic purchase dataset, not a modeled proxy audience.",
       "magnitude": "high"
+    },
+    {
+      "topic": "Sustained daily receipt velocity",
+      "insight": "The network is processing ~389 verified receipts per day at a structurally consistent pace across a two-week observation window, with afternoon UTC intervals (around 16:15) showing the highest intraday throughput — suggesting a reliable, not bursty, data supply.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Weekly verified GMV baseline",
+      "insight": "Seven-day verified GMV is running at roughly $97K–$101K per week across ~2,400 receipts, giving brand planners a concrete, auditable spend volume to underwrite targeting against rather than estimated reach figures.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Receipt-level unit economics",
+      "insight": "At current BTC pricing, each verified receipt carries a ~$0.10 payout to the submitting consumer — a cost-per-confirmed-purchase signal that sits well below the $5+ CPM brands pay for probabilistic inference on purchase intent.",
+      "magnitude": "medium"
     },
     {
       "topic": "Deterministic vs. probabilistic targeting gap",
-      "insight": "Each receipt in this protocol is a confirmed purchase event, not an inferred intent signal — the same distinction that separates a loyalty card swipe from a cookie-based lookalike audience, but with cryptographic attestation rather than retailer goodwill.",
+      "insight": "A verified receipt confirms a purchase occurred at a specific retailer; probabilistic targeting infers purchase intent from behavioral signals that correlate loosely with buying. For CMOs evaluating cookieless alternatives, that evidentiary gap — inference versus cryptographic proof — is the core due-diligence question.",
       "magnitude": "high"
-    },
-    {
-      "topic": "Sustained daily throughput",
-      "insight": "The 7-day window has closed above $94K on ten of twelve consecutive days, with six closings above $101K and a new high of $103.4K on Oct 12 — the floor is rising, not holding flat, which indicates organic receipt submission growth rather than a static panel.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Retailer diversity and cross-channel signal",
-      "insight": "The 14-day brand mix spans mass (Walmart, 349 receipts), club (Costco, 132), conventional grocery (Kroger, 160; Safeway, 125), home improvement (Home Depot, 60), and QSR — meaning purchase signals cross channel types, which is the cross-retailer view that no single loyalty program can provide.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Stable payout economics signal real user incentive",
-      "insight": "The protocol has maintained a roughly stable dollar-equivalent payout per receipt by adjusting sats/receipt inversely with BTC price — 765 confirmed payouts with 14.8M sats claimed suggests the incentive structure is functioning and not cannibalizing data quality through spam submissions.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Rolling-window baseline for campaign measurement",
-      "insight": "Twelve consecutive UTC midnight rollovers show post-rollover GMV floors rising from the low $80Ks to $88.5K, providing a clean, repeatable baseline cadence that brand measurement teams could use to isolate lift windows without relying on panel-based control groups.",
-      "magnitude": "medium"
     }
   ]
 }
