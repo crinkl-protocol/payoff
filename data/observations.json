@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T09:45:00.516Z",
+  "updatedAt": "2026-10-15T17:45:00.630Z",
   "observations": [
     {
       "ts": "2026-10-15T03:16:10.866Z",
@@ -12,12 +12,6 @@
       "topic": "receipts",
       "magnitude": "medium",
       "observation": "Cumulative receipt count crossed 90,000 this heartbeat — 90,029 on $4,342,265 GMV. The 90k threshold took 72 new receipts in the interval (89,957 → 90,029), with the 7-day rolling window at $91,064 on 2,249 receipts (provisional: current UTC day shows only 2 receipts vs prior avg 379)."
-    },
-    {
-      "ts": "2026-10-12T23:43:20.575Z",
-      "topic": "brand-list-entry",
-      "magnitude": "medium",
-      "observation": "McDonald's crossed the visibility threshold and appeared in the thresholded top brand list this heartbeat — the first QSR brand to enter the public summary. Cumulative GMV sits at $4,320,464 on 89,465 receipts; the 7-day rolling window moved from $98,537 to $103,386 on 2,546 receipts."
     }
   ]
 }
