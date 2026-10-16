@@ -1,30 +1,35 @@
 {
-  "updatedAt": "2026-10-15T01:45:13.391Z",
+  "updatedAt": "2026-10-16T09:45:14.681Z",
   "insights": [
     {
-      "topic": "Verified purchase scale",
-      "insight": "Crinkl has crossed 90,182 cryptographically verified receipts representing $4.77M in confirmed consumer spend — a deterministic purchase dataset, not a modeled proxy audience.",
+      "topic": "Verified purchase data at scale",
+      "insight": "Crinkl has confirmed 90,989 cryptographically verified receipts representing $4.8M in cumulative GMV — deterministic purchase proof, not probabilistic inference. For brands evaluating cookieless alternatives, this is a live, growing panel of confirmed buyers, not modeled audiences.",
       "magnitude": "high"
     },
     {
       "topic": "Sustained daily receipt velocity",
-      "insight": "The network is processing ~389 verified receipts per day at a structurally consistent pace across a two-week observation window, with afternoon UTC intervals (around 16:15) showing the highest intraday throughput — suggesting a reliable, not bursty, data supply.",
+      "insight": "The network is generating 375–398 verified receipts per day on a structural basis, with a consistent late-UTC burst window adding 113–129 receipts and $5,500–$6,090 GMV in a single 4-hour interval. Volume is patterned and repeatable, not spiky.",
       "magnitude": "high"
     },
     {
-      "topic": "Weekly verified GMV baseline",
-      "insight": "Seven-day verified GMV is running at roughly $97K–$101K per week across ~2,400 receipts, giving brand planners a concrete, auditable spend volume to underwrite targeting against rather than estimated reach figures.",
+      "topic": "Category coverage for brand planning",
+      "insight": "Grocery-supermarkets leads at 1,511 receipts and $65K GMV over 14 days, followed by restaurants-dining and retail-department-stores — the three categories that account for the majority of CPG and QSR brand spend. Gas-convenience adds a fourth high-frequency touchpoint.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt-level unit economics",
-      "insight": "At current BTC pricing, each verified receipt carries a ~$0.10 payout to the submitting consumer — a cost-per-confirmed-purchase signal that sits well below the $5+ CPM brands pay for probabilistic inference on purchase intent.",
+      "topic": "Brand-level purchase signal emerging",
+      "insight": "Walmart (353 receipts), Kroger (155), Target (115), and Costco (131) are already above the public visibility threshold in the 14-day window — meaning competitor and category benchmarking at the brand level is becoming structurally possible within this dataset.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Geographic and vertical footprint expanding",
+      "insight": "Three new brand-list entries in four days — McDonald's (first QSR), Lowe's (second home-improvement retailer), and H-E-B (Texas-dominant regional grocer) — signal the network is adding geographic and vertical coverage, not just deepening existing strongholds. Thirty category/metro cells are now active across 18 metro areas.",
       "magnitude": "medium"
     },
     {
-      "topic": "Deterministic vs. probabilistic targeting gap",
-      "insight": "A verified receipt confirms a purchase occurred at a specific retailer; probabilistic targeting infers purchase intent from behavioral signals that correlate loosely with buying. For CMOs evaluating cookieless alternatives, that evidentiary gap — inference versus cryptographic proof — is the core due-diligence question.",
-      "magnitude": "high"
+      "topic": "Stable weekly GMV run rate",
+      "insight": "Seven-day GMV is $89,455 across 2,115 receipts; the 14-day figure of $223,938 implies a consistent weekly pace with no visible decay. Pre-rollover daily closes have cleared $101K in eight of the last fifteen completed days, suggesting the run rate is holding rather than plateauing.",
+      "magnitude": "medium"
     }
   ]
 }

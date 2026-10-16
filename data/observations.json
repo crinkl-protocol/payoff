@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-16T01:45:00.161Z",
+  "updatedAt": "2026-10-16T09:45:14.712Z",
   "observations": [
+    {
+      "ts": "2026-10-16T03:16:04.535Z",
+      "topic": "brand-list",
+      "magnitude": "medium",
+      "observation": "H-E-B appeared in the thresholded top brand list this heartbeat — a Texas-dominant regional grocer entering the public aggregate window for the first time. Cumulative receipts sit at 90,969 on $4,383,700 GMV."
+    },
     {
       "ts": "2026-10-15T03:16:10.866Z",
       "topic": "brand-list",
