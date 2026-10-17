@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-10-16T09:45:14.681Z",
+  "updatedAt": "2026-10-17T17:45:14.589Z",
   "insights": [
     {
-      "topic": "Verified purchase data at scale",
-      "insight": "Crinkl has confirmed 90,989 cryptographically verified receipts representing $4.8M in cumulative GMV — deterministic purchase proof, not probabilistic inference. For brands evaluating cookieless alternatives, this is a live, growing panel of confirmed buyers, not modeled audiences.",
+      "topic": "Verified purchase volume",
+      "insight": "91,438 cryptographically verified receipts representing $4.82M in confirmed GMV — this is deterministic purchase proof, not modeled intent. At ~359–398 receipts per day across live beta users, the panel is generating a consistent, auditable signal base.",
       "magnitude": "high"
     },
     {
-      "topic": "Sustained daily receipt velocity",
-      "insight": "The network is generating 375–398 verified receipts per day on a structural basis, with a consistent late-UTC burst window adding 113–129 receipts and $5,500–$6,090 GMV in a single 4-hour interval. Volume is patterned and repeatable, not spiky.",
+      "topic": "Category concentration and coverage",
+      "insight": "Grocery-supermarkets (1,467 receipts, $63.8K GMV) and restaurants-dining (1,178 receipts, $36.1K GMV) dominate the 14-day window, with retail department stores and gas-convenience rounding out a top four that maps directly to CPG, QSR, and fuel brand planning cycles.",
       "magnitude": "high"
     },
     {
-      "topic": "Category coverage for brand planning",
-      "insight": "Grocery-supermarkets leads at 1,511 receipts and $65K GMV over 14 days, followed by restaurants-dining and retail-department-stores — the three categories that account for the majority of CPG and QSR brand spend. Gas-convenience adds a fourth high-frequency touchpoint.",
+      "topic": "Brand-list geographic broadening",
+      "insight": "Three distinct brand entries in four days — McDonald's (QSR), Lowe's (home improvement), and H-E-B (Texas-dominant regional grocery) — indicate the verified panel is expanding across verticals and geographies, not consolidating around a single market or retail format.",
       "magnitude": "high"
     },
     {
-      "topic": "Brand-level purchase signal emerging",
-      "insight": "Walmart (353 receipts), Kroger (155), Target (115), and Costco (131) are already above the public visibility threshold in the 14-day window — meaning competitor and category benchmarking at the brand level is becoming structurally possible within this dataset.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Geographic and vertical footprint expanding",
-      "insight": "Three new brand-list entries in four days — McDonald's (first QSR), Lowe's (second home-improvement retailer), and H-E-B (Texas-dominant regional grocer) — signal the network is adding geographic and vertical coverage, not just deepening existing strongholds. Thirty category/metro cells are now active across 18 metro areas.",
+      "topic": "Daily GMV structural floor",
+      "insight": "Sixteen completed UTC days show ten clearing $94K and eight clearing $101K in pre-rollover GMV; the $94K level functions as a structural floor, giving brands a reliable minimum spend volume against which to calibrate audience sizing and campaign fit estimates.",
       "magnitude": "medium"
     },
     {
-      "topic": "Stable weekly GMV run rate",
-      "insight": "Seven-day GMV is $89,455 across 2,115 receipts; the 14-day figure of $223,938 implies a consistent weekly pace with no visible decay. Pre-rollover daily closes have cleared $101K in eight of the last fifteen completed days, suggesting the run rate is holding rather than plateauing.",
+      "topic": "Intraday purchase timing signal",
+      "insight": "The T20:15 UTC window (roughly mid-afternoon U.S. Eastern) has delivered 113–131 receipts and $4.7K–$6.1K GMV across three consecutive days — a repeatable intraday burst pattern that could inform dayparting strategy for brands activating against verified purchasers.",
       "magnitude": "medium"
+    },
+    {
+      "topic": "Probabilistic vs. deterministic targeting gap",
+      "insight": "Standard programmatic buys $5+ CPM to infer purchase intent from behavioral proxies; a verified receipt confirms the transaction occurred, at a current cost of roughly $0.10 per receipt in the Crinkl protocol. The unit economics of deterministic confirmation sit an order of magnitude below probabilistic inference.",
+      "magnitude": "high"
     }
   ]
 }
