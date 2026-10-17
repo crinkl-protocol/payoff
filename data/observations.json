@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:45:00.617Z",
+  "updatedAt": "2026-10-17T09:45:00.302Z",
   "observations": [
     {
       "ts": "2026-10-16T03:16:04.535Z",
@@ -12,12 +12,6 @@
       "topic": "brand-list",
       "magnitude": "medium",
       "observation": "Lowe's appeared in the thresholded top brand list this heartbeat — the second home-improvement retailer visible in the public aggregate window alongside prior entries. Cumulative receipts sit at 90,545 on $4,363,882 GMV."
-    },
-    {
-      "ts": "2026-10-14T03:16:13.002Z",
-      "topic": "receipts",
-      "magnitude": "medium",
-      "observation": "Cumulative receipt count crossed 90,000 this heartbeat — 90,029 on $4,342,265 GMV. The 90k threshold took 72 new receipts in the interval (89,957 → 90,029), with the 7-day rolling window at $91,064 on 2,249 receipts (provisional: current UTC day shows only 2 receipts vs prior avg 379)."
     }
   ]
 }
