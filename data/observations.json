@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-18T09:45:00.523Z",
+  "updatedAt": "2026-10-18T17:45:00.865Z",
   "observations": [
+    {
+      "ts": "2026-10-18T15:16:10.669Z",
+      "topic": "acceleration-below-floor",
+      "magnitude": "medium",
+      "observation": "Token acceleration sits at 0.999x — the second consecutive snapshot below 1.0x, confirming the 30-snapshot streak above 1.0x ended last heartbeat. Velocity is 0.596x week-over-week (provisional: current UTC day shows only 1 receipt vs prior avg 328). The streak break is real; the velocity number needs a closed day to confirm."
+    },
     {
       "ts": "2026-10-18T03:15:53.844Z",
       "topic": "acceleration-streak-break",
