@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T01:45:14.076Z",
+  "updatedAt": "2026-10-19T09:45:00.209Z",
   "observations": [
     {
       "ts": "2026-10-18T15:16:10.669Z",
@@ -12,12 +12,6 @@
       "topic": "acceleration-streak-break",
       "magnitude": "medium",
       "observation": "Token acceleration dropped to 0.999x this heartbeat — ending a 30-consecutive-snapshot streak above 1.0x. Cumulative receipts sit at 91,727 on $4,413,972 GMV. The 7-day velocity is provisional (current UTC day shows only 1 receipt vs prior avg 328)."
-    },
-    {
-      "ts": "2026-10-16T03:16:04.535Z",
-      "topic": "brand-list",
-      "magnitude": "medium",
-      "observation": "H-E-B appeared in the thresholded top brand list this heartbeat — a Texas-dominant regional grocer entering the public aggregate window for the first time. Cumulative receipts sit at 90,969 on $4,383,700 GMV."
     }
   ]
 }
