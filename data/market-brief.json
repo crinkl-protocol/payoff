@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-10-19T01:45:13.896Z",
+  "updatedAt": "2026-10-20T09:45:14.118Z",
   "insights": [
     {
       "topic": "Verified GMV scale",
-      "insight": "Crinkl has processed $4.83M in cryptographically verified purchase GMV across 91,727 receipts — deterministic proof of completed transactions, not modeled intent. That base is large enough to run meaningful category and brand-level analyses against real shopper behavior.",
+      "insight": "Crinkl has processed $4.88M in cryptographically verified purchase GMV across 92,710 receipts — a deterministic commerce dataset that probabilistic cookie-based targeting cannot replicate at any CPM.",
       "magnitude": "high"
     },
     {
-      "topic": "Category concentration",
-      "insight": "Grocery and restaurants account for 2,557 of the 5,137 receipts in the trailing 14 days, with Walmart, Kroger, Safeway, Costco, and Aldi all appearing in the top-brand window — the panel skews toward high-frequency, replenishment-category spending where recency and frequency signals matter most.",
+      "topic": "Grocery and QSR dominance",
+      "insight": "Grocery-supermarkets (1,451 receipts, $64K GMV) and restaurants-dining (1,180 receipts, $37K GMV) lead the 14-day category mix, making this dataset most immediately actionable for CPG, food, and beverage brands running shopper marketing programs.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Walmart-anchored brand footprint",
+      "insight": "Walmart leads verified brand coverage at 337 receipts over 14 days, with Kroger, Costco, Safeway, and Aldi rounding out the top five — a mass-market grocery concentration that reflects actual mid-market household spend, not panel inference.",
       "magnitude": "high"
     },
     {
       "topic": "Geographic expansion signal",
-      "insight": "Three new brand-list entries across four days (McDonald's Oct 12, Lowe's Oct 15, H-E-B Oct 16) and an 18th active metro area confirmed Oct 16 indicate the panel is actively broadening beyond its origin markets — a relevant check for brands evaluating whether coverage is sufficient for regional or national campaign planning.",
+      "insight": "Three new brand-list entrants appeared between October 12–16 — McDonald's (QSR), Lowe's (home improvement), and H-E-B (Texas regional grocery) — indicating the network is broadening vertically and geographically beyond its initial footprint, though no new entrants have appeared across five consecutive snapshots since October 16.",
       "magnitude": "medium"
     },
     {
-      "topic": "Daily receipt velocity and structural rhythm",
-      "insight": "The panel is running at a structural pace of 328–398 verified receipts per day, with a consistent late-UTC burst window that accounts for a material share of daily volume — marketers modeling reach or frequency caps should account for this intraday skew rather than assuming uniform distribution.",
+      "topic": "Receipt pace and daily throughput",
+      "insight": "Structural daily receipt volume runs 326–398 receipts per day with a confirmed late-UTC burst pattern each evening, suggesting a consumer base concentrated in North American time zones and large enough to support statistically meaningful category-level targeting signals.",
       "magnitude": "medium"
     },
     {
-      "topic": "Token acceleration streak break",
-      "insight": "After 30 consecutive snapshots above 1.0x acceleration, the growth multiplier has posted two consecutive readings at 0.999x — not yet a confirmed deceleration given the provisional state of the current UTC day, but the first observable inflection in the growth trend and worth watching against the next closed-day reading.",
+      "topic": "Payout freeze recovery as network health indicator",
+      "insight": "A 7-day payout freeze (October 11–18) resolved cleanly, with confirmed payouts rising from 765 to 785 in the days following — a stress event that cleared without disrupting receipt throughput, which is the signal brand data buyers should track when evaluating infrastructure reliability.",
       "magnitude": "medium"
-    },
-    {
-      "topic": "DKIM vendor set extends to digital goods",
-      "insight": "Receipt verification now spans Amazon, Stripe, Paddle, Gumroad, and SaaS vendors alongside physical retail — meaning the panel captures digital purchase behavior (software, subscriptions, creator economy) that traditional loyalty or POS-based panels miss entirely.",
-      "magnitude": "high"
     }
   ]
 }
