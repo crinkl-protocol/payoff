@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-10-21T17:45:14.635Z",
+  "updatedAt": "2026-10-23T01:45:17.964Z",
   "insights": [
     {
-      "topic": "Verified purchase data at scale",
-      "insight": "Crinkl has confirmed 93,237 cryptographically verified receipts representing $4.9M in cumulative GMV — this is deterministic purchase proof, not modeled intent, at a scale that supports statistically meaningful category and brand analysis.",
+      "topic": "Verified GMV approaching $5M threshold",
+      "insight": "Crinkl has processed $4,927,520 in cryptographically verified purchase GMV across 93,816 receipts — the $5M milestone is less than $72,500 away at current weekly pace of $92–97K, making this a live proof-of-scale moment for a protocol built on deterministic purchase confirmation rather than probabilistic inference.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery dominates verified spend",
-      "insight": "Grocery-supermarkets accounts for 1,505 receipts and $66,652 in verified GMV over 14 days, nearly double the next category; Walmart leads all brands at 356 receipts, with Costco, Kroger, Aldi, and Safeway rounding out the top five — a clear signal of where verified consumer spend is concentrated.",
+      "topic": "Grocery dominates verified spend; Walmart leads by a wide margin",
+      "insight": "Grocery-supermarkets accounts for 1,502 receipts and $67,510 in verified GMV over 14 days — the single largest category by both volume and spend — with Walmart at 358 receipts leading all brands, more than double the next grocery competitor; Kroger (148) is now closing on Costco (159) after a multi-snapshot widening trend reversed.",
       "magnitude": "high"
     },
     {
-      "topic": "Structural daily receipt throughput",
-      "insight": "The network is processing 326–398 verified receipts per day on a sustained basis, with a confirmed intraday pattern — morning UTC trough followed by afternoon recovery and a late-evening burst window — giving planners a predictable data refresh cadence.",
+      "topic": "Receipt throughput is structurally steady at 340–370 per day",
+      "insight": "Complete UTC-day analysis confirms a consistent daily receipt intake with a repeatable evening acceleration window (T20:00–T00:15 UTC) that drives the highest single-interval counts; this is a structural pattern, not noise, giving planners a predictable data refresh cadence to build against.",
       "magnitude": "medium"
     },
     {
-      "topic": "QSR and home improvement entering verified receipt mix",
-      "insight": "McDonald's, Lowe's, and H-E-B have each entered the brand visibility list since October 12, extending verified purchase coverage beyond grocery into QSR and home improvement — categories where probabilistic targeting has historically struggled with purchase confirmation.",
+      "topic": "QSR, home improvement, and regional grocery now represented",
+      "insight": "McDonald's (entered Oct 12), Lowe's (Oct 15), and H-E-B (Oct 16) have joined the verified brand set, extending coverage beyond national grocery into quick-service restaurants, home improvement, and Texas-dominant regional retail — though no new brand entries have appeared across eleven consecutive snapshots since Oct 16, suggesting the current beta user base has a defined geographic and behavioral footprint.",
       "magnitude": "medium"
     },
     {
-      "topic": "17 active metro areas with category-level granularity",
-      "insight": "Verified spend is distributed across 30 category/metro cells in 17 active metros, enabling geographic segmentation grounded in confirmed transactions rather than device-location inference — a meaningful distinction for regional campaign planning.",
+      "topic": "17 active metro areas with one structural contraction",
+      "insight": "The protocol covers 30 category/metro cells across 17 metro areas; metro count dropped from 18 to 17 between Oct 20 and Oct 21 and has held at 17 across five consecutive snapshots — no longer reads as transient data dropout, and marketers targeting specific DMAs should treat current metro coverage as the operative boundary until evidence of reversal.",
       "magnitude": "medium"
     },
     {
-      "topic": "Receipt velocity recovering after brief deceleration",
-      "insight": "Token acceleration dipped below 1.0x for two snapshots on October 18–19 then recovered to 1.046x–1.074x across four consecutive snapshots, confirming the slowdown was transient and that the underlying receipt intake rate remains structurally intact.",
-      "magnitude": "medium"
+      "topic": "The probabilistic-to-deterministic pricing gap is the core buy",
+      "insight": "The industry standard CPM for probabilistic behavioral targeting runs above $5; each verified receipt here carries a ~$0.10 settlement value against confirmed real-world purchase behavior — the signal is deterministic, category-tagged, and brand-attributed, which is the data type cookieless targeting alternatives are attempting to reconstruct through inference at higher cost.",
+      "magnitude": "high"
     }
   ]
 }
