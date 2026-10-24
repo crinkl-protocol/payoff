@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-10-23T01:45:17.964Z",
+  "updatedAt": "2026-10-24T09:45:13.273Z",
   "insights": [
     {
-      "topic": "Verified GMV approaching $5M threshold",
-      "insight": "Crinkl has processed $4,927,520 in cryptographically verified purchase GMV across 93,816 receipts — the $5M milestone is less than $72,500 away at current weekly pace of $92–97K, making this a live proof-of-scale moment for a protocol built on deterministic purchase confirmation rather than probabilistic inference.",
+      "topic": "Verified GMV milestone",
+      "insight": "Cumulative verified GMV stands at $4,960,678 across 94,620 receipts — the $5M threshold is approximately 3 days out at current pace, marking the first meaningful scale proof point for cryptographically confirmed consumer spend.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery dominates verified spend; Walmart leads by a wide margin",
-      "insight": "Grocery-supermarkets accounts for 1,502 receipts and $67,510 in verified GMV over 14 days — the single largest category by both volume and spend — with Walmart at 358 receipts leading all brands, more than double the next grocery competitor; Kroger (148) is now closing on Costco (159) after a multi-snapshot widening trend reversed.",
+      "topic": "Deterministic purchase proof vs. probabilistic targeting",
+      "insight": "Every receipt in the corpus represents a confirmed transaction, not an inferred intent signal — a structural advantage over cookie-based or contextual targeting that charges $5+ CPM to guess whether a purchase occurred.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt throughput is structurally steady at 340–370 per day",
-      "insight": "Complete UTC-day analysis confirms a consistent daily receipt intake with a repeatable evening acceleration window (T20:00–T00:15 UTC) that drives the highest single-interval counts; this is a structural pattern, not noise, giving planners a predictable data refresh cadence to build against.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "QSR, home improvement, and regional grocery now represented",
-      "insight": "McDonald's (entered Oct 12), Lowe's (Oct 15), and H-E-B (Oct 16) have joined the verified brand set, extending coverage beyond national grocery into quick-service restaurants, home improvement, and Texas-dominant regional retail — though no new brand entries have appeared across eleven consecutive snapshots since Oct 16, suggesting the current beta user base has a defined geographic and behavioral footprint.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "17 active metro areas with one structural contraction",
-      "insight": "The protocol covers 30 category/metro cells across 17 metro areas; metro count dropped from 18 to 17 between Oct 20 and Oct 21 and has held at 17 across five consecutive snapshots — no longer reads as transient data dropout, and marketers targeting specific DMAs should treat current metro coverage as the operative boundary until evidence of reversal.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "The probabilistic-to-deterministic pricing gap is the core buy",
-      "insight": "The industry standard CPM for probabilistic behavioral targeting runs above $5; each verified receipt here carries a ~$0.10 settlement value against confirmed real-world purchase behavior — the signal is deterministic, category-tagged, and brand-attributed, which is the data type cookieless targeting alternatives are attempting to reconstruct through inference at higher cost.",
+      "topic": "Grocery and mass retail dominate verified spend",
+      "insight": "Grocery-supermarkets leads all categories at 1,372 receipts and $61,874 in 14-day GMV; Walmart tops the brand list at 356 receipts, with Kroger, Costco, Aldi, and Safeway all visible — the dataset skews heavily toward high-frequency, everyday spend categories where brand competition is sharpest.",
       "magnitude": "high"
+    },
+    {
+      "topic": "Geographic footprint expanding",
+      "insight": "Active metro coverage expanded from 17 to 20 areas within a 24-hour window, suggesting organic user growth is distributing across new markets rather than concentrating in existing ones — relevant for brands evaluating regional targeting reach.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Structural daily receipt cadence",
+      "insight": "The protocol is processing roughly 340–370 receipts per day with a confirmed burst window between 20:00–00:15 UTC, indicating a stable and predictable data supply rather than episodic or synthetic volume.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Cross-channel purchase identity via DKIM",
+      "insight": "The verified sender set spans physical retail, e-commerce, SaaS, and digital goods — meaning the same identity layer that confirms a Walmart grocery run also confirms an Amazon or Stripe transaction, offering a unified purchase graph without device fingerprinting.",
+      "magnitude": "medium"
     }
   ]
 }
