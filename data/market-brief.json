@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-10-24T09:45:13.273Z",
+  "updatedAt": "2026-10-25T17:45:14.604Z",
   "insights": [
     {
       "topic": "Verified GMV milestone",
-      "insight": "Cumulative verified GMV stands at $4,960,678 across 94,620 receipts — the $5M threshold is approximately 3 days out at current pace, marking the first meaningful scale proof point for cryptographically confirmed consumer spend.",
+      "insight": "Crinkl is within $16,141 of $5M in cryptographically verified purchase GMV across 95,099 receipts — a threshold no probabilistic ad-targeting dataset can claim because the underlying transactions are confirmed, not inferred.",
       "magnitude": "high"
     },
     {
-      "topic": "Deterministic purchase proof vs. probabilistic targeting",
-      "insight": "Every receipt in the corpus represents a confirmed transaction, not an inferred intent signal — a structural advantage over cookie-based or contextual targeting that charges $5+ CPM to guess whether a purchase occurred.",
+      "topic": "Physical retail brand concentration",
+      "insight": "Walmart leads the 14-day receipt count at 349, followed by Costco (164), Kroger (149), Safeway (136), and Aldi (127) — a grocery-and-mass-retail skew that maps directly to the highest-frequency purchase categories where CPG and FMCG brands compete for shelf and share.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery and mass retail dominate verified spend",
-      "insight": "Grocery-supermarkets leads all categories at 1,372 receipts and $61,874 in 14-day GMV; Walmart tops the brand list at 356 receipts, with Kroger, Costco, Aldi, and Safeway all visible — the dataset skews heavily toward high-frequency, everyday spend categories where brand competition is sharpest.",
+      "topic": "Geographic expansion signal",
+      "insight": "Active metro coverage expanded from 17 to 20 areas across a 48-hour window ending Oct 24, now spanning 30 category/metro cells — a footprint expansion that matters for brands running geo-targeted campaigns against verified in-store spend.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Receipt-level purchase proof vs. probabilistic targeting",
+      "insight": "At $0.10 verified value per receipt, each data point represents a confirmed transaction — not a modeled lookalike or a cookie-inferred intent signal — making the cost-per-verified-purchase-event competitive against $5+ CPM probabilistic buys that cannot confirm a transaction occurred.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic footprint expanding",
-      "insight": "Active metro coverage expanded from 17 to 20 areas within a 24-hour window, suggesting organic user growth is distributing across new markets rather than concentrating in existing ones — relevant for brands evaluating regional targeting reach.",
+      "topic": "Category mix and dining entry",
+      "insight": "Grocery-supermarkets leads 14-day volume (1,339 receipts, $59K GMV), but restaurants-dining has reached 1,096 receipts at $33K GMV, and QSR entrant McDonald's has held a visible position since Oct 12 — indicating the dataset is extending from pantry spend into away-from-home food occasions.",
       "magnitude": "medium"
     },
     {
       "topic": "Structural daily receipt cadence",
-      "insight": "The protocol is processing roughly 340–370 receipts per day with a confirmed burst window between 20:00–00:15 UTC, indicating a stable and predictable data supply rather than episodic or synthetic volume.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Cross-channel purchase identity via DKIM",
-      "insight": "The verified sender set spans physical retail, e-commerce, SaaS, and digital goods — meaning the same identity layer that confirms a Walmart grocery run also confirms an Amazon or Stripe transaction, offering a unified purchase graph without device fingerprinting.",
+      "insight": "The protocol is producing 340–370 verified receipts per day with a confirmed UTC evening burst window running 99–119 receipts per 3-hour slot across six consecutive cycles — a consistent throughput signal, not a spike, that indicates predictable data supply for brands planning audience builds.",
       "magnitude": "medium"
     }
   ]
