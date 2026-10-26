@@ -1,4 +1,11 @@
 {
-  "updatedAt": "2026-10-26T01:45:00.400Z",
-  "observations": []
+  "updatedAt": "2026-10-26T09:45:00.326Z",
+  "observations": [
+    {
+      "ts": "2026-10-26T03:16:33.354Z",
+      "topic": "geo-coverage",
+      "magnitude": "medium",
+      "observation": "Two aggregate metro coverage cells newly visible this heartbeat (CBSAs 12580 and 38900), bringing the active public map surface to 21 cells — a 9.5% single-heartbeat expansion in visible aggregate coverage."
+    }
+  ]
 }
