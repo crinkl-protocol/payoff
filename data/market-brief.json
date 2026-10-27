@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-10-25T17:45:14.604Z",
+  "updatedAt": "2026-10-27T01:45:10.822Z",
   "insights": [
     {
       "topic": "Verified GMV milestone",
-      "insight": "Crinkl is within $16,141 of $5M in cryptographically verified purchase GMV across 95,099 receipts — a threshold no probabilistic ad-targeting dataset can claim because the underlying transactions are confirmed, not inferred.",
+      "insight": "$5M in cryptographically verified purchase GMV has cleared across 95,730 receipts — a deterministic commerce signal base that probabilistic cookie targeting cannot replicate at any price.",
       "magnitude": "high"
     },
     {
-      "topic": "Physical retail brand concentration",
-      "insight": "Walmart leads the 14-day receipt count at 349, followed by Costco (164), Kroger (149), Safeway (136), and Aldi (127) — a grocery-and-mass-retail skew that maps directly to the highest-frequency purchase categories where CPG and FMCG brands compete for shelf and share.",
+      "topic": "Receipt volume pace",
+      "insight": "Structural daily intake runs 340–370 verified receipts per day with a confirmed UTC rollover burst pattern across seven consecutive cycles, indicating a stable and predictable signal supply rather than spiky promotional inflows.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Category concentration",
+      "insight": "Grocery-supermarkets leads by receipt count (1,376 over 14 days, $61,816 GMV) while retail-department-stores leads on implied spend-per-receipt — giving media buyers two distinct audience segments from the same verified dataset.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic expansion signal",
-      "insight": "Active metro coverage expanded from 17 to 20 areas across a 48-hour window ending Oct 24, now spanning 30 category/metro cells — a footprint expansion that matters for brands running geo-targeted campaigns against verified in-store spend.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Receipt-level purchase proof vs. probabilistic targeting",
-      "insight": "At $0.10 verified value per receipt, each data point represents a confirmed transaction — not a modeled lookalike or a cookie-inferred intent signal — making the cost-per-verified-purchase-event competitive against $5+ CPM probabilistic buys that cannot confirm a transaction occurred.",
+      "topic": "Brand-level purchase confirmation",
+      "insight": "Walmart (355 receipts), Costco (165), Kroger (156), Safeway (139), and Aldi (129) are the top verified purchaser pools over 14 days — confirmed buyers, not modeled lookalikes, usable for competitive conquest or loyalty targeting.",
       "magnitude": "high"
     },
     {
-      "topic": "Category mix and dining entry",
-      "insight": "Grocery-supermarkets leads 14-day volume (1,339 receipts, $59K GMV), but restaurants-dining has reached 1,096 receipts at $33K GMV, and QSR entrant McDonald's has held a visible position since Oct 12 — indicating the dataset is extending from pantry spend into away-from-home food occasions.",
+      "topic": "Geographic coverage",
+      "insight": "Verified purchase signals now span 20 confirmed metro areas, with the 17→19→20 progression occurring within three days — coverage is expanding, though the most recent claimed 21st metro has not yet confirmed as structural.",
       "magnitude": "medium"
     },
     {
-      "topic": "Structural daily receipt cadence",
-      "insight": "The protocol is producing 340–370 verified receipts per day with a confirmed UTC evening burst window running 99–119 receipts per 3-hour slot across six consecutive cycles — a consistent throughput signal, not a spike, that indicates predictable data supply for brands planning audience builds.",
-      "magnitude": "medium"
+      "topic": "Cost-per-verified-receipt economics",
+      "insight": "Dollar-denominated value per verified receipt holds at approximately $0.10, establishing a concrete floor for what cryptographic purchase proof costs relative to the $5+ CPM brands routinely pay for probabilistic inference.",
+      "magnitude": "high"
     }
   ]
 }
