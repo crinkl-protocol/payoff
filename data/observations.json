@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-28T09:45:14.415Z",
+  "updatedAt": "2026-10-28T17:45:00.284Z",
   "observations": [
+    {
+      "ts": "2026-10-28T15:16:54.532Z",
+      "topic": "brand-list",
+      "magnitude": "medium",
+      "observation": "The UPS Store appeared in the thresholded top brand list this heartbeat — a new entry crossing the visibility floor. The 14-day trailing window moved from $224,491 to $226,194 on 5,198 receipts (up 51 in the window)."
+    },
     {
       "ts": "2026-10-26T03:16:33.354Z",
       "topic": "geo-coverage",

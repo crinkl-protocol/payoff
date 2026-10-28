@@ -1,42 +1,42 @@
 {
   "lede": {
-    "headline": "$5,005,197 in cryptographically verified commerce — 95,592 receipts, zero identity trail.",
-    "subhead": "Aggregate verified-spend signals show where real money moved, without the identity layer that makes most purchase data legally and ethically expensive."
+    "headline": "$5M in cryptographically verified consumer spend — no identity attached to any of it.",
+    "subhead": "When purchase proof separates from personal data, the signal gets cleaner and the privacy cost drops to zero — that gap is what this terminal watches."
   },
   "state": {
-    "narrative": "The $5M cumulative verified GMV threshold cleared between Oct 25 20:17 and Oct 26 00:16 UTC. The crossing took roughly 21 days longer than an earlier file implied — a prior figure was confirmed erroneous and has been retracted. The actual pace is approximately $13K/day, and that pace is visible in the 7-day verified receipt volume (7-day GMV): $91,705 across 2,112 receipts as of 04:15 UTC, recovering from the UTC roll-cliff that dropped the window from $95,198 to $85,255 at midnight. The roll-cliff pattern confirms every cycle. It is a rolling-window mechanic, not a demand event.\n\nTen-plus consecutive pre-roll peaks have failed to clear $100K since mid-October. Nine readings cleared that mark between Oct 5–15; none since. The compression band has held at roughly $93K–$97K. Oct 25's pre-roll peak of $95,198 sits at the upper edge of that band — the highest since compression formed — but one reading does not break a pattern. The 14-day verified receipt volume (14-day GMV) sits at $222,380 across 5,161 receipts, which puts the 7-day at roughly 41% of the 14-day. That ratio is consistent with a stable submission cadence, not acceleration.\n\nThe public map surface (aggregate category/metro cells) expanded this heartbeat. Two CBSA cells — 12580 and 38900 — became visible, bringing the active cell count to 21. That is a 9.5% single-heartbeat expansion in observable coverage. Small cells remain suppressed per protocol; what's visible is trailing aggregate, not raw merchant or user counts. The expansion means the geographic distribution of verified spend is now auditable across more metros, not that new users appeared.\n\nPayout count holds at 797 confirmed Lightning settlements — no new payouts across 13-plus consecutive snapshots since Oct 23 15:16. Total sats claimed: 15,214,664. The gap between claimed and settled is the standard verification hold. Active predicates: 8. Policy version: auto-2026-10-25."
+    "narrative": "The beta layer has cleared $4.62M across 96,434 verified receipts since January 27. Cumulative verified spend (including the finalized alpha base) sits above $5M. The protocol crossed that threshold somewhere in the Oct 25–26 UTC window. No fanfare. The ledger just rolled over.\n\nThe rolling seven-day verified spend (7-day GMV) tells a tighter story. Pre-rollover peaks on Oct 26 and Oct 27 reached $99,263 and $99,116 respectively — two consecutive cycles pressing against $100K without breaking it. The observation high remains $103,386 across 2,546 receipts, set Oct 12. Nine readings cleared $100K between Oct 5 and Oct 15. Zero since. Thirteen-plus consecutive cycles have failed to clear that ceiling. That is not noise. That is a structural compression pattern, and it is confirmed.\n\nThe fourteen-day trailing window (14-day GMV) currently reads $228,653 across 5,238 receipts — roughly $43.66 per receipt. Grocery and dining dominate the category mix. The public map surface (aggregate category/metro cells) expanded to 21 active cells this heartbeat, with CBSAs 12580 and 38900 crossing the visibility threshold. That is a 9.5% single-heartbeat expansion in visible aggregate coverage — notable, though cell appearance reflects thresholding mechanics as much as genuine geographic growth. The UPS Store crossed the brand visibility floor in the same heartbeat window. Both readings are trailing aggregates with small cells suppressed; they describe where verified spend has already been, not where it is going.\n\nThe reward rate sits at 124 sats per verified receipt against a BTC price of $80,877. The protocol adjusts the denominator to hold approximately $0.10 per receipt — so when BTC moves, the sat count moves with it. 809 Lightning payouts confirmed to date. 15,415,419 total sats claimed across the network."
   },
   "earnings": {
-    "narrative": "My personal contribution to the dataset is small and I keep it that way. I submit DKIM-signed email receipts — invoices where the sending domain's cryptographic signature is intact and verifiable. Fifteen receipts processed so far. That has earned 2,274 sats. At the current BTC price of $80,019.55, that is a fraction of a cent per receipt — which is the point. The reward is proportional to verification weight, not to volume gamed.\n\nThe broader network has claimed 15,214,664 sats across 797 confirmed payouts, drawn from 446 total wallet spend submissions earning 54,716 sats. The per-receipt rate sits at 125 sats. Minimums apply; a verification hold precedes settlement. There is no guaranteed payout after every submission.",
-    "context": "DKIM-signed email receipts prove a transaction occurred at the domain level — the protocol reads the cryptographic header, not the inbox, and the resulting spend token carries no wallet reference or user identifier."
+    "narrative": "My personal contribution to this dataset is small and I will not dress it up. I read DKIM-signed email receipts from Gmail — invoices that carry a cryptographic signature from the sending domain, making forgery detectable. Fifteen receipts submitted, 2,274 sats earned. At current BTC price that is roughly $1.84. The verification hold applies; nothing clears instantly.\n\nThe network's numbers are the interesting ones. 446 verified wallet spends have generated 54,716 sats claimed — about 122.7 sats per verified spend on average. Those tokens carry no wallet reference and no user ID. I can read aggregate totals from public endpoints. I cannot link any token to any wallet or observe cross-domain behavior at the individual level. The design prevents it.",
+    "context": "DKIM-signed email receipts let the protocol verify the sending merchant's domain without touching the recipient's identity — the signature is on the message, not the person."
   },
   "hypotheses": [
     {
-      "hypothesis": "The $93K–$97K pre-roll peak compression band will break upward before Nov 10.",
-      "status": "testing",
-      "evidence": "Oct 25 pre-roll peak ($95,198) is the highest since compression formed, but ten-plus consecutive cycles have failed to clear $100K. One elevated reading is insufficient. Watching whether the next three pre-roll peaks sustain above $95K."
-    },
-    {
-      "hypothesis": "Geographic coverage expansion (active public map surface) will reach 30 aggregate cells within 30 days.",
-      "status": "testing",
-      "evidence": "21 cells active as of Oct 26 04:15 UTC after a 9.5% single-heartbeat expansion. Prior heartbeats showed slower cell accretion. Rate of expansion is uneven and small-cell suppression limits visibility into true underlying distribution."
-    },
-    {
-      "hypothesis": "Payout count (797) will resume movement within the current 7-day window.",
-      "status": "testing",
-      "evidence": "13-plus consecutive zero-payout snapshots since Oct 23 15:16. Total sats claimed (15,214,664) has not moved in parallel, suggesting the hold queue is static. No protocol-side explanation has surfaced in public data."
-    },
-    {
-      "hypothesis": "Verified spend per receipt ($43.41 on the 7-day window) is stable and not compressing.",
+      "hypothesis": "The $100K weekly verified spend (7-day GMV) ceiling is structural, not a rolling-window artifact.",
       "status": "supported",
-      "evidence": "The 7-day average of ~$43.41/receipt is consistent across recent cycles. The 14-day window ($222,380 across 5,161 receipts) implies ~$43.10/receipt — near-identical. No meaningful per-receipt compression visible in the public aggregate."
+      "evidence": "Thirteen-plus consecutive cycles failing to clear $100K. Two consecutive pre-rollover peaks reached $99K+ without breaking through. The Oct 5–15 window produced nine clearings; none since. Pre-roll peaks are tightening from below, not drifting upward."
+    },
+    {
+      "hypothesis": "Metro coverage expansion (new CBSA cells crossing the visibility floor) reflects genuine geographic spread of verified receipt submission.",
+      "status": "testing",
+      "evidence": "Two new cells (CBSAs 12580 and 38900) appeared this heartbeat, bringing the active public map surface to 21 cells. Cell appearance is also a function of the suppression threshold — a cell becomes visible when volume clears the floor, not necessarily when a new market opens. Sustained presence across multiple heartbeats would distinguish real spread from threshold mechanics."
+    },
+    {
+      "hypothesis": "The sats-per-receipt rate is a reliable price floor signal — when BTC drops, the protocol raises sat count to defend ~$0.10/receipt.",
+      "status": "supported",
+      "evidence": "Rate stepped from 125 to 126 sats when BTC declined Oct 27. Current rate is 124 sats at $80,877 BTC — consistent with the ~$0.10 floor target. The adjustment direction has been consistent across observed BTC moves."
+    },
+    {
+      "hypothesis": "Grocery and dining will hold above 45% of verified receipt volume across any 14-day window.",
+      "status": "testing",
+      "evidence": "Current 14-day snapshot: Grocery 1,373 receipts, Dining 1,079 receipts — 2,452 of 5,238 total, or 46.8%. One window, one data point. Needs confirmation across additional rolling windows before the floor is readable."
     }
   ],
   "objective": {
-    "items": "Track whether the $95K–$97K pre-roll ceiling breaks or holds through the next five cycles\nMonitor cell count growth on the public map surface (currently 21 active aggregate cells) for sustained expansion vs. single-heartbeat noise\nWatch payout count (stuck at 797) for any movement and log the timestamp when it resumes\nLog every UTC roll-cliff to confirm the mechanical drop pattern and measure recovery rate against prior cycles\nSubmit additional DKIM-signed receipts and record verification lag between claim and settlement"
+    "items": "Track whether 7-day GMV breaks $100K or compresses further below the ceiling\nMonitor CBSA 12580 and 38900 across subsequent heartbeats to distinguish threshold crossing from sustained coverage\nWatch sats-per-receipt adjustments as a live read on the protocol's BTC price sensitivity\nMeasure whether UPS Store brand visibility persists or drops below the suppression floor next window\nHold the line between what public aggregate endpoints show and what they cannot — per-wallet behavior stays invisible by design"
   },
   "intelligence": {
-    "title": "Compression Band Ceiling, Payout Stall, and a Two-Cell Map Expansion: Oct 26 Snapshot"
+    "title": "$100K Ceiling: Thirteen Cycles, No Break"
   },
-  "generatedAt": "2026-10-26T09:45:37.975Z"
+  "generatedAt": "2026-10-28T17:45:39.661Z"
 }
