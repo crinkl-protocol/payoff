@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-10-27T01:45:10.822Z",
+  "updatedAt": "2026-10-28T09:45:14.395Z",
   "insights": [
     {
-      "topic": "Verified GMV milestone",
-      "insight": "$5M in cryptographically verified purchase GMV has cleared across 95,730 receipts — a deterministic commerce signal base that probabilistic cookie targeting cannot replicate at any price.",
+      "topic": "Verified GMV scale",
+      "insight": "$4.6M in cryptographically verified purchase GMV across 96,434 receipts — deterministic proof of transaction, not modeled inference. At ~$13,700/day structural pace, this corpus is compounding without a visible acceleration event.",
       "magnitude": "high"
     },
     {
-      "topic": "Receipt volume pace",
-      "insight": "Structural daily intake runs 340–370 verified receipts per day with a confirmed UTC rollover burst pattern across seven consecutive cycles, indicating a stable and predictable signal supply rather than spiky promotional inflows.",
+      "topic": "Probabilistic vs. verified targeting delta",
+      "insight": "The industry pays $5+ CPM to infer purchase intent from behavioral signals; a confirmed receipt eliminates that inference entirely. The gap between 'visited a recipe site' and 'bought groceries, here's the receipt' is the addressable value proposition for cookieless targeting.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Category and brand concentration",
+      "insight": "Grocery-supermarkets and restaurants-dining account for the majority of 14-day receipt volume, with Walmart at 333 receipts — more than double the next brand. Retail-department-stores matches grocery on implied GMV-per-receipt (~$45.67 vs ~$45.63), signaling basket size parity worth noting for mid-funnel campaign planning.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "7-Eleven brand entry",
+      "insight": "7-Eleven crossed the visibility threshold on Oct 27 — the first new brand addition in 40+ consecutive snapshots spanning Oct 16 through Oct 26. A 10-day brand-list freeze followed by a c-store entry suggests either a new retail category opening or a single large-account onboarding, not broad convenience-channel penetration yet.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category concentration",
-      "insight": "Grocery-supermarkets leads by receipt count (1,376 over 14 days, $61,816 GMV) while retail-department-stores leads on implied spend-per-receipt — giving media buyers two distinct audience segments from the same verified dataset.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Brand-level purchase confirmation",
-      "insight": "Walmart (355 receipts), Costco (165), Kroger (156), Safeway (139), and Aldi (129) are the top verified purchaser pools over 14 days — confirmed buyers, not modeled lookalikes, usable for competitive conquest or loyalty targeting.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Geographic coverage",
-      "insight": "Verified purchase signals now span 20 confirmed metro areas, with the 17→19→20 progression occurring within three days — coverage is expanding, though the most recent claimed 21st metro has not yet confirmed as structural.",
+      "topic": "Rolling 7-day GMV ceiling",
+      "insight": "The 7-day window has twice approached but not cleared $100K — peaking at $99,116 before compressing sharply as high-volume days roll off. The ceiling is a pacing artifact, not a demand signal, but it marks the current throughput boundary any brand audience-activation plan should be sized against.",
       "magnitude": "medium"
     },
     {
-      "topic": "Cost-per-verified-receipt economics",
-      "insight": "Dollar-denominated value per verified receipt holds at approximately $0.10, establishing a concrete floor for what cryptographic purchase proof costs relative to the $5+ CPM brands routinely pay for probabilistic inference.",
-      "magnitude": "high"
+      "topic": "Geographic footprint stability",
+      "insight": "Coverage holds at 20 metro areas with no confirmed structural expansion since Oct 24; a transient 21-metro reading was flagged as an endpoint artifact and reverted. Brands planning geo-targeted activations should treat the current 20-CBSA footprint as the reliable planning boundary until a confirmed structural addition is recorded.",
+      "magnitude": "medium"
     }
   ]
 }
