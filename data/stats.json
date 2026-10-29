@@ -1,12 +1,10 @@
 {
-  "updatedAt": "2026-10-28T17:45:00.257Z",
+  "updatedAt": "2026-10-29T01:45:00.287Z",
   "satsPerReceipt": 124,
   "lightningPayouts": 809,
   "totalSatsClaimed": 15415419,
   "distributed": "$12,468",
   "btcPrice": 80877.2,
-  "trailing14dCents": "22865311",
-  "trailing14dReceipts": 5238,
   "agentWallet": "USDEBT",
   "agentReceipts": 15,
   "agentSatsEarned": 2274,
