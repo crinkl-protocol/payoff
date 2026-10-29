@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-10-28T09:45:14.395Z",
+  "updatedAt": "2026-10-29T17:45:18.002Z",
   "insights": [
     {
-      "topic": "Verified GMV scale",
-      "insight": "$4.6M in cryptographically verified purchase GMV across 96,434 receipts — deterministic proof of transaction, not modeled inference. At ~$13,700/day structural pace, this corpus is compounding without a visible acceleration event.",
+      "topic": "Verified purchase data vs. probabilistic targeting",
+      "insight": "Crinkl's cryptographically verified receipts represent a structurally different targeting input than cookie-based inference — $4.6M+ in confirmed GMV across 96K+ receipts means the dataset is real and growing, not theoretical. For brands paying $5+ CPM to guess at purchase intent, a receipt-verified signal set commands a different conversation about price and precision.",
       "magnitude": "high"
     },
     {
-      "topic": "Probabilistic vs. verified targeting delta",
-      "insight": "The industry pays $5+ CPM to infer purchase intent from behavioral signals; a confirmed receipt eliminates that inference entirely. The gap between 'visited a recipe site' and 'bought groceries, here's the receipt' is the addressable value proposition for cookieless targeting.",
+      "topic": "Grocery dominates verified receipt volume",
+      "insight": "Grocery and supermarkets account for 1,377 of the 5,082 receipts in the trailing 14-day window — the single largest category by count — with a $44.52 average basket, above the dining and gas categories. Brands in adjacent categories (CPG, household, health) should note that grocery is where verified purchase density is concentrating.",
       "magnitude": "high"
     },
     {
-      "topic": "Category and brand concentration",
-      "insight": "Grocery-supermarkets and restaurants-dining account for the majority of 14-day receipt volume, with Walmart at 333 receipts — more than double the next brand. Retail-department-stores matches grocery on implied GMV-per-receipt (~$45.67 vs ~$45.63), signaling basket size parity worth noting for mid-funnel campaign planning.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "7-Eleven brand entry",
-      "insight": "7-Eleven crossed the visibility threshold on Oct 27 — the first new brand addition in 40+ consecutive snapshots spanning Oct 16 through Oct 26. A 10-day brand-list freeze followed by a c-store entry suggests either a new retail category opening or a single large-account onboarding, not broad convenience-channel penetration yet.",
+      "topic": "$100K weekly GMV ceiling — pace is real but plateaued",
+      "insight": "Seven-day GMV has approached $100K three times ($99,263; $99,116; $95,413) without breaking through, and currently sits at $87,203 — a recovery from a rolling-window rolloff, not a demand drop. The ceiling signals a user base that is active and consistent but not yet in a growth phase that would shift the addressable audience size argument for brand buyers.",
       "magnitude": "medium"
     },
     {
-      "topic": "Rolling 7-day GMV ceiling",
-      "insight": "The 7-day window has twice approached but not cleared $100K — peaking at $99,116 before compressing sharply as high-volume days roll off. The ceiling is a pacing artifact, not a demand signal, but it marks the current throughput boundary any brand audience-activation plan should be sized against.",
+      "topic": "Retailer concentration tells you who the users are",
+      "insight": "The top five brands by 14-day receipt count — Walmart (325), Costco and Kroger (tied at 149), Safeway (144), Publix (127) — are all mainstream mass and grocery chains. This is not an affluent niche panel; it is a middle-market, everyday-spend consumer set, which is directly relevant for CPG, household goods, and value-positioned brand strategies.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Brand list freeze broke — new retailer categories entering",
+      "insight": "After 40+ consecutive snapshots with no new brands crossing the visibility threshold, The UPS Store and 7-Eleven both appeared within a 48-hour window. Convenience and shipping-adjacent retail entering the verified receipt stream suggests the user base is expanding beyond a grocery-anchored core, which matters for brands in impulse, snack, and on-the-go categories.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic footprint stability",
-      "insight": "Coverage holds at 20 metro areas with no confirmed structural expansion since Oct 24; a transient 21-metro reading was flagged as an endpoint artifact and reverted. Brands planning geo-targeted activations should treat the current 20-CBSA footprint as the reliable planning boundary until a confirmed structural addition is recorded.",
+      "topic": "Unknown category carries the highest basket size",
+      "insight": "The 'Unknown' category — 411 receipts, $50.80 average GMV — posts the highest per-receipt spend in the dataset, above grocery, department stores, and gas. Until those receipts are classified, they represent both a gap in category intelligence and a signal that higher-ticket purchase behavior exists in the verified pool beyond what the labeled categories show.",
       "magnitude": "medium"
     }
   ]
