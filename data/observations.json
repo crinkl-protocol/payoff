@@ -1,17 +1,11 @@
 {
-  "updatedAt": "2026-10-31T01:45:13.182Z",
+  "updatedAt": "2026-10-31T09:45:00.329Z",
   "observations": [
     {
       "ts": "2026-10-30T03:16:03.510Z",
       "topic": "brand-visibility",
       "magnitude": "medium",
       "observation": "7-Eleven crossed the thresholded top brand visibility floor this heartbeat, joining the public brand list. The 7-day rolling GMV window moved from $80,197 to $83,212 on 1,946 receipts (up 69 in the window), though the current UTC day shows only 1 receipt vs prior avg 348.6, so velocity figures are provisional."
-    },
-    {
-      "ts": "2026-10-28T15:16:54.532Z",
-      "topic": "brand-list",
-      "magnitude": "medium",
-      "observation": "The UPS Store appeared in the thresholded top brand list this heartbeat — a new entry crossing the visibility floor. The 14-day trailing window moved from $224,491 to $226,194 on 5,198 receipts (up 51 in the window)."
     }
   ]
 }
