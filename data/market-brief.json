@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-10-31T01:45:13.160Z",
+  "updatedAt": "2026-11-01T09:45:15.623Z",
   "insights": [
     {
-      "topic": "Verified purchase volume baseline",
-      "insight": "Crinkl is processing roughly $13,700–$14,000 in cryptographically verified GMV per day across confirmed receipts, with cumulative volume past $4.6M and tracking toward $5M — a deterministic purchase signal at a scale that makes probabilistic cookie-based inference look structurally weak by comparison.",
+      "topic": "Verified purchase data vs. probabilistic targeting",
+      "insight": "Crinkl's protocol converts physical and digital receipts into cryptographically verified purchase events — deterministic proof of transaction rather than behavioral inference. At ~$0.10 per verified receipt, the cost to confirm a real purchase is a fraction of the $5+ CPM brands pay for probabilistic signals that only estimate purchase intent.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery and retail category dominance",
-      "insight": "In the trailing 14-day window, grocery-supermarkets (1,397 receipts / $62K) and retail-department-stores (818 receipts / $34K) account for the majority of verified receipt volume — the categories where brand marketers spend the most on shopper targeting are where purchase proof is densest.",
+      "topic": "Grocery dominates verified receipt volume",
+      "insight": "Grocery-supermarkets leads all categories at 1,369 receipts and $58,590 GMV in the trailing 14-day window, with Walmart (327), Costco (148), Kroger (143), Publix (131), and Safeway (129) comprising the top five by receipt count. Brands competing in CPG and household goods have the densest verified purchase signal available in this dataset today.",
       "magnitude": "high"
     },
     {
-      "topic": "Walmart leads verified brand receipt density",
-      "insight": "Walmart holds 323 receipts in the 14-day trailing window, nearly double second-place Kroger (147) and Costco (143) — for CPG and mass-market brands, Walmart shopper verification is the highest-density signal currently available in this dataset.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Restaurants and dining now measurable",
-      "insight": "Restaurants-and-dining crossed the visibility threshold in the trailing aggregate window as of Oct 30, contributing 1,031 receipts and $32K in verified spend — QSR and casual-dining brands now have a confirmed category signal to evaluate for post-purchase targeting use cases.",
+      "topic": "Restaurants & Dining confirmed as a durable category",
+      "insight": "Restaurants & Dining first appeared October 30 and has held 1,004–1,028 receipts across multiple rolloff cycles before settling at 1,014 in the November 1 snapshot — persistence through two distinct rolloff events suggests organic signal, not a data artifact. QSR and casual dining brands now have a confirmed category footprint to evaluate.",
       "magnitude": "medium"
     },
     {
-      "topic": "7-Eleven and UPS Store brand-list entries",
-      "insight": "Two new brands crossed the receipt-density visibility threshold within 96 hours after a 40-snapshot freeze — 7-Eleven signals convenience-channel penetration and UPS Store signals service-retail, both categories historically underserved by purchase-verified targeting data.",
+      "topic": "Gas & convenience channel expanding with named brands",
+      "insight": "7-Eleven crossed the brand visibility threshold October 30 and Circle K followed October 31, joining a gas-convenience category that already carries 617 receipts and $24,533 GMV in the 14-day window. Two brand additions in under 48 hours broke a 40-snapshot freeze — the channel is actively onboarding, not static.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic coverage expansion signal",
-      "insight": "Active metro coverage has reached 19 confirmed CBSA cells, with CBSA 11700 appearing in two consecutive snapshots — geographic reach is widening incrementally, but marketers should treat current footprint as regional rather than national scale until cell count grows materially.",
+      "topic": "Digital receipt verification covers AI and e-commerce platforms",
+      "insight": "The confirmed DKIM vendor list includes Amazon, Stripe, Paddle, Gumroad, Anthropic, OpenAI, and Suno — spanning e-commerce transactions, subscription payments, and AI service purchases. Brands targeting digitally active, subscription-paying consumers have a verified purchase signal path that does not depend on cookie-based tracking.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Settlement cadence is episodic, not continuous",
+      "insight": "809 confirmed payouts have produced no new settlements across 35+ consecutive snapshots spanning a full calendar week — burst windows separated by extended zero-payout periods are the established pattern. Brands evaluating this as a real-time activation channel should model latency into any campaign timing assumption.",
       "magnitude": "medium"
     }
   ]
