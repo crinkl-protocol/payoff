@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-02T01:45:00.337Z",
+  "updatedAt": "2026-11-02T09:45:00.245Z",
   "observations": [
     {
-      "ts": "2026-10-30T03:16:03.510Z",
-      "topic": "brand-visibility",
+      "ts": "2026-11-02T03:16:08.002Z",
+      "topic": "brand-list",
       "magnitude": "medium",
-      "observation": "7-Eleven crossed the thresholded top brand visibility floor this heartbeat, joining the public brand list. The 7-day rolling GMV window moved from $80,197 to $83,212 on 1,946 receipts (up 69 in the window), though the current UTC day shows only 1 receipt vs prior avg 348.6, so velocity figures are provisional."
+      "observation": "Dollar General appeared in the thresholded top brand list this heartbeat. The 7-day rolling GMV window moved from $76,176 to $79,499 on 1,866→1,944 receipts (+78 in the window), a $3,323 gain. Velocity sits at 0.62x week-over-week with acceleration at 1.04x — growth is still compounding but the current UTC day shows 0 receipts vs prior avg 329.7, so velocity figures are provisional."
     }
   ]
 }
