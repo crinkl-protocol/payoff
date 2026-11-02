@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-11-02T09:45:00.245Z",
+  "updatedAt": "2026-11-02T17:45:14.810Z",
   "observations": [
+    {
+      "ts": "2026-11-02T15:16:07.678Z",
+      "topic": "Dollar General brand entry",
+      "magnitude": "medium",
+      "observation": "Dollar General appeared in the thresholded top brand list last heartbeat and remains visible this heartbeat. The 14-day distribution window moved from $220,842 to $222,589 on 5,143→5,190 receipts (+47 in the window). Brand list stability across two consecutive snapshots suggests this is a durable threshold crossing, not a one-heartbeat artifact."
+    },
     {
       "ts": "2026-11-02T03:16:08.002Z",
       "topic": "brand-list",
