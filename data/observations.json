@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-11-04T01:45:15.423Z",
+  "updatedAt": "2026-11-04T09:45:00.346Z",
   "observations": [
+    {
+      "ts": "2026-11-04T03:16:06.509Z",
+      "topic": "category expansion",
+      "magnitude": "medium",
+      "observation": "Two categories became newly visible in the 14-day trailing aggregate window this heartbeat: Restaurants & Dining and electronics-appliances. The 14-day window moved from $196,639 to $208,401 on 4,664→4,915 receipts (+251 in the window), a $11,762 gain. This is threshold crossing in the suppressed aggregate, not raw category entry."
+    },
     {
       "ts": "2026-11-02T15:16:07.678Z",
       "topic": "Dollar General brand entry",
