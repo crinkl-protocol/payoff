@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-11-02T17:45:14.773Z",
+  "updatedAt": "2026-11-04T01:45:15.396Z",
   "insights": [
     {
       "topic": "Verified purchase proof vs. probabilistic targeting",
-      "insight": "Crinkl's cryptographically verified receipts confirm a purchase occurred — not inferred from browsing behavior. At ~$0.10 per verified receipt, the cost-per-confirmed-transaction is orders of magnitude below the $5+ CPM brands pay for probabilistic audience inference.",
+      "insight": "Crinkl's cryptographically verified receipts represent deterministic purchase confirmation — a structurally different signal from cookie-based inference. At ~$0.10 per verified receipt, the cost of confirmed purchase data is a fraction of the $5+ CPM brands pay to infer purchase intent from behavioral proxies.",
       "magnitude": "high"
     },
     {
       "topic": "Grocery and retail category depth",
-      "insight": "Grocery-supermarkets leads by receipt volume (1,400 receipts, 14-day) while retail-department-stores leads by GMV ($35,379 vs. $30,650) despite 582 fewer receipts — a measurable average-ticket gap that separates category audiences by spend behavior, not just purchase frequency.",
+      "insight": "14-day data shows grocery-supermarkets leading by receipt volume (1,407 receipts) while retail-department-stores leads by GMV ($35,039 vs. $60,361 across 614 fewer receipts) — a confirmed higher average ticket in retail. Brands targeting either channel have category-level purchase verification, not modeled audience segments.",
       "magnitude": "high"
     },
     {
-      "topic": "Brand concentration at the top of the receipt stack",
-      "insight": "Walmart (333 receipts), Costco (149), and Kroger (145) account for a disproportionate share of 14-day verified volume; Safeway and Publix trail at 127–130. For CPG and FMCG brands, this confirms the protocol's audience skews toward mainstream mass and club-channel shoppers, not specialty retail.",
+      "topic": "Walmart, Costco, Kroger receipt concentration",
+      "insight": "The top three brands by 14-day receipt count — Walmart (314), Costco Wholesale (138), Kroger (137) — account for a disproportionate share of verified grocery GMV. For CPG brands seeking verified in-store purchase data at scale, concentration in these three retailers is the current reality of where verified receipt volume actually lives.",
       "magnitude": "high"
     },
     {
-      "topic": "Gas-convenience channel now active",
-      "insight": "7-Eleven and Circle K both crossed the brand-visibility threshold within the past week, anchoring a gas-convenience category with 621 receipts and $24,717 in 14-day GMV. This channel captures impulse and top-off purchase occasions that are notoriously difficult to attribute in traditional media buys.",
+      "topic": "Gas-convenience channel emergence",
+      "insight": "7-Eleven, Circle K, and Dollar General crossed the receipt-density visibility threshold within a 168-hour window after a 40+ snapshot brand-list freeze — signaling a real expansion of verified coverage into gas-convenience and value retail, two channels historically underserved by purchase verification data.",
       "magnitude": "medium"
     },
     {
-      "topic": "Settlement latency is a real constraint",
-      "insight": "809 confirmed payouts have not moved in 45+ consecutive snapshots spanning Oct 28–Nov 02 — the longest zero-payout run on record. Brands evaluating this protocol for real-time incentive or loyalty applications should model settlement as episodic and delayed, not instant.",
+      "topic": "Daily GMV run rate and network scale",
+      "insight": "Implied daily verified GMV is running $13,700–$14,200 across roughly 19 metro areas, with cumulative receipts exceeding 96,000. This is an early-stage network — useful for signal validation and audience testing, not yet a replacement for national-scale purchase panels.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic expansion is accelerating but uneven",
-      "insight": "Three new CBSA metro cells appeared in under five days after a stable coverage period, bringing the visible surface to 18 metro areas across 30 category/metro cells. Coverage growth may reflect delayed signal aggregation rather than confirmed new market entry — metro-level targeting claims should be validated against snapshot timing before activation.",
+      "topic": "Settlement lag as a data-freshness constraint",
+      "insight": "809 confirmed payouts have been static for 60+ consecutive snapshots, indicating verified receipts carry a non-trivial settlement hold before they clear. Brands evaluating this data for real-time campaign optimization should account for the lag between purchase event and confirmed verification — this is a near-real-time signal, not an instant one.",
       "magnitude": "medium"
     }
   ]
