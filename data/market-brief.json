@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-11-04T01:45:15.396Z",
+  "updatedAt": "2026-11-05T09:45:16.656Z",
   "insights": [
     {
       "topic": "Verified purchase proof vs. probabilistic targeting",
-      "insight": "Crinkl's cryptographically verified receipts represent deterministic purchase confirmation — a structurally different signal from cookie-based inference. At ~$0.10 per verified receipt, the cost of confirmed purchase data is a fraction of the $5+ CPM brands pay to infer purchase intent from behavioral proxies.",
+      "insight": "Crinkl's cryptographically verified receipts confirm purchases happened — not inferred. At ~$0.10 per verified receipt and $75K in GMV across 1,810 receipts in the trailing 7 days, this is a live, scaled alternative to cookie-based inference at a fraction of what probabilistic CPMs cost.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery and retail category depth",
-      "insight": "14-day data shows grocery-supermarkets leading by receipt volume (1,407 receipts) while retail-department-stores leads by GMV ($35,039 vs. $60,361 across 614 fewer receipts) — a confirmed higher average ticket in retail. Brands targeting either channel have category-level purchase verification, not modeled audience segments.",
+      "topic": "Grocery and retail dominance in verified spend",
+      "insight": "Walmart (305 receipts), Kroger (148), Safeway (137), and Costco (129) are the durable anchors across 14 days — grocery-supermarkets leads by receipt volume (1,344), while retail-department-stores leads by GMV ($32,818 vs. $57,917 on 616 fewer receipts), confirming a measurably higher average ticket in retail.",
       "magnitude": "high"
     },
     {
-      "topic": "Walmart, Costco, Kroger receipt concentration",
-      "insight": "The top three brands by 14-day receipt count — Walmart (314), Costco Wholesale (138), Kroger (137) — account for a disproportionate share of verified grocery GMV. For CPG brands seeking verified in-store purchase data at scale, concentration in these three retailers is the current reality of where verified receipt volume actually lives.",
+      "topic": "Acceleration signal in token velocity",
+      "insight": "Week-over-week token velocity sits below 1x (0.591x), meaning trailing GMV isn't yet self-replacing — but acceleration has hit 1.239x, the highest reading on record and the second consecutive morning above 1.1x. If the pattern holds through UTC close, it marks an inflection in growth rate, not just growth.",
       "magnitude": "high"
     },
     {
-      "topic": "Gas-convenience channel emergence",
-      "insight": "7-Eleven, Circle K, and Dollar General crossed the receipt-density visibility threshold within a 168-hour window after a 40+ snapshot brand-list freeze — signaling a real expansion of verified coverage into gas-convenience and value retail, two channels historically underserved by purchase verification data.",
+      "topic": "Restaurants & Dining threshold crossing confirmed durable",
+      "insight": "Restaurants & Dining first crossed the aggregate visibility threshold at Nov 04T03:16 and has now held across four consecutive snapshots (972 receipts / $29,439 in 14 days) — this category is no longer provisional and represents a verified dining spend signal for QSR and casual dining brands.",
       "magnitude": "medium"
     },
     {
-      "topic": "Daily GMV run rate and network scale",
-      "insight": "Implied daily verified GMV is running $13,700–$14,200 across roughly 19 metro areas, with cumulative receipts exceeding 96,000. This is an early-stage network — useful for signal validation and audience testing, not yet a replacement for national-scale purchase panels.",
+      "topic": "Unknown category growth warrants attention",
+      "insight": "The Unknown category grew from 415 receipts / $20,312 to 504 receipts / $24,469 in a single observation window — a 21% receipt increase. For brands building audience models, unclassified spend at this scale represents either a data-quality risk or an emerging category not yet surfaced in the taxonomy.",
       "magnitude": "medium"
     },
     {
-      "topic": "Settlement lag as a data-freshness constraint",
-      "insight": "809 confirmed payouts have been static for 60+ consecutive snapshots, indicating verified receipts carry a non-trivial settlement hold before they clear. Brands evaluating this data for real-time campaign optimization should account for the lag between purchase event and confirmed verification — this is a near-real-time signal, not an instant one.",
+      "topic": "DKIM vendor surface spans physical and digital commerce",
+      "insight": "Verified receipt ingestion now covers both physical retail (Walmart, Kroger, Costco) and digital commerce (Stripe, Paddle, Gumroad, Amazon) via DKIM email verification — giving brands a single verified-spend signal across channels without cookies, panels, or self-reported survey data.",
       "magnitude": "medium"
     }
   ]

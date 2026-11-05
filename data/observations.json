@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T01:45:00.376Z",
+  "updatedAt": "2026-11-05T09:45:16.680Z",
   "observations": [
     {
       "ts": "2026-11-04T03:16:06.509Z",
@@ -12,12 +12,6 @@
       "topic": "Dollar General brand entry",
       "magnitude": "medium",
       "observation": "Dollar General appeared in the thresholded top brand list last heartbeat and remains visible this heartbeat. The 14-day distribution window moved from $220,842 to $222,589 on 5,143→5,190 receipts (+47 in the window). Brand list stability across two consecutive snapshots suggests this is a durable threshold crossing, not a one-heartbeat artifact."
-    },
-    {
-      "ts": "2026-11-02T03:16:08.002Z",
-      "topic": "brand-list",
-      "magnitude": "medium",
-      "observation": "Dollar General appeared in the thresholded top brand list this heartbeat. The 7-day rolling GMV window moved from $76,176 to $79,499 on 1,866→1,944 receipts (+78 in the window), a $3,323 gain. Velocity sits at 0.62x week-over-week with acceleration at 1.04x — growth is still compounding but the current UTC day shows 0 receipts vs prior avg 329.7, so velocity figures are provisional."
     }
   ]
 }
