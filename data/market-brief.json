@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-11-05T09:45:16.656Z",
+  "updatedAt": "2026-11-06T17:45:14.530Z",
   "insights": [
     {
       "topic": "Verified purchase proof vs. probabilistic targeting",
-      "insight": "Crinkl's cryptographically verified receipts confirm purchases happened — not inferred. At ~$0.10 per verified receipt and $75K in GMV across 1,810 receipts in the trailing 7 days, this is a live, scaled alternative to cookie-based inference at a fraction of what probabilistic CPMs cost.",
+      "insight": "Crinkl's cryptographically verified receipts confirm purchases happened — not inferred from browsing behavior. At a ~$0.10/receipt floor and 96,000+ confirmed receipts, this is a functioning deterministic signal layer, not a pilot.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery and retail dominance in verified spend",
-      "insight": "Walmart (305 receipts), Kroger (148), Safeway (137), and Costco (129) are the durable anchors across 14 days — grocery-supermarkets leads by receipt volume (1,344), while retail-department-stores leads by GMV ($32,818 vs. $57,917 on 616 fewer receipts), confirming a measurably higher average ticket in retail.",
+      "topic": "Grocery and mass retail dominate verified receipt volume",
+      "insight": "Walmart (306 receipts), Kroger (146), Costco (136), and Safeway (136) account for the heaviest verified purchase concentration in the 14-day window — these are the exact retailers where CPG and FMCG brands need post-purchase confirmation, not cookie-based inference.",
       "magnitude": "high"
     },
     {
-      "topic": "Acceleration signal in token velocity",
-      "insight": "Week-over-week token velocity sits below 1x (0.591x), meaning trailing GMV isn't yet self-replacing — but acceleration has hit 1.239x, the highest reading on record and the second consecutive morning above 1.1x. If the pattern holds through UTC close, it marks an inflection in growth rate, not just growth.",
+      "topic": "Retail outspends grocery on average ticket despite fewer receipts",
+      "insight": "Retail-department-stores generated $30,443 GMV across 698 receipts versus grocery-supermarkets at $58,481 across 1,343 receipts — retail's per-receipt average is running roughly 2.4x grocery's, a durable pattern across multiple observation windows that matters for brands measuring verified basket size.",
       "magnitude": "high"
     },
     {
-      "topic": "Restaurants & Dining threshold crossing confirmed durable",
-      "insight": "Restaurants & Dining first crossed the aggregate visibility threshold at Nov 04T03:16 and has now held across four consecutive snapshots (972 receipts / $29,439 in 14 days) — this category is no longer provisional and represents a verified dining spend signal for QSR and casual dining brands.",
+      "topic": "Token velocity acceleration is a leading demand signal",
+      "insight": "Week-over-week velocity sits at 0.557x — below replacement rate — but acceleration has posted above 1.2x for two consecutive morning readings, the highest sustained streak on record. Acceleration leading absolute velocity is the pattern to watch for timing audience-scale commitments.",
       "magnitude": "medium"
     },
     {
-      "topic": "Unknown category growth warrants attention",
-      "insight": "The Unknown category grew from 415 receipts / $20,312 to 504 receipts / $24,469 in a single observation window — a 21% receipt increase. For brands building audience models, unclassified spend at this scale represents either a data-quality risk or an emerging category not yet surfaced in the taxonomy.",
+      "topic": "Digital commerce receipts in the verified pool",
+      "insight": "The DKIM vendor surface includes Amazon, Stripe, Paddle, Gumroad, Suno, and OpenAI alongside physical retail — meaning verified purchase signals span both brick-and-mortar and digital subscription/software spend, broadening the addressable audience beyond in-store shoppers.",
       "magnitude": "medium"
     },
     {
-      "topic": "DKIM vendor surface spans physical and digital commerce",
-      "insight": "Verified receipt ingestion now covers both physical retail (Walmart, Kroger, Costco) and digital commerce (Stripe, Paddle, Gumroad, Amazon) via DKIM email verification — giving brands a single verified-spend signal across channels without cookies, panels, or self-reported survey data.",
+      "topic": "Geographic coverage is active but contracting",
+      "insight": "Metro coverage declined from 20 cells at peak to 17 active aggregate cells in the current snapshot, with cells dropping below the visibility threshold outpacing new additions — brands building geo-targeted activation plans should treat current metro availability as dynamic, not fixed.",
       "magnitude": "medium"
     }
   ]
