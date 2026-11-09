@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-11-08T01:45:16.272Z",
+  "updatedAt": "2026-11-09T09:45:11.943Z",
   "insights": [
     {
-      "topic": "Verified purchase proof vs. probabilistic targeting",
-      "insight": "Crinkl has confirmed 100,375 cryptographically verified receipts totaling $4.82M in GMV — each receipt is a deterministic proof of purchase, not an inference. For brands paying $5+ CPM on probabilistic signals, this represents a structurally different targeting input: the purchase already happened.",
+      "topic": "Verified GMV approaching $5M milestone",
+      "insight": "Cumulative verified GMV stands at $4.86M across 101,229 cryptographically confirmed receipts, with the $5M threshold approximately 10–12 days out at the current ~$13,700/day pace — a concrete scale marker for a network built on deterministic purchase proof, not probabilistic inference.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery and mass retail dominate verified receipt supply",
-      "insight": "Over the trailing 14 days, grocery-supermarkets leads by receipt volume (1,342 receipts, $58.8K GMV) while retail-department-stores leads by GMV ($30.2K across 703 receipts, ~$43 average ticket) — Walmart, Safeway, Kroger, and Costco together account for 700 of the top brand receipts, making this dataset skewed toward everyday consumables and household spend.",
+      "topic": "The $100K weekly ceiling is structural",
+      "insight": "Seven-day GMV has not broken $100K in any confirmed snapshot period, a pattern consistent enough to indicate a hard ceiling on current weekly throughput rather than random variance — brands evaluating reach should size expectations accordingly.",
       "magnitude": "high"
     },
     {
-      "topic": "Stable dollar floor per verified receipt",
-      "insight": "The protocol pays approximately $0.10 per verified receipt regardless of BTC price movement — the sat-per-receipt rate (currently 132 sats) has adjusted inversely to hold that floor across a $5,000+ price range ($75,662–$80,877 BTC). For brands evaluating data acquisition cost, the per-receipt incentive cost is predictable, not crypto-volatile.",
+      "topic": "Velocity below 1x, acceleration above 1x — recovery, not stall",
+      "insight": "Token velocity is running at 0.591x week-over-week, meaning the network is growing slower than its prior baseline, but the acceleration coefficient of 1.024x confirms the growth rate itself is compounding upward — the system is in recovery mode with momentum building.",
       "magnitude": "medium"
     },
     {
-      "topic": "7-day GMV ceiling signals current scale limits",
-      "insight": "The $100K weekly GMV ceiling has not been broken across all confirmed snapshot readings, and current 7-day GMV sits at $74.2K — roughly 26% below that ceiling. Brands evaluating audience scale should size expectations accordingly: this is a growing but still sub-mass panel at current velocity.",
+      "topic": "Receipts as deterministic targeting signal",
+      "insight": "The protocol pays ~132 sats (~$0.10) per verified receipt and has settled 809 Lightning payouts to date — each receipt represents a confirmed transaction event, not a behavioral inference, which is the foundational gap between this data type and conventional cookieless targeting proxies.",
       "magnitude": "high"
     },
     {
-      "topic": "Category durability: restaurants crossing threshold",
-      "insight": "Restaurants & Dining crossed a suppressed-aggregate visibility threshold on Nov 04 and has held across every subsequent snapshot — 955 receipts and $28.5K GMV in 14 days. This category's durability signals it is no longer a rounding error in the dataset, making it a viable targeting signal for QSR and casual dining brands seeking post-purchase verification.",
+      "topic": "Geographic coverage is wide but static",
+      "insight": "Aggregate purchase data is visible across 20 CBSA metro cells with zero new cells added this period, signaling broad but currently plateaued geographic footprint — useful for national brand planning, but local market expansion is not accelerating right now.",
       "magnitude": "medium"
     },
     {
-      "topic": "Rolloff volatility limits intraday audience stability",
-      "insight": "Nine consecutive UTC-midnight rolloff events have dropped 7-day GMV by $10.7K–$18.6K per event with no directional stabilization confirmed — the audience window is volatile at the edges. Brands running time-sensitive campaigns should account for meaningful intraday audience size fluctuations rather than treating the panel as a stable daily count.",
-      "magnitude": "medium"
+      "topic": "The silo vulnerability is real and compounding",
+      "insight": "The protocol ingests receipts without requiring brand cooperation, meaning aggregate commerce intelligence accumulates across the network regardless of whether any individual brand participates — companies that delay engagement are ceding visibility into market-level purchase behavior to those who don't.",
+      "magnitude": "high"
     }
   ]
 }
