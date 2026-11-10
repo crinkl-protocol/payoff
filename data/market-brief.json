@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-11-09T09:45:11.943Z",
+  "updatedAt": "2026-11-10T17:45:16.281Z",
   "insights": [
     {
-      "topic": "Verified GMV approaching $5M milestone",
-      "insight": "Cumulative verified GMV stands at $4.86M across 101,229 cryptographically confirmed receipts, with the $5M threshold approximately 10–12 days out at the current ~$13,700/day pace — a concrete scale marker for a network built on deterministic purchase proof, not probabilistic inference.",
+      "topic": "Verified purchase volume approaching $5M cumulative",
+      "insight": "Crinkl has confirmed $4.89M in cryptographically verified GMV across ~102K receipts, with daily pace accelerating from ~$14K to ~$18K — putting the $5M milestone roughly 6 days out, half the timeline estimated 48 hours ago.",
       "magnitude": "high"
     },
     {
-      "topic": "The $100K weekly ceiling is structural",
-      "insight": "Seven-day GMV has not broken $100K in any confirmed snapshot period, a pattern consistent enough to indicate a hard ceiling on current weekly throughput rather than random variance — brands evaluating reach should size expectations accordingly.",
+      "topic": "Grocery dominates but category mix is broadening",
+      "insight": "Over the past 14 days, grocery-supermarkets leads with 1,314 receipts and $56.9K GMV, but restaurants, department stores, gas/convenience, and shipping (The UPS Store in the top-5 brand list) collectively account for the majority of receipt flow — the signal set is not a single-category panel.",
       "magnitude": "high"
     },
     {
-      "topic": "Velocity below 1x, acceleration above 1x — recovery, not stall",
-      "insight": "Token velocity is running at 0.591x week-over-week, meaning the network is growing slower than its prior baseline, but the acceleration coefficient of 1.024x confirms the growth rate itself is compounding upward — the system is in recovery mode with momentum building.",
+      "topic": "Walmart, Kroger, Costco, Publix now at threshold volume",
+      "insight": "The four largest U.S. grocery and mass-market retailers are all generating sustained receipt volume above the visibility floor, with Walmart at 298 receipts and Kroger at 139 over 14 days — enough to support brand-level purchase attribution against named retailers, not just category inference.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Trader Joe's and Sam's Club crossed the visibility threshold this week",
+      "insight": "Both brands crossed the suppressed-aggregate visibility floor on November 9, confirming sustained purchase activity — not just isolated transactions — which expands the addressable retailer footprint for brands running campaigns in premium grocery and warehouse club channels.",
       "magnitude": "medium"
     },
     {
-      "topic": "Receipts as deterministic targeting signal",
-      "insight": "The protocol pays ~132 sats (~$0.10) per verified receipt and has settled 809 Lightning payouts to date — each receipt represents a confirmed transaction event, not a behavioral inference, which is the foundational gap between this data type and conventional cookieless targeting proxies.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Geographic coverage is wide but static",
-      "insight": "Aggregate purchase data is visible across 20 CBSA metro cells with zero new cells added this period, signaling broad but currently plateaued geographic footprint — useful for national brand planning, but local market expansion is not accelerating right now.",
+      "topic": "Dollar-anchored payout rate actively managed through BTC volatility",
+      "insight": "The policy rate has moved five times in eight days (124–134 sats/receipt) as BTC fluctuated between $74.7K and $80.4K, consistently holding the per-receipt dollar value near $0.10 — indicating the incentive layer is operationally stable for brands modeling consumer acquisition costs.",
       "magnitude": "medium"
     },
     {
-      "topic": "The silo vulnerability is real and compounding",
-      "insight": "The protocol ingests receipts without requiring brand cooperation, meaning aggregate commerce intelligence accumulates across the network regardless of whether any individual brand participates — companies that delay engagement are ceding visibility into market-level purchase behavior to those who don't.",
-      "magnitude": "high"
+      "topic": "Geographic coverage remains early-stage with irregular pulse pattern",
+      "insight": "Only 19 CBSAs are visible in the public aggregate surface, with two new metro cells appearing since the prior snapshot — one of which (CBSA 11700) has pulsed in and out rather than holding, signaling that national coverage claims should be stress-tested against actual metro-level receipt density before campaign commitments.",
+      "magnitude": "medium"
     }
   ]
 }
