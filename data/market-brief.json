@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-11-10T17:45:16.281Z",
+  "updatedAt": "2026-11-12T01:45:18.634Z",
   "insights": [
     {
-      "topic": "Verified purchase volume approaching $5M cumulative",
-      "insight": "Crinkl has confirmed $4.89M in cryptographically verified GMV across ~102K receipts, with daily pace accelerating from ~$14K to ~$18K — putting the $5M milestone roughly 6 days out, half the timeline estimated 48 hours ago.",
+      "topic": "Verified purchase intent vs. probabilistic targeting",
+      "insight": "Crinkl has cryptographically confirmed 102,566 purchase receipts totaling $4.9M in verified GMV — deterministic proof of transaction, not behavioral inference. For brands paying $5+ CPM on probabilistic signals, this represents a structurally different targeting input: a receipt is a closed-loop fact, not a guess.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery dominates but category mix is broadening",
-      "insight": "Over the past 14 days, grocery-supermarkets leads with 1,314 receipts and $56.9K GMV, but restaurants, department stores, gas/convenience, and shipping (The UPS Store in the top-5 brand list) collectively account for the majority of receipt flow — the signal set is not a single-category panel.",
+      "topic": "Grocery dominates verified demand signal",
+      "insight": "Grocery and supermarkets account for 1,329 of 4,784 receipts in the 14-day window ($57,923 GMV), making it the single largest category by both volume and spend — nearly double the next category. Brands in CPG, household goods, and private label who need post-purchase audience data have the deepest signal pool here.",
       "magnitude": "high"
     },
     {
-      "topic": "Walmart, Kroger, Costco, Publix now at threshold volume",
-      "insight": "The four largest U.S. grocery and mass-market retailers are all generating sustained receipt volume above the visibility floor, with Walmart at 298 receipts and Kroger at 139 over 14 days — enough to support brand-level purchase attribution against named retailers, not just category inference.",
+      "topic": "Throughput is compounding, not plateauing",
+      "insight": "The 7-day GMV window hit a new intraday high of $80,630 at the current reading, recovering from a UTC midnight rolloff to near-peak levels within 16 hours — a pattern that has tightened each cycle. Week-over-week velocity is at 0.66x with a growth acceleration factor of 1.021x, meaning the underlying receipt inflow is expanding even as the absolute rate hasn't fully recovered to prior-week baseline.",
       "magnitude": "high"
     },
     {
-      "topic": "Trader Joe's and Sam's Club crossed the visibility threshold this week",
-      "insight": "Both brands crossed the suppressed-aggregate visibility floor on November 9, confirming sustained purchase activity — not just isolated transactions — which expands the addressable retailer footprint for brands running campaigns in premium grocery and warehouse club channels.",
+      "topic": "Club and specialty grocery entering the verified brand mix",
+      "insight": "Sam's Club and Trader Joe's both crossed the brand visibility threshold within a 48-hour window, joining Walmart (300 receipts), Kroger (140), Target (125), Publix (121), and Costco (115) in the 14-day brand list. For brands benchmarking shopper reach across mass, club, and specialty channels, the verified dataset is now reflecting that full channel spread — not just mass-market grocery.",
       "magnitude": "medium"
     },
     {
-      "topic": "Dollar-anchored payout rate actively managed through BTC volatility",
-      "insight": "The policy rate has moved five times in eight days (124–134 sats/receipt) as BTC fluctuated between $74.7K and $80.4K, consistently holding the per-receipt dollar value near $0.10 — indicating the incentive layer is operationally stable for brands modeling consumer acquisition costs.",
+      "topic": "Category entropy confirms broad-based demand, not category concentration",
+      "insight": "Category entropy holds at 2.905 bits and store entropy at 3.115 bits — both stable across multiple readings. This means throughput growth is distributed across the category and retailer mix, not being driven by a single retailer or purchase type. For marketers, the signal is structurally diverse: a cookieless audience built on this data reflects real cross-category purchase behavior.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic coverage remains early-stage with irregular pulse pattern",
-      "insight": "Only 19 CBSAs are visible in the public aggregate surface, with two new metro cells appearing since the prior snapshot — one of which (CBSA 11700) has pulsed in and out rather than holding, signaling that national coverage claims should be stress-tested against actual metro-level receipt density before campaign commitments.",
+      "topic": "Geographic footprint at 19 confirmed metro markets",
+      "insight": "Active CBSA coverage holds at 19 confirmed metro markets, with three additional cells appearing in single-reading pulses (not yet durably confirmed). The network is not yet national scale, but for regional and metro-specific campaign planning — particularly in grocery and dining — the geographic signal is meaningful and growing incrementally.",
       "magnitude": "medium"
     }
   ]
