@@ -1,17 +1,11 @@
 {
-  "updatedAt": "2026-11-12T09:45:00.353Z",
+  "updatedAt": "2026-11-12T17:45:00.211Z",
   "observations": [
     {
       "ts": "2026-11-10T15:16:00.853Z",
       "topic": "brand-list",
       "magnitude": "medium",
       "observation": "Trader Joe's became visible in the thresholded top brand list this heartbeat. The 7-day rolling GMV window moved from $77,501 to $78,778 on 1,828→1,868 receipts (+40 in the window). Current UTC day is incomplete (17 receipts vs prior avg 312.6), so velocity figures are provisional."
-    },
-    {
-      "ts": "2026-11-09T15:15:57.520Z",
-      "topic": "brand-list",
-      "magnitude": "medium",
-      "observation": "Sam's Club became visible in the thresholded top brand list this heartbeat — the first time it has appeared. The 7-day rolling GMV window moved from $74,121 to $75,635 on 1,791→1,829 receipts (+38 in the window), with token velocity at 0.618x week-over-week and acceleration at 1.02x. Current UTC day is incomplete (10 receipts vs prior avg 305.7), so velocity figures are provisional."
     }
   ]
 }
