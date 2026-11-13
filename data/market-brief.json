@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-11-12T01:45:18.634Z",
+  "updatedAt": "2026-11-13T09:45:18.108Z",
   "insights": [
     {
-      "topic": "Verified purchase intent vs. probabilistic targeting",
-      "insight": "Crinkl has cryptographically confirmed 102,566 purchase receipts totaling $4.9M in verified GMV — deterministic proof of transaction, not behavioral inference. For brands paying $5+ CPM on probabilistic signals, this represents a structurally different targeting input: a receipt is a closed-loop fact, not a guess.",
+      "topic": "Verified purchase proof vs. probabilistic targeting",
+      "insight": "Crinkl's protocol has cryptographically verified $4.93M in GMV across 103,038 receipts — each one a confirmed transaction, not an inferred intent signal. For brands paying $5+ CPM to reach people who might buy, this is a structurally different data asset: deterministic purchase proof at scale.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery dominates verified demand signal",
-      "insight": "Grocery and supermarkets account for 1,329 of 4,784 receipts in the 14-day window ($57,923 GMV), making it the single largest category by both volume and spend — nearly double the next category. Brands in CPG, household goods, and private label who need post-purchase audience data have the deepest signal pool here.",
+      "topic": "Throughput ceiling test — 7-day GMV trend",
+      "insight": "Pre-rolloff 7-day GMV peaked at ~$83.5K for two consecutive cycles, then stepped down to $75K in the most recent cycle — a ~10% drop that either reflects a throughput ceiling forming or a one-cycle compression anomaly. The 2026-11-13T20:15 reading is the diagnostic: if it recovers to ~$83.5K, the step-down was noise; if it holds below $80K, the platform has hit a near-term accumulation ceiling that limits audience scale claims.",
       "magnitude": "high"
     },
     {
-      "topic": "Throughput is compounding, not plateauing",
-      "insight": "The 7-day GMV window hit a new intraday high of $80,630 at the current reading, recovering from a UTC midnight rolloff to near-peak levels within 16 hours — a pattern that has tightened each cycle. Week-over-week velocity is at 0.66x with a growth acceleration factor of 1.021x, meaning the underlying receipt inflow is expanding even as the absolute rate hasn't fully recovered to prior-week baseline.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Club and specialty grocery entering the verified brand mix",
-      "insight": "Sam's Club and Trader Joe's both crossed the brand visibility threshold within a 48-hour window, joining Walmart (300 receipts), Kroger (140), Target (125), Publix (121), and Costco (115) in the 14-day brand list. For brands benchmarking shopper reach across mass, club, and specialty channels, the verified dataset is now reflecting that full channel spread — not just mass-market grocery.",
+      "topic": "Category mix stability — no distortion in the data",
+      "insight": "Category entropy has held at 2.905 bits across multiple consecutive snapshots, and the 14-day category breakdown shows proportional contraction across all five verticals — grocery, dining, retail, gas, and unknown — with no single category inflating or collapsing. For brands using this data for targeting or measurement, the mix is structurally stable and not an artifact of one vertical dominating.",
       "magnitude": "medium"
     },
     {
-      "topic": "Category entropy confirms broad-based demand, not category concentration",
-      "insight": "Category entropy holds at 2.905 bits and store entropy at 3.115 bits — both stable across multiple readings. This means throughput growth is distributed across the category and retailer mix, not being driven by a single retailer or purchase type. For marketers, the signal is structurally diverse: a cookieless audience built on this data reflects real cross-category purchase behavior.",
+      "topic": "Walmart, Kroger, Target concentration at the top",
+      "insight": "The three largest verified-receipt brands — Walmart (298), Kroger (132), and Target (124) — account for a disproportionate share of 14-day receipt volume, confirming this audience skews toward mass-market grocery and general merchandise shoppers. Brands in CPG, household goods, or adjacent retail categories are looking at a high-affinity audience; niche or premium brands should note the concentration before assuming broad reach.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic footprint at 19 confirmed metro markets",
-      "insight": "Active CBSA coverage holds at 19 confirmed metro markets, with three additional cells appearing in single-reading pulses (not yet durably confirmed). The network is not yet national scale, but for regional and metro-specific campaign planning — particularly in grocery and dining — the geographic signal is meaningful and growing incrementally.",
+      "topic": "Logistics receipts as a durable non-grocery signal",
+      "insight": "The UPS Store has re-entered the visible 14-day brand list at 43 receipts after multiple suppressed snapshots, confirming that shipping and logistics transactions are a structurally recurring category in this dataset — not a one-time anomaly. For brands targeting small business owners or active online shoppers, the presence of logistics receipts alongside grocery and retail is a meaningful behavioral signal.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Geographic coverage — pulse cells vs. durable metros",
+      "insight": "Of the 19 active CBSAs in the current snapshot, at least three are classified as recurring pulse cells — markets that appear intermittently rather than continuously, often correlated with UTC midnight rolloff windows. Brands planning geo-targeted campaigns against this data should distinguish between the durable core metros and these pulse markets before committing to local spend.",
       "magnitude": "medium"
     }
   ]
