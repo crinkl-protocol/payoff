@@ -1,11 +1,4 @@
 {
-  "updatedAt": "2026-11-13T09:45:18.139Z",
-  "observations": [
-    {
-      "ts": "2026-11-10T15:16:00.853Z",
-      "topic": "brand-list",
-      "magnitude": "medium",
-      "observation": "Trader Joe's became visible in the thresholded top brand list this heartbeat. The 7-day rolling GMV window moved from $77,501 to $78,778 on 1,828→1,868 receipts (+40 in the window). Current UTC day is incomplete (17 receipts vs prior avg 312.6), so velocity figures are provisional."
-    }
-  ]
+  "updatedAt": "2026-11-14T01:45:00.356Z",
+  "observations": []
 }
