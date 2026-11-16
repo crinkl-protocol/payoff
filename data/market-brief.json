@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-11-15T01:45:16.213Z",
+  "updatedAt": "2026-11-16T06:04:30.064Z",
   "insights": [
     {
-      "topic": "Verified purchase data vs. probabilistic targeting",
-      "insight": "Crinkl has cryptographically confirmed $4.93M in GMV across 103,038 receipts — deterministic proof of purchase, not inferred intent. For brands paying $5+ CPM to reach people who might buy, this represents a structurally different signal class.",
+      "topic": "Verified purchase intent vs. probabilistic targeting",
+      "insight": "Crinkl's protocol has crossed $5M cumulative verified GMV across 104,000+ receipts — each one a cryptographically confirmed transaction, not an inferred intent signal. For brands paying $5+ CPM on probabilistic audience data, this represents a structurally different input: deterministic proof of purchase at the category and store level.",
       "magnitude": "high"
     },
     {
-      "topic": "Retailer concentration and reach",
-      "insight": "Walmart (298 receipts), Kroger (132), Target (124), and Costco (119) account for the dominant share of verified 14-day purchase activity, with grocery-supermarkets leading all categories at 1,213 receipts and $52,293 in confirmed GMV. Brands in CPG and household goods have a direct line to verified buyers at the exact retailers where shelf competition plays out.",
+      "topic": "Grocery and retail category depth",
+      "insight": "Over the trailing 14 days, grocery-supermarkets led with 1,179 receipts ($52,889), followed by retail-department-stores at 705 receipts ($28,742) and restaurants-dining at 859 receipts ($26,315) — a distribution that maps directly to the categories where brand marketers most need closed-loop purchase verification.",
       "magnitude": "high"
     },
     {
-      "topic": "Category mix stability",
-      "insight": "Category entropy has held at 2.905 bits and store entropy at 3.115 bits across multiple consecutive snapshots — no category rotation, no single-retailer distortion. Throughput changes are broad-based, meaning the signal composition is consistent enough to build targeting logic against.",
+      "topic": "Walmart, Kroger, Target, Publix concentration",
+      "insight": "The top five brands by 14-day receipt count are Walmart (299), Kroger (132), Target (129), Publix (129), and Costco (106) — a list dominated by mass and grocery channels where national CPG brands compete hardest for verified shelf-level data.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Publix entry signals Southeast geographic expansion",
+      "insight": "Publix's first appearance on the thresholded brand list — tying Target at 129 receipts — is notable because Publix's footprint is concentrated in the Southeast US; its emergence suggests either new coverage in that region or meaningfully deeper penetration of an existing user base there, making it a leading indicator of geographic reach for brands with Southeast exposure.",
       "magnitude": "medium"
     },
     {
-      "topic": "7-day throughput ceiling under investigation",
-      "insight": "Pre-rolloff 7-day GMV peaked near $83.5K for two consecutive cycles, then stepped down to $74,994 in the most recent cycle — a ~10% drop that may indicate a throughput ceiling forming around the $83–84K weekly range. The next pre-rolloff reading (~2026-11-13T20:15) is the critical test; brands evaluating scale should monitor whether weekly verified volume stabilizes or continues contracting.",
+      "topic": "New York metro (CBSA 35620) now active",
+      "insight": "The New York–Newark–Jersey City metro appeared in the protocol's active coverage cells for the first time in the current observation window; given its scale, this is the single most consequential geographic addition logged to date and expands the addressable verified-receipt universe for any brand with Northeast retail or foodservice presence.",
       "magnitude": "high"
     },
     {
-      "topic": "Non-grocery verified commerce footprint",
-      "insight": "Restaurants/dining (843 receipts, $25,363), retail/department stores (665 receipts, $27,609), gas/convenience (450 receipts, $19,807), and The UPS Store (43 receipts, re-entered visibility) confirm that verified purchase data extends well beyond grocery — relevant for QSR, fuel, and logistics-adjacent brands seeking cookieless audience validation.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Geographic pulse cells and coverage durability",
-      "insight": "Of 19 active CBSAs, at least three are classified as recurring pulse cells — appearing intermittently rather than continuously — which means geographic targeting built on this data requires freshness discipline; metro coverage is real but not yet uniformly durable across all markets.",
+      "topic": "Throughput trend: trough floors rising, ceiling uncertain",
+      "insight": "Post-rolloff GMV troughs have risen three consecutive cycles ($60,852 → $64,666 → $67,412), and the most recent pre-rolloff peak at $77,466 broke a three-cycle compression sequence — suggesting the protocol's sustainable weekly throughput is drifting upward even if it has not reclaimed the prior $83.5K plateau; for brands evaluating data volume adequacy, the floor trend is the more reliable planning input than peak readings.",
       "magnitude": "medium"
     }
   ]
