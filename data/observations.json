@@ -1,4 +1,17 @@
 {
-  "updatedAt": "2026-11-17T09:45:04.170Z",
-  "observations": []
+  "updatedAt": "2026-11-17T14:27:47.594Z",
+  "observations": [
+    {
+      "ts": "2026-11-17T14:26:47.797Z",
+      "topic": "chase-brand-entry",
+      "magnitude": "medium",
+      "observation": "Chase appeared in the thresholded top brand list this snapshot. This is a financial services brand entering a list previously dominated by retail and grocery — a category signal worth watching, though the thresholded list only surfaces brands above a minimum count floor."
+    },
+    {
+      "ts": "2026-11-17T14:26:47.795Z",
+      "topic": "gmv-jump",
+      "magnitude": "high",
+      "observation": "The 7-day rolling GMV window jumped from $62,593 to $78,865 on 1,444→1,542 receipts (+98 in the window). That's a $16,272 single-heartbeat move in the trailing 7-day aggregate — the largest single-heartbeat GMV increase logged in recent history. Current UTC day is incomplete (0 receipts vs prior avg 272), so velocity figures remain provisional."
+    }
+  ]
 }

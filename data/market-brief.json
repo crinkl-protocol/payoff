@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-11-16T06:04:30.064Z",
+  "updatedAt": "2026-11-17T14:27:47.592Z",
   "insights": [
     {
-      "topic": "Verified purchase intent vs. probabilistic targeting",
-      "insight": "Crinkl's protocol has crossed $5M cumulative verified GMV across 104,000+ receipts — each one a cryptographically confirmed transaction, not an inferred intent signal. For brands paying $5+ CPM on probabilistic audience data, this represents a structurally different input: deterministic proof of purchase at the category and store level.",
+      "topic": "Verified purchase data at scale",
+      "insight": "Crinkl has crossed $5M cumulative verified GMV across 100K+ receipts — each one a cryptographically confirmed transaction, not a modeled inference. For brands paying $5+ CPM on probabilistic targeting, this represents a structurally different data asset: deterministic proof of purchase, not behavioral inference.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery and retail category depth",
-      "insight": "Over the trailing 14 days, grocery-supermarkets led with 1,179 receipts ($52,889), followed by retail-department-stores at 705 receipts ($28,742) and restaurants-dining at 859 receipts ($26,315) — a distribution that maps directly to the categories where brand marketers most need closed-loop purchase verification.",
+      "topic": "Category mix stability",
+      "insight": "Grocery leads at 27.5% of 14-day receipts ($54,503 / 1,217 receipts), followed by restaurants, department stores, and gas-convenience — with category entropy holding at 2.905 bits across all observed windows. No single category is distorting the mix, which means audience composition is predictable and plannable for cross-category campaigns.",
       "magnitude": "high"
     },
     {
-      "topic": "Walmart, Kroger, Target, Publix concentration",
-      "insight": "The top five brands by 14-day receipt count are Walmart (299), Kroger (132), Target (129), Publix (129), and Costco (106) — a list dominated by mass and grocery channels where national CPG brands compete hardest for verified shelf-level data.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Publix entry signals Southeast geographic expansion",
-      "insight": "Publix's first appearance on the thresholded brand list — tying Target at 129 receipts — is notable because Publix's footprint is concentrated in the Southeast US; its emergence suggests either new coverage in that region or meaningfully deeper penetration of an existing user base there, making it a leading indicator of geographic reach for brands with Southeast exposure.",
+      "topic": "Geographic expansion pace",
+      "insight": "19 confirmed metro coverage cells now active, with New York–Newark–Jersey City (CBSA 35620) logging its first confirmed appearance on 2026-11-16. Single-cell pulses at irregular intervals suggest organic, user-driven diffusion rather than paid market entry — a signal of genuine demand expansion rather than manufactured reach.",
       "magnitude": "medium"
     },
     {
-      "topic": "New York metro (CBSA 35620) now active",
-      "insight": "The New York–Newark–Jersey City metro appeared in the protocol's active coverage cells for the first time in the current observation window; given its scale, this is the single most consequential geographic addition logged to date and expands the addressable verified-receipt universe for any brand with Northeast retail or foodservice presence.",
+      "topic": "Settlement mechanism as dollar-anchored signal",
+      "insight": "The per-receipt payout rate adjusts inversely with BTC price — confirmed across four consecutive rate observations — holding implied dollar value near $0.10 per verified receipt. This dollar-anchoring behavior indicates a protocol designed for commercial stability, not crypto speculation, which matters for brands evaluating data procurement costs.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Throughput floor is rising",
+      "insight": "Post-midnight rolloff troughs have improved three consecutive cycles: $60,852 → $64,666 → $67,412 in 7-day GMV. The floor is rising even as the ceiling remains uncertain, suggesting the underlying verified-receipt supply is becoming more durable — a positive signal for brands that need consistent data volume for always-on measurement.",
       "magnitude": "high"
     },
     {
-      "topic": "Throughput trend: trough floors rising, ceiling uncertain",
-      "insight": "Post-rolloff GMV troughs have risen three consecutive cycles ($60,852 → $64,666 → $67,412), and the most recent pre-rolloff peak at $77,466 broke a three-cycle compression sequence — suggesting the protocol's sustainable weekly throughput is drifting upward even if it has not reclaimed the prior $83.5K plateau; for brands evaluating data volume adequacy, the floor trend is the more reliable planning input than peak readings.",
-      "magnitude": "medium"
+      "topic": "Payout freeze anomaly",
+      "insight": "809 total payouts and 15,415,419 sats claimed have been unchanged across the full observation window despite continued receipt accumulation — a structural anomaly with no data-grounded explanation available. Brands evaluating this protocol for attribution or incentive programs should treat settlement reliability as an open question until the freeze resolves.",
+      "magnitude": "high"
     }
   ]
 }
