@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-11-17T14:27:47.592Z",
+  "updatedAt": "2026-11-18T17:45:15.862Z",
   "insights": [
     {
-      "topic": "Verified purchase data at scale",
-      "insight": "Crinkl has crossed $5M cumulative verified GMV across 100K+ receipts — each one a cryptographically confirmed transaction, not a modeled inference. For brands paying $5+ CPM on probabilistic targeting, this represents a structurally different data asset: deterministic proof of purchase, not behavioral inference.",
+      "topic": "Verified purchase data vs. probabilistic targeting",
+      "insight": "The protocol has crossed $201K in 14-day verified GMV across 4,380 receipts — each one a cryptographically confirmed transaction, not an inferred intent signal. For brands paying $5+ CPM to reach people who might buy, this represents a structurally different data asset: deterministic purchase proof at category and brand resolution.",
       "magnitude": "high"
     },
     {
-      "topic": "Category mix stability",
-      "insight": "Grocery leads at 27.5% of 14-day receipts ($54,503 / 1,217 receipts), followed by restaurants, department stores, and gas-convenience — with category entropy holding at 2.905 bits across all observed windows. No single category is distorting the mix, which means audience composition is predictable and plannable for cross-category campaigns.",
+      "topic": "Grocery dominance with high-value unknown category",
+      "insight": "Grocery-supermarkets leads at 27.7% of receipts (1,215 receipts, $53K GMV), but the Unknown category produces the highest average ticket — $93 per receipt versus $32–$48 across named categories — suggesting either high-value verticals or premium retail not yet classified; brands in those segments should monitor for attribution as categorization matures.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic expansion pace",
-      "insight": "19 confirmed metro coverage cells now active, with New York–Newark–Jersey City (CBSA 35620) logging its first confirmed appearance on 2026-11-16. Single-cell pulses at irregular intervals suggest organic, user-driven diffusion rather than paid market entry — a signal of genuine demand expansion rather than manufactured reach.",
+      "topic": "Chase entry as financial services signal",
+      "insight": "Chase appeared on the thresholded top brand list at 22 receipts in the 14-day window — the first financial services brand to clear the minimum count floor alongside physical retailers like Walmart (309) and Kroger (142). Whether Chase represents card-linked transaction data or co-branded retail receipts, it signals a potential expansion of the receipt universe beyond physical goods into financial services.",
       "magnitude": "medium"
     },
     {
-      "topic": "Settlement mechanism as dollar-anchored signal",
-      "insight": "The per-receipt payout rate adjusts inversely with BTC price — confirmed across four consecutive rate observations — holding implied dollar value near $0.10 per verified receipt. This dollar-anchoring behavior indicates a protocol designed for commercial stability, not crypto speculation, which matters for brands evaluating data procurement costs.",
+      "topic": "Weekly GMV cycle pattern and demand baseline",
+      "insight": "Seven confirmed UTC midnight rolloff cycles show a consistent floor-to-ceiling recovery pattern; the most recent cycle hit the deepest trough ($59K) and then the fastest recovery to a cycle-high pre-rolloff peak ($83K), indicating the underlying demand base is growing even as intraday volatility widens — a sign of increasing network utilization, not instability.",
       "magnitude": "medium"
     },
     {
-      "topic": "Throughput floor is rising",
-      "insight": "Post-midnight rolloff troughs have improved three consecutive cycles: $60,852 → $64,666 → $67,412 in 7-day GMV. The floor is rising even as the ceiling remains uncertain, suggesting the underlying verified-receipt supply is becoming more durable — a positive signal for brands that need consistent data volume for always-on measurement.",
-      "magnitude": "high"
+      "topic": "Settlement mechanism dollar-anchoring confirmed",
+      "insight": "The sats-per-receipt rate has moved inversely with BTC price across every observed adjustment, maintaining a near-constant dollar value per receipt regardless of crypto volatility. For brands evaluating this as a data-purchase or incentive rail, the economic exposure is to dollar-denominated cost, not BTC price swings.",
+      "magnitude": "medium"
     },
     {
-      "topic": "Payout freeze anomaly",
-      "insight": "809 total payouts and 15,415,419 sats claimed have been unchanged across the full observation window despite continued receipt accumulation — a structural anomaly with no data-grounded explanation available. Brands evaluating this protocol for attribution or incentive programs should treat settlement reliability as an open question until the freeze resolves.",
+      "topic": "Payout freeze as structural risk flag",
+      "insight": "809 total payouts and 15.4M sats claimed have not changed across the entire observation window despite continued receipt accumulation — meaning the settlement layer is not clearing. Brands considering this protocol for consumer incentive programs or data licensing should treat the payout freeze as an unresolved operational risk until a structural explanation is disclosed.",
       "magnitude": "high"
     }
   ]
