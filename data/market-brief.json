@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-11-18T17:45:15.862Z",
+  "updatedAt": "2026-11-20T09:45:16.495Z",
   "insights": [
     {
       "topic": "Verified purchase data vs. probabilistic targeting",
-      "insight": "The protocol has crossed $201K in 14-day verified GMV across 4,380 receipts — each one a cryptographically confirmed transaction, not an inferred intent signal. For brands paying $5+ CPM to reach people who might buy, this represents a structurally different data asset: deterministic purchase proof at category and brand resolution.",
+      "insight": "Crinkl's receipt-verified GMV hit $196,247 across 4,249 confirmed transactions in 14 days — each receipt is a cryptographic proof of purchase, not an inferred intent signal. Brands paying $5+ CPM for probabilistic audience targeting are funding inference where deterministic purchase proof now exists at scale.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery dominance with high-value unknown category",
-      "insight": "Grocery-supermarkets leads at 27.7% of receipts (1,215 receipts, $53K GMV), but the Unknown category produces the highest average ticket — $93 per receipt versus $32–$48 across named categories — suggesting either high-value verticals or premium retail not yet classified; brands in those segments should monitor for attribution as categorization matures.",
+      "topic": "Grocery dominance as targeting floor",
+      "insight": "Grocery and supermarket receipts account for 29% of 14-day volume (1,230 receipts / $54,190), making it the single largest category by transaction count — a reliable, recurring signal pool for CPG and grocery-adjacent brands seeking verified purchase audiences.",
       "magnitude": "high"
     },
     {
-      "topic": "Chase entry as financial services signal",
-      "insight": "Chase appeared on the thresholded top brand list at 22 receipts in the 14-day window — the first financial services brand to clear the minimum count floor alongside physical retailers like Walmart (309) and Kroger (142). Whether Chase represents card-linked transaction data or co-branded retail receipts, it signals a potential expansion of the receipt universe beyond physical goods into financial services.",
+      "topic": "Unknown category: elevated ticket size signals premium or specialty spend",
+      "insight": "The 'Unknown' category carries an average ticket of $92.43 versus $44.06 for grocery — more than double — and represents 342 receipts and $31,610 in 14-day GMV. For brands targeting higher-spend consumers, this unclassified segment warrants investigation as a potential premium or specialty retail signal.",
       "magnitude": "medium"
     },
     {
-      "topic": "Weekly GMV cycle pattern and demand baseline",
-      "insight": "Seven confirmed UTC midnight rolloff cycles show a consistent floor-to-ceiling recovery pattern; the most recent cycle hit the deepest trough ($59K) and then the fastest recovery to a cycle-high pre-rolloff peak ($83K), indicating the underlying demand base is growing even as intraday volatility widens — a sign of increasing network utilization, not instability.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Settlement mechanism dollar-anchoring confirmed",
-      "insight": "The sats-per-receipt rate has moved inversely with BTC price across every observed adjustment, maintaining a near-constant dollar value per receipt regardless of crypto volatility. For brands evaluating this as a data-purchase or incentive rail, the economic exposure is to dollar-denominated cost, not BTC price swings.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Payout freeze as structural risk flag",
-      "insight": "809 total payouts and 15.4M sats claimed have not changed across the entire observation window despite continued receipt accumulation — meaning the settlement layer is not clearing. Brands considering this protocol for consumer incentive programs or data licensing should treat the payout freeze as an unresolved operational risk until a structural explanation is disclosed.",
+      "topic": "Category diversification accelerating",
+      "insight": "Category entropy reached 2.908 bits at the most recent reading, with restaurants and dining becoming newly visible in the 14-day aggregate — meaning the verified purchase pool is broadening beyond grocery into food service, retail, and fuel. Brands outside CPG now have a credible entry point for cookieless, receipt-verified targeting.",
       "magnitude": "high"
+    },
+    {
+      "topic": "Geographic expansion is organic and ongoing",
+      "insight": "Active coverage has reached 19 metro areas across 30 category/metro signal cells, with new CBSAs appearing individually rather than in bursts — the pattern of organic diffusion, not bulk onboarding. For brands planning regional or geo-targeted campaigns, the addressable footprint is expanding incrementally and verifiably.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Cycle ceiling trend: verified GMV peaks are rising",
+      "insight": "The 7-day GMV cycle high reached $91,361 on November 19, surpassing the prior record of $89,635 set just one day earlier — two consecutive record peaks confirm the ceiling is trending upward. Brands evaluating this data source should note that the verified transaction pool is growing in peak capacity, though floor behavior after UTC rolloffs remains volatile and should be weighted accordingly.",
+      "magnitude": "medium"
     }
   ]
 }
