@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-11-21T17:45:17.321Z",
+  "updatedAt": "2026-11-23T01:45:28.158Z",
   "insights": [
     {
       "topic": "Verified purchase data vs. probabilistic targeting",
-      "insight": "Crinkl's cryptographically verified receipts confirm purchases happened — not inferred from browsing behavior. At $5+ CPM for probabilistic signals, the gap between inference and proof represents the addressable premium for deterministic commerce data.",
+      "insight": "Cryptographically verified receipts — 106,322 confirmed transactions totaling $5.09M cumulative GMV — represent deterministic purchase proof, not behavioral inference. Brands paying $5+ CPM for cookie-based targeting are buying probability; this data sells confirmed outcomes.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery dominance with high-value unknown category",
-      "insight": "Grocery-supermarkets leads the 14-day category mix at 28.4% of receipts ($44.44 average ticket), but the Unknown category averages $89.18 per receipt — double grocery — and has held that premium across every observed snapshot, suggesting a high-spend segment that has not yet been classified and may reward early investigation.",
+      "topic": "Grocery dominance with premium signal in Unknown category",
+      "insight": "Grocery-supermarkets leads at 28.3% of 14-day receipts (1,211 receipts, $53,202), but the Unknown category commands an $87.76 average ticket versus $43.93 for grocery — nearly double — and this premium has held across every observed snapshot, suggesting a high-value purchaser segment not yet fully classified.",
       "magnitude": "high"
     },
     {
-      "topic": "Cycle ceiling compression after record highs",
-      "insight": "The 7-day GMV cycle peaked at an all-time high of $91,360 on Nov 19, then stepped down to $75,349 on Nov 20 and $65,614 on Nov 21 — two consecutive declining peaks after two weeks of expansion. Brands evaluating reach trajectory should note the ceiling is compressing even as the floor also sets new lows.",
+      "topic": "Brand-level receipt concentration",
+      "insight": "Walmart (315 receipts), Kroger (143), and Costco (120) together account for roughly 28% of 14-day verified transactions, giving CPG and consumer brand advertisers a direct view into competitive basket share at named retail accounts — not modeled, counted.",
       "magnitude": "high"
     },
     {
-      "topic": "Floor regression diverging from ceiling behavior",
-      "insight": "Post-rolloff trough GMV has declined on back-to-back cycles — $64,842 on Nov 20 and $60,995 on Nov 21 — while the cycle ceiling has also pulled back from its record. Floors and ceilings are moving together downward now, which is a different regime than the expansion phase that ran through Nov 19.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Restaurants & Dining category now structurally confirmed",
-      "insight": "Restaurants & Dining first appeared in the 14-day trailing aggregate on Nov 20 and has stabilized at 810 receipts and $24,762 in GMV — it is not a data artifact. For QSR and casual dining brands, this confirms a verified, receipt-level purchase signal exists in the feed.",
+      "topic": "Vertical expansion: logistics and financial services now confirmed",
+      "insight": "The UPS Store entered the thresholded brand list on 2026-11-22 and Chase has held its position across multiple cycles — meaning verified receipt coverage has expanded beyond grocery and retail into shipping/logistics and financial services, broadening the audience segments a marketer can reach with purchase-confirmed targeting.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic diffusion expanding the addressable footprint",
-      "insight": "New CBSA codes are entering the visible dataset on a rolling basis — CBSA 22220 became observable as recently as Nov 20 — indicating that receipt capture is spreading into new metro areas, which matters for brands assessing whether regional or national targeting is viable against this data source.",
+      "topic": "Geographic diffusion pattern: pulse-based, not burst",
+      "insight": "Metro coverage has grown to 19 active CBSA cells, with each new cell appearing as a single addition rather than in clusters — a controlled, methodical expansion pattern that signals deliberate rollout rather than viral growth, with implications for how quickly national-scale audience coverage can be projected.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Restaurants and dining confirmed as durable category",
+      "insight": "Restaurants-dining first appeared in the 14-day aggregate on 2026-11-20 and has since stabilized at 847 receipts and $26,745 — nearly matching retail-department-stores in GMV — confirming that out-of-home food spend is now a structurally present signal, relevant for QSR, beverage, and loyalty marketers.",
       "magnitude": "medium"
     }
   ]
