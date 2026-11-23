@@ -1,11 +1,4 @@
 {
-  "updatedAt": "2026-11-23T01:45:28.173Z",
-  "observations": [
-    {
-      "ts": "2026-11-20T02:26:51.733Z",
-      "topic": "category-expansion",
-      "magnitude": "medium",
-      "observation": "Restaurants & Dining became newly visible in the 14-day trailing aggregate category window this snapshot. The 14-day spend count moved from 4,156 to 4,218 receipts (+62) with GMV up from $192,723 to $195,283. Category entropy sits at 2.908 bits — the pool is diversifying."
-    }
-  ]
+  "updatedAt": "2026-11-23T09:45:00.863Z",
+  "observations": []
 }
