@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-11-23T01:45:28.158Z",
+  "updatedAt": "2026-11-24T09:45:14.442Z",
   "insights": [
     {
       "topic": "Verified purchase data vs. probabilistic targeting",
-      "insight": "Cryptographically verified receipts — 106,322 confirmed transactions totaling $5.09M cumulative GMV — represent deterministic purchase proof, not behavioral inference. Brands paying $5+ CPM for cookie-based targeting are buying probability; this data sells confirmed outcomes.",
+      "insight": "Crinkl's protocol confirms purchases via cryptographic receipt verification — 107,549 receipts totaling $5.1M cumulative GMV — replacing the inferential logic of cookie-based targeting with deterministic proof of transaction. For brands paying $5+ CPM on probabilistic signals, this represents a structurally different data asset.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery dominance with premium signal in Unknown category",
-      "insight": "Grocery-supermarkets leads at 28.3% of 14-day receipts (1,211 receipts, $53,202), but the Unknown category commands an $87.76 average ticket versus $43.93 for grocery — nearly double — and this premium has held across every observed snapshot, suggesting a high-value purchaser segment not yet fully classified.",
+      "topic": "Grocery vertical depth and brand coverage",
+      "insight": "Five distinct grocery brands have crossed the threshold in 14-day data — Walmart, Kroger, Costco, Publix, Whole Foods, with Trader Joe's intermittent — spanning mass-market through premium positioning across distinct consumer segments. No other category shows this brand-level resolution, making grocery the most actionable vertical for CPG and private-label targeting.",
       "magnitude": "high"
     },
     {
-      "topic": "Brand-level receipt concentration",
-      "insight": "Walmart (315 receipts), Kroger (143), and Costco (120) together account for roughly 28% of 14-day verified transactions, giving CPG and consumer brand advertisers a direct view into competitive basket share at named retail accounts — not modeled, counted.",
-      "magnitude": "high"
-    },
-    {
-      "topic": "Vertical expansion: logistics and financial services now confirmed",
-      "insight": "The UPS Store entered the thresholded brand list on 2026-11-22 and Chase has held its position across multiple cycles — meaning verified receipt coverage has expanded beyond grocery and retail into shipping/logistics and financial services, broadening the audience segments a marketer can reach with purchase-confirmed targeting.",
+      "topic": "Unknown category average ticket anomaly",
+      "insight": "The 'Unknown' category carries an average ticket of $87.79 per receipt versus $44.27 for grocery, a 2x premium that has persisted across all observed windows. This elevated-ticket, unclassified segment likely contains high-value discretionary spend — a targeting signal worth investigating before category labels are finalized.",
       "magnitude": "medium"
     },
     {
-      "topic": "Geographic diffusion pattern: pulse-based, not burst",
-      "insight": "Metro coverage has grown to 19 active CBSA cells, with each new cell appearing as a single addition rather than in clusters — a controlled, methodical expansion pattern that signals deliberate rollout rather than viral growth, with implications for how quickly national-scale audience coverage can be projected.",
+      "topic": "Geographic diffusion reaching largest US metros",
+      "insight": "The New York-Newark-Jersey City metro (CBSA 35620) entered the active coverage set on 2026-11-23, bringing confirmed receipt flow from the largest US metro by population. Six new metro cells have been added across the current observation window, with coverage expanding in single-cell increments — steady diffusion rather than a launch spike.",
+      "magnitude": "high"
+    },
+    {
+      "topic": "Restaurants and dining as a durable category signal",
+      "insight": "Restaurants & Dining first appeared in category data on 2026-11-20 and now accounts for 841 receipts and $27,148 in 14-day GMV — comparable in dollar volume to department stores. The category has held across multiple cycles, confirming it as a stable signal for QSR, casual dining, and food-delivery brands evaluating verified post-transaction targeting.",
       "magnitude": "medium"
     },
     {
-      "topic": "Restaurants and dining confirmed as durable category",
-      "insight": "Restaurants-dining first appeared in the 14-day aggregate on 2026-11-20 and has since stabilized at 847 receipts and $26,745 — nearly matching retail-department-stores in GMV — confirming that out-of-home food spend is now a structurally present signal, relevant for QSR, beverage, and loyalty marketers.",
+      "topic": "Token velocity trend as a demand proxy",
+      "insight": "Token velocity has reached 0.664x week-over-week — the highest reading in the full observation window — with three consecutive heartbeats showing upward drift and acceleration holding above 1x. Velocity below 1x means throughput is not yet self-sustaining, but the directional trend is the relevant signal for brands timing entry into verified-receipt data partnerships.",
       "magnitude": "medium"
     }
   ]
