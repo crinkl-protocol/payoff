@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-11-24T09:45:14.442Z",
+  "updatedAt": "2026-11-25T17:45:13.498Z",
   "insights": [
     {
       "topic": "Verified purchase data vs. probabilistic targeting",
-      "insight": "Crinkl's protocol confirms purchases via cryptographic receipt verification — 107,549 receipts totaling $5.1M cumulative GMV — replacing the inferential logic of cookie-based targeting with deterministic proof of transaction. For brands paying $5+ CPM on probabilistic signals, this represents a structurally different data asset.",
+      "insight": "Crinkl's cryptographically verified receipts represent a structurally different signal class than cookie-based inference — 107,549 confirmed purchase events across $5.15M cumulative GMV means every record is a closed transaction, not a behavioral guess.",
       "magnitude": "high"
     },
     {
       "topic": "Grocery vertical depth and brand coverage",
-      "insight": "Five distinct grocery brands have crossed the threshold in 14-day data — Walmart, Kroger, Costco, Publix, Whole Foods, with Trader Joe's intermittent — spanning mass-market through premium positioning across distinct consumer segments. No other category shows this brand-level resolution, making grocery the most actionable vertical for CPG and private-label targeting.",
+      "insight": "Six distinct grocery brands have crossed the activity threshold — Walmart, Kroger, Costco, Publix, Whole Foods, and Trader Joe's — spanning mass-market through premium tiers, giving marketers a rare cross-segment view of verified grocery spend in a single data layer.",
       "magnitude": "high"
     },
     {
-      "topic": "Unknown category average ticket anomaly",
-      "insight": "The 'Unknown' category carries an average ticket of $87.79 per receipt versus $44.27 for grocery, a 2x premium that has persisted across all observed windows. This elevated-ticket, unclassified segment likely contains high-value discretionary spend — a targeting signal worth investigating before category labels are finalized.",
-      "magnitude": "medium"
-    },
-    {
-      "topic": "Geographic diffusion reaching largest US metros",
-      "insight": "The New York-Newark-Jersey City metro (CBSA 35620) entered the active coverage set on 2026-11-23, bringing confirmed receipt flow from the largest US metro by population. Six new metro cells have been added across the current observation window, with coverage expanding in single-cell increments — steady diffusion rather than a launch spike.",
+      "topic": "Geographic expansion rate accelerating",
+      "insight": "Four new metro cells were added on 2026-11-25 alone — the highest single-day expansion on record — including a simultaneous double-cell pulse that suggests regional cluster thresholds being crossed rather than individual market onboarding; New York-Newark entered the prior cycle.",
       "magnitude": "high"
     },
     {
-      "topic": "Restaurants and dining as a durable category signal",
-      "insight": "Restaurants & Dining first appeared in category data on 2026-11-20 and now accounts for 841 receipts and $27,148 in 14-day GMV — comparable in dollar volume to department stores. The category has held across multiple cycles, confirming it as a stable signal for QSR, casual dining, and food-delivery brands evaluating verified post-transaction targeting.",
+      "topic": "Unknown category as high-value signal gap",
+      "insight": "The 'Unknown' category carries an average ticket of $87.79 per receipt versus $44.27 for grocery — nearly double — meaning a material share of the highest-value transactions in the dataset are currently unclassified and represent an unresolved attribution opportunity for brand marketers.",
       "magnitude": "medium"
     },
     {
-      "topic": "Token velocity trend as a demand proxy",
-      "insight": "Token velocity has reached 0.664x week-over-week — the highest reading in the full observation window — with three consecutive heartbeats showing upward drift and acceleration holding above 1x. Velocity below 1x means throughput is not yet self-sustaining, but the directional trend is the relevant signal for brands timing entry into verified-receipt data partnerships.",
+      "topic": "7-day GMV recovery pattern confirms purchase cadence",
+      "insight": "Post-UTC-rolloff recovery across six consecutive intervals — from a $66.8K trough back to $74.3K within 16 hours — demonstrates a predictable daily purchase rhythm, which gives media planners a structural basis for timing campaign attribution windows.",
+      "magnitude": "medium"
+    },
+    {
+      "topic": "Financial services and logistics confirmed alongside core retail",
+      "insight": "Chase (23 receipts) and The UPS Store both hold positions in the thresholded brand list alongside grocery and department store anchors, confirming that verified commerce data here spans financial transactions and fulfillment touchpoints — not just point-of-sale retail.",
       "magnitude": "medium"
     }
   ]

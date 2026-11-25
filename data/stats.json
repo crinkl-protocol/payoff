@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T09:45:00.333Z",
+  "updatedAt": "2026-11-25T17:45:13.500Z",
   "satsPerReceipt": 169,
   "lightningPayouts": 809,
   "totalSatsClaimed": 15415419,
@@ -9,7 +9,7 @@
   "agentReceipts": 15,
   "agentSatsEarned": 2274,
   "agentSatsPerReceipt": 169,
-  "walletTotalSpends": 470,
+  "walletTotalSpends": 471,
   "walletEarnedSats": 54716,
   "walletClaimedSats": 247758
 }
