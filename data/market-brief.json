@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-11-25T17:45:13.498Z",
+  "updatedAt": "2026-11-27T01:45:18.714Z",
   "insights": [
     {
-      "topic": "Verified purchase data vs. probabilistic targeting",
-      "insight": "Crinkl's cryptographically verified receipts represent a structurally different signal class than cookie-based inference — 107,549 confirmed purchase events across $5.15M cumulative GMV means every record is a closed transaction, not a behavioral guess.",
+      "topic": "Verified purchase signal vs. probabilistic targeting",
+      "insight": "Crinkl's receipt corpus is generating $84,826 in confirmed 7-day GMV across 1,972 verified transactions — each one a cryptographically confirmed purchase event, not an inferred intent signal. For brands paying $5+ CPM to reach people who might buy, this is the delta: deterministic proof of spend, not probabilistic inference.",
       "magnitude": "high"
     },
     {
-      "topic": "Grocery vertical depth and brand coverage",
-      "insight": "Six distinct grocery brands have crossed the activity threshold — Walmart, Kroger, Costco, Publix, Whole Foods, and Trader Joe's — spanning mass-market through premium tiers, giving marketers a rare cross-segment view of verified grocery spend in a single data layer.",
+      "topic": "Grocery vertical depth and premium signal",
+      "insight": "Six distinct grocery brands — Walmart, Kroger, Costco, Publix, Whole Foods, and Trader Joe's — are all crossing receipt-count thresholds within the 14-day window, spanning mass-market through premium positioning. Whole Foods carries the highest average ticket of the grocery set, confirming that premium grocery buyers are present and attributable, not just the value segment.",
       "magnitude": "high"
     },
     {
-      "topic": "Geographic expansion rate accelerating",
-      "insight": "Four new metro cells were added on 2026-11-25 alone — the highest single-day expansion on record — including a simultaneous double-cell pulse that suggests regional cluster thresholds being crossed rather than individual market onboarding; New York-Newark entered the prior cycle.",
+      "topic": "Unknown category as high-value unattributed spend",
+      "insight": "The 'Unknown' category averages $85.59 per receipt versus $45.07 for grocery — nearly double — and accounts for $32,354 of the 14-day GMV pool. This is a persistent structural signal, not noise: a high-spend segment exists in the corpus that has not yet been attributed to a named retail category, representing both a targeting gap and a data enrichment opportunity.",
       "magnitude": "high"
     },
     {
-      "topic": "Unknown category as high-value signal gap",
-      "insight": "The 'Unknown' category carries an average ticket of $87.79 per receipt versus $44.27 for grocery — nearly double — meaning a material share of the highest-value transactions in the dataset are currently unclassified and represent an unresolved attribution opportunity for brand marketers.",
+      "topic": "Geographic footprint reaching 19 metro cells",
+      "insight": "The network has confirmed 19 active CBSA metro cells, with two consecutive UTC-midnight windows each producing multi-cell additions — a pattern that suggests cluster-threshold dynamics tied to the rolloff cycle, not random geographic drift. For brands that require metro-level or regional purchase verification, coverage is actively expanding.",
       "magnitude": "medium"
     },
     {
-      "topic": "7-day GMV recovery pattern confirms purchase cadence",
-      "insight": "Post-UTC-rolloff recovery across six consecutive intervals — from a $66.8K trough back to $74.3K within 16 hours — demonstrates a predictable daily purchase rhythm, which gives media planners a structural basis for timing campaign attribution windows.",
+      "topic": "Receipt base maturing: shallower rolloff troughs each cycle",
+      "insight": "The Nov 26 UTC-midnight rolloff dropped only $6,824 and 199 receipts from the 7-day window, compared to a $12,994 drop in the Nov 24 cycle. Shallower troughs indicate a denser, more recent receipt base surviving each window shift — the corpus is becoming more stable and less dependent on any single cohort of submissions.",
       "magnitude": "medium"
     },
     {
-      "topic": "Financial services and logistics confirmed alongside core retail",
-      "insight": "Chase (23 receipts) and The UPS Store both hold positions in the thresholded brand list alongside grocery and department store anchors, confirming that verified commerce data here spans financial transactions and fulfillment touchpoints — not just point-of-sale retail.",
+      "topic": "Settlement freeze vs. active receipt intake",
+      "insight": "Payouts have been frozen at 809 total and 15,415,419 sats claimed across the entire observation window, while receipt intake and GMV accumulation continue without interruption. The divergence is structural and unexplained by observable data — brands evaluating this as a live commerce data source should note that the receipt layer is functioning, but the settlement layer is not currently clearing.",
       "magnitude": "medium"
     }
   ]
