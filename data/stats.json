@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-27T17:45:00.833Z",
+  "updatedAt": "2026-11-28T02:28:32.102Z",
   "satsPerReceipt": 163,
   "lightningPayouts": 809,
   "totalSatsClaimed": 15415419,
   "distributed": "$9,455",
   "btcPrice": 61337.9,
-  "trailing14dCents": "18793482",
-  "trailing14dReceipts": 4333,
+  "trailing14dCents": "17868888",
+  "trailing14dReceipts": 4201,
   "agentWallet": "USDEBT",
   "agentReceipts": 15,
   "agentSatsEarned": 2274,
   "agentSatsPerReceipt": 163,
-  "walletTotalSpends": 472,
+  "walletTotalSpends": 473,
   "walletEarnedSats": 54716,
   "walletClaimedSats": 247758
 }
